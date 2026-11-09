@@ -1,0 +1,74 @@
+name: Chapter 1 Kinematics acceptance
+
+on:
+  push:
+    branches: [workspace/physics]
+    paths:
+      - 'chapters/kinematics.html'
+      - 'original-engine/kinematics/**'
+      - 'original-engine/engine/**'
+      - 'original-engine/browser-smoke.mjs'
+      - 'style.css'
+      - 'physics-lab.css'
+      - 'physics-lab.js'
+      - '.github/workflows/kinematics-chapter1.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kinematics-chapter1-${{ github.sha }}
+  cancel-in-progress: false
+
+jobs:
+  chapter1:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/kinematics-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/kinematics.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/kinematics/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/kinematics-http.log
+          exit 1
+      - name: Check Chapter 1 JavaScript syntax
+        run: |
+          for file in original-engine/engine/*.js original-engine/kinematics/*.js; do
+            node --input-type=module --check < "$file"
+          done
+      - name: Check Chapter 1 physics and all 22 practice items
+        run: node original-engine/kinematics/checks.mjs
+      - name: Test all 11 interactive-book pages, 20 scenes, navigation and quiz
+        run: node original-engine/browser-smoke.mjs
+      - name: Test standalone lesson, simulations and quiz on desktop/mobile
+        run: node original-engine/kinematics/standalone-smoke.mjs
+      - name: Upload interactive-book review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter1-interactive-book-review
+          path: /tmp/physics-visual-review/chapter1/*.png
+          if-no-files-found: warn
+      - name: Upload standalone review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter1-standalone-review
+          path: /tmp/physics-visual-review/chapter1-standalone/*.png
+          if-no-files-found: warn

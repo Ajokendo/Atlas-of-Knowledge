@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="t d">
+<title id="t">Закон Ленца: приближение и удаление магнита / Lenz's law: approaching and receding magnet</title>
+<desc id="d">Две сопоставленные ситуации с северным полюсом магнита перед катушкой: при приближении катушка создаёт поле, противодействующее росту потока; при удалении поле катушки поддерживает уменьшающийся поток. Показаны направления тока и формула Фарадея–Ленца.</desc>
+<defs><marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d65b43"/></marker><marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2367a8"/></marker><style>
+.bg{fill:#f7f8fa}.card{fill:#fff;stroke:#d7dde5;stroke-width:3}.h{font:600 34px Inter,Arial,sans-serif;fill:#172b45}.lab{font:20px Inter,Arial,sans-serif;fill:#26384d}.en{font:17px Inter,Arial,sans-serif;fill:#68788c}.formula{font:600 30px Inter,Arial,sans-serif;fill:#172b45}.magN{fill:#d65b43}.magS{fill:#2367a8}.coil{fill:none;stroke:#26384d;stroke-width:7}.ext{fill:none;stroke:#2367a8;stroke-width:5;stroke-dasharray:12 9;marker-end:url(#blue)}.ind{fill:none;stroke:#d65b43;stroke-width:6;marker-end:url(#red)}.motion{fill:none;stroke:#d65b43;stroke-width:6;marker-end:url(#red)}
+</style></defs>
+<rect class="bg" width="1500" height="760"/>
+<text class="h" x="60" y="65">Закон Ленца / Lenz's law</text>
+<text class="en" x="60" y="100">Индуцированный ток противодействует изменению магнитного потока, а не движению магнита как таковому.</text>
+<text class="en" x="60" y="128">The induced current opposes the change in magnetic flux, not the magnet's motion itself.</text>
+<rect class="card" x="50" y="160" width="680" height="520" rx="22"/><rect class="card" x="770" y="160" width="680" height="520" rx="22"/>
+<text class="h" x="90" y="215">1. Магнит приближается / Approaching</text>
+<rect class="magS" x="120" y="330" width="105" height="95" rx="8"/><rect class="magN" x="225" y="330" width="105" height="95" rx="8"/>
+<text x="172" y="390" font-size="38" text-anchor="middle" fill="#fff" font-weight="700">S</text><text x="277" y="390" font-size="38" text-anchor="middle" fill="#fff" font-weight="700">N</text>
+<path d="M340 378 H425" class="motion"/><text class="lab" x="345" y="350">v</text>
+<g class="coil"><ellipse cx="500" cy="378" rx="24" ry="86"/><ellipse cx="530" cy="378" rx="24" ry="86"/><ellipse cx="560" cy="378" rx="24" ry="86"/><ellipse cx="590" cy="378" rx="24" ry="86"/></g>
+<path d="M320 290 C400 245 520 245 640 300" class="ext"/><path d="M640 465 C520 480 400 480 320 465" class="ext"/>
+<path d="M650 378 H430" class="ind"/><text class="lab" x="470" y="275">Bинд ←</text>
+<text class="lab" x="105" y="515">Поток вправо растёт:</text><text class="lab" x="105" y="540">катушка создаёт поле влево.</text>
+<text class="en" x="105" y="570">Rightward flux increases;</text><text class="en" x="105" y="592">the coil's field points left.</text>
+<text class="lab" x="105" y="625">Ближняя сторона — N; ток против часовой стрелки.</text>
+<text class="en" x="105" y="652">Near face is N; current is counterclockwise (viewed from magnet).</text>
+<text class="h" x="810" y="215">2. Магнит удаляется / Receding</text>
+<rect class="magS" x="840" y="330" width="105" height="95" rx="8"/><rect class="magN" x="945" y="330" width="105" height="95" rx="8"/>
+<text x="892" y="390" font-size="38" text-anchor="middle" fill="#fff" font-weight="700">S</text><text x="997" y="390" font-size="38" text-anchor="middle" fill="#fff" font-weight="700">N</text>
+<path d="M835 378 H760" class="motion"/><text class="lab" x="780" y="350">v</text>
+<g class="coil"><ellipse cx="1190" cy="378" rx="24" ry="86"/><ellipse cx="1220" cy="378" rx="24" ry="86"/><ellipse cx="1250" cy="378" rx="24" ry="86"/><ellipse cx="1280" cy="378" rx="24" ry="86"/></g>
+<path d="M1040 290 C1120 245 1240 245 1360 300" class="ext"/><path d="M1360 465 C1240 480 1120 480 1040 465" class="ext"/>
+<path d="M1090 378 H1350" class="ind"/><text class="lab" x="1150" y="275">Bинд →</text>
+<text class="lab" x="825" y="505">Поток вправо уменьшается:</text><text class="lab" x="825" y="530">катушка поддерживает поле вправо.</text>
+<text class="en" x="825" y="560">Rightward flux decreases;</text><text class="en" x="825" y="582">the coil's field points right.</text>
+<text class="lab" x="825" y="615">Ближняя сторона — S; ток по часовой стрелке.</text>
+<text class="en" x="825" y="642">Near face is S; current is clockwise (viewed from magnet).</text>
+<text class="formula" x="570" y="770" text-anchor="middle">ε = −N dΦ/dt</text>
+<text class="en" x="860" y="770">Минус выражает правило Ленца / The minus sign encodes Lenz's law</text>
+</svg>

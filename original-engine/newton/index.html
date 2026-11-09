@@ -10,12 +10,12 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../atlas.css">
 <link rel="stylesheet" href="../engine/book.css">
+<link rel="stylesheet" href="newton.css">
 <link rel="expect" href="#right" blocking="render">
 <script src="../engine/cover.js"></script>
 <script type="importmap">
 { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/" } }
 </script>
-<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body class="book-body">
   <header class="topbar">
@@ -35,7 +35,7 @@
 
     <section class="page right" id="right">
       <div class="figure">
-        <canvas id="gl" aria-label="Интерактивная схема: блоки, конькобежцы и падающие шары. Наведите курсор и нажмите на элемент, чтобы рассмотреть силы."></canvas>
+        <canvas id="gl" aria-label="Интерактивная схема: блоки, конькобежцы и падающие шары. Выберите объект в списке или нажмите на элемент, чтобы рассмотреть силы."></canvas>
         <div id="labels" aria-hidden="true"></div>
         <div class="corner tl" id="figno">Рис. 1</div>
         <div class="corner tr" id="figtitle"></div>
@@ -52,7 +52,7 @@
   </main>
 
   <p class="scroll-cue" id="cue">Прокрутите страницу, чтобы перелистнуть</p>
-  <p style="max-width:900px;margin:18px auto 28px;padding:0 20px;color:#777;font:12px/1.6 Inter,Arial,sans-serif;text-align:center">Русскоязычная адаптация открытого проекта <a href="https://github.com/nathanliow/atlas-of-physics" target="_blank" rel="noopener noreferrer">Atlas of Physics — Nathan Liow</a>. Исходный проект распространяется по лицензии MIT; сведения о сторонних материалах и объёме адаптации — в <a href="../../THIRD_PARTY_NOTICES.md">уведомлении о лицензиях</a>.</p>
+  <p style="max-width:900px;margin:18px auto 28px;padding:0 20px;color:#6b6b70;font:12px/1.6 Inter,Arial,sans-serif;text-align:center">Русскоязычная адаптация открытого проекта <a href="https://github.com/nathanliow/atlas-of-physics" target="_blank" rel="noopener noreferrer">Atlas of Physics — Nathan Liow</a>. Исходный проект распространяется по лицензии MIT; сведения о сторонних материалах и объёме адаптации — в <a href="../../THIRD_PARTY_NOTICES.md">уведомлении о лицензиях</a>.</p>
   <script type="module" src="main.js"></script>
 </body>
 </html>

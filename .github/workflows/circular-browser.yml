@@ -1,0 +1,60 @@
+name: Chapter 3 circular motion browser QA
+
+on:
+  push:
+    branches: [workspace/physics]
+    paths:
+      - 'chapters/circular-motion.html'
+      - 'original-engine/circular/**'
+      - 'original-engine/engine/**'
+      - 'original-engine/book-smoke.mjs'
+      - '.github/workflows/circular-browser.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: circular-browser-${{ github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/circular-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/circular-motion.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/circular/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/circular-http.log
+          exit 1
+      - name: Test all 13 interactive book pages on desktop and mobile
+        env:
+          MODULE: circular
+          EXPECTED_PAGES: "13"
+        run: node original-engine/book-smoke.mjs
+      - name: Test standalone lesson, controls and quiz on desktop and mobile
+        run: node original-engine/circular/standalone-smoke.mjs
+      - name: Upload Chapter 3 visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter3-circular-visual-review
+          path: /tmp/physics-visual-review/circular/*.png
+          if-no-files-found: warn

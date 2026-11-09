@@ -1,0 +1,64 @@
+name: Chapter 4 work and energy browser QA
+
+on:
+  push:
+    branches: [workspace/physics]
+    paths:
+      - 'chapters/work-energy.html'
+      - 'original-engine/energy/**'
+      - 'original-engine/book-smoke.mjs'
+      - 'original-engine/work-energy-smoke.mjs'
+      - 'original-engine/engine/**'
+      - 'physics-lab.js'
+      - 'physics-lab.css'
+      - '.github/workflows/work-energy-browser.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: work-energy-browser-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install browser test tools
+        run: npm install --no-save playwright@1.56.1 @axe-core/playwright@4.10.2
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/work-energy-http.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/chapters/work-energy.html >/dev/null && curl --fail --silent http://127.0.0.1:4173/original-engine/energy/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/work-energy-http.log
+          exit 1
+      - name: Test all 12 interactive book pages on desktop and mobile
+        env:
+          MODULE: energy
+          EXPECTED_PAGES: "12"
+          SCREENSHOT_DIR: /tmp/physics-visual-review/work-energy/book
+        run: node original-engine/book-smoke.mjs
+      - name: Test standalone lesson, calculator, chart, quiz and 3D lab on desktop and mobile
+        run: node original-engine/work-energy-smoke.mjs
+      - name: Upload Chapter 4 desktop/mobile visual review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter4-work-energy-visual-review
+          path: /tmp/physics-visual-review/work-energy/**/*.png
+          if-no-files-found: warn

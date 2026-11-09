@@ -12,6 +12,7 @@ check('second law: a = F/m, double the mass halves a', near(M.A1, 3) && near(M.A
 check('friction: static matches the push below F_smax', [0.5, 1.5, 2.4].every(t => near(M.friction(t).f, M.friction(t).F)));
 check('friction: slips when F = μs·FN', near(M.T_SLIP * M.RAMP, M.MU_S * M.FN), `${M.F_SMAX.toFixed(2)} N at ${M.T_SLIP.toFixed(2)} s`);
 check('friction: μs > μk, so it jumps from static max to kinetic', M.F_SMAX > M.F_K, `${M.F_SMAX.toFixed(2)} → ${M.F_K.toFixed(2)} N`);
+check('friction: at breakaway, speed and position remain continuous while acceleration becomes positive', near(M.friction(M.T_SLIP).v, 0) && near(M.friction(M.T_SLIP).x, 0) && near(M.friction(M.T_SLIP).a, (M.F_SMAX - M.F_K) / M.M1), `${M.friction(M.T_SLIP).a.toFixed(2)} m/s² immediately after slipping`);
 // sliding: dv/dt = (F − fk)/m and dx/dt = v, checked numerically
 check('sliding: m·dv/dt = F − f_k', [2.6, 2.9].every(t => near(M.M1 * (M.friction(t + h).v - M.friction(t - h).v) / (2 * h), M.RAMP * t - M.F_K, 1e-5)));
 check('sliding: dx/dt = v', [2.6, 2.9].every(t => near((M.friction(t + h).x - M.friction(t - h).x) / (2 * h), M.friction(t).v, 1e-5)));
@@ -26,6 +27,8 @@ check('critical angle: tan θ = μ', near(Math.tan(M.critical(0.3) * Math.PI / 1
 check('two strings: 2T sin θ = mg', [25, 45, 70].every(d => near(2 * M.tension2(d) * Math.sin(d * Math.PI / 180), M.W1)), `T(30°) = ${M.tension2(30).toFixed(2)} N`);
 check('flatter strings, more tension', M.tension2(20) > M.tension2(45) && M.tension2(45) > M.tension2(70));
 check('vertical strings share the weight: T(90°) = mg/2', near(M.tension2(90), M.W1 / 2));
+check('two-string vector balance: horizontal components cancel and vertical components equal weight throughout the angle sweep', [20, 25, 35, 45, 55, 65, 70].every(d => { const T = M.tension2(d), rad = d * Math.PI / 180; return near(-T * Math.cos(rad) + T * Math.cos(rad), 0) && near(2 * T * Math.sin(rad), M.W1); }));
+check('animated string angle stays within the modelled 20°–70° range', [0, 2.5, 5, 7.5, 10].every(t => { const a = M.hangAngle(t); return a >= 20 - 1e-9 && a <= 70 + 1e-9; }));
 // plane
 check('level flight: lift = weight, thrust = drag', near(M.PLANE.L, M.PLANE.W) && near(M.PLANE.T, M.PLANE.D));
 // car: closed form against the equation of motion
@@ -73,7 +76,7 @@ check('honey: terminal in milliseconds, v(10τ) = v_t to 0.01%', M.HONEY.tau < 0
 check('honey: at v_t, drag + buoyancy = weight', near(M.HONEY.b * M.HONEY.vt + M.HONEY.B, M.HONEY.W));
 check('honey: the ball sinks less than the jar in one loop', M.honey(M.HONEY.run).x < M.HONEY.jarH - 2 * M.HONEY.r);
 check('fog droplet (10 µm): Stokes valid (Re < 1)', M.drop(1e-5).Re < 1, `v_t = ${(M.drop(1e-5).vLin * 100).toFixed(1)} cm/s`);
-check('raindrop (1 mm): Stokes fails (Re ≫ 1); quadratic gives ~6.6 m/s', M.drop(1e-3).Re > 1000 && Math.abs(M.drop(1e-3).vQuad - 6.6) < 0.2);
+check('raindrop (radius 1 mm, diameter 2 mm): Stokes fails (Re ≫ 1); quadratic gives ~6.6 m/s', M.drop(1e-3).Re > 1000 && Math.abs(M.drop(1e-3).vQuad - 6.6) < 0.2);
 
 // ---------- practice (practice.js) ----------
 {
@@ -106,9 +109,13 @@ const G = M.G, rad = d => d * Math.PI / 180, TG = M.TUG, BD = M.BOARD, DR = M.DR
 { const forces = [[0, -M.W1], [0, -5.0]]; const N = -forces.reduce((s, F) => s + F[1], 0);   // Σ of the other vertical forces, balanced
   keyed(0, 0, N, 'normal force balances weight + press'); }
 keyed(1, 0, M.tension2(25), 'model tension2(25°)');
-{ const v = t => 3.0, a = pder(v, 1); keyed(2, 0, M.M1 * (G + a), 'T = m(g + a) with a = dv/dt of constant velocity'); }
+{ const v = t => 3.0, a = pder(v, 1); keyed(2, 0, M.M1 * (G + a), 'T = m(g + a) with a = dv/dt of constant velocity');
+{ const v = PRACTICE[2][0].choices.map(pnum);
+  check('practice 2.1: all elevator distractors are forces in newtons (no mass×velocity dimensional mix)', PRACTICE[2][0].choices.every(c => / Н$/.test(c)) && v.every((x, i) => near(x, [2 * M.W1, M.W1 / 2, 0, M.W1][i])), v.join(', ') + ' N');
+} }
 { const dt = 1e-3; const v1 = M.PLANE.v + (2400 - M.PLANE.D) / M.PLANE.m * dt; keyed(3, 0, (M.PLANE.m * v1 - M.PLANE.m * M.PLANE.v) / (M.PLANE.m * dt), 'impulse over a short dt ÷ m dt'); }
 keyed(4, 0, M.pushed(M.A1, M.PUSH_T).x, 'model pushed(a1, t).x');
+check('practice 4.1: speed distractor is labelled with m/s, not metres', PRACTICE[4][0].choices[2].endsWith(' м/с'), PRACTICE[4][0].choices[2]);
 { const t30 = bisect(t => M.car(t).v - 30, 0, 200); keyed(5, 1, pder(u => M.car(u).v, t30), 'slope of the model’s v(t) at v = 30 m/s'); }
 keyed(6, 0, M.friction(8.0 / M.RAMP).f, 'model friction at an 8.0 N push');
 keyed(6, 1, pder(u => M.friction(u).v, 12.0 / M.RAMP), 'slope of the model’s sliding v(t) at a 12.0 N push');
@@ -127,6 +134,11 @@ keyed(10, 0, Math.sqrt(2 * G * M.INC_LEN * Math.sin(M.THETA)), 'energy: √(2g·
 { const t4 = DR.tau * Math.log(4), a = pder(u => M.linDrag(u).v, t4);
   check('practice 11.2: at t = τ ln 4, dv/dt = g/4 and bv = ¾mg', near(a, G / 4, 1e-6) && near(DR.b * M.linDrag(t4).v, 0.75 * DR.W, 1e-9), `${(DR.b * M.linDrag(t4).v).toFixed(3)} N at ${t4.toFixed(3)} s`); }
 keyed(12, 0, pint(u => M.linDrag(u).v, 0, 1), '∫v dt over 1 s, summed');
+{
+  const q = PRACTICE[12][1];
+  const expected = 'линейное сопротивление — в 4 раза, квадратичное — в 2 раза';
+  check('practice 12.2: terminal-speed scaling for fourfold mass is ×4 (linear) and ×2 (quadratic)', q.choices[q.answer] === expected && q.choices.length === 4 && new Set(q.choices).size === 4 && q.why.includes('∝ <i>m</i>') && q.why.includes('∝ √<i>m</i>'), q.choices[q.answer]);
+}
 }
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));

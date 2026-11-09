@@ -1,9 +1,12 @@
 // node energy/checks.mjs — invariants of the model. Exit 1 on any failure.
 import * as M from './model.js';
+import { readFileSync } from 'node:fs';
 
 const rows = [];
 const check = (name, ok, info = '') => rows.push([ok ? 'PASS' : 'FAIL', name, info]);
 const near = (a, b, tol = 1e-9) => Math.abs(a - b) <= tol * Math.max(1, Math.abs(b));
+// Relative comparison for microscopic SI quantities (bond energies, lengths, forces and periods).
+const rel = (a, b, tol = 1e-9) => Math.abs(a - b) <= tol * Math.max(Math.abs(a), Math.abs(b), Number.MIN_VALUE);
 const h = 1e-6;
 const d = (fn, t, key) => (fn(t + h)[key] - fn(t - h)[key]) / (2 * h);
 
@@ -45,15 +48,21 @@ check('spring: F = −kx and m dv/dt = F in contact', [S.tIn + 0.1, S.tIn + 0.4]
 check('spring: ds/dt = v throughout', [0.3, S.tIn + 0.2, S.tIn + S.tC + 0.3].every(t => near(d(M.spring, t, 's'), M.spring(t).v, 1e-5)));
 check('spring: U_s = area under kx (numeric)', (() => { let A = 0; const n = 2000; for (let i = 0; i < n; i++) { const x = (i + 0.5) / n * S.xmax; A += S.k * x * S.xmax / n; } return near(A, 0.5 * S.k * S.xmax ** 2, 1e-6); })());
 check('spring: leaves at the speed it came in', near(M.spring(S.run).v, -S.v0) && near(M.spring(S.run).s, -S.gap, 1e-9));
+check('spring: position and velocity are continuous at contact and release', (() => { const e = 1e-8, close = (a, b) => Math.abs(a - b) < 1e-6; return [S.tIn, S.tIn + S.tC].every(t => { const a = M.spring(t - e), b = M.spring(t + e); return close(a.s, b.s) && close(a.v, b.v) && Math.abs(M.spring(t).F) < 1e-8; }); })(), 'both phase boundaries');
 
 // pendulum
 const Pd = M.PEND;
 const Es = Array.from({ length: 200 }, (_, i) => { const p = M.pendulum(i * Pd.period / 199); return p.K + p.U; });
 check('pendulum: K + U_g constant (RK4, 1 ms)', Es.every(E => near(E, Pd.E, 1e-6)), `${Pd.E.toFixed(3)} J`);
+check('pendulum: Hermite interpolation preserves K + U between RK4 samples', (() => { let worst = 0; for (let i = 0; i <= 2000; i++) { const p = M.pendulum((i + 0.371) * Pd.period / 2000); worst = Math.max(worst, Math.abs(p.K + p.U - Pd.E) / Pd.E); } return worst < 1e-9; })());
 check('pendulum: returns to θ0 after the exact period', near(M.pendulum(Pd.period - 1e-9).th, Pd.th0, 1e-6), `T ${Pd.period.toFixed(4)} s`);
+check('pendulum: reaches the opposite turning point after half a period', (() => { const p = M.pendulum(Pd.period / 2); return near(p.th, -Pd.th0, 1e-6) && Math.abs(p.om) < 1e-6; })(), 'symmetric turning point');
+check('pendulum: starts from rest and returns to rest after one full period', Math.abs(M.pendulum(0).om) < 1e-12 && Math.abs(M.pendulum(Pd.period - 1e-9).om) < 1e-6, 'release and return');
 check('pendulum: period a little longer than 2π√(L/g)', Pd.period > 2 * Math.PI * Math.sqrt(Pd.L / M.G) && Pd.period < 1.04 * 2 * Math.PI * Math.sqrt(Pd.L / M.G));
 check('pendulum: bottom speed √(2gL(1−cos θ0))', near(Math.abs(M.pendulum(Pd.period / 4).v), Math.sqrt(2 * M.G * Pd.L * (1 - Math.cos(Pd.th0))), 1e-5));
 check('pendulum: dθ/dt = ω', [0.3, 1.1].every(t => near(d(M.pendulum, t, 'th'), M.pendulum(t).om, 1e-3)));
+check('pendulum: tangential equation dω/dt = −(g/L) sin θ', [0.25, 0.65, 1.05].every(t => near(d(M.pendulum, t, 'om'), -(M.G / Pd.L) * Math.sin(M.pendulum(t).th), 2e-4)));
+check('pendulum: radial force balance T − mg cos θ = mv²/L', [0.2, 0.55, 0.9, 1.2].every(t => { const p = M.pendulum(t); return near(p.T - Pd.m * M.G * Math.cos(p.th), Pd.m * p.v ** 2 / Pd.L, 1e-9); }));
 check('pendulum: power of gravity = m g·v = dK/dt', [0.3, 0.9].every(t => { const p = M.pendulum(t); return near(-p.Ftan * p.v, d(M.pendulum, t, 'K'), 1e-3); }));
 
 // slide
@@ -75,6 +84,10 @@ const Pu = M.PUSH;
 const simpson = (fn, a, b, n = 2000) => { const hh = (b - a) / n; let s = fn(a) + fn(b); for (let i = 1; i < n; i++) s += (i % 2 ? 4 : 2) * fn(a + i * hh); return s * hh / 3; };
 check('push: ∫F dx (numeric) = closed form, 5/6 F0 L', [0.7, 1.9, Pu.L].every(x => near(simpson(M.pushF, 0, x), M.pushW(x), 1e-10)) && near(Pu.W, 5 / 6 * Pu.F0 * Pu.L), `${Pu.W.toFixed(2)} J`);
 check('push: strip sums close in on the integral', Math.abs(M.pushStrips(6) - Pu.W) > Math.abs(M.pushStrips(64) - Pu.W) && near(M.pushStrips(2000), Pu.W, 1e-6), `6 strips ${M.pushStrips(6).toFixed(2)} J, 64 strips ${M.pushStrips(64).toFixed(3)} J`);
+
+check('push: force curve starts at F0, peaks at L/4, and falls to zero at L', near(M.pushF(0), Pu.F0) && near(M.pushF(Pu.L / 4), 1.125 * Pu.F0) && near(M.pushF(Pu.L), 0) && [0, 0.25, 0.5, 0.75, 1].every(u => M.pushF(u * Pu.L) >= 0), `F(0) ${M.pushF(0).toFixed(1)} N, F(L/4) ${M.pushF(Pu.L / 4).toFixed(1)} N, F(L) ${M.pushF(Pu.L).toFixed(1)} N`);
+check('push: midpoint-strip values match independent numerical benchmarks', near(M.pushStrips(6), 40.2222222222, 1e-9) && near(M.pushStrips(64), 40.001953125, 1e-9) && near(M.pushStrips(2000), 40.000002, 1e-8), '6: 40.2222 J; 64: 40.00195 J; 2000: 40.000002 J');
+check('push: exact work and first-half work match the integrated polynomial', near(Pu.W, 40) && near(M.pushW(Pu.L / 2), 26) && near(M.pushW(Pu.L) - M.pushW(Pu.L / 2), 14), 'total 40 J; first half 26 J; second half 14 J');
 check('push: W = ΔK along the way (RK4)', [0.3, 0.8, Pu.tL - 1e-6, Pu.run].every(t => near(M.push(t).W, M.push(t).K, 1e-7)), `v_f ${Pu.vf.toFixed(3)} m/s`);
 check('push: m dv/dt = F(x), dx/dt = v', [0.25, 0.9].every(t => near(Pu.m * d(M.push, t, 'v'), M.push(t).F, 1e-4) && near(d(M.push, t, 'x'), M.push(t).v, 1e-6)));
 check('push: reaches x = L with v = √(2W/m), then coasts', near(M.push(Pu.tL).x, Pu.L, 1e-8) && near(Pu.vf, Math.sqrt(2 * Pu.W / Pu.m), 1e-8) && near(M.push(Pu.run).x, Pu.L + Pu.coast, 1e-8));
@@ -85,18 +98,19 @@ check('bead: F = −dU/dx (numeric derivative)', [0.5, 1.3, 2.4, 3.6, 4.5].every
 check('bead: wire never steeper than vertical (|h′| < 1)', Array.from({ length: 601 }, (_, i) => Math.abs(M.beadH1(i * B.len / 600))).every(v => v < 1));
 check('bead: F = 0 at the valley (U″ > 0) and the hump (U″ < 0)', Math.abs(M.beadF(B.stable)) < 1e-9 && Math.abs(M.beadF(B.unstable)) < 1e-9 && M.beadH2(B.stable) > 0 && M.beadH2(B.unstable) < 0, `x ${B.stable.toFixed(3)} m, ${B.unstable.toFixed(3)} m`);
 check('bead: F ≈ 0 on the flat stretch (neutral)', Math.abs(M.beadF(B.neutral)) < 0.01 * B.m * M.G && Math.abs(M.beadH2(B.neutral)) < 0.02);
-check('bead: K + U constant (RK4)', Array.from({ length: 50 }, (_, i) => M.bead(i * B.period / 49)).every(r => near(r.K + r.U, B.E, 1e-8)), `${B.E.toFixed(3)} J`);
-check('bead: turning points where U = E, v = 0 there', near(M.beadU(B.x1), B.E, 1e-10) && Math.abs(M.bead(B.period / 2).x - B.x1) < 1e-6 && Math.abs(M.bead(B.period / 2).v) < 1e-5, `${B.x0.toFixed(2)} m and ${B.x1.toFixed(3)} m`);
+check('bead: K + U constant through the full interpolated cycle', (() => { let worst = 0; for (let i = 0; i <= 2000; i++) { const r = M.bead((i + 0.317) * B.period / 2001); worst = Math.max(worst, Math.abs(r.K + r.U - B.E) / B.E); } return worst < 1e-9; })(), `${B.E.toFixed(3)} J`);
+check('bead: both turning points satisfy U = E and v = 0', near(M.beadU(B.x0), B.E, 1e-10) && near(M.beadU(B.x1), B.E, 1e-10) && Math.abs(M.bead(0).v) < 1e-12 && Math.abs(M.bead(B.period / 2).x - B.x1) < 1e-6 && Math.abs(M.bead(B.period / 2).v) < 1e-5);
+check('bead: one period returns to the release point and rest state', Math.abs(M.bead(B.period - 1e-9).x - B.x0) < 1e-6 && Math.abs(M.bead(B.period - 1e-9).v) < 1e-5);
 check('bead: m dv/dt = −dU/dx', [0.3, 1.2].every(t => near(B.m * d(M.bead, t, 'v'), M.bead(t).F, 1e-4)));
 
 // energy curves and equilibrium (Physics C)
 const N = M.BOND;
-check('bond: F = −dU/dr (numeric derivative)', [0.13, 0.15, 0.2, 0.3].every(r => { const R = r * 1e-9, hr = 1e-15; return near(-(M.bondU(R + hr) - M.bondU(R - hr)) / (2 * hr), M.bondF(R), 1e-6); }));
-check('bond: minimum −ε at r0, where F = 0', near(M.bondU(N.r0), -N.eps) && Math.abs(M.bondF(N.r0)) < 1e-20);
-check('bond: U″(r0) = 72ε/r0² (numeric)', (() => { const hr = 1e-14; return near((M.bondU(N.r0 + hr) - 2 * M.bondU(N.r0) + M.bondU(N.r0 - hr)) / hr ** 2, N.k, 1e-5); })(), `${N.k.toFixed(0)} N/m`);
-check('bond: turning points (closed form) where U = E', near(M.bondU(N.r1), N.E, 1e-9) && near(M.bondU(N.r2), N.E, 1e-9) && near(M.bondU(M.bondTurns(N.E)[0]), N.E, 1e-9), `${(N.r1 * 1e9).toFixed(4)} and ${(N.r2 * 1e9).toFixed(4)} nm`);
-check('bond: K + U constant, and v = 0 at both turns', Array.from({ length: 50 }, (_, i) => M.bond(i * N.period / 49)).every(r => near(r.K + r.U, N.E, 1e-7)) && near(M.bond(N.period / 2).r, N.r2, 1e-6));
-check('bond: small oscillations: T → 2π/ω, ω² = U″(r0)/m', near(M.bondPeriod(-0.999 * N.eps), 2 * Math.PI / N.w, 2e-3), `${(2 * Math.PI / N.w * 1e15).toFixed(2)} fs`);
+check('bond: F = −dU/dr (numeric derivative)', [0.13, 0.15, 0.2, 0.3].every(r => { const R = r * 1e-9, hr = 1e-15; const numeric = -(M.bondU(R + hr) - M.bondU(R - hr)) / (2 * hr), exact = M.bondF(R); return r === 0.15 ? Math.abs(numeric) < 1e-15 && Math.abs(exact) < 1e-20 : rel(numeric, exact, 1e-6); }));
+check('bond: minimum −ε at r0, where F = 0', rel(M.bondU(N.r0), -N.eps) && Math.abs(M.bondF(N.r0)) < 1e-20);
+check('bond: U″(r0) = 72ε/r0² (numeric)', (() => { const hr = 1e-14; return rel((M.bondU(N.r0 + hr) - 2 * M.bondU(N.r0) + M.bondU(N.r0 - hr)) / hr ** 2, N.k, 1e-5); })(), `${N.k.toFixed(0)} N/m`);
+check('bond: turning points (closed form) where U = E', rel(M.bondU(N.r1), N.E, 1e-9) && rel(M.bondU(N.r2), N.E, 1e-9) && rel(M.bondU(M.bondTurns(N.E)[0]), N.E, 1e-9), `${(N.r1 * 1e9).toFixed(4)} and ${(N.r2 * 1e9).toFixed(4)} nm`);
+check('bond: K + U constant, and v = 0 at both turns', Array.from({ length: 50 }, (_, i) => M.bond(i * N.period / 49)).every(r => rel(r.K + r.U, N.E, 1e-7)) && rel(M.bond(0).r, N.r1, 1e-8) && rel(M.bond(N.period / 2).r, N.r2, 1e-6) && Math.abs(M.bond(0).v) < 1e-12 && Math.abs(M.bond(N.period / 2).v) < 1e-6);
+check('bond: small oscillations: T → 2π/ω, ω² = U″(r0)/m', rel(M.bondPeriod(-0.999 * N.eps), 2 * Math.PI / N.w, 2e-3), `${(2 * Math.PI / N.w * 1e15).toFixed(2)} fs`);
 check('bond: this bigger swing is slower (not harmonic)', N.period > 1.2 * 2 * Math.PI / N.w, `${(N.period * 1e15).toFixed(2)} fs`);
 
 // ---------- practice (practice.js): structure, and every numeric answer recomputed another way ----------
@@ -156,7 +170,28 @@ import { PRACTICE } from './practice.js';
   keyed(10, 1, M.slide(root(t => M.slide(t).x - 1.0, 0, M.SLIDE.run)).Eth, 'heat after 1.0 m (model slide)');
   // 11: P = F v, F = mg at steady speed
   keyed(11, 0, 70 * g * (3.0 / 4.2), 'stair power, P = Fv');
+  check('practice: conceptual answer keys and explanations for zero work, net work, speed scaling and spring compression',
+    PRACTICE[0][1].answer === 1 && PRACTICE[0][1].why.includes('θ = 90°') &&
+    PRACTICE[1][1].answer === 2 && PRACTICE[1][1].why.includes('Суммарная работа равна нулю') &&
+    PRACTICE[2][1].answer === 1 && PRACTICE[2][1].why.includes('увеличиваются в 4 раза') &&
+    PRACTICE[3][1].answer === 3 && PRACTICE[3][1].why.includes('3 ×') &&
+    PRACTICE[5][1].answer === 2 && PRACTICE[5][1].why.includes('пропорционально') && PRACTICE[5][1].why.includes('вдвое'));
 }
+
+// Russian learner-facing text regressions: keep one-force work distinct from net work,
+// and distinguish average from instantaneous power with its directional component.
+const pageCopy = readFileSync(new URL('./pages.js', import.meta.url), 'utf8');
+check('text: work sign of one force is distinguished from net-work effect',
+  pageCopy.includes('вклад отдельной силы') && pageCopy.includes('суммарной работой всех сил'));
+check('text: power separates average and instantaneous forms and states the angle condition',
+  pageCopy.includes('P</i><sub>ср') && pageCopy.includes('cos α') && pageCopy.includes('угол между силой и скоростью'));
+const sharedLab = readFileSync(new URL('../../physics-lab.js', import.meta.url), 'utf8');
+check('lab: Chapter 4 uses the same g = 9.80 m/s² as the standalone calculator and energy model',
+  /case "energy":\{const h=10-9\*p;val=9\.80\*h;/.test(sharedLab) && sharedLab.includes('9,80 · "+fmt(h)'));
+
+const energyWorld = readFileSync(new URL('./world.js', import.meta.url), 'utf8');
+check('bond visual: vertical axis reaches the expanded 3.2 eV graph limit',
+  energyWorld.includes('rx(rLo), uy(3.2 * BD.eps), zN') && energyWorld.includes('uy(3.2 * BD.eps) - yBot') && energyWorld.includes('bond: { r: 1e10, U: 0.4, F: 0.08 }'));
 
 for (const r of rows) console.log(r.filter(Boolean).join('  '));
 process.exit(rows.every(r => r[0] === 'PASS') ? 0 : 1);

@@ -43,7 +43,7 @@ startBook({
     put('tension', CH.sx(th, 10, 90), CH.sy(Math.min(M.tension2(th), 60), 0, 60));
     put('car', CH.sx(s.car.t, 0, 3.2), CH.sy(cv.v, 0, 10));
     put('tug', CH.sx(s.tug.t, 0, 1.7), CH.sy(0, -3, 2));
-    put('board', CH.sx(s.board.t, 0, 1.1), CH.sy(M.BOARD.aCm * s.board.t, 0, 4.5));
+    put('board', CH.sx(s.board.t, 0, M.BOARD.run), CH.sy(M.BOARD.aCm * s.board.t, 0, M.BOARD.aCm * M.BOARD.run));
     const ld = M.linDrag(s.drag.t);
     put('drag', CH.sx(s.drag.t, 0, 2), CH.sy(ld.v, 0, 4.5)); put('dragF', CH.sx(s.drag.t, 0, 2), CH.sy(ld.D, 0, 6));
   },

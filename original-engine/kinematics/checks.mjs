@@ -14,12 +14,27 @@ check('vf² = v0² + 2aΔy', [0.4, 1.3].every(t => near(M.vy(t) ** 2, M.VY0 ** 2
 check('Δy = ½(v0 + vf)t', [0.4, 1.3].every(t => near(M.y(t), 0.5 * (M.VY0 + M.vy(t)) * t)));
 check('Δy = vf·t − ½at²', [0.4, 1.3].every(t => near(M.y(t), M.vy(t) * t - 0.5 * M.ay() * t * t)));
 check('round trip: displacement 0, distance 2H', near(M.y(M.T), 0) && near(M.distance(M.T), 2 * M.H), `${(2 * M.H).toFixed(1)} m`);
+
+const atLanding = M.flight(M.T / M.SLOW);
+const duringRest = M.flight((M.T + 0.1) / M.SLOW);
+const afterCycle = M.flight(M.CYCLE / M.SLOW);
+check('animation clock: exact landing keeps the final flight frame', near(atLanding.t, M.T) && !atLanding.resting);
+check('animation clock: rest interval freezes the ball at ground level', near(duringRest.t, M.T) && duringRest.resting);
+check('animation clock: a new cycle restarts at launch', near(afterCycle.t, 0) && !afterCycle.resting);
+const boatAEnd = M.boatPos(0, M.crossTime(0) + 5);
+const boatBEnd = M.boatPos(M.AIM_UP, M.crossTime(M.AIM_UP) + 5);
+check('river animation: boat positions clamp at opposite bank after crossing', near(boatAEnd[1], M.RIVER.w) && near(boatAEnd[0], M.drift(0)) && near(boatBEnd[1], M.RIVER.w) && near(boatBEnd[0], 0));
+const loopEnd = M.loop(M.RIVER_RUN + 0.1, M.RIVER_RUN, 1.5);
+const loopReset = M.loop(M.RIVER_RUN + 1.5, M.RIVER_RUN, 1.5);
+check('scene loop: pause freezes at the end and cycle wraps to zero', near(loopEnd.t, M.RIVER_RUN) && loopEnd.resting && near(loopReset.t, 0) && !loopReset.resting);
 check('area under v–t = displacement', [0.5, 1.5, 2.0].every(t => near(M.areaUnderV(t), M.y(t))));
 // numeric area check by summation
 const n = 20000; let area = 0; for (let i = 0; i < n; i++) area += M.vy((i + 0.5) * (1.5 / n)) * (1.5 / n);
 check('Σ v·dt over 0–1.5 s = y(1.5)', near(area, M.y(1.5), 1e-6), `${area.toFixed(4)} m`);
 check('projectile: same height as the straight-up ball at every t', [0.2, 1.1, 1.9].every(t => near(M.y(t), M.VY0 * t - 0.5 * M.G * t * t)));
 check('projectile range = vx·T', near(M.RANGE, M.VX * M.T), `${M.RANGE.toFixed(1)} m`);
+check('projectile: vy(0)=+v0, vy(T)=−v0 and vy(T/2)=0', near(M.vy(0), M.VY0) && near(M.vy(M.T), -M.VY0) && near(M.vy(M.T / 2), 0));
+check('projectile: horizontal velocity stays constant and speed is minimal at apex', [0, 0.5, 1, 1.5, 2].every(t => near(M.x(t + h) - M.x(t), M.VX * h, 1e-6)) && near(Math.hypot(M.VX, M.vy(M.T / 2)), M.VX));
 check('average speed ≠ average velocity on the round trip', near(M.distance(M.T) / M.T, M.H) && near(M.y(M.T) / M.T, 0), `${(M.distance(M.T) / M.T).toFixed(2)} m/s vs 0`);
 
 // ---------- relative motion ----------
@@ -35,6 +50,7 @@ check('rain: slant tanθ = v_car / v_rain', near(Math.tan(M.RAIN_ANGLE * Math.PI
 check('river: v_BS = v_BW + v_WS, straight aim', vnear(M.vBS(0), [M.RIVER.vw, M.RIVER.vb]), `${M.vlen(M.vBS(0)).toFixed(2)} m/s`);
 check('river: straight aim crosses in w/v_b and drifts v_w·t', near(M.crossTime(0), M.RIVER.w / M.RIVER.vb) && near(M.drift(0), M.RIVER.vw * M.RIVER.w / M.RIVER.vb), `${M.crossTime(0).toFixed(1)} s, ${M.drift(0).toFixed(1)} m`);
 check('river: aim upstream at asin(v_w/v_b) → no drift', near(M.drift(M.AIM_UP), 0) && near(M.vlen(M.vBS(M.AIM_UP)), Math.sqrt(M.RIVER.vb ** 2 - M.RIVER.vw ** 2)), `${(M.AIM_UP * 180 / Math.PI).toFixed(1)}°, ${M.crossTime(M.AIM_UP).toFixed(1)} s`);
+check('river: upstream aim cancels downstream component and leaves cross-river speed √(vb²−vw²)', near(M.vBS(M.AIM_UP)[0], 0) && near(M.vBS(M.AIM_UP)[1], Math.sqrt(M.RIVER.vb ** 2 - M.RIVER.vw ** 2)) && near(M.crossTime(M.AIM_UP), 12));
 check('river: straight aim is the fastest crossing', [0.1, 0.3, M.AIM_UP, 0.9].every(p => M.crossTime(p) > M.crossTime(0)));
 // step a boat across with the two velocities added each step, until it reaches the far bank
 for (const [name, phi] of [['straight', 0], ['upstream', M.AIM_UP]]) {
@@ -46,11 +62,16 @@ for (const [name, phi] of [['straight', 0], ['upstream', M.AIM_UP]]) {
 // ---------- calculus kinematics: a(t) not constant ----------
 const integ = (fn, a, b, n = 20000) => { let s = 0; const d = (b - a) / n; for (let i = 0; i < n; i++) s += fn(a + (i + 0.5) * d) * d; return s; };
 const deriv = (fn, t) => (fn(t + h) - fn(t - h)) / (2 * h);
+check('signed area under v–t over full flight = net displacement 0', near(integ(M.vy, 0, M.T), 0, 1e-9) && near(M.y(M.T), 0));
+check('signed area under a–t over full flight = Δv = −2v0', near(integ(M.ay, 0, M.T), M.vy(M.T) - M.vy(0), 1e-9) && near(M.vy(M.T) - M.vy(0), -2 * M.VY0));
+check('signed v–t area: ascent +H, descent −H, total displacement 0', near(integ(M.vy, 0, M.T / 2), M.H, 1e-9) && near(integ(M.vy, M.T / 2, M.T), -M.H, 1e-9));
+check('unsigned path is sum of absolute v–t areas = 2H', near(integ(t => Math.abs(M.vy(t)), 0, M.T), M.distance(M.T), 1e-9) && near(M.distance(M.T), 2 * M.H));
 check('pull: a = a0 − kt reaches 0 at t1 = a0/k', near(M.pa(M.T1 - 1e-12), 0, 1e-9) && near(M.T1, 4), `t1 = ${M.T1.toFixed(2)} s`);
 check('pull: v = ∫a dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pa, 0, t), M.pv(t), 1e-7)), `v(t1) = ${M.V1.toFixed(1)} m/s`);
 check('pull: x = ∫v dt (numeric) at 1, 2.5, 4, 5 s', [1, 2.5, 4, 5].every(t => near(integ(M.pv, 0, t), M.px(t), 1e-7)), `x(t1) = ${M.X1.toFixed(1)} m, x(5) = ${M.px(5).toFixed(1)} m`);
 check('pull: v = dx/dt and a = dv/dt', [0.5, 2, 3.5, 4.6].every(t => near(deriv(M.px, t), M.pv(t), 1e-6) && near(deriv(M.pv, t), M.pa(t), 1e-6)));
 check('pull: v1 = a0²/2k, x1 = a0³/3k²', near(M.V1, M.PULL.a0 ** 2 / (2 * M.PULL.k)) && near(M.X1, M.PULL.a0 ** 3 / (3 * M.PULL.k ** 2)));
+check('pull: after t1, a = 0, v = v1 and x continues linearly', [4.2, 5].every(t => near(M.pa(t), 0) && near(M.pv(t), M.V1) && near(M.px(t), M.X1 + M.V1 * (t - M.T1))));
 // ODE: step dv = a dt, dx = v dt from rest (semi-implicit Euler, fine step)
 { const dt = 1e-5; let v = 0, x = 0; for (let t = 0; t < 5 - dt / 2; t += dt) { const a = M.pa(t + dt / 2); x += (v + 0.5 * a * dt) * dt; v += a * dt; }
   check('pull: stepped from rest matches v(5), x(5)', near(v, M.pv(5), 1e-6) && near(x, M.px(5), 1e-6), `${v.toFixed(3)} m/s, ${x.toFixed(3)} m`); }
@@ -65,7 +86,7 @@ const NPAGES = 11;   // pages.js imports world.js (three.js, browser-only), so t
 { const bad = [];
   for (let i = 0; i < NPAGES; i++) {
     const qs = PRACTICE[i];
-    if (!Array.isArray(qs) || qs.length < 1 || qs.length > 2) { bad.push(`page ${i}: ${qs ? qs.length : 0} items`); continue; }
+    if (!Array.isArray(qs) || qs.length !== 2) { bad.push(`page ${i}: expected 2 items, found ${qs ? qs.length : 0}`); continue; }
     qs.forEach((it, n) => {
       const mcq = Array.isArray(it.choices) && it.choices.length === 4 && new Set(it.choices).size === 4 && Number.isInteger(it.answer) && it.answer >= 0 && it.answer < 4 && typeof it.why === 'string' && it.why.trim();
       const frq = !it.choices && typeof it.solution === 'string' && it.solution.trim();
@@ -73,7 +94,28 @@ const NPAGES = 11;   // pages.js imports world.js (three.js, browser-only), so t
     });
   }
   const extra = Object.keys(PRACTICE).filter(k => !(+k >= 0 && +k < NPAGES));
-  check('practice: every page has 1–2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
+  check('practice: every page has exactly 2 well-formed items', !bad.length && !extra.length, bad.concat(extra).join(', ') || `${Object.values(PRACTICE).flat().length} items`); }
+
+const conceptualKeys = [
+  [0, 1, 1, s => s.includes('м/с² вниз'), 'apex acceleration remains downward'],
+  [1, 1, 2, s => s.includes('Перемещение не может быть больше пути'), 'path and displacement inequality'],
+  [2, 1, 3, s => s.includes('Одинаковые модули, противоположные направления'), 'velocity at equal height'],
+  [3, 0, 2, s => s.includes('При падении') && s.includes('одинаковые знаки'), 'speed increases during descent'],
+  [4, 1, 0, s => s.includes('наклон графика'), 'zero slope of y–t at the apex'],
+  [5, 1, 2, s => s.includes('Δ<i>y</i>') && s.includes('<i>at</i>'), 'kinematic equation containing time but not final velocity'],
+  [7, 1, 0, s => s.includes('м/с назад'), 'road velocity relative to passenger'],
+];
+for (const [page, item, answer, predicate, label] of conceptualKeys) {
+  const q = PRACTICE[page][item];
+  check(`practice ${page}.${item + 1}: conceptual answer key — ${label}`, q.answer === answer && predicate(q.choices[answer]) && typeof q.why === 'string' && q.why.length > 40);
+}
+check('practice 9.1: acceleration distractor retains m/s² units', PRACTICE[9][0].choices[3].includes('м/с²'));
+check('practice 0.1: explanation states the fourfold height increase from H to 4H', PRACTICE[0][0].why.includes(`с ${M.H.toFixed(2)} м до ${((2 * M.VY0) ** 2 / (2 * M.G)).toFixed(2)} м`) && PRACTICE[0][0].why.includes('увеличивается в 4 раза'));
+check('practice 10.1: coordinate distractor is labelled in metres', PRACTICE[10][0].choices[2].includes('м (координата)'));
+const solutionPull = PRACTICE[9][1].solution;
+check('practice 9.2: worked solution includes t1, v1, x1 and x(5)', solutionPull.includes(M.T1.toFixed(2)) && solutionPull.includes(M.V1.toFixed(1)) && solutionPull.includes(M.X1.toFixed(1)) && solutionPull.includes(`${M.px(5).toFixed(1)} м`));
+const solutionCubic = PRACTICE[10][1].solution;
+check('practice 10.2: worked solution includes x(t), return time and return velocity', solutionCubic.includes('√3') && solutionCubic.includes(Math.sqrt(3).toFixed(2)) && solutionCubic.includes(`${M.cv(Math.sqrt(3)).toFixed(2)} м/с`));
 // the first number in a choice's text (HTML stripped, − read as minus, a × 10ⁿ read as aEn)
 const pnum = c => { const s = c.replace(/×\s*10<sup>([−-]?\d+)<\/sup>/g, 'e$1').replace(/<[^>]+>/g, ' ').replace(/−/g, '-'); return Number(s.match(/-?\d+(\.\d+)?(e-?\d+)?/)[0]); };
 // keyed choice equals the independent value (to its printed precision), every distractor is > 2 % away

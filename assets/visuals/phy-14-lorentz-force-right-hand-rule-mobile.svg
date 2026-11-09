@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1900" viewBox="0 0 760 1900" role="img" aria-labelledby="t d">
+<title id="t">Сила Лоренца и правило правой руки — мобильная схема</title>
+<desc id="d">Два вертикальных сравнения при одинаковых направлениях: магнитное поле вправо, скорость заряда в экран. Для положительного заряда сила направлена вниз, для отрицательного — вверх. Внизу показано правило правой руки.</desc>
+<defs>
+ <marker id="b" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#1769c2"/></marker>
+ <marker id="r" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#d83b35"/></marker>
+ <marker id="p" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#7939bd"/></marker>
+ <style>
+ .bg{fill:#f6f8fc}.panel{fill:#fff;stroke:#c8d3e0;stroke-width:3}.title{font:700 34px Arial,sans-serif;fill:#fff}.h{font:700 30px Arial,sans-serif;fill:#17365d}.body{font:25px Arial,sans-serif;fill:#182536}.small{font:22px Arial,sans-serif;fill:#26364a}.math{font:italic 34px Georgia,serif;fill:#172b4d}.blue{stroke:#1769c2;stroke-width:7;fill:none;marker-end:url(#b)}.red{stroke:#d83b35;stroke-width:8;fill:none;marker-end:url(#r)}.purple{stroke:#7939bd;stroke-width:8;fill:none;marker-end:url(#p)}
+ </style>
+</defs>
+<rect class="bg" width="760" height="1900"/>
+<rect x="24" y="24" width="712" height="105" rx="18" fill="#194b83"/>
+<text x="380" y="68" text-anchor="middle" class="title">СИЛА ЛОРЕНЦА</text>
+<text x="380" y="105" text-anchor="middle" class="title">И ПРАВИЛО ПРАВОЙ РУКИ</text>
+<rect x="24" y="150" width="712" height="145" rx="16" fill="#fff1c9" stroke="#d7a72b" stroke-width="3"/>
+<text x="380" y="205" text-anchor="middle" class="math">F⃗ = q (v⃗ × B⃗)</text>
+<text x="55" y="248" class="small">Для q &gt; 0 используем v⃗ × B⃗;</text><text x="55" y="278" class="small">для q &lt; 0 меняем направление на обратное.</text>
+<rect class="panel" x="24" y="320" width="712" height="510" rx="18" fill="#eaf3ff"/>
+<text x="55" y="372" class="h">Положительный заряд (q &gt; 0)</text>
+<text x="55" y="415" class="small">B⃗ направлено вправо; v⃗ — в экран</text>
+<path d="M90 490 H650" class="blue"/><text x="610" y="470" class="math">B⃗</text>
+<circle cx="370" cy="610" r="62" fill="#e34b43" stroke="#9e2924" stroke-width="4"/><text x="370" y="632" text-anchor="middle" font="700 62px Arial" fill="#fff">+</text>
+<circle cx="370" cy="610" r="92" fill="none" stroke="#21834a" stroke-width="4" stroke-dasharray="9 9"/><circle cx="370" cy="610" r="18" fill="none" stroke="#21834a" stroke-width="5"/><path d="M357 597L383 623M383 597L357 623" stroke="#21834a" stroke-width="5"/>
+<text x="475" y="620" class="small">v⃗ = ⊗</text>
+<path d="M370 700 V780" class="red"/><text x="405" y="760" class="math">F⃗ вниз</text>
+<text x="55" y="810" class="small">(−z) × (+x) = −y</text>
+<rect class="panel" x="24" y="855" width="712" height="510" rx="18" fill="#f3ecff"/>
+<text x="55" y="907" class="h">Отрицательный заряд (q &lt; 0)</text>
+<text x="55" y="950" class="small">Те же направления B⃗ и v⃗</text>
+<path d="M90 1025 H650" class="blue"/><text x="610" y="1005" class="math">B⃗</text>
+<circle cx="370" cy="1145" r="62" fill="#367fd3" stroke="#174d91" stroke-width="4"/><text x="370" y="1167" text-anchor="middle" font="700 62px Arial" fill="#fff">−</text>
+<circle cx="370" cy="1145" r="92" fill="none" stroke="#21834a" stroke-width="4" stroke-dasharray="9 9"/><circle cx="370" cy="1145" r="18" fill="none" stroke="#21834a" stroke-width="5"/><path d="M357 1132L383 1158M383 1132L357 1158" stroke="#21834a" stroke-width="5"/>
+<text x="475" y="1155" class="small">v⃗ = ⊗</text>
+<path d="M370 1065 V985" class="purple"/><text x="405" y="1005" class="math">F⃗ вверх</text>
+<text x="55" y="1325" class="small">Сила направлена противоположно случаю q &gt; 0.</text>
+<rect class="panel" x="24" y="1390" width="712" height="475" rx="18"/>
+<text x="55" y="1445" class="h">Правило правой руки</text>
+<text x="55" y="1510" class="body">1. Указательный палец — по скорости v⃗.</text>
+<text x="55" y="1565" class="body">2. Средний палец — по полю B⃗.</text>
+<text x="55" y="1620" class="body">3. Большой палец — по силе F⃗</text>
+<text x="85" y="1655" class="body">для положительного заряда.</text>
+<text x="55" y="1720" class="small">⊗ — в экран, от наблюдателя.</text>
+<text x="55" y="1765" class="small">⊙ — из экрана, к наблюдателю.</text>
+<text x="55" y="1825" class="math">|F| = |q|vB sin θ</text>
+</svg>

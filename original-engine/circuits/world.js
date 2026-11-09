@@ -35,7 +35,7 @@ export function buildWorld(E) {
   // ---------- kit ----------
   const UPV = V(0, 1, 0), B4 = new THREE.Matrix4(), M4 = new THREE.Matrix4();
   const rodGeo = new THREE.CylinderGeometry(1, 1, 1, 10);
-  const rod = (g, r = 0.025, name = 'Wires', pal = 'ink') => { const m = part(g, rodGeo, { tone: 'hi', pal, name }); m.scale.set(r, 1, r); m.userData.r = r; return m; };
+  const rod = (g, r = 0.025, name = 'Провода', pal = 'ink') => { const m = part(g, rodGeo, { tone: 'hi', pal, name }); m.scale.set(r, 1, r); m.userData.r = r; return m; };
   const stretch = (m, a, b) => { const r = m.userData.r; m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(r, Math.max(a.distanceTo(b), 1e-4), r); m.quaternion.setFromUnitVectors(UPV, b.clone().sub(a).normalize()); };
   // a body's frame: y along p→q, x across it in the ground plane, z its normal (up when flat)
   const orient = (o, p, q) => { const d = q.clone().sub(p).normalize(), s = d.clone().cross(UPV); if (s.lengthSq() < 1e-6) s.set(1, 0, 0); s.normalize(); B4.makeBasis(s, d, s.clone().cross(d)); o.quaternion.setFromRotationMatrix(B4); o.position.copy(p).add(q).multiplyScalar(0.5); return s; };
@@ -277,7 +277,7 @@ export function buildWorld(E) {
   // the loop walker: round loop 1, then loop 2, adding up each ΔV
   const walker = part(g7, new THREE.SphereGeometry(0.09, 20, 14), { tone: 'hi', pal: 'blue', name: 'Обходчик контура' });
   let walk = { sum: 0, loop: 0 };
-  label('vec blue', '', () => (opened(g7) > 0.5 ? walker.position.clone().add(V(0, 0.35, 0)) : null), () => `ΣΔ<i>V</i> = ${walk.sum >= -0.005 ? '+' : '−'}${Math.abs(walk.sum).toFixed(2)} V`);
+  label('vec blue', '', () => (opened(g7) > 0.5 ? walker.position.clone().add(V(0, 0.35, 0)) : null), () => `ΣΔ<i>V</i> = ${walk.sum >= -0.005 ? '+' : '−'}${Math.abs(walk.sum).toFixed(2)} В`);
 
   // ---------- 8 · RC: charge, then discharge ----------
   const X8 = STATIONS.rc;
@@ -292,7 +292,7 @@ export function buildWorld(E) {
   const plus = dotPool(capIt.body, 12, 'red', new THREE.SphereGeometry(0.035, 10, 8)), minus = dotPool(capIt.body, 12, 'blue', new THREE.SphereGeometry(0.035, 10, 8));
   const SITES = []; for (let i = 0; i < 4; i++) for (let j = 0; j < 3; j++) SITES.push([(i - 1.5) * 0.14, (j - 1) * 0.13]);
   // the switch: a blade from the pivot to contact a (charge) or b (discharge)
-  const blade = rod(g8, 0.03, 'Switch');
+  const blade = rod(g8, 0.03, 'Выключатель');
   const posts8 = ['pv', 'sa', 'sb'].map(k => ({ k, m: part(g8, new THREE.CylinderGeometry(0.06, 0.06, 0.12, 16), { tone: 'mid', pal: 'dark', name: 'Переключатель' }) }));
   label('tick', 'a', () => cRC.P3.sa.clone().add(V(-0.12, 0.25, -0.2))); label('tick', 'b', () => cRC.P3.sb.clone().add(V(-0.12, 0.25, 0.15)));
 

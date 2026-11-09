@@ -37,10 +37,10 @@ export function buildWorld(E) {
   // ---------- kit ----------
   // vectors draw over everything, translucent plates included (sorted with them, after them)
   const onTop = a => { a.userData.arrow.shaft.material.transparent = true; return a; };
-  const field = (g, r = 0.016) => onTop(arrow(g, 'blue', { r, head: 0.09, headR: 0.045, name: 'Field', tone: 'hi' }));
-  const comp = g => onTop(arrow(g, 'dark', { r: 0.012, head: 0.07, headR: 0.035, name: 'Parts of the field', tone: 'mid' }));
+  const field = (g, r = 0.016) => onTop(arrow(g, 'blue', { r, head: 0.09, headR: 0.045, name: 'Поле', tone: 'hi' }));
+  const comp = g => onTop(arrow(g, 'dark', { r: 0.012, head: 0.07, headR: 0.035, name: 'Составляющие поля', tone: 'mid' }));
   const tipOf = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.14, 0)) : null;
-  const rod = (g, r = 0.02, name = 'Wires') => part(g, new THREE.CylinderGeometry(r, r, 1, 10), { tone: 'hi', pal: 'ink', name });
+  const rod = (g, r = 0.02, name = 'Провода') => part(g, new THREE.CylinderGeometry(r, r, 1, 10), { tone: 'hi', pal: 'ink', name });
   const stretch = (m, a, b) => { m.position.copy(a).add(b).multiplyScalar(0.5); m.scale.set(1, Math.max(a.distanceTo(b), 1e-4), 1); m.quaternion.setFromUnitVectors(V(0, 1, 0), b.clone().sub(a).normalize()); m.userData.home.copy(m.position); };
   const wire = (g, pts, name) => { for (let i = 0; i + 1 < pts.length; i++) stretch(rod(g, 0.02, name), pts[i], pts[i + 1]); };
   const flip = geo => { const ix = geo.index.array; for (let i = 0; i < ix.length; i += 3) [ix[i + 1], ix[i + 2]] = [ix[i + 2], ix[i + 1]]; const n = geo.attributes.normal.array; for (let i = 0; i < n.length; i++) n[i] = -n[i]; return geo; };
@@ -49,7 +49,7 @@ export function buildWorld(E) {
   const mover = (parent, ex) => { const g = new THREE.Group(); g.userData = { home: V(), ex: V(...ex) }; parent.add(g); return g; };
   // translucent Gaussian surface: no ink edge (it would hide what is inside), outlined by rings
   const gaussMat = () => shadeMat('blue', { opacity: 0.13 });
-  const gauss = (g, geo, name = 'Gaussian surface') => { const m = part(g, geo, { tone: 'lo', name, mat: gaussMat() }); m.userData.noEdge = true; return m; };
+  const gauss = (g, geo, name = 'Гауссова поверхность') => { const m = part(g, geo, { tone: 'lo', name, mat: gaussMat() }); m.userData.noEdge = true; return m; };
 
   // charge marks: tiny flat + and − bars lying on a surface (u, v span it, n is its normal)
   function marks(parent, color, max) {
@@ -77,8 +77,8 @@ export function buildWorld(E) {
   const ORDER = shuffle(25);
   function capacitor(g, cx, { opacity = 0.5, lines: withLines = true } = {}) {
     const mat = shadeMat('paper', { opacity });
-    const pos = part(g, box(T, SIDE, SIDE, 0.012), { tone: 'hi', name: 'Plates', mat });
-    const neg = part(g, box(T, SIDE, SIDE, 0.012), { tone: 'hi', name: 'Plates', mat });
+    const pos = part(g, box(T, SIDE, SIDE, 0.012), { tone: 'hi', name: 'Обкладки', mat });
+    const neg = part(g, box(T, SIDE, SIDE, 0.012), { tone: 'hi', name: 'Обкладки', mat });
     const plus = marks(g, RED, 120), minus = marks(g, BLUE, 120);
     const fl = withLines ? SITES.map(() => field(g, 0.011)) : [];
     for (const a of fl) a.userData.arrow.tip.scale.set(0.8, 0.8, 0.8);
@@ -95,7 +95,7 @@ export function buildWorld(E) {
     return c;
   }
   // a small battery along x with its + end at −x, centred at c
-  function battery(g, c, len = 0.8, r = 0.13, name = 'Battery') {
+  function battery(g, c, len = 0.8, r = 0.13, name = 'Батарея') {
     part(g, xAxis(new THREE.CylinderGeometry(r, r, len, 28)), { tone: 'hi', pos: c.toArray(), name });
     part(g, xAxis(new THREE.CylinderGeometry(r * 0.4, r * 0.4, 0.06, 20)), { tone: 'hi', pal: 'dark', pos: [c.x - len / 2 - 0.03, c.y, c.z], name });
     part(g, xAxis(new THREE.CylinderGeometry(r * 1.01, r * 1.01, len * 0.12, 28)), { tone: 'mid', pal: 'dark', pos: [c.x + len / 2 - len * 0.06, c.y, c.z], name });
@@ -155,8 +155,8 @@ export function buildWorld(E) {
   const shell2 = [0, 1].map(k => {
     const h = mover(g2, [0, k ? -1.5 : 1.5, 0]); h.position.copy(c2); h.userData.home.copy(c2);
     const t0 = k ? Math.PI / 2 : 0;
-    part(h, new THREE.SphereGeometry(B2 + 0.05, 56, 20, Math.PI, Math.PI, t0, Math.PI / 2), { tone: 'hi', name: 'Outer shell (−Q)' });
-    part(h, flip(new THREE.SphereGeometry(B2, 56, 20, Math.PI, Math.PI, t0, Math.PI / 2)), { tone: 'mid', name: 'Outer shell (−Q)' });
+    part(h, new THREE.SphereGeometry(B2 + 0.05, 56, 20, Math.PI, Math.PI, t0, Math.PI / 2), { tone: 'hi', name: 'Внешняя оболочка (−Q)' });
+    part(h, flip(new THREE.SphereGeometry(B2, 56, 20, Math.PI, Math.PI, t0, Math.PI / 2)), { tone: 'mid', name: 'Внешняя оболочка (−Q)' });
     return h;
   });
   // charge: + on the ball's surface, − on the shell's inner surface (same number: same Q)
@@ -185,8 +185,8 @@ export function buildWorld(E) {
   part(g3, xAxis(new THREE.CylinderGeometry(A3, A3, L3 + 0.6, 40)), { tone: 'hi', pos: c3.toArray(), name: 'Внутренний стержень (+Q)' });
   const tube3 = mover(g3, [L3 + 0.8, 0, 0]); tube3.position.copy(c3); tube3.userData.home.copy(c3);
   // cylinder angle θ: x = r sin θ, z = r cos θ; turned to the x axis, θ ∈ [90°, 270°] is the back half (z ≤ 0)
-  part(tube3, xAxis(new THREE.CylinderGeometry(B3 + 0.04, B3 + 0.04, L3, 64, 1, true, Math.PI / 2, Math.PI)), { tone: 'hi', name: 'Outer tube (−Q)' });
-  part(tube3, xAxis(flip(new THREE.CylinderGeometry(B3, B3, L3, 64, 1, true, Math.PI / 2, Math.PI))), { tone: 'mid', name: 'Outer tube (−Q)' });
+  part(tube3, xAxis(new THREE.CylinderGeometry(B3 + 0.04, B3 + 0.04, L3, 64, 1, true, Math.PI / 2, Math.PI)), { tone: 'hi', name: 'Внешняя трубка (−Q)' });
+  part(tube3, xAxis(flip(new THREE.CylinderGeometry(B3, B3, L3, 64, 1, true, Math.PI / 2, Math.PI))), { tone: 'mid', name: 'Внешняя трубка (−Q)' });
   const cylSites = (r, nx, nth, th0, th1) => { const out = []; for (let i = 0; i < nx; i++) for (let j = 0; j < nth; j++) { const x = -L3 / 2 + (i + 0.5) * L3 / nx, a = th0 + (j + 0.5 + (i % 2) * 0.5) * (th1 - th0) / nth; const n = V(0, Math.cos(a), Math.sin(a)); out.push({ p: V(x, 0, 0).addScaledVector(n, r), n }); } return out; };
   marks(g3, RED, 80)(cylSites(A3 + 0.004, 14, 4, 0, 2 * Math.PI).map(({ p, n }) => ({ p: p.add(c3), u: X_, v: n.clone().cross(X_), n, s: 0.07 })));
   // n = (0, cos a, sin a): the back half is a ∈ (180°, 360°)
@@ -209,17 +209,17 @@ export function buildWorld(E) {
   const c4 = capacitor(g4, X4);
   plateLabels(X4);
   const fillMat = shadeMat('blue', { opacity: 0.3 });
-  const fill4 = part(g4, new THREE.BoxGeometry(D0 - 0.01, SIDE - 0.01, SIDE - 0.01), { tone: 'lo', name: 'Field energy', mat: fillMat, pos: [X4, CY, 0] });
+  const fill4 = part(g4, new THREE.BoxGeometry(D0 - 0.01, SIDE - 0.01, SIDE - 0.01), { tone: 'lo', name: 'Энергия поля', mat: fillMat, pos: [X4, CY, 0] });
   fill4.userData.noEdge = true;
   const vol4 = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(D0, SIDE, SIDE)), new THREE.LineBasicMaterial({ color: '#3d63a8' }));
   vol4.position.set(X4, CY, 0); vol4.userData = { noEdge: true }; g4.add(vol4);
   label('tick', 'объём <i>Ad</i>', when(g4, () => V(X4 + 0.5, CY - SIDE / 2 - 0.15, SIDE / 2)));
   label('vec blue', '<i>u</i> = ½ε<sub>0</sub><i>E</i><sup>2</sup>', when(g4, () => V(X4 + 0.15, CY + SIDE / 2 + 0.25, SIDE / 2)));
-  const dq = part(g4, new THREE.SphereGeometry(0.07, 24, 16), { tone: 'hi', pal: 'red', name: 'A bit of charge dq' });
-  const push4 = arrow(g4, 'ink', { r: 0.014, head: 0.08, headR: 0.04, name: 'A bit of charge dq' });
+  const dq = part(g4, new THREE.SphereGeometry(0.07, 24, 16), { tone: 'hi', pal: 'red', name: 'Малый элемент заряда dq' });
+  const push4 = arrow(g4, 'ink', { r: 0.014, head: 0.08, headR: 0.04, name: 'Малый элемент заряда dq' });
   label('tick', '<i>dq</i>', () => dq.visible ? dq.position.clone().add(V(-0.02, 0.18, 0)) : null);
   const UB = 1.8 / M.U0;                        // bar: 1.8 units at 100 V
-  const bar4 = part(g4, new THREE.BoxGeometry(0.3, 1, 0.3), { tone: 'hi', pal: 'blue', name: 'Stored energy' });
+  const bar4 = part(g4, new THREE.BoxGeometry(0.3, 1, 0.3), { tone: 'hi', pal: 'blue', name: 'Запасённая энергия' });
   lines(g4, [X4 + 0.95, CY - SIDE / 2, 0, X4 + 1.45, CY - SIDE / 2, 0, X4 + 0.95, CY - SIDE / 2 + 1.8, 0, X4 + 1.45, CY - SIDE / 2 + 1.8, 0], '#9a9aa0');
   label('vec', '<i>U</i>', () => V(X4 + 1.2, CY - SIDE / 2 - 0.2, 0.2));
   label('tick', `${(M.U0 * 1e9).toFixed(1)} нДж`, () => V(X4 + 1.95, CY - SIDE / 2 + 1.8, 0));
@@ -254,13 +254,13 @@ export function buildWorld(E) {
   wire(gP, [V(xp + 0.11, ty5, 0), V(xp + 1.4, ty5, 0), V(xp + 1.4, by5, 0), V(xp + 0.35, by5, 0)]);
   wire(gP, [V(xp - 1.4, my5, 0), V(xp - 0.11, my5, 0)]); wire(gP, [V(xp + 0.11, my5, 0), V(xp + 1.4, my5, 0)]);
   for (const [x, g] of [[xs, gS], [xp, gP]]) {
-    label('tick', '9 V', () => V(x + 0.2, by5 - 0.32, 0));
+    label('tick', '9 В', () => V(x + 0.2, by5 - 0.32, 0));
     label('vec red', '<span style="font-size:17px">+</span>', () => V(x - 0.48, by5 + 0.24, 0)); label('vec blue', '<span style="font-size:17px">−</span>', () => V(x + 0.46, by5 + 0.24, 0));
   }
   const capLab = (g, x, y, C, Q, Vv, below = false) => {
     const ly = below ? y - capSide(C * 1e-6) / 2 - 0.2 : y + capSide(C * 1e-6) / 2 + 0.2;
-    label('tick', `${C} µF`, () => opened(g) > 0.5 ? null : V(x + 0.24, ly, 0));
-    label('tick', `${C} µF · ${(Q * 1e6).toFixed(0)} µC · ${Vv.toFixed(0)} V`, when(g, () => V(x + 0.75, ly, 0)));
+    label('tick', `${C} мкФ`, () => opened(g) > 0.5 ? null : V(x + 0.24, ly, 0));
+    label('tick', `${C} мкФ · ${(Q * 1e6).toFixed(0)} мкКл · ${Vv.toFixed(0)} В`, when(g, () => V(x + 0.75, ly, 0)));
   };
   capLab(gS, xs - 0.6, ty5, 2, M.SER.Q1, M.SER.V1); capLab(gS, xs + 0.6, ty5, 4, M.SER.Q2, M.SER.V2);
   capLab(gP, xp, ty5, 2, M.PAR.Q1, M.PAR.V1); capLab(gP, xp, my5, 4, M.PAR.Q2, M.PAR.V2, true);
@@ -366,15 +366,15 @@ export function buildWorld(E) {
     const paths = [pts]; if (hit) paths.push(pts.map(([x, y, z]) => [-x, y, z]).reverse());
     for (const P of paths) {
       const curve = new THREE.CatmullRomCurve3(P.filter((_, i) => i % 3 === 0 || i === P.length - 1).map(p => V(...p).multiplyScalar(DRAW).add(c8)));
-      const tube = part(g8, new THREE.TubeGeometry(curve, Math.max(8, P.length / 3 | 0), 0.011, 6), { tone: 'lo', name: 'Field lines', mat: lineMat });
+      const tube = part(g8, new THREE.TubeGeometry(curve, Math.max(8, P.length / 3 | 0), 0.011, 6), { tone: 'lo', name: 'Линии поля', mat: lineMat });
       tube.userData.noEdge = true;
       const u = P[0][0] < 0 && !hit ? 0.25 : P === paths[0] ? 0.4 : 0.6, at = curve.getPointAt(u), tg = curve.getTangentAt(u);
-      const head = part(g8, new THREE.ConeGeometry(0.045, 0.12, 14), { tone: 'mid', pal: 'blue', name: 'Field lines' });
+      const head = part(g8, new THREE.ConeGeometry(0.045, 0.12, 14), { tone: 'mid', pal: 'blue', name: 'Линии поля' });
       head.position.copy(at); head.quaternion.setFromUnitVectors(Y_, tg); head.userData.home.copy(at);
     }
   }
   // the probe: a point moving along the field axis, with the field there
-  const probe = part(g8, new THREE.SphereGeometry(0.05, 16, 12), { tone: 'hi', pal: 'ink', name: 'Probe' });
+  const probe = part(g8, new THREE.SphereGeometry(0.05, 16, 12), { tone: 'hi', pal: 'ink', name: 'Пробный заряд' });
   const probeE = field(g8, 0.022);
   label('vec blue', '<i>E</i>', () => tipOf(probeE));
   label('vec blue', '<i>E</i><sub>0</sub>', () => c8.clone().add(V(-2.9, 2.9, 0)));

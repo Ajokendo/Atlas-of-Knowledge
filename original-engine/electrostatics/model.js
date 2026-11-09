@@ -34,9 +34,9 @@ export const coulomb = (q1, q2, r) => K * Math.abs(q1 * q2) / (r * r);
 
 // ---------- 0 · charge: three carbon atoms (6 protons each) ----------
 export const ATOMS = [
-  { name: 'neutral atom', p: 6, e: 6 },
-  { name: 'negative ion', p: 6, e: 7 },
-  { name: 'positive ion', p: 6, e: 5 },
+  { name: 'Нейтральный атом', p: 6, e: 6 },
+  { name: 'Отрицательный ион', p: 6, e: 7 },
+  { name: 'Положительный ион', p: 6, e: 5 },
 ];
 export const netCharge = a => (a.p - a.e) * QE;
 export const ORBIT_T = 6;           // s per lap of the cartoon electrons
@@ -178,3 +178,9 @@ export function electron(tReal) {
   const t = Math.min(tReal, PLATES.tCross), s = Math.max(tReal - PLATES.tCross, 0), inside = tReal <= PLATES.tCross;
   return { x: PLATES.v0 * (t + s), y: 0.5 * PLATES.a * t * t + PLATES.vyExit * s, vx: PLATES.v0, vy: PLATES.a * t, F: inside ? QE * PLATES.E : 0, inside };
 }
+
+// Chart data: [x in cm, y in mm], including the straight path after the plates.
+export const electronTrajectory = (n = 80) => Array.from({ length: n + 1 }, (_, i) => {
+  const e = electron(PLATES.run * i / n);
+  return [e.x * 100, e.y * 1000];
+});

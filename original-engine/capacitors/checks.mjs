@@ -12,8 +12,8 @@ check('C = ε₀A/d = 7.08 pF', near(M.C0, 7.08e-12, 1e-3), pF(M.C0));
 check('C = Q/ΔV is the same at every voltage', [0.7, 2, 3.3].every(t => near(M.charging(t).Q / M.charging(t).V, M.C0)));
 // a sheet's field: rings summed numerically against the closed form, and the infinite-sheet limit
 const sig = M.Q0 / M.PLATE.A;
-check('disc field: ring sum = closed form', [0.005, 0.02, 0.05].every(z => near(M.discAxisENumeric(sig, 0.1, z), M.discAxisE(sig, 0.1, z), 1e-4)));
-check('wide disc → sheet: E → σ/2ε₀', near(M.discAxisE(sig, 1e4, 0.02), M.sheetE(sig), 1e-5));
+check('disc field: ring sum = closed form on both sides', [-0.05, -0.02, -0.005, 0, 0.005, 0.02, 0.05].every(z => near(M.discAxisENumeric(sig, 0.1, z), M.discAxisE(sig, 0.1, z), 1e-4)));
+check('wide disc → sheet: E → ±σ/2ε₀ on opposite sides', near(M.discAxisE(sig, 1e4, 0.02), M.sheetE(sig), 1e-5) && near(M.discAxisE(sig, 1e4, -0.02), -M.sheetE(sig), 1e-5));
 check('between the plates E₊ + E₋ = σ/ε₀ = Q/(ε₀A)', near(2 * M.sheetE(sig), M.E0, 1e-3), `${(2 * M.sheetE(sig)).toFixed(0)} V/m`);
 check('outside wide plates E₊ − E₋ → 0', Math.abs(M.discAxisE(sig, 1e4, 0.03) - M.discAxisE(sig, 1e4, 0.03 + M.PLATE.d)) < 1e-5 * M.E0);
 // Gauss: the pillbox through the + plate
@@ -56,7 +56,7 @@ check('connected: E stays V/d, Q rises κ×', near(con1.E, M.E0) && near(con1.Q,
 check('connected: battery work V·ΔQ = 2ΔU', near(M.V0 * (con1.Q - M.Q0), 2 * (con1.U - M.U0), 1e-9));
 check('isolated: U falls to U₀/κ', near(iso1.U, M.U0 / M.KAPPA));
 check('molecule: θ(t) solves dθ/dt = −sin θ/τ', [0.3, 0.9].every(t => near((M.align(2, t + 1e-6) - M.align(2, t - 1e-6)) / 2e-6, -Math.sin(M.align(2, t)) / M.ALIGN_TAU, 1e-5)));
-check('dipole: τ = −dU/dθ', [0.4, 1.9].every(th => near(M.dipoleTorque(1, 1, th), (M.dipoleU(1, 1, th + 1e-6) - M.dipoleU(1, 1, th - 1e-6)) / 2e-6, 1e-6)));
+check('dipole: torque magnitude = dU/dθ; restoring direction is toward smaller θ', [0.4, 1.9].every(th => near(M.dipoleTorque(1, 1, th), (M.dipoleU(1, 1, th + 1e-6) - M.dipoleU(1, 1, th - 1e-6)) / 2e-6, 1e-6)));
 // conductor in equilibrium
 const R = M.COND.R;
 check('conductor: E = 0 inside', [[0, 0, 0], [0.05, 0.03, -0.02]].every(p => Math.hypot(...M.condE(...p)) === 0));

@@ -26,7 +26,8 @@ export function charging(t) {
 
 // field of one uniformly charged disc of radius R on its axis, by summing rings (numeric) and
 // in closed form; R → ∞ gives the infinite sheet σ/2ε₀
-export const discAxisE = (sigma, R, z) => sigma / (2 * EPS0) * (1 - z / Math.sqrt(z * z + R * R));
+// At z = 0 the ideal sheet's one-sided fields are discontinuous (±σ/2ε₀); return their symmetric principal-value average, 0.
+export const discAxisE = (sigma, R, z) => Math.sign(z) * sigma / (2 * EPS0) * (1 - Math.abs(z) / Math.sqrt(z * z + R * R));
 export function discAxisENumeric(sigma, R, z, n = 4000) {
   let E = 0;
   for (let i = 0; i < n; i++) {
@@ -99,7 +100,7 @@ export const PAR = parallel(CIRC.C1, CIRC.C2, CIRC.V);
 
 // ---------- pages 6–7: a κ = 3 slab slides down into the gap ----------
 export const KAPPA = 3;                                      // plastic
-export const DIELECTRICS = [['vacuum', 1], ['air', 1.0006], ['Teflon', 2.1], ['plastic', 3], ['paper', 3.5], ['rubber', 7], ['water', 80], ['SrTiO₃', 233]];
+export const DIELECTRICS = [['вакуум', 1], ['воздух', 1.0006], ['тефлон', 2.1], ['пластик', 3], ['бумага', 3.5], ['резина', 7], ['вода', 80], ['SrTiO₃ (титанат стронция)', 233]];
 export const SLIDE_T = 8;
 // fraction of the plate area the slab covers: in, hold, out
 export const fillOf = t => { const u = t / SLIDE_T; return u < 0.35 ? smoothstep(u / 0.35) : u < 0.65 ? 1 : 1 - smoothstep((u - 0.65) / 0.35); };

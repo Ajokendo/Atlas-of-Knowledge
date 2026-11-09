@@ -109,10 +109,16 @@ export function createEngine(canvas, { fov = 18, near = 0.1, far = 400, bg = '#f
       if (o.isLine || o.isLineSegments || o.isPoints || o.isSprite || o.userData.noEdge) { swap.push([o, null]); o.visible = false; return; }
       if (o.isMesh) { swap.push([o, o.material]); o.material = normalMat(o.userData.tone ?? TONE.mid); }
     });
-    renderer.setRenderTarget(normalRT); renderer.setClearColor(0x000000, 0); renderer.clear();
-    renderer.render(scene, camera);
-    renderer.setRenderTarget(null); renderer.setClearColor(bg, 1);
-    for (const [o, m] of swap) { if (m) o.material = m; else o.visible = true; }
+    try {
+      renderer.setRenderTarget(normalRT); renderer.setClearColor(0x000000, 0); renderer.clear();
+      renderer.render(scene, camera);
+    } finally {
+      // Always restore the scene, even if the normal/depth pass throws. Otherwise
+      // a transient WebGL failure leaves meshes hidden or using diagnostic materials.
+      renderer.setRenderTarget(null); renderer.setClearColor(bg, 1);
+      for (const [o, m] of swap) { if (m) o.material = m; else o.visible = true; }
+      swap.length = 0;
+    }
     composer.render();
   }
 

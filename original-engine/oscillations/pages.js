@@ -37,7 +37,7 @@ export const PAGES = [
   {
     kicker: 'Глава 6', title: 'Колебания', sub: 'движение туда и обратно',
     body: `
-      <p class="lede"><b>Колебание</b> — это движение туда и обратно относительно положения <b>равновесия</b>. Оно является <b>гармоническим</b>, если <b>возвращающая сила</b> направлена к равновесию и пропорциональна смещению. В таком случае период не меняется.</p>
+      <p class="lede"><b>Колебание</b> — это движение туда и обратно относительно положения <b>равновесия</b>. Оно является <b>гармоническим</b>, если <b>возвращающая сила</b> направлена к равновесию и пропорциональна смещению. В идеализированном случае при неизменных параметрах системы период остаётся постоянным.</p>
       <table class="data">
         <tr><td>амплитуда <i>A</i>: максимальное отклонение от равновесия</td><td>${f(M.A)} м</td></tr>
         <tr><td>период <i>T</i>: время одного полного колебания</td><td>${f(M.T0, 3)} с</td></tr>
@@ -79,7 +79,7 @@ export const PAGES = [
       <div class="charts">
         ${chart({ x0: 0, x1: 1, xlabels: ['', ''], y0: -1, y1: 1, ylabels: ['+A', '−A'], xlabel: '', ylabel: 'x', cursors: ['tx'], label: 'Координата: косинусоида', h: 78, series: [{ pts: sample(u => Math.cos(2 * Math.PI * 2 * u), 0, 1) }] })}
         ${chart({ x0: 0, x1: 1, xlabels: ['', ''], y0: -1, y1: 1, ylabels: ['+максимум', '−максимум'], xlabel: '', ylabel: 'v', cursors: ['tv'], label: 'Скорость: минус синусоида', h: 78, series: [{ pts: sample(u => -Math.sin(2 * Math.PI * 2 * u), 0, 1) }] })}
-        ${chart({ x0: 0, x1: 1, xlabels: ['0', '2T'], y0: -1, y1: 1, ylabels: ['+max', '−max'], xlabel: 'время', ylabel: 'a', cursors: ['ta'], label: 'Ускорение: минус косинусоида', h: 88, series: [{ pts: sample(u => -Math.cos(2 * Math.PI * 2 * u), 0, 1) }] })}
+        ${chart({ x0: 0, x1: 1, xlabels: ['0', '2T'], y0: -1, y1: 1, ylabels: ['+максимум', '−максимум'], xlabel: 'время', ylabel: 'a', cursors: ['ta'], label: 'Ускорение: минус косинусоида', h: 88, series: [{ pts: sample(u => -Math.cos(2 * Math.PI * 2 * u), 0, 1) }] })}
       </div>
       <p class="hintline">Нажмите на линию записи, чтобы увидеть её наклон в точке пера — скорость.</p>`,
     cam: { target: [STATIONS.trace - 0.1, 0, 1.45], az: -10, el: 52, dist: 11 }, lit: 'trace', scene: 'trace', look: {},
@@ -109,7 +109,7 @@ export const PAGES = [
         <tr><th>положение</th><th>сила упругости</th><th>вес</th><th>равнодействующая (красная)</th></tr>
         <tr><td>верхняя точка</td><td>${f(M.K * (M.D - M.HANG.A))} Н</td><td>${f(M.WEIGHT)} Н</td><td>${f(M.K * M.HANG.A)} Н ↓</td></tr>
         <tr><td>равновесие</td><td>${f(M.WEIGHT)} Н</td><td>${f(M.WEIGHT)} Н</td><td>0</td></tr>
-        <tr><td>нижняя точка</td><td>${f(M.K * (M.D + M.HANG.A))} Н</td><td>${f(M.WEIGHT)} N</td><td>${f(M.K * M.HANG.A)} Н ↑</td></tr>
+        <tr><td>нижняя точка</td><td>${f(M.K * (M.D + M.HANG.A))} Н</td><td>${f(M.WEIGHT)} Н</td><td>${f(M.K * M.HANG.A)} Н ↑</td></tr>
       </table>
       <p class="hintline">Нажмите на блок, чтобы увидеть диаграмму сил.</p>`,
     cam: { target: at('hang', 0.1, 1.9), az: -14, el: 6, dist: 9 }, lit: 'hang', scene: 'hang', look: {},
@@ -137,7 +137,7 @@ export const PAGES = [
       <table class="data cols">
         <tr><th>груз на пружине</th><th>маятник</th></tr>
         <tr><td><i>T</i> = 2π√(<i>m</i>/<i>k</i>)</td><td><i>T</i> = 2π√(<i>L</i>/<i>g</i>)</td></tr>
-        <tr><td>2<i>T</i>: 4<i>m</i> or ¼<i>k</i></td><td>2<i>T</i>: 4<i>L</i></td></tr>
+        <tr><td>2<i>T</i>: 4<i>m</i> или ¼<i>k</i></td><td>2<i>T</i>: 4<i>L</i></td></tr>
         <tr><td>${f(M.periodSpring(M.DOUBLE.m, M.K))} с → ${f(M.periodSpring(M.DOUBLE.m4, M.K))} с</td><td>${f(M.periodPendulum(M.DOUBLE.L))} с → ${f(M.periodPendulum(M.DOUBLE.L4))} с</td></tr>
       </table>
       <p><b>Числовой пример.</b> Груз массой 8 кг на пружине жёсткостью 2 Н/м: <i>T</i> = 2π√(8/2) = 4π с. Чтобы получить период 8π с, из 8π = 2π√(<i>m</i>/2) находим <i>m</i> = 32 кг — в четыре раза больше.</p>
@@ -172,7 +172,8 @@ export const PAGES = [
       <p class="lede">Подставив закон Гука в Σ<i>F</i> = <i>ma</i>, получим дифференциальное уравнение для <i>x</i>(<i>t</i>):</p>
       <div class="eq">d²<i>x</i>/d<i>t</i>² = −(<i>k</i>/<i>m</i>) <i>x</i></div>
       <p>Проверим функцию <i>x</i> = <i>A</i> cos(ω<i>t</i> + φ): её вторая производная равна −<i>A</i>ω² cos(ω<i>t</i> + φ) = −ω²<i>x</i>. Она удовлетворяет уравнению при любых <i>A</i> и φ, если ω = √(<i>k</i>/<i>m</i>) = ${f(M.W, 1)} рад/с. Значения <i>A</i> и φ определяются начальными условиями: <i>x</i><sub>0</sub> = <i>A</i> cos φ и <i>v</i><sub>0</sub> = −<i>A</i>ω sin φ:</p>
-      <div class="eq"><i>A</i> = √(<i>x</i><sub>0</sub>² + (<i>v</i><sub>0</sub>/ω)²) &nbsp; tan φ = −<i>v</i><sub>0</sub>/ω<i>x</i><sub>0</sub></div>
+      <div class="eq"><i>A</i> = √(<i>x</i><sub>0</sub>² + (<i>v</i><sub>0</sub>/ω)²) &nbsp; φ = atan2(−<i>v</i><sub>0</sub>/ω, <i>x</i><sub>0</sub>)</div>
+      <p>Функция atan2 учитывает знаки обеих начальных величин и выбирает правильную четверть фазы. Одного значения tan φ недостаточно, чтобы однозначно определить угол.</p>
       <table class="data">
         <tr><th>условие запуска</th><th><i>x</i><sub>0</sub>, <i>v</i><sub>0</sub></th><th><i>A</i></th><th>φ</th></tr>
         ${M.STARTS.map((st, i) => `<tr><td>${i ? 'толчок' : 'отпущен'}</td><td>${f(st.x0)} м, ${f(st.v0, 1)} м/с</td><td>${f(st.A)} м</td><td>${f(st.phi / M.DEG, 1)}°</td></tr>`).join('')}
@@ -197,7 +198,7 @@ export const PAGES = [
         <tr><td>стержень длиной <i>L</i>, подвешенный за конец</td><td>⅓<i>mL</i>²</td><td><i>L</i>/2</td><td>2π√(2<i>L</i>/3<i>g</i>) = ${f(M.ROD.T)} с</td></tr>
         <tr><td>обруч на гвозде</td><td>2<i>mR</i>²</td><td><i>R</i></td><td>2π√(2<i>R</i>/<i>g</i>) = ${f(M.HOOP.T)} с</td></tr>
       </table>
-      <div class="charts">${chart({ x0: -5, x1: 0, xlabels: ['5 s ago', 'now'], y0: -9, y1: 9, ylabels: ['+8°', '−8°'], xlabel: 'время', ylabel: 'θ', cursors: ['rodNow', 'strNow'], label: 'Угол отклонения стержня и простого маятника одинаковой длины во времени: период стержня меньше', h: 104,
+      <div class="charts">${chart({ x0: -5, x1: 0, xlabels: ['5 с назад', 'сейчас'], y0: -9, y1: 9, ylabels: ['+8°', '−8°'], xlabel: 'время', ylabel: 'θ', cursors: ['rodNow', 'strNow'], label: 'Угол отклонения стержня и простого маятника одинаковой длины во времени: период стержня меньше', h: 104,
         series: [{ cls: 'trend', live: 'strTh', fn: t => sample(u => M.pendulum(t + u, M.ROD.L, M.ROD.th0).th / M.DEG, -5, 0, 160) }, { live: 'rodTh', fn: t => sample(u => M.physical(M.ROD, t + u).th / M.DEG, -5, 0, 160) }] })}</div>
       <p class="hintline">Сплошная линия: стержень. Пунктир: маятник на нити. Нажмите на стержень.</p>`,
     cam: { target: at('physical', 0.1, 2.1), az: -8, el: 6, dist: 11.5 }, lit: 'rod', scene: 'physical', look: {},
@@ -211,7 +212,7 @@ export const PAGES = [
       <p>Уравнение <i>I</i>α = −κθ аналогично уравнению пружины, если заменить <i>m</i> на <i>I</i>, а <i>k</i> на κ — <b>коэффициент крутильной жёсткости</b> проволоки, равный ${M.TORS.kappa} Н·м/рад. Диск массой ${f(M.TORS.M, 1)} кг и радиусом ${f(M.TORS.R)} м имеет <i>I</i> = ½<i>MR</i>² = ${f(M.TORS.I, 3)} кг·м², поэтому <i>T</i> = ${f(M.TORS.T, 2)} с.</p>
       <p>Здесь не требуется приближение малых углов: в пределах упругости проволоки момент силы пропорционален θ при любом угле закручивания. Период одинаков при ${(M.TORS.th0 / M.DEG).toFixed(0)}° и при 5°.</p>
       <div class="charts">${chart({ x0: -60, x1: 60, y0: -0.3, y1: 0.3, ylabels: ['0,3 Н·м', '−0,3'], xlabels: ['−60°', '60°'], xlabel: 'угол закручивания θ', ylabel: 'τ', cursors: ['tq'], label: 'Момент силы в зависимости от угла закручивания: наклон прямой равен −κ', h: 120,
-        series: [{ pts: [[-60, M.TORS.kappa * 60 * M.DEG], [60, -M.TORS.kappa * 60 * M.DEG]], tag: [12, -0.08, 'slope −κ'] }] })}</div>
+        series: [{ pts: [[-60, M.TORS.kappa * 60 * M.DEG], [60, -M.TORS.kappa * 60 * M.DEG]], tag: [12, -0.08, 'наклон −κ'] }] })}</div>
       <p class="hintline">Нажмите на диск, чтобы увидеть момент силы со стороны проволоки.</p>`,
     cam: { target: at('torsion', 0.1, 1.9), az: -14, el: 22, dist: 5.9 }, lit: 'disc', scene: 'torsion', look: {},
     fig: 'Диск, закручивающий проволоку',

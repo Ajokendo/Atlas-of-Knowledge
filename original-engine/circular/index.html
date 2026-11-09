@@ -10,13 +10,13 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../atlas.css">
 <link rel="stylesheet" href="../engine/book.css">
+<link rel="stylesheet" href="circular.css">
 <link rel="expect" href="#right" blocking="render">
 <script src="../engine/cover.js"></script>
 <style>.lbl.vec.blue { color: #3f6896; }</style>
 <script type="importmap">
 { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/" } }
 </script>
-<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body class="book-body">
   <header class="topbar">
@@ -36,7 +36,7 @@
 
     <section class="page right" id="right">
       <div class="figure">
-        <canvas id="gl" aria-label="Интерактивная схема: движение по окружности и орбиты — от шара на нити до спутников. Наведите курсор и нажмите на элемент, чтобы рассмотреть его."></canvas>
+        <canvas id="gl" aria-label="Интерактивная схема: движение по окружности и орбиты — от шара на нити до спутников. На сенсорном экране выберите объект в списке или коснитесь сцены, чтобы открыть разбор."></canvas>
         <div id="labels" aria-hidden="true"></div>
         <div class="corner tl" id="figno">Рис. 1</div>
         <div class="corner tr" id="figtitle"></div>
@@ -53,7 +53,7 @@
   </main>
 
   <p class="scroll-cue" id="cue">Прокрутите страницу, чтобы перелистнуть</p>
-  <p style="max-width:900px;margin:18px auto 28px;padding:0 20px;color:#777;font:12px/1.6 Inter,Arial,sans-serif;text-align:center">Русскоязычная адаптация открытого проекта <a href="https://github.com/nathanliow/atlas-of-physics" target="_blank" rel="noopener noreferrer">Atlas of Physics — Nathan Liow</a>. Исходный проект распространяется по лицензии MIT; сведения о сторонних материалах и объёме адаптации — в <a href="../../THIRD_PARTY_NOTICES.md">уведомлении о лицензиях</a>.</p>
+  <p style="max-width:900px;margin:18px auto 28px;padding:0 20px;color:#6b6b70;font:12px/1.6 Inter,Arial,sans-serif;text-align:center">Русскоязычная адаптация открытого проекта <a href="https://github.com/nathanliow/atlas-of-physics" target="_blank" rel="noopener noreferrer">Atlas of Physics — Nathan Liow</a>. Исходный проект распространяется по лицензии MIT; сведения о сторонних материалах и объёме адаптации — в <a href="../../THIRD_PARTY_NOTICES.md">уведомлении о лицензиях</a>.</p>
   <script type="module" src="main.js"></script>
 </body>
 </html>

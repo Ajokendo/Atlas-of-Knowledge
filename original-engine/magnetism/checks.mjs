@@ -29,6 +29,14 @@ check('right-hand rule: current +x, point at +y → B along +z', M.segB([-1, 0, 
 // ---------- 2 · F = qv × B ----------
 { const F = M.rhrForce(M.QE, 90);
   check('F = qvB sin θ at 90°', near(M.len(F), M.RHR.Fmax), `${e(M.RHR.Fmax, 2)} N`);
+{ const displayForce = d => M.RHR.Fmax * M.sinDeg(d);
+  check('Lorentz-force readout: parallel and antiparallel endpoints display exact zero', displayForce(0) === 0 && displayForce(180) === 0 && near(displayForce(90), M.RHR.Fmax));
+{ const components = d => [Math.abs(M.RHR.v * M.cosDeg(d)), M.RHR.v * M.sinDeg(d), M.RHR.Fmax * M.sinDeg(d)];
+  check('Lorentz scene facts: parallel and perpendicular endpoints are exact zero', components(0)[1] === 0 && components(0)[2] === 0 && components(90)[0] === 0 && components(180)[1] === 0 && components(180)[2] === 0); } }
+{ const T = M.RHR.T, angles = [0, 0.25, 0.5, 0.75, 1].map(u => M.rhrAngle(u * T));
+  let avg = 0; const n = 20000; for (let i = 0; i < n; i++) avg += Math.sin(M.rhrAngle((i + 0.5) * T / n) * Math.PI / 180); avg *= T / n;
+  check('RHR animation: uniform angular speed on each half-cycle', angles.every((a, i) => near(a, [0, 90, 180, 90, 0][i], 1e-12)));
+  check('RHR animation: time-average force matches 2qvB/π', near(avg / T, 2 / Math.PI, 1e-8)); }
   check('F = qvB sin θ at every angle', [0, 30, 60, 120, 150, 180].every(d => near(M.len(M.rhrForce(M.QE, d)), M.RHR.Fmax * Math.sin(d * Math.PI / 180), 1e-9) || M.len(M.rhrForce(M.QE, d)) < 1e-25));
   check('F ⊥ v and F ⊥ B, so B does no work (F·v = 0)', [20, 70, 130].every(d => Math.abs(M.dot(M.rhrForce(M.QE, d), M.rhrV(d))) < 1e-30 && Math.abs(M.rhrForce(M.QE, d)[0]) < 1e-30));
   check('proton pushed up (+y), electron down', M.rhrForce(M.QE, 90)[1] > 0 && M.rhrForce(-M.QE, 90)[1] < 0); }
@@ -42,6 +50,7 @@ check('closed-form orbit obeys m dv/dt = qv × B', [0, 1].every(i => [0.1, 0.37]
 check('stepping the force by RK4 reproduces the orbit', [0, 1].every(i => { const o = M.orbit(i, 0), n = 4000, r = M.pushCharge(M.QE, M.MP, o.p, o.v, [0, 0, 0], [0, -M.CYC.B, 0], 0.3 * M.CYC.T / n, n);
   return M.len(M.sub(r.p, M.orbit(i, 0.3 * M.CYC.T).p)) < 1e-9 * 100 * M.CYC.r[i]; }));
 check('both return to the start together: T = 2πm/qB, not depending on v', [0, 1].every(i => M.len(M.sub(M.orbit(i, M.CYC.T).p, M.orbit(i, 0).p)) < 1e-12), `T ${e(M.CYC.T, 3)} s, f ${(M.CYC.f / 1e6).toFixed(3)} MHz`);
+check('cyclotron: charge sign reverses curvature, while radius and period use |q|', (() => { const dt = M.CYC.T * 1e-4, v = [M.CYC.v[0], 0, 0], B = [0, -M.CYC.B, 0], p = M.pushCharge(M.QE, M.MP, [0, 0, 0], v, [0, 0, 0], B, dt, 1), n = M.pushCharge(-M.QE, M.MP, [0, 0, 0], v, [0, 0, 0], B, dt, 1); return p.p[2] < 0 && n.p[2] > 0 && near(Math.abs(p.p[2]), Math.abs(n.p[2]), 1e-12) && near(M.MP * M.CYC.v[0] / (Math.abs(M.QE) * M.CYC.B), M.CYC.r[0]) && near(2 * Math.PI * M.MP / (Math.abs(M.QE) * M.CYC.B), M.CYC.T); })());
 check('no work: the speed stays constant', [0, 1].every(i => [0.2, 0.55, 0.9].every(f => near(M.len(M.orbit(i, f * M.CYC.T).v), M.CYC.v[i], 1e-12))));
 
 // ---------- 4 · velocity selector ----------
@@ -106,9 +115,9 @@ check('loop: B through the middle along +x (right-hand rule)', M.ringB([0, 0, 0]
   check('solenoid: ∮B·ds round the Amperian rectangle = μ₀ N_enc I', near(amp, M.MU0 * M.rectTurns() * M.SOL.I, 2e-3), `${M.rectTurns()} turns inside`); }
 { const B = M.torB([M.TOR.R0, 0, 0]);
   check('toroid: inside, B = μ₀NI/2πr (within 2%)', [0.115, 0.13, 0.14].every(r => rel(M.len(M.torB([r, 0, 0])), M.torIdeal(r)) < 0.02), uT(M.torIdeal(M.TOR.R0)) + ' at r = 13 cm');
-  check('toroid: B runs round the ring', Math.abs(B[2]) > 100 * Math.hypot(B[0], B[1]));
+  check('toroid: B runs round the ring in the +z direction at the +x outer point', B[2] > 100 * Math.hypot(B[0], B[1]));
   check('toroid: B ≈ 0 in the hole and outside', M.len(M.torB([0.05, 0, 0])) < 0.03 * M.len(B) && M.len(M.torB([0.21, 0, 0])) < 0.03 * M.len(B));
-  check('toroid: ∮B·ds = μ₀NI on a circle inside the ring', near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), -M.MU0 * M.TOR.N * M.TOR.I, 3e-3) || near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), M.MU0 * M.TOR.N * M.TOR.I, 3e-3)); }
+  check('toroid: ∮B·ds = −μ₀NI for the documented +y-oriented contour', near(M.lineIntegral(M.torB, M.circlePts([0, 0, 0], M.TOR.R0, 'y', 720)), -M.MU0 * M.TOR.N * M.TOR.I, 3e-3)); }
 
 // ---- practice ----
 { // structure. pages.js imports world.js (three.js, browser-only), so the page count is written here: 9 pages, 0–8

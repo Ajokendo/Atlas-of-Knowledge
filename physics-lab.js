@@ -22,7 +22,7 @@ function init(root){
  const id=root.dataset.chapter, cfg=presets[id]||presets["01"], canvas=root.querySelector("canvas"), speed=root.querySelector("[data-speed]"), speedOut=root.querySelector("[data-speed-out]"), play=root.querySelector("button"), phase=root.querySelector("[data-phase]"), phaseOut=root.querySelector("[data-phase-out]");
  const paramName=root.querySelector("[data-phase-name]");if(paramName)paramName.textContent=cfg.param||"Параметр";
  const motionPreference=window.matchMedia("(prefers-reduced-motion: reduce)");
- let renderer,scene,camera,object,group,clock=new THREE.Clock(),visible=true,userPaused=false,running=!motionPreference.matches,elapsed=0,drag=false,lastX=0,lastY=0,rotX=-.28,rotY=.42;
+ let renderer,scene,camera,object,group,clock=new THREE.Clock(),visible=true,userChoice=null,running=!motionPreference.matches,elapsed=0,drag=false,lastX=0,lastY=0,rotX=-.28,rotY=.42;
  play.textContent=running?"Пауза":"Продолжить";
  try{
   renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.setSize(canvas.clientWidth,canvas.clientHeight,false);renderer.outputColorSpace=THREE.SRGBColorSpace;
@@ -57,7 +57,7 @@ function init(root){
  case "induction": {const ring=new THREE.Mesh(new THREE.TorusGeometry(1.1,.09,16,80),gold);ring.rotation.x=Math.PI/2;group.add(ring);for(let i=0;i<5;i++)arrow([-.5+i*.25,1.8,0],[-.5+i*.25,.8,0],"#6487a5",.12);object=sphere(.22,red,0,2.1,0);break;}
  }
  const resize=()=>{const w=canvas.clientWidth,h=canvas.clientHeight;if(!w||!h)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();};new ResizeObserver(resize).observe(canvas);
- canvas.addEventListener("pointerdown",e=>{drag=true;lastX=e.clientX;lastY=e.clientY;canvas.setPointerCapture(e.pointerId);});canvas.addEventListener("pointerup",()=>drag=false);canvas.addEventListener("pointermove",e=>{if(!drag)return;rotY+=(e.clientX-lastX)*.008;rotX+=(e.clientY-lastY)*.008;rotX=Math.max(-1.1,Math.min(1.1,rotX));lastX=e.clientX;lastY=e.clientY;});
+ canvas.tabIndex=0;canvas.setAttribute("aria-label",cfg.name+". "+cfg.object+". Вращение: перетаскивание мышью или клавиши со стрелками; Home — сброс положения.");canvas.setAttribute("aria-keyshortcuts","ArrowUp ArrowDown ArrowLeft ArrowRight Home");canvas.addEventListener("pointerdown",e=>{drag=true;lastX=e.clientX;lastY=e.clientY;canvas.setPointerCapture(e.pointerId);});const endDrag=()=>{drag=false;};canvas.addEventListener("pointerup",endDrag);canvas.addEventListener("pointercancel",endDrag);canvas.addEventListener("pointermove",e=>{if(!drag)return;rotY+=(e.clientX-lastX)*.008;rotX+=(e.clientY-lastY)*.008;rotX=Math.max(-1.1,Math.min(1.1,rotX));lastX=e.clientX;lastY=e.clientY;});canvas.addEventListener("keydown",e=>{const step=e.shiftKey ? 0.2 : 0.08;let handled=true;switch(e.key){case "ArrowLeft":rotY-=step;break;case "ArrowRight":rotY+=step;break;case "ArrowUp":rotX=Math.max(-1.1,rotX-step);break;case "ArrowDown":rotX=Math.min(1.1,rotX+step);break;case "Home":rotX=-.28;rotY=.42;break;default:handled=false;}if(handled){e.preventDefault();renderer.render(scene,camera);}});
  const plot=root.querySelector("[data-physics-plot]"),valueOut=root.querySelector("[data-physics-value]"),labelOut=root.querySelector("[data-physics-label]"),formulaOut=root.querySelector("[data-physics-formula]");
  const pctx=plot?.getContext("2d");
  const calc=p=>{
@@ -68,7 +68,7 @@ function init(root){
    case "linear":{const v=1+7*p;val=v;label="скорость, м/с";formula="x(t) = v · t";series=sample(t=>v*t/4);break;}
    case "force":{const F=2+18*p,m=2;val=F/m;label="ускорение, м/с²";formula="a = F / m = "+fmt(F)+" / "+fmt(m);series=sample(t=>val);break;}
    case "circle":{const r=.5+2.5*p,v=3;val=v*v/r;label="центростремительное ускорение, м/с²";formula="aц = v² / r = 9 / "+fmt(r);series=sample(()=>val);break;}
-   case "energy":{const h=1+9*p;val=9.81*h;label="потенциальная энергия на 1 кг, Дж/кг";formula="Eп / m = g · h = 9,81 · "+fmt(h);series=sample(()=>val);break;}
+   case "energy":{const h=10-9*p;val=9.80*h;label="потенциальная энергия на 1 кг, Дж/кг";formula="Eп / m = g · h = 9,80 · "+fmt(h);series=sample(()=>val);break;}
    case "collision":{const m=.5+4.5*p,v=3;val=m*v;label="импульс первого тела, кг·м/с";formula="p₁ = m₁ · v₁ = "+fmt(m)+" · 3";series=sample(t=>t<2?val*(1-t/2):0);break;}
    case "oscillation":{const A=.1+.9*p,T=2;val=A*Math.cos(2*Math.PI*t/T);label="смещение, м";formula="x(t) = A cos(2πt/T), A = "+fmt(A)+" м";series=sample(t=>A*Math.cos(2*Math.PI*t/T));break;}
    case "rotation":{const I=.1+1.9*p,tau=2;val=tau/I;label="угловое ускорение, рад/с²";formula="α = τ / I = 2 / "+fmt(I);series=sample(()=>val);break;}
@@ -88,15 +88,15 @@ function init(root){
  let rafId=0;
  const render=()=>{if(!visible||!running){rafId=0;return;}const dt=Math.min(clock.getDelta(),.04);elapsed+=dt*(.35+(+speed.value)/10);const p=+phase.value/100;if(cfg.kind==="oscillation"){const A=.1+.9*p,current=A*Math.cos(2*Math.PI*elapsed/2);valueOut.textContent=current.toFixed(2).replace(".",",");}speedOut.textContent=(+speed.value).toFixed(1).replace(".",",")+"×";phaseOut.textContent=Math.round(p*100)+"%";
   group.rotation.set(rotX,rotY,0);group.scale.setScalar(1);
-  if(object){if(cfg.kind==="linear")object.position.x=-2+((elapsed*(.3+p*1.8))%4);if(cfg.kind==="force")object.position.x=Math.sin(elapsed*(.2+p))*((.2+p)*.8);if(cfg.kind==="circle"){const r=.5+2.5*p;object.position.x=r*Math.cos(elapsed);object.position.z=r*Math.sin(elapsed);}if(cfg.kind==="energy")object.position.x=-1.55+1.8*p;if(cfg.kind==="collision"){object.position.x=-2+2*p;group.children.find(o=>o.isMesh&&o.material===blue)?.position.set(2-2*p,-.7,0);}if(cfg.kind==="oscillation")object.position.y=-.65+Math.sin(elapsed*(.5+p*3))* (.2+p*.3);if(cfg.kind==="rotation")object.rotation.y=elapsed*(.3+p*2);if(cfg.kind==="fluid")object.position.y=.4+Math.sin(elapsed)*(.05+p*.3);if(cfg.kind==="gauss")object.rotation.y=elapsed*.4;if(cfg.kind==="potential")object.position.y=-.7+Math.sin(elapsed)*.08;if(cfg.kind==="circuit")object.rotation.y=elapsed*.5;if(cfg.kind==="induction")object.position.z=Math.sin(elapsed*(.3+p*3))*.65;}
+  if(object){if(cfg.kind==="linear")object.position.x=-2+((elapsed*(.3+p*1.8))%4);if(cfg.kind==="force")object.position.x=Math.sin(elapsed*(.2+p))*((.2+p)*.8);if(cfg.kind==="circle"){const r=.5+2.5*p;object.position.x=r*Math.cos(elapsed);object.position.z=r*Math.sin(elapsed);}if(cfg.kind==="energy"){object.position.x=-1.55+1.8*p;object.position.y=.55-.63*p;}if(cfg.kind==="collision"){object.position.x=-2+2*p;group.children.find(o=>o.isMesh&&o.material===blue)?.position.set(2-2*p,-.7,0);}if(cfg.kind==="oscillation")object.position.y=-.65+Math.sin(elapsed*(.5+p*3))* (.2+p*.3);if(cfg.kind==="rotation")object.rotation.y=elapsed*(.3+p*2);if(cfg.kind==="fluid")object.position.y=.4+Math.sin(elapsed)*(.05+p*.3);if(cfg.kind==="gauss")object.rotation.y=elapsed*.4;if(cfg.kind==="potential")object.position.y=-.7+Math.sin(elapsed)*.08;if(cfg.kind==="circuit")object.rotation.y=elapsed*.5;if(cfg.kind==="induction")object.position.z=Math.sin(elapsed*(.3+p*3))*.65;}
   renderer.render(scene,camera);rafId=requestAnimationFrame(render);
  };
  const startLoop=()=>{if(!rafId&&visible&&running){clock.getDelta();rafId=requestAnimationFrame(render);}};
  const stopLoop=()=>{if(rafId){cancelAnimationFrame(rafId);rafId=0;}clock.getDelta();renderer.render(scene,camera);};
  calc(+phase.value/100);renderer.render(scene,camera);startLoop();
- play.addEventListener("click",()=>{userPaused=running;running=!running&&visible;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
- motionPreference.addEventListener("change",e=>{running=visible&&!userPaused&&!e.matches;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
+ play.addEventListener("click",()=>{userChoice=!running;running=userChoice;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
+ motionPreference.addEventListener("change",e=>{running=visible&&(userChoice===null?!e.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();});
  speed.addEventListener("input",()=>speedOut.textContent=(+speed.value).toFixed(1).replace(".",",")+"×");phase.addEventListener("input",()=>{phaseOut.textContent=phase.value+"%";calc(+phase.value/100);});
- const observer=new IntersectionObserver(entries=>{for(const e of entries){visible=e.isIntersecting;running=visible&&!userPaused&&!motionPreference.matches;play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();}},{threshold:.08});observer.observe(root);
+ const observer=new IntersectionObserver(entries=>{for(const e of entries){visible=e.isIntersecting;running=visible&&(userChoice===null?!motionPreference.matches:userChoice);play.textContent=running?"Пауза":"Продолжить";if(running)startLoop();else stopLoop();}},{threshold:.08});observer.observe(root);
 }
 document.querySelectorAll("[data-physics-lab]").forEach(init);

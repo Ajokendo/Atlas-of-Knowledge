@@ -20,6 +20,16 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 export function startBook(chapter) {
   const { PAGES, PLATES } = chapter;
   const N = PAGES.length;
+
+  // The left page contains animated chart annotations. Keep it out of the live tree:
+  // announce deliberate page changes through a dedicated, stable status region instead.
+  $('left').setAttribute('aria-live', 'off');
+  const pageAnnouncement = document.createElement('div');
+  pageAnnouncement.className = 'page-announcement';
+  pageAnnouncement.setAttribute('role', 'status');
+  pageAnnouncement.setAttribute('aria-live', 'polite');
+  pageAnnouncement.setAttribute('aria-atomic', 'true');
+  document.body.append(pageAnnouncement);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const narrowQ = matchMedia('(max-width: 900px), (max-height: 520px)'), narrow = () => narrowQ.matches;
   // one page of scroll; held steady while a phone's toolbar slides in and out (only a width change resizes it)
@@ -41,6 +51,7 @@ export function startBook(chapter) {
       <p class="qtext"><span class="qn">${n + 1}</span>${q.q}</p>
       ${q.choices ? `<ol class="choices">${q.choices.map((c, k) => `<li><button type="button" data-c="${k}"><span class="letter">${'ABCDE'[k]}</span><span>${c}</span></button></li>`).join('')}</ol>`
         : '<button type="button" class="reveal">Показать решение</button>'}
+      <p class="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
       <div class="why" hidden>${q.why || q.solution}</div></div>`).join('')}</section>`;
   };
   const xrefHtml = i => {
@@ -57,14 +68,22 @@ export function startBook(chapter) {
   $('sheet').addEventListener('click', e => {
     const b = e.target.closest('button'), q = b && b.closest('.q');
     if (b?.dataset.turn) return goto(+b.dataset.turn);
-    if (!q) return;
+    if (!q || !b) return;
     const item = PRACTICE[shown][+q.dataset.q];
+    const feedback = q.querySelector('.feedback');
     if (b.dataset.c !== undefined) {
       if (q.classList.contains('done')) return;
       q.classList.add('done');
       q.querySelectorAll('[data-c]').forEach(c => { c.disabled = true; c.classList.toggle('right', +c.dataset.c === item.answer); });
-      if (+b.dataset.c !== item.answer) b.classList.add('wrong');
-    } else if (b.classList.contains('reveal')) b.hidden = true;
+      const correct = +b.dataset.c === item.answer;
+      if (!correct) b.classList.add('wrong');
+      feedback.textContent = correct
+        ? 'Верно. Разбор ответа показан ниже.'
+        : 'Неверно. Правильный ответ отмечен. Разбор показан ниже.';
+    } else if (b.classList.contains('reveal')) {
+      b.hidden = true;
+      feedback.textContent = 'Решение показано ниже.';
+    } else return;
     q.querySelector('.why').hidden = false;
   });
   let shown = -1, leafFor = -1;
@@ -83,13 +102,15 @@ export function startBook(chapter) {
     $('figno').textContent = `Рис. ${chapter.no}${i ? '.' + i : ''}`;
     $('figtitle').textContent = PAGES[i].fig;
     [...$('dots').children].forEach((b, k) => b.setAttribute('aria-current', k === i));
+    pageAnnouncement.textContent = '';
+    requestAnimationFrame(() => { pageAnnouncement.textContent = `Страница ${i + 1}: ${PAGES[i].title}. Рисунок: ${PAGES[i].fig}.`; });
   }
   const goto = (i, now) => scrollTo({ top: Math.max(0, Math.min(N - 1, i)) * pageH, behavior: reduced || now ? 'auto' : 'smooth' });
   const fromHash = () => { const m = /^#(\d+)$/.exec(location.hash); return m && +m[1] < N ? +m[1] : null; };
   history.scrollRestoration = 'manual';
   addEventListener('hashchange', () => { const k = fromHash(); if (k !== null) goto(k); });
   // a compact pager for small screens, where a row of dots would not fit
-  $('dots').insertAdjacentHTML('afterend', '<span class="pager"><button type="button" aria-label="Предыдущая страница">‹</button><span id="pagenum"></span><button type="button" aria-label="Следующая страница">›</button></span><a class="eqlink" href="../equations/">Формулы</a><a class="gh" href="https://github.com/nathanliow/atlas-of-physics" aria-label="Source on GitHub"><svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>');
+  $('dots').insertAdjacentHTML('afterend', '<span class="pager"><button type="button" aria-label="Предыдущая страница">‹</button><span id="pagenum"></span><button type="button" aria-label="Следующая страница">›</button></span><a class="eqlink" href="../equations/">Формулы</a><a class="gh" href="https://github.com/nathanliow/atlas-of-physics" aria-label="Исходный код на GitHub"><svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></a>');
   const [prevB, nextB] = document.querySelectorAll('.pager button');
   prevB.onclick = () => goto(Math.round(scrollY / pageH) - 1); nextB.onclick = () => goto(Math.round(scrollY / pageH) + 1);
   PAGES.forEach((p, i) => {
@@ -102,6 +123,73 @@ export function startBook(chapter) {
   // ---------- scene ----------
   const E = createEngine($('gl'), { fov: 18, near: 0.2, far: 300 });
   const W = chapter.buildWorld(E);
+
+  // One native control exposes every scene assembly to keyboard and assistive-technology users.
+  // A single select keeps the tab order short even in chapters with many interactive objects.
+  const scenePicker = document.createElement('select');
+  scenePicker.className = 'scene-picker';
+  scenePicker.setAttribute('aria-label', 'Выбрать объект на 3D-сцене');
+  scenePicker.setAttribute('aria-controls', 'plate');
+  const emptyScene = document.createElement('option');
+  emptyScene.value = '';
+  emptyScene.textContent = 'Выбрать объект сцены…';
+  scenePicker.append(emptyScene);
+  for (const [key, group] of Object.entries(E.ASM)) {
+    // Match pointer picking: non-pickable helpers and assemblies without a breakdown are omitted.
+    if (group.userData.noPick || !PLATES[key]) continue;
+    const title = group.userData.title || key;
+    const option = document.createElement('option');
+    option.value = key;
+    option.textContent = title;
+    scenePicker.append(option);
+  }
+  $('gl').parentElement.append(scenePicker);
+  scenePicker.addEventListener('focus', () => { focusHandoffToken++; });
+  scenePicker.addEventListener('change', () => {
+    // The empty option is also the keyboard-accessible way to dismiss a breakdown.
+    select(scenePicker.value || null, true);
+  });
+  // A native select may restore focus after its change handler. The keyup event
+  // occurs after Enter has committed the option, so make one final focus handoff.
+  scenePicker.addEventListener('keyup', event => {
+    if (event.key !== 'Enter' || !scenePicker.value) return;
+    const handoffToken = focusHandoffToken;
+    const focusExplanation = () => {
+      if (handoffToken !== focusHandoffToken) return;
+      const plate = $('plate');
+      const active = document.activeElement;
+      if (plate.hidden || (active !== scenePicker && active !== document.body && active !== document.documentElement)) return;
+      plate.querySelector('#scene-plate-title')?.focus({ preventScroll: true });
+    };
+    requestAnimationFrame(focusExplanation);
+    setTimeout(focusExplanation, 0);
+  });
+
+  // Dynamic readouts change every frame, so do not put the readout itself in a live region.
+  // Offer an explicit, on-demand announcement instead.
+  const readout = $('readout');
+  readout.setAttribute('aria-label', 'Текущие значения интерактивной модели');
+  const readoutSpeak = document.createElement('button');
+  readoutSpeak.type = 'button';
+  readoutSpeak.className = 'readout-announce';
+  readoutSpeak.textContent = 'Озвучить текущие значения';
+  readoutSpeak.setAttribute('aria-controls', 'readout-announcement');
+  const readoutAnnouncement = document.createElement('div');
+  readoutAnnouncement.id = 'readout-announcement';
+  readoutAnnouncement.className = 'readout-announcement';
+  readoutAnnouncement.setAttribute('role', 'status');
+  readoutAnnouncement.setAttribute('aria-live', 'polite');
+  readoutAnnouncement.setAttribute('aria-atomic', 'true');
+  readoutSpeak.addEventListener('click', () => {
+    const value = readout.textContent.trim();
+    readoutAnnouncement.textContent = '';
+    requestAnimationFrame(() => {
+      readoutAnnouncement.textContent = value
+        ? `Текущие значения: ${value}`
+        : 'Для этой страницы нет отдельных числовых показаний.';
+    });
+  });
+  readout.parentElement.append(readoutSpeak, readoutAnnouncement);
   // the figure's box, read once per resize: reading it every frame forced a layout after each DOM write.
   // Its size is the layout size, so the book zooming open (cover.js) cannot shrink the canvas; cover.js refits after.
   let rect;
@@ -127,6 +215,8 @@ export function startBook(chapter) {
 
   // ---------- hover / click ----------
   let hovered = null, selected = null, pageLit = PAGES[0].lit;
+  // Invalidate delayed focus retries when the learner intentionally returns to the picker.
+  let focusHandoffToken = 0;
   const relight = () => E.setLit(hovered || selected || pageLit);
   // hover is re-checked every frame at the pointer's last spot, so moving things light up as they
   // pass under a still cursor and a click lands on whatever is lit at that moment
@@ -164,6 +254,18 @@ export function startBook(chapter) {
     }
     drag = null; $('gl').classList.remove('dragging');
   });
+  // Browsers may cancel a touch gesture when it becomes a page scroll or the OS takes over.
+  // Clear the drag latch so the next pointer interaction starts from a clean state.
+  const clearDrag = () => {
+    drag = null;
+    $('gl').classList.remove('dragging');
+  };
+  $('gl').addEventListener('pointercancel', clearDrag);
+  // A tab switch, app switch, or window deactivation can interrupt a drag without pointerup.
+  addEventListener('blur', clearDrag);
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) clearDrag();
+  });
   $('gl').addEventListener('dblclick', () => { orbit.az = 0; orbit.el = 0; orbit.pan.set(0, 0, 0); });
   $('gl').addEventListener('pointermove', e => {
     if (drag) {
@@ -184,7 +286,9 @@ export function startBook(chapter) {
   });
   $('gl').addEventListener('pointerleave', () => { pointer = null; anchor = null; hovered = null; relight(); $('gl').classList.remove('pointing'); });
   addEventListener('keydown', e => {
-    if (e.key === 'Escape') select(null);
+    if (e.key === 'Escape' && selected) { select(null, true); return; }
+    // Do not steal arrow keys from native controls (notably the scene object picker).
+    if (e.target.closest('select, input, textarea, button, [contenteditable="true"]')) return;
     if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); goto(Math.round(scrollY / pageH) + 1); }
     if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); goto(Math.round(scrollY / pageH) - 1); }
   });
@@ -201,23 +305,60 @@ export function startBook(chapter) {
     const s = box.getBoundingSphere(new E.THREE.Sphere());
     return { target: s.center.toArray(), dist: Math.max(E.distFor(Math.max(s.radius, g.userData.minRadius ?? 1.2)), g.userData.minDist ?? 8) };   // a scene may allow a closer zoom
   }
-  function select(k) {
+  function select(k, moveFocus = false) {
+    const handoffToken = ++focusHandoffToken;
     selected = k;
+    scenePicker.value = k || '';
     for (const [key, g] of Object.entries(E.ASM)) g.userData.target = key === k ? 1 : 0;
     selectScroll = scrollY; relight();
     const plate = $('plate');
-    if (!k) { plate.hidden = true; $('hint').textContent = DEFAULT_HINT; return; }
+    if (!k) {
+      plate.hidden = true;
+      plate.removeAttribute('role'); plate.removeAttribute('aria-labelledby');
+      $('hint').textContent = DEFAULT_HINT;
+      if (moveFocus) scenePicker.focus();
+      return;
+    }
     const u = E.ASM[k].userData;
     plate.innerHTML = `
       <button class="close" type="button">${touch ? 'Закрыть' : 'Закрыть · Esc'}</button>
       <div class="kicker">Разбор</div>
-      <h1>${u.title}</h1>
+      <h1 id="scene-plate-title" tabindex="-1">${u.title}</h1>
       <div class="sub">${u.sub}</div>
       <p>${PLATES[k].text}</p>
       <table class="data" id="facts"></table>`;
+    plate.setAttribute('role', 'region');
+    plate.setAttribute('aria-labelledby', 'scene-plate-title');
     plate.hidden = false;
-    plate.querySelector('.close').onclick = () => select(null);
+    plate.querySelector('.close').onclick = () => select(null, true);
     $('hint').textContent = CLOSE_HINT;
+    if (moveFocus) {
+      // Close the native picker before moving focus. Some browsers restore focus to the
+      // select after its popup closes, so retry after the interaction has settled.
+      scenePicker.blur();
+      const focusTitle = () => {
+        if (handoffToken !== focusHandoffToken || plate.hidden) return;
+        const title = plate.querySelector('#scene-plate-title');
+        const active = document.activeElement;
+        if (!title || active === title) return;
+        // The native select popup may reclaim focus after its change event. Hand focus
+        // to the explanation only while focus is still on the picker or the page itself.
+        if (active !== scenePicker && active !== document.body && active !== document.documentElement) return;
+        scenePicker.blur();
+        title.focus({ preventScroll: true });
+      };
+      focusTitle();
+      requestAnimationFrame(() => requestAnimationFrame(focusTitle));
+      // Native mobile pickers can close asynchronously after the change event.
+      // Retry on window refocus and for a short settling period; never steal focus
+      // once the learner has moved to another interactive element.
+      addEventListener('focus', focusTitle, { once: true });
+      setTimeout(focusTitle, 250);
+      setTimeout(focusTitle, 750);
+      setTimeout(focusTitle, 1500);
+      setTimeout(focusTitle, 3000);
+      setTimeout(focusTitle, 5000);
+    }
   }
 
   // a small badge says when motion is stopped (pointing at something, or a breakdown open)
@@ -243,7 +384,8 @@ export function startBook(chapter) {
   let timeRate = 1, last = performance.now(), clock = chapter.clock0 || 0, orbitPage = 0, orbitHome = false;
   const lookAt = new E.THREE.Vector3();
   function frame(now) {
-    const dt = Math.min(Math.max((now - last) / 1000, 0), 1 / 20); last = now;   // a frame stamp can predate setup
+    const elapsed = Math.max((now - last) / 1000, 0); last = now;
+    const dt = Math.min(elapsed, 1 / 20); // cap physics integration after a delayed frame
     const s = Math.min(Math.max(scrollY / pageH, 0), N - 1);
     const i = Math.min(Math.floor(s), N - 1), f = s - i, j = Math.min(i + 1, N - 1);
     if (selected && Math.abs(scrollY - selectScroll) > pageH * 0.25) select(null);
@@ -266,14 +408,14 @@ export function startBook(chapter) {
     // camera: the scroll path, blended toward the opened thing
     const u = ease(smooth(0.3, 1, f));
     const A = PAGES[i].cam, B = PAGES[j].cam;
-    let cam = { target: A.target.map((v, k) => lerp(v, B.target[k], u)), az: lerp(A.az, B.az, u), el: lerp(A.el, B.el, u), dist: lerp(A.dist, B.dist, u) };
+    let cam = { target: A.target.map((v, k) => lerp(v, B.target[k], u)), az: lerp(A.az, B.az, u), el: lerp(A.el, B.el, u), dist: lerp(narrow() ? (A.mobileDist ?? A.dist) : A.dist, narrow() ? (B.mobileDist ?? B.dist) : B.dist, u) };
     cam.dist *= Math.max(1, 1.25 / E.camera.aspect);
     if (!reduced && !drag) cam.az += Math.sin(now / 5200) * 1.2;
     const page = Math.round(s);
     if (page !== orbitPage) { orbitPage = page; orbitHome = true; }
     if (drag && drag.moved) orbitHome = false;
-    if (orbitHome) { const k = Math.exp(-dt * 3); orbit.az *= k; orbit.el *= k; orbit.pan.multiplyScalar(k); }
-    focusAmt += ((selected ? 1 : 0) - focusAmt) * (1 - Math.exp(-dt * 4));
+    if (orbitHome) { const k = Math.exp(-elapsed * 3); orbit.az *= k; orbit.el *= k; orbit.pan.multiplyScalar(k); }
+    focusAmt += ((selected ? 1 : 0) - focusAmt) * (1 - Math.exp(-elapsed * 4));
     if (selected) lastFocus = focusOf(selected);
     if (focusAmt > 0.001 && lastFocus) {
       const F = lastFocus;

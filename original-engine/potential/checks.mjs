@@ -67,8 +67,9 @@ check('k = 1/(4π ε₀)', near(M.K, 1 / (4 * Math.PI * M.EPS0), 2e-3), `${(1 / 
 // 7 · ring, arc, disc
 { check('ring: kQ/√(R² + z²) vs Σ k dq/r', [0, 0.1, 0.3].every(z => near(M.ringSum(2000, z), M.Vring(z), 1e-9)), `centre ${f(M.Vring(0))} V`);
   check('arc: centre kQ/R, whatever the span', near(M.arcSum(500), M.Varc0, 1e-12), `${f(M.Varc0)} V`);
-  check('disc: 2πkσ(√(R² + z²) − z) vs Σ rings', [0, 0.05, 0.3].every(z => near(M.discSum(20000, z), M.Vdisc(z), 1e-6)));
+  check('disc: 2πkσ(√(R² + z²) − |z|) vs Σ rings on both sides', [-0.3, -0.05, 0, 0.05, 0.3].every(z => near(M.discSum(20000, z), M.Vdisc(z), 1e-6)));
   check('disc: centre 2kQ/R, twice the ring', near(M.Vdisc(0), 2 * M.K * M.DISC.Q / M.DISC.R, 1e-12) && near(M.Vdisc(0), 2 * M.Vring(0), 1e-12), `${f(M.Vdisc(0))} V`);
+  check('disc symmetry across plane', [-0.3, -0.05, 0, 0.05, 0.3].every(z => near(M.Vdisc(-z), M.Vdisc(z), 1e-12)));
   check('ring and disc → kQ/z far away', near(M.Vring(50), M.K * M.RING.Q / 50, 1e-5) && near(M.Vdisc(50), M.K * M.DISC.Q / 50, 1e-5)); }
 
 // 8 · spheres
@@ -77,11 +78,14 @@ check('k = 1/(4π ε₀)', near(M.K, 1 / (4 * Math.PI * M.EPS0), 2e-3), `${(1 / 
   check('insulating sphere: V(r) = −∫∞ E dr', [0, 0.05, 0.1, 0.25].every(r => near(M.Vfrom(M.Eins, Math.max(r, 1e-6)), M.Vins(r), 1e-5)));
   check('conducting sphere: V(r) = −∫∞ E dr, flat inside', [0.02, 0.07, 0.25].every(r => near(M.Vfrom(M.Econd, r), M.Vcond(r), 1e-5)), `${f(M.Vcond(0))} V inside`);
   check('both continuous at the surface', near(M.Vins(R - 1e-12), M.Vins(R + 1e-12), 1e-9) && near(M.Vcond(R - 1e-12), M.Vcond(R + 1e-12), 1e-9));
+  check('uniform insulator: E is continuous at the surface and zero at the centre', near(M.Eins(R - 1e-12), M.Eins(R + 1e-12), 1e-9) && M.Eins(0) === 0);
+  check('conductor: E is zero in the bulk and jumps to kQ/R² outside', M.Econd(R * (1 - 1e-12)) === 0 && near(M.Econd(R * (1 + 1e-12)), M.K * M.SPH.Q / R ** 2, 1e-9));
   check('both: E = −dV/dr', [0.05, 0.2].every(r => near(-(M.Vins(r + h) - M.Vins(r - h)) / (2 * h), M.Eins(r), 1e-5) && Math.abs(-(M.Vcond(r + h) - M.Vcond(r - h)) / (2 * h) - M.Econd(r)) < 1e-3 * M.Econd(R))); }
 
 // 9 · accelerating through 6 V
 { const A = M.ACC;
-  check('both gain qΔV = 6 eV', near(M.eV(M.accel(1, 'p').K), 6, 1e-9) && near(M.eV(M.accel(1, 'e').K), 6, 1e-9));
+  const dVp = M.ACC.Vlo - M.ACC.Vhi, dVe = M.ACC.Vhi - M.ACC.Vlo;
+  check('both gain 6 eV: ΔK = −qΔV for proton and electron', near(M.eV(-M.E_CH * dVp), 6, 1e-9) && near(M.eV(-(-M.E_CH) * dVe), 6, 1e-9) && near(M.eV(M.accel(1, 'p').K), 6, 1e-9) && near(M.eV(M.accel(1, 'e').K), 6, 1e-9));
   check('energy conserved along the way: K + U constant', [0, 0.3, 0.7, 1].every(u => near(M.accel(u, 'p').K + M.accel(u, 'p').U, M.accel(0, 'p').U, 1e-9) && near(M.accel(u, 'e').K + M.accel(u, 'e').U, M.accel(0, 'e').U, 1e-9)));
   check('kinematics: v² = 2ad with a = qE/m', near(A.vp ** 2, 2 * M.E_CH * A.E / M.M_P * A.d, 1e-9) && near(A.ve ** 2, 2 * M.E_CH * A.E / M.M_E * A.d, 1e-9), `proton ${f(A.vp / 1000, 1)} km/s, electron ${f(A.ve / 1e6, 2)} Mm/s`);
   check('proton moves with E (toward lower V), electron against it', M.accel(1, 'p').V < M.accel(0, 'p').V && M.accel(1, 'e').V > M.accel(0, 'e').V);

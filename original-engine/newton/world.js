@@ -26,7 +26,7 @@ export function buildWorld(E) {
   lines(root, grid, '#e6e6e2');
 
   // surfaces: smooth strips are frictionless, hatched patches are rough
-  const smooth = (x0, x1, z0 = -0.9, z1 = 0.9) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Surface' });
+  const smooth = (x0, x1, z0 = -0.9, z1 = 0.9) => part(root, box(x1 - x0, 0.02, z1 - z0, 0.005), { tone: 'lo', pal: 'board', pos: [(x0 + x1) / 2, 0.01, (z0 + z1) / 2], name: 'Поверхность' });
   const rough = (x0, x1, z0 = -0.9, z1 = 0.9) => {
     smooth(x0, x1, z0, z1);
     const h = [];
@@ -34,8 +34,8 @@ export function buildWorld(E) {
     lines(root, h, '#9a9aa0');
   };
 
-  const block = (parent, s, name = 'Block') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
-  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Forces' });
+  const block = (parent, s, name = 'Блок') => part(parent, box(s, s, s, 0.03), { tone: 'hi', name });
+  const force = (parent, red = false) => arrow(parent, red ? 'red' : 'ink', { r: 0.022, head: 0.12, headR: 0.06, name: 'Силы' });
   const tip = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y + 0.16, 0)) : null;
 
   // ---------- 1 · forces: a block at rest ----------
@@ -45,7 +45,7 @@ export function buildWorld(E) {
   const b0 = block(g0, S1); b0.position.set(X0, 0.02 + S1 / 2, 0);
   const fg0 = force(g0), fn0 = force(g0);
   label('vec', 'F<sub>g</sub>', () => tip(fg0)); label('vec', 'F<sub>N</sub>', () => tip(fn0));
-  label('tick', '2.0 kg', () => V(X0 - S1 / 2 - 0.05, 0.02 + S1 + 0.12, S1 / 2));
+  label('tick', '2,0 кг', () => V(X0 - S1 / 2 - 0.05, 0.02 + S1 + 0.12, S1 / 2));
 
   // ---------- 2 · first law: gliding at constant velocity ----------
   const X1 = STATIONS.glide;
@@ -62,11 +62,11 @@ export function buildWorld(E) {
   const X2 = STATIONS.second;
   smooth(X2 - 1.0, X2 + 3.2, -1.4, 1.4);
   const g2 = asm('second', root, { title: 'Одинаковая сила, разная масса', sub: 'ΣF = ma' });
-  const b2a = block(g2, S1, '2.0 kg block'), b2b = block(g2, S2, '4.0 kg block');
+  const b2a = block(g2, S1, 'брусок массой 2,0 кг'), b2b = block(g2, S2, 'брусок массой 4,0 кг');
   const push2a = force(g2), push2b = force(g2), net2a = force(g2, true), net2b = force(g2, true);
   label('vec', 'F', () => tip(push2a)); label('vec', 'F', () => tip(push2b));
-  label('tick', '2.0 kg', () => V(b2a.position.x - S1 / 2, S1 + 0.16, b2a.position.z + S1 / 2));
-  label('tick', '4.0 kg', () => V(b2b.position.x - S2 / 2, S2 + 0.16, b2b.position.z + S2 / 2));
+  label('tick', '2,0 кг', () => V(b2a.position.x - S1 / 2, S1 + 0.16, b2a.position.z + S1 / 2));
+  label('tick', '4,0 кг', () => V(b2b.position.x - S2 / 2, S2 + 0.16, b2b.position.z + S2 / 2));
   const ghosts2 = Array.from({ length: 14 }, (_, k) => ghostBox(k < 7 ? S1 : S2));
 
   // ---------- 4 · friction: a growing push on a rough floor ----------
@@ -75,16 +75,16 @@ export function buildWorld(E) {
   const g3 = asm('friction', root, { title: 'Сила трения', sub: 'сначала трение покоя, затем скольжения' });
   const b3 = block(g3, S1);
   const fg3 = force(g3), fn3 = force(g3), fa3 = force(g3), ff3 = force(g3), net3 = force(g3, true);
-  label('vec', 'F<sub>app</sub>', () => tip(fa3)); label('vec', 'f', () => tip(ff3));
+  label('vec', 'F<sub>прил</sub>', () => tip(fa3)); label('vec', 'f', () => tip(ff3));
   label('vec', 'F<sub>g</sub>', () => tip(fg3)); label('vec', 'F<sub>N</sub>', () => tip(fn3)); label('vec red', 'ΣF', () => tip(net3));
 
   // ---------- 5 · third law: A pushes B ----------
   const X4 = STATIONS.third;
   smooth(X4 - 1.4, X4 + 2.4);
   const g4 = asm('third', root, { title: 'Два соприкасающихся блока', sub: 'A действует на B, B — на A' });
-  const b4a = block(g4, S1, 'Block A · 2.0 kg'), b4b = block(g4, S2, 'Block B · 4.0 kg');
+  const b4a = block(g4, S1, 'Брусок A · 2,0 кг'), b4b = block(g4, S2, 'Брусок B · 4,0 кг');
   const push4 = force(g4), onB = force(g4), onA = force(g4);
-  label('vec', 'F', () => tip(push4)); label('vec', 'F<sub>A on B</sub>', () => tip(onB)); label('vec', 'F<sub>B on A</sub>', () => tip(onA));
+  label('vec', 'F', () => tip(push4)); label('vec', 'F<sub>A→B</sub>', () => tip(onB)); label('vec', 'F<sub>B→A</sub>', () => tip(onA));
   label('tick', 'A', () => V(b4a.position.x, S1 + 0.14, S1 / 2)); label('tick', 'B', () => V(b4b.position.x, S2 + 0.14, S2 / 2));
 
   // ---------- 6 · inclined plane ----------
@@ -92,23 +92,23 @@ export function buildWorld(E) {
   const topX = X5 - L * Math.cos(th) / 2, topY = L * Math.sin(th);
   const tri = new THREE.Shape(); tri.moveTo(topX, 0); tri.lineTo(topX + L * Math.cos(th), 0); tri.lineTo(topX, topY); tri.closePath();
   const rampGeo = new THREE.ExtrudeGeometry(tri, { depth: 1.4, bevelEnabled: false }); rampGeo.translate(0, 0, -0.7);
-  part(root, rampGeo, { tone: 'mid', name: 'Ramp', mat: shadeMat('board', { opacity: 0.55 }) });
+  part(root, rampGeo, { tone: 'mid', name: 'Наклонная плоскость', mat: shadeMat('board', { opacity: 0.55 }) });
   const g5 = asm('incline', root, { title: 'Блок на наклонной плоскости', sub: `${M.THETA_DEG}°, без трения` });
   const b5 = block(g5, S1); b5.rotation.z = -th;
-  const fg5 = force(g5), fn5 = force(g5), par5 = arrow(g5, 'dark', { r: 0.018, head: 0.1, headR: 0.05, name: 'Components', tone: 'mid' }), perp5 = arrow(g5, 'dark', { r: 0.018, head: 0.1, headR: 0.05, name: 'Components', tone: 'mid' }), net5 = force(g5, true);
+  const fg5 = force(g5), fn5 = force(g5), par5 = arrow(g5, 'dark', { r: 0.018, head: 0.1, headR: 0.05, name: 'Составляющие', tone: 'mid' }), perp5 = arrow(g5, 'dark', { r: 0.018, head: 0.1, headR: 0.05, name: 'Составляющие', tone: 'mid' }), net5 = force(g5, true);
   label('vec', 'F<sub>g</sub>', () => tip(fg5)); label('vec', 'F<sub>N</sub>', () => tip(fn5)); label('vec red', 'ΣF', () => tip(net5));
   label('vec', 'mg sin θ', () => tip(par5)); label('vec', 'mg cos θ', () => tip(perp5));
   label('tick', `θ = ${M.THETA_DEG}°`, () => V(topX + L * Math.cos(th) - 0.95, 0.18, 0.75));
 
   // ---------- tension: one string, and two strings at a changing angle ----------
   const XT = STATIONS.tension, CEIL = 2.6;
-  part(root, box(4.4, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XT, CEIL + 0.04, 0], name: 'Ceiling' });
+  part(root, box(4.4, 0.08, 0.5, 0.02), { tone: 'mid', pal: 'board', pos: [XT, CEIL + 0.04, 0], name: 'Потолок' });
   const gT = asm('tension', root, { title: 'Подвешенный блок', sub: 'сила натяжения удерживает его' });
-  const bT1 = block(gT, S1, 'One string'), bT2 = block(gT, S1, 'Two strings');
-  const thin = r => part(gT, new THREE.CylinderGeometry(0.008, 0.008, 1, 8), { tone: 'hi', pal: 'ink', name: 'Strings' });
+  const bT1 = block(gT, S1, 'Одна нить'), bT2 = block(gT, S1, 'Две нити');
+  const thin = r => part(gT, new THREE.CylinderGeometry(0.008, 0.008, 1, 8), { tone: 'hi', pal: 'ink', name: 'Нити' });
   const s1 = thin(), s2a = thin(), s2b = thin(), s2c = thin();
   const fgT1 = force(gT), tT1 = force(gT), fgT2 = force(gT), tT2a = force(gT), tT2b = force(gT);
-  const cmp = () => arrow(gT, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Components', tone: 'mid' });
+  const cmp = () => arrow(gT, 'dark', { r: 0.014, head: 0.08, headR: 0.04, name: 'Составляющие', tone: 'mid' });
   const tx2a = cmp(), ty2a = cmp(), tx2b = cmp(), ty2b = cmp();
   label('vec', 'T', () => tip(tT1)); label('vec', 'F<sub>g</sub>', () => tip(fgT1));
   label('vec', 'T<sub>1</sub>', () => tip(tT2a)); label('vec', 'T<sub>2</sub>', () => tip(tT2b)); label('vec', '<i>mg</i>', () => tip(fgT2));
@@ -118,32 +118,32 @@ export function buildWorld(E) {
   const XP = STATIONS.plane, PY = 3.2;
   const gP = asm('plane', root, { title: 'Самолёт в горизонтальном полёте', sub: 'четыре уравновешенные силы' });
   const plane = new THREE.Group(); gP.add(plane);
-  part(plane, xAxis(new THREE.CylinderGeometry(0.42, 0.3, 4.6, 32)), { tone: 'hi', name: 'Fuselage' });
-  part(plane, xAxis(new THREE.ConeGeometry(0.42, 1.0, 32)).translate(2.8, 0, 0), { tone: 'hi', name: 'Fuselage' });
-  part(plane, xAxis(new THREE.ConeGeometry(0.3, 1.4, 32)).rotateZ(Math.PI).translate(-3.0, 0, 0), { tone: 'hi', name: 'Fuselage' });
-  part(plane, box(1.3, 0.1, 8.4, 0.04), { tone: 'hi', pos: [0.5, 0.15, 0], name: 'Wing' });
-  part(plane, box(0.75, 0.07, 2.8, 0.03), { tone: 'hi', pos: [-3.3, 0.1, 0], name: 'Tail' });
-  part(plane, box(0.9, 1.1, 0.07, 0.03), { tone: 'hi', pos: [-3.35, 0.6, 0], name: 'Tail' });
-  part(plane, box(0.06, 1.7, 0.16, 0.03), { tone: 'mid', pal: 'dark', pos: [3.32, 0, 0], name: 'Propeller' });
-  part(plane, box(0.4, 0.18, 0.5, 0.05), { tone: 'mid', pal: 'dark', pos: [1.2, 0.42, 0], name: 'Canopy' });
+  part(plane, xAxis(new THREE.CylinderGeometry(0.42, 0.3, 4.6, 32)), { tone: 'hi', name: 'Фюзеляж' });
+  part(plane, xAxis(new THREE.ConeGeometry(0.42, 1.0, 32)).translate(2.8, 0, 0), { tone: 'hi', name: 'Фюзеляж' });
+  part(plane, xAxis(new THREE.ConeGeometry(0.3, 1.4, 32)).rotateZ(Math.PI).translate(-3.0, 0, 0), { tone: 'hi', name: 'Фюзеляж' });
+  part(plane, box(1.3, 0.1, 8.4, 0.04), { tone: 'hi', pos: [0.5, 0.15, 0], name: 'Крыло' });
+  part(plane, box(0.75, 0.07, 2.8, 0.03), { tone: 'hi', pos: [-3.3, 0.1, 0], name: 'Хвостовое оперение' });
+  part(plane, box(0.9, 1.1, 0.07, 0.03), { tone: 'hi', pos: [-3.35, 0.6, 0], name: 'Хвостовое оперение' });
+  part(plane, box(0.06, 1.7, 0.16, 0.03), { tone: 'mid', pal: 'dark', pos: [3.32, 0, 0], name: 'Пропеллер' });
+  part(plane, box(0.4, 0.18, 0.5, 0.05), { tone: 'mid', pal: 'dark', pos: [1.2, 0.42, 0], name: 'Кабина' });
   const pLift = force(gP), pW = force(gP), pT = force(gP), pD = force(gP);
-  label('vec', 'lift', () => tip(pLift)); label('vec', 'F<sub>g</sub>', () => tip(pW)); label('vec', 'thrust', () => tip(pT)); label('vec', 'drag', () => tip(pD));
+  label('vec', 'подъёмная сила', () => tip(pLift)); label('vec', 'F<sub>g</sub>', () => tip(pW)); label('vec', 'тяга', () => tip(pT)); label('vec', 'сопротивление воздуха', () => tip(pD));
 
   // ---------- a car speeding up ----------
   const XC = STATIONS.car - 6;
-  part(root, box(24, 0.03, 3.4, 0.01), { tone: 'lo', pal: 'board', pos: [XC + 9, 0.015, 0], name: 'Road' });
+  part(root, box(24, 0.03, 3.4, 0.01), { tone: 'lo', pal: 'board', pos: [XC + 9, 0.015, 0], name: 'Дорога' });
   const dashes = []; for (let x = XC - 2.5; x < XC + 20.5; x += 2) dashes.push(x, 0.035, 0, x + 1, 0.035, 0);
   lines(root, dashes, '#9a9aa0');
   const gC = asm('car', root, { title: 'Разгон автомобиля', sub: 'дорога толкает его вперёд' });
   const carG = new THREE.Group(); gC.add(carG);
-  part(carG, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Body' });
-  part(carG, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Cabin' });
+  part(carG, box(4.2, 0.7, 1.8, 0.18), { tone: 'hi', pos: [0, 0.75, 0], name: 'Корпус' });
+  part(carG, box(2.2, 0.6, 1.6, 0.2), { tone: 'hi', pos: [-0.3, 1.38, 0], name: 'Салон' });
   for (const [x, z] of [[1.35, 0.85], [1.35, -0.85], [-1.35, 0.85], [-1.35, -0.85]]) {
-    part(carG, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28)), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Wheels' });
-    part(carG, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Wheels' });
+    part(carG, zAxis(new THREE.CylinderGeometry(0.36, 0.36, 0.26, 28)), { tone: 'mid', pal: 'dark', pos: [x, 0.36, z], name: 'Колёса' });
+    part(carG, zAxis(new THREE.CylinderGeometry(0.17, 0.17, 0.28, 20)), { tone: 'mid', pos: [x, 0.36, z], name: 'Колёса' });
   }
   const cW = force(gC), cN = force(gC), cF = force(gC), cD = force(gC), cNet = force(gC, true);
-  label('vec', 'F<sub>g</sub>', () => tip(cW)); label('vec', 'F<sub>N</sub>', () => tip(cN)); label('vec', 'friction', () => tip(cF)); label('vec', 'drag', () => tip(cD)); label('vec red', 'ΣF', () => tip(cNet));
+  label('vec', 'F<sub>g</sub>', () => tip(cW)); label('vec', 'F<sub>N</sub>', () => tip(cN)); label('vec', 'сила трения', () => tip(cF)); label('vec', 'сопротивление воздуха', () => tip(cD)); label('vec red', 'ΣF', () => tip(cNet));
 
 
   // centre of mass: the quartered disc, drawn over solids so it can be seen inside them
@@ -152,7 +152,7 @@ export function buildWorld(E) {
     for (let k = 0; k < 4; k++) {
       const geo = new THREE.CylinderGeometry(r, r, 0.01, 12, 1, false, k * Math.PI / 2, Math.PI / 2); geo.rotateX(Math.PI / 2);
       const mat = shadeMat(k % 2 ? 'paper' : 'ink').clone(); mat.depthTest = false; mat.transparent = true;
-      part(g, geo, { tone: 'hi', name: 'Centre of mass', mat }).renderOrder = 11;
+      part(g, geo, { tone: 'hi', name: 'Центр масс', mat }).renderOrder = 11;
     }
     return g;
   }
@@ -170,31 +170,31 @@ export function buildWorld(E) {
     part(g, xAxis(cyl(0.035, REACH + 0.04, 12)), { tone: 'hi', pos: [dir * (r + REACH / 2 - 0.02), HAND, 0], name });
     g.userData.r = r; return g;
   };
-  const skA = skater(0.17, 1.25, 1, 'Skater A · 50 kg'), skB = skater(0.21, 1.4, -1, 'Skater B · 75 kg');
-  const rope = part(gG, new THREE.CylinderGeometry(0.012, 0.012, 1, 8), { tone: 'mid', pal: 'dark', name: 'Rope' });
+  const skA = skater(0.17, 1.25, 1, 'Фигурист A · 50 кг'), skB = skater(0.21, 1.4, -1, 'Фигурист B · 75 кг');
+  const rope = part(gG, new THREE.CylinderGeometry(0.012, 0.012, 1, 8), { tone: 'mid', pal: 'dark', name: 'Верёвка' });
   const tOnA = force(gG), tOnB = force(gG);
   const cmG = cmMark(gG, 0.09);
-  const sysBox = part(gG, box(1, 1, 1, 0.04), { tone: 'lo', name: 'System', mat: shadeMat('board', { opacity: 0.35 }) });
+  const sysBox = part(gG, box(1, 1, 1, 0.04), { tone: 'lo', name: 'Система', mat: shadeMat('board', { opacity: 0.35 }) });
   const above = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(0, 0.2, 0)) : null;
-  label('vec', 'T<sub>on A</sub>', () => above(tOnA)); label('vec', 'T<sub>on B</sub>', () => above(tOnB));
-  label('tick', 'A · 50 kg', () => V(skA.position.x - 0.12, 1.25 + 0.42, 0.2)); label('tick', 'B · 75 kg', () => V(skB.position.x + 0.62, 1.4 + 0.48, 0.2));
+  label('vec', 'T<sub>на A</sub>', () => above(tOnA)); label('vec', 'T<sub>на B</sub>', () => above(tOnB));
+  label('tick', 'A · 50 кг', () => V(skA.position.x - 0.12, 1.25 + 0.42, 0.2)); label('tick', 'B · 75 кг', () => V(skB.position.x + 0.62, 1.4 + 0.48, 0.2));
   label('vec blue', 'x<sub>cm</sub>', () => V(XG, 0.32, 0.5));
-  label('board', 'system', () => sysBox.visible && gG.userData.explode > 0.5 ? V(sysBox.position.x - sysBox.scale.x / 2 + 0.08, 2.32, 0.65) : null);
+  label('board', 'система', () => sysBox.visible && gG.userData.explode > 0.5 ? V(sysBox.position.x - sysBox.scale.x / 2 + 0.08, 2.32, 0.65) : null);
   { const t = []; for (let k = -1; k <= 1; k += 0.25) t.push(XG, 0.025, k * 1.0, XG, 0.025, k * 1.0 + 0.12); lines(root, t, '#5b86d6'); }   // dashed line through x_cm
 
   // ---------- ΣF_ext = M a_cm: a block on a board, the board pulled ----------
   const XB = STATIONS.board, BD = M.BOARD, XB0 = XB - 1.6, BH = 0.08;
   smooth(XB - 3.2, XB + 3.6, -1.0, 1.0);
   const gB = asm('board', root, { title: 'Блок на доске', sub: 'сила трения между ними внутренняя' });
-  const plank = part(gB, box(BD.len, BH, 0.9, 0.02), { tone: 'mid', name: 'Board · 4.0 kg' });
-  const bB = block(gB, S1, 'Block · 2.0 kg');
+  const plank = part(gB, box(BD.len, BH, 0.9, 0.02), { tone: 'mid', name: 'Доска · 4,0 кг' });
+  const bB = block(gB, S1, 'Блок · 2,0 кг');
   const pullB = force(gB), fOnBlock = force(gB), fOnBoard = force(gB), netB = force(gB, true);
   const cmB = cmMark(gB, 0.07);
   label('vec', 'F', () => tip(pullB)); const below = a => a.visible ? a.localToWorld(V(0, a.userData.arrow.shaft.scale.y / 2, 0)).add(V(-0.1, -0.2, 0.15)) : null;
-  label('vec', 'f<sub>on block</sub>', () => fOnBlock.visible ? tip(fOnBlock).add(V(0.25, 0.08, 0)) : null); label('vec', 'f<sub>on board</sub>', () => below(fOnBoard));
+  label('vec', 'f<sub>на блок</sub>', () => fOnBlock.visible ? tip(fOnBlock).add(V(0.25, 0.08, 0)) : null); label('vec', 'f<sub>на доску</sub>', () => below(fOnBoard));
   label('vec red', 'ΣF<sub>ext</sub>', () => tip(netB));
-  label('tick', '2.0 kg', () => V(bB.position.x - S1 / 2, bB.position.y + S1 / 2 + 0.14, S1 / 2));
-  label('tick', '4.0 kg', () => V(plank.position.x - BD.len / 2 + 0.1, 0.42, 0.45));
+  label('tick', '2,0 кг', () => V(bB.position.x - S1 / 2, bB.position.y + S1 / 2 + 0.14, S1 / 2));
+  label('tick', '4,0 кг', () => V(plank.position.x - BD.len / 2 + 0.1, 0.42, 0.45));
 
   // ---------- AP C: a ball falling with drag F = −bv ----------
   const XD = STATIONS.drag, DR = M.DRAG, RB = 0.24;
@@ -202,9 +202,9 @@ export function buildWorld(E) {
   { const t = [XD - 1.0, 0.02, 0, XD - 1.0, DR.y0 + 0.2, 0];
     for (let y = 0; y <= DR.y0; y += 0.5) t.push(XD - 1.0, y, 0, XD - (y % 1 ? 0.92 : 0.84), y, 0);
     lines(root, t, '#8a8a8f'); }
-  label('axis', '5 m', () => V(XD - 1.05, 5, 0)); label('axis', '0', () => V(XD - 1.05, 0.05, 0));
+  label('axis', '5 м', () => V(XD - 1.05, 5, 0)); label('axis', '0', () => V(XD - 1.05, 0.05, 0));
   const gD = asm('drag', root, { title: 'Падение с сопротивлением ∝ v', sub: 'сопротивление растёт до равенства с силой тяжести' });
-  const ballD = part(gD, new THREE.SphereGeometry(RB, 32, 20), { tone: 'hi', name: 'Ball · 0.50 kg' });
+  const ballD = part(gD, new THREE.SphereGeometry(RB, 32, 20), { tone: 'hi', name: 'Шар · 0,50 кг' });
   const wD = force(gD), dD = force(gD), netD = force(gD, true);
   const ghostsD = Array.from({ length: 8 }, () => ghostCircle(RB));
   label('vec', 'F<sub>g</sub> = <i>mg</i>', () => tip(wD)); label('vec', 'F<sub>d</sub> = <i>bv</i>', () => tip(dD)); label('vec red', 'ΣF', () => tip(netD));
@@ -213,16 +213,16 @@ export function buildWorld(E) {
 
   // ---------- AP C: a steel ball sinking in honey, drawn 10× life size ----------
   const XH = STATIONS.honey, HN = M.HONEY, Z10 = 10, JR = 0.32, BASE = 0.04, HTOP = BASE + HN.jarH * Z10, JH = HTOP + 0.16;
-  part(root, cyl(JR, BASE, 40), { tone: 'mid', pal: 'board', pos: [XH, BASE / 2, 0], name: 'Jar' });
-  part(root, cyl(JR - 0.01, HN.jarH * Z10, 40), { tone: 'lo', pal: 'base', pos: [XH, BASE + HN.jarH * Z10 / 2, 0], name: 'Honey', mat: shadeMat('base', { opacity: 0.4 }) });
-  part(root, new THREE.CylinderGeometry(JR, JR, JH - BASE, 40, 1, true), { tone: 'lo', pal: 'board', pos: [XH, BASE + (JH - BASE) / 2, 0], name: 'Jar', mat: shadeMat('board', { opacity: 0.25 }) });
+  part(root, cyl(JR, BASE, 40), { tone: 'mid', pal: 'board', pos: [XH, BASE / 2, 0], name: 'Сосуд' });
+  part(root, cyl(JR - 0.01, HN.jarH * Z10, 40), { tone: 'lo', pal: 'base', pos: [XH, BASE + HN.jarH * Z10 / 2, 0], name: 'Мёд', mat: shadeMat('base', { opacity: 0.4 }) });
+  part(root, new THREE.CylinderGeometry(JR, JR, JH - BASE, 40, 1, true), { tone: 'lo', pal: 'board', pos: [XH, BASE + (JH - BASE) / 2, 0], name: 'Сосуд', mat: shadeMat('board', { opacity: 0.25 }) });
   { const t = []; for (let k = 0; k <= 12; k++) { const y = BASE + k * 0.1, w = k % 5 ? 0.06 : 0.12; t.push(XH + JR + 0.02, y, 0, XH + JR + 0.02 + w, y, 0); } lines(root, t, '#8a8a8f'); }
-  label('board', '0', () => V(XH + JR + 0.2, BASE, 0)); label('board', '5 cm', () => V(XH + JR + 0.2, BASE + 0.5, 0)); label('board', '10 cm', () => V(XH + JR + 0.2, BASE + 1.0, 0));
+  label('board', '0', () => V(XH + JR + 0.2, BASE, 0)); label('board', '5 см', () => V(XH + JR + 0.2, BASE + 0.5, 0)); label('board', '10 см', () => V(XH + JR + 0.2, BASE + 1.0, 0));
   const gH = asm('honey', root, { title: 'Стальной шар в мёде', sub: 'предельная скорость достигается за миллисекунды' });
   gH.userData.minDist = 4; gH.userData.minRadius = 0.6;
   const RH = HN.r * Z10, YH0 = HTOP - 0.09;
-  const ballH = part(gH, new THREE.SphereGeometry(RH, 24, 16), { tone: 'mid', pal: 'dark', name: 'Steel ball · 10 mm' });
-  const thinF = (red = false) => arrow(gH, red ? 'red' : 'ink', { r: 0.009, head: 0.06, headR: 0.026, name: 'Forces' });
+  const ballH = part(gH, new THREE.SphereGeometry(RH, 24, 16), { tone: 'mid', pal: 'dark', name: 'Стальной шар · 10 мм' });
+  const thinF = (red = false) => arrow(gH, red ? 'red' : 'ink', { r: 0.009, head: 0.06, headR: 0.026, name: 'Силы' });
   const wH = thinF(), dH = thinF(), bH = thinF();
   const ghostsH = Array.from({ length: 6 }, () => ghostCircle(RH));
   label('vec', 'F<sub>g</sub>', () => tip(wH)); label('vec', 'F<sub>d</sub>', () => tip(dH)); label('vec', 'B', () => tip(bH));

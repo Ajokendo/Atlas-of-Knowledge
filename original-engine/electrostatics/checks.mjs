@@ -95,6 +95,16 @@ check('two people 1% charged: about enough to lift the Earth', M.PEOPLE.a > 1 &&
   { const a = M.electron(P.tCross * 1.2), b = M.electron(P.tCross * 1.4); check('past the plates it moves in a straight line at the exit velocity', near((b.y - a.y) / (b.x - a.x), P.vyExit / P.v0, 1e-9) && a.F === 0); }
   check('proton deflects m_e/m_p as much', near(P.yProton / P.yExit, M.ME / M.MP, 1e-12)); }
 
+// chart data must be SVG-ready coordinate pairs, including the straight post-plate segment
+{ const pts = M.electronTrajectory(80), end = M.electron(M.PLATES.run);
+  check('electron chart: 81 finite [x cm, y mm] points from entry through exit path',
+    pts.length === 81 &&
+    pts.every((p, i) => Array.isArray(p) && p.length === 2 && p.every(Number.isFinite) && (i === 0 || p[0] > pts[i - 1][0])) &&
+    near(pts[0][0], 0) && near(pts[0][1], 0) &&
+    near(pts[80][0], end.x * 100) && near(pts[80][1], end.y * 1000),
+    pts.length === 81 ? `end x=${pts[80][0].toFixed(2)} cm, y=${pts[80][1].toFixed(2)} mm` : `points=${pts.length}`);
+}
+
 // ---- practice ----
 { // structure. pages.js imports world.js (three.js, browser-only), so the page count is written here: 9 pages, 0–8
   const NPAGES = 9, bad = [];
