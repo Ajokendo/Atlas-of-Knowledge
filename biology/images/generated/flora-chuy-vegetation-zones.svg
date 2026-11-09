@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">От долины Чуя к высокогорьям / From the Chuy Valley to high elevations</title>
+<desc id="desc">Схематический ландшафтный разрез: долинная степь и полупустыня, кустарниковые склоны, арчовое редколесье, еловые участки влажных ущелий и высокогорные луга. Пояса условны, без точных высот и границ распространения видов. / Schematic landscape transect showing valley steppe and semi-desert, shrub slopes, open juniper woodland, spruce stands in moist gorges and alpine meadows. Belts are conceptual, with no precise elevations or species-range boundaries.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d9e8e7"/><stop offset="1" stop-color="#f6f0dc"/></linearGradient>
+ <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#718b78"/><stop offset="1" stop-color="#c1b99a"/></linearGradient>
+ <linearGradient id="valley" x2="0" y2="1"><stop stop-color="#d9c78e"/><stop offset="1" stop-color="#b4a06d"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<circle cx="1015" cy="112" r="43" fill="#f0d99b" opacity=".8"/>
+<path d="M0 420L120 325 210 360 355 190 430 245 565 120 665 255 790 150 900 280 1030 205 1200 350V675H0Z" fill="url(#mountain)"/>
+<path d="M0 438L130 368 240 405 365 260 445 305 565 175 660 300 785 215 905 340 1030 255 1200 390V675H0Z" fill="#8fa18a"/>
+<path d="M0 500Q170 450 330 495T650 470Q820 430 970 475T1200 455V675H0Z" fill="url(#valley)"/>
+<path d="M0 545Q180 510 350 548T690 526T1000 520T1200 510" fill="none" stroke="#8b9566" stroke-width="5"/>
+<!-- valley steppe -->
+<g stroke="#817d4d" stroke-width="3" fill="none"><path d="M65 535l-8 -22m8 22 9 -18m-9 18-18-12M130 525l-4-22m4 22 12-18m-12 18-17-11M215 540l-7-23m7 23 10-18m-10 18-18-10"/></g>
+<g fill="#a7a36c"><ellipse cx="80" cy="546" rx="32" ry="7"/><ellipse cx="190" cy="552" rx="38" ry="8"/><ellipse cx="270" cy="543" rx="30" ry="6"/></g>
+<!-- shrubs -->
+<g fill="#657c53"><circle cx="365" cy="488" r="25"/><circle cx="390" cy="478" r="30"/><circle cx="416" cy="492" r="22"/><circle cx="465" cy="467" r="24"/><circle cx="487" cy="458" r="30"/></g>
+<!-- junipers -->
+<g fill="#405f4c" stroke="#314d40" stroke-width="2"><path d="M565 480l28-88 28 88z"/><path d="M610 476l32-108 32 108z"/><path d="M676 456l25-82 25 82z"/><path d="M730 445l30-98 30 98z"/></g>
+<!-- spruce in moist gorge -->
+<g fill="#35584c" stroke="#29483f" stroke-width="2"><path d="M850 456l30-90 30 90z"/><path d="M865 420l15-50 15 50z"/><path d="M918 450l35-112 35 112z"/><path d="M935 408l18-62 18 62z"/></g>
+<!-- alpine meadow -->
+<path d="M1010 470Q1080 425 1200 455V520Q1100 500 1010 520Z" fill="#9cac78"/>
+<g stroke="#607c55" stroke-width="3" fill="none"><path d="M1060 468v-22m0 22-8-12m8 12 9-13M1110 463v-26m0 26-9-14m9 14 10-16M1160 462v-21m0 21-8-12m8 12 9-13"/></g>
+<!-- snow caps -->
+<path d="M523 166l42-46 39 52-24-12-15 9-17-10-12 8zM755 212l30-62 37 64-20-10-14 8-14-9z" fill="#f7f5e9" opacity=".95"/>
+<!-- labels -->
+<g font-family="Arial,sans-serif" fill="#263f35">
+ <g font-size="20" font-weight="700"><text x="42" y="610">Долина / Valley</text><text x="300" y="610">Кустарники / Shrubland</text><text x="535" y="610">Арча / Juniper</text><text x="815" y="610">Ель / Spruce</text><text x="1030" y="610">Высокогорье / Alpine</text></g>
+ <g font-size="15" fill="#425b4b"><text x="42" y="636">Степь и полупустыня</text><text x="42" y="655">Steppe and semi-desert</text><text x="300" y="636">Переходные склоны</text><text x="300" y="655">Transitional slopes</text><text x="535" y="636">Каменистые склоны</text><text x="535" y="655">Rocky slopes</text><text x="815" y="636">Более влажные ущелья</text><text x="815" y="655">Moister gorges</text><text x="1030" y="636">Луга и осыпи</text><text x="1030" y="655">Meadows and scree</text></g>
+</g>
+<text x="42" y="55" font-family="Georgia,serif" font-size="34" fill="#29483c">Чуйская область · растительные пояса</text>
+<text x="44" y="86" font-family="Arial,sans-serif" font-size="18" fill="#526b5d">Chuy Region · vegetation zones</text>
+<rect x="36" y="102" width="1128" height="48" rx="12" fill="#fffdf5" opacity=".82"/>
+<text x="54" y="132" font-family="Arial,sans-serif" font-size="17" fill="#46594d">Схема условная: не в масштабе и не задаёт точные высотные границы / Conceptual, not to scale; no exact elevation boundaries</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">История жизни на геологической шкале / History of life on the geological timescale</title>
+<desc id="desc">Геологическая история Земли от формирования около 4,54 миллиарда лет назад до настоящего времени. Основная шкала показывает эоны и ранние события: первые свидетельства жизни около 3,5–3,8 миллиарда лет назад, Великое кислородное событие около 2,4 миллиарда лет назад и существование эукариот не позднее примерно 1,8 миллиарда лет назад. Отдельная увеличенная шкала показывает ключевые события последних 539 миллионов лет. Даты приблизительны; эволюция представляет собой ветвящийся процесс. / Geological history from Earth's formation about 4.54 billion years ago to the present. The main scale shows eons and early milestones; a separate magnified scale highlights events from the last 539 million years. Dates are approximate; evolution is a branching process.</desc>
+<defs><style>
+.bg{fill:#f5f8fc}.head{fill:#164b7a}.title{font:700 29px Arial;fill:#fff}.sub{font:17px Arial;fill:#eaf3fb}.panel{fill:#fff;stroke:#cbd7e4;stroke-width:2}.h{font:700 21px Arial;fill:#183d60}.label{font:15px Arial;fill:#304d68}.small{font:13px Arial;fill:#536b82}.axis{stroke:#294f75;stroke-width:4}.tick{stroke:#294f75;stroke-width:2}.band1{fill:#e9d9c5}.band2{fill:#d9e8d6}.band3{fill:#dce8f4}.band4{fill:#f5e6bd}.event{fill:#fff;stroke:#315f89;stroke-width:3}.life{fill:#e3f1e7;stroke:#5a9b6b;stroke-width:2}.warn{fill:#fff1d8;stroke:#d5a04b;stroke-width:2}.note{font:700 14px Arial;fill:#28583b}.card{fill:#f8fbfd;stroke:#cbd7e4;stroke-width:1.5}.cardtitle{font:700 15px Arial;fill:#183d60}.cardtext{font:13px Arial;fill:#536b82}
+</style></defs>
+<rect class="bg" width="1200" height="900"/>
+<rect class="head" x="18" y="16" width="1164" height="78" rx="16"/>
+<text class="title" x="600" y="49" text-anchor="middle">История жизни на геологической шкале</text>
+<text class="sub" x="600" y="76" text-anchor="middle">History of life on the geological timescale</text>
+
+<!-- Main 4.54-billion-year scale -->
+<rect class="panel" x="25" y="112" width="1150" height="365" rx="16"/>
+<text class="h" x="55" y="151">Земля: 4,54 млрд лет — настоящее время / Earth: 4.54 billion years — present</text>
+<text class="small" x="55" y="177">Основная шкала пропорциональна времени; ранние события отмечены приблизительно.</text>
+<text class="small" x="55" y="197">The main scale is proportional to time; early milestones are approximate.</text>
+<rect class="band1" x="90" y="220" width="121" height="46" rx="5"/><rect class="band2" x="211" y="220" width="337" height="46"/><rect class="band3" x="548" y="220" width="441" height="46"/><rect class="band4" x="989" y="220" width="121" height="46" rx="5"/>
+<g class="label" text-anchor="middle"><text x="150" y="248">Гадей / Hadean</text><text x="380" y="248">Архей / Archean</text><text x="768" y="248">Протерозой / Proterozoic</text><text x="1050" y="248" style="font-size:13px">Фанерозой / Phanerozoic</text></g>
+<path class="axis" d="M90 286 H1110"/>
+<g class="tick"><path d="M90 278 V296 M211 278 V296 M548 278 V296 M989 278 V296 M1110 278 V296"/></g>
+<g class="small" text-anchor="middle"><text x="90" y="316">4,54 млрд / Ga</text><text x="211" y="316">4,0 млрд / Ga</text><text x="548" y="316">2,5 млрд / Ga</text><text x="989" y="316">539 млн / Ma</text><text x="1110" y="316">0 · сейчас / now</text></g>
+<g>
+<circle class="event" cx="90" cy="286" r="8"/><circle class="event" cx="258" cy="286" r="8"/><circle class="event" cx="570" cy="286" r="8"/><circle class="event" cx="705" cy="286" r="8"/>
+<rect class="card" x="55" y="333" width="255" height="82" rx="10"/>
+<text class="cardtitle" x="72" y="358">1 · Формирование Земли</text><text class="cardtext" x="72" y="380">Earth forms</text><text class="cardtext" x="72" y="401">≈ 4,54 млрд лет / Ga</text>
+<rect class="card" x="330" y="333" width="255" height="82" rx="10"/>
+<text class="cardtitle" x="347" y="358">2 · Первые свидетельства жизни</text><text class="cardtext" x="347" y="380">Earliest evidence of life</text><text class="cardtext" x="347" y="401">≈ 3,5–3,8 млрд лет; спорная датировка</text>
+<rect class="card" x="605" y="333" width="255" height="82" rx="10"/>
+<text class="cardtitle" x="622" y="358">3 · Великое кислородное событие</text><text class="cardtext" x="622" y="380">Great Oxidation Event</text><text class="cardtext" x="622" y="401">≈ 2,4 млрд лет / Ga</text>
+<rect class="card" x="880" y="333" width="265" height="82" rx="10"/>
+<text class="cardtitle" x="897" y="358">4 · Эукариоты уже существуют</text><text class="cardtext" x="897" y="380">Eukaryotes established</text><text class="cardtext" x="897" y="401">не позднее ≈ 1,8 млрд лет / by ≈ 1.8 Ga</text>
+</g>
+<rect class="warn" x="55" y="430" width="1090" height="32" rx="9"/>
+<text x="600" y="450" text-anchor="middle" style="font:12px Arial;fill:#654a1d">Ранние свидетельства жизни и даты появления эукариот уточняются / Earliest-life and early-eukaryote dates remain under study</text>
+
+<!-- Magnified Phanerozoic scale -->
+<rect class="panel" x="25" y="495" width="1150" height="370" rx="16"/>
+<text class="h" x="55" y="535">Увеличенный обзор последних 539 млн лет / Magnified view of the last 539 million years</text>
+<text class="small" x="55" y="559">События расположены по геологической последовательности; шкала увеличена для читаемости.</text>
+<text class="small" x="55" y="579">Events are shown in geological order; this scale is magnified for readability.</text>
+<rect class="band2" x="90" y="600" width="543" height="35" rx="4"/><rect class="band3" x="633" y="600" width="352" height="35"/><rect class="band4" x="985" y="600" width="125" height="35" rx="4"/>
+<g class="label" text-anchor="middle"><text x="360" y="623">Палеозой / Paleozoic</text><text x="809" y="623">Мезозой / Mesozoic</text><text x="1047" y="623" style="font-size:13px">Кайнозой / Cenozoic</text></g>
+<path class="axis" d="M90 657 H1110"/>
+<g class="tick"><path d="M90 649V665 M220 649V665 M410 649V665 M675 649V665 M827 649V665 M985 649V665"/></g>
+<g class="small" text-anchor="middle"><text x="90" y="682">539 Ma</text><text x="220" y="682">470 Ma</text><text x="410" y="682">370 Ma</text><text x="675" y="682">230 Ma</text><text x="827" y="682">150 Ma</text><text x="985" y="682">66 Ma</text></g>
+<rect class="card" x="55" y="695" width="340" height="48" rx="8"/><text class="cardtitle" x="70" y="715">1 · Кембрийское разнообразие животных</text><text class="cardtext" x="70" y="734">Cambrian diversification of animals</text>
+<rect class="card" x="430" y="695" width="340" height="48" rx="8"/><text class="cardtitle" x="445" y="715">2 · Растения осваивают сушу</text><text class="cardtext" x="445" y="734">Plants colonise land</text>
+<rect class="card" x="805" y="695" width="340" height="48" rx="8"/><text class="cardtitle" x="820" y="715">3 · Появляются ранние четвероногие</text><text class="cardtext" x="820" y="734">Early tetrapods</text>
+<rect class="card" x="55" y="752" width="340" height="48" rx="8"/><text class="cardtitle" x="70" y="772">4 · Первые динозавры</text><text class="cardtext" x="70" y="791">Early dinosaurs</text>
+<rect class="card" x="430" y="752" width="340" height="48" rx="8"/><text class="cardtitle" x="445" y="772">5 · Ранние птицы</text><text class="cardtext" x="445" y="791">Early birds</text>
+<rect class="card" x="805" y="752" width="340" height="48" rx="8"/><text class="cardtitle" x="820" y="772">6 · Граница мел–палеоген</text><text class="cardtext" x="820" y="791">Cretaceous–Paleogene boundary</text>
+<rect class="life" x="90" y="812" width="1020" height="40" rx="10"/>
+<text class="note" x="600" y="829" text-anchor="middle">Homo sapiens: около 300 000 лет назад — совсем недавно на этой шкале</text>
+<text class="note" x="600" y="845" text-anchor="middle">Homo sapiens: about 300,000 years ago — very recent on this timescale</text>
+</svg>

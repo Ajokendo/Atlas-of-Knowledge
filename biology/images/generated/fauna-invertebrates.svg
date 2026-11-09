@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Наземные беспозвоночные горных экосистем / Terrestrial invertebrates of mountain ecosystems</title>
+<desc id="desc">Обобщённые представители насекомых и паукообразных с основными частями тела и конечностями. Generalised insects and arachnids with major body regions and appendages.</desc>
+<defs><style>
+.bg{fill:#f5f5ef}.panel{fill:#fffefa;stroke:#d8ded2;stroke-width:3}.ink{fill:#28372d;font-family:Arial,sans-serif}.muted{fill:#637264;font-family:Arial,sans-serif}.line{fill:none;stroke:#394b3d;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#637b65;stroke-width:4;stroke-linecap:round}.body{fill:#879d72;stroke:#394b3d;stroke-width:4}.wing{fill:#e6e9d9;stroke:#637b65;stroke-width:3}.gold{fill:#d9b56d;stroke:#394b3d;stroke-width:4}.label{font: bold 22px Arial,sans-serif}.small{font:18px Arial,sans-serif}
+</style></defs>
+<rect class="bg" width="1200" height="900"/>
+<text class="ink" x="600" y="55" text-anchor="middle" font-size="31" font-weight="bold">НАЗЕМНЫЕ БЕСПОЗВОНОЧНЫЕ · TERRESTRIAL INVERTEBRATES</text>
+<text class="muted" x="600" y="88" text-anchor="middle" font-size="19">Обобщённые строения, не определение видов / Generalised body plans, not species identifications</text>
+<!-- insect panel -->
+<rect class="panel" x="35" y="120" width="550" height="340" rx="18"/>
+<text class="ink label" x="65" y="160">Насекомое / Insect</text>
+<g transform="translate(0 0)">
+<path class="thin" d="M280 272 Q245 218 205 218 M280 272 Q320 215 356 220"/>
+<ellipse class="wing" cx="235" cy="250" rx="75" ry="28" transform="rotate(-24 235 250)"/>
+<ellipse class="wing" cx="330" cy="250" rx="75" ry="28" transform="rotate(24 330 250)"/>
+<circle class="gold" cx="280" cy="278" r="25"/><ellipse class="body" cx="330" cy="282" rx="37" ry="28"/><ellipse class="body" cx="397" cy="285" rx="60" ry="38"/>
+<path class="line" d="M270 260 Q245 220 230 205 M290 260 Q305 220 322 205"/>
+<path class="line" d="M310 300 L275 345 L250 357 M325 304 L310 355 L292 370 M350 302 L365 350 L390 360 M365 300 L405 340 L430 342 M380 305 L440 320 L465 315 M300 300 L260 325 L235 320"/>
+<path class="thin" d="M270 265 L248 236 M292 265 L312 235"/>
+</g>
+<text class="muted small" x="75" y="405">Голова · грудь · брюшко / Head · thorax · abdomen</text>
+<text class="muted small" x="75" y="433">3 пары ног · усики / 3 pairs of legs · antennae</text>
+<!-- spider panel -->
+<rect class="panel" x="615" y="120" width="550" height="340" rx="18"/>
+<text class="ink label" x="645" y="160">Паук / Spider (arachnid)</text>
+<g>
+<ellipse class="body" cx="880" cy="286" rx="82" ry="62"/><ellipse class="gold" cx="785" cy="286" rx="42" ry="34"/>
+<path class="line" d="M770 265 Q715 205 680 220 L655 205 M775 275 Q700 245 670 270 L650 260 M775 295 Q700 325 670 350 L650 365 M785 305 Q730 380 700 405 L680 415 M820 260 Q835 200 880 195 L910 180 M825 270 Q875 220 935 230 L960 215 M825 300 Q875 355 935 345 L960 365 M815 310 Q850 390 895 405 L925 420"/>
+<text class="muted small" x="665" y="433">2 отдела тела · 4 пары ног · без усиков</text>
+</g>
+<!-- butterfly panel -->
+<rect class="panel" x="35" y="485" width="550" height="340" rx="18"/>
+<text class="ink label" x="65" y="525">Бабочка / Butterfly (insect)</text>
+<g>
+<path class="wing" d="M300 660 Q220 560 145 595 Q125 635 230 680 Q160 730 210 765 Q270 760 300 690Z"/>
+<path class="wing" d="M320 660 Q400 560 475 595 Q495 635 390 680 Q460 730 410 765 Q350 760 320 690Z"/>
+<path class="line" d="M310 615 Q275 570 255 575 M310 615 Q345 570 365 575"/>
+<ellipse class="gold" cx="310" cy="665" rx="12" ry="75"/><circle class="body" cx="310" cy="585" r="16"/>
+<path class="thin" d="M300 700 L270 750 L250 760 M305 710 L300 765 M320 700 L350 750 L370 760"/>
+<path class="thin" d="M298 650 L235 625 M322 650 L385 625"/>
+</g>
+<text class="muted small" x="75" y="795">2 пары крыльев · 3 пары ног / 2 pairs of wings · 3 pairs of legs</text>
+<!-- grasshopper panel -->
+<rect class="panel" x="615" y="485" width="550" height="340" rx="18"/>
+<text class="ink label" x="645" y="525">Кузнечик / Grasshopper (insect)</text>
+<g>
+<ellipse class="body" cx="875" cy="660" rx="95" ry="30" transform="rotate(-8 875 660)"/>
+<circle class="gold" cx="775" cy="648" r="22"/><path class="thin" d="M765 632 Q745 585 725 580"/>
+<path class="wing" d="M810 640 Q895 590 1010 620 L930 670Z"/>
+<path class="line" d="M830 675 L775 730 L745 760 M865 680 L900 730 L920 760 M925 675 L1030 735 L1080 740 M930 660 L1015 700 L1050 695 M820 675 L800 710 L780 715"/>
+<path class="line" d="M850 675 L800 790 L770 800"/>
+<path class="thin" d="M765 650 Q735 635 720 615"/>
+</g>
+<text class="muted small" x="665" y="795">Удлинённые прыгательные задние ноги / Enlarged jumping hind legs</text>
+<text class="ink" x="600" y="865" text-anchor="middle" font-size="18">Членистоногие разнообразны: пауки — паукообразные, а не насекомые. / Arthropods are diverse: spiders are arachnids, not insects.</text>
+</svg>

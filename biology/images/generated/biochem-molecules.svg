@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="t d">
+<title id="t">Four major classes of biomolecules / Четыре класса биомолекул</title>
+<desc id="d">Carbohydrates are shown as linked sugar rings; a lipid as glycerol with three fatty-acid chains, not a repeating polymer; proteins as an amino-acid chain folded into a functional shape; nucleic acids as a sugar-phosphate backbone with bases. / Углеводы показаны соединёнными сахарными кольцами; липид — глицерином с тремя цепями жирных кислот, а не повторяющимся полимером; белок — цепью аминокислот, свернутой в функциональную форму; нуклеиновые кислоты — сахарофосфатным остовом с основаниями.</desc>
+<rect width="1000" height="650" rx="18" fill="#fbfbfa"/>
+<text x="500" y="27" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#202522">Четыре класса биомолекул</text>
+<text x="500" y="53" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#202522">Four major classes of biomolecules</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="28" y="80" width="220" height="500" rx="14" fill="#edf2e9" stroke="#9aaf91" stroke-width="2"/>
+<text x="138" y="109" font-size="17" font-weight="700" fill="#365c3b">Углеводы</text><text x="138" y="130" font-size="16" font-weight="700" fill="#365c3b">Carbohydrates</text>
+<g stroke="#557c58" stroke-width="4" fill="#d8e5d2"><path d="M78 205L99 168L141 168L162 205L141 242L99 242Z"/><path d="M147 205L168 168L210 168L231 205L210 242L168 242Z" transform="translate(-28 90)"/></g>
+<path d="M162 205L175 205" stroke="#557c58" stroke-width="4"/>
+<text x="138" y="286" font-size="14" fill="#27372a">Моносахариды</text><text x="138" y="304" font-size="13" fill="#27372a">Monosaccharides</text>
+<text x="138" y="331" font-size="12" fill="#526052">могут соединяться</text><text x="138" y="347" font-size="12" fill="#526052">can link to form</text>
+<text x="138" y="374" font-size="14" font-weight="700" fill="#365c3b">полисахариды</text><text x="138" y="392" font-size="13" font-weight="700" fill="#365c3b">polysaccharides</text>
+<text x="138" y="432" font-size="13" fill="#526052">Энергия и структура</text><text x="138" y="449" font-size="12" fill="#526052">Energy and structure</text>
+<text x="138" y="485" font-size="12" fill="#526052">глюкоза · крахмал · целлюлоза</text><text x="138" y="503" font-size="12" fill="#526052">glucose · starch · cellulose</text>
+<rect x="270" y="80" width="220" height="500" rx="14" fill="#f3efe7" stroke="#c9b99b" stroke-width="2"/>
+<text x="380" y="109" font-size="17" font-weight="700" fill="#765d36">Липиды</text><text x="380" y="130" font-size="16" font-weight="700" fill="#765d36">Lipids</text>
+<circle cx="380" cy="190" r="13" fill="#b28b54"/>
+<path d="M380 203L380 238M380 218L330 258L320 305M380 218L380 265L380 310M380 218L430 258L440 305" fill="none" stroke="#a17a42" stroke-width="7" stroke-linecap="round"/>
+<text x="380" y="345" font-size="12" fill="#594a32">Глицерин + жирные кислоты</text><text x="380" y="362" font-size="12" fill="#594a32">Glycerol + fatty acids</text>
+<text x="380" y="398" font-size="11" fill="#765d36">Не обычный повторяющийся полимер</text><text x="380" y="414" font-size="11" fill="#765d36">Not a conventional repeating polymer</text>
+<text x="380" y="460" font-size="12" fill="#594a32">Запас энергии и мембраны</text><text x="380" y="477" font-size="12" fill="#594a32">Energy storage and membranes</text>
+<rect x="512" y="80" width="220" height="500" rx="14" fill="#eaf0f2" stroke="#9eb5bf" stroke-width="2"/>
+<text x="622" y="109" font-size="17" font-weight="700" fill="#3e6577">Белки</text><text x="622" y="130" font-size="16" font-weight="700" fill="#3e6577">Proteins</text>
+<path d="M555 220Q575 160 600 208T650 198T692 245T650 278T610 260T565 300" fill="none" stroke="#527f91" stroke-width="7" stroke-linecap="round"/>
+<g fill="#d4e4e9" stroke="#527f91" stroke-width="2"><circle cx="555" cy="220" r="10"/><circle cx="580" cy="181" r="10"/><circle cx="610" cy="219" r="10"/><circle cx="640" cy="214" r="10"/><circle cx="670" cy="220" r="10"/><circle cx="680" cy="260" r="10"/></g>
+<text x="622" y="345" font-size="12" fill="#3e6577">Цепи аминокислот</text><text x="622" y="362" font-size="12" fill="#3e6577">Amino-acid chains</text>
+<text x="622" y="398" font-size="11" fill="#52656b">сворачиваются в форму</text><text x="622" y="414" font-size="11" fill="#52656b">fold into a specific shape</text>
+<text x="622" y="460" font-size="12" fill="#3e6577">Ферменты и другие функции</text><text x="622" y="477" font-size="12" fill="#3e6577">Enzymes and other functions</text>
+<rect x="754" y="80" width="218" height="500" rx="14" fill="#f1ebf2" stroke="#bba8c0" stroke-width="2"/>
+<text x="863" y="108" font-size="15" font-weight="700" fill="#765b7d">Нуклеиновые кислоты</text><text x="863" y="129" font-size="15" font-weight="700" fill="#765b7d">Nucleic acids</text>
+<path d="M810 170C910 205 810 260 910 295M910 170C810 205 910 260 810 295" fill="none" stroke="#96749b" stroke-width="4"/>
+<g stroke="#96749b" stroke-width="3"><path d="M830 183L890 183M847 207L873 207M835 232L885 232M820 258L900 258M838 282L882 282"/></g>
+<text x="863" y="345" font-size="12" fill="#624c68">Нуклеотиды</text><text x="863" y="362" font-size="12" fill="#624c68">Nucleotides</text>
+<text x="863" y="398" font-size="11" fill="#624c68">сахар + фосфат + основание</text><text x="863" y="414" font-size="11" fill="#624c68">sugar + phosphate + base</text>
+<text x="863" y="460" font-size="12" fill="#765b7d">Хранение и передача информации</text><text x="863" y="477" font-size="12" fill="#765b7d">Information storage and transfer</text>
+</g>
+<text x="500" y="607" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#626b65">Структуры условны и не в масштабе; схемы не показывают полную химическую формулу молекул.</text>
+<text x="500" y="624" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#626b65">Structures are schematic and not to scale; they do not show complete molecular formulas.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Системы органов человека / Human organ systems</title>
+<desc id="desc">Учебная схема тела человека спереди с условно показанными головным мозгом, лёгкими, сердцем, пищеварительным трактом, почками и мочевым пузырём. Подписи связывают органы с нервной, дыхательной, кровеносной, пищеварительной и мочевыделительной системами. / Educational anterior view of the human body with schematic brain, lungs, heart, digestive tract, kidneys and urinary bladder, labelled by organ system.</desc>
+<defs><style>
+.title{font:700 30px Arial,sans-serif;fill:#26352f}.head{font:700 22px Arial,sans-serif;fill:#26352f}.label{font:20px Arial,sans-serif;fill:#34433d}.sub{font:17px Arial,sans-serif;fill:#5b6861}.leader{fill:none;stroke:#87958c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+</style></defs>
+<rect width="1200" height="900" rx="26" fill="#fbfaf6"/>
+<text x="600" y="54" text-anchor="middle" class="title">Системы органов человека / Human organ systems</text>
+<!-- neutral body silhouette -->
+<g fill="#e9e5dc" stroke="#aaa99f" stroke-width="4">
+<circle cx="600" cy="145" r="62"/>
+<path d="M535 225Q485 230 465 285L425 430Q415 460 445 470L480 365L485 520L465 760Q465 785 495 785L545 570L600 800L655 570L705 785Q735 785 735 760L715 520L720 365L755 470Q785 460 775 430L735 285Q715 230 665 225Z"/>
+</g>
+<!-- nervous -->
+<path d="M565 124Q560 91 590 87Q610 70 630 93Q650 112 635 143Q615 164 585 151Z" fill="#d6b5cf" stroke="#946b91" stroke-width="4"/>
+<path d="M575 105Q600 115 625 100M580 130Q600 138 625 125" fill="none" stroke="#946b91" stroke-width="3"/>
+<!-- lungs, trachea, heart -->
+<path d="M600 230V305" stroke="#8b9ba0" stroke-width="17" stroke-linecap="round"/>
+<path d="M590 275C560 248 520 267 510 315Q500 385 560 395Q585 390 590 350Z" fill="#a8c6cf" stroke="#5d8d9c" stroke-width="4"/>
+<path d="M610 275C640 248 680 267 690 315Q700 385 640 395Q615 390 610 350Z" fill="#a8c6cf" stroke="#5d8d9c" stroke-width="4"/>
+<path d="M600 290L555 325M600 290L645 325" stroke="#5d8d9c" stroke-width="8" stroke-linecap="round"/>
+<path d="M600 322C570 290 540 325 560 360Q580 392 600 405Q620 392 640 360C660 325 630 290 600 322Z" fill="#c76e68" stroke="#984d4a" stroke-width="4"/>
+<!-- digestive -->
+<path d="M580 420Q555 400 550 430Q545 455 575 460Q610 465 615 440Q620 420 600 420M580 460Q550 475 565 500Q580 520 610 500Q630 485 610 470" fill="none" stroke="#c69a62" stroke-width="16" stroke-linecap="round"/>
+<path d="M550 520Q535 535 550 555Q570 570 590 555Q610 570 630 555Q650 540 635 520" fill="none" stroke="#a97c4b" stroke-width="13" stroke-linecap="round"/>
+<path d="M585 410Q560 400 550 420Q540 445 560 450Q580 455 590 440" fill="#9d9e6d" stroke="#77794e" stroke-width="3"/>
+<!-- kidneys and bladder -->
+<path d="M520 465Q490 450 490 485Q490 520 520 515Q545 505 535 480Z" fill="#a96e70" stroke="#804b50" stroke-width="4"/>
+<path d="M680 465Q710 450 710 485Q710 520 680 515Q655 505 665 480Z" fill="#a96e70" stroke="#804b50" stroke-width="4"/>
+<path d="M520 515Q535 555 585 590M680 515Q665 555 615 590" fill="none" stroke="#b68d78" stroke-width="7"/>
+<path d="M580 585Q600 570 620 585Q635 615 600 630Q565 615 580 585Z" fill="#e2c18b" stroke="#aa8955" stroke-width="4"/>
+<!-- labels and leader lines -->
+<g class="leader">
+<path d="M565 120H365L320 145"/><path d="M520 325H350L305 345"/><path d="M600 350H820L865 365"/><path d="M615 475H820L865 500"/><path d="M680 490H820L865 625"/>
+</g>
+<g>
+<text x="85" y="125" class="head">Нервная система</text><text x="85" y="153" class="sub">Nervous system</text><text x="85" y="185" class="sub">Головной мозг / Brain</text>
+<text x="85" y="325" class="head">Дыхательная система</text><text x="85" y="353" class="sub">Respiratory system</text><text x="85" y="385" class="sub">Лёгкие / Lungs</text>
+<text x="875" y="345" class="head">Кровеносная система</text><text x="875" y="373" class="sub">Circulatory system</text><text x="875" y="405" class="sub">Сердце / Heart</text>
+<text x="875" y="480" class="head">Пищеварительная система</text><text x="875" y="508" class="sub">Digestive system</text><text x="875" y="540" class="sub">Желудок и кишечник</text><text x="875" y="565" class="sub">Stomach and intestines</text>
+<text x="875" y="605" class="head">Мочевыделительная система</text><text x="875" y="633" class="sub">Urinary system</text><text x="875" y="665" class="sub">Почки и мочевой пузырь</text><text x="875" y="690" class="sub">Kidneys and urinary bladder</text>
+</g>
+<rect x="80" y="735" width="1040" height="100" rx="18" fill="#f0eee8" stroke="#d8d3c8" stroke-width="2"/>
+<text x="600" y="775" text-anchor="middle" class="label">Органы работают совместно; одна система может включать органы,</text>
+<text x="600" y="805" text-anchor="middle" class="label">расположенные в разных частях тела. / Organ systems work together.</text>
+<text x="600" y="865" text-anchor="middle" class="sub">Упрощённая схема, не в масштабе. / Simplified schematic, not to scale.</text>
+</svg>

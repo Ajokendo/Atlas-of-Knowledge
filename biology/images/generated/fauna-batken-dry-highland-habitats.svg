@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Баткенская область: сурки и горные местообитания / Batken Region: marmots and mountain habitats</title>
+<desc id="desc">Три учебные панели: сурок как объект весеннего учёта 2026 года; сухие предгорья Баткенской области; горные ландшафты Сурматашского заповедника и Саркентского парка. Числа приведены по сообщению Минприроды и относятся к учёту, а не к постоянной численности популяции. Three educational panels: a marmot as the subject of the 2026 spring census, Batken dry foothills, and mountain landscapes of Surmatash Reserve and Sarkent Park. Figures describe a survey, not a permanent population estimate.</desc>
+<defs>
+ <linearGradient id="a" x2="0" y2="1"><stop stop-color="#e8f0e8"/><stop offset="1" stop-color="#f8e5bd"/></linearGradient>
+ <linearGradient id="b" x2="0" y2="1"><stop stop-color="#dbe8e7"/><stop offset="1" stop-color="#f3dfb6"/></linearGradient>
+ <linearGradient id="c" x2="0" y2="1"><stop stop-color="#dbe9ed"/><stop offset="1" stop-color="#e7e1ce"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="#f5f3eb"/>
+<text x="600" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#293d37">Баткенская область · фауна и местообитания / Batken Region · wildlife and habitats</text>
+<g transform="translate(24 76)">
+ <rect width="368" height="500" rx="18" fill="url(#a)" stroke="#c9d0c3" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#34483c">Сурки · весенний учёт 2026</text>
+ <text x="184" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#526454">Marmots · spring census 2026</text>
+ <path d="M0 310 L60 250 112 270 178 190 250 272 310 220 368 290 V500 H0Z" fill="#b6a276"/>
+ <path d="M0 360 Q90 315 170 360 T368 350 V500 H0Z" fill="#8e9a68"/>
+ <path d="M0 410 Q80 380 160 420 T368 400 V500 H0Z" fill="#b9a16f"/>
+ <g transform="translate(105 285)" fill="#8a7356" stroke="#554a3b" stroke-width="3">
+  <ellipse cx="75" cy="53" rx="65" ry="38"/><circle cx="130" cy="30" r="25"/><circle cx="116" cy="10" r="8"/><circle cx="143" cy="9" r="8"/><path d="M28 76 L23 104 M70 82 L68 108 M111 77 L116 105" fill="none" stroke-width="10" stroke-linecap="round"/><path d="M14 43 Q-8 30 -13 47" fill="none" stroke-width="8" stroke-linecap="round"/><circle cx="139" cy="28" r="3" fill="#211e19" stroke="none"/>
+ </g>
+ <rect x="18" y="395" width="332" height="85" rx="12" fill="#fffdf5" opacity=".94"/>
+ <text x="184" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#40583f">4 146</text>
+ <text x="184" y="452" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#405047">зарегистрировано / recorded</text>
+ <text x="184" y="472" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#59665a">Marmota spp. · вид не уточнён / species unspecified</text>
+</g>
+<g transform="translate(416 76)">
+ <rect width="368" height="500" rx="18" fill="url(#b)" stroke="#c9d0c3" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#34483c">Сухие предгорья / dry foothills</text>
+ <path d="M0 330 L50 270 112 295 170 200 226 270 292 215 368 300 V500 H0Z" fill="#bd9a67"/>
+ <path d="M0 365 L90 325 150 350 230 295 300 340 368 310 V500 H0Z" fill="#9b875f"/>
+ <path d="M0 425 Q75 390 150 425 T368 410 V500 H0Z" fill="#7d8b5c"/>
+ <path d="M35 355 l34 -25 27 28 -28 13Z M245 365 l38 -32 32 25 -28 18Z M145 295 l24 -18 20 18 -18 14Z" fill="#d9c49a" opacity=".9"/>
+ <g fill="#526b4b"><path d="M55 390 l-15 -48 15 10 13 -20 2 58Z"/><path d="M310 392 l-14 -43 16 10 12 -22 1 55Z"/></g>
+ <text x="184" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">Формы рельефа и растительность</text>
+ <text x="184" y="479" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#fff">Landforms and vegetation</text>
+</g>
+<g transform="translate(808 76)">
+ <rect width="368" height="500" rx="18" fill="url(#c)" stroke="#c9d0c3" stroke-width="2"/>
+ <text x="184" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#34483c">Охраняемые горы / protected mountains</text>
+ <path d="M0 350 L52 260 102 295 175 125 238 270 290 190 368 300 V500 H0Z" fill="#7d8980"/>
+ <path d="M175 125 L151 207 178 190 204 226 238 270 202 185Z" fill="#f7f7ed"/>
+ <path d="M0 395 Q70 350 140 390 T280 380 T368 390 V500 H0Z" fill="#77866b"/>
+ <path d="M20 500 Q60 410 95 500 M65 500 Q112 395 145 500 M255 500 Q290 415 330 500" fill="none" stroke="#415e4c" stroke-width="15"/>
+ <g fill="#f1e7d0" opacity=".8"><path d="M42 335 l18 -25 18 25Z"/><path d="M300 342 l16 -22 16 22Z"/></g>
+ <text x="184" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">Сурматаш · Саркент</text>
+ <text x="184" y="479" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#fff">Surmatash · Sarkent</text>
+</g>
+<text x="600" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#45584f">4 146 = 759 в обследованных районах + 3 387 в Сурматаше</text>
+<text x="600" y="642" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#59665a">Результат весеннего учёта 2026 года, не постоянная оценка популяции / 2026 spring survey result, not a permanent population estimate</text>
+</svg>

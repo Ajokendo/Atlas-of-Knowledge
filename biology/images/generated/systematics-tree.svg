@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Как читать филогенетическое дерево / How to read a phylogenetic tree</title>
+<desc id="desc">Учебная схема четырёх условных таксонов. Узлы обозначают общих предков, ветви — линии происхождения. Таксоны A и B, а также C и D — сестринские группы. Выделенная клада включает общего предка A и B и всех его потомков. Во втором дереве ветви A и B повёрнуты вокруг узла; родственные связи остаются прежними. Вертикальное положение не показывает степень эволюционного развития. / Teaching diagram of four hypothetical taxa. Nodes represent common ancestors and branches represent lineages. A and B, and C and D, are sister groups. The highlighted clade contains the common ancestor of A and B and all its descendants. In the second tree, A and B branches are rotated around their node; relationships remain unchanged. Vertical position does not indicate evolutionary advancement.</desc>
+<defs><style>
+.bg{fill:#f6f8fc}.head{fill:#164b7a}.h1{font:700 30px Arial,sans-serif;fill:#fff}.h2{font:700 20px Arial,sans-serif;fill:#183d60}.sub{font:16px Arial,sans-serif;fill:#52677e}.panel{fill:#fff;stroke:#c8d5e4;stroke-width:2}.branch{fill:none;stroke:#244f78;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.node{fill:#fff;stroke:#173f69;stroke-width:4}.tip{fill:#eaf2fa;stroke:#9bb4cd;stroke-width:2}.tax{font:700 19px Arial,sans-serif;fill:#173653}.lab{font:16px Arial,sans-serif;fill:#344f69}.green{fill:#e5f3e9;stroke:#4f9668;stroke-width:2}.greenText{font:700 17px Arial,sans-serif;fill:#285a3b}.purple{fill:#eee9fb;stroke:#8269bf;stroke-width:2}.purpleText{font:700 16px Arial,sans-serif;fill:#514080}.orange{fill:#fff1d7;stroke:#d49a35;stroke-width:2}.orangeText{font:16px Arial,sans-serif;fill:#604717}.dash{fill:none;stroke:#4e9466;stroke-width:3;stroke-dasharray:8 6}
+</style></defs>
+<rect class="bg" width="1200" height="800"/>
+<rect class="head" x="20" y="18" width="1160" height="78" rx="16"/>
+<text class="h1" x="600" y="51" text-anchor="middle">Как читать филогенетическое дерево</text>
+<text x="600" y="79" text-anchor="middle" style="font:18px Arial;fill:#eaf3fb">How to read a phylogenetic tree</text>
+<rect class="panel" x="25" y="115" width="720" height="490" rx="16"/>
+<text class="h2" x="55" y="153">1. Общий предок, узлы и клады / Ancestry, nodes and clades</text>
+<!-- main tree: root splits into AB and CD; AB sister pair -->
+<path class="branch" d="M135 365 H255 M255 255 V475 M255 255 H365 M255 475 H365 M365 255 V205 M365 255 V305 M365 205 H500 M365 305 H500 M365 475 V425 M365 475 V525 M365 425 H500 M365 525 H500"/>
+<circle class="node" cx="135" cy="365" r="10"/><circle class="node" cx="255" cy="365" r="9"/><circle class="node" cx="365" cy="255" r="9"/><circle class="node" cx="365" cy="475" r="9"/>
+<rect class="tip" x="500" y="178" width="145" height="54" rx="11"/><text class="tax" x="572" y="212" text-anchor="middle">Таксон A / Taxon A</text>
+<rect class="tip" x="500" y="278" width="145" height="54" rx="11"/><text class="tax" x="572" y="312" text-anchor="middle">Таксон B / Taxon B</text>
+<rect class="tip" x="500" y="398" width="145" height="54" rx="11"/><text class="tax" x="572" y="432" text-anchor="middle">Таксон C / Taxon C</text>
+<rect class="tip" x="500" y="498" width="145" height="54" rx="11"/><text class="tax" x="572" y="532" text-anchor="middle">Таксон D / Taxon D</text>
+<!-- clade highlight AB -->
+<path class="dash" d="M350 170 H675 V342 H350 Z"/>
+<rect class="green" x="55" y="185" width="210" height="55" rx="12"/><text class="greenText" x="160" y="208" text-anchor="middle">Клада A + B</text><text class="greenText" x="160" y="229" text-anchor="middle">Clade A + B</text>
+<path d="M265 212 L345 212" stroke="#4f9668" stroke-width="2.5" fill="none"/>
+<rect class="purple" x="55" y="275" width="165" height="64" rx="12"/><text class="purpleText" x="137" y="300" text-anchor="middle">Узел / Node</text><text class="lab" x="137" y="322" text-anchor="middle">общий предок / ancestor</text>
+<path d="M220 310 L250 355" stroke="#8269bf" stroke-width="2.5" fill="none"/>
+<text class="lab" x="80" y="410">Ветвь / Branch</text><path d="M170 405 L205 370" stroke="#52677e" stroke-width="2" fill="none"/>
+<rect class="green" x="55" y="520" width="390" height="62" rx="12"/>
+<text class="greenText" x="250" y="545" text-anchor="middle">Клада = общий предок + все потомки</text>
+<text class="greenText" x="250" y="568" text-anchor="middle">Clade = common ancestor + all descendants</text>
+<text class="lab" x="420" y="370">Сестринские группы</text><text class="lab" x="420" y="391">Sister groups</text>
+<path d="M455 365 L365 255" stroke="#8a6bbd" stroke-width="2" fill="none"/>
+<path d="M455 365 L365 475" stroke="#8a6bbd" stroke-width="2" fill="none"/>
+<rect class="panel" x="765" y="115" width="410" height="490" rx="16"/>
+<text class="h2" x="790" y="153">2. Поворот ветвей</text><text class="sub" x="790" y="178">Branch rotation</text>
+<!-- rotated version, identical topology with A/B flipped -->
+<path class="branch" d="M820 365 H900 M900 255 V475 M900 255 H980 M900 475 H980 M980 255 V205 M980 255 V305 M980 205 H1050 M980 305 H1050 M980 475 V425 M980 475 V525 M980 425 H1050 M980 525 H1050"/>
+<circle class="node" cx="820" cy="365" r="9"/><circle class="node" cx="900" cy="365" r="9"/><circle class="node" cx="980" cy="255" r="8"/><circle class="node" cx="980" cy="475" r="8"/>
+<rect class="tip" x="1050" y="178" width="105" height="54" rx="10"/><text class="tax" x="1102" y="211" text-anchor="middle">B</text>
+<rect class="tip" x="1050" y="278" width="105" height="54" rx="10"/><text class="tax" x="1102" y="311" text-anchor="middle">A</text>
+<rect class="tip" x="1050" y="398" width="105" height="54" rx="10"/><text class="tax" x="1102" y="431" text-anchor="middle">C</text>
+<rect class="tip" x="1050" y="498" width="105" height="54" rx="10"/><text class="tax" x="1102" y="531" text-anchor="middle">D</text>
+<rect class="orange" x="790" y="548" width="360" height="42" rx="10"/>
+<text class="orangeText" x="970" y="575" text-anchor="middle">Связи те же / Same relationships</text>
+<rect class="panel" x="25" y="625" width="1150" height="145" rx="16"/>
+<text class="h2" x="55" y="663">Важно помнить / Key points</text>
+<circle cx="75" cy="704" r="7" fill="#4f9668"/><text class="lab" x="95" y="710">Сестринские группы имеют более недавнего общего предка друг с другом, чем с другими группами.</text>
+<text class="lab" x="95" y="733">Sister groups share a more recent common ancestor with each other than with other groups.</text>
+<circle cx="680" cy="704" r="7" fill="#d49a35"/><text class="lab" x="700" y="710">Вертикальное положение не означает «более развитый»; современные виды не предки друг друга.</text>
+<text class="lab" x="700" y="733">Vertical position does not mean “more evolved”; living species are not ancestors of one another.</text>
+</svg>

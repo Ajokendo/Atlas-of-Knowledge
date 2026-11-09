@@ -1,0 +1,161 @@
+{
+  "generated_by": "biology/scripts/build_chuy_fauna_assets.py",
+  "assets": [
+    {
+      "commons_title": "File:Ала-Арча, белка.jpg",
+      "output": "fauna-chuy-squirrel.webp",
+      "subject": "Red squirrel (Sciurus vulgaris)",
+      "author": "Nikolai Bulykin",
+      "date": "2023-08-25",
+      "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ала-Арча,_белка.jpg",
+      "original_filename": "%D0%90%D0%BB%D0%B0-%D0%90%D1%80%D1%87%D0%B0%2C_%D0%B1%D0%B5%D0%BB%D0%BA%D0%B0.jpg",
+      "original_sha1_commons": "b1049ddf6123a9c54e8bb6ef7e77eb5c9f35db10",
+      "original_sha1_downloaded": "b1049ddf6123a9c54e8bb6ef7e77eb5c9f35db10",
+      "original_bytes": 1878110,
+      "original_dimensions": [
+        4608,
+        3456
+      ],
+      "webp_file": "biology/images/generated/fauna-chuy-squirrel.webp",
+      "webp_bytes": 2099090,
+      "webp_sha256": "ffcc6cfaa2d4764ec30a3fd1e7f8c9265b8a3cc494ee019e4fdd7dce32cb433c",
+      "webp_dimensions": [
+        4608,
+        3456
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Ала-Арча, обыкновенный щитомордник (1).jpg",
+      "output": "fauna-chuy-pit-viper.webp",
+      "subject": "Halys pit viper (Gloydius halys)",
+      "author": "Nikolai Bulykin",
+      "date": "2023-08-25",
+      "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ала-Арча,_обыкновенный_щитомордник_(1).jpg",
+      "original_filename": "%D0%90%D0%BB%D0%B0-%D0%90%D1%80%D1%87%D0%B0%2C_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%89%D0%B8%D1%82%D0%BE%D0%BC%D0%BE%D1%80%D0%B4%D0%BD%D0%B8%D0%BA_%281%29.jpg",
+      "original_sha1_commons": "40f7e6149e6fa348dbe2ce3b079465f8ce85f78c",
+      "original_sha1_downloaded": "40f7e6149e6fa348dbe2ce3b079465f8ce85f78c",
+      "original_bytes": 1385093,
+      "original_dimensions": [
+        3775,
+        2831
+      ],
+      "webp_file": "biology/images/generated/fauna-chuy-pit-viper.webp",
+      "webp_bytes": 1474898,
+      "webp_sha256": "e5983be73b766b58a18dfbb86186dd5aad358b24d7f0f25a1e26057d481cbbca",
+      "webp_dimensions": [
+        3775,
+        2831
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Ak Suu Gorge, Chuy region, Kyrgyzstan.jpg",
+      "output": "habitat-chuy-ak-suu.webp",
+      "subject": "Ak-Suu gorge and river habitat",
+      "author": "Vilya Shoni",
+      "date": "2022-06-18",
+      "location": "Ak-Suu Complex Sanctuary, Moskovsky District, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ak_Suu_Gorge,_Chuy_region,_Kyrgyzstan.jpg",
+      "original_filename": "Ak_Suu_Gorge%2C_Chuy_region%2C_Kyrgyzstan.jpg",
+      "original_sha1_commons": "ecf019d233afd85b4f6d56e939e8054fc56af911",
+      "original_sha1_downloaded": "ecf019d233afd85b4f6d56e939e8054fc56af911",
+      "original_bytes": 7131794,
+      "original_dimensions": [
+        3556,
+        2000
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-ak-suu.webp",
+      "webp_bytes": 2499846,
+      "webp_sha256": "ba75c93b8759585bd5e52e3ccc56c5083d662b65d9ee1e14e08e53c77e06be33",
+      "webp_dimensions": [
+        3556,
+        2000
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Landscape view, Ala Archa National Park, Chuy region, Kyrgyzstan 02.jpg",
+      "output": "habitat-chuy-ala-archa.webp",
+      "subject": "Ala-Archa mountain forest and alpine habitat",
+      "author": "Vilya Shoni",
+      "date": "2024-05-17",
+      "location": "Ala-Archa National Park, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Landscape_view,_Ala_Archa_National_Park,_Chuy_region,_Kyrgyzstan_02.jpg",
+      "original_filename": "Landscape_view%2C_Ala_Archa_National_Park%2C_Chuy_region%2C_Kyrgyzstan_02.jpg",
+      "original_sha1_commons": "ffb399ea28cc430c3c07a7913919ae14e872f488",
+      "original_sha1_downloaded": "ffb399ea28cc430c3c07a7913919ae14e872f488",
+      "original_bytes": 1105131,
+      "original_dimensions": [
+        1920,
+        1336
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-ala-archa.webp",
+      "webp_bytes": 783540,
+      "webp_sha256": "887a6ec503ba4cf25203858973c995d5be22d12eaf9d5ac9209192893ad91785",
+      "webp_dimensions": [
+        1920,
+        1336
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Chong Kemin National Park, Kemin district, Chuy Region, Kyrgyzstan 01.jpg",
+      "output": "habitat-chuy-chon-kemin.webp",
+      "subject": "Chong-Kemin rocky stream, meadow and conifer-forest habitat",
+      "author": "Vilya Shoni",
+      "date": "2024-06-07",
+      "location": "Chong-Kemin State Nature Park, Kemin District, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chong_Kemin_National_Park,_Kemin_district,_Chuy_Region,_Kyrgyzstan_01.jpg",
+      "original_filename": "Chong_Kemin_National_Park%2C_Kemin_district%2C_Chuy_Region%2C_Kyrgyzstan_01.jpg",
+      "original_sha1_commons": "ed2b78baec56685001b4c032d4899400b9f8cbc9",
+      "original_sha1_downloaded": "ed2b78baec56685001b4c032d4899400b9f8cbc9",
+      "original_bytes": 6778427,
+      "original_dimensions": [
+        3000,
+        2000
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-chon-kemin.webp",
+      "webp_bytes": 1961496,
+      "webp_sha256": "ba5f2e23d411fe42ad2cdf6167ba2ffbd1835b914450858eacdbd78ec9c41298",
+      "webp_dimensions": [
+        3000,
+        2000
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "File:Canyon, Chunkurchak sanctuary, Chuy region, Kyrgyzstan.jpg",
+      "output": "habitat-chuy-chunkurchak-canyon.webp",
+      "subject": "Chunkurchak red sandstone canyon and shrub habitat",
+      "author": "Vilya Shoni",
+      "date": "2020-06-07",
+      "location": "Chong-Kuurchak Botanical Reserve, Alamudun District, Chüy Region, Kyrgyzstan",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Canyon,_Chunkurchak_sanctuary,_Chuy_region,_Kyrgyzstan.jpg",
+      "original_filename": "Canyon%2C_Chunkurchak_sanctuary%2C_Chuy_region%2C_Kyrgyzstan.jpg",
+      "original_sha1_commons": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
+      "original_sha1_downloaded": "6d9598b92245e601b0da4c01045283e9ae2c8c15",
+      "original_bytes": 2228692,
+      "original_dimensions": [
+        1440,
+        1246
+      ],
+      "webp_file": "biology/images/generated/habitat-chuy-chunkurchak-canyon.webp",
+      "webp_bytes": 614916,
+      "webp_sha256": "4391a0adcb49f709e1a23cdda2d307a3a90c884ec56b6d0a1a564af5cbe4d659",
+      "webp_dimensions": [
+        1440,
+        1246
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    }
+  ]
+}

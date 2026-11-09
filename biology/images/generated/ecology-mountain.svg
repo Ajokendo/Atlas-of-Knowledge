@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Mountain catchment ecosystem / Экосистема горного водосбора</title>
+<desc id="desc">A generalized Central Asian mountain watershed from glacier and alpine meadow through conifer forest and juniper slopes to a river valley, with surface runoff, infiltration, groundwater flow, vegetation roots and connected habitats. / Обобщённая экосистема горного водосбора Центральной Азии: ледник, альпийский луг, хвойный лес, арчовые склоны, речная долина, поверхностный сток, просачивание и подземный поток.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9d5ed"/><stop offset="1" stop-color="#edf2df"/></linearGradient>
+ <linearGradient id="snow" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c9e4ee"/></linearGradient>
+ <linearGradient id="slope" x2="0" y2="1"><stop stop-color="#8eaa70"/><stop offset="1" stop-color="#536d4b"/></linearGradient>
+ <linearGradient id="soil" x2="0" y2="1"><stop stop-color="#9b7650"/><stop offset="1" stop-color="#604b38"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#b7e7ef"/><stop offset="1" stop-color="#328eae"/></linearGradient>
+ <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#1689c4"/></marker>
+ <marker id="whiteArrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#eafaff"/></marker>
+ <g id="pine"><path d="M0 0L-27 52H27Z" fill="#285344"/><path d="M0 17L-23 68H23Z" fill="#35664e"/><path d="M0 36L-19 82H19Z" fill="#244b40"/><path d="M0 0V92" stroke="#604b38" stroke-width="5"/></g>
+ <g id="juniper"><path d="M0 0L-19 35L-8 33L-26 57L-9 54L-18 72L19 72L10 54L27 57L9 33L20 35Z" fill="#426b50"/><path d="M0 62V82" stroke="#65503b" stroke-width="4"/></g>
+</defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+<g fill="#fff" opacity=".8"><path d="M95 115q28-34 58 0q28-25 52 5q-64 15-110-5Z"/><path d="M860 130q30-38 62 0q29-24 55 8q-67 12-117-8Z"/></g>
+<!-- distant ridges -->
+<path d="M0 425L105 300L180 355L285 225L390 370L500 270L610 390L720 255L830 365L945 235L1085 370L1200 300V620H0Z" fill="#8296a0"/>
+<path d="M0 425L105 300L180 355L285 225L390 370L500 270L610 390L720 255L830 365L945 235L1085 370L1200 300" fill="none" stroke="#657d89" stroke-width="7"/>
+<!-- snow caps -->
+<path d="M66 347L105 300L145 334L125 326L109 337L96 323L82 344Z M238 284L285 225L333 292L308 276L287 286L273 265L255 289Z M455 313L500 270L548 328L522 312L501 322L485 304L470 321Z M676 303L720 255L772 315L747 296L725 307L707 289L691 309Z M897 290L945 235L1000 305L972 285L949 296L930 274L912 297Z" fill="url(#snow)"/>
+<!-- main watershed terrain -->
+<path d="M0 540L95 430L175 465L270 345L355 430L445 385L540 475L630 420L730 500L830 445L930 540L1040 495L1200 555V710H0Z" fill="url(#slope)"/>
+<!-- glacier and snowfield -->
+<path d="M222 405L270 345L312 394L294 390L279 402L264 384L248 407Z" fill="#f6fbfa"/>
+<path d="M270 382Q302 403 320 442Q337 470 363 485Q377 498 389 520Q361 514 343 494Q320 473 310 450Q291 428 270 414Z" fill="#b8dce7" stroke="#eefaff" stroke-width="5"/>
+<path d="M290 411Q312 432 326 457Q344 479 365 494" fill="none" stroke="#fff" stroke-width="8" opacity=".8"/>
+<!-- alpine meadow -->
+<path d="M0 540L95 430L175 465L210 505L185 556L110 585L0 610Z" fill="#91ad68"/>
+<g stroke="#476b43" stroke-width="3" fill="none"><path d="M36 560l-7-20m7 20l9-17m-9 17l-1-24M80 557l-8-18m8 18l9-18m-9 18v-25M145 545l-7-18m7 18l8-16m-8 16v-24"/></g>
+<g fill="#d9c46a"><circle cx="31" cy="538" r="5"/><circle cx="78" cy="539" r="5"/><circle cx="145" cy="526" r="5"/></g>
+<!-- forest belt -->
+<g><use href="#pine" x="455" y="396"/><use href="#pine" x="505" y="420"/><use href="#pine" x="555" y="430"/><use href="#pine" x="608" y="415"/><use href="#pine" x="662" y="438"/><use href="#pine" x="715" y="448"/><use href="#pine" x="765" y="460"/></g>
+<!-- juniper slopes -->
+<g><use href="#juniper" x="825" y="465"/><use href="#juniper" x="875" y="480"/><use href="#juniper" x="925" y="493"/><use href="#juniper" x="985" y="510"/></g>
+<!-- river valley and riparian strip -->
+<path d="M0 615Q180 580 320 620T610 610T900 620T1200 590V760H0Z" fill="#7f9d62"/>
+<path d="M0 655Q140 620 255 650T490 650T720 632T950 650T1200 625L1200 715Q1000 750 850 700T560 720T280 710T0 730Z" fill="url(#water)" stroke="#e2f7fa" stroke-width="5"/>
+<path d="M0 674Q150 640 260 675T490 675T720 657T950 675T1200 650" fill="none" stroke="#f2ffff" stroke-width="7" opacity=".85"/>
+<g fill="#315b43"><circle cx="1040" cy="575" r="20"/><circle cx="1070" cy="583" r="24"/><circle cx="1110" cy="570" r="19"/><circle cx="1150" cy="585" r="22"/></g>
+<g fill="#5c7f54"><circle cx="1038" cy="558" r="18"/><circle cx="1071" cy="565" r="21"/><circle cx="1111" cy="552" r="18"/><circle cx="1151" cy="566" r="20"/></g>
+<!-- cutaway soil profile -->
+<path d="M0 730Q170 712 300 740T580 728T850 742T1200 720V900H0Z" fill="url(#soil)"/>
+<path d="M0 785Q180 770 320 792T600 785T900 798T1200 780V900H0Z" fill="#765a42" opacity=".75"/>
+<path d="M0 850Q240 830 440 852T820 845T1200 850V900H0Z" fill="#574936" opacity=".8"/>
+<!-- roots -->
+<g fill="none" stroke="#e0c49a" stroke-width="4" stroke-linecap="round"><path d="M78 580Q75 650 95 690L80 752M95 690L125 728M95 690L60 720M520 500Q520 600 485 660L450 720M485 660L520 700M485 660L460 680M900 540Q900 620 870 675L840 725M870 675L900 705"/></g>
+<!-- runoff paths -->
+<g fill="none" stroke="#1689c4" stroke-width="7" stroke-linecap="round" marker-end="url(#blueArrow)"><path d="M350 510Q380 555 420 590T520 635"/><path d="M190 570Q240 590 285 620T390 646"/><path d="M680 540Q700 580 755 610T845 642"/></g>
+<!-- infiltration and groundwater flow -->
+<g fill="none" stroke="#1689c4" stroke-width="6" stroke-linecap="round" marker-end="url(#blueArrow)"><path d="M160 625L160 770"/><path d="M395 650L395 790"/><path d="M785 655L785 790"/><path d="M230 830Q420 805 590 830T950 825"/></g>
+<path d="M0 770Q180 750 320 775T600 770T900 780T1200 760" fill="none" stroke="#b8d4d0" stroke-width="3" stroke-dasharray="10 9" opacity=".8"/>
+<!-- stream channels from glacier -->
+<path d="M360 515Q390 535 405 560T450 595" fill="none" stroke="#d8f6fb" stroke-width="10" stroke-linecap="round"/>
+<path d="M360 515Q390 535 405 560T450 595" fill="none" stroke="#258db1" stroke-width="5" stroke-linecap="round"/>
+<!-- rocks and soil texture -->
+<g fill="#9a927e" stroke="#5e5a50" stroke-width="3"><ellipse cx="235" cy="610" rx="22" ry="12"/><ellipse cx="300" cy="625" rx="16" ry="10"/><ellipse cx="560" cy="610" rx="24" ry="13"/><ellipse cx="940" cy="630" rx="20" ry="11"/><ellipse cx="1040" cy="730" rx="26" ry="12"/></g>
+<g fill="#b99a72" opacity=".8"><circle cx="80" cy="810" r="5"/><circle cx="280" cy="860" r="7"/><circle cx="670" cy="805" r="6"/><circle cx="1080" cy="830" r="7"/></g>
+<!-- habitat connection cues, no species -->
+<g fill="#f8f4dc" stroke="#526b4d" stroke-width="3"><path d="M165 482q18-22 36 0q-18 15-36 0Z"/><path d="M875 545q18-22 36 0q-18 15-36 0Z"/><path d="M1070 610q18-22 36 0q-18 15-36 0Z"/></g>
+<g font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#174f75"><text x="28" y="755">↓</text><text x="360" y="805">↓</text><text x="750" y="810">↓</text></g>
+<rect x="14" y="14" width="1172" height="872" rx="18" fill="none" stroke="#ffffff" stroke-width="5" opacity=".75"/>
+</svg>

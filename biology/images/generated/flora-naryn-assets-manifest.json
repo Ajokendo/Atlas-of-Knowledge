@@ -1,0 +1,96 @@
+{
+  "generated_by": "biology/scripts/build_naryn_flora_assets.py",
+  "assets": [
+    {
+      "commons_title": "Chatyr kul lake.JPG",
+      "output": "flora-naryn-chatyr.webp",
+      "subject": "Chatyr-Kul high-altitude lake shore",
+      "author": "Nurdjen",
+      "date": "2006-07",
+      "location": "Chatyr-Kul, Naryn Region, Kyrgyzstan",
+      "license": "Public domain dedication (PD-self)",
+      "page": "https://commons.wikimedia.org/wiki/File:Chatyr_kul_lake.JPG",
+      "dimensions": [
+        2816,
+        2120
+      ],
+      "original_filename": "Chatyr kul lake.JPG",
+      "original_sha1_commons_api": "c26860e9b01d7b06bfc8684bbd33f96cb73bf615",
+      "original_sha1_downloaded": "c26860e9b01d7b06bfc8684bbd33f96cb73bf615",
+      "original_bytes": 1569099,
+      "original_dimensions": [
+        2816,
+        2120
+      ],
+      "webp_file": "biology/images/generated/flora-naryn-chatyr.webp",
+      "webp_bytes": 496772,
+      "webp_sha256": "bcf1fc200eb6a9534a4f85f3e1ccb758be61d8cd3d63df9d1734b6bdac74b200",
+      "webp_dimensions": [
+        2816,
+        2120
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "Son-Kul, Kyrgyzstan (44623421951).jpg",
+      "output": "flora-naryn-songkul.webp",
+      "subject": "Son-Kul lakeshore meadow",
+      "author": "Ninara",
+      "date": "2018-07-16",
+      "location": "Son-Kul, Naryn Region, Kyrgyzstan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Son-Kul,_Kyrgyzstan_(44623421951).jpg",
+      "dimensions": [
+        3240,
+        2160
+      ],
+      "original_filename": "Son-Kul, Kyrgyzstan (44623421951).jpg",
+      "original_sha1_commons_api": "d633442f141d97a1db60affb53068450afbea4b7",
+      "original_sha1_downloaded": "d633442f141d97a1db60affb53068450afbea4b7",
+      "original_bytes": 5113942,
+      "original_dimensions": [
+        3240,
+        2160
+      ],
+      "webp_file": "biology/images/generated/flora-naryn-songkul.webp",
+      "webp_bytes": 1061080,
+      "webp_sha256": "5cb5829525dd5d427fccc8a687dbd02131f0c00fe87738c790b62ebc3f8ec76f",
+      "webp_dimensions": [
+        3240,
+        2160
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    },
+    {
+      "commons_title": "Clematis songorica.jpg",
+      "output": "flora-naryn-clematis.webp",
+      "subject": "Flowering Clematis songorica in a rocky-clay floodplain",
+      "taxon": "Clematis songorica",
+      "author": "Alexey Yakovlev",
+      "date": "2026-07-11",
+      "location": "Tributary of the Alabuga River, 4 km south of Dzherge-Tal, Ak-Tala District, Naryn Region, Kyrgyzstan; 2,400 m a.s.l.",
+      "license": "CC0 1.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Clematis_songorica.jpg",
+      "dimensions": [
+        1400,
+        933
+      ],
+      "original_filename": "Clematis songorica.jpg",
+      "original_sha1_commons_api": "dc3fe6c40900b70292db502ed9b75af322cd2198",
+      "original_sha1_downloaded": "dc3fe6c40900b70292db502ed9b75af322cd2198",
+      "original_bytes": 450948,
+      "original_dimensions": [
+        1400,
+        933
+      ],
+      "webp_file": "biology/images/generated/flora-naryn-clematis.webp",
+      "webp_bytes": 272820,
+      "webp_sha256": "16333088149f22584564ade575a7a9e4a0ebce954b377da343f2cf11e8eb3d51",
+      "webp_dimensions": [
+        1400,
+        933
+      ],
+      "conversion": "JPEG to WebP, RGB, quality=88, method=6"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Высотная мозаика растительности Кыргызстана / Altitudinal vegetation mosaic of Kyrgyzstan</title>
+<desc id="desc">Схематичный горный ландшафт с мозаикой предгорной полупустыни, степи, арчовых и еловых лесов, субальпийских и альпийских лугов. Переходы размыты и меняются в зависимости от экспозиции, влаги и местного рельефа; высоты не указаны. / A schematic mountain landscape showing a mosaic of foothill semi-desert, steppe, juniper and spruce woodland, and subalpine and alpine meadows. Transitions are gradual and vary with aspect, moisture and local relief; no elevations are specified.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e5edf0"/><stop offset="1" stop-color="#f4f1e8"/></linearGradient>
+ <linearGradient id="foothill" x2="0" y2="1"><stop stop-color="#c9b98e"/><stop offset="1" stop-color="#a58e67"/></linearGradient>
+ <linearGradient id="meadow" x2="0" y2="1"><stop stop-color="#9fb88c"/><stop offset="1" stop-color="#6e8d66"/></linearGradient>
+ <style>.label{font:600 23px Inter,Arial,sans-serif;fill:#243329}.sub{font:16px Inter,Arial,sans-serif;fill:#536258}.tiny{font:14px Inter,Arial,sans-serif;fill:#617066}.outline{stroke:#526e5a;stroke-width:4;stroke-linejoin:round}.spruce{fill:#466d59;stroke:#365747;stroke-width:3}.juniper{fill:#718c69;stroke:#4c6c51;stroke-width:3}.grass{stroke:#718c55;stroke-width:5;stroke-linecap:round}.snow{fill:#f8faf7}.panel{fill:#f7f8f4;stroke:#d6dfd6;stroke-width:2}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1360" cy="135" r="66" fill="#e7d7a8" opacity=".65"/>
+<!-- mountain mass -->
+<path d="M0 590L170 400L300 485L520 205L720 500L930 250L1110 490L1330 300L1600 565V900H0Z" fill="#aab9b0"/>
+<path d="M410 340L520 205L635 355L580 320L520 245L470 310Z M830 390L930 250L1045 390L990 350L930 290L880 355Z M1240 410L1330 300L1430 420L1380 385L1330 335L1285 385Z" class="snow"/>
+<path d="M0 600L180 470L350 590L560 400L760 620L970 400L1150 615L1360 420L1600 600V900H0Z" fill="#879e8d"/>
+<!-- vegetation terrain mosaic on foreground slopes -->
+<path d="M0 630Q160 555 340 625T700 650L760 900H0Z" fill="url(#foothill)"/>
+<path d="M250 620Q430 530 620 590T960 610L1100 900H300Z" fill="#b5b47d"/>
+<path d="M550 600Q740 500 930 570T1260 600L1400 900H700Z" fill="url(#meadow)"/>
+<path d="M900 590Q1080 490 1260 560T1600 590V900H1080Z" fill="#8fae86"/>
+<!-- scree/rock and snow patches -->
+<path d="M500 590L650 475L735 625L690 614L650 550L605 610Z M1000 560L1110 455L1190 590L1150 575L1110 520L1060 580Z" fill="#c7cec5"/>
+<!-- river valley -->
+<path d="M750 900Q830 800 900 730Q970 660 925 610" fill="none" stroke="#75a6a3" stroke-width="35" stroke-linecap="round"/>
+<path d="M750 900Q830 800 900 730Q970 660 925 610" fill="none" stroke="#dce9e5" stroke-width="7" stroke-linecap="round"/>
+<!-- steppe grasses -->
+<g class="grass"><path d="M90 710l-10 -35m10 35l14 -42m-14 42l-24 -28M210 690l-6 -40m6 40l18 -32m-18 32l-22 -25M340 735l-5 -45m5 45l17 -38m-17 38l-22 -26"/></g>
+<!-- juniper trees broad, irregular crowns -->
+<g class="juniper"><path d="M405 665Q375 640 400 610Q380 575 425 560Q450 520 480 555Q520 555 510 600Q540 630 500 650L490 690H420Z"/><path d="M540 680Q510 650 535 620Q520 585 560 570Q590 530 620 570Q660 580 640 620Q670 650 630 670L620 700H555Z"/></g>
+<!-- spruce trees -->
+<g class="spruce"><path d="M1010 690L1060 555L1110 690H1090L1140 725H980L1030 690Z"/><path d="M1170 700L1225 535L1280 700H1255L1305 735H1145L1195 700Z"/><path d="M1350 705L1400 565L1450 705H1430L1475 738H1325L1370 705Z"/></g>
+<!-- alpine meadow flowers -->
+<g fill="#f0e5bc"><circle cx="860" cy="665" r="7"/><circle cx="895" cy="690" r="6"/><circle cx="950" cy="650" r="7"/><circle cx="990" cy="700" r="6"/><circle cx="1040" cy="665" r="6"/></g>
+<!-- shrub silhouettes -->
+<g fill="#6e865d"><ellipse cx="260" cy="700" rx="44" ry="17"/><ellipse cx="310" cy="720" rx="38" ry="15"/><ellipse cx="700" cy="705" rx="42" ry="16"/></g>
+<!-- floating labels -->
+<g>
+<rect x="55" y="155" width="285" height="76" rx="12" class="panel"/><text x="78" y="185" class="label">Полупустыня / Semi-desert</text><text x="78" y="211" class="tiny">Предгорья / Foothills</text>
+<path d="M200 231L175 570" stroke="#7d8d78" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<rect x="365" y="260" width="220" height="72" rx="12" class="panel"/><text x="388" y="290" class="label">Степь / Steppe</text><text x="388" y="315" class="tiny">Травяные сообщества / Grasslands</text>
+<path d="M475 332L450 595" stroke="#7d8d78" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<rect x="620" y="145" width="250" height="76" rx="12" class="panel"/><text x="642" y="176" class="label">Арчовые редколесья</text><text x="642" y="202" class="tiny">Juniper woodland</text>
+<path d="M745 221L565 560" stroke="#7d8d78" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<rect x="910" y="170" width="250" height="76" rx="12" class="panel"/><text x="932" y="201" class="label">Еловые леса</text><text x="932" y="227" class="tiny">Spruce woodland</text>
+<path d="M1030 246L1220 545" stroke="#7d8d78" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<rect x="1190" y="145" width="350" height="76" rx="12" class="panel"/><text x="1212" y="176" class="label">Субальпийские и альпийские луга</text><text x="1212" y="202" class="tiny">Subalpine and alpine meadows</text>
+<path d="M1350 221L970 615" stroke="#7d8d78" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+</g>
+<rect x="55" y="785" width="1490" height="80" rx="14" fill="#f7f8f4" stroke="#d6dfd6" stroke-width="2" opacity=".96"/>
+<text x="82" y="818" class="sub">Переходы условны: экспозиция склона, влажность, почвы и местный рельеф создают мозаику, а не одинаковые пояса на каждой горе.</text>
+<text x="82" y="846" class="tiny">Transitions are indicative: slope aspect, moisture, soils and local relief create a mosaic, not identical belts on every mountain.</text>
+</svg>

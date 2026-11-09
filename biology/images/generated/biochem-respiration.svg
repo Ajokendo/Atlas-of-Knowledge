@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+<title id="title">Клеточное дыхание / Cellular respiration</title>
+<desc id="desc">Гликолиз происходит в цитозоле. Пируват поступает в митохондрию, где окисляется до ацетил-КоА, а цикл лимонной кислоты идёт в матриксе. Дыхательная цепь и АТФ-синтаза расположены во внутренней мембране: протоны перекачиваются из матрикса в межмембранное пространство и возвращаются через АТФ-синтазу. Кислород — конечный акцептор электронов; образуется вода. / Glycolysis occurs in the cytosol. Pyruvate enters the mitochondrion and is oxidised to acetyl-CoA; the citric acid cycle takes place in the matrix. The electron transport chain and ATP synthase are located in the inner membrane: protons are pumped from the matrix into the intermembrane space and return through ATP synthase. Oxygen is the final electron acceptor and water is formed.</desc>
+<defs>
+ <marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#405d78"/></marker>
+ <marker id="proton" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#b36b22"/></marker>
+ <style>
+ .title{font:700 29px Arial,sans-serif;fill:#18334b}.head{font:700 21px Arial,sans-serif;fill:#18334b}
+ .txt{font:17px Arial,sans-serif;fill:#29465d}.small{font:15px Arial,sans-serif;fill:#35536b}.tiny{font:13px Arial,sans-serif;fill:#526879}
+ .card{fill:#fff;stroke:#9ab1c2;stroke-width:2}.gly{fill:#d9eaf6;stroke:#4c83a7;stroke-width:3}
+ .matrix{fill:#fff4e6;stroke:#b8793e;stroke-width:3}.protein{fill:#8bb7d2;stroke:#356887;stroke-width:3}
+ .atp{fill:#f6d88b;stroke:#a97820;stroke-width:3}.arrow{fill:none;stroke:#405d78;stroke-width:4;marker-end:url(#arr)}
+ .pflow{fill:none;stroke:#b36b22;stroke-width:4;marker-end:url(#proton)}
+ </style>
+</defs>
+<rect width="1200" height="1000" rx="24" fill="#fff"/>
+<text x="600" y="42" text-anchor="middle" class="title">Клеточное дыхание</text>
+<text x="600" y="74" text-anchor="middle" class="title" style="font-size:25px">Cellular respiration</text>
+
+<!-- Cytosol -->
+<rect x="35" y="100" width="1130" height="190" rx="24" fill="#f3f8fb" stroke="#7d9aaf" stroke-width="3"/>
+<text x="70" y="135" class="head">Цитозоль / Cytosol</text>
+<rect x="75" y="155" width="360" height="105" rx="18" class="gly"/>
+<text x="255" y="185" text-anchor="middle" class="head">Гликолиз</text>
+<text x="255" y="209" text-anchor="middle" class="head" style="font-size:18px">Glycolysis</text>
+<text x="255" y="235" text-anchor="middle" class="txt">Глюкоза → 2 пирувата</text>
+<text x="255" y="254" text-anchor="middle" class="small">Glucose → 2 pyruvate</text>
+<path d="M435 208H505" class="arrow"/>
+<text x="550" y="190" class="txt">Пируват поступает в митохондрию</text>
+<text x="550" y="216" class="small">Pyruvate enters the mitochondrion</text>
+<text x="550" y="250" class="small">Чистый выход гликолиза: 2 АТФ и 2 NADH</text>
+<text x="550" y="270" class="small">Net glycolysis yield: 2 ATP and 2 NADH</text>
+
+<!-- Mitochondrion -->
+<rect x="45" y="325" width="1110" height="600" rx="95" class="matrix"/>
+<text x="600" y="365" text-anchor="middle" class="head">Межмембранное пространство</text>
+<text x="600" y="390" text-anchor="middle" class="head" style="font-size:18px">Intermembrane space</text>
+
+<!-- Inner membrane band -->
+<rect x="105" y="455" width="990" height="95" rx="38" fill="#f1cda8" stroke="#b8793e" stroke-width="3"/>
+<path d="M125 480H1075M125 525H1075" stroke="#a85f35" stroke-width="8" stroke-linecap="round"/>
+<text x="600" y="442" text-anchor="middle" class="small">Внутренняя мембрана митохондрии / Inner mitochondrial membrane</text>
+
+<!-- ETC complexes -->
+<rect x="220" y="455" width="78" height="95" rx="18" class="protein"/>
+<rect x="365" y="455" width="78" height="95" rx="18" class="protein"/>
+<rect x="510" y="455" width="78" height="95" rx="18" class="protein"/>
+<text x="110" y="420" class="tiny">Дыхательная цепь</text>
+<text x="110" y="440" class="tiny">Electron transport chain</text>
+<path d="M260 675V565" class="pflow"/><path d="M405 675V565" class="pflow"/><path d="M550 675V565" class="pflow"/>
+<text x="260" y="590" text-anchor="middle" class="small">H⁺</text>
+<text x="405" y="590" text-anchor="middle" class="small">H⁺</text>
+<text x="550" y="590" text-anchor="middle" class="small">H⁺</text>
+<path d="M260 455V420" class="pflow"/><path d="M405 455V420" class="pflow"/><path d="M550 455V420" class="pflow"/>
+<text x="260" y="410" text-anchor="middle" class="small">H⁺</text><text x="405" y="410" text-anchor="middle" class="small">H⁺</text><text x="550" y="410" text-anchor="middle" class="small">H⁺</text>
+
+<!-- ATP synthase -->
+<rect x="825" y="455" width="86" height="95" rx="22" class="atp"/>
+<circle cx="868" cy="445" r="28" class="atp"/>
+<path d="M868 410V600" class="pflow"/>
+<text x="980" y="480" class="head">АТФ-синтаза</text>
+<text x="980" y="506" class="small">ATP synthase</text>
+<text x="980" y="535" class="small">H⁺ возвращаются</text>
+<text x="980" y="554" class="tiny">Protons flow back</text>
+
+<!-- Matrix processes -->
+<text x="75" y="630" class="small">Матрикс митохондрии</text>
+<text x="75" y="650" class="tiny">Mitochondrial matrix</text>
+<rect x="95" y="690" width="390" height="155" rx="20" class="card"/>
+<text x="290" y="725" text-anchor="middle" class="head">Окисление пирувата</text>
+<text x="290" y="750" text-anchor="middle" class="head" style="font-size:18px">Pyruvate oxidation</text>
+<text x="290" y="786" text-anchor="middle" class="txt">Пируват → ацетил-КоА + CO₂ + NADH</text>
+<text x="290" y="813" text-anchor="middle" class="small">Pyruvate → acetyl-CoA + CO₂ + NADH</text>
+<rect x="535" y="690" width="390" height="155" rx="20" class="card"/>
+<text x="730" y="725" text-anchor="middle" class="head">Цикл лимонной кислоты</text>
+<text x="730" y="750" text-anchor="middle" class="head" style="font-size:18px">Citric acid cycle</text>
+<text x="730" y="786" text-anchor="middle" class="txt">Ацетил-КоА → CO₂</text>
+<text x="730" y="813" text-anchor="middle" class="small">Acetyl-CoA → CO₂</text>
+<text x="730" y="824" text-anchor="middle" class="tiny">Здесь образуются NADH, FADH₂ и GTP/АТФ</text>
+<text x="730" y="841" text-anchor="middle" class="tiny">NADH, FADH₂ and GTP/ATP are produced here</text>
+
+<!-- ATP and oxygen output -->
+<path d="M910 720H1000" class="arrow"/>
+<text x="1000" y="690" class="small">АДФ + Pi → АТФ</text>
+<text x="1000" y="710" class="small">ADP + Pi → ATP</text>
+<text x="600" y="890" text-anchor="middle" class="small">Кислород принимает электроны в конце цепи; образуется вода.</text>
+<text x="600" y="912" text-anchor="middle" class="small">Oxygen accepts electrons at the end of the chain; water is formed.</text>
+<text x="600" y="965" text-anchor="middle" class="tiny">Схема упрощена и не в масштабе / Simplified schematic, not to scale</text>
+</svg>

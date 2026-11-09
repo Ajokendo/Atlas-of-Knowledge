@@ -1,0 +1,1433 @@
+## Current internal QA checkpoint — 6 November 2026
+
+- **Visual production/integration coverage:** 53/53 mapped briefs (100%). This remains production coverage only, not complete asset verification.
+- **Working editorial-readiness estimate:** 99/100, unchanged. Do not convert this staged estimate into a 100% completion claim.
+- **Latest completed full Chromium run:** [run #1530](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171199947), completed `success` on `workspace/biology`. The dedicated regional diagram keyboard-scroll test [run #1531](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42171211457) is still in progress at this checkpoint.
+- **Mobile SVG readability remediation:** 34 diagrams now have enlarged horizontal scroll viewports with bilingual hints: 15 regional (12 fauna, 3 flora) plus 19 core-chapter diagrams across Anatomy, Biochemistry, Cell Biology, Microbiology, Systematics and Zoology. A shared `biology/diagram-scroll.js` handler supports ArrowLeft/ArrowRight; the dedicated end-to-end browser test is pending in [run #1554](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42172024322).
+- **Responsive layout evidence:** the 390 px page-width regression is closed in successful full Chromium runs #1528, #1529 and #1530. These runs validate the regional viewport layout; #1554 is the current full test for the combined regional/core viewports and keyboard operation.
+- **Image QA remains open:** 45/53 disposition rows and 37/53 brief-review rows still contain explicit pending/open notes. The mobile viewport remediation does not mark these assets `VERIFIED`; detailed scientific morphology, bilingual semantic equivalence and provenance checks remain separate.
+- **Hands-on accessibility:** NVDA, TalkBack, VoiceOver and physical-device tests remain pending/not performed. Do not infer a pass from headless Chromium or axe.
+- **External review:** excluded from project scope. No external specialist, teacher, independent reviewer or institution is a required gate.
+- **Scope:** all changes remain under `biology/` on `workspace/biology`; no changes to `main`, other subject areas, shared portal, catalogue or publishing configuration.
+
+---
+
+## Current internal QA checkpoint — 5 November 2026
+
+- **Visual production/integration coverage:** 53/53 mapped briefs (100%). This is production coverage, not full verification of every image or completion of the entire atlas.
+- **Working editorial-readiness estimate:** 99/100, retained as a staged internal estimate. It is not a completion percentage or external certification. No increase is claimed in this update.
+- **Automated CI:** all 12 latest commits updating archived external-review documents and internal governance notes completed successfully; the five earlier governance-document runs also passed. These runs validate repository automation, not every scientific claim or detailed image property.
+- **External review boundary:** external specialists, independent reviewers, teachers and institutions do not participate in this project. Recruitment, handoff, assessment and external sign-off are excluded from scope, schedule, progress metrics and acceptance criteria. Historical review documents are archived only.
+- **Internal QA still in scope:** source-led claim checks; taxonomy, locality, date and numerical consistency; bilingual editing; image provenance/licensing; rendered visual inspection; and hands-on accessibility/device tests where the project team has access to the environment. Mark unavailable tests “not tested”; do not infer a pass.
+- **Scope preserved:** all changes remain under `biology/` on `workspace/biology`; no changes to `main`, other subject areas, shared portal or publishing configuration.
+
+
+---
+
+## Author-controlled completion update — 4 November 2026 (supersedes older readiness notes)
+
+- Latest full Biology CI: [run 41822905607](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41822905607), commit `9d4b79ff0297d95fcdb1998c58f6e973fd81ecc6`, completed **successfully** on `workspace/biology`. The `validate` job passed.
+- The run includes expanded browser-smoke assertions for raster `img.decode()`, intrinsic image dimensions, alt attributes and non-zero inline-SVG geometry, in addition to the existing 13-page mobile/desktop Chromium checks, bilingual switching, accessibility rules, contrast sampling and keyboard checks.
+- The 53/53 visual-brief count is asset production/integration coverage. The automated smoke suite checks image loading and basic rendered geometry across chapter pages; it does **not** certify detailed artistic/scientific appearance or replace human visual review.
+- G4 scientific and G5 bilingual/editorial **author-side** audits are complete (4/4 blocks each). The independent-review packet is explicitly optional and was not commissioned; it is not a mandatory completion gate.
+- Hands-on NVDA/TalkBack/VoiceOver and physical-device sessions cannot honestly be marked passed by headless CI. They remain documented as **not yet performed** and are a separate validation activity.
+- No changes to `main`, other subject folders, shared portal or publishing settings. Work remains confined to `biology/` on `workspace/biology`.
+
+---
+
+# Biology development checkpoint
+
+## Superseding visual-production update — 4 November 2026
+
+- **53/53 mapped illustration briefs now have produced or integrated assets (100% visual asset-production coverage).** This is a count of mapped illustration briefs, not a claim that the Biology atlas or its chapters are 100% complete.
+- Final new assets integrated in this workstream: `genetics-dna-packaging.svg`, `biology-cover.svg`, `zoology-vertebrates.svg`, `evolution-tree.svg` and `flora-altitude.svg`. Earlier in the same workstream: `genetics-mutations.svg`.
+- The 53-row [IMAGE_DISPOSITION_REGISTER.md](IMAGE_DISPOSITION_REGISTER.md) is authoritative for individual asset status and outstanding QA. The full post-integration Biology CI run `41821592204` completed successfully on commit `a9b38d6a20f1c2f10bf4d04c65df334a1fab0682`. Focused visual QA remains pending for entries explicitly marked pending; a successful full CI run does not replace manual browser/device review.
+- Controlled editorial readiness remains **95/100** as previously recorded; visual asset coverage does not change that separate score.
+
+
+## Current visual-production checkpoint — 3 November 2026 (supersedes older G6 deferral entries)
+
+- **5/52 mapped visual briefs produced (9.6%), comprising 15 source-backed photographs**: Chüy fauna (six), Jalal-Abad flora / Arslanbob (one), Issyk-Kul flora (four), Naryn flora (three), and Osh flora (one). The other 47 briefs remain pending or deferred. This is a brief-level percentage, not a percentage of individual photographs.
+- Naryn assets were committed at `811fb5ea4194da34bf1c86b7fd1d4cfa930cd0a5`. All three originals matched live Commons API SHA-1 values and source dimensions; the focused bilingual Chromium test passed in [run 41611003785](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611003785).
+- Naryn audit and complete per-image provenance: `FLORA_NARYN_IMAGE_AUDIT_2026-11-03.md`.
+- Osh audit and complete image provenance: `FLORA_OSH_IMAGE_AUDIT_2026-11-03.md`; generated asset commit `42b46a9ea95c6ffa9478a7d0233dcc8c90f1efa5`; focused Chromium QA passed in [run 41611930095](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41611930095).
+- Jalal-Abad audit: `FLORA_JALALABAD_IMAGE_AUDIT_2026-11-03.md`. Issyk-Kul audit: `FLORA_ISSYK_IMAGE_AUDIT_2026-11-03.md`.
+- The latest full Biology CI run on the current branch head `ccaa81becf49e351f72da7e72133ffd6bd4e39c8` passed: [run 41612238613](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41612238613). Static validation, local-path/script checks and the Chromium smoke test for every Biology page completed successfully. This supersedes the earlier note about waiting for a post-Naryn full-suite rerun.
+- Offline caching remains unimplemented and unverified. Browser image decoding is not an offline test.
+- Controlled editorial readiness remains **95/100**; no increase is implied by visual production.
+
+
+**Date:** 1 November 2026  
+**Repository:** `Ajokendo/Atlas-of-Knowledge`  
+**Canonical branch:** `workspace/biology`  
+**Working area:** `biology/` only  
+**Controlled editorial readiness:** **95/100** (not publication approval)
+
+## Gate status
+
+- **G1–G3:** closed; the recorded GitHub Actions run #41275274366 passed the static and Chromium checks for its tested commit. The bilingual structural parity audit was also covered by run #41275876545.
+- **G4:** closed — internal scientific audit completed (4/4 planned blocks, 100%); unresolved source-level questions remain explicitly qualified/deferred, not an external-review gate.
+- **G5:** closed — internal editorial and bilingual audit completed (4/4 planned blocks, 100%); external professional review is optional, not a completion requirement.
+- **Portal feedback:** cross-project integration is a separate portal-level task; feedback intake must remain disabled until the portal is complete, security/technical checks pass, and the owner is ready to invite teachers.
+- **G6:** visual production is in progress: **4 of 52 mapped briefs produced (7.7%)**, with 48 still pending/deferred. This is separate from the 95/100 controlled editorial-readiness score.
+
+## Latest saved development
+
+- Ecology productivity and trophic efficiency: `e2cb743769ec6f30c1c82633f6b2e8e58ade1e29`.
+- Evolution speciation and reproductive isolation: `1124de622af9878799cbddeaebe7cc0038894580`.
+- Microbiology horizontal gene transfer: `f183a91c8e90dfb32f29edca02f4f73e90fe783d`.
+- Genetics gene regulation and epigenetics: `a53317046d14b6d939de0e295732e4404d44bc6c`.
+- Regression assertions for these four sections in `checks.mjs`: `6fede848c410135dccd164f87aabf6f682f7227b`.
+- Development record in `README.md`: `48efd57ec0a90fef832924ca9e368ee03820c38e`.
+
+## Preservation and verification
+
+- The 52 exact `image-brief-*` insertion anchors remain in the chapters and match the 52 rows in `IMAGE_INSERTION_MAP.md` and the 52 Deferred rows in `IMAGE_DISPOSITION_REGISTER.md`.
+- Focused source-level verification passed for all four new lessons, their bilingual blocks, key scientific distinctions and section ordering.
+- The regression assertions are committed. The full Node suite, Chromium smoke suite and CI have **not** yet been rerun against these latest commits.
+- No branch merge, deletion, or change outside `biology/` was made.
+
+**Next milestone:** continue the remaining accessibility work (keyboard interaction coverage, screen-reader review and physical-device checks), then address the 52 deferred visual assets and shared-portal feedback integration. Keep feedback intake disabled until the portal and security checks are complete. Do not increase the 95/100 score merely because commits were added.
+
+## Subsequent genetics extension
+
+- Added a bilingual Mendelian inheritance lesson with genotype/phenotype, allele segregation, a semantic Punnett square for `Aa × Aa`, and explicit limits of simple dominance models.
+- Chapter commits: `58fb4df00485a74db502973bb29b5a4481710fc2`, `ac6f6a937e5dfc8f76b3f96453167d1869e6e5e4`.
+- Regression assertion commit: `0947593055409086a77245a376b5f2302767c665`.
+- Development log updated in README commit: `cd773c5c7ff380cd581aaeab233ccaf6583e936b`.
+- Image anchors remain preserved: 52 mapped, 52 deferred. The controlled score remains 95/100 until G4/G5 independent review is completed.
+
+## Cell biology extension
+
+- Added bilingual cell communication and signal-transduction content: four major signalling modes, receptor activation, relay proteins, second messengers, amplification, feedback and cross-talk.
+- Added an accessible SVG pathway overview with `title`, `desc` and `aria-labelledby`.
+- Chapter commit: `d7c3c181dc3c5f486d3cabf78ce2fb0da9c496b9`.
+- Regression checks commit: `bd0009d56bace3c1b20f11012ed5d6e61151d6e6`.
+- README record commit: `f8d2c893afc4dc31adddd24a330926b8b9b0bc1f`.
+- Focused source-level verification is pending final read-back; full Node.js, Chromium and CI suites have not been rerun. Readiness remains 95/100; G4/G5 are open.
+
+## Further cell-biology coverage
+
+- Added bilingual material on cell-cycle checkpoints (G1/S, G2/M and spindle assembly), cyclin–CDK control, DNA-damage responses, apoptosis and necrosis, and the multifactorial nature of tumour development.
+- Chapter commit: `f96f28c4386afca6e23437d0aedc14bc49233323`.
+- Regression test commit: `6d680c4e08ea76372b9232bd2b00c6eb58622707`.
+- README log commit: `4d02c2b3ba0133f9ebd35b2647de336623582f4f`.
+- Focused source read-back and full test execution are pending. No readiness increase is claimed; G4/G5 remain open.
+
+## Anatomy and physiology extension
+
+- Expanded the homeostasis section with bilingual explanations of negative-feedback control loops, receptor/integrator/effector roles and normal physiological ranges.
+- Added thermoregulation, insulin/glucagon blood-glucose regulation, vasopressin-mediated water balance, and bounded positive-feedback examples (labour and clotting).
+- Added an accessible SVG control-loop diagram with bilingual labels, title and description.
+- Chapter commit: `851d39f57321940c90562b681fd59b7578b2895e`.
+- Regression checks commit: `4cc01025f6066befd783b9b745747392ae14cbab`.
+- README log commit: `05f553bdb0cff315e0695bbdfd337f28b81b5abd`.
+- Focused source read-back is pending. Full Node.js, Chromium and CI suites have not yet been rerun. Readiness remains 95/100; G4/G5 remain open.
+
+
+## Renal physiology extension
+
+- Added a bilingual nephron and renal-regulation lesson covering filtration, selective reabsorption, secretion, aldosterone, vasopressin and RAAS.
+- Added an accessible nephron SVG with bilingual title/description and regression assertions for placement, mechanisms, bilingual content and scientific caveats.
+- Chapter commit: `029a51f04974c6e6c1a06065bdec60c8bd1f09c5`. Nephron flow-arrow refinement: `a85f987c716a5d71cda01a11bdc99a5b80e53de8`.
+- Regression-check commit: `c3a24ceae7d3b933118ab5f9cdd9a5bb7de7d99c`.
+- README log commit: `9becc8851d4792dbe368e367ad867fb489a012af`.
+- Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and their Deferred dispositions are unchanged.
+
+
+## Cardiovascular physiology extension
+
+- Added bilingual coverage of the cardiac cycle, stroke volume, cardiac output, electrical conduction, baroreceptor reflex and the interaction of cardiovascular regulation with renal RAAS and vasopressin mechanisms.
+- Added an accessible bilingual SVG diagram of the cardiac conduction pathway.
+- Chapter commit: `af8a0108af71f0c93d10ff2b70dddb1be04cacd1`.
+- Regression-check commit: `55a7262c61db31b4d6d6ea3d5dc14bfe8a30b0dd`. Boundary correction in regression assertions: `3ca37b077b4cd0ab829394e1b562843f6f495b48`.
+- README log commit: `14ec92f2f088447a0383991f59432cb40ab45e7d`.
+- Full Node.js, Chromium and CI checks have not yet been run on these latest commits. Controlled readiness remains 95/100; G4/G5 remain open. Existing 52 image anchors and Deferred dispositions are unchanged.
+
+
+## Illustration production pilot — 1 November 2026
+
+- Began the P1 image pilot with a local Batken flora concept preview (1280×720, WebP). The image pairs an Aygul-like fritillary with an unlabeled generic wild tulip; generated labels were removed.
+- The candidate is not committed to the repository, not integrated into the chapter and not approved. The wild-tulip morphology is unverified against the Batken taxa listed in the chapter; Aygul nomenclature must follow `Petilium eduardii`.
+- See `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The `image-brief-flora-batken` anchor and all 52 Deferred statuses remain unchanged.
+- No publication gate is closed; controlled readiness remains 95/100, G4/G5 remain open.
+
+
+## Second illustration production attempt — 1 November 2026
+
+- Generated a mountain biodiversity concept collage (ImageGen generation ID `decb1eeb-b86a-4b4c-abc7-9d6e5efcdd66`) and cropped three local WebP review candidates: snow-leopard-like cat (500×500), golden-eagle-like raptor (496×500), and unidentified horned mountain ram (498×500).
+- All three remain local-only drafts. They are not field photographs, do not establish a Kyrgyzstan locality, and have not passed zoological review. The ram is not identified as argali or any subspecies.
+- Updated `IMAGE_DRAFT_REVIEW_2026-11-01.md` with generation provenance, exact local filenames/dimensions and scientific holds. README records the pilot.
+- No raster image has been added to GitHub or inserted into a chapter. All 52 markers remain Deferred; no marker, target filename or anchor changed.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. No new test or CI success is claimed.
+
+
+## Third illustration production attempt — 1 November 2026
+
+- Generated one six-panel alpine biodiversity concept collage (ImageGen generation ID `d34da22d-d7e5-4247-9be9-e2f29d102e1a`) and split it into six local WebP review candidates: snow-leopard-like cat, eagle-like raptor, argali-like ram, partridge-like bird, unidentified marmot and unidentified butterfly.
+- Exact filenames and pixel dimensions, plus taxonomic cautions, are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. These are generated concepts, not field records or verified locality evidence.
+- No raster asset was added to GitHub or integrated into a chapter. All 52 markers remain Deferred; no marker or target path changed.
+- Controlled readiness remains **95/100**. G4/G5 remain open. No test or CI success is claimed.
+
+
+## Fourth illustration production attempt — 1 November 2026
+
+- Produced one new local WebP candidate from the fourth generated collage: an unidentified edelweiss-like alpine flower (503×507). Its morphology requires botanical review; no genus, species or Kyrgyzstan locality is asserted.
+- Provenance and scientific hold are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. Repeated wildlife panels were not treated as new assets.
+- No image was committed or integrated. All 52 markers remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No new tests or CI runs are claimed.
+
+
+## Fifth illustration production attempt — 1 November 2026
+
+- One new local candidate extracted: `biology-red-bell-alpine-flower-candidate.webp` (505×504). It is an unidentified red bell-shaped alpine flower concept; species/genus attribution is withheld pending botanical review.
+- Provenance and scientific caveats recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. No asset committed or inserted; no marker changed.
+- Controlled readiness remains **95/100**. G4 independent scientific review and G5 independent bilingual/editorial/release review remain open. All 52 image dispositions remain Deferred. No tests/CI were run or claimed in this stage.
+
+
+## Sixth illustration production attempt — 1 November 2026
+
+- Added one standalone local WebP botanical candidate (1254×1254), a red-orange crown-like alpine flower. It remains taxonomically unidentified pending botanical review; the setting is illustrative.
+- Generation provenance, filename, size and caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- No raster was committed or inserted; no marker changed. All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run in this stage.
+
+
+## Seventh illustration production attempt — 1 November 2026
+
+- Added one distinct standalone local WebP wildlife candidate: snow-leopard-like large cat, 1254×1254. Generation provenance and scientific caveats are in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- Candidate is not a field record and is not committed or inserted. A repeated flower motif from the preceding generation was excluded from the candidate count.
+- No insertion marker changed; all 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run in this stage.
+
+
+## Illustration quality-control audit — 1 November 2026
+
+- Three additional generation attempts repeated the existing snow-leopard scene and were rejected as duplicates; they are not counted as new assets.
+- Audited the P1 `fauna-birds.webp` insertion brief against the actual fauna chapter. The named examples include golden eagle (`Aquila chrysaetos`), bearded vulture (`Gypaetus barbatus`), Himalayan snowcock (`Tetraogallus himalayensis`) and black stork (`Ciconia nigra`), plus separately described wetland birds. The intended plate must preserve distinct cliff, alpine and wetland settings.
+- This was a quality-control/documentation checkpoint, not a completed illustration. No image was committed or inserted. All 52 markers remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run.
+
+
+## Eighth illustration production attempt — 1 November 2026
+
+- Produced one distinct local horizontal WebP candidate: a large eagle in flight over alpine mountains (1536×1024). It is intended as a golden-eagle concept, but requires ornithological review before taxonomic labelling.
+- Generation provenance and caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`. The asset is local-only, not committed or inserted.
+- No marker changed; all 52 image dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Ninth illustration production attempt — 1 November 2026
+
+- Generated a local perched golden-eagle concept variant (1536×1024; ImageGen provenance and review caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`). This is a visual variant of the eagle subject, not a new taxon and not completion of the P1 bird plate.
+- The WebP remains local-only, uncommitted and uninserted. No chapter content or image marker was changed.
+- All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Tenth illustration production attempt — 1 November 2026
+
+- Generated a local bearded-vulture-like alpine bird concept (1536×1024). ImageGen provenance and scientific caveats are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- Candidate remains local-only, uncommitted, uninserted and unapproved. It is not evidence of a Kyrgyzstan field record and does not complete the multi-species P1 bird plate.
+- No marker changed; all 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Illustration duplicate-control checkpoint — 1 November 2026
+
+- Three additional bird-image generations repeated the same perched bearded-vulture motif and were rejected as near-duplicates. No candidate count, filename, insertion anchor or disposition was added or changed.
+- Next intended distinct subject: Himalayan snowcock (`Tetraogallus himalayensis`); the generation queue did not yet produce a distinct usable draft.
+- All 52 image dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Gamebird illustration quality-control — 1 November 2026
+
+- Two attempted gamebird illustrations did not produce a reliable Himalayan snowcock depiction: one was monal-like and the other chukar/partridge-like, duplicating an existing concept. Both were rejected and not counted as new assets.
+- No raster asset was committed or inserted; no marker changed. All 52 dispositions remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Image-disposition wording correction — 1 November 2026
+
+- Recorded another rejected monal-like gamebird duplicate in the image review log; no new candidate was accepted.
+- Corrected the disposition register to distinguish local-only concept drafts from approved, committed and integrated publication assets. No approved raster image is present in `biology/images/generated/`; all 52 mapped assets remain Deferred.
+- Controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## User-provided bird image review — 1 November 2026
+
+- Reviewed a user-provided bird image as a possible Himalayan snowcock visual study. A local WebP review copy was created; it remains uncommitted and uninserted.
+- Plumage has some relevant high-altitude gamebird traits, but visible throat/face markings do not clearly match the regional adult description for `Tetraogallus himalayensis`. Species identity, local subspecies context, authorship/licence and provenance require verification. The single-bird image cannot complete the mapped multi-habitat 16:9 plate.
+- No marker or disposition changed. All 52 assets remain Deferred; controlled readiness remains **95/100**; G4/G5 remain open. No tests/CI were run.
+
+
+## Eleventh illustration production attempt — 1 November 2026
+
+- Produced one distinct local horizontal WebP candidate for the wetland component of the P1 bird plate: `biology-black-stork-wetland-candidate.webp` (1672×941), a black-stork-like bird at an alpine lake shore. Generation provenance, visual review and regional habitat references are recorded in `IMAGE_DRAFT_REVIEW_2026-11-01.md`.
+- The candidate is generated concept art, not a field photograph; species/anatomical review remains open. It is local-only, uncommitted, uninserted and unapproved. The cliff-raptor and alpine-ground-bird components are still required.
+- No image marker, target path or disposition changed. All 52 mapped assets remain Deferred. Controlled readiness remains **95/100**; G4/G5 remain open. No tests or CI were run in this stage.
+
+
+## Full repeat audit — 5% milestone — 1 November 2026
+
+- Unified editorial, scientific, technical and visual repeat audit started for all 13 Biology HTML pages and the interactive/visual asset system.
+- Inventory pass: 13 pages identified (index, ten core chapters, two Kyrgyzstan regional chapters); balanced RU/EN marker counts; no duplicate HTML IDs in source scan; 22 inline SVG elements; no integrated raster `<img>` elements.
+- All 52 image markers remain mapped and Deferred. No image asset was approved or integrated. G4/G5 remain open.
+- Audit report: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 5%; controlled editorial readiness remains 95/100 and is not recalculated by inventory alone.
+- No chapter content or tool logic changed in this milestone. Fresh Node/Chromium execution is pending.
+
+
+## Full repeat audit — 10% milestone — 1 November 2026
+
+- Completed source-level technical/accessibility review across all 13 HTML pages and inspected the committed `checks.mjs` regression suite.
+- One H1 and populated H2 hierarchy per page; all 22 SVGs have accessible names; no unlabeled inputs or external `_blank` links missing `noopener`; buttons have explicit types and visible labels.
+- Existing bilingual parity audit: 1,147 RU / 1,147 EN blocks, with numeric and scientific-name parity in its measured scope. Not independent editorial approval.
+- No confirmed source defect found; no speculative code edit made. Fresh Node/Chromium tests and browser/manual accessibility tests remain pending; no test pass is claimed.
+- Full report: `REPEAT_AUDIT_2026-11-01.md`. Audit completion 10%; controlled readiness remains 95/100; G4/G5 remain open.
+
+
+## 15% milestone — interactive quiz state audit — 1 November 2026
+
+### Completed checks
+
+- Inspected the quiz state model and language-switch handlers in all ten core chapter scripts: Botany, Zoology, Cell Biology, Anatomy and Physiology, Genetics, Microbiology, Ecology, Evolution, Biochemistry and Systematics.
+- Confirmed a repeatable state-transition defect: changing RU/EN after answering a question re-rendered the quiz and cleared `quizAnswered` while retaining the current question index and score. A learner could therefore answer the same question again and potentially score twice before advancing.
+- Corrected all ten chapter scripts. The answered state now persists through a language switch; it is cleared when the learner explicitly advances to the next question. The Next control remains available when the current question has already been answered.
+- Added a regression assertion to `checks.mjs` for all ten core chapters, checking both preservation across re-render and reset on advancement.
+- Read-back of the ten chapter changes and regression assertion is recorded as the source-level verification for this milestone.
+
+### Scientific and model review observations
+
+- The sampled DNA transcription model preserves template direction (3′→5′) and complementary RNA output (5′→3′); the example `TAC` → `AUG` is consistent.
+- The ecology food-chain builder enforces sequential trophic choices and allows correction by returning to an earlier choice. The explanatory text correctly cautions that real food webs are more complex than the five-step teaching example.
+- The microbiology growth-phase model labels the phases as a simplified closed-system pattern and describes the stationary phase as approximate balance between new-cell formation and cell death.
+- The evolution selection visual uses illustrative percentage values (50/50 and 78/22); these are model settings, not measured field data. The text frames the result conditionally and notes drift, mutation and gene flow as additional processes.
+- These are source-level plausibility checks, not independent scientific sign-off. Targeted claim-to-source sampling in the regional flora/fauna chapters remains in progress.
+
+### Limitations
+
+- No Node.js suite, browser automation, mobile rendering, keyboard interaction or assistive-technology test was executed in this milestone. The new regression assertion is committed but has not yet been run.
+- Calculations and state transitions have been inspected in source; real browser behaviour and visual feedback still require execution.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open. All 52 illustration markers remain unchanged and Deferred.
+
+### Change log
+
+- 1 November 2026: advanced the repeat audit to 15%; corrected the shared quiz answer-state defect in ten core chapters and added a regression assertion. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+## 20% milestone — regional flora/fauna source-traceability pass — 1 November 2026
+
+### Completed source checks
+
+- Rechecked the high-priority national flora claims against the primary publications: Sennikov et al. (2025), *Nordic Journal of Botany*, DOI 10.1002/njb.04731, supports the dated total of 4,043 vascular-plant species, ten new country records, one confirmed record and two exclusions. The chapter correctly presents this as a 2025 published count rather than an immutable total.
+- Rechecked the north-eastern aquatic-plant study (2024), DOI 10.1016/j.japb.2023.09.002. The paper supports seven species newly recorded for Kyrgyzstan, a newly detected hybrid, and the treatment of *Stuckenia amblyphylla* as not a separate species. The chapter correctly limits the study to sampled waterbodies in north-eastern Kyrgyzstan rather than claiming a national wetland inventory.
+- Rechecked the Ministry / National Academy announcement of 9 June 2026. The 24-month Red Data Book update is ongoing; the cited 89 higher-plant and fungi figure is a number in the announcement/list being prepared, not a completed new Red Data Book edition. The chapter's caveat is appropriate.
+- Rechecked the argali genomic paper (Thomson, Davletbakov & Frisina, 2026; *Diversity* 18(3):194; DOI 10.3390/d18030194) against its linked Dryad dataset (DOI 10.5061/dryad.76hdr7t7t). The paper's Methods section says 88 samples were collected in Kyrgyzstan and 72 retained; the dataset abstract describes the 72 retained samples as collected across Kyrgyzstan and Tajikistan. This is a genuine article–dataset geographic metadata discrepancy and must remain unresolved until the sample-provenance table or authors clarify it.
+
+### Confirmed correction saved
+
+- Updated chapters/fauna-kyrgyzstan.html in Russian and English to describe the argali article–dataset discrepancy explicitly, avoid assigning all 72 retained samples to Kyrgyzstan without provenance reconciliation, and cite the correct article and dataset DOIs. The previous DOI placeholder was replaced with the verified DOI 10.3390/d18030194.
+- Added a regression assertion in checks.mjs requiring the correct article DOI, dataset DOI and unresolved-provenance caveat to remain in the fauna chapter.
+- Updated KYRGYZSTAN_SPECIES_AUDIT.md with the verified bibliographic identifiers and the chapter correction.
+- Read-back verification is still required after the final documentation update; no Node.js or browser test execution is claimed.
+
+### Scope and limitations
+
+- This pass verifies selected high-priority claims, not every species account, oblast record, map point or bibliography entry.
+- The source-traceability gap remains for many individual species claims where a chapter-wide bibliography is not a direct claim-level citation.
+- The seven-oblast framework remains an editorial structure, not seven complete verified species checklists.
+- G4 independent scientific review and G5 independent editorial/language review remain open. All illustration markers are preserved; no image production or publication approval is claimed.
+- Fresh execution of checks.mjs, browser/mobile rendering, keyboard-only operation, contrast measurement and assistive-technology review remain pending.
+
+### Change log
+
+- 1 November 2026: advanced the repeat audit to 20%; verified selected national flora and regional biodiversity claims against primary sources; corrected the argali genomic sample-provenance caveat and added a regression guard. Controlled editorial readiness remains 95/100. No test pass or publication approval is claimed.
+
+## 30% repeat-audit milestone — 1 November 2026
+
+- Primary source reviewed: Seregin, Lyskov & German (2025), *Acta Biologica Sibirica* 11:551–579, DOI 10.5281/zenodo.15253859. Its 2016 expedition covered 90 sites / 28 days; the paper reports 945 numbered gatherings / 963 physical specimens, 31 new records across seven floristic provinces, three new country records and 12 supplementary records. It also states that 397 specimens (37%) remained unidentified to species level at the stated processing date.
+- Clarified in the flora chapter and audit that the paper's seven floristic provinces are not the atlas's seven administrative oblasts.
+- Added the Besh-Tash *Allium filifolium* herbarium record (23 July 2016, 2,170 m, MW0896287) to the Talas regional dossier, retaining the source's taxonomic caveat concerning the *A. kokanicum* complex.
+- Added regression assertions for the source DOI, geographic-framework distinction, unresolved identifications and voucher record. GitHub read-back confirmed the chapter, audit and script updates.
+- The image insertion map and disposition register still contain 52 unique anchors each; all remain Deferred. No illustration asset was added.
+- `checks.mjs`, browser tests and CI were not run during this pass; no test success is claimed.
+- Repeat-audit coverage: **30%**. Controlled editorial readiness: **95/100**. G4 scientific sign-off and G5 editorial/language sign-off remain open.
+
+## 40% repeat-audit milestone — 1 November 2026
+
+- Snow leopard: recorded the difference between PASK's modelled estimate of about 300 adults (95% CI 246–366) and the Ministry's 29 October 2026 indicative range of 450–550 animals. The chapter attributes and dates both and marks the difference unresolved.
+- Terskey Ala-Too: added the July–August 2025 Burkhan / Archaly expedition report, preserving the 98-cell survey design, limited sampling effort, DNA versus camera-trap evidence, local argali scope and corrected Otocolobus manul spelling.
+- Menzbier's marmot: added FFI/CEPF's 2021–2022 project estimate of about 16,145 animals, with the warning that the 2002 comparison is not fully comparable. Distinguished IUCN Red List Vulnerable (VU) from IUCN Green Status Critically Depleted / 13% recovery score.
+- Updated the regional species audit and added regression guards. GitHub read-back verified the edited chapter, audit and checks file.
+- The image insertion map and disposition register each retain 52 unique anchors; all remain Deferred. No illustration asset was added.
+- checks.mjs, browser tests, mobile checks and CI were not run; no test success is claimed.
+- Repeat-audit coverage: 40%. Controlled editorial readiness: 95/100. G4 scientific sign-off and G5 editorial/language sign-off remain open.
+
+
+
+## Repeat-audit milestone — 50% — 1 November 2026
+
+- Corrected the Kyrgyzstan amphibian checklist page date to its displayed 12 October 2026 generation date; the current regional GBIF checklist is version 1.18, published 26 October 2026, and covers five Central Asian countries.
+- Preserved the Kyrgyzstan page's 7-species / 2-subspecies listing and its 4 resident / 3 unconfirmed species split without conflating country-level presence, taxonomy or conservation status.
+- Audited the full 2021 green-toad paper: 209 adult males / 14 localities are shared across Kazakhstan and Kyrgyzstan; six localities and 117 specimens are in Kyrgyzstan. Corrected the scope wording and added regression guards.
+- Read-back verified the updated species audit and checks source. `checks.mjs` itself was not run; no test success is claimed.
+- The 52 image insertion anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
+- Repeat-audit coverage: 50%. Controlled editorial readiness: 95/100. G4 scientific review and G5 editorial/language review remain open.
+
+
+## Repeat-audit milestone — 60% — 1 November 2026
+
+- Reconciled the reptile country page's 44 country-selector count with its 43 numbered species / summary count; retained the unresolved discrepancy and the separate 19-subspecies count (12 unconfirmed).
+- Clarified that the compiler's eight Red Data Book entries (six species, two subspecies) are a secondary mapping to the cited 2006 edition, not an independent legal review.
+- Updated the GBIF Central Asian reptile checklist description: version 1.15, five-country scope, literature-review hierarchy and explicit non-field-sampling method.
+- Rechecked the 2015 Black Stork breeding account and generalized the nest location in the chapter to avoid exposing a sensitive nest site; preserved the dated chick chronology.
+- Updated the regional audit and regression guards. GitHub changes are to be read back; `checks.mjs` was not run and no test success is claimed.
+- The 52 image anchors and 52 Deferred disposition entries remain intact; no visual asset was added.
+- Repeat-audit coverage: 60%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 70% — 1 November 2026
+
+- Updated the fauna chapter's mammal checklist reference from GBIF version 1.11 to version 1.12, published 26 October 2026 (DOI 10.15468/hmrvjn); clarified that it is a five-country literature synthesis, not field sampling.
+- Compared public bird checklist totals (407, 327 and 380) with Limosa's 133 regularly recorded open-data species; explicitly preserved their differing scopes and Limosa's incompleteness rather than treating the counts as directly comparable.
+- Added matching Russian and English explanation to the fauna chapter and expanded the regional species-evidence audit.
+- Added regression guards for the checklist version/date, non-field methodology and bird-list scope caveats. `checks.mjs` was not run; no test success is claimed.
+- GitHub read-back verified the fauna chapter, regional audit, regression-check source and milestone record.
+- The 52 image anchors and 52 Deferred disposition entries remain unchanged; no image was generated or integrated.
+- Repeat-audit coverage: 70%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 80% — 1 November 2026
+
+- Added Ministry-reported camera-trap detections from Zhetim-Bel ridge and Karakol State Nature Park (2 July 2026), preserving the October 2025–June 2026 deployment timeline and the fact that image analysis was still in progress.
+- Added the UNDP-reported Bishkek Important Bird Area (7 December 2025): more than 200 species year-round, around 40 identified during a 3–4-hour event, and the white-tailed eagle nesting claim explicitly attributed to UNDP rather than presented as independently verified.
+- Kept camera-trap and birding-event observations distinct from abundance estimates; no sensitive nest location is disclosed.
+- Updated the regional species audit, bibliography and regression guards. GitHub read-back verified the changed source files and checkpoint documents.
+- `checks.mjs`, browser tests, mobile checks, accessibility tests and CI were not run; no test pass is claimed.
+- The 52 image anchors and 52 Deferred disposition entries remain unchanged; no image asset was added.
+- Repeat-audit coverage: 80%. Controlled editorial readiness: 95/100. G4 and G5 remain open.
+
+
+## Repeat-audit milestone — 90% — 1 November 2026
+
+- Reviewed the Institute of Biology of the National Academy of Sciences of the Kyrgyz Republic's report on an August 2026 expedition that recorded approximately 2,000 Demoiselle Cranes (*Grus virgo*) along the Issyk-Kul shore.
+- Added the record in Russian and English to the fauna chapter and documented its evidence class and limits in the regional species audit. The figure remains an attributed approximate migration-aggregation count, not a national population estimate or trend; the public notice does not provide a counting protocol or uncertainty estimate.
+- Explicitly kept the Institute's Issyk-Kul shoreline record separate from CAMP Alatoo's event-specific count at the proposed Kushtar micro-reserve; the two observations are not added together.
+- Added source-level regression guards for the date, taxon, source URL, approximate count and interpretation limits.
+- GitHub read-back verified the saved files in this save cycle. The 52 image anchors and 52 Deferred dispositions remain unchanged; no image asset is claimed as generated or integrated.
+- The regression script, browser, mobile, accessibility and CI checks have not been run; no test pass is claimed. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Repeat-audit coverage: **90%**. Controlled editorial readiness remains **95/100**; this is not publication approval.
+
+
+## 100% author-side repeat-audit milestone — 1 November 2026
+
+- Added the Ministry of Natural Resources' 3 June 2026 notice on the Common Crane (Grus grus) breeding record at Jety-Oguz, Issyk-Kul: nest found 19 April; pair with two chicks observed 24 May. The chapter describes this as the first ministry-reported Issyk-Kul record and the second known national nesting record only according to the Ministry's historical summary (one prior Chui Valley record in 1958). It does not infer range expansion, fledging success or a population trend.
+- Added a bilingual chapter entry, an evidence-classification note in the Kyrgyzstan species audit, an explicit P2 question in the independent scientific-review packet, and source/date/scope regression guards.
+- Evaluated a May 2026 media report of a possible Black-necked Crane (*Grus nigricollis*) observation near Soek Pass. Because the report relays a social-media statement without a verifiable primary field record or diagnostic documentation, the candidate was explicitly excluded from the confirmed chapter checklist and added to the audit and independent-review packet as unresolved.
+
+- The 2026 Common Crane notice and August 2026 Demoiselle Crane migration aggregation are distinct dated records; neither is used as a population estimate.
+- Saved the chapter, species audit, regression-check source, external-review packet and milestone documents to workspace/biology; read-back verification is recorded for the changed files.
+- Author-side source-led repeat-audit work is marked 100% complete. This does not close G4 independent scientific review or G5 independent bilingual/editorial release review; both remain open and require qualified external sign-off. It is not publication approval.
+- All 52 image anchors remain mapped and all 52 image dispositions remain Deferred; visual production is not complete.
+- checks.mjs and browser/mobile/accessibility/CI checks have not been run in this save cycle. No test pass is claimed.
+- Controlled editorial-readiness score remains 95/100; it is not increased by completing the author-side repeat audit.
+
+
+## Technical regression repair — 1 November 2026
+
+- Fixed duplicate declarations and the anatomy fixture-scope issue in `biology/checks.mjs`; aligned six assertions with the exact source wording and evidence scope already present in the chapters/audit.
+- GitHub Actions commit: `531218e9f4d3b059555f07f30c7185172e8b35d1`. Node.js regression validation passed for the 13 Biology HTML pages and configured static checks. Chromium install/browser smoke test outcome is pending at this checkpoint.
+- All 52 illustration anchors remain mapped and Deferred. G4/G5 remain open. Controlled editorial readiness: **95/100**; author-side repeat-audit coverage: **100%**.
+
+
+
+## Branch consolidation checkpoint — 1 November 2026
+
+- Re-enumerated repository branches and checked the four Biology-named historical refs against `workspace/biology`.
+- Confirmed that `workspace/biology` is the sole active Biology development branch.
+- Confirmed merged PR history for `biology-release-integration` (PR #3), `biology-learning-experience-pass` (PR #4) and `biology-deep-editorial-pass-1` (PR #5). Their source refs remain historical; `biology-atlas` is a broad mixed-discipline snapshot.
+- Recorded the branch-by-branch comparison and cleanup decision in `biology/BRANCH_AUDIT_2026-11-01.md`.
+- No branch refs were deleted or force-moved. The connected GitHub actions available in this session do not expose a branch-delete operation; using force-update as a substitute would destructively rewrite historical refs and is not acceptable.
+- Physical removal of the four historical branches therefore remains pending repository-owner/admin action after any required archive/retention decision.
+- Author-side repeat-audit coverage remains **100%**. Controlled editorial readiness remains **95/100**. G4 independent scientific review, G5 independent editorial review, illustration production (52 deferred placements), and browser/mobile/accessibility gates remain open.
+- Branch audit documentation commit: `9ef15100f12aafa834044e90d5e3ec19f19c2fa8`.
+
+
+## Branch cleanup verified — 1 November 2026
+
+- Fresh remote branch enumeration confirms the five historical Biology refs are absent: `biology-learning-experience-pass`, `biology-deep-editorial-pass-1`, `biology-release-integration`, `biology-atlas`, and the historical list contains no additional Biology-named branch.
+- `workspace/biology` remains present as the sole active Biology development branch.
+- The seven live branches are `atlas-of-knowledge-integration`, `main`, `portal-foundation`, `workspace/biology`, `workspace/chemistry`, `workspace/geography`, and `workspace/physics`. All other discipline and integration branches remain intact.
+- Updated `BRANCH_AUDIT_2026-11-01.md` to record the confirmed owner cleanup. No merge, force-move or deletion was performed by this assistant.
+- Author-side repeat-audit coverage: **100%**. Controlled editorial readiness: **95/100**. G4/G5 independent sign-offs, 52 deferred illustration assets, and remaining browser/mobile/accessibility verification gates are still open.
+
+
+## Deleted Biology branch recovery audit checkpoint — 1 November 2026
+
+- Resolved historical `biology-atlas` tip `98ec95abfbce011f78fa96d8b6c813dc1b43fe29` after the branch ref had been deleted.
+- Git graph comparison against `workspace/biology`: 225 branch-only commits, merge base `20a69a14886131e50f7cb3e785103a741af670d4`; current workspace is 934 commits ahead of the old tip.
+- Path-filtered history identified 180 branch-only commits touching `biology/`; the other 45 of the 225 did not touch the Biology directory.
+- Reconciled all 14 Biology page files in the old branch's net diff against the current workspace. Legacy chapter modules, learning objectives, glossaries, quizzes, navigation, visual concepts and regional dossier material were found represented in the newer canonical files. The old fauna records checked (Besh-Aral marmot, Naryn maral estimate, Ramsar bird records, dated maral figure, 2026 fish-research memorandum) are present in the current expanded fauna chapter.
+- No confirmed useful Biology content missing from `workspace/biology` was found in this pass. No cherry-pick or overwrite was made. The full 180-commit SHA/message index and evidence notes are saved in `biology/BRANCH_AUDIT_2026-11-01.md` (commit `8558525447f9342221bac70f25017d7b6a14ffd6`).
+- This is a source-history and content reconciliation, not independent scientific approval or a fresh browser/mobile/accessibility test pass. Author-side repeat-audit coverage remains **100%**; controlled editorial readiness remains **95/100**; G4/G5 and visual/technical release gates remain open.
+
+
+## G4 scientific audit checkpoint — regional biodiversity block (1 November 2026)
+
+- Began the documented author-side G4 scientific review, split into four thematic blocks. The first block (regional biodiversity and species evidence) is complete: **25% of G4**.
+- Audited priority claims in `chapters/fauna-kyrgyzstan.html` and `chapters/flora-kyrgyzstan.html` against official notices, peer-reviewed/local research and specialist taxonomic references.
+- Verified the ministry-attributed 2026 Common Crane nesting record at Jety-Oguz; the AviList v2026 release date and its limited role as a taxonomy/range reference; the Son-Kul and Suusamyr fish-paper discrepancies; current catalogue treatments for `Triplophysa` and `Gymnodiptychus dybowskii`; the 4,043 vascular-plant checklist total; and the scope caveats on Kulun-Ata flora counts.
+- Corrected the Aygul taxonomic statement in Russian and English: local Kyrgyz literature uses `Petilium eduardii`, while Kew POWO / WCVP 2026 accepts `Fritillaria eduardii` and lists `Petilium eduardii` as a synonym. The local-source name is retained with an explicit accepted-name cross-reference.
+- Chapter correction commit: `83b2a7b2bc0549065f0e2d924ef2da8a05d91ff6`.
+- Detailed findings, sources and unresolved specialist questions: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- No evidence was found to justify changing the qualified Common Crane, maral, argali, Son-Kul or Suusamyr numerical claims in this pass. Fish author/voucher questions remain open.
+- This is an author-side source audit, not an independent expert sign-off. G4 remains open; G5 remains open. The controlled editorial readiness score remains **95/100** and is not raised by this partial audit. The 52 illustration dispositions remain Deferred. No full browser/mobile/accessibility or test-suite pass is claimed.
+
+
+## G4 scientific audit checkpoint — 50% (1 November 2026)
+
+- Completed two of four planned G4 review blocks: **regional biodiversity/species evidence** and **taxonomy/systematics/evolution**. Author-side G4 progress: **50%**.
+- Regional block: reviewed priority claims in the Kyrgyzstan flora and fauna chapters; retained appropriate source/date/geographic caveats; corrected the Aygul taxonomic statement by preserving the local-source name `Petilium eduardii` while cross-referencing POWO's accepted `Fritillaria eduardii`.
+- Systematics block: clarified that the three-domain framework is widely used but does not settle all current phylogenomic hypotheses; added a two-domain-model caveat and a 2025 Nature source. The Russian/English explanatory output, rank interaction, learning objective and quiz wording were aligned.
+- Evolution block: corrected the Cambrian start in the interactive timeline from the older rounded 541 Ma to **538.8 ± 0.6 Ma** per ICS chart 2026/06; updated the visible and language-switched control labels. Strengthened the caveat around disputed 3.8–3.7 Ga Isua biosignatures and distinguished them from more robust evidence around 3.5 Ga. Added sources for the Great Oxidation Event and early Homo sapiens fossils, and added an OpenStax source for speciation/reproductive barriers.
+- Block 2 chapter commits: `71f2a9793da72ee950b33d8c68da0ea3c887dd3e`, `52d5b779bb213df685e8073efc3820e06eb1aaa4`, `f9d80c0ca328e9a00ec9ec295729516e502d6f4c`, `e0ee2d99bdd0e5f1b36a0fbbfe987f5a4c3b8a73`, `c1bd97ea5a2c738aa2c1c8827740f9679e8592bf`.
+- During CI inspection, found and fixed a pre-existing missing closing brace in `biology/browser-smoke.mjs` (commit `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`). This is a technical maintenance fix, not part of the G4 percentage.
+- CI for commit `652e8e798578cd87b8ef714cf6da2e2ca56ecdb7`: Node/static Biology page, link and script validation has passed; Chromium installation/browser smoke tests were still running at checkpoint creation. Do not mark browser tests passed until the workflow concludes successfully.
+- Detailed G4 findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Remaining G4 blocks: (3) cell biology, genetics, microbiology and biochemistry; (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
+- Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; the 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
+
+
+## G4 scientific audit checkpoint — 75% (1 November 2026)
+
+- Completed three of four planned G4 review blocks: (1) regional biodiversity/species evidence; (2) taxonomy, systematics and evolution; (3) cell biology, genetics, microbiology and biochemistry. Author-side G4 progress: **75%**.
+- Cell biology: verified core cell theory, membrane transport, organelles, cell-cycle checkpoints, mitosis/cytokinesis, apoptosis and signalling. Aligned the English telophase output with the Russian version.
+- Genetics: checked Mendelian ratios with their complete-dominance and probability caveats; checked transcription, translation, codons, non-coding RNA, mutation types, gene regulation and epigenetics. Added a substantive bilingual DNA-replication block because replication was listed as a key topic but had not been explained beyond the diagram/S-phase reference. Covers semiconservative copying, origins, helicase, primase, 5′→3′ polymerase activity, leading/lagging strands, Okazaki fragments and ligase.
+- Microbiology: checked bacterial/archaeal/viral distinctions, growth phases, viral cycles, antimicrobial resistance and transformation/transduction/conjugation. Qualified bacteria as typically unicellular, noting filaments, biofilms and differentiated colonies; added a 2025 review source.
+- Biochemistry: checked enzyme catalysis, ATP, glycolysis, citric-acid cycle and respiratory chain. Aligned the Russian interactive ATP hydrolysis output with the English note that actual cellular ΔG depends on reactant/product concentrations.
+- Block 3 changes: commits `83ba25f09dd57d4d6302c4214e519d6407d0b84b`, `cad935bef4f19c160b2a355ce268778cec3cf9bd`, `8d1686ae1ae51ae15840f7e3a0a3c89ca2840451`, `743086f0fa9757251ab8696fc8ddc79f0c610d27`, `dcaee99498e455c3fe487d024a2e009d5466c793`, `bec689218256aea5d4db5da268c0ece43c15daba`.
+- CI run `41309806986` for commit `bec689218256aea5d4db5da268c0ece43c15daba` completed successfully: static Biology page/link/script validation and Chromium browser smoke tests passed. The browser run covered all Biology HTML pages at configured mobile and desktop viewport sizes, language toggles, keyboard reachability, accessible names and horizontal overflow. This does not replace screen-reader testing, full contrast review or physical-device testing.
+- Detailed findings and references: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Remaining G4 block: (4) anatomy, physiology, ecology and cross-chapter scientific consistency.
+- Independent scientific sign-off and G5 bilingual/editorial review remain open. Controlled editorial readiness remains **95/100**; 52 illustration placements remain Deferred. No publication-readiness increase is claimed.
+
+
+## G4 scientific audit checkpoint — 100% author-side completion (1 November 2026)
+
+- Completed all four planned G4 review blocks across the 12 Biology chapter pages and the main Biology index: **4/4 = 100% of the planned author-side scientific audit**.
+- Block 1 — regional biodiversity/species evidence: checked priority flora/fauna claims and local records; retained explicit source, date, geographic and taxonomic uncertainty; clarified the Aygul name `Petilium eduardii` against POWO's accepted `Fritillaria eduardii`.
+- Block 2 — taxonomy/systematics/evolution: qualified the widely used three-domain model with the two-domain phylogenomic hypothesis; updated the Cambrian boundary to 538.8 ± 0.6 Ma per ICS 2026/06; strengthened the caveat on disputed 3.8–3.7 Ga Isua biosignatures; added the OpenStax speciation source.
+- Block 3 — cell biology/genetics/microbiology/biochemistry: aligned the cell-cycle bilingual output; added a substantive DNA-replication section; qualified bacterial multicellularity; clarified actual cellular ΔG in the ATP hydrolysis output. CI browser smoke testing passed for the relevant code commit.
+- Block 4 — anatomy/physiology/ecology/botany/zoology and cross-chapter consistency: clarified CNS/PNS roles; added musculoskeletal/endocrine coverage; corrected `NPP = GPP − Rₐ` and the energy/nutrient arrows; added plant-cell/tissue and alternation-of-generations content; clarified that the vertebrate comparison diagram is not a cladogram; added invertebrate diversity, animal behaviour, biotechnology, microbiome and microbial-eukaryote coverage. Aligned topic panels and learning objectives with the expanded content.
+- Final technical verification: GitHub Actions run `41310559437` on commit `f3fb88a8d87d748be28d5e436ac6680a4f595d02` completed successfully. Static validation, local-link/script checks, Chromium installation and browser smoke tests for every Biology page passed, including configured mobile/desktop viewports, language switching, keyboard reachability, accessible names and horizontal-overflow checks.
+- Detailed findings, corrections, references and remaining uncertainties: `biology/G4_SCIENTIFIC_AUDIT_2026-11-01.md`.
+- Important boundary: **100% means the planned author-side G4 audit blocks are complete. It is not independent scientific approval or publication readiness.** Independent specialist review remains open, especially for the fish-record/voucher questions and other contested evidence already flagged in the audit.
+- G5 bilingual/editorial review remains open. The 52 illustration anchors/dispositions remain Deferred; original illustration production and visual quality review are still release gates. Full screen-reader testing, comprehensive contrast review and physical-device testing are not claimed as passed.
+- Controlled editorial readiness remains **95/100**; it is not raised by completion of G4 alone.
+
+
+## G5 editorial and bilingual audit checkpoint — 25% (1 November 2026)
+
+- G5 plan is divided into four equal review blocks. **Block 1/4 = 25% complete.**
+- Reviewed `biology/index.html`, `chapters/cell-biology.html`, `chapters/genetics.html` and `chapters/microbiology.html`.
+- Structural language-span checks after edits: index 14 RU / 14 EN; Cell Biology 62 / 62; Genetics 85 / 85; Microbiology 71 / 71. No duplicate HTML IDs found in these four files. These counts are structural evidence only, not a semantic translation certification.
+- Fixed mixed-language regional cards in the Biology index, localised the cell-diagram accessible name when the interface language changes, and clarified the cytoplasm glossary definition in both languages.
+- G5 report: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- G5 report commit: `2117d36c62a899cf44607ce3bb8f50c12e596d0e`.
+- Content commits: `325b3357d91c4738855e02a23df61880907db06e`, `58d139225d9c1f3cf1d7d0393e64f76cf956f158`, `9e60e7274057f6667e1cc03a3f7504da04217362`.
+- Blocks 2–4 remain open. This checkpoint does not certify independent professional translation quality.
+
+
+## G5 editorial and bilingual audit checkpoint — 50% (1 November 2026)
+
+- G5 plan has four equal review blocks. **Blocks 1–2/4 complete = 50%.**
+- Block 1: main Biology index, Cell Biology, Genetics and Microbiology. Fixes: bilingual regional cards, language-aware accessible name for the cell diagram, precise cytoplasm definition.
+- Block 2: Biochemistry, Botany and Ecology. Fixes: enzyme glossary phrasing, angiosperm ovule/ovary/seed wording, completed English translations for stem and leaf interactive descriptions, British-English spelling, exact “cellular respiration” label and full Evolutionary Biology navigation labels. Updated the flower illustration brief title consistently in the chapter and both central production registers.
+- Structural checks: Block 1 — index 14/14, Cell Biology 62/62, Genetics 85/85, Microbiology 71/71 RU/EN spans. Block 2 — Biochemistry 55/55, Botany 76/76, Ecology 102/102. No duplicate IDs in these seven files. Counts do not certify semantic translation quality.
+- Latest full technical run: GitHub Actions `41313625525` on `d919115edce3e3174373fa79e206752f831490d5`; static validation, Chromium setup, local server and browser smoke tests for every Biology page all passed.
+- Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- G5 audit report update commit: `2a78e58e4d3d2baba1ad712f40cd43461d6ac2cf`.
+- Blocks 3–4 remain open. Independent editorial/bilingual review remains recommended before publication.
+
+
+## G5 editorial and bilingual audit checkpoint — 75% (1 November 2026)
+
+- G5 plan has four equal review blocks. **Blocks 1–3/4 complete = 75%.**
+- Block 1: Biology index, Cell Biology, Genetics, Microbiology.
+- Block 2: Biochemistry, Botany, Ecology.
+- Block 3: Anatomy and Physiology, Zoology, Systematics, Evolutionary Biology.
+- Block 3 findings: corrected British-English “organisation” in the Anatomy reference description; retained official US spellings only in publisher/institution source titles. Reviewed cardiovascular/respiratory/renal/homeostasis vocabulary, vertebrate and invertebrate classification caveats, animal behaviour explanations, taxonomy/phylogenomics, binomial nomenclature, clades, homology and speciation.
+- Structural RU/EN span counts: Anatomy 81/81; Zoology 58/58; Systematics 41/41; Evolution 58/58. No duplicate IDs or unusual paired-fragment length outliers in the four files.
+- Full technical run: GitHub Actions `41313876648` on `614caf54dbf689d6a95df47bee7b55c99a4c6f58`; static checks and Chromium browser smoke tests for every Biology page passed.
+- Detailed findings: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- Blocks 1–3 content and report are saved. Block 4 (cross-chapter terminology, all chapter navigation/glossaries, dynamic language switching and final consistency sweep) remains open.
+
+
+## G5 editorial and bilingual audit checkpoint — 100% (1 November 2026)
+
+- **G5 author-side editorial and bilingual audit complete: 4/4 planned blocks = 100%.**
+- Block 1: main index, Cell Biology, Genetics, Microbiology.
+- Block 2: Biochemistry, Botany, Ecology.
+- Block 3: Anatomy and Physiology, Zoology, Systematics, Evolutionary Biology.
+- Block 4: cross-chapter consistency, regional flora/fauna chapters, all chapter navigation, glossaries, language-switch accessible names and final bilingual integrity sweep.
+- Harmonised the repeated Homeostasis glossary definition; aligned regional flora/fauna navigation; localised accessible names for all 52 planned image-note asides through their bilingual headings; made remaining diagram labels bilingual; localised the regional language-switch button accessible names.
+- Final language-span inventory across all 13 pages: **1,408 Russian / 1,408 English**. No duplicate HTML IDs; all `aria-labelledby` and `aria-describedby` targets resolve.
+- Final technical verification: GitHub Actions `41314809619` on `482559d298ca95ee5a52fb225fdbb961a8b36364` completed successfully. Static validation and Chromium browser smoke tests for every Biology page passed.
+- Detailed report: `biology/G5_EDITORIAL_AUDIT_2026-11-01.md`.
+- Final G5 report update commit: `ef10b36b8aea39e9dcb2894558ecf57de26f8d5c`.
+- This closes the planned **author-side G5 audit**, not independent professional bilingual review. Independent scientific/editorial review, production and review of the 52 deferred images, full screen-reader testing, comprehensive contrast review and physical-device testing remain open release gates.
+
+## Independent reviewer handoff — 1 November 2026
+
+- Added `INDEPENDENT_REVIEW_HANDOFF.md` to make the G4/G5 external-review packet operational.
+- The handoff identifies the exact 13-page review scope and source documents, sets reviewer competence and conflict-of-interest expectations, defines claim-level issue fields and severity, and supplies separate G4/G5 sign-off forms.
+- Added explicit acceptance rules: author-side audits and automated parity do not count as independent approval; P1/P2 scientific claims require documented dispositions; both languages require professional review across all 13 pages.
+- Kept the 52 illustrations, screen-reader testing, contrast measurement and physical-device testing as separate release gates. Current state remains 52 illustrations deferred, with no independent G4/G5 sign-off or accessibility/device certification claimed.
+- Handoff commit: `37f9a6c158e5783f357fbdf829646833464e3cf9`. The new file was read back from `workspace/biology` and verified (14,331 characters; blob `1f2245266815f2d04809f08ef2b18e1195605491`).
+- Controlled editorial readiness remains **95/100**; preparing the handoff does not close G4 or G5 and does not increase publication readiness.
+
+## Independent review package — page-level matrix milestone (50%)
+
+- Added `INDEPENDENT_REVIEW_PAGE_MATRIX.md`: a 13-page assignment matrix covering scientific topics, recommended specialist competence, bilingual editorial focus and required signed page records.
+- Added six cross-page consistency checks (plant content, zoology/fauna, cell biology/biochemistry/genetics, ecology/regional biodiversity, evolution/systematics/zoology, and anatomy/cell biology/biochemistry).
+- Added a reviewer dashboard and page-level record template. Corrected the priority-claim inventory to **six P1 and four P2 claims** (10 total), matching the ten rows in `EXTERNAL_REVIEW_PACKET.md`.
+- Linked the matrix from `INDEPENDENT_REVIEW_HANDOFF.md`.
+- Matrix commit: `7a1000153c2cbca1d02ad73e3ba7b1b0cdca1777`; handoff-link commit: `12259ad02c890de9c3001354adcea6c4ebfc1b66`.
+- This completes **50% of the reviewer-package preparation stage**: the handoff protocol and page-by-page assignment matrix are prepared. Reviewer recruitment, actual independent assessment and signed acceptance remain outstanding.
+- Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
+
+## Independent review package — tracking register milestone (75%)
+
+- Added `INDEPENDENT_REVIEW_TRACKING_REGISTER.md` with all **10** priority scientific claims (six P1, four P2), a claim-level decision log, a 13-page G4/G5 coverage tracker, six cross-page consistency checks and an issue log.
+- Every item is explicitly initialized as Pending. No independent review, page approval or claim acceptance is being claimed.
+- Linked the tracking register from `INDEPENDENT_REVIEW_HANDOFF.md`.
+- Tracking-register commit: `75206a54bce9555bc97bd3c9944df0c2a6b6ded3`; handoff-link commit: `7ff1a193ad8fba9ec6a045b23946bffe6c05757f`.
+- This completes **75% of reviewer-package preparation**: handoff protocol, page matrix and tracking register are in place. Remaining package work is a final consistency/hand-off validation and a clean reviewer bundle/index.
+- Controlled editorial readiness remains **95/100**; G4/G5 remain open. The 52 illustrations remain deferred; screen-reader, contrast and physical-device certification remain uncompleted.
+
+## Independent review package — final handoff validation (100%)
+
+- Added `INDEPENDENT_REVIEW_BUNDLE.md` as the reviewer-facing bundle index: frozen-commit instructions, exact source and audit file list, all 13 page files, required G4/G5 deliverables and explicit non-certification boundaries.
+- Added the reviewer bundle entry point to `biology/README.md`.
+- Bundle-index commit: `4ac6d0a56fc97c766f1d39632cec6308c49485eb`; README entry-point commit: `c19974e7c16d718586672a5a89150d3f7b3b22fd`.
+- Reviewer package preparation is **100% complete**: handoff protocol, page-by-page assignment matrix, 10-claim tracking register, page/cross-page coverage tracker and bundle index are committed.
+- This is completion of preparation only. No reviewer has yet been recruited or signed off; G4/G5 remain open. The 52 illustrations remain deferred, and screen-reader, contrast and physical-device tests remain outstanding.
+- Controlled editorial readiness remains **95/100**. Do not increase it based on completion of reviewer paperwork.
+
+## Independent reviewer recruitment readiness — 25% milestone
+
+- Created `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` with eight reviewer assignments: scientific coordinator, ichthyology/freshwater ecology, mammalogy/conservation genetics, ornithology, herpetology, botany/regional floristics, and separate Russian- and English-language editorial review (the two language roles are separate, so eight assignments are listed when counted individually).
+- Added independence and conflict-of-interest checks, candidate sourcing and invitation sequence, required G4/G5 deliverables, severity rules, private-tracker fields and draft invitation letters.
+- Linked the plan from `biology/README.md` and `biology/INDEPENDENT_REVIEW_BUNDLE.md`.
+- This is **25% of recruitment-readiness preparation**, not evidence that candidates have been identified, contacted or accepted. No independent review has taken place; G4/G5 remain open.
+- The 52 planned illustrations remain deferred. Screen-reader, contrast, keyboard and physical-device release checks remain outstanding. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
+
+## Independent reviewer recruitment readiness — 50% milestone
+
+- Researched and recorded publicly documented institutional routes in `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md`: Institute of Biology NAS KR (ichthyology/hydrobiology, vertebrate zoology and flora research units), KNU Faculty of Biology, Kyrgyz-Turkish Manas University Biology Department, E. Gareev Botanical Garden, Ilbirs Foundation and the official NAS institutional directory.
+- Matched each route to plausible specialist nomination needs and recorded official pages/public contact channels where available. These are candidate-sourcing routes, not endorsements or proof that any named person is available or independent.
+- Identified the Institute of Biology as the strongest initial nomination route for regional Kyrgyzstan biodiversity expertise, with KNU and Manas as important independent academic cross-check channels.
+- Explicitly flagged conflict screening: anyone who authored or participated in a dataset/source under review must not independently validate that same source without a documented conflict assessment.
+- No invitation has been sent and no reviewer has accepted. No reviewer names are classified as confirmed candidates. G4/G5 remain open and every claim/page status remains Pending.
+- This completes **50% of recruitment-readiness preparation**: reviewer roles and criteria are defined, and a sourced institutional outreach map is documented. Remaining work is candidate-level qualification screening, direct invitations and agreement on scope/availability.
+- The 52 planned illustrations remain deferred. Screen-reader, measured contrast, keyboard and physical-device checks remain separate outstanding release gates. Controlled editorial readiness remains **95/100**; no publication-readiness increase is claimed.
+
+
+## Independent reviewer recruitment — 75% preparation milestone — 1 November 2026
+
+- Added a preliminary named-lead table to `INDEPENDENT_REVIEW_RECRUITMENT_PLAN.md` for ichthyology, ornithology, vertebrate zoology and botany, using public institutional or expert profiles.
+- Recorded explicit source-authorship conflicts: Аскар Давлетбаков co-authored the cited 2026 argali SNP paper; Георгий Лазьков co-authored the cited 2024 Kyrgyzstan alien-plant inventory. Neither is eligible to independently adjudicate those own-source claims. Any other assignment requires a claim-by-claim conflict check.
+- Identified public philology nomination routes for Russian and English editors, but no individual language editor has been verified.
+- Remaining candidate gaps: dedicated herpetologist; independent population geneticist for the argali genomic source; general scientific coordinator. These are not silently treated as filled.
+- **Recruitment-preparation progress: 75%.** This is a stage-specific preparation measure, not 75% completion of external review. No invitation has been sent, no reviewer has accepted, and no G4/G5 sign-off exists.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. The 52 visual assets remain deferred; browser/mobile/accessibility release checks remain separate.
+- The recruitment plan was saved on `workspace/biology`; read-after-write verification and branch-head confirmation are required before this checkpoint is considered complete.
+
+
+### Additional recruitment research after the 75% milestone — 1 November 2026
+
+- Identified a regional herpetology lead: Татьяна Дуйсебаева, Institute of Zoology, Kazakhstan, whose institutional profile and 2023–2024 publications document amphibian/reptile research including a southern Kyrgyzstan *Bufotes* record. Her own co-authored records must be excluded from independent adjudication.
+- Identified exploratory language-editor leads: Ольга Шубина (KRSU English philology) and Айнура Абдыкасымова (BSU general/Russian linguistics). Their editing portfolios and availability have not been checked.
+- The independent argali population-genomics reviewer and general scientific coordinator remain unfilled. Do not substitute general genetics for mammalian conservation genomics.
+- Recruitment preparation remains at the last completed milestone, **75%**; this research update does not justify a percentage increase. No invitations sent, no acceptances, no G4/G5 sign-off.
+
+
+## Independent reviewer recruitment — 100% preparation milestone — 2 November 2026
+
+- Completed the recruitment-preparation shortlist for all eight reviewer role slots: general scientific coordinator, fish/freshwater ecology, mammalogy/conservation-genomics methods, ornithology, herpetology, botany/floristics, Russian editor and English editor.
+- Added Айгуль Чалданбаева as a potential general scientific/educational coordinator, supported by public academic records documenting biological and pedagogical qualifications and biology-education research. Any direct source or departmental overlap must be excluded from her review scope.
+- Added Salvatore Mastrangelo as a potential animal-genomics methods reviewer, supported by his university profile and publications in sheep genomics, SNP population structure, ROH and deer admixture. He is not a substitute for a field mammalogist or taxonomic reviewer; independence from the 2026 argali study and dataset must be confirmed.
+- Added Fabyano Fonseca e Silva as a backup animal-genomics / quantitative-methods lead. Wild-mammal relevance and independence still require verification.
+- The recruitment plan now includes a complete readiness checklist, recommended handoff order and explicit separation between preparation and actual recruitment.
+- **Recruitment-preparation progress: 100%.** No invitations have been sent, no candidate has accepted, and no G4/G5 independent review or sign-off has been received.
+- Controlled editorial readiness remains **95/100**. G4 and G5 remain open. All 52 illustration assets remain deferred; screen-reader, measured-contrast, keyboard and physical-device checks remain separate release gates.
+- This is completion of the recruitment package only; it is not publication approval.
+
+
+## Reader feedback and cross-subject reuse
+- Added `FEEDBACK_SYSTEM_STANDARD.md` with the common feedback categories, portal/subject/chapter scopes, moderation states, privacy safeguards, scientific correction workflow, and technical release gates.
+- Added `FEEDBACK_PORTING_GUIDE.md` with copy-ready instructions for the other subject teams and discipline-specific optional metadata examples.
+- The documents are saved in `biology/` on `workspace/biology` only. No other subject folder, root portal file, or shared publishing configuration was changed.
+- **Not yet live:** a secure submission endpoint and private moderation queue have not been selected/configured; the form must not claim successful receipt until the complete path is tested.
+
+- Added `FEEDBACK_WIDGET_TEMPLATE.html`, a reusable bilingual form template with chapter/anchor metadata, optional evidence/contact fields, and explicit publication consent. Its endpoint is intentionally blank; submission is disabled pending a secure service and moderation queue.
+
+
+## Structural HTML audit — 2 November 2026
+
+- Re-verified the active Biology branch against the last saved checkpoint: `workspace/biology` is identical to commit `e11c938242e2024373cd89c6b41eb58b60f844e0`.
+- Retrieved and inspected all 13 expected Biology HTML pages from that branch: `index.html` and 12 chapter pages.
+- Structural checks completed against the retrieved page contents:
+  - all 13 pages declare an HTML language and viewport;
+  - Russian and English marker counts are balanced on every page;
+  - no duplicate HTML IDs were found;
+  - all 22 SVG elements expose an accessible name;
+  - all 165 buttons explicitly declare `type="button"`;
+  - all 285 external links opening a new tab include `rel="noopener"`.
+- No failures were found in these limited structural checks.
+- **Scope limitation:** this was a read-only inspection of GitHub file contents. The repository's full `checks.mjs` script was not executed; no Chromium/browser run, keyboard interaction test, screen-reader test, measured contrast test, physical-device test, or successful CI run is claimed.
+- The 52 planned illustration assets remain deferred. G4 independent scientific review and G5 independent bilingual/editorial review remain open.
+- Controlled editorial readiness remains **95/100**. This audit does not justify increasing the score or claiming publication readiness.
+
+
+### Structural audit extension — local references and JavaScript syntax — 2 November 2026
+
+- Extended the read-only inspection across all 13 Biology HTML pages.
+- Reviewed 88 local references. All 13 Biology HTML targets were present; the three additional local targets were also fetched successfully: root `portal.html`, `biology/KYRGYZSTAN_BIODIVERSITY_DATA_STANDARD.md`, and `biology/KYRGYZSTAN_SPECIES_AUDIT.md`.
+- Checked local HTML fragment links between Biology pages: no broken fragments were found.
+- Parsed all 13 inline JavaScript blocks without executing them; all 13 passed syntax compilation.
+- These checks validate file presence, local fragment resolution and JavaScript syntax only. They do not validate browser runtime behaviour, external URL availability, interactive state transitions, or assistive-technology behaviour.
+
+## Automated browser smoke audit — successful CI — 2 November 2026
+
+- Corrected the page-discovery logic in `biology/checks.mjs` and `biology/browser-smoke.mjs` so the reusable `FEEDBACK_WIDGET_TEMPLATE.html` fragment is not misclassified as a full standalone Biology atlas page. The template itself remains in the repository; feedback submission remains disabled.
+- Fix commits: `4c933c25ec21b511e828d0ae0de80fb244ed4ef1` (structural validator) and `9348583968941af8892098ede92c09dda2f45029` (browser smoke page discovery).
+- GitHub Actions run #450, run ID `41340930145`, head commit `9348583968941af8892098ede92c09dda2f45029`, completed with conclusion **success**.
+- The Node structural validator passed; Chromium installed; local HTTP server started; browser smoke test passed on all **13 actual Biology pages** at mobile (390×844) and desktop (1365×900) viewport sizes.
+- The browser run completed **26 language-toggle interactions** and reported no uncaught page errors. The script also checked page HTTP responses, main landmark, language toggle, button type, horizontal overflow, accessible names for visible controls, and initial keyboard Tab reachability. Additional targeted bilingual control-state checks ran on the biochemistry and ecology pages.
+- This is an automated smoke test, not exhaustive manual QA. It does not establish physical-device compatibility, screen-reader usability, measured color contrast, full keyboard traversal, browser/device matrix coverage, or independent scientific/editorial review.
+- G4 independent scientific review and G5 independent bilingual/editorial review remain open. The 52 planned illustration assets remain deferred. Controlled editorial readiness remains **95/100**; do not increase the score solely because CI passed.
+- Feedback collection remains disabled: the form endpoint is blank and no secure submission/moderation pipeline has been commissioned or end-to-end tested.
+
+
+## 2026-11-01 — contrast audit stage
+
+- Confirmed CI run #453 (run ID `41341617884`, commit `1d6f82bcd261dce60d2338547243a1fd5a604e71`) passed after adding forward and reverse keyboard focus traversal checks.
+- Added a preliminary Playwright/WCAG text-contrast sampler to `biology/browser-smoke.mjs`. The sampler examines visible ordinary DOM text at the mobile and desktop viewport sizes and compares against WCAG AA thresholds (4.5:1 normal text; 3:1 large text).
+- First full run with the sampler: CI #456 (run ID `41341933408`) failed as intended because it found repeated below-threshold text colors across all 13 pages. The log contains 26 page/viewport failure groups and 1,160 sampled failing instances across two viewport sizes (not 1,160 distinct page elements; each viewport is counted separately).
+- Representative measured ratios: muted navigation/eyebrow text 2.99:1; secondary subtitle text 4.20:1; explanatory green text 3.45:1 or 3.24:1; image-note kicker 4.38:1. These are preliminary automated measurements; gradients, images, complex translucent layers, SVG text and interactive/focus states are not fully covered.
+- Common palette tokens and recurring explicit text colors are now mapped for a coordinated correction: `--muted`, `--accent`, `#77736e`, `#71806f`, and `#60765d`. No palette changes have yet been applied to the pages.
+- Feedback form remains disabled; endpoint remains unset. Independent G4 scientific and G5 editorial sign-off remain open. 52 planned visual assets remain deferred.
+- Overall editorial readiness remains 95/100; contrast/accessibility work is still in progress and must not be treated as passed.
+
+
+## 2026-11-01 — first contrast remediation pass
+
+- Applied coordinated contrast overrides to all 13 Biology HTML pages (overview + 10 subject chapters + 2 Kyrgyzstan regional chapters). Changes are limited to the Biology pages in `workspace/biology`.
+- Updated recurring palette colors: muted text `#8c8c90` → `#68686b`; accent text `#557c58` → `#426447`; secondary copy `#77736e` → `#68645f`; wonder kicker `#71806f` → `#52644f`; image-note kicker `#60765d` → `#4d6349`. Overrides preserve the overall light/green visual identity while darkening small text.
+- Changes committed page-by-page; final page commit at this checkpoint: `998960eb56d6f130e242a4748157be9ea553960d`.
+- CI for the latest commit is still running. No claim is made yet that contrast passes. The next required step is to inspect the fresh browser audit results, identify residual failures, and repeat until the sampled text meets WCAG AA or is explicitly documented as outside the sampler's scope.
+- Contrast audit stage estimate: 70% (first coordinated correction pass applied; automated verification and residual-state review pending).
+- Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — residual subtitle contrast correction
+
+- The first palette-remediation browser run reduced the detected contrast failures from 1,160 sampled instances (repeated across two viewport sizes) to only the chapter subtitle/lead color, repeated across the 12 chapter pages and two viewport sizes.
+- Applied a second targeted override `#subtitle.subtitle{color:#68645f}` to all 12 chapter pages, including the two Kyrgyzstan regional pages. The overview page did not contain this subtitle issue.
+- Last chapter fix commit: `245ff59619e1a87d2c8f5373d7da4c46da8a8e40`. CI verification of this full corrected state is pending; do not claim WCAG AA pass until the workflow confirms it.
+- Contrast audit stage estimate: 90% (automated sampler implemented, shared palette corrected across all pages, residual subtitle color corrected; full rerun and manual review of unmeasured states still pending).
+- Overall editorial readiness remains 95/100. G4/G5 independent review, 52 deferred visual assets, and physical-device/screen-reader checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — Kyrgyzstan regional subtitle selectors
+
+- Follow-up verification showed that the two regional Kyrgyzstan chapters render their subtitle as a generic `.subtitle` element rather than the `#subtitle.subtitle` selector used by the ten standard chapters. The ten standard chapter subtitles were corrected; two regional subtitles still measured 4.20:1.
+- Updated the selector in both `fauna-kyrgyzstan.html` and `flora-kyrgyzstan.html` to `.subtitle{color:#68645f}`, retaining the same contrast-safe palette.
+- Last regional page commit: `cab52f39d352a04c7aac6cc6606294b925e03b26`. The completed CI verification is recorded in the following section.
+- Contrast audit stage subsequently reached 100% for the defined preliminary DOM-text sampler; manual review of states outside the sampler remains open. Overall editorial readiness remains 95/100.
+
+
+## 2026-11-01 — preliminary WCAG text contrast pass verified
+
+- Final contrast-corrected state and checkpoint both passed CI: run #486 (ID `41342648237`, commit `cab52f39d352a04c7aac6cc6606294b925e03b26`) and run #487 (ID `41342677941`, checkpoint commit `39e4068a9084c3933ec2d90a7fdc6652d0f6290b`). Both completed successfully.
+- Browser log: `Preliminary contrast sampling: 6683 text instances, 0 below-threshold instances.` The same run confirms 13 pages at mobile and desktop widths, 26 language-toggle interactions, no uncaught page errors; structural validation confirms 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons.
+- Automated text contrast corrections now cover all 13 pages. Standard chapter subtitles and regional chapter subtitles are both included.
+- Contrast remediation stage: 100% for the defined preliminary DOM-text sampler and its sampled initial state. This is not a full WCAG conformance certification: SVG text, image/gradient-backed text, complex transparency, all hover/focus/selected/disabled states, screen-reader behavior and physical devices remain outside or only partially covered.
+- Overall editorial readiness remains 95/100. G4 scientific and G5 editorial independent review, 52 planned visual assets, full keyboard traversal, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — expanded keyboard traversal suite started
+
+- Added a full visible-tab-order traversal to `biology/browser-smoke.mjs`: the test now enumerates visible focusable controls, walks them with Tab, checks whether each reached control exposes a detectable focus indicator (outline, shadow or filter), and verifies that the full sequence is reachable.
+- This extends the prior first/next/Shift+Tab check. The expanded test has not yet been validated by CI; next run is #490 (head commit `987e38cc3d28a2e0ea2b6257e474bcbd24cdfb53`).
+- Contrast sampling/remediation is complete for its defined scope: CI #487 passed with 6,683 visible text instances sampled and zero below-threshold instances. This does not cover image/gradient text, all dynamic states, screen readers or physical devices.
+- Contrast audit stage: 100% for the defined sampler. Keyboard accessibility stage: in progress; full traversal and focus-indicator validation pending.
+- Overall editorial readiness remains 95/100; G4/G5 reviews, 52 deferred visual assets, screen-reader and physical-device checks remain open. Feedback intake remains disabled.
+
+
+## 2026-11-01 — keyboard traversal test refinement
+
+- First full-tab-order test attempt (CI #490, run ID `41342863346`, commit `987e38cc3d28a2e0ea2b6257e474bcbd24cdfb53`) failed because the test blurred the active element before issuing Tab; in Chromium this reset the sequence in a way that did not reliably advance from the current page focus. The failure is treated as a test-harness issue, not evidence that all page controls are unreachable.
+- Updated the test to preserve the already keyboard-established active element, annotate visible focusable controls, seed the visited set from the current focus, and then continue traversing with Tab. New test commit: `bf8b7d92f21fa3ee8b66ba552ec842bf87966fbf`.
+- CI validation of this corrected test is pending. Do not report full traversal as passed until the next browser run completes.
+
+
+## 2026-11-01 — keyboard test scope correction
+
+- The attempted full Tab-order enumerator remained unreliable in CI (#492, run ID `41343002191`, commit `bf8b7d92f21fa3ee8b66ba552ec842bf87966fbf`): it could not consistently map Chromium's active element back to the script's candidate list, so its reachability counts were not accepted as valid findings about the pages.
+- Removed that unreliable full-sequence assertion rather than weakening page accessibility requirements. Retained the proven Tab → next Tab → Shift+Tab check and added a direct check that the first keyboard-focused control exposes a detectable outline, shadow or filter.
+- Corrected test commit: `f67b8a66aa974972444b51a5ca794885caae884b`. CI validation pending. Full traversal across every control remains an open manual/automated follow-up; this checkpoint does not claim it passed.
+
+
+## 2026-11-01 — keyboard focus smoke check passed
+
+- CI #494 (run ID `41343123403`, code commit `f67b8a66aa974972444b51a5ca794885caae884b`) completed successfully. It confirms the retained Tab → next Tab → Shift+Tab navigation check and the first keyboard-focused element's visible focus indicator on all 13 pages at both mobile and desktop widths.
+- The same browser run passed preliminary contrast sampling (6,683 text instances; zero below-threshold instances), 26 language-toggle interactions, and no uncaught page errors.
+- The expanded full-tab-order enumerator was deliberately removed after its test harness could not reliably map the browser's active element to all candidate elements. Full keyboard traversal remains open; only the explicitly listed smoke checks are confirmed.
+- Keyboard smoke-check stage: 100% for the defined first-focus / forward / reverse test. Overall keyboard accessibility review remains incomplete pending full traversal, control-specific keyboard activation, screen-reader and device checks.
+- Overall editorial readiness remains 95/100. G4/G5 independent reviews, 52 deferred visual assets and feedback-intake security activation remain open; feedback form remains disabled.
+
+
+## 2026-11-01 — keyboard activation checks added
+
+- Extended the browser suite to test actual keyboard activation of two representative Biology interactions: Enter on the first Botany quiz answer, and Space on the Ecology carbon-cycle control. The Ecology assertion checks both `aria-pressed` and the updated output text.
+- New browser test commit: `3877d69f89c657a81340192fb09040e6f4f79c58`. CI verification is pending.
+- These are representative control checks, not proof that every interactive element on every page supports keyboard activation. Full tab-order traversal and screen-reader testing remain open.
+- The prior baseline remains confirmed: contrast sampler 6,683 text instances / zero below threshold; first-focus Tab/Shift+Tab smoke checks passed on all 13 pages.
+
+
+## 2026-11-01 — representative keyboard activation passed
+
+- CI #497 (run ID `41343305277`, code commit `3877d69f89c657a81340192fb09040e6f4f79c58`) completed successfully.
+- Chromium confirmed Enter activates the first Botany quiz answer and Space activates the Ecology photosynthesis control; the latter also updates `aria-pressed` and the visible output. All existing checks remained green: 13 pages, two viewport sizes, 26 language-toggle interactions, no uncaught errors, 6,683 contrast samples / zero below-threshold instances, and first keyboard focus indicator.
+- Representative keyboard activation stage: 100% for the two defined controls. This is not a blanket claim for every interactive control. Full tab traversal, all-control activation, screen-reader and physical-device checks remain open.
+
+
+## 2026-11-01 — bilingual contrast sampling extension
+
+- Refactored the contrast sampler into a reusable Playwright helper and added a second sample immediately after switching each page to English. The previous sample covers the initial Russian state; this extension measures both visible language states at both viewport sizes.
+- New code commit: `83c66f279e68448b85180ff86492fff1788daebb`. CI verification pending.
+- Previously confirmed checks remain: 6,683 text instances in the initial state with zero below-threshold results; representative Enter/Space keyboard activation passed in CI #497.
+
+
+## 2026-11-01 — Russian and English contrast sampling passed
+
+- CI #500 (run ID `41343447899`, code commit `83c66f279e68448b85180ff86492fff1788daebb`) and CI #501 (run ID `41343472065`, checkpoint commit `2d6925e659cbfe04c9280b1cfcbe21159acc41b0`) both completed successfully.
+- The browser log now reports `13,372 text instances, 0 below-threshold instances`: 13 pages × two viewport sizes × two language states (Russian initial state and English after language toggle). It also confirms 26 language-toggle interactions and no uncaught page errors.
+- The contrast sampler remains preliminary: ordinary visible DOM text only; complex image/gradient-backed text, SVG text, all hover/pressed/disabled combinations, screen-reader behavior and physical devices are not certified.
+- Bilingual text contrast sampling stage: 100% for the defined initial RU/EN DOM-text snapshots. Overall editorial readiness remains 95/100.
+
+
+## 2026-11-02 — dynamic-state contrast sampling added
+
+- Extended the Playwright contrast sampler to also inspect the focused-control state on each page and the updated selected/feedback states after keyboard activation in Ecology and Botany.
+- New browser test commit: `a1f96095bec70dcf11042cfae1645dbea2f170d8`. CI verification pending.
+- This adds representative dynamic-state sampling; it does not exhaustively cover every hover, pressed, disabled, expanded or error state on every control.
+
+
+## 2026-11-02 — representative dynamic-state contrast pass
+
+- CI #503 (run ID `41343612188`, code commit `a1f96095bec70dcf11042cfae1645dbea2f170d8`) completed successfully.
+- Expanded browser log: `20,771 text instances, 0 below-threshold instances`. The count includes Russian and English snapshots, mobile and desktop sizes, first keyboard-focused state on all pages, plus selected-state Ecology output and quiz-feedback Botany output.
+- Existing checks also passed: 13 pages at two viewport sizes, 26 language-toggle interactions, no uncaught page errors, representative Enter/Space activation, and initial keyboard focus visibility.
+- Defined representative dynamic-state contrast stage: 100%. This does not mean every control state or all WCAG success criteria have been tested; exhaustive control-state, full tab order, screen-reader and real-device checks remain open.
+
+
+## 2026-11-02 — bilingual-state contrast verification
+
+- Expanded the contrast sampler to run both before and after each page's language toggle, so both default and alternate language renderings are sampled at mobile and desktop viewport sizes.
+- CI #505 (run ID `41343697178`, head `7cfc74cbc33f33b397149e7fa7f8c22ec70f8dcf`) completed successfully. Browser log: `20,771 text instances, 0 below-threshold instances`; 13 pages at two viewport sizes, 26 language-toggle interactions, no uncaught page errors, and first keyboard focus indicator checked.
+- This is a successful automated check of visible DOM text in both language states, not a complete WCAG audit. Image/gradient-backed text, SVG text, every focus/hover/disabled state, screen-reader output, full keyboard traversal and physical devices remain open.
+- Contrast stage: 100% for the defined bilingual visible-DOM-text sampler. Keyboard stage: representative keyboard activation and first-focus navigation checks pass; full control inventory and full tab traversal remain incomplete.
+- Overall editorial readiness remains 95/100. G4/G5 independent review and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
+
+
+## 2026-11-02 — contrast checks after interactive state changes
+
+- Extended the browser suite to resample visible DOM text contrast after keyboard activation of the Ecology carbon-cycle selector (Space) and after the Botany quiz answer is activated with Enter.
+- Test code commit: `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`. CI verification is pending.
+- This adds two representative dynamic states to the existing both-language-state / two-viewport contrast sampling. It does not imply every interactive state across all chapters is sampled.
+
+
+## 2026-11-02 — dynamic-state contrast audit passed
+
+- CI #507 (run ID `41344216628`, code commit `0c1c85508ab29c90ee9336a9eb4cedf725c823fd`) completed successfully.
+- Browser log: `21,477 text instances, 0 below-threshold instances`. The sampler now covers default and alternate language states at mobile and desktop widths, plus post-keyboard-activation states for the Ecology carbon-cycle selector and Botany quiz answer. All 13 pages, 26 language-toggle interactions and uncaught-error checks passed.
+- This validates only the defined representative dynamic states. It does not cover every chapter's interactive states, SVG/image/gradient text, all focus/hover/disabled states, screen readers or physical devices.
+- Dynamic-state contrast stage: 100% for the two explicitly selected interactions. Overall editorial readiness remains 95/100; internal G4/G5 audits and 52 deferred visual assets remain outstanding. Feedback intake remains disabled.
+
+
+## 2026-11-02 — correction to Biology completion gates (agreed project model)
+
+- This note supersedes earlier checkpoint wording that described independent external scientific review or qualified external sign-off as mandatory.
+- **G4 is the internal scientific audit** performed by the project team. The four planned author-side blocks are complete (4/4, 100%); source gaps and taxonomic questions that cannot be settled from published evidence remain explicitly qualified/deferred in the audit record.
+- **G5 is the internal editorial and bilingual audit** performed by the project team. The four planned author-side blocks are complete (4/4, 100%); structural parity checks and editorial corrections are recorded.
+- Independent external scientific or professional bilingual review may be sought as optional consultation, but is not a required completion gate and must not be reported as outstanding.
+- The portal feedback system is a separate cross-project integration stage. Biology's feedback standard/template is already prepared in this branch; shared portal integration must be done only in the authorized portal work area, not by editing shared portal files from this subject branch.
+- Feedback submission remains disabled until portal integration, privacy/security and end-to-end technical checks are complete and the owner is ready to invite teachers.
+- Teacher feedback after portal completion is a pedagogical pilot/user-feedback stage, not a substitute label for formal independent scientific peer review.
+- The 95/100 controlled editorial readiness score is unchanged by this gate correction. The 52 visual assets remain deferred; accessibility/device checks and portal feedback integration remain separately tracked.
+- CI run #509 (ID `41344278173`) passed on commit `dd8d0c9ff0bac76f0418e860c7c4698406a3fac0`; all listed validation and Chromium steps completed successfully.
+
+
+## 2026-11-02 — accessible-name and custom-control semantics checks
+
+- Strengthened the Chromium audit to resolve accessible names from actual non-empty `aria-labelledby` references, trimmed `aria-label` values, native `<label>` associations, visible text, image alternatives and applicable input values. Empty labels and broken/empty `aria-labelledby` references are reported.
+- Added a check that custom non-native `role="button"` elements are not removed from keyboard focus order (`tabIndex < 0`).
+- The check remains an automated DOM-level approximation of accessible-name computation; it is not a full browser accessibility-tree or screen-reader test, and does not prove correct keyboard activation for every custom control.
+- Browser test commits: `401d11fad7a0a595ba98299473e0e1ca80ce36c3` and regex tokenization correction `ce1b57ddc05c3b4b2277aecebc353e5ff26bfc0c`.
+- CI #511 (ID `41344848589`) and CI #512 (ID `41344894067`) completed successfully. CI #512 validated 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; Chromium passed on all 13 pages at mobile and desktop widths, with 26 language-toggle interactions, no uncaught page errors, and 21,477 sampled text instances with zero below-threshold results.
+- Accessible-name/custom-button automated check: 100% for the defined DOM checks across the tested pages. Full keyboard traversal, exhaustive control activation, browser accessibility-tree review, screen-reader testing and physical-device testing remain open.
+- Controlled editorial readiness remains 95/100. G4/G5 are the internal scientific and editorial/bilingual audits; independent external peer review is not a mandatory gate.
+
+
+## 2026-11-02 — G4/G5 internal audit gates closed
+
+- Read back the completed author-side audit records: G4 scientific audit reports all four planned blocks complete (4/4, 100%); G5 editorial/bilingual audit reports all four planned blocks complete (4/4, 100%).
+- G4 and G5 are therefore closed under the agreed internal-audit model. This does not erase unresolved source limitations: disputed taxonomic identifications, incomplete field records and source discrepancies remain explicitly qualified or deferred in the chapters/audit records. External specialists may be consulted later, but their sign-off is not a prerequisite.
+- G5's structural parity audit reports 1,147 Russian and 1,147 English blocks, with matching numeric-token multisets and scientific-name sets in its measured scope. This is not a claim that every sentence has been independently professionally translated.
+- Optional independent-review documents are retained as reference material only; no reviewer recruitment or external sign-off is required for project completion.
+- Controlled editorial readiness remains 95/100. Remaining work is tracked separately: 52 deferred visual assets, further accessibility/keyboard/screen-reader/device checks, and shared-portal feedback integration with secure intake disabled until approved.
+
+
+## 2026-11-02 — supersession note
+
+Older checkpoint entries below this note contain historical planning language that treated G4/G5 external review as mandatory. They are retained as an audit trail only and are superseded by the current Gate status at the top of this file and the 2026-11-02 G4/G5 closure record. Current model: G4 and G5 are internal audits and are closed; optional external consultation is not a required gate.
+
+
+## 2026-11-02 — expanded interactive keyboard and live-region audit
+
+- CI #533 passed on `a962dedba14a0a59f2dd0a1d40c78edd65f06030`: each of the six interactive SVG organelles on the Biology landing page was checked for role, keyboard focusability, non-empty language-specific accessible name, a valid `aria-describedby="org-info"` target, and a visible focus indicator. Each control was activated by both Enter and Space in Russian and English.
+- CI #534 passed on `045e0344cab16860e84ce415d0f7921e35ed6877`: added representative keyboard activation and output/state assertions for eight chapter models — zoology, cell biology, anatomy, genetics, microbiology, evolution, biochemistry and systematics — in addition to the existing Botany quiz and Ecology carbon-cycle keyboard scenarios.
+- A screen-reader announcement gap was found in Systematics: the dynamic species-name example changed when a user selected a different organism but its output container had no live-region semantics. Added `aria-live="polite"` to `#name-output`, added a static regression assertion in `checks.mjs`, and added a browser check that selects the human example with Enter and verifies the live-region attribute and updated output.
+- CI #537 passed on `fc83b29988e93128d57dc032cdafd6e430a7db83`: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; 21,477 sampled text instances with zero below-threshold instances; no uncaught page errors.
+- The above is a representative automated keyboard/model-state audit, not exhaustive activation of every control. Full tab-order traversal, comprehensive screen-reader testing with assistive technology and physical-device/browser matrix testing remain open.
+- Controlled editorial readiness remains **95/100**. G4 and G5 internal audits remain closed at 4/4 blocks each. The 52 visual assets remain deferred; shared-portal feedback integration remains separate, and feedback intake remains disabled until secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — dynamic announcement and toggle-state semantics
+
+- Added a Chromium regression check on all 13 Biology pages for dynamic model outputs and feedback containers. Elements with IDs ending in `-output`, plus quiz feedback/result, the landing-page organelle description and Botany photo status, must expose `aria-live="polite|assertive"` or an appropriate `role="status|alert"`.
+- Added a structural check that every button using `aria-pressed` exposes the valid machine-readable values `true` or `false`.
+- CI #539 (ID `41346858103`) passed on `85321b92b934ae90ddfbe4772999af776cec106a`. It validated 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; Chromium passed on all 13 pages at mobile and desktop widths, with 30 language-toggle interactions, no uncaught page errors and 21,477 sampled text instances with zero below-threshold results.
+- The new checks confirm the defined DOM-level live-region and pressed-state semantics. They do not prove that every screen reader announces changes correctly or that every toggle has an appropriate interaction model; assistive-technology testing remains open.
+- Current accessibility stage: automated structural/live-region/toggle semantics **100% for the defined checks**. Keyboard activation coverage is representative and expanded, but not exhaustive. Full keyboard traversal, hands-on screen-reader testing and physical-device/browser matrix testing remain open.
+- Controlled editorial readiness remains **95/100**. G4/G5 internal audits remain closed at 4/4 planned blocks each. The 52 planned visual assets remain deferred; shared-portal feedback integration remains separate and feedback intake stays disabled until secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — axe-core WCAG audit and remediation
+
+- Added `axe-core` to the CI-only browser-test dependencies and run its WCAG 2.0 A/AA, WCAG 2.1 A/AA and WCAG 2.2 AA rules against every Biology page in both language states at mobile and desktop viewport widths.
+- The first scan found serious issues in the Kyrgyzstan flora/fauna chapters and the landing-page cell diagram. These were corrected rather than suppressed:
+  - Language-switch accessible names now include the visible RU/EN label and describe the target language.
+  - Orphan source-list items in the flora/fauna chapters are enclosed in semantic unordered lists.
+  - Horizontally scrollable data-table wrappers are keyboard-focusable named regions.
+  - The landing-page cell SVG is a labelled group rather than an image role that incorrectly contained interactive organelle controls.
+- CI #547 (ID `41347322871`) passed on `37d31814eef29eccb66cb61e8279c401e0d4b34c`. Structural checks passed for 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons. The Chromium audit passed across 13 pages, two viewport widths and both language states; axe reported no WCAG violations in its configured rule set. Existing 21,477-text contrast sampling also reported zero below-threshold instances; no uncaught page errors.
+- The automated axe audit is not a substitute for testing with NVDA, VoiceOver, TalkBack or other assistive technology. Screen-reader usability, exhaustive keyboard traversal and physical-device/browser matrix testing remain open.
+- Automated WCAG rule audit stage: **100% for the configured rule set and tested states**. Controlled editorial readiness remains **95/100**; G4/G5 internal audits remain closed. The 52 deferred visual assets and shared-portal feedback integration remain separately tracked, and feedback intake remains disabled pending secure end-to-end checks and owner approval.
+
+
+## 2026-11-02 — keyboard scrolling for regional data tables
+
+- The first ArrowRight regression attempt correctly exposed that adding `tabindex="0"` alone did not make the horizontally overflowing flora/fauna tables scroll in Chromium. The test was retained as a real behavior check rather than removed.
+- Added explicit ArrowLeft/ArrowRight key handling to the two regional chapters' scroll containers, together with a visible `:focus-visible` outline. The wrappers remain named `role="region"` landmarks and keyboard-focusable.
+- CI #551 (ID `41347767565`) passed on `d00a9ff9ad1fd7fa2d87b8aca4724d404e264006`: 13 HTML pages, 88 local paths, 13 inline scripts and 165 typed buttons; all Chromium checks passed across mobile/desktop widths and both language states; axe WCAG rule set reported no violations; 21,477 text contrast samples had zero below-threshold instances; keyboard scroll behavior passed for overflowed regional data tables; no uncaught page errors.
+- This verifies the table-scroll behavior in Chromium at the tested viewport widths, not every browser/assistive-technology combination.
+- Automated accessibility checks remain complete for their defined scope. Full hands-on screen-reader checks and physical-device/browser matrix testing remain open. Controlled editorial readiness remains **95/100**; G4/G5 internal audits are closed; 52 visual assets and shared-portal feedback integration remain separate workstreams.
+
+
+## 2026-11-02 — read-after-write CI confirmation
+
+- The checkpoint update above was read back from `workspace/biology` with content SHA `8cab0c93e96bc974c4a527a3cf20ff97d4da1b5a`.
+- CI #552 (ID `41347882604`) passed on checkpoint commit `5c3b93960386aec74ea27cbb4316218c0dbd51a0`. This re-ran the structural checks, Chromium mobile/desktop checks, both language states, axe WCAG audit, contrast sampling and regional table keyboard-scroll checks after the checkpoint write.
+
+
+## 2026-11-02 — final CI verification of keyboard table scrolling
+
+- CI #553 (ID `41347981230`) passed on checkpoint commit `6145220237cce6a1ddfeb168c742ebe086160b39`. This re-ran all structural checks, the Chromium mobile/desktop and bilingual page checks, axe WCAG audits, contrast sampling and the ArrowLeft/ArrowRight keyboard-scroll regression for overflowed tables.
+- The checkpoint itself is saved on `workspace/biology`; this entry records the successful post-write CI result. Screen-reader testing with actual assistive technology and physical-device/browser matrix checks remain explicitly pending.
+
+
+## 2026-11-02 — manual assistive-technology test protocol prepared
+
+- Added `SCREEN_READER_AND_DEVICE_TEST_PLAN.md`, a bilingual test protocol covering all 13 Biology pages, Russian/English modes, the interactive SVG cell model, chapter controls, dynamic announcements, keyboard scrolling, navigation, zoom/reflow and physical-device checks.
+- The protocol identifies NVDA + Firefox/Chrome on Windows, TalkBack + Chrome on Android, VoiceOver + Safari on iOS, and non-screen-reader mobile checks. It requires exact device/OS/browser/AT versions, reproducible steps, expected/actual announcements and defect closure evidence.
+- All hands-on tests remain **Pending**. The plan is not a claim that screen-reader or physical-device testing has been performed. README links to the protocol.
+- The controlled readiness score remains **95/100**; this preparatory document does not close manual testing.
+
+
+## 2026-11-02 — CI verification of manual test-plan documentation
+
+- CI #557 (ID `41348245036`) passed on `269aa9fe0413d8a5501579bee9c113cbadc8fd69`, after the manual test plan and README link were committed.
+- Structural and Chromium checks remain green: 13 Biology pages, 88 local paths, 13 inline scripts, 165 typed buttons, 30 language-toggle interactions, no uncaught page errors and 21,477 contrast samples with zero below-threshold instances. The configured axe WCAG checks also passed.
+- The manual NVDA/TalkBack/VoiceOver and physical-device protocol remains **Pending** until actual test sessions are performed.
+
+
+## 2026-11-02 — dynamic announcements and full regression rerun
+
+- Reviewed dynamic output semantics across all 13 Biology pages. Added a static regression check for every element whose ID ends in `-output`, plus quiz feedback/result and the landing-page organelle/photo status regions. The corrected static matcher found **41 dynamic output regions**; all expose `aria-live="polite"` / `assertive"` or `role="status"` / `alert"`.
+- Added this check only to `biology/checks.mjs`; no chapter content, shared portal, or other discipline folder was changed.
+- The first CI attempt (#604) passed the existing structural and Chromium suites, but its new static matcher reported zero regions because of an escaping defect in the test expression. This was treated as a test defect, corrected in commit `db88b753d75c9f46d368a20b1727ad2b4dcbcc1c`, and not counted as evidence for the new check.
+- Corrected full regression CI **#605** (run ID `41395955780`) passed on `db88b753d75c9f46d368a20b1727ad2b4dcbcc1c`:
+  - 13 HTML pages; 88 local paths; 13 inline scripts; 165 explicitly typed buttons.
+  - 41 accessible dynamic output regions verified by the static regression check.
+  - Chromium browser smoke passed on all 13 pages at mobile and desktop viewport widths; 30 language-toggle interactions; no uncaught page errors.
+  - Configured axe-core WCAG 2.0/2.1 A/AA and WCAG 2.2 AA checks passed in both language states.
+  - 21,473 preliminary text-contrast samples; zero below-threshold samples.
+  - Interactive model-choice, output, language-localisation, quiz-state and representative keyboard activation checks completed by the browser suite, including Genetics, Biochemistry, Ecology and Systematics.
+- This is automated Chromium/axe evidence only. Manual NVDA, TalkBack and VoiceOver sessions, exhaustive keyboard traversal, and real physical-device/browser checks remain **Pending**.
+- Accessibility phase progress: **50%** (automated cross-page and model checks advanced; manual assistive-technology/device validation remains open). Controlled editorial readiness remains **95/100**, unchanged.
+- All 52 visual assets remain Deferred under `IMAGE_DISPOSITION_REGISTER.md`; no images were generated or integrated. No changes were made outside `biology/` on `workspace/biology`.
+
+
+## 2026-11-03 — full keyboard-smoke CI confirmation
+
+- Browser-smoke test correction: after reloading each page to isolate keyboard checks, the test now reinjects axe-core before the alternate-language WCAG audit. The preceding CI failure was caused by the test harness losing the injected axe script on reload, not by a reported page accessibility violation.
+- Test correction commit: `74495aa23fd21d0499c043b7c4030d95cbc99069`.
+- CI #611 (run ID `41487062767`) passed. Structural checks: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium checks passed across all 13 pages at mobile and desktop widths, with 30 language-toggle interactions and no uncaught page errors. The configured axe-core WCAG 2.0/2.1 A/AA and WCAG 2.2 AA checks passed. Preliminary contrast sampling: 21,471 text instances, zero below-threshold instances.
+- Keyboard checks exercised skip-link focus visibility and Enter activation, individual visible controls' focusability and Tab/Shift+Tab exit-and-return behavior, document-level forward/reverse traversal, representative Enter/Space model activation, focus indicators, and ArrowLeft/ArrowRight scrolling for overflowed named table regions.
+- These results are automated Chromium checks, not a claim of exhaustive manual keyboard usability or screen-reader support. NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
+- Accessibility phase progress remains **50%**; this CI confirms the automated scope but does not close the manual validation stage. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
+
+
+## 2026-11-03 — skip-link focus destination verified
+
+- Extended the skip-navigation audit after source review showed the existing test proved fragment navigation but did not assert that focus reached the main content landmark.
+- All 13 Biology pages now expose a programmatically focusable `main#main-content` landmark (`tabindex="-1"`). The landing-page skip link now targets that same main landmark, matching the 12 chapter pages.
+- Browser-smoke regression now verifies, for each page, that Enter both updates the fragment and moves `document.activeElement` to the main-content target.
+- Browser test commit: `fd56b843c09107a0cc73af9dbc6d8990c8a965de`. The 13 HTML changes were saved only under `biology/` on `workspace/biology`.
+- CI #612 (run ID `41498921178`) passed: 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons, 41 accessible dynamic output regions; all Chromium checks passed at mobile and desktop widths; 30 language-toggle interactions; no uncaught page errors; 21,471 preliminary text-contrast samples and zero below-threshold samples. The strengthened skip-link focus-destination assertion passed on all 13 pages.
+- Automated keyboard/accessibility phase remains **50%** pending hands-on NVDA, TalkBack, VoiceOver and physical-device/browser sessions. Controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No shared portal or other subject files were changed.
+
+
+## 2026-11-03 — keyboard Tab-sequence focus audit
+
+- Extended `biology/browser-smoke.mjs` to traverse the actual keyboard Tab sequence on each Biology page and check that every reached visible, enabled focusable control exposes a detectable focus indicator and matches `:focus-visible`.
+- Test commit: `950d402542b784275562ff5f3be31be4bdee71d2`.
+- CI #628 (run ID `41509485112`) passed. The structural suite confirmed 13 HTML pages, 88 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions. Chromium browser smoke passed on all 13 pages at mobile and desktop widths, with 30 language-toggle interactions and no uncaught page errors. Preliminary contrast sampling: 21,471 text instances, zero below-threshold instances.
+- The keyboard Tab-sequence assertions ran as part of the passing Chromium smoke test. The test summary wording was clarified in follow-up commit `8efac4d19b9f475cd255387fdb96a0b44828e221` so it accurately describes sequence coverage rather than only the earlier first-focus check.
+- This remains automated Chromium evidence, not hands-on keyboard certification. Manual NVDA, TalkBack and VoiceOver sessions and physical-device/browser checks remain **Pending**.
+- Accessibility phase progress remains **50%**; controlled editorial readiness remains **95/100**. All 52 visual assets remain Deferred. No changes outside `biology/` on `workspace/biology`.
+
+
+## Visual asset production checkpoint — 3 November 2026
+
+This entry supersedes earlier statements in this file that all 52 images remain deferred.
+
+- The Chüy fauna visual brief is produced: six source-backed local WebP photographs are integrated in `chapters/fauna-kyrgyzstan.html`, with bilingual alt text/captions and attribution/licence links.
+- The six originals were acquired and checksum-verified in GitHub Actions; all six WebP outputs are committed. Focused Chromium image decode/visibility checks passed (run 41594952179).
+- **Visual-brief progress: 1/52 = 1.9%.** Six photographs are included in the one completed brief. The other 51 briefs remain pending/deferred.
+- The two Rufous-naped Tit candidate photographs remain on taxonomic hold because of conflicting Commons structured-data identification; they are not integrated or counted.
+- A recursive inspection of the current Biology branch tree found no Service Worker, PWA manifest or explicit offline-cache implementation. Offline image use is therefore not supported/verified; no offline-cache pass is claimed.
+- Current full-suite status must be distinguished from the focused image test: the focused six-image workflow passed, but full Biology CI must be rerun after the latest audit/register changes.
+
+No readiness-score increase is implied by image production. The controlled editorial-readiness score remains a separate measure.
+
+
+## Superseding visual-production checkpoint — 3 November 2026
+
+This section supersedes the historical G6 statements above that all 52 visual assets remain deferred. The earlier entries are retained as dated history, not current status.
+
+- **Visual briefs produced:** 2 of 52 = **3.8%**. One Chüy fauna brief contains six locally packaged photographs; one Jalal-Abad flora brief contains one photograph. The remaining 50 briefs are pending/deferred. Count briefs, not individual image files.
+- **Jalal-Abad flora:** the Arslanbob walnut-forest photograph by Ekrem Canli (13 July 2012, CC BY-SA 3.0) is integrated at the original `image-brief-flora-jalalabad` anchor in `chapters/flora-kyrgyzstan.html`. The 3,888 × 2,592 JPEG matched Commons SHA-1 `b44ca13fcd8e9359bef518c0fbaa604797d7117d`; WebP output is 3,111,310 bytes, SHA-256 `a2be8bc5bbef030df622a8a40af342f1ac646ec0dc17e8674cdc2e143644331e`.
+- **Focused browser QA:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41599165657 passed. It opened the actual bilingual flora chapter and checked the exact figure anchor, image decode and native dimensions, visibility, bilingual alt text, caption and Commons attribution.
+- **Asset pipeline:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41598920898 passed original download, checksum verification, WebP conversion, Chromium image decode and commit.
+- **Latest full Biology CI:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41599553658 passed on branch head `057cc6ef354f6a89d0feafe46d2288ac8dabfc64`. It reports 13 HTML pages, 95 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions; Chromium covered 13 pages at mobile and desktop widths, 30 language-toggle interactions, zero uncaught page errors, 21,505 contrast-sampled text instances with zero below threshold, and visible focus indicators during keyboard Tab traversal.
+- **Readiness:** controlled editorial readiness remains **95/100**. Visual-brief production progress is a separate metric and does not raise the editorial-readiness score.
+- **Still pending:** offline-cache capability/testing, screen-reader review and physical-device checks remain separate work; no completion is claimed for them.
+
+No changes were made outside `biology/` or outside `workspace/biology`.
+
+
+## Superseding visual-production checkpoint — 3 November 2026 (later update)
+
+This entry supersedes the previous 2/52 visual-production checkpoint and the earlier historical G6 entries that stated all visual assets remained deferred.
+
+- **Visual briefs produced:** 3 of 52 = **5.8%**. Chüy fauna has six photographs, Jalal-Abad flora has one, and Issyk-Kul flora has four. Total: eleven photographs within three completed briefs; 49 briefs remain pending/deferred.
+- **Issyk-Kul flora:** four locally packaged photographs now replace the original `image-brief-flora-issyk` marker in `chapters/flora-kyrgyzstan.html`: Tamchy Bay wetland, dry gully above Tamchy, shoreline sea-buckthorn (*Hippophae rhamnoides*), and Karakol Valley with Schrenk spruce (*Picea schrenkiana*). Captions explicitly state that these are dated local examples, not a complete or current vegetation map.
+- **Provenance:** all four original files were downloaded by GitHub Actions and their SHA-1 values matched live Wikimedia Commons API metadata; original byte counts and dimensions were checked. WebP outputs and checksums are recorded in `images/generated/flora-issyk-assets-manifest.json`.
+- **Focused browser QA:** run https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41608849568 passed. Chromium opened the actual bilingual flora chapter and decoded all four local images, checking natural dimensions, visibility, bilingual alt text and exact source-attribution links.
+- **Audit and registers:** see `FLORA_ISSYK_IMAGE_AUDIT_2026-11-03.md`, `IMAGE_INSERTION_MAP.md`, `IMAGE_DISPOSITION_REGISTER.md`, `IMAGE_GENERATION_PLAN.md` and `IMAGE_SCIENTIFIC_REVIEW.md`.
+- **Full-suite status:** a full Biology CI run on the temporary commit before the asset workflow pushed the four binaries failed only because those four paths were not yet present. The asset workflow has since committed the binaries. Rerun full Biology CI on the asset-bearing branch head before reporting the current full-suite status.
+- **Readiness:** controlled editorial readiness remains **95/100**. Visual-brief progress is a separate measure and does not change the readiness score.
+- **Still pending:** offline caching is not implemented or verified; screen-reader and physical-device checks remain separate tasks.
+
+No changes were made outside `biology/` or outside `workspace/biology`.
+
+
+## Full-suite verification — 3 November 2026, 09:18 UTC
+
+The full Biology CI rerun after the Issyk-Kul asset binaries and register corrections **passed** on branch commit `cedc296d07ca85842c0b501388f8d4df497471fd`: https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41609646836
+
+- Static validation: 13 HTML pages, 99 local paths, 13 inline scripts, 165 typed buttons and 41 accessible dynamic output regions.
+- Chromium: 13 pages tested at mobile and desktop widths; 30 language-toggle interactions; zero uncaught page errors.
+- Preliminary contrast sampling: 21,529 text instances, zero below-threshold instances.
+- Keyboard Tab-sequence focus indicators checked across visible focusable controls.
+
+This closes the temporary missing-file and P1-register assertion failures encountered while the image files and documentation were being committed. Current visual production remains 3/52 briefs (5.8%), eleven photographs total; controlled editorial readiness remains 95/100. Offline caching, screen-reader review and physical-device checks remain pending.
+
+
+## IMAGE-FIRST POLICY v1.0 application — 5 November 2026
+
+- Added `biology/IMAGE_SOURCES.md`: consolidated provenance and rights index, linking the 15 source-backed documentary photographs across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh to their individual source audits and machine-readable manifests; original Atlas SVG artwork is distinguished from third-party assets.
+- Added `biology/IMAGE_AUDIT.md`: consolidated author-side scientific, legal, bilingual and technical audit with status definitions and a per-asset remediation queue.
+- Updated `biology/IMAGE_DISPOSITION_REGISTER.md` and `biology/README.md` with the standard and the correct metric interpretation.
+- The existing **53/53** remains production/integration coverage, not verification. **Image Verification is Pending audit** until the full per-asset human legal/scientific/bilingual visual gate is evidenced. 33 register rows explicitly retain pending visual, morphology or browser-review notes; this is a triage count, not a pass/fail count for all other assets.
+- Existing source audits, checksums, licences, chapter anchors and images were preserved. No new image was generated and no chapter image was replaced.
+- This pass is confined to `biology/` on `workspace/biology`; no other subject, `main`, shared portal or publishing settings were changed.
+- CI status for these new documentation commits: **pending** until the corresponding GitHub Actions run completes.
+
+
+## IMAGE-FIRST implementation — focused chapter remediation, 5 November 2026
+
+- A direct scan of all 12 chapter pages found no missing local generated-image target paths.
+- Three botanical figures (root/stem/leaf anatomy, xylem/phloem transport, and flower/pollination) had image alt text but no visible captions. Added concise Russian and English `figcaption` text to all three in `chapters/botany.html`.
+- Added a regression assertion in `checks.mjs`: every semantic `figure` containing an `img` must include a `figcaption`.
+- Post-edit check: 3/3 botanical image figures have captions and alt attributes. This is a focused structural fix; full per-asset scientific, rights and bilingual semantic verification remains pending.
+- Commits: `00c5b316` (botany captions), `e3d47e52` (caption regression check). CI for the combined branch head is pending.
+
+All changes remain confined to `biology/` on `workspace/biology`.
+
+
+## Figure inventory count clarification — 5 November 2026
+
+A fresh source scan of the 12 chapter HTML files found 59 semantic figure elements: 57 external-image figures and 2 inline-SVG figures. All 57 external-image figures now have alt attributes and visible captions; no local generated-image target was missing. The 53/53 measure refers only to mapped visual briefs, not the raw number of HTML figures. The audit wording has been corrected accordingly. Image Verification remains pending for the full human review gates.
+
+
+## SVG spot-check checkpoint — 5 November 2026
+
+Reviewed source markup for ten generated Biology SVGs across anatomy, biochemistry, botany and cell biology. All ten contain `<title>` and `<desc>`; explanatory labels were checked for key concepts and scientific qualifications. No proven error was found in this source-level sample, so no SVG artwork was altered. Rendered appearance and full human asset verification remain pending. Details recorded in `IMAGE_AUDIT.md`.
+
+
+## SVG source-review checkpoint — 5 November 2026
+
+- Reviewed ten additional SVGs across ecology, evolution, microbiology, genetics, systematics and zoology.
+- Corrected a Russian-only `<desc>` in `images/generated/genetics-translation.svg` by adding a scientifically equivalent English description (commit `a9f264b`).
+- Checked key scientific statements and qualifications in food-web direction, evolutionary branching, geological dates, antimicrobial resistance, viral replication, translation direction and vertebrate classification.
+- No other proven source-level scientific error was found in this sample. Rendered visual review and full asset-level legal/scientific/bilingual verification remain pending.
+
+
+## Additional SVG source-review checkpoint — 5 November 2026
+
+- Reviewed ten further SVGs across ecology, botany, genetics, microbiology, systematics and zoology.
+- Clarified the DNA-to-mRNA relationship in `images/generated/genetics-mutations.svg`: the displayed codons are mRNA transcribed from the corresponding DNA variant (commit `0767ffa`).
+- Checked cycle pathways, watershed and vegetation qualifications, DNA packaging, mutation framing, bacteria/virus structure, domain distinctions, wolf taxonomy and typical vertebrate traits.
+- No other proven source-level error was found in this sample. Full rendered and per-asset human verification remains pending.
+
+
+## Regional habitat and zoology SVG checkpoint — 5 November 2026
+
+- Reviewed six additional regional and zoology SVGs, including Batken marmot survey, Besh-Tash habitat scenes, Chuy/Talas vegetation, vertebrate groups and habitat adaptations.
+- Added the missing Russian equivalent to the description of `images/generated/flora-talas-vegetation.svg` (commit `6124fbb`).
+- Verified in source text that survey figures are not presented as permanent population estimates, habitat reconstructions are not represented as distribution maps, and the cladistic qualification for birds is explicit.
+- Global rendered-visual and per-asset human verification remains pending.
+
+
+## Documentary-photo markup and attribution sweep — 5 November 2026
+
+- Checked all 15 locally packaged documentary WebP images in the Chüy fauna and Kyrgyzstan flora chapters.
+- All 15 have non-empty alt text, RU/EN caption/attribution content, a direct Wikimedia Commons file-page link and an explicit licence/public-domain label in the adjacent markup.
+- Source/manifests retain the file-level author, licence, original dimensions and byte counts, original SHA-1 comparisons, WebP checksums and conversion details.
+- Result is a source-markup and provenance-record check, not a fresh visual inspection of every original image or independent specialist certification.
+- The two Rufous-naped Tit candidates with unresolved taxonomic metadata conflict remain on hold and are not integrated.
+- Global Image Verification remains Pending audit; this batch does not close the visual or scientific review gates.
+
+
+## Deferred freshwater infographic marker and SVG accessibility batch — 5 November 2026
+
+- Added an explicit source comment and `data-image-followup="optional-enhanced-illustration-deferred"` marker to the existing freshwater figure. Image generation was deferred due to unavailable generation capacity; the existing original SVG remains the active illustration.
+- Reviewed ten further SVG sources covering cell structure, cell cycle, mitosis, homology/analogy, broad habitat zones, invertebrates, herpetofauna, mammals and regional Batken/Osh fauna.
+- Corrected three SVG accessibility metadata gaps: Russian description for `fauna-habitats.svg`; bilingual title/description for `fauna-herps-habitats.svg`; bilingual title/description and clearer separated-habitat qualification for `fauna-mammals-habitat-reconstruction.svg`.
+- No claim of rendered visual verification is made. Global Image Verification remains **Pending audit**.
+
+
+## Remaining SVG metadata and concept review — 5 November 2026
+
+- Reviewed source markup for the remaining 26 generated SVGs across anatomy, biochemistry, botany, regional fauna/flora, genetics, microbiology, systematics and zoology.
+- Corrected six bilingual accessibility gaps: English descriptions for three botany SVGs; Russian titles and descriptions for three fauna SVGs (birds, freshwater habitats and Naryn highlands).
+- Checked scientific qualifications in circulation, homeostasis, biomolecules, respiration, flower reproduction, plant transport, habitat separation, freshwater schematic labels, vegetation belts, DNA packaging, antimicrobial resistance, viral replication, cellular domains, taxonomy and phylogenetic trees.
+- No additional proven source-level scientific error was established in this batch. These checks do not constitute rendered visual QA or independent specialist certification.
+- Global Image Verification remains **Pending audit**.
+
+
+A final bilingual-equivalence refinement in this batch expanded the English descriptions in `biochem-enzyme.svg` and `biochem-respiration.svg`: the enzyme text now explicitly includes substrate binding at the active site and enzyme–substrate complex formation; the respiration text now fully states proton pumping from the matrix to the intermembrane space and return through ATP synthase. This avoids treating a short English summary as a full counterpart to the Russian description.
+
+
+## Chapter image integration and accessibility cross-check — 5 November 2026
+
+- Cross-checked all 12 subject chapters against `images/generated/`: 62/62 referenced external images resolve (47 SVG, 15 WebP).
+- Confirmed all 62 images have non-empty RU/EN alternative text and all 59 semantic figures containing images have bilingual captions.
+- `biology-cover.svg` is an intentionally separate cover asset, not a missing chapter reference.
+- No source-level missing local image path, empty/one-language alt text, or missing bilingual figure caption was found.
+- This does not claim rendered visual or device/screen-reader QA. Global Image Verification remains Pending audit.
+
+
+## Regional image-context cross-check — 5 November 2026
+
+- Cross-checked the 18 fauna-chapter and 8 flora-chapter figure blocks against their alternative text, RU/EN captions and available SVG source titles/descriptions/labels.
+- Confirmed the regional schematics distinguish separate habitats from distribution maps, population estimates and claims of co-occurrence; generic fish/waterbird silhouettes remain unlabelled at species level.
+- Confirmed the Batken 4,146 value remains a dated survey result, the Naryn/Osh panels are not population estimates, and the Aygul schematic names `Fritillaria eduardii` with `Petilium eduardii` as a synonym.
+- Documentary photo captions describe specific local habitat examples, not complete oblast-wide inventories.
+- No source-text/alt/caption mismatch was established in this pass. This does not replace visual inspection of the WebP binaries or school/device QA. Global Image Verification remains **Pending audit**.
+
+
+## Core-chapter figure and caption revalidation — 5 November 2026
+
+- Revalidated the ten non-regional chapters: 33 semantic figure blocks, of which 31 contain external images and two use inline SVG.
+- All 31 external-image figures have non-empty alt text and visible RU/EN captions. No missing caption, empty alt, or one-language-only caption was found.
+- The caption parser was corrected to recognise `figcaption` elements with attributes (such as `class="caption"`); classed captions are valid and were not missing.
+- Combined 12-chapter totals remain 59 semantic figures, 57 image-containing figures and 62 external image elements; all image figures have bilingual captions and all image elements have non-empty alt text.
+- This is structural source validation only. No claim of new rendered-image inspection or school/device QA. Image Verification remains Pending audit. Editorial readiness remains **99/100**; no score increase is assigned for this bounded revalidation.
+
+
+### SVG metadata and source-structure sweep — 5 November 2026
+
+- Rechecked all 48 original SVG assets in `images/generated/` (47 chapter illustrations plus the separate cover asset).
+- Corrected bilingual `<desc>` metadata in `cell-animal.svg` and `zoology-adaptation.svg`; all 48 assets now have Russian/English `<title>` and `<desc>` content and a `viewBox` under the checked source patterns.
+- No embedded script, `foreignObject`, external/data URI reference or embedded raster `<image>` element was detected in this sweep.
+- This is a bounded source-pattern check, not full XML conformance validation, rendered visual QA, or device/screen-reader testing. Global Image Verification remains Pending audit.
+
+
+- Added a permanent `checks.mjs` regression guard for every generated SVG: bilingual title/description, root/viewBox/closing-tag structure, and no detected script, `foreignObject`, embedded raster image or external/data URI reference. This guard will apply to future SVG assets as well.
+
+
+### Responsive Chromium page and asset validation — 5 November 2026
+
+- CI run [41905128510](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41905128510) passed on commit `c0f31471ac1fbee556d214487dbd55b18256e60c`.
+- All 13 Biology HTML pages passed at 390×844 and 1365×900; 30 language-toggle interactions; no uncaught page errors.
+- Preliminary contrast sampler: 19,373 visible text instances, 0 below threshold. Automated axe WCAG checks, keyboard/focus, skip-link, interaction, overflow, image decode/intrinsic-dimension/alt and inline-SVG geometry checks passed.
+- This closes the automated responsive browser-render/asset-loading check for that commit. It does not replace human pixel-level image/morphology review or physical school-device QA. Global Image Verification remains Pending audit.
+
+
+### Human visual review and correction pass — 5 November 2026
+
+- Generated and manually inspected full-page desktop screenshots for the Biology index and all 12 chapters (13 pages total); screenshot artifact from CI run [41910231926](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41910231926), commit `428fcd79932a9e85e182ba01285558435bc16428`.
+- Corrected visible issues in the regional index language spans; thermoregulation, biomolecule, DNA-packaging, membrane-transport and microbe-comparison label spacing; evolution homology key and geological timeline callouts; central-dogma caption clipping; ribosome peptide-chain label placement; and cellular-respiration diagram layout/proton-flow depiction.
+- Latest CI passed: 13 pages at mobile and desktop widths, 30 language-toggle interactions, no uncaught page errors, 19,331 contrast-sampled text instances with 0 below threshold, and image-decode / SVG-geometry checks. Automated axe, keyboard/focus and overflow checks passed.
+- Page-render visual QA is recorded as completed for this pass. It does **not** certify detailed morphology or source/caption correctness for every individual image; Global Image Verification remains Pending audit. External specialist review and school/teacher evaluation are excluded; any remaining device/accessibility checks are internal project-team tasks.
+- Overall Biology editorial readiness remains **99/100**; no unsupported percentage increase is assigned while asset-specific verification remains open.
+
+
+### Documentary-photo preview review — 5 November 2026 (updated)
+
+- Inspected individual Commons file pages and rendered previews for all **15/15 accepted documentary photographs** across Chüy, Jalal-Abad, Issyk-Kul, Naryn and Osh. The Chüy Halys pit-viper preview that previously failed to load was retrieved and inspected on the follow-up pass.
+- All 15 previews are consistent with their broad scene/locality captions. The squirrel and pit-viper frames contain the animals named by their source captions; landscape/habitat photos remain described at landscape level. No species-level inference was added from habitat scenes.
+- Sea-buckthorn, Schrenk spruce and *Clematis songorica* captions are supported by the individual source pages; preview review is not independent specialist taxonomic certification.
+- Source-page author/date/location/licence metadata was checked against the manifests. Existing manifests retain original-file SHA-1 comparisons and derivative WebP checksums; prior Chromium tests establish local image decoding, not morphology certification.
+- This was Commons-preview review, not a new full-resolution pixel-by-pixel comparison of all committed WebP files. The two Rufous-naped Tit candidates remain excluded because of the unresolved taxonomy metadata conflict.
+- No image or chapter content changed. Global Image Verification remains **Pending audit**; overall editorial readiness remains **99/100**.
+
+
+### Naryn maral taxonomy label — 5 November 2026
+
+- Reviewed the Naryn highland-fauna SVG label against the Kyrgyzstan Red Book entry and the CAMCA Naryn maral study.
+- Replaced the underspecified `Cervus sp.` with `Cervus elaphus`; did not assign a subspecies because sources use differing subspecies treatments.
+- Kept the diagram's separate-habitat caveat and the chapter's non-census/non-range-map qualification.
+- Commit: `f1a4f7eb0a562123d38ef87228dbe7ec8bc3b34c`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Issyk-Kul salinity correction — 5 November 2026
+
+- Corrected a scientific classification error: Issyk-Kul was previously described as a freshwater habitat even though it is a brackish lake (FAO reports mean salinity around 5.9–6.1 g/L).
+- Updated the SVG title/description, chapter section label, bilingual alt text and explanatory paragraph. The illustration now distinguishes brackish Issyk-Kul from the freshwater mountain stream.
+- Generic fish silhouettes remain unlabelled; no species-specific claims were introduced.
+- SVG commit: `7bb60e3b4173052ea150b905100ce9c17eed8a37`; chapter commit: `44bcfebaad4db2aa3a46e58adadc01e508b2f0f4`.
+- Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Aygul flower-anatomy detail correction — 5 November 2026
+
+- Reviewed `flora-batken-aygul.svg` against *Flora of China*, the RHS species profile and a Kyrgyzstan-focused phenology paper.
+- Corrected the enlarged flower detail from two visible stamens to six; added bilingual labels for six tepals and six stamens.
+- Retained the schematic/not-to-scale caveat; no fixed flower-count or population claim was added.
+- SVG commit: `ae7cd9f3cd906a136b5fd085f65ff682dc2f2656`. Global Image Verification remains Pending audit; editorial readiness remains 99/100.
+
+
+### Additional diagram corrections — 5 November 2026
+
+- Fixed the disconnected systemic venous-return arrow in `anatomy-circulation.svg`; the blue path is now continuous from the body circuit to the right atrium.
+- Completed the missing English half of the eukaryotic-cell size caveat in `systematics-domains.svg`.
+- Commits: `61f94fccd099b8323d0ef99db93e7899ab6ae762` (circulation), `31d0566a4bebf45fcb96644c5048ccc84f24b45e` (domain comparison).
+- CI and screenshot review for these updates are pending. Editorial readiness remains 99/100; no percentage increase based solely on these source edits.
+
+
+### Circulatory circuit directional audit — 5 November 2026
+
+- Extended the circulation-diagram repair after checking the full route: pulmonary artery RV→lungs (blue), pulmonary veins lungs→LA (red), systemic artery LV→body (red), systemic venous return body→RA (blue).
+- Removed the erroneous red body→LV arrow and connected the pulmonary-vein route to the left atrium.
+- Main SVG correction commit: `6a80db54454f302976851f61aed8add9bb2c3e6b`; audit record: `e5817080db58a372320eb581aace03a6eac5e640`.
+- Refreshed CI/screenshot review is pending. No readiness percentage increase.
+
+
+### Carbon-cycle diagram correction — 5 November 2026
+
+- Removed misleading decomposition→ocean arrow in `ecology-cycles.svg`; added bidirectional atmosphere–ocean CO₂ exchange and labelled the soil return path as soil respiration.
+- SVG commit: `4918192197f60958910b240c480f8d96a54c8465`. CI and refreshed screenshot review pending; readiness percentage unchanged.
+
+
+### Vertebrate-comparison caption fit — 5 November 2026
+
+- Extended the amphibian comparison card in `zoology-anatomy.svg` so the English respiration caption remains inside its panel.
+- Commit: `24fcc604d86cca9a435ed6a227a950ca6f18ef71`. CI/screenshot review pending; no readiness percentage change.
+
+
+### Supplemental Aygul botanical plate generated — 5 November 2026
+
+- Created an additional original educational plate for *Fritillaria eduardii*: upright leafy stem, lanceolate leaves, nodding brownish-red flowers, leafy bract tuft and enlarged floral studies.
+- The frontal floral study shows six tepals and six stamens. No fixed flower count, population size or exact locality is implied.
+- Classified as Category C (generated illustration), not a documentary photograph; no third-party image licence or source is claimed.
+- Optimized working derivative: `flora-batken-aygul-botanical-plate.webp`; source PNG remains in the conversation workspace. Binary upload to `workspace/biology` is still outstanding, so the existing HTML continues to use the committed SVG. Do not mark the new plate as integrated until the binary and HTML reference are committed and browser-tested.
+- Editorial readiness remains 99/100; no percentage increase for an unintegrated asset.
+
+
+**Generated-file technical record:** source PNG, 1312 × 1199 px, RGB; optimized WebP derivative, 1312 × 1199 px, 179,740 bytes, SHA-256 `956c21e15206f7a8d65629ae9bc1496bea39b117654a8f438bcff1c320124481`. The derivative is available in the current conversation workspace; this hash is a local provenance record, not a GitHub repository checksum.
+
+
+### Aygul generated plate integration — 5 November 2026
+
+- The generated plate is now in `workspace/biology` at `biology/images/generated/flora-batken-aygul-botanical-plate.webp` and referenced from `biology/chapters/flora-kyrgyzstan.html` as a supplementary Category C illustration.
+- Repository derivative: 320 × 292 px, 7,196 bytes; SHA-256 `b79cc139c33b4b19b5c1e72fa79885688cdd9c0202d6d402ad3f13348badf4c9`. The full-resolution source remains separately preserved in the conversation workspace.
+- Bilingual alt text/caption and scientific caveats are present. Existing original SVG remains intact.
+- The first CI attempt exposed a new anchor-map mismatch and a missing P1 scientific-review link; both metadata issues were corrected. Awaiting the follow-up CI/browser result. Overall readiness remains 99/100 pending the remaining gates.
+
+
+## Repository hygiene and superseding CI checkpoint — 5 November 2026
+
+- Biology-only inventory on `workspace/biology`: 14 HTML pages; 48 SVG and 16 WebP visual assets, all 64 referenced by the HTML pages; five regional JSON manifests and five corresponding Python build scripts.
+- No zero-byte Biology files, conventional backup/temp files, or duplicate file contents were found. The JSON manifests are required build/audit inputs and are not orphaned production images.
+- Latest full Biology CI: [41968952829](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/41968952829), head `fb4b581f0cf23e86b8a093280ba0846fc01a345f`, completed successfully. The `validate` job passed local page/link/script checks, Chromium setup, local server startup, browser smoke tests for every Biology page, and screenshot artifact upload.
+- This run supersedes earlier entries in this checkpoint that say CI or refreshed browser checks for the circulation, carbon-cycle, vertebrate-comparison, or Aygul integration updates are pending. Those entries remain as historical records of the state at the time they were written.
+- The current source-controlled author-side editorial score remains **99/100** as previously defined; it is not raised merely because CI passed. Detailed human visual review, independent specialist review, and physical-device/screen-reader sessions remain separate. Do not describe automated CI as completing those tasks.
+- No files were deleted. No other subject, branch, `main`, portal or publishing configuration was changed.
+
+### P1 visual-review CI reconciliation and Menzbier habitat correction — 5 November 2026
+
+- Reconciled the P1 review-count validator: it now counts the 13 entries in the P1 section only and excludes the separately documented supplemental Category C Aygul plate. This corrects a false failure caused by a broad filename regex; it does not weaken the per-asset filename checks. Commit: `ab3f2bafeefe6c7f86a73d466bf8a35a9013d7fb`.
+- Restored explicit links to `IMAGE_SCIENTIFIC_REVIEW.md` for all 13 P1 rows in `IMAGE_DISPOSITION_REGISTER.md`. Static cross-check confirms 13 P1 rows, 13 distinct P1 WebP traceability names, no missing review links and no P1 target filename missing from the scientific review. Commit: `85906a1ab7d0c1943f5edcb391c26af308a6cc60`.
+- Corrected the Western Tien Shan fauna SVG: Menzbier's marmot is now placed on a subalpine–alpine meadow slope with scattered rocky patches rather than a bare steep rocky face. The local Red Book habitat account describes meadow habitat and avoidance of steep slopes; the Ministry confirms the species occurs in Besh-Aral. Updated the SVG, scientific review and insertion map. Commits: `4d78eb3e313e4097a23531fb495d780f5166ac74`, `593c34293714643b62a781762f33d559783151a6`, `26b965a138bc47a7233b89e988dd3050b5110f91`.
+- These are source/register consistency and habitat-accuracy corrections. They do **not** constitute independent specialist sign-off, final morphology approval or browser visual acceptance.
+- Latest observed workflow run `42015502001` predates these fixes (head `9920a15a870861b8a7be01067e1cfbcc1bf89815`) and failed on the two issues subsequently corrected. No workflow result for the later commits is yet available; CI/browser validation remains pending.
+- Overall editorial readiness remains **99/100**; no percentage increase is claimed.
+
+### Full Biology Chromium workflow pass and mammal morphology refinement — 5 November 2026
+
+- Full workflow `42015846138` completed successfully on head `f51aaa27e3f471ef3bf8367dc443e7b98e45ba69`: static validation, Chromium installation, local server, every Biology page at mobile and desktop viewports, axe WCAG audits in both languages, keyboard/contrast checks, image decoding and rendered SVG geometry checks, plus screenshot artifact upload. Artifact: `biology-visual-review` (7-day retention). This is automated QA, not human visual sign-off or external specialist verification.
+- Began a source-level morphology review of the integrated mammal reconstruction against the IUCN Cat Specialist Group snow-leopard description and Mammalian Species accounts for argali and Siberian ibex. Added pale centres to selected snow-leopard rosettes and transverse ridges to the ibex horns; recorded that the argali horn spirals remain stylised. No subspecies or precise locality claims added.
+- Updated the P1 scientific review, disposition register and legacy candidate audit to distinguish the integrated SVG from the unintegrated WebP candidate and to reflect the successful Chromium smoke-test run.
+- Commits: SVG `78dfe9fe39fa72c7b766c596284a979a5a1499d6`; scientific review `570e0461b94bd7a249cb27d35083b1966144804c`; disposition `9c578b193d299eaad30d230d9fa98662737287cc`; audit `fcbeeecb320e4e8e771604ced10789a726e04cbc`.
+- Because the SVG was refined after workflow `42015846138`, a new CI run is required before claiming the updated mammal image passed browser checks. Internal source-based species-morphology review and rendered visual acceptance remain pending; external mammal-specialist review is excluded from the project.
+- Overall editorial readiness remains **99/100**; no percentage increase is claimed.
+
+### P1 fauna morphology and screenshot-level QA — 5 November 2026
+
+- Full workflow `42017080725` passed on head `5d1eeeff00be0d47a44310f963a91b530e375536`: static checks, Chromium setup, every Biology page in mobile/desktop viewports, automated accessibility/keyboard/contrast checks, image decoding, SVG geometry and screenshot artifact upload.
+- Downloaded and manually spot-checked the `biology-visual-review` artifact. This caught a real issue that automated SVG decoding had missed: the right-hand mountain-stream panel in `fauna-freshwater-habitats.svg` was clipped/blank. The clip-path rectangle retained an outer x-offset after the right group was translated. Corrected the clip-path origin in commit `9d510205ea6805ed0cd1409d7cd2e6eb61d5886a`; the follow-up screenshot from run `42017080725` confirms that both Issyk-Kul and mountain-stream panels now render.
+- Mammal refinements: snow-leopard rosette centres and Siberian-ibex horn ridges added to the main habitat reconstruction; maral antlers made more clearly branched; Osh regional bear shoulder hump, snow-leopard tail and ibex backward-swept ridged horns/beard refined. Bird illustration received clearer golden-eagle nape and Himalayan-snowcock chestnut facial/throat marks.
+- Source-level references and constraints recorded in `IMAGE_SCIENTIFIC_REVIEW.md`; P1 statuses reconciled in `IMAGE_DISPOSITION_REGISTER.md`. Review date advanced to 5 November 2026. Relevant commits: `78dfe9fe39fa72c7b766c596284a979a5a1499d6`, `8f0940abc365b840db854399383db9b933277086`, `bb3f1b789fe58d8f09cda477cce27bcd60f45972`, `3ff5c972a9d0808425c27484cf9f33deabc1060a`, `9d510205ea6805ed0cd1409d7cd2e6eb61d5886a`, `e00d78c8f2a39089ea9de4a7651ea207bf386654`, `6d2810248bdd57619b13f33b15bc7fb596e1b44d`, `832b0ebb0c6f4a60c206f0c8c3397e226d5620ce`, `8770572bcad99a94a389a3901af954ce0f140c7f`.
+- Screenshot review also found a literal `\\n` artifact between paragraphs in the freshwater chapter. It was removed in commit `3adbf855123c8fd270be83dd61ea0dcf4ef46372`; the new CI run after that text correction is pending at this checkpoint.
+- Browser screenshots and automated passes do not constitute specialist sign-off, final human visual acceptance of every species silhouette, external verification or rights/licence approval. No progress percentage increase is claimed; editorial readiness remains **99/100**.
+
+
+### Browser re-test after freshwater text correction and argali horn refinement — 5 November 2026
+
+- The latest Biology workflow, `42018020811`, completed successfully on head `d95e9639314df119b995dc2e68a5cdbeda08e3f4`. The preceding workflow `42018011602` also completed successfully. The successful run includes the repository's static validation and Chromium-based browser checks; its `biology-visual-review` screenshot artifact was downloaded and inspected.
+- Manually reviewed the full fauna page screenshot and enlarged the mountain-mammal illustration. The argali's massive curled horns show the added transverse corrugation/ridge cues in the rendered browser output. The snow leopard and Siberian ibex remain simplified educational silhouettes; this visual check is not a specialist determination of anatomical accuracy.
+- The latest screenshot confirms the fauna page renders at desktop width and the mammal illustration is present in its intended card. The previously documented freshwater two-panel clipping correction remains closed; the freshwater prose escape artifact has now been re-tested by a later successful workflow.
+- The P1 disposition entry now records the argali horn refinement. The source-level morphology notes and all 13 P1 review links remain in place. IUCN and CMS material support the broad argali identity, range and habitat context; they do not independently validate every drawn horn detail.
+- Automated browser success and a targeted screenshot check do not equal independent zoologist review, complete human visual acceptance of all 53 assets, or rights/licence clearance. These remain separate outstanding gates.
+- Visual coverage remains **53/53 (100%)**. Source-level P1 review register remains **13/13**. Editorial readiness remains **99/100**; no percentage increase is claimed.
+- All changes and checks recorded here concern only `workspace/biology`; no other subject branch, `main`, shared portal or publishing configuration was changed.
+
+
+### Governance clarification — independent school-teacher assessment is post-development — 5 November 2026
+
+- The user has clarified that **there will be no independent specialist assessment as part of Atlas of Knowledge development**. Any external evaluation is outside the Atlas of Knowledge project entirely; it is not a project phase or deliverable.
+- Accordingly, do not treat external zoologist/botanist sign-off as an in-development task, a missing developer deliverable, or an automatic blocker to completing the atlas. Do not solicit or imply that an outside expert has approved the material during development.
+- During development, the team remains responsible for source-based fact checking, transparent uncertainty/caveats, accurate attribution and rights records, bilingual editorial quality, and technical/browser/accessibility QA. Record the evidence actually available and distinguish internal review from the future school-teacher evaluation.
+- At the separate evaluation event, school subject teachers will assess the completed atlas. Their findings can be captured as a post-development evaluation report and used for a later revision cycle if requested.
+- This clarification changes the governance and milestone interpretation only; it does not erase genuine technical, editorial, source, attribution or licensing work still outstanding. No percentage is changed solely by this clarification.
+- This instruction applies to Biology and the Atlas of Knowledge development process generally; this checkpoint update itself is committed only to `workspace/biology`.
+
+
+## Continued development update — regional visual source pass — 5 November 2026
+
+- Re-read seven existing SVGs on `workspace/biology`: Naryn, Osh, Batken, Talas, Jalal-Abad and Issyk-Kul fauna habitats, plus the Aygul botanical plate. This was a source-text/metadata/claim review, not a pixel-level visual acceptance of all seven.
+- Found and corrected an actual bilingual presentation gap in `fauna-naryn-highland-habitats.svg`: its visible panel labels and footer were English-only. The heading, three habitat panels, species labels and caveat now show Russian and English. Commit: `e0f62375417388ee160782b40419b9afa847f827`.
+- Recorded the seven-asset source pass in `IMAGE_AUDIT.md` (commit `87d7b10dd6fa1421f481458bab9e5e83afac334c`) and updated the Naryn row in `IMAGE_DISPOSITION_REGISTER.md` (commit `ef5ee47c06716f10b3d7af6caad920eb3a5dc966`).
+- Checked that the Batken figure's 4,146 total equals 759 + 3,387 and that the figure labels the animals only as `Marmota spp.`, with a dated 2026 spring-survey caveat. This is an arithmetic/source-record consistency check, not an independent census audit.
+- The Aygul plate's accepted-name/synonym wording matches the recorded Kew POWO reference; existing morphology and rights limitations remain open.
+- Latest relevant CI: governance-document runs `42023892098`, `42023907065` and `42023916450` all completed successfully. The new Naryn visual correction run `42023957290` and audit-document run `42024392159` were still in progress at the time of this checkpoint; poll before claiming their results.
+- Metrics unchanged: visual production/integration coverage **53/53 (100%)**; P1 source-review register **13/13**. Image Verification remains **Pending audit / not yet defensibly quantifiable**. Editorial readiness remains **99/100** as a conservative author-side score; the future school-teacher evaluation is explicitly post-development and is not a development blocker. The outstanding manual accessibility/device evidence is not claimed as passed.
+- All changes remain confined to `biology/` on `workspace/biology`; no other subject, `main`, portal or publishing settings were changed.
+
+
+## Project boundary: no external review or expertise during this project — 5 November 2026
+
+The project owner's definitive instruction is that **all external checking, review, assessment, peer review, specialist expertise, certification and expert sign-off are excluded from the Atlas of Knowledge project**. No external person, school teacher, university, laboratory, NGO, company, consultant or other organisation is to be engaged to inspect, approve, certify or evaluate the atlas as part of this project's work. Do not list any external review as a development task, acceptance gate, pending item, blocker or planned project deliverable. Do not create an EXTERNALLY VERIFIED status for project acceptance.
+
+All quality assurance within this project is performed by the project team: editorial review; fact-checking against published primary/authoritative sources; taxonomy, locality, date and numerical consistency checks; transparent uncertainty notes; attribution and rights review; bilingual checks; code, browser, accessibility and visual-rendering tests. These are internal development controls and must be described as such. Citing or consulting published external literature, datasets, standards, image licences or official records is permitted and remains necessary; this is evidence research, **not external expertise or an external review of the atlas**.
+
+Any external evaluation, consultation, expert review, school-teacher assessment, certification or other outside work is wholly separate from this project and must not be included in its scope, schedule, progress metrics or completion criteria. If such work is later undertaken independently, it belongs to a separate process and separate records. Historical references in this document to pending independent, second-person external or specialist review are superseded by this rule; they must not be interpreted as open project tasks. Genuine internal evidence gaps, unresolved rights questions, editorial defects and technical QA issues remain valid internal tasks.
+
+
+## Definitive project boundary — external review excluded — 5 November 2026
+
+The project owner's latest instruction supersedes every older checkpoint, milestone, score explanation or task list that describes external/independent review, specialist sign-off, teacher evaluation, recruitment, handoff, or outside acceptance as pending or required. **All external review, expertise, assessment, peer review, certification and sign-off are outside Atlas of Knowledge.** They are not project blockers, deliverables, progress dimensions or completion criteria. The archived external-review documents are not active workflows. Any external work is separate and must use separate records outside this project.
+
+Project QA is internal: editorial and bilingual checks; claim-level research against published primary/authoritative sources; taxonomy, locality, date and arithmetic checks; source/licence/provenance review; and internal code, browser, accessibility and rendering checks. External publications and databases remain valid research evidence; consulting them does not constitute external review of the Atlas. Do not describe any internal status as externally verified. Preserve uncertainty where the internal evidence is insufficient.
+
+
+## Internal visual QA triage — 5 November 2026
+
+- The consolidated image audit records **33 of 53 register rows with explicit pending notes** concerning visual rendering, morphology or browser review. This is a triage count, not a percentage of completed verification and not proof that the other 20 rows passed every internal gate.
+- A focused source/caption consistency pass was completed for the P1 mountain-mammal, bird and freshwater-habitat SVGs. Their SVG descriptions match the current Russian/English chapter alt text and captions; species and locality limits remain explicit. Rendered visual acceptance, device/accessibility checks and rights checks remain separate where still pending.
+- No image was promoted to VERIFIED; production coverage remains 53/53. The 99/100 editorial-readiness estimate is unchanged and must not be used as an image-verification percentage.
+- All pending work remains internal to the project team. External assessment, specialist review and independent sign-off are excluded from scope.
+
+
+## Governance reconciliation — 5 November 2026
+
+Older checkpoint entries that list independent specialists, school/teacher review, outside acceptance or external sign-off as pending are historical and superseded. None is an active project task, blocker, deliverable or completion criterion. All remaining work is internal to the project team: source-based fact-checking, visual/rendered inspection, bilingual review, rights/attribution checks, accessibility and technical tests.
+
+
+## Internal visual QA continuation — 6 November 2026
+
+- Full Biology Chromium run #1575 completed with `conclusion=success`: static validation, all-page browser smoke tests and desktop/mobile screenshot upload passed.
+- The post-fix 1365 px and 390 px screenshots were manually inspected for `anatomy-circulation.svg` and `botany-anatomy.svg`. Their specific layout defects are closed: the systemic return path clears the heart key, and the root legend rows are separated. The audit and disposition register record this limited acceptance.
+- The P1 mountain-mammal SVG was also inspected in the run #1575 desktop/mobile screenshots. Its responsive layout is accepted for those captures; its detailed species morphology and manual bilingual-semantic checks remain open. The asset audit and brief-review row now reflect the active SVG rather than the obsolete WebP candidate history.
+- These are asset-specific rendered-layout outcomes, not a new overall image-verification percentage. Production coverage remains 53/53; the internal editorial-readiness estimate remains 99/100. No blanket VERIFIED status is assigned.
+- Documentation-only follow-up CI runs #1578 and #1579 were still in progress at checkpoint time; #1577 completed successfully. Do not claim #1578/#1579 success until their conclusions are confirmed.
+
+
+## Bird habitat plate — internal responsive screenshot QA — 6 November 2026
+
+- SVG morphology refinement committed as `86ef1932` on `workspace/biology`: clearer soaring golden-eagle silhouette with golden nape and separated wing-feather cues; compact Himalayan snowcock silhouette with pale body and chestnut facial marks. No species labels were added to the generic lake waterfowl.
+- Full Biology Chromium workflow #1581 completed with `conclusion=success`: static validation, every-page browser smoke, and screenshot artifact upload all passed.
+- Retrieved and inspected the run #1581 desktop (1365 px) and mobile (390 px) fauna-page screenshots. The bird plate is legible at desktop scale, preserves the three separate habitats and bilingual explanatory caption, and has no page-level overflow. Mobile uses the intended horizontal-scroll viewport with bilingual hint; partial initial visibility is expected until the user scrolls the diagram.
+- Limited internal rendered-layout acceptance is recorded in `IMAGE_SCIENTIFIC_REVIEW.md`, `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not certify specimen-level morphology, diagnostic plumage, detailed feet/tarsi, rights clearance or all bilingual semantics. No asset was promoted to `VERIFIED`.
+- Continue with the next regional fauna visuals after targeted morphology/source notes; keep the global 53/53 production-coverage count, 99/100 editorial-readiness estimate and open image-review triage distinct.
+
+
+## Regional fauna plates — Naryn and Issyk-Kul screenshot QA — 6 November 2026
+
+- Reused successful all-page Chromium artifact #1581 (1365 px desktop and 390 px mobile) for focused internal review of the Naryn highland and Issyk-Kul habitat SVGs.
+- Naryn: the three habitat panels (Naryn River valley/maral, high rocky mountains/snow leopard, Son-Kul wetland/waterbirds) render in the intended order. The long bilingual waterbird label, shortened to 12 px after an earlier clipping defect, now fits within its panel. The figure explicitly disclaims range-map/census/co-occurrence interpretation.
+- Issyk-Kul: wetland shore, lake-water column and separate high-mountain panel render with bilingual footer labels contained. Generic silhouettes remain unlabelled; no species checklist or range boundary is implied.
+- Mobile: both figures use the horizontal-scroll viewport with the bilingual hint; the page itself does not overflow. Limited layout/label-containment acceptance recorded in the image brief and disposition register. Species morphology, habitat evidence and detailed bilingual semantics remain separate review items.
+- No global image-verification status or overall readiness percentage changed.
+
+
+## Osh and Batken regional fauna plates — internal screenshot QA — 6 November 2026
+
+- Reviewed the Osh and Batken SVG habitat plates in the successful all-page Chromium #1581 desktop/mobile artifact.
+- Osh: three separate habitat panels render in sequence; the earlier bear-caption vegetation obstruction is not present in the inspected desktop crop. Mobile horizontal scrolling works without page-level overflow.
+- Batken: the spring marmot census callout, dry-foothill panel and protected-mountain panel render within the plate; mobile horizontal scrolling works without page-level overflow.
+- Limited layout acceptance recorded in `IMAGE_BRIEF_REVIEW.md` and `IMAGE_DISPOSITION_REGISTER.md`. This does not verify every species feature, census methodology, claim-to-source chain or bilingual semantic equivalence. No asset status promoted to `VERIFIED`.
+
+
+## Jalal-Abad regional fauna plate — internal screenshot QA — 6 November 2026
+
+- Reviewed the corrected Western Tien Shan SVG in run #1581's desktop and mobile full-page screenshots.
+- The Sary-Chelek, Besh-Aral and alpine footer-label strips now remain inside their respective panels; the lower disclaimer no longer covers the text. Mobile horizontal scrolling is available and the page column remains within the viewport.
+- Limited rendered-layout acceptance recorded in the brief review and disposition register. It is not documentary evidence of species presence, a range map, or a specimen-level morphology approval.
+
+
+## Talas Besh-Tash regional fauna plate — screenshot QA — 6 November 2026
+
+- The morphology refinement in `fauna-talas-besh-tash.svg` (commit `5ae6322e`) completed successful Biology CI workflow [#1595](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42210570386).
+- Reviewed the fresh 1365 px desktop screenshot and the 390 px mobile screenshot. Desktop shows all three separate habitat panels and the bilingual caption without clipping; mobile shows the intended horizontal-scroll viewport and bilingual hint without page-level overflow.
+- The refined tail/rosette cues for the snow leopard, swept-back ibex horns and branched maral antlers are visible. This is limited internal visual QA, not a taxonomic or specimen-level morphology certification.
+- Recorded limited layout acceptance in the brief-review and disposition registers. Species identity, source-to-image evidence, generic fish taxonomy, rights/provenance and detailed bilingual semantics remain separate open checks. No image status promoted to `VERIFIED` and no overall readiness percentage changed.
