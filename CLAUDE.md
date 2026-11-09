@@ -16,10 +16,11 @@
 - Сайт — статический, GitHub Pages из `main` (`.github/workflows/pages.yml`).
 - Рабочие ветки `workspace/*` слиты в `main` 09.11.2026. Дальше работаем в `main` (или в коротких ветках с последующим слиянием).
 - География: исходники — `geography/chapters/*.md`; ученики читают `geography/read/*.html`. После правки глав: `python3 geography/scripts/build_reader.py`, затем закоммитить.
+- Своя физика: `physics/index.html` (блок I, 6 глав) и `physics/chapters/NN-*.html`. Образец главы — `01-what-is-physics.html`: двуязычный текст через пары `data-l="ru"` / `data-l="en"`, язык хранится в `localStorage` (`atlas-lang`), модели — inline SVG + JS. `physics/knowledge-check.html` — старый тест американской физики.
 - Проверки: `node .github/scripts/check-local-links.mjs`, `node chemistry/checks.mjs`, `node biology/checks.mjs`.
 
 ## Открытые задачи
-1. Своя физика, первый блок из 6 глав.
+1. Своя физика, первый блок из 6 глав. Готова глава 1 (09.11.2026); следующая — 2 «Строение вещества».
 2. Перенести внешние (хотлинк) иллюстрации географии внутрь репозитория.
 3. Сжать фото биологии (сейчас 1–3 МБ каждое, в полном разрешении).
 4. Главная: `index.html` сейчас — американская физика; сделать главной портал с четырьмя предметами.

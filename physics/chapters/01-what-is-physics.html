@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 1 Атласа физики: что изучает физика, физические величины, единицы СИ, цена деления, погрешность, метод рядов.">
+<title>Что изучает физика. Измерения — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style></head><body>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../portal.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 01 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 01 · BASICS</span></p>
+<h1><span data-l="ru">Что изучает физика. Измерения</span><span data-l="en">What physics studies. Measurement</span></h1>
+<p class="lead"><span data-l="ru">Физика начинается с вопроса «почему?» и с умения измерить. В этой главе — чем физика отличается от других наук, что такое физическая величина, как пользоваться шкалой прибора и почему любое измерение немного неточно.</span><span data-l="en">Physics begins with the question “why?” and with the skill of measuring. This chapter covers what sets physics apart, what a physical quantity is, how to read an instrument scale and why every measurement is slightly uncertain.</span></p>
+<nav class="toc" aria-label="Содержание главы"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#physics">02 <span data-l="ru">Что изучает физика</span><span data-l="en">What physics studies</span></a><a href="#method">03 <span data-l="ru">Как добывают знание</span><span data-l="en">How knowledge is gained</span></a><a href="#quantities">04 <span data-l="ru">Величины и единицы</span><span data-l="en">Quantities and units</span></a><a href="#scale">05 <span data-l="ru">Шкала и погрешность</span><span data-l="en">Scale and uncertainty</span></a><a href="#rows">06 <span data-l="ru">Метод рядов</span><span data-l="en">Method of rows</span></a><a href="#tasks">07 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">08 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>Два брата готовят новую юрту и отмеряют аркан — волосяную верёвку, чтобы обвязать стены. Старший меряет кулачами (размахом рук) и насчитывает 10 кулачей. Младший меряет ту же верёвку и насчитывает 11 кулачей.</p><p>Кто из них ошибся? И как сделать так, чтобы мастер в Оше и мастер в Таласе, не видя друг друга, отрезали одинаковую верёвку?</p></div>
+<div data-l="en"><p>Two brothers are preparing a new yurt and measuring an arkan — a horsehair rope used to tie the walls. The elder brother measures it in kulach (arm spans) and counts 10. The younger brother measures the same rope and counts 11.</p><p>Which of them made a mistake? And how could a craftsman in Osh and one in Talas, who never meet, cut ropes of exactly the same length?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подумайте над ответом. Разгадка — в конце главы.</span><span data-l="en">Think it over. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="physics">
+<h2><span data-l="ru">Что изучает физика</span><span data-l="en">What physics studies</span></h2>
+<div data-l="ru"><p>Слово «физика» происходит от греческого «фюзис» — природа. <strong>Физика</strong> — наука о самых общих свойствах и законах природы: как движутся тела, что такое тепло, свет, звук, электричество и из чего состоит вещество. Законы физики одинаковы на берегу Иссык-Куля, на вершине Хан-Тенгри и на Луне — поэтому на них опираются химия, биология, география, техника и медицина.</p><p>В физике различают три важных понятия:</p></div>
+<div data-l="en"><p>The word “physics” comes from the Greek <em>physis</em> — nature. <strong>Physics</strong> is the science of the most general properties and laws of nature: how bodies move, what heat, light, sound and electricity are, and what matter is made of. The laws of physics are the same on the shore of Issyk-Kul, on the summit of Khan Tengri and on the Moon — which is why chemistry, biology, geography, engineering and medicine all rely on them.</p><p>Physics distinguishes three key ideas:</p></div>
+<div class="cards">
+<div class="card"><b><span data-l="ru">Физическое тело</span><span data-l="en">Physical body</span></b><span data-l="ru">Любой предмет: камень, ледник, комуз, юрта, Луна.</span><span data-l="en">Any object: a stone, a glacier, a komuz, a yurt, the Moon.</span></div>
+<div class="card"><b><span data-l="ru">Вещество</span><span data-l="en">Substance</span></b><span data-l="ru">То, из чего состоят тела: лёд, вода, медь, войлок, воздух.</span><span data-l="en">What bodies are made of: ice, water, copper, felt, air.</span></div>
+<div class="card"><b><span data-l="ru">Физическое явление</span><span data-l="en">Physical phenomenon</span></b><span data-l="ru">Любое изменение, которое происходит с телами: таяние, падение, звучание, свечение.</span><span data-l="en">Any change that happens to bodies: melting, falling, sounding, glowing.</span></div>
+</div>
+<div class="definition"><strong><span data-l="ru">Пример:</span><span data-l="en">Example:</span></strong> <span data-l="ru">ледник Петрова — тело, лёд — вещество, таяние ледника летом — явление.</span><span data-l="en">the Petrov Glacier is a body, ice is a substance, the glacier melting in summer is a phenomenon.</span></div>
+<h3><span data-l="ru">Виды физических явлений — примеры из Кыргызстана</span><span data-l="en">Kinds of physical phenomena — examples from Kyrgyzstan</span></h3>
+<div class="kinds">
+<div class="kind"><small><span data-l="ru">Механические</span><span data-l="en">Mechanical</span></small><p><span data-l="ru">Скачет конь на кок-бору, катится камень по осыпи, раскачиваются качели-селкинчек.</span><span data-l="en">A horse gallops in kok-boru, a stone rolls down a scree slope, a selkinchek swing sways.</span></p></div>
+<div class="kind"><small><span data-l="ru">Тепловые</span><span data-l="en">Thermal</span></small><p><span data-l="ru">Летом тают ледники Тянь-Шаня, зимой замерзают реки, в казане закипает вода.</span><span data-l="en">Tian Shan glaciers melt in summer, rivers freeze in winter, water boils in a kazan.</span></p></div>
+<div class="kind"><small><span data-l="ru">Звуковые</span><span data-l="en">Sound</span></small><p><span data-l="ru">Звучат струны комуза, в горах слышно эхо.</span><span data-l="en">Komuz strings sound, an echo rings in the mountains.</span></p></div>
+<div class="kind"><small><span data-l="ru">Световые</span><span data-l="en">Light</span></small><p><span data-l="ru">Радуга после дождя, отражение гор в спокойной воде Иссык-Куля.</span><span data-l="en">A rainbow after rain, mountains reflected in the calm water of Issyk-Kul.</span></p></div>
+<div class="kind"><small><span data-l="ru">Электрические</span><span data-l="en">Electrical</span></small><p><span data-l="ru">Молния в грозу, ток от Токтогульской ГЭС в розетке.</span><span data-l="en">Lightning in a storm, current from the Toktogul hydropower plant in a socket.</span></p></div>
+<div class="kind"><small><span data-l="ru">Магнитные</span><span data-l="en">Magnetic</span></small><p><span data-l="ru">Стрелка компаса у туриста указывает на север.</span><span data-l="en">A hiker’s compass needle points north.</span></p></div>
+</div>
+</section>
+
+<section class="section" id="method">
+<h2><span data-l="ru">Как физики добывают знание</span><span data-l="en">How physicists gain knowledge</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Физики не просто ждут, что природа сама что-то покажет. Знание собирается по шагам:</p>
+<ol class="steps"><li><strong>Наблюдение</strong> — смотрим на явление в природе, ничего не меняя.</li><li><strong>Гипотеза</strong> — предполагаем, почему так происходит.</li><li><strong>Опыт (эксперимент)</strong> — специально создаём условия и измеряем, чтобы проверить гипотезу.</li><li><strong>Вывод и закон</strong> — если опыты раз за разом подтверждают гипотезу, она становится законом или частью теории.</li></ol></div>
+<div data-l="en"><p>Physicists do not just wait for nature to show them something. Knowledge is built in steps:</p>
+<ol class="steps"><li><strong>Observation</strong> — we watch a phenomenon in nature without changing anything.</li><li><strong>Hypothesis</strong> — we suggest why it happens.</li><li><strong>Experiment</strong> — we deliberately set up conditions and measure, to test the hypothesis.</li><li><strong>Conclusion and law</strong> — if experiments confirm the hypothesis again and again, it becomes a law or part of a theory.</li></ol></div>
+</div>
+<div class="definition">
+<div data-l="ru"><strong>Пример: чай на джайлоо.</strong><p>Наблюдение: высоко в горах вода в чайнике закипает, но чай заваривается хуже, а мясо варится дольше. Гипотеза: в горах вода кипит при более низкой температуре. Опыт: опускаем термометр в кипящую воду в Бишкеке и на перевале. На высоте около 3000 м вода кипит примерно при 90 °C, а не при 100 °C. Почему так — разберём в главе о давлении.</p></div>
+<div data-l="en"><strong>Example: tea on the jailoo.</strong><p>Observation: high in the mountains the kettle boils, yet tea brews poorly and meat takes longer to cook. Hypothesis: in the mountains water boils at a lower temperature. Experiment: put a thermometer into boiling water in Bishkek and on a mountain pass. At about 3,000 m water boils at roughly 90 °C rather than 100 °C. Why this happens is explained in the chapter on pressure.</p></div>
+</div>
+</div>
+<p><span data-l="ru">Главное отличие опыта от наблюдения: в опыте мы сами управляем условиями и почти всегда что-то <strong>измеряем</strong>. Поэтому дальше — об измерениях.</span><span data-l="en">The key difference between an experiment and an observation: in an experiment we control the conditions ourselves and almost always <strong>measure</strong> something. So next — measurement.</span></p>
+</section>
+
+<section class="section" id="quantities">
+<h2><span data-l="ru">Физические величины и единицы</span><span data-l="en">Physical quantities and units</span></h2>
+<div data-l="ru"><p><strong>Физическая величина</strong> — свойство тела или явления, которое можно измерить: длина, масса, время, температура, объём. <strong>Измерить</strong> величину — значит сравнить её с другой величиной того же рода, принятой за единицу.</p></div>
+<div data-l="en"><p>A <strong>physical quantity</strong> is a property of a body or phenomenon that can be measured: length, mass, time, temperature, volume. To <strong>measure</strong> a quantity means to compare it with a quantity of the same kind that has been chosen as the unit.</p></div>
+<div class="formula">h = 668 <span data-l="ru">м</span><span data-l="en">m</span><small><span data-l="ru">значение = число × единица · наибольшая глубина Иссык-Куля</span><span data-l="en">value = number × unit · greatest depth of Issyk-Kul</span></small></div>
+<p><span data-l="ru">Запись «668» без единицы ничего не значит: 668 метров, сантиметров или километров? Число и единицу всегда пишут вместе.</span><span data-l="en">Writing “668” without a unit means nothing: 668 metres, centimetres or kilometres? A number and its unit are always written together.</span></p>
+<h3><span data-l="ru">Международная система единиц (СИ)</span><span data-l="en">The International System of Units (SI)</span></h3>
+<p><span data-l="ru">Чтобы учёные и мастера всех стран понимали друг друга, договорились о единой системе — СИ. В ней семь основных единиц; в школьном курсе чаще всего нужны четыре:</span><span data-l="en">So that scientists and craftspeople everywhere understand one another, the world agreed on a single system — the SI. It has seven base units; school physics mostly uses four of them:</span></p>
+<table><thead><tr><th><span data-l="ru">ВЕЛИЧИНА</span><span data-l="en">QUANTITY</span></th><th><span data-l="ru">ОБОЗНАЧЕНИЕ</span><span data-l="en">SYMBOL</span></th><th><span data-l="ru">ЕДИНИЦА СИ</span><span data-l="en">SI UNIT</span></th><th><span data-l="ru">ПРИМЕР</span><span data-l="en">EXAMPLE</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Длина</span><span data-l="en">Length</span></td><td>l, s, h</td><td><span data-l="ru">метр (м)</span><span data-l="en">metre (m)</span></td><td><span data-l="ru">Пик Ленина — 7134 м</span><span data-l="en">Lenin Peak — 7,134 m</span></td></tr>
+<tr><td><span data-l="ru">Масса</span><span data-l="en">Mass</span></td><td>m</td><td><span data-l="ru">килограмм (кг)</span><span data-l="en">kilogram (kg)</span></td><td><span data-l="ru">буханка хлеба — около 0,5 кг</span><span data-l="en">a loaf of bread — about 0.5 kg</span></td></tr>
+<tr><td><span data-l="ru">Время</span><span data-l="en">Time</span></td><td>t</td><td><span data-l="ru">секунда (с)</span><span data-l="en">second (s)</span></td><td><span data-l="ru">урок — 45 мин = 2700 с</span><span data-l="en">a lesson — 45 min = 2,700 s</span></td></tr>
+<tr><td><span data-l="ru">Температура</span><span data-l="en">Temperature</span></td><td>T</td><td><span data-l="ru">кельвин (К); в быту — градус Цельсия (°C)</span><span data-l="en">kelvin (K); in daily life — degree Celsius (°C)</span></td><td><span data-l="ru">тело человека — около 36,6 °C</span><span data-l="en">human body — about 36.6 °C</span></td></tr>
+</tbody></table>
+<p class="callout"><span data-l="ru">Остальные основные единицы СИ: ампер (сила тока), моль (количество вещества), кандела (сила света).</span><span data-l="en">The other SI base units are the ampere (electric current), the mole (amount of substance) and the candela (luminous intensity).</span></p>
+<h3><span data-l="ru">Приставки: большие и маленькие числа</span><span data-l="en">Prefixes: large and small numbers</span></h3>
+<table><thead><tr><th><span data-l="ru">ПРИСТАВКА</span><span data-l="en">PREFIX</span></th><th><span data-l="ru">МНОЖИТЕЛЬ</span><span data-l="en">FACTOR</span></th><th><span data-l="ru">ПРИМЕР</span><span data-l="en">EXAMPLE</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">мега (М)</span><span data-l="en">mega (M)</span></td><td>1 000 000</td><td><span data-l="ru">мощность ГЭС — в мегаваттах (МВт)</span><span data-l="en">hydropower capacity — in megawatts (MW)</span></td></tr>
+<tr><td><span data-l="ru">кило (к)</span><span data-l="en">kilo (k)</span></td><td>1000</td><td><span data-l="ru">1 км = 1000 м · длина Иссык-Куля около 178 км</span><span data-l="en">1 km = 1,000 m · Issyk-Kul is about 178 km long</span></td></tr>
+<tr><td><span data-l="ru">санти (с)</span><span data-l="en">centi (c)</span></td><td>0,01</td><td><span data-l="ru">1 см = 0,01 м</span><span data-l="en">1 cm = 0.01 m</span></td></tr>
+<tr><td><span data-l="ru">милли (м)</span><span data-l="en">milli (m)</span></td><td>0,001</td><td><span data-l="ru">1 мм = 0,001 м · 1 мл = 0,001 л</span><span data-l="en">1 mm = 0.001 m · 1 mL = 0.001 L</span></td></tr>
+<tr><td><span data-l="ru">микро (мк)</span><span data-l="en">micro (µ)</span></td><td>0,000 001</td><td><span data-l="ru">толщина волоса — около 70 мкм</span><span data-l="en">a hair is about 70 µm thick</span></td></tr>
+</tbody></table>
+<div class="definition"><strong><span data-l="ru">Как сейчас определяют метр.</span><span data-l="en">How the metre is defined today.</span></strong> <span data-l="ru">Метр — это расстояние, которое свет проходит в вакууме за 1/299 792 458 долю секунды. Такой эталон одинаков в любой лаборатории мира, и его нельзя потерять или испортить.</span><span data-l="en">A metre is the distance light travels in a vacuum in 1/299,792,458 of a second. This standard is the same in every laboratory in the world, and it cannot be lost or damaged.</span></div>
+</section>
+
+<section class="section" id="scale">
+<h2><span data-l="ru">Шкала прибора и погрешность</span><span data-l="en">Instrument scales and uncertainty</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>У линейки, мензурки, термометра есть <strong>шкала</strong> — ряд штрихов с числами. Расстояние между соседними штрихами — <strong>деление</strong>. Чтобы читать шкалу, сначала находят <strong>цену деления</strong>: сколько единиц величины приходится на одно деление.</p></div>
+<div data-l="en"><p>A ruler, measuring cylinder or thermometer has a <strong>scale</strong> — a row of marks with numbers. The gap between neighbouring marks is a <strong>division</strong>. To read a scale, first find the <strong>scale interval</strong>: how many units correspond to one division.</p></div>
+<div class="formula">Ц = (a − b) / n<small><span data-l="ru">a и b — два соседних числа на шкале, n — число делений между ними</span><span data-l="en">a and b are two neighbouring numbered marks, n is the number of divisions between them (often written as C)</span></small></div>
+<div data-l="ru"><p>Никакой прибор не измеряет абсолютно точно. Для простых шкальных приборов в школе принимают, что <strong>погрешность измерения</strong> равна половине цены деления:</p></div>
+<div data-l="en"><p>No instrument measures perfectly. For simple scale instruments, school physics takes the <strong>measurement uncertainty</strong> to be half the scale interval:</p></div>
+<div class="formula">Δ = Ц / 2<small><span data-l="ru">результат записывают так: x = (x<sub>изм</sub> ± Δ)</span><span data-l="en">the result is written as x = (x<sub>measured</sub> ± Δ)</span></small></div>
+<div class="definition"><span data-l="ru">Например, у медицинского термометра цена деления 0,1 °C, погрешность 0,05 °C. Запись t = (36,6 ± 0,05) °C означает: настоящая температура лежит где-то между 36,55 и 36,65 °C.</span><span data-l="en">For example, a clinical thermometer has a scale interval of 0.1 °C and an uncertainty of 0.05 °C. Writing t = (36.6 ± 0.05) °C means the true temperature lies somewhere between 36.55 and 36.65 °C.</span></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · ПРОЧИТАЙ ШКАЛУ</span><span data-l="en">MODEL 1 · READ THE SCALE</span></p>
+<svg id="scaleSvg" viewBox="0 0 320 360" role="img" aria-label=""></svg>
+<p class="caption" id="scaleCaption"></p>
+<div class="controls"><label for="inC"><span data-l="ru">Цена деления</span><span data-l="en">Scale interval</span></label><input id="inC" type="number" step="any" inputmode="decimal"><span id="unitC"></span></div>
+<div class="controls"><label for="inV"><span data-l="ru">Показание</span><span data-l="en">Reading</span></label><input id="inV" type="number" step="any" inputmode="decimal"><span id="unitV"></span></div>
+<div class="controls"><button class="act" type="button" id="checkScale"><span data-l="ru">Проверить</span><span data-l="en">Check</span></button><button class="act ghost" type="button" id="showScale"><span data-l="ru">Показать решение</span><span data-l="en">Show solution</span></button><button class="act ghost" type="button" id="newScale"><span data-l="ru">Новый прибор</span><span data-l="en">New instrument</span></button></div>
+<div class="fb" id="scaleFb" aria-live="polite"></div>
+</div>
+</div>
+<p class="callout"><span data-l="ru">Как читать правильно: глаз — на уровне жидкости или кончика столбика. У воды в узкой мензурке поверхность слегка вогнута; отсчёт берут по нижнему краю этой вогнутости.</span><span data-l="en">How to read correctly: keep your eye level with the liquid or the top of the column. Water in a narrow cylinder has a slightly curved surface; read the bottom of that curve.</span></p>
+</section>
+
+<section class="section" id="rows">
+<h2><span data-l="ru">Метод рядов: как измерить очень маленькое</span><span data-l="en">The method of rows: measuring something very small</span></h2>
+<div data-l="ru"><p>Как линейкой с миллиметровыми делениями измерить горошину, проволоку или лист бумаги? Одну горошину линейка измерит грубо — погрешность 0,5 мм почти так же велика, как сама «дробная часть». Хитрость: выложить в ряд много одинаковых предметов вплотную, измерить длину всего ряда <em>L</em> и разделить на число предметов <em>N</em>. Погрешность при этом тоже делится на <em>N</em>.</p></div>
+<div data-l="en"><p>How can a ruler with millimetre divisions measure a pea, a wire or a sheet of paper? One pea gives only a rough result: the 0.5 mm uncertainty is almost as big as the fraction we want. The trick: line up many identical objects side by side, measure the whole row <em>L</em> and divide by the number of objects <em>N</em>. The uncertainty is divided by <em>N</em> as well.</p></div>
+<div class="formula">d = L / N,&nbsp;&nbsp; Δd = Δ / N</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · ГОРОШИНЫ НА ЛИНЕЙКЕ</span><span data-l="en">MODEL 2 · PEAS ON A RULER</span></p>
+<div class="scrollx"><svg id="rowSvg" viewBox="0 0 1000 170" role="img" aria-label=""></svg></div>
+<div class="controls"><label for="nRange"><span data-l="ru">Число горошин N</span><span data-l="en">Number of peas N</span>: <strong id="nOut">1</strong></label><input id="nRange" type="range" min="1" max="30" value="1"><button class="act ghost" type="button" id="newPeas"><span data-l="ru">Другие горошины</span><span data-l="en">Different peas</span></button><button class="act ghost" type="button" id="truePeas"><span data-l="ru">Узнать истинный размер</span><span data-l="en">Reveal true size</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Длина ряда L</span><span data-l="en">Row length L</span></small><strong id="lOut">—</strong></div><div class="stat"><small><span data-l="ru">Диаметр d = L / N</span><span data-l="en">Diameter d = L / N</span></small><strong id="dOut">—</strong></div><div class="stat"><small><span data-l="ru">Погрешность Δd</span><span data-l="en">Uncertainty Δd</span></small><strong id="eOut">—</strong></div></div>
+<div class="fb" id="rowFb"></div>
+</div>
+<p class="callout"><span data-l="ru">Сдвиньте ползунок от 1 до 30 и посмотрите, как сужается интервал, в котором лежит настоящий диаметр.</span><span data-l="en">Move the slider from 1 to 30 and watch the interval containing the true diameter shrink.</span></p>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Айран в мензурке</span><span data-l="en">Problem 1. Ayran in a measuring cylinder</span></summary>
+<div data-l="ru"><p>На мензурке подписаны числа 0, 50 и 100 мл. Между 0 и 50 — 10 делений. Айран стоит на 7 делений выше отметки 50. Какой объём айрана? Запишите результат с погрешностью.</p><p class="given">Дано: a = 50 мл, b = 0 мл, n = 10</p><div class="sol"><p>1) Цена деления: Ц = (50 − 0) / 10 = 5 мл.<br>2) Показание: V = 50 + 7 · 5 = 85 мл.<br>3) Погрешность: Δ = 5 / 2 = 2,5 мл.</p><p><strong>Ответ:</strong> V = (85 ± 2,5) мл.</p></div></div>
+<div data-l="en"><p>A measuring cylinder is labelled 0, 50 and 100 mL. There are 10 divisions between 0 and 50. The ayran stands 7 divisions above the 50 mark. What is its volume? Give the result with its uncertainty.</p><p class="given">Given: a = 50 mL, b = 0 mL, n = 10</p><div class="sol"><p>1) Scale interval: C = (50 − 0) / 10 = 5 mL.<br>2) Reading: V = 50 + 7 · 5 = 85 mL.<br>3) Uncertainty: Δ = 5 / 2 = 2.5 mL.</p><p><strong>Answer:</strong> V = (85 ± 2.5) mL.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. От Иссык-Куля до вершины Пика Ленина</span><span data-l="en">Problem 2. From Issyk-Kul to the top of Lenin Peak</span></summary>
+<div data-l="ru"><p>Вершина Пика Ленина находится на высоте 7,134 км над уровнем моря, поверхность Иссык-Куля — на высоте 1607 м. На сколько метров вершина выше поверхности озера?</p><p class="given">Дано: h₁ = 7,134 км, h₂ = 1607 м</p><div class="sol"><p>Вычитать можно только величины в одинаковых единицах. Переводим: h₁ = 7,134 · 1000 м = 7134 м.<br>Разность: Δh = 7134 м − 1607 м = 5527 м ≈ 5,5 км.</p><p><strong>Ответ:</strong> на 5527 м. Ошибка «7,134 − 1607» — самая частая: сначала приведите единицы!</p></div></div>
+<div data-l="en"><p>The summit of Lenin Peak is 7.134 km above sea level; the surface of Issyk-Kul is at 1,607 m. How many metres higher is the summit than the lake surface?</p><p class="given">Given: h₁ = 7.134 km, h₂ = 1,607 m</p><div class="sol"><p>Only quantities in the same units can be subtracted. Convert: h₁ = 7.134 · 1,000 m = 7,134 m.<br>Difference: Δh = 7,134 m − 1,607 m = 5,527 m ≈ 5.5 km.</p><p><strong>Answer:</strong> 5,527 m. Computing “7.134 − 1,607” is the most common mistake — convert units first!</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Толщина листа учебника</span><span data-l="en">Problem 3. The thickness of a textbook page</span></summary>
+<div data-l="ru"><p>Без обложки учебник толщиной 18 мм, в нём 300 страниц. Какова толщина одного листа?</p><p class="given">Дано: L = 18 мм, 300 страниц</p><div class="sol"><p>Ловушка: у каждого листа две страницы, значит листов N = 300 / 2 = 150.<br>Толщина листа: d = L / N = 18 мм / 150 = 0,12 мм.<br>Если толщину книги измерили с погрешностью 0,5 мм, то Δd = 0,5 / 150 ≈ 0,003 мм.</p><p><strong>Ответ:</strong> около 0,12 мм — это метод рядов.</p></div></div>
+<div data-l="en"><p>Without its cover a textbook is 18 mm thick and has 300 pages. How thick is one sheet?</p><p class="given">Given: L = 18 mm, 300 pages</p><div class="sol"><p>The trap: each sheet has two pages, so the number of sheets is N = 300 / 2 = 150.<br>Sheet thickness: d = L / N = 18 mm / 150 = 0.12 mm.<br>If the book was measured to within 0.5 mm, then Δd = 0.5 / 150 ≈ 0.003 mm.</p><p><strong>Answer:</strong> about 0.12 mm — this is the method of rows.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Шаги до школы</span><span data-l="en">Problem 4. Steps to school</span></summary>
+<div data-l="ru"><p>Нурбек прошёл вдоль края стадиона 50 шагов и рулеткой измерил, что это 32 м. От дома до школы у него 1200 шагов. Какое это расстояние?</p><p class="given">Дано: 50 шагов = 32 м, N = 1200 шагов</p><div class="sol"><p>Сначала узнаём длину своего шага — «настраиваем» шаг по метру: l = 32 м / 50 = 0,64 м.<br>Расстояние: s = 1200 · 0,64 м = 768 м ≈ 0,77 км.</p><p><strong>Ответ:</strong> около 770 м. Шаг у каждого свой, поэтому без сравнения с метром ответ был бы непонятен другим людям — как в загадке про кулачи.</p></div></div>
+<div data-l="en"><p>Nurbek walked 50 steps along the edge of a stadium and measured the distance with a tape: 32 m. From home to school he takes 1,200 steps. How far is it?</p><p class="given">Given: 50 steps = 32 m, N = 1,200 steps</p><div class="sol"><p>First find the length of one step — calibrate the step against the metre: l = 32 m / 50 = 0.64 m.<br>Distance: s = 1,200 · 0.64 m = 768 m ≈ 0.77 km.</p><p><strong>Answer:</strong> about 770 m. Everyone’s step is different, so without comparing it to the metre the answer would mean little to anyone else — just like the kulach puzzle.</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение, почему он верный или неверный.</span><span data-l="en">Pick an answer — an explanation of why it is right or wrong appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: кто ошибся с арканом?</span><span data-l="en">The answer: who got the rope wrong?</span></h2>
+<div data-l="ru"><p>Никто. Оба брата измерили верно, но разными единицами: размах рук у старшего больше, поэтому его кулачей уложилось меньше. Кулач, карыш (пядь) и шаг удобны — они всегда при себе, — но у каждого человека свои.</p><p>Чтобы мастера в Оше и Таласе отрезали одинаковую верёвку, им нужна <strong>общая единица</strong>, одинаковая для всех, — метр — и прибор, сверенный с эталоном, например рулетка. Именно для этого люди договорились о Международной системе единиц.</p></div>
+<div data-l="en"><p>Neither. Both brothers measured correctly but with different units: the elder brother’s arm span is longer, so fewer of his kulach fit along the rope. The kulach, the karysh (hand span) and the step are handy — you always have them with you — but they differ from person to person.</p><p>For craftsmen in Osh and Talas to cut identical ropes, they need a <strong>common unit</strong> that is the same for everyone — the metre — and an instrument checked against the standard, such as a tape measure. That is exactly why the world agreed on the International System of Units.</p></div>
+</section>
+
+<section class="section">
+<div class="nav"><a href="../index.html">← <span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 02 · Строение вещества — скоро</span><span data-l="en">Chapter 02 · Structure of matter — coming soon</span> →</span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 01</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 01</span></span><span>ATLAS OF KNOWLEDGE · RU / EN</span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const T={
+ru:{cyl:"МЕНЗУРКА",therm:"ТЕРМОМЕТР",ml:"мл",deg:"°C",scaleLabel:"Шкала измерительного прибора с отметками и уровнем",
+needBoth:"Введите цену деления и показание.",cWrong:c=>"Цена деления найдена неверно. Возьмите два соседних числа, вычтите меньшее из большего и разделите на число делений между ними.",
+vWrong:"Цена деления верна, а показание — нет. Посчитайте, на сколько делений уровень выше ближайшего числа снизу.",
+ok:(v,d,u)=>"Верно! Результат: ("+v+" ± "+d+") "+u+".",
+sol:(a,b,n,c,base,k,v,d,u)=>"Соседние числа "+b+" и "+a+", делений между ними: "+n+". Ц = ("+a+" − "+b+") / "+n+" = "+c+" "+u+". Уровень выше числа "+base+" на "+k+" дел.: "+base+" + "+k+" · "+c+" = "+v+" "+u+". Погрешность Δ = "+d+" "+u+".",
+row:"Ряд горошин на линейке с миллиметровыми делениями",mm:"мм",
+rowNote:(lo,hi)=>"Настоящий диаметр лежит между "+lo+" и "+hi+" мм.",
+truth:d=>"Истинный диаметр этих горошин: "+d+" мм. Сравните с результатом при N = 1 и при N = 30.",
+score:(s,n)=>"Результат: "+s+" из "+n},
+en:{cyl:"MEASURING CYLINDER",therm:"THERMOMETER",ml:"mL",deg:"°C",scaleLabel:"Instrument scale with marks and a level",
+needBoth:"Enter both the scale interval and the reading.",cWrong:c=>"The scale interval is wrong. Take two neighbouring numbers, subtract the smaller from the larger and divide by the number of divisions between them.",
+vWrong:"The scale interval is right but the reading is not. Count how many divisions the level is above the nearest number below it.",
+ok:(v,d,u)=>"Correct! Result: ("+v+" ± "+d+") "+u+".",
+sol:(a,b,n,c,base,k,v,d,u)=>"Numbers "+b+" and "+a+" with "+n+" divisions between them: C = ("+a+" − "+b+") / "+n+" = "+c+" "+u+". The level is "+k+" divisions above "+base+": "+base+" + "+k+" · "+c+" = "+v+" "+u+". Uncertainty Δ = "+d+" "+u+".",
+row:"A row of peas on a ruler with millimetre divisions",mm:"mm",
+rowNote:(lo,hi)=>"The true diameter lies between "+lo+" and "+hi+" mm.",
+truth:d=>"The true diameter of these peas: "+d+" mm. Compare it with your result at N = 1 and at N = 30.",
+score:(s,n)=>"Score: "+s+" of "+n}};
+function fmt(x,dp){let s=(Math.round(x*Math.pow(10,dp))/Math.pow(10,dp)).toFixed(dp);s=s.replace(/\.?0+$/,"");if(s==="-0")s="0";return lang==="ru"?s.replace(".",","):s}
+function num(str){return parseFloat(String(str).replace(",","."))}
+
+/* ---------- Model 1: scale reading ---------- */
+const presets=[
+ {type:"cyl",min:0,max:100,major:20,n:10},{type:"cyl",min:0,max:200,major:50,n:5},{type:"cyl",min:0,max:50,major:10,n:5},{type:"cyl",min:0,max:250,major:50,n:10},
+ {type:"therm",min:-20,max:40,major:10,n:5},{type:"therm",min:-30,max:50,major:10,n:10},{type:"therm",min:0,max:100,major:20,n:4}];
+let cur=null,pi=-1;
+function newScale(){let i;do{i=Math.floor(Math.random()*presets.length)}while(i===pi);pi=i;const p=presets[i];const c=p.major/p.n;const steps=Math.round((p.max-p.min)/c);let k;do{k=Math.round(steps*(0.12+Math.random()*0.76))}while(k%p.n===0);cur={p:p,c:c,v:p.min+k*c};$("inC").value="";$("inV").value="";$("scaleFb").textContent="";$("scaleFb").className="fb";drawScale()}
+function drawScale(){const p=cur.p,svg=$("scaleSvg"),top=30,bot=330,range=p.max-p.min,y=v=>bot-(v-p.min)/range*(bot-top);let s="";const unit=p.type==="cyl"?T[lang].ml:T[lang].deg;
+ if(p.type==="cyl"){s+='<path d="M120 18 L120 340 Q120 348 128 348 L192 348 Q200 348 200 340 L200 18" fill="#fff" stroke="#9a9a94" stroke-width="2"/>';const yl=y(cur.v);s+='<path d="M121 '+(yl-3)+' Q160 '+(yl+5)+' 199 '+(yl-3)+' L199 340 Q199 347 192 347 L128 347 Q121 347 121 340 Z" fill="var(--water)" opacity=".75"/>'}
+ else{s+='<rect x="146" y="14" width="28" height="326" rx="14" fill="#fff" stroke="#9a9a94" stroke-width="2"/><circle cx="160" cy="342" r="15" fill="#c85a46" stroke="#9a9a94" stroke-width="2"/>';s+='<rect x="155" y="'+y(cur.v)+'" width="10" height="'+(338-y(cur.v))+'" fill="#c85a46"/>'}
+ const steps=Math.round(range/cur.c);const xr=p.type==="cyl"?120:146;
+ for(let j=0;j<=steps;j++){const v=p.min+j*cur.c,yy=y(v).toFixed(1),maj=j%p.n===0;s+='<line x1="'+xr+'" y1="'+yy+'" x2="'+(xr-(maj?22:11))+'" y2="'+yy+'" stroke="#18181a" stroke-width="'+(maj?1.6:1)+'"/>';if(maj)s+='<text x="'+(xr-28)+'" y="'+(+yy+4)+'" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="12" fill="#18181a">'+fmt(v,2)+'</text>'}
+ s+='<text x="'+(xr+(p.type==="cyl"?96:44))+'" y="30" font-family="JetBrains Mono,monospace" font-size="12" fill="#66666b">'+unit+'</text>';
+ svg.innerHTML=s;svg.setAttribute("aria-label",T[lang].scaleLabel);$("scaleCaption").textContent=p.type==="cyl"?T[lang].cyl:T[lang].therm;$("unitC").textContent=unit;$("unitV").textContent=unit}
+function unitNow(){return cur.p.type==="cyl"?T[lang].ml:T[lang].deg}
+$("checkScale").addEventListener("click",()=>{const c=num($("inC").value),v=num($("inV").value),fb=$("scaleFb");if(isNaN(c)||isNaN(v)){fb.textContent=T[lang].needBoth;fb.className="fb bad";return}
+ if(Math.abs(c-cur.c)>1e-9){fb.textContent=T[lang].cWrong();fb.className="fb bad";return}
+ if(Math.abs(v-cur.v)>cur.c/2+1e-9){fb.textContent=T[lang].vWrong;fb.className="fb bad";return}
+ fb.textContent=T[lang].ok(fmt(cur.v,2),fmt(cur.c/2,2),unitNow());fb.className="fb ok"});
+$("showScale").addEventListener("click",()=>{const p=cur.p,k0=Math.round((cur.v-p.min)/cur.c),base=p.min+Math.floor(k0/p.n)*p.major,k=k0%p.n;const a=p.min+p.major,b=p.min;$("scaleFb").textContent=T[lang].sol(fmt(a,2),b<0?"("+fmt(b,2)+")":fmt(b,2),p.n,fmt(cur.c,2),fmt(base,2),k,fmt(cur.v,2),fmt(cur.c/2,2),unitNow());$("scaleFb").className="fb"});
+$("newScale").addEventListener("click",newScale);
+
+/* ---------- Model 2: method of rows ---------- */
+let trueD=6.3;
+function newPeas(){trueD=Math.round((5+Math.random()*3)*10)/10;$("rowFb").textContent="";drawRow()}
+function drawRow(){const N=+$("nRange").value,px=3.6,x0=40,svg=$("rowSvg");$("nOut").textContent=N;let s="";const r=trueD/2*px;
+ for(let i=0;i<N;i++){const cx=x0+(i+0.5)*trueD*px;s+='<circle cx="'+cx.toFixed(1)+'" cy="'+(70-r).toFixed(1)+'" r="'+r.toFixed(1)+'" fill="#9cbf6e" stroke="#5f7f3c" stroke-width="1"/>'}
+ s+='<rect x="20" y="72" width="960" height="70" fill="#efe6cf" stroke="#b9ab84"/>';
+ for(let mm=0;mm<=250;mm++){const x=x0+mm*px,h=mm%10===0?24:(mm%5===0?16:9);s+='<line x1="'+x.toFixed(1)+'" y1="72" x2="'+x.toFixed(1)+'" y2="'+(72+h)+'" stroke="#5a5240" stroke-width="'+(mm%10===0?1.3:.7)+'"/>';if(mm%10===0)s+='<text x="'+x.toFixed(1)+'" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="13" fill="#3a3528">'+(mm/10)+'</text>'}
+ s+='<text x="970" y="136" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="12" fill="#3a3528">'+(lang==="ru"?"см":"cm")+'</text>';
+ const L=Math.round(N*trueD);const xe=x0+L*px;s+='<line x1="'+x0+'" y1="160" x2="'+xe.toFixed(1)+'" y2="160" stroke="#b6533f" stroke-width="2"/><line x1="'+x0+'" y1="152" x2="'+x0+'" y2="168" stroke="#b6533f" stroke-width="2"/><line x1="'+xe.toFixed(1)+'" y1="152" x2="'+xe.toFixed(1)+'" y2="168" stroke="#b6533f" stroke-width="2"/>';
+ svg.innerHTML=s;svg.setAttribute("aria-label",T[lang].row);
+ const d=L/N,e=0.5/N,mm=" "+T[lang].mm;$("lOut").textContent=L+" ± "+fmt(0.5,1)+mm;$("dOut").textContent=fmt(d,3)+mm;$("eOut").textContent="± "+fmt(e,3)+mm;
+ if(!$("rowFb").dataset.truth)$("rowFb").textContent=T[lang].rowNote(fmt(d-e,3),fmt(d+e,3));else $("rowFb").textContent=T[lang].truth(fmt(trueD,1))}
+$("nRange").addEventListener("input",()=>{delete $("rowFb").dataset.truth;drawRow()});
+$("newPeas").addEventListener("click",()=>{delete $("rowFb").dataset.truth;newPeas()});
+$("truePeas").addEventListener("click",()=>{$("rowFb").dataset.truth="1";drawRow()});
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Что из перечисленного — физическое явление?",o:[["Комуз","Комуз — это физическое тело, предмет. Явление — то, что с ним происходит."],["Звучание струны комуза","Верно. Струна колеблется и издаёт звук — это звуковое явление."],["Медь, из которой сделаны струны","Медь — вещество, материал тела, а не явление."]]},
+ en:{q:"Which of these is a physical phenomenon?",o:[["A komuz","A komuz is a physical body, an object. A phenomenon is what happens to it."],["A komuz string sounding","Correct. The string vibrates and makes sound — a sound phenomenon."],["The copper the strings are made of","Copper is a substance, the material of a body, not a phenomenon."]]},a:1},
+{ru:{q:"Ледник, лёд, таяние. Что из этого — вещество?",o:[["Ледник","Ледник — тело: у него есть форма, размеры, место на карте."],["Лёд","Верно. Лёд — вещество, из него состоит ледник."],["Таяние","Таяние — явление: переход льда в воду."]]},
+ en:{q:"Glacier, ice, melting. Which one is a substance?",o:[["Glacier","A glacier is a body: it has a shape, a size and a place on the map."],["Ice","Correct. Ice is the substance the glacier is made of."],["Melting","Melting is a phenomenon: ice turning into water."]]},a:1},
+{ru:{q:"Айгерим ставит на плиту две одинаковые кастрюли с водой — с крышкой и без — и засекает, какая закипит раньше. Что она делает?",o:[["Наблюдение","В наблюдении условия не меняют. Айгерим сама создаёт разные условия — это больше, чем наблюдение."],["Опыт (эксперимент)","Верно. Она специально меняет одно условие (крышку) и измеряет время — это опыт."],["Выдвигает гипотезу","Гипотеза — предположение («с крышкой закипит быстрее»). Проверка гипотезы — это опыт."]]},
+ en:{q:"Aigerim puts two identical pots of water on the stove — one with a lid, one without — and times which boils first. What is she doing?",o:[["Observing","In an observation the conditions are not changed. Aigerim sets them up herself — that is more than observing."],["Doing an experiment","Correct. She deliberately changes one condition (the lid) and measures time — that is an experiment."],["Making a hypothesis","A hypothesis is a guess (“the lidded pot will boil faster”). Testing a guess is an experiment."]]},a:1},
+{ru:{q:"На мензурке числа 20 и 40 мл, между ними 10 делений. Цена деления?",o:[["20 мл","20 мл — это разность чисел, её ещё нужно разделить на число делений."],["2 мл","Верно: Ц = (40 − 20) / 10 = 2 мл."],["4 мл","Так получилось бы при 5 делениях. Здесь их 10."]]},
+ en:{q:"A cylinder is labelled 20 and 40 mL with 10 divisions between them. What is the scale interval?",o:[["20 mL","20 mL is the difference of the numbers; it still has to be divided by the number of divisions."],["2 mL","Correct: C = (40 − 20) / 10 = 2 mL."],["4 mL","That would be the case with 5 divisions. Here there are 10."]]},a:1},
+{ru:{q:"Высота Пика Ленина 7134 м. Сколько это километров?",o:[["7,134 км","Верно. В 1 км 1000 м, поэтому делим на 1000."],["71,34 км","Разделили на 100 — так переводят сантиметры в метры, а не метры в километры."],["7 134 000 км","Умножили вместо деления: километр больше метра, значит число километров меньше."]]},
+ en:{q:"Lenin Peak is 7,134 m high. How many kilometres is that?",o:[["7.134 km","Correct. 1 km = 1,000 m, so divide by 1,000."],["71.34 km","That divides by 100 — the step from centimetres to metres, not from metres to kilometres."],["7,134,000 km","That multiplies instead of dividing: a kilometre is bigger than a metre, so the number of kilometres is smaller."]]},a:0},
+{ru:{q:"Цена деления термометра 1 °C, столбик стоит ровно на 23. Как правильно записать результат?",o:[["23 °C","Не хватает погрешности: по такой записи не видно, насколько можно доверять числу."],["(23 ± 1) °C","Погрешность в школе берут как половину цены деления, а не целую."],["(23 ± 0,5) °C","Верно: Δ = Ц / 2 = 0,5 °C."]]},
+ en:{q:"A thermometer has a scale interval of 1 °C and the column is exactly at 23. How should the result be written?",o:[["23 °C","The uncertainty is missing: the record doesn’t show how far the number can be trusted."],["(23 ± 1) °C","At school the uncertainty is half the scale interval, not the whole interval."],["(23 ± 0.5) °C","Correct: Δ = C / 2 = 0.5 °C."]]},a:2},
+{ru:{q:"Почему метод рядов даёт более точный размер одной горошины?",o:[["Потому что горошины в ряду сжимаются","Горошины не меняются; меняется только то, как мы делим погрешность."],["Погрешность линейки делится на число горошин","Верно. Ошибка в 0,5 мм приходится на весь ряд, а на одну горошину — в N раз меньше."],["Потому что длинный ряд легче увидеть","Дело не в удобстве, а в том, что Δd = Δ / N."]]},
+ en:{q:"Why does the method of rows give a more precise size for one pea?",o:[["Because the peas squeeze together in the row","The peas don’t change; only the way the uncertainty is shared changes."],["The ruler’s uncertainty is divided by the number of peas","Correct. The 0.5 mm error belongs to the whole row, so for one pea it is N times smaller."],["Because a long row is easier to see","It is not about convenience: Δd = Δ / N."]]},a:1}];
+let answers={};const ORD=[[0,1,2],[1,0,2],[0,2,1],[2,0,1],[1,0,2],[0,2,1],[1,2,0]];
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";div.innerHTML='<h3>'+(i+1)+'. '+d.q+'</h3>';ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;renderQuiz()});div.appendChild(b)});if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+(lang==="ru"?"Правильный ответ: ":"Right answer: ")+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Что изучает физика. Измерения — Атлас физики":"What physics studies. Measurement — Atlas of Physics";drawScale();$("scaleFb").textContent="";$("scaleFb").className="fb";drawRow();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+newScale();newPeas();apply();
+})();
+</script>
+</body></html>
