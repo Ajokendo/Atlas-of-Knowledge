@@ -1293,13 +1293,13 @@ if (coreDiagramHints !== 19) {
 
 
 const faunaPage = fs.readFileSync(path.join(root, "chapters/fauna-kyrgyzstan.html"), "utf8");
-const chuyGalleries = [...faunaPage.matchAll(/<div\\b([^>]*\\bregional-figure__media--gallery\\b[^>]*)>([\\s\\S]*?)<\\/div>/gi)];
+const chuyGalleries = [...faunaPage.matchAll(/<div\b([^>]*\bregional-figure__media--gallery\b[^>]*)>([\s\S]*?)<\/div>/gi)];
 if (chuyGalleries.length !== 2) {
   errors.push("Chüy fauna page must retain two responsive photo galleries");
 } else {
   const expectedImageCounts = [2, 4];
   chuyGalleries.forEach((gallery, index) => {
-    const imageCount = [...gallery[2].matchAll(/<img\\b/gi)].length;
+    const imageCount = [...gallery[2].matchAll(/<img\b/gi)].length;
     if (imageCount !== expectedImageCounts[index]) {
       errors.push("Chüy photo gallery " + (index + 1) + " must retain " + expectedImageCounts[index] + " images; found " + imageCount);
     }
