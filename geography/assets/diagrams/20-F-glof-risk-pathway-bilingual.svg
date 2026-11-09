@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Путь риска прорыва ледникового озера / Glacial-lake outburst risk pathway</title>
+<desc id="desc">Концептуальная схема моренного озера, естественной плотины, возможного пути паводковой волны, конуса выноса и объектов ниже по течению. Показывает опасность, экспозицию и уязвимость отдельно; не является картой риска конкретного озера. / Conceptual diagram of a moraine-dammed lake, natural dam, possible flood-wave path, alluvial fan and downstream assets. Hazard, exposure and vulnerability are shown separately; this is not a risk map for a specific lake.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:20px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.rock{fill:#d8d0c2;stroke:#827867;stroke-width:4}.water{fill:#7bc5e4;stroke:#277da5;stroke-width:3}.flow{stroke:#d04f36;stroke-width:8;fill:none;stroke-dasharray:14 8}.box{fill:#f7fafb;stroke:#6c8794;stroke-width:2}</style>
+<rect width="1200" height="720" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Прорыв ледникового озера: путь риска / Glacial-lake outburst: risk pathway</text>
+<path class="rock" d="M40 430 L170 300 L300 235 L410 300 L520 420 L620 455 L720 485 L850 510 L1000 535 L1160 555 L1160 620 L40 620Z"/>
+<path class="water" d="M220 300 Q300 245 390 310 L470 390 L330 390 Q260 370 220 300Z"/>
+<path d="M450 380 L520 420 L575 438 L600 420 L620 455" fill="#9a805c" stroke="#725b3f" stroke-width="5"/>
+<path class="flow" d="M620 445 Q690 480 770 500 T930 535"/>
+<path d="M920 530 Q1000 500 1110 560 L1150 600 L900 600Z" fill="#d6c19c" stroke="#a18760" stroke-width="3"/>
+<g transform="translate(955 455)"><rect x="0" y="0" width="32" height="45" fill="#c66b4a"/><path d="M-5 0 L16 -18 L37 0Z" fill="#9b4938"/><rect x="50" y="12" width="32" height="33" fill="#d4a14d"/><path d="M45 12 L66 -5 L87 12Z" fill="#8e6a39"/></g>
+<g><rect x="60" y="115" width="250" height="80" rx="14" class="box"/><text x="185" y="148" text-anchor="middle" class="t">Опасность / Hazard</text><text x="185" y="177" text-anchor="middle" class="s">Dam failure and flood wave</text>
+<rect x="430" y="115" width="250" height="80" rx="14" class="box"/><text x="555" y="148" text-anchor="middle" class="t">Путь потока / Flow path</text><text x="555" y="177" text-anchor="middle" class="s">Valley and channel</text>
+<rect x="800" y="115" width="330" height="80" rx="14" class="box"/><text x="965" y="148" text-anchor="middle" class="t">Экспозиция и уязвимость</text><text x="965" y="177" text-anchor="middle" class="s">Exposure and vulnerability</text></g>
+<text x="300" y="245" class="t">Озеро / Lake</text><text x="500" y="350" class="t">Моренная плотина / Moraine dam</text><text x="705" y="465" class="t">Возможная волна / Potential flood wave</text><text x="960" y="635" class="s">Поселения и дороги ниже по течению / Downstream settlements and roads</text>
+<text x="600" y="685" text-anchor="middle" class="s">Для оценки конкретного озера нужны обследование плотины, моделирование потока и данные об объектах. / A specific assessment requires dam surveys, flow modelling and asset data.</text>
+</svg>

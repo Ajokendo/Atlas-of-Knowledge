@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Цифровая модель рельефа, уклон и экспозиция / Digital elevation model, slope and aspect</title>
+<desc id="desc">Три учебные панели показывают условную модель высот, карту крутизны склонов и карту направлений склонов. Цвета условны; точность зависит от исходного DEM / Three educational panels show a conceptual elevation model, slope map and aspect map. Colours are illustrative; accuracy depends on the source DEM.</desc>
+<rect width="1200" height="720" fill="#f7f8fa"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#172b4d">Цифровая модель рельефа и производные карты</text>
+<text x="600" y="79" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#425466">Digital elevation model and derived terrain maps</text>
+<g font-family="Arial,sans-serif">
+<rect x="35" y="112" width="360" height="480" rx="16" fill="#fff" stroke="#c7d0da" stroke-width="2"/>
+<rect x="420" y="112" width="360" height="480" rx="16" fill="#fff" stroke="#c7d0da" stroke-width="2"/>
+<rect x="805" y="112" width="360" height="480" rx="16" fill="#fff" stroke="#c7d0da" stroke-width="2"/>
+<text x="215" y="151" text-anchor="middle" font-size="22" font-weight="700" fill="#172b4d">Высота / Elevation</text>
+<text x="600" y="151" text-anchor="middle" font-size="22" font-weight="700" fill="#172b4d">Уклон / Slope</text>
+<text x="985" y="151" text-anchor="middle" font-size="22" font-weight="700" fill="#172b4d">Экспозиция / Aspect</text>
+<defs>
+<linearGradient id="elev" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#285b45"/><stop offset=".45" stop-color="#83a96b"/><stop offset=".72" stop-color="#d4bd82"/><stop offset="1" stop-color="#f4f2e9"/></linearGradient>
+<linearGradient id="slope" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#e8e6b7"/><stop offset=".45" stop-color="#e9a34d"/><stop offset="1" stop-color="#a63e35"/></linearGradient>
+<linearGradient id="aspect" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3979a8"/><stop offset=".25" stop-color="#83b7a5"/><stop offset=".5" stop-color="#e2c56b"/><stop offset=".75" stop-color="#d17b55"/><stop offset="1" stop-color="#8065a8"/></linearGradient>
+</defs>
+<g transform="translate(60 180)">
+<rect width="310" height="260" fill="url(#elev)"/>
+<path d="M0 205 Q65 155 110 175 T210 115 T310 80 L310 260 L0 260Z" fill="#456f4c" opacity=".55"/>
+<path d="M0 155 Q70 115 125 145 T220 85 T310 48" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
+<path d="M0 180 Q70 140 125 170 T220 110 T310 73" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
+<path d="M0 125 Q70 85 125 115 T220 55 T310 18" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
+<path d="M0 95 Q70 55 125 85 T220 25 T310 -12" fill="none" stroke="#fff" stroke-width="2" opacity=".85"/>
+<text x="155" y="290" text-anchor="middle" font-size="17" fill="#425466">Значение ячейки — высота</text>
+<text x="155" y="313" text-anchor="middle" font-size="17" fill="#425466">Cell value — elevation</text>
+</g>
+<g transform="translate(445 180)">
+<rect width="310" height="260" fill="url(#slope)"/>
+<path d="M0 205 Q65 155 110 175 T210 115 T310 80 L310 260 L0 260Z" fill="#a63e35" opacity=".3"/>
+<path d="M0 155 Q70 115 125 145 T220 85 T310 48" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+<path d="M0 180 Q70 140 125 170 T220 110 T310 73" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+<text x="155" y="290" text-anchor="middle" font-size="17" fill="#425466">Крутизна поверхности</text>
+<text x="155" y="313" text-anchor="middle" font-size="17" fill="#425466">Steepness of the surface</text>
+</g>
+<g transform="translate(830 180)">
+<rect width="310" height="260" fill="url(#aspect)"/>
+<path d="M0 205 Q65 155 110 175 T210 115 T310 80 L310 260 L0 260Z" fill="#fff" opacity=".12"/>
+<path d="M0 155 Q70 115 125 145 T220 85 T310 48" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+<path d="M0 180 Q70 140 125 170 T220 110 T310 73" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+<text x="155" y="290" text-anchor="middle" font-size="17" fill="#425466">Направление склона</text>
+<text x="155" y="313" text-anchor="middle" font-size="17" fill="#425466">Compass direction of slope</text>
+</g>
+<text x="600" y="535" text-anchor="middle" font-size="18" font-weight="700" fill="#172b4d">Производные вычисляются из исходной модели высот</text>
+<text x="600" y="562" text-anchor="middle" font-size="17" fill="#425466">Derived layers are calculated from the source elevation model</text>
+<text x="600" y="635" text-anchor="middle" font-size="16" fill="#6b7785">Схема условная: цветовые шкалы и форма рельефа не являются измеренными данными.</text>
+<text x="600" y="660" text-anchor="middle" font-size="16" fill="#6b7785">Conceptual illustration: colours and terrain shape are not measured data.</text>
+</g></svg>

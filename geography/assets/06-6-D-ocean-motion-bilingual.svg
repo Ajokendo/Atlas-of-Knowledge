@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Волны, приливы и океанические течения / Waves, tides and ocean currents</title>
+<desc id="desc">Три учебные панели: ветровая волна с орбитальным движением частиц воды; приливное поднятие уровня моря под действием Луны и Солнца; поверхностное ветровое и глубинное плотностное течение. Схема качественная, не в масштабе.</desc>
+<rect width="1200" height="820" fill="#f7fbff"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#15324b">Волны, приливы и океанические течения</text>
+<text x="600" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#31556e">Waves, tides and ocean currents</text>
+<!-- panels -->
+<g fill="#ffffff" stroke="#9bb8ca" stroke-width="2">
+<rect x="35" y="105" width="1130" height="205" rx="18"/>
+<rect x="35" y="325" width="1130" height="205" rx="18"/>
+<rect x="35" y="545" width="1130" height="240" rx="18"/>
+</g>
+<!-- panel 1 -->
+<text x="65" y="143" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#15324b">1. Ветровые волны / Wind waves</text>
+<path d="M75 220 Q125 170 175 220 T275 220 T375 220 T475 220 T575 220 T675 220 T775 220 T875 220 T975 220 T1075 220" fill="none" stroke="#1677a8" stroke-width="5"/>
+<path d="M75 225 L75 275 L1100 275 L1100 225" fill="#d9eff8" stroke="none"/>
+<path d="M75 225 Q125 175 175 225 T275 225 T375 225 T475 225 T575 225 T675 225 T775 225 T875 225 T975 225 T1075 225" fill="none" stroke="#1677a8" stroke-width="4"/>
+<g fill="none" stroke="#d97706" stroke-width="3">
+<path d="M190 190 C220 155 265 165 265 200 C265 225 235 235 215 215" />
+<path d="M185 205 l28 10 -5 -28"/>
+<path d="M390 190 C420 155 465 165 465 200 C465 225 435 235 415 215"/>
+<path d="M385 205 l28 10 -5 -28"/>
+</g>
+<path d="M800 164 l120 0" stroke="#d97706" stroke-width="4"/><path d="M905 154 l15 10 -15 10" fill="none" stroke="#d97706" stroke-width="4"/>
+<text x="860" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#8a4b08">ветер / wind</text>
+<text x="600" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#31556e">Энергия распространяется; частицы воды движутся по орбитам / Energy travels; water particles move in orbits</text>
+<!-- panel 2 -->
+<text x="65" y="363" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#15324b">2. Приливы / Tides</text>
+<circle cx="270" cy="438" r="45" fill="#2f83b8"/><path d="M228 432 Q270 402 312 432" fill="none" stroke="#ffffff" stroke-width="4"/>
+<ellipse cx="270" cy="438" rx="125" ry="66" fill="none" stroke="#1677a8" stroke-width="3" stroke-dasharray="7 6"/>
+<circle cx="425" cy="438" r="24" fill="#b7c7d3" stroke="#607d8b" stroke-width="2"/>
+<path d="M315 438 H392" stroke="#d97706" stroke-width="3"/><path d="M380 428 l12 10 -12 10" fill="none" stroke="#d97706" stroke-width="3"/>
+<text x="425" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#31556e">Луна / Moon</text>
+<text x="270" y="520" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#31556e">Земля / Earth</text>
+<circle cx="780" cy="438" r="52" fill="#e9a23b"/><g stroke="#e9a23b" stroke-width="4"><path d="M780 365 v-18 M780 529 v-18 M707 438 h-18 M871 438 h-18 M728 386 l-13 -13 M845 503 l-13 -13 M832 386 l13 -13 M715 503 l13 -13"/></g>
+<text x="780" y="443" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#54370b">Солнце</text>
+<text x="780" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#54370b">Sun</text>
+<text x="1010" y="416" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#15324b">Сизигийные</text>
+<text x="1010" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#15324b">приливы</text>
+<text x="1010" y="466" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#31556e">Spring tides</text>
+<text x="1010" y="492" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#31556e">Новолуние / полнолуние</text>
+<!-- panel 3 -->
+<text x="65" y="583" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#15324b">3. Поверхностные и глубинные течения / Surface and deep currents</text>
+<path d="M85 650 H1110" stroke="#1677a8" stroke-width="4"/>
+<path d="M85 650 Q140 610 195 650 T305 650 T415 650 T525 650 T635 650 T745 650 T855 650 T965 650 T1075 650" fill="none" stroke="#1677a8" stroke-width="3"/>
+<path d="M180 625 H450" stroke="#d97706" stroke-width="5"/><path d="M435 613 l18 12 -18 12" fill="none" stroke="#d97706" stroke-width="5"/>
+<text x="315" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#8a4b08">ветер / wind</text>
+<path d="M1030 680 C850 735 380 735 180 680" fill="none" stroke="#7c5aa6" stroke-width="5"/><path d="M195 668 l-18 12 20 7" fill="none" stroke="#7c5aa6" stroke-width="5"/>
+<text x="600" y="754" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#65418b">Глубинный возвратный поток / Deep return flow</text>
+<text x="600" y="675" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#31556e">Поверхностный поток / Surface flow</text>
+<text x="600" y="775" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#526b7c">Упрощённая учебная схема; не показывает реальные маршруты и масштабы / Simplified teaching schematic; not actual routes or scale</text>
+</svg>

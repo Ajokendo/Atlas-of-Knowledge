@@ -1,0 +1,35 @@
+name: Geography Chapter 02 image integrity
+
+on:
+  push:
+    branches:
+      - workspace/geography
+    paths:
+      - "geography/chapters/02-geographic-envelope.md"
+      - "geography/scripts/check_chapter_02_images.py"
+      - ".github/workflows/geography-image-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: geography-image-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chapter-02-images:
+    name: Chapter 02 image inventory and remote endpoints
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out Geography working branch
+        uses: actions/checkout@v4
+        with:
+          ref: workspace/geography
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate bilingual image inventory and probe sources
+        run: python geography/scripts/check_chapter_02_images.py

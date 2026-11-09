@@ -1,0 +1,51 @@
+name: Geography Chapter 08 browser and visual acceptance
+
+on:
+  push:
+    branches: [workspace/geography]
+    paths:
+      - "geography/chapters/08-soils-and-landscape-geography.md"
+      - "geography/assets/diagrams/08-*.svg"
+      - "geography/scripts/build_chapter_08_preview.py"
+      - "geography/scripts/chapter_08_browser_smoke.mjs"
+      - ".github/workflows/geography-chapter-08-browser-qa.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: geography-chapter-08-browser-qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chapter-08-browser:
+    name: Chapter 08 full-size SVG, map, mobile/desktop and accessibility checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: workspace/geography
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build full-size visual gallery
+        run: python geography/scripts/build_chapter_08_preview.py /tmp/geography-chapter-08-preview.html
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright axe-core
+          npx playwright install --with-deps chromium
+      - name: Render every visual and test mobile/desktop, clipping and accessibility
+        run: node geography/scripts/chapter_08_browser_smoke.mjs
+      - name: Upload full-size visual screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: geography-chapter-08-browser-qa
+          path: /tmp/chapter-08-*.png
+          if-no-files-found: ignore
+          retention-days: 14

@@ -20,6 +20,15 @@ After studying this chapter, readers should be able to explain the geological st
 
 ## 18.1. Кыргызстан — страна высокогорного рельефа / Kyrgyzstan: A Mountainous Country
 
+ > **[МЕТКА ИЛЛЮСТРАЦИИ 18-A / IMAGE PLACEHOLDER 18-A]** Физико-географическая карта Кыргызстана с высотной гипсометрией, главными хребтами, межгорными впадинами и вершинами; использовать проверенную цифровую модель рельефа.
+> **EN:** Physical-geographical map of Kyrgyzstan showing elevation hypsometry, major ranges, intermontane basins and peaks; use a validated digital elevation model.
+
+**Дополнительная обзорная карта рельефа / Supplementary relief overview**
+
+![Обзорная карта рельефа Кыргызстана с горными областями, озёрами, реками и населёнными пунктами / Relief overview of Kyrgyzstan showing mountain regions, lakes, rivers and settlements](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+
+*Blue Green Atlas, «Free relief map of Kyrgyzstan», CC BY 4.0. Проекция Меркатора; источники рельефа — NASA SRTM3 (около 90 м), батиметрии — GEBCO 2019, озёр — HydroLAKES, рек — HydroATLAS, городов — VMap0. На странице не указаны дата сборки карты, вертикальная система отсчёта и оценка точности. Поэтому это обзорная учебная карта, а не валидированная современная DEM и не источник для точных высот/юридических границ. / Blue Green Atlas, “Free relief map of Kyrgyzstan”, CC BY 4.0. Mercator projection; relief from NASA SRTM3 (~90 m), bathymetry from GEBCO 2019, lakes from HydroLAKES, rivers from HydroATLAS and cities from VMap0. The page does not state map compilation date, vertical reference or accuracy assessment. It is therefore a teaching overview, not a validated current DEM or an authority for exact elevations/legal boundaries. Source: [Blue Green Atlas](https://www.bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html).
+
 Кыргызстан расположен в пределах двух крупных горных систем Центральной Азии — Тянь-Шаня и Памиро-Алая. Основная часть территории представляет собой горы, межгорные впадины, высокогорные плато и речные долины. Рельеф отличается резкими перепадами высот: от низких участков Ферганской долины до высочайших вершин Центрального Тянь-Шаня.
 
 Горный характер территории определяет не только ландшафты, но и размещение населения, транспортных коридоров, пастбищ, водных ресурсов, месторождений и зон природного риска. При этом горы нельзя рассматривать как единый однородный массив: отдельные хребты различаются возрастом пород, историей деформаций, высотой, оледенением и современными геоморфологическими процессами.
@@ -28,15 +37,45 @@ Kyrgyzstan occupies parts of two major Central Asian mountain systems: the Tien 
 
 **Важно / Important.** Доля территории, относимая к горам, зависит от принятого определения горности и метода картографического подсчёта. Поэтому в атласе предпочтительно показывать высотную структуру и морфологические единицы на карте, а не приводить одну условную долю как универсальную характеристику.
 
+### Основа высотных карт и цифровых моделей рельефа / Vertical Reference for Elevation Maps and Digital Elevation Models
+
+Для Кыргызстана при работе с высотами необходимо различать горизонтальную систему координат и вертикальную систему отсчёта. В аналитическом докладе ЕЭК ООН (UNESCAP, декабрь 2020 года) для страны указана Балтийская система высот 1977 года; в AIP Кыргызстана GEN 2.1, действующем с 6 августа 2026 года, отмечено использование среднемноголетнего уровня Балтийского моря как вертикальной основы и отсутствие применения модели геоида в указанном контексте. Эти сведения дают национальный ориентир, но не доказывают, что каждая цифровая модель рельефа, спутниковый продукт, геологическая карта или инженерная съёмка использует одну и ту же реализацию высотной системы.
+
+При подготовке гипсометрических карт, профилей хребтов, оценок высоты ледников и расчётов уклонов необходимо фиксировать источник DEM, дату/версию, разрешение, горизонтальную CRS, вертикальный датум, тип высоты (эллипсоидальная или относящаяся к уровенной поверхности), использованную модель геоида/квазигеоида, если она применялась, и вертикальную точность. Не следует напрямую смешивать высоты из разных систем отсчёта или считать, что преобразование горизонтальных координат автоматически преобразует высоты.
+
+For elevation data in Kyrgyzstan, the horizontal coordinate reference system must be distinguished from the vertical reference system. A UNESCAP analytical report (December 2020) identifies the 1977 Baltic Height System for the country. Kyrgyzstan's AIP GEN 2.1, effective 6 August 2026, refers to long-term mean Baltic Sea level as the vertical reference and notes that a geoid model is not used in the stated context. These sources provide a national reference, but they do not prove that every digital elevation model, satellite product, geological map or engineering survey uses an identical realisation of the height system.
+
+For hypsometric maps, mountain profiles, glacier-elevation assessments and slope calculations, record the DEM source, date/version, resolution, horizontal CRS, vertical datum, height type (ellipsoidal or gravity-related), geoid/quasigeoid model if used, and vertical accuracy. Do not directly combine elevations from different reference systems or assume that transforming horizontal coordinates automatically transforms heights.
+
+### Доступность моделей рельефа и картографических источников / Availability of Elevation Models and Map Sources
+
+В каталоге GeoNode Центрально-Азиатского института прикладных исследований Земли (ЦАИИЗ/CAIAG) опубликован растровый слой `Kyrg_AsterTM2_DEM_utm`, описанный как ASTER GDEM с разрешением 30 м (публикация слоя — 10 декабря 2021 года). В открытых метаданных указана проекция EPSG:32643 и доступны сервисы WMS/WCS и выгрузка GeoTIFF, однако лицензия обозначена как неуказанная; также отсутствуют сведения о вертикальном датуме, вертикальной точности, версии исходного продукта и проверке по наземным контрольным данным. Поэтому этот слой можно рассматривать как предварительный источник для обзорной визуализации, но не как автоматически одобренную основу для количественных расчётов высот, ледниковых изменений или инженерной оценки. Перед использованием необходимо проверить теги самого GeoTIFF, лицензию и происхождение данных.
+
+В рамках проекта RESILAND в 2026 году были приобретены цифровые модели рельефа с разрешением до 3 м для 14 приоритетных участков общей площадью около 6 000 га. Они предназначены для моделирования селей, наводнений и оползней. Эти данные важны для локального анализа природных опасностей, но не образуют сплошную национальную модель рельефа; опубликованное сообщение не содержит самих растров и полного набора технических метаданных.
+
+11 марта 2026 года Министерство природных ресурсов сообщило о подготовке совместно с Институтом геологии им. М. М. Адышева НАН КР двухтомного Атласа геологических, геофизических и минерагенических карт Кыргызстана на русском и английском языках. До выхода и проверки самого издания его следует обозначать как проект в подготовке, а не как уже опубликованный источник карт.
+
+ЦАИИЗ также указывает, что Каталог ледников СССР (1968–1982) и карта «Современное оледенение» масштаба 1:500 000, основанная на снимках 1977–1980 годов, долгое время обновлялись редко и лишь для отдельных ледников. Эти материалы пригодны для исторического контекста, но не должны использоваться как самостоятельная характеристика современного состояния оледенения. Для актуальных карт необходимо указывать даты спутниковых снимков, сезон, критерии выделения ледников, обработку покрытых обломками льдов и оценку неопределённости границ.
+
+The Central-Asian Institute for Applied Geosciences (CAIAG) GeoNode catalogue contains a raster layer named `Kyrg_AsterTM2_DEM_utm`, described as ASTER GDEM at 30 m resolution (layer published on 10 December 2021). Its public metadata lists EPSG:32643 and WMS/WCS and GeoTIFF access, but the licence is unspecified and the record does not provide a vertical datum, vertical accuracy, source-product version or ground-control validation. It is therefore a provisional candidate for overview visualisation, not an automatically approved basis for quantitative elevation, glacier-change or engineering analysis. Verify the GeoTIFF tags, licence and data lineage before use.
+
+Under the RESILAND project, DEMs with resolution up to 3 m were procured in 2026 for 14 priority sites covering approximately 6,000 hectares, for debris-flow, flood and landslide modelling. These are valuable local hazard-analysis datasets, but they do not constitute seamless national DEM coverage; the public announcement does not provide the rasters or full technical metadata.
+
+On 11 March 2026, the Ministry of Natural Resources announced preparation, with the M. M. Adyshev Institute of Geology of the National Academy of Sciences, of a two-volume Atlas of Geological, Geophysical and Mineragenic Maps of Kyrgyzstan in Russian and English. Until the volumes are published and their maps and metadata inspected, this must be described as an atlas project in preparation, not as an already published cartographic source.
+
+CAIAG also notes that the USSR Glacier Catalogue (1968–1982) and the 1:500,000 “Present Glaciation” map based on 1977–1980 imagery were rarely updated in later years and only for some glaciers. These sources are useful for historical context but must not be used alone to describe present-day glacier conditions. Current maps should identify image dates and season, glacier-delineation criteria, treatment of debris-covered ice and boundary uncertainty.
+
 ## 18.2. Геологическое районирование и тектонический каркас / Geological Regionalisation and Tectonic Framework
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-F / IMAGE PLACEHOLDER 18-F]** Тектоническая схема Тянь-Шаня с террейнами, сутурами и крупными разломами; указать научную модель и её источник.
+> **EN:** Tectonic map of the Tien Shan showing terranes, sutures and major faults, with the scientific model and source identified.
+
 
 ### 18.2.1. Географическое и тектоническое районирование
 
 Географическое деление описывает положение и морфологию горных систем: Северный, Внутренний, Центральный и Западный Тянь-Шань, а также Памиро-Алай. В геологии используются другие схемы — по возрасту пород, структурам складчатости, террейнам, сутурам и крупным разломам. Границы этих районов не всегда совпадают.
 
 Для Центрального Тянь-Шаня в научной литературе часто выделяют Северо-Тянь-Шаньский, Срединно-Тянь-Шаньский и Южно-Тянь-Шаньский террейны. Это тектонические блоки и пояса, сформированные в результате длительной палеозойской эволюции и последующего сближения континентальных фрагментов. Терминология в разных публикациях может различаться; при чтении геологических карт следует пользоваться легендой конкретного источника.
-
-Geographic subdivisions describe landscape position and morphology. Tectonic subdivisions instead distinguish rock assemblages, terranes, sutures, folds and faults. The two systems are related but not interchangeable. Geological maps must therefore be read together with their legends and explanatory notes.
 
 ### 18.2.2. Основные этапы геологической истории
 
@@ -50,8 +89,6 @@ Geographic subdivisions describe landscape position and morphology. Tectonic sub
 | Четвертичный период | Оледенения, речная эрозия, склоновые процессы и накопление рыхлых отложений | Создание значительной части современного микрорельефа и долинных форм |
 
 Палеозойская история Тянь-Шаня связана с развитием и закрытием океанических бассейнов, аккрецией островных дуг и столкновением континентальных блоков. В кайнозое столкновение Индийской и Евразийской плит вызвало перераспределение напряжений далеко к северу от Гималаев. Древние структуры Тянь-Шаня были повторно активизированы, а горные сооружения и межгорные впадины получили современное выражение.
-
-The Paleozoic evolution involved ocean-basin development and closure, arc accretion and terrane collision. During the Cenozoic, the India–Eurasia collision transmitted deformation into the continental interior, reactivating inherited structures and contributing to uplift of the Tien Shan.
 
 ### 18.2.3. Разломы и складчатые структуры
 
@@ -70,7 +107,52 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Литологический состав влияет на форму склонов, устойчивость пород, развитие карста, характер осыпей и условия залегания подземных вод.
 
+
+
+### English translation — 18.2
+
+#### 18.2.1 Geographic and tectonic regionalisation
+
+Geographic divisions describe the position and morphology of mountain systems: the Northern, Inner, Central and Western Tien Shan, as well as the Pamir-Alay. Geology uses different schemes based on rock age, fold structures, terranes, sutures and major faults. The boundaries of these regions do not always coincide.
+
+For the Central Tien Shan, scientific literature often distinguishes the Northern Tien Shan, Middle Tien Shan and Southern Tien Shan terranes. These are tectonic blocks and belts formed through long Paleozoic evolution and the subsequent convergence of continental fragments. Terminology may differ among publications; geological maps should therefore be interpreted using the legend of the specific source.
+
+#### 18.2.2 Main stages of geological history
+
+| Stage | Geological events | Significance for modern relief |
+|---|---|---|
+| Precambrian | Formation of ancient crystalline basement and continental blocks | Creation of stable basement fragments |
+| Early–Middle Paleozoic | Sedimentation, volcanism, opening and development of ocean basins, formation of island arcs | Formation of rock complexes of different ages |
+| Late Paleozoic | Terrane convergence, closure of ocean basins, folding, thrusting and granitoid magmatism | Formation of the folded and intrusive framework |
+| Mesozoic | Transformation and local denudation of the older mountain structure; sediment accumulation in basins | Formation of planation surfaces and sedimentary sequences |
+| Cenozoic | Reactivation of inherited structures, compression, uplift, faulting and development of intermontane basins | Development of the modern high-mountain Tien Shan |
+| Quaternary | Glaciations, river erosion, slope processes and accumulation of unconsolidated deposits | Formation of much of the present microrelief and valley landforms |
+
+The Paleozoic history of the Tien Shan involved the development and closure of ocean basins, accretion of island arcs and collision of continental blocks. During the Cenozoic, the collision of the Indian and Eurasian plates redistributed stresses far north of the Himalayas. Ancient Tien Shan structures were reactivated, and mountain ranges and intermontane basins acquired much of their modern expression.
+
+#### 18.2.3 Faults and fold structures
+
+The Tien Shan is crossed by a system of major faults. One of the best known is the Talas-Fergana Fault, which trends northwest and separates geological blocks of the Western and Central Tien Shan in some regional schemes. Its history includes substantial horizontal displacement; estimates of total displacement depend on the geological markers selected and on the interpretation of different movement stages.
+
+Thrust and reverse faults associated with horizontal compression are also widespread. Folded sedimentary sequences develop in intermontane basins, while active faults along basin margins may accompany uplift of basin edges and subsidence of individual blocks. Modern deformation is heterogeneous: it is concentrated in particular zones and does not imply that every range is rising at the same rate.
+
+#### 18.2.4 Rock types
+
+Kyrgyzstan contains:
+- metamorphic rocks of ancient basement, including gneiss, schist, quartzite and amphibolite;
+- sedimentary sequences, including limestone, dolomite, sandstone, siltstone, mudstone and conglomerate;
+- volcanic and volcaniclastic rocks;
+- intrusive igneous rocks, including granite, granodiorite and diorite; and
+- Quaternary unconsolidated deposits, including alluvium, proluvium, colluvium, moraines, loess-like deposits and lake sediments.
+
+Lithology influences slope form, rock stability, karst development, scree formation and groundwater conditions.
+
 ## 18.3. Основные горные районы / Major Mountain Regions
+
+![Орографические регионы: Северный, Западный, Внутренний и Центральный Тянь-Шань и Памиро-Алай / Orographic regions: Northern, Western, Inner and Central Tien Shan and Pamir-Alay](../assets/diagrams/18-B-orographic-regions-schematic-bilingual.svg)
+
+*Схема показывает учебную группировку горных систем, а не точные границы районов или тектонических террейнов. / Schematic teaching classification, not precise regional boundaries or tectonic terranes.*
+> **EN:** Orographic diagram of the Tien Shan and Pamir–Alay showing the Northern, Inner, Central and Western Tien Shan; do not conflate geographic regionalisation with tectonic terranes.
 
 ### 18.3.1. Северный Тянь-Шань / Northern Tien Shan
 
@@ -114,11 +196,65 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 **Алайский хребет** протягивается в широтном направлении к северу от Алайской долины. Его рельеф включает высокие гребни, глубокие долины и участки древнего оледенения.
 
-**Заалайский хребет (Транс-Алай)** формирует северную границу Памира и южную горную стену Алайской долины. На его востоке расположен массив пика Ибн Сина (традиционно — пик Ленина), одна из наиболее известных вершин региона. В западной части хребта высоты и морфология постепенно меняются.
+**Заалайский хребет (Транс-Алай)** формирует северную границу Памира и южную горную стену Алайской долины. На его востоке расположен массив пика Ленина (в Таджикистане — пик Абу Али ибн Сино), одна из наиболее известных вершин региона. В западной части хребта высоты и морфология постепенно меняются.
 
 **Туркестанский хребет** и связанные с ним горные массивы юго-запада имеют выраженные скальные формы, глубокие ущелья и локальные ледниковые участки. Их географическое положение связывает Кыргызстан с горными районами Таджикистана и Узбекистана.
 
+
+
+### English translation — 18.3
+
+#### 18.3.1 Northern Tien Shan
+
+The Northern Tien Shan includes ranges facing the Chu and Talas valleys, as well as mountain massifs around the western and northern parts of the Issyk-Kul Basin. The region combines Paleozoic rocks, granitoid intrusions, folded structures and Cenozoic faults.
+
+The **Kyrgyz Ala-Too** extends south of the Chu Valley and forms a prominent mountain wall above Bishkek and neighbouring districts. Its slopes are deeply dissected by gorges carrying rivers and temporary streams. Upper elevations contain rocky ridges, cirques and small glacial landforms.
+
+The **Talas Ala-Too** forms the southern boundary of the Talas Valley and is an important orographic divide in the north-western part of the country. Its relief combines high ridges, steep slopes and intermontane valleys.
+
+The **Kungey Ala-Too** extends along the northern shore of Issyk-Kul. Its northern slopes face valleys and the Chu Basin, while its southern slopes descend towards the lake basin. Contrasts in slope aspect affect moisture, vegetation, snow conditions and erosion.
+
+#### 18.3.2 Inner and Central Tien Shan
+
+The Inner Tien Shan is a system of high intermontane valleys and ranges located between the outer mountain arcs. The Naryn, Suusamyr, Jumgal and other depressions are important features. High plateaus and broad valleys occur alongside narrow gorges and steep watersheds.
+
+The **Terskey Ala-Too** borders the Issyk-Kul Basin to the south. Its northern slope contains numerous gorges, glacial valleys and catchments feeding rivers that flow into the lake. The southern slope transitions towards the high-mountain interior.
+
+The **Suusamyr-Too**, **Moldo-Too** and **Jumgal-Too** form a complex system of ranges and watersheds in the Inner Tien Shan. Their significance is not determined by elevation alone: they also divide river basins, pasture areas and transport routes.
+
+**Ak-Shyyrak** is a high-mountain massif in the Central Tien Shan, known for glaciers, stony plateaus and the headwaters of major rivers. It is an important area where glacial, fluvial and slope processes interact.
+
+#### 18.3.3 Central Tien Shan
+
+The Central Tien Shan is the highest mountainous part of Kyrgyzstan. It contains major glacial centres, high peaks and massifs, including the Sary-Jaz and Inylchek areas, Kakshaal-Too and ranges surrounding the headwaters of the Naryn and its tributaries.
+
+**Kakshaal-Too** is a major range on the border between Kyrgyzstan and China. Its eastern and central sections include high glaciated peaks. Jengish Chokusu, the highest mountain in Kyrgyzstan, is located in this mountain area.
+
+The **Sary-Jaz area** is characterised by high rocky ridges, glacial valleys and a complex combination of tectonic structures. Large glacier systems are developed here, and the relief is strongly dissected vertically.
+
+#### 18.3.4 Western and Southern Tien Shan
+
+The Western Tien Shan has a more complex mosaic of medium-height ranges, deep river valleys and areas of forest vegetation. The Chatkal, Fergana and other ranges are important features. Geologically, the region includes Paleozoic sedimentary and volcanic sequences, intrusive bodies and later deformation structures.
+
+The **Chatkal Range** lies in the western Tien Shan and is associated with the Chatkal and Pskem river basins. Its slopes are dissected by deep gorges. Altitudinal zonation is expressed through a sequence of valley landscapes, forest belts, subalpine and alpine meadows, and higher rocky and nival areas.
+
+The **Fergana Range** separates the Fergana Valley from the inner Tien Shan. It is an important watershed and influences climatic contrasts between western valleys and higher interior areas.
+
+#### 18.3.5 Pamir-Alay
+
+The southern and south-western part of Kyrgyzstan is associated with the Pamir-Alay mountain system. Its northern foothills and ranges form a transition from the Fergana Valley to the highlands of Alay and the Trans-Alay Range.
+
+The **Alay Range** extends broadly east–west north of the Alay Valley. Its relief includes high ridges, deep valleys and areas shaped by ancient glaciation.
+
+The **Trans-Alay Range** forms the northern boundary of the Pamir and the southern mountain wall of the Alay Valley. The Lenin Peak massif (known in Tajikistan as Abu Ali Ibn Sina Peak) is located in its eastern part and is one of the region's best-known summits. Elevations and landforms gradually change towards the western part of the range.
+
+The **Turkestan Range** and associated mountain massifs in the south-west have pronounced rocky landforms, deep gorges and local glaciated areas. Their geographic position links Kyrgyzstan with the mountain regions of Tajikistan and Uzbekistan.
+
 ## 18.4. Главные хребты: сравнительная орографическая характеристика / Major Ranges: Comparative Orographic Overview
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-G / IMAGE PLACEHOLDER 18-G]** Орографическая карта главных хребтов Кыргызстана с разделением Северного, Внутреннего, Центрального и Западного Тянь-Шаня и Памиро-Алая.
+> **EN:** Orographic map of Kyrgyzstan’s major ranges, distinguishing Northern, Inner, Central and Western Tien Shan and the Pamir–Alay.
+
 
 Таблица даёт обзор наиболее известных хребтов, но не заменяет подробную топографическую карту. Длины и высоты в разных справочниках могут отличаться из-за различий в проведении осевых линий, границ хребтов, выбора высшей точки и качества исходной съёмки.
 
@@ -136,12 +272,52 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 | Ферганский хребет / Fergana Range | Между Ферганской долиной и внутренним Тянь-Шанем | около 4 940 м |
 | Чаткальский хребет / Chatkal Range | Западный Тянь-Шань | около 4 503 м |
 | Алайский хребет / Alay Range | Севернее Алайской долины | около 5 880 м |
-| Заалайский хребет / Trans-Alay Range | Южная граница Алайской долины | пик Ибн Сина, около 7 134 м |
+| Заалайский хребет / Trans-Alay Range | Южная граница Алайской долины | пик Ленина (в Таджикистане — Абу Али ибн Сино), около 7 134 м |
 | Туркестанский хребет / Turkestan Range | Юго-западный горный пояс | локальные вершины около 5 600 м |
 
 **Методическое примечание.** Приведённые ориентиры высот следует сверять с официальными топографическими картами и актуальными цифровыми моделями рельефа перед подготовкой финальной картографической подписи. Для отдельных хребтов в литературе встречаются разные названия высших вершин и разные границы самого хребта.
 
+
+### English translation — 18.4
+
+The main mountain ranges of Kyrgyzstan form a complex system of ridges and watersheds. Their names and boundaries may differ slightly among geographic classifications.
+
+| Range | Geographic position and characteristics |
+|---|---|
+| Kyrgyz Ala-Too | Extends along the southern side of the Chu Valley; contains high ridges, deep gorges and glacial landforms. |
+| Talas Ala-Too | Forms the southern mountain wall of the Talas Valley and is an important watershed in north-western Kyrgyzstan. |
+| Kungey Ala-Too | Runs along the northern side of the Issyk-Kul Basin; its slopes descend towards the lake and the Chu Basin. |
+| Terskey Ala-Too | Borders the Issyk-Kul Basin to the south; its northern slopes contain many river valleys and glacial landforms. |
+| Suusamyr-Too | A mountain range in the Inner Tien Shan, associated with high valleys and pasture landscapes. |
+| Moldo-Too | A range in the Inner Tien Shan that separates intermontane valleys and river catchments. |
+| Jumgal-Too | A mountain range in the Jumgal area, forming local watersheds and steep valley slopes. |
+| At-Bashy Range | Lies south of the Naryn Basin and forms part of the high mountain terrain of the Inner Tien Shan. |
+| Kakshaal-Too | A major range of the Central Tien Shan along the border with China; it includes Jengish Chokusu, Kyrgyzstan’s highest peak. |
+| Fergana Range | Separates the Fergana Valley from the Inner Tien Shan and forms a major watershed. |
+| Chatkal Range | Part of the Western Tien Shan, with deep river gorges, forested slopes and high-mountain meadows. |
+| Alay Range | Extends north of the Alay Valley and includes high ridges and glacially shaped valleys. |
+| Trans-Alay Range | Forms the southern wall of the Alay Valley and the northern margin of the Pamir. |
+| Turkestan Range | Part of the Pamir-Alay mountain system in the south-west, with rocky slopes and deep gorges. |
+
+These descriptions are geographic summaries, not a substitute for a georeferenced range-boundary dataset.
+
 ## 18.5. Высочайшие вершины Кыргызстана / Highest Peaks of Kyrgyzstan
+
+**Фотографическая подборка / Photo set**
+
+![Жеңиш чокусу на фоне ледника Южный Иныльчек; каменная тура на переднем плане / Jengish Chokusu above the South Inylchek Glacier, with a stone cairn in the foreground](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg/960px-Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+
+*Автор: Maryliflower, 2021. CC BY-SA 4.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rock_cairn_on_the_South_Inylchek_Glacier,_with_Jengish_Chokusu_(Victory_Peak)_in_the_background,_Khan_Tengri_Nature_Park,_Tien_Shan.jpg). Изображение не изменено. / Author: Maryliflower, 2021. CC BY-SA 4.0. Source and licence: Wikimedia Commons. Unmodified.*
+
+![Хан-Тенгри в облаках, виден характерный мраморный гребень / Khan Tengri in cloud, showing its distinctive marble ridge](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Khan_Tengri_in_the_mist.jpg/960px-Khan_Tengri_in_the_mist.jpg)
+
+*Автор: Chen Zhao, 2009. CC BY 2.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg). Изображение не изменено. / Author: Chen Zhao, 2009. CC BY 2.0. Source and licence: Wikimedia Commons. Unmodified.*
+
+![Пик Ленина над Памирским трактом в Кыргызстане / Lenin Peak above the Pamir Highway in Kyrgyzstan](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pic_L%C3%A9nine.jpg/1280px-Pic_L%C3%A9nine.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+
+*Автор: Benoît Vicart, 2019. CC0 1.0. Источник и статус общественного достояния: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg). Изображение не изменено. / Author: Benoît Vicart, 2019. CC0 1.0. Source and public-domain dedication: Wikimedia Commons. Unmodified.*
+
+*Подписи высот в тексте главы относятся к отдельным официальным источникам; фотографии не являются измерительным или высотным доказательством. / Elevations stated in the chapter are supported by separate official references; photographs are not elevation evidence.*
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
@@ -151,9 +327,9 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Хан-Тенгри — одна из наиболее узнаваемых вершин Тянь-Шаня, расположенная в районе стыка границ Кыргызстана, Казахстана и Китая. Часто указывается высота **6 995 м** для скальной вершины. В некоторых источниках приводится значение около **7 010 м**, когда учитывается ледниковая шапка. В атласе необходимо явно указывать, какое именно измерение использовано.
 
-### 18.5.3. Пик Ибн Сина (традиционно — пик Ленина) / Ibn Sina Peak (historically Lenin Peak)
+### 18.5.3. Пик Ленина / Lenin Peak (Lenin Atyndagy Choku)
 
-Пик Ибн Сина, широко известный в исторической и альпинистской литературе как пик Ленина, расположен в Заалайском хребте на границе Кыргызстана и Таджикистана. Его высота обычно приводится около **7 134 м**. При картографическом использовании следует согласовать современное официальное название с национальными картографическими стандартами и указать историческое название в справочной подписи.
+В Кыргызстане используется название **пик Ленина** (кырг. **Ленин атындагы чоку**); в Таджикистане вершина официально известна как **пик Абу Али ибн Сино**. Она расположена в Заалайском хребте на границе двух государств; обычно приводимая высота составляет около **7 134 м**. На карте следует указывать название, принятое для соответствующей стороны границы, а второе название давать как вариант с явным указанием страны.
 
 ### 18.5.4. Другие высокие вершины
 
@@ -163,9 +339,21 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 |---|---|---:|
 | Жеңиш (Победы) / Jengish Chokusu | Какшаал-Тоо, Центральный Тянь-Шань | 7 439 м |
 | Хан-Тенгри / Khan Tengri | Центральный Тянь-Шань | 6 995 м (скала); около 7 010 м с ледником |
-| Ибн Сина (истор. пик Ленина) / Ibn Sina (historically Lenin) | Заалайский хребет | около 7 134 м |
+| Пик Ленина (Кыргызстан) / Lenin Peak (Kyrgyzstan); пик Абу Али ибн Сино (Таджикистан) / Abu Ali Ibn Sina Peak (Tajikistan) | Заалайский хребет / Trans-Alay Range | около 7 134 м |
 
 Высоты в горах могут различаться в зависимости от системы высот, метода измерения, состояния ледниковой поверхности и даты съёмки. Для научной карты следует указывать источник, дату и тип высоты (скальная вершина или поверхность ледника).
+
+
+### English translation — 18.5
+
+Kyrgyzstan contains some of the highest peaks of the Tien Shan and Pamir-Alay. Elevations should be quoted with the source and the measurement convention, because different publications may use different reference surfaces or summit definitions.
+
+- **Jengish Chokusu (Victory Peak)** — 7,439 m; the highest mountain in Kyrgyzstan, located in the Central Tien Shan.
+- **Khan Tengri** — 6,995 m for the rocky summit; the ice cap is often reported at approximately 7,010 m. The two values should not be presented as the same measurement.
+- **Lenin Peak** — 7,134 m; located in the Trans-Alay Range. In Tajikistan it is also known as Abu Ali Ibn Sina Peak.
+- Other high peaks and glaciated massifs include those in the Sary-Jaz, Ak-Shyyrak, Kakshaal-Too and Alay mountain areas.
+
+A peak's elevation does not by itself describe its prominence, isolation, climbing difficulty or glaciological significance. Those characteristics require separate measurements and definitions.
 
 ## 18.6. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
@@ -184,7 +372,30 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Высокогорные плато и сырты — характерная черта Внутреннего Тянь-Шаня. Они представляют собой относительно выровненные поверхности на больших высотах, расчленённые речными долинами и окружённые хребтами. Сырты имеют важное значение для сезонного выпаса, водосбора и сохранения холодных высокогорных экосистем.
 
+
+Intermontane basins are a major element of Kyrgyzstan's relief. They form through tectonic movements, erosion, sediment accumulation and changes in river networks. Their floors may contain thick sequences of lacustrine, fluvial, proluvial and glacial deposits.
+
+Important intermontane and valley areas include:
+- **Chuy Valley:** a broad northern foothill plain and an important area of settlement and agriculture;
+- **Talas Valley:** an intermontane depression in the north-west of the country;
+- **Issyk-Kul Basin:** a large intermontane depression containing the lake and bounded by the Kungey Ala-Too and Terskey Ala-Too ranges;
+- **Suusamyr Valley:** a high mountain valley with a seasonally severe climate and important pastures;
+- **Naryn depression and valley:** a system of high mountain valleys dissected by tributaries of the Naryn River;
+- **Jumgal Valley:** an intermontane area in the Inner Tien Shan;
+- **At-Bashy Valley:** a high mountain depression south of Naryn;
+- **Alay Valley:** a broad high-altitude valley between the Alay and Trans-Alay ranges; and
+- **Fergana Valley:** a large intermontane depression divided by the state borders of Kyrgyzstan, Uzbekistan and Tajikistan.
+
+High plateaus and syrts are characteristic of the Inner Tien Shan. They are relatively level surfaces at high elevations, dissected by river valleys and surrounded by mountain ranges. Syrts are important for seasonal grazing, water catchments and the conservation of cold high-mountain ecosystems.
+
 ## 18.7. Процессы формирования рельефа / Landform-Forming Processes
+
+
+![Горный склон: процессы формирования рельефа / Mountain slope processes](../assets/18-J-mountain-slope-processes.svg)
+
+*Рисунок 18-J / Figure 18-J. Учебная схема выветривания, эрозии, оползания, осыпания и аккумуляции / Conceptual diagram of weathering, erosion, landsliding, rockfall and deposition.*
+
+
 
 Современный рельеф Кыргызстана создаётся взаимодействием эндогенных и экзогенных процессов.
 
@@ -216,7 +427,28 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 В районах распространения растворимых пород — прежде всего известняков, доломитов и гипсов — вода формирует карстовые полости, воронки, поноры, подземные каналы и источники. Карстовые процессы влияют на устойчивость поверхности и режим подземных вод. Не всякая воронка является карстовой: её происхождение должно подтверждаться геологическими и гидрогеологическими данными.
 
+
+### English translation — 18.7
+
+Modern relief in Kyrgyzstan is shaped by the interaction of tectonic uplift and several exogenic processes.
+
+**Tectonic processes** create and reactivate faults, folds, uplifted blocks and intermontane depressions. Earthquakes are a surface expression of active crustal deformation, although not every fault is currently active.
+
+**Glacial processes** include erosion by moving ice, the formation of cirques and trough valleys, transport of rock debris, and deposition of moraines. Their intensity varies with glacier size, slope, bedrock and climate.
+
+**Fluvial processes** include river erosion, transport and deposition. They create gorges, floodplains, river terraces, alluvial fans and valley fills.
+
+**Slope processes** include rockfalls, landslides, debris flows, soil creep and avalanches. They depend on slope angle, lithology, water content, vegetation, seismic shaking and human disturbance.
+
+**Weathering** breaks down rocks through physical, chemical and biological processes. In high mountains, freeze–thaw cycles are important, while chemical weathering is often stronger in warmer and wetter environments.
+
+These processes operate together. For example, tectonic uplift increases river gradients, which can intensify incision; glacial retreat may expose unstable slopes and unconsolidated sediment; intense rainfall can mobilise this material into debris flows.
+
 ## 18.8. Ледниковые формы рельефа / Glacial Landforms
+
+![Ледниковые формы: кар, рог, арет, висячая долина, трог и морены / Glacial landforms: cirque, horn, arête, hanging valley, trough and moraines](../assets/diagrams/18-D-glacial-landforms-bilingual.svg)
+
+*Оригинальная двуязычная учебная схема, не в масштабе; формы показаны в концептуальном сочетании. / Original bilingual teaching diagram, not to scale; landforms are shown in a conceptual arrangement.*
 
 | Форма / Landform | Характеристика / Description |
 |---|---|
@@ -232,7 +464,26 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Для картографирования ледниковых форм необходимо различать современные ледники, древние моренные комплексы и формы, созданные сочетанием ледниковых и речных процессов. Границы ледников меняются, поэтому их площади и контуры должны сопровождаться датой спутниковой или полевой съёмки.
 
+
+### English translation — 18.8
+
+Mountain hazards in Kyrgyzstan include earthquakes, landslides, rockfalls, debris flows, snow avalanches and glacial-lake outburst floods. The presence of a hazardous process does not automatically mean that a location has high risk. Risk also depends on exposure and vulnerability.
+
+- **Earthquakes** are associated with active tectonic structures and can trigger slope failures.
+- **Landslides** may occur in weathered or weak rock, saturated sediment and steep slopes; road cuts and construction can increase instability.
+- **Rockfalls** are common on steep rocky slopes, especially where freeze–thaw weathering and seismic shaking are important.
+- **Debris flows** transport mixtures of water, sediment and rock through steep channels and fans; intense rainfall and rapid snowmelt can trigger them.
+- **Avalanches** depend on snowpack structure, weather, slope and terrain; they can threaten roads, settlements and recreation areas.
+- **Glacial-lake outburst floods** may occur where natural dams fail or drainage pathways change. The assessment must consider lake and dam conditions, possible flow paths and downstream assets.
+
+Hazard maps should be dated and should state the method, scale, data sources and uncertainty. A national overview map is not a substitute for site-specific engineering or emergency assessment.
+
 ## 18.9. Речные долины, террасы и конусы выноса / River Valleys, Terraces and Alluvial Fans
+
+![Формы речной долины: террасы, пойма, действующее русло и конус выноса / River-valley landforms: terraces, floodplain, active channel and alluvial fan](../assets/diagrams/18-H-river-valley-landforms-bilingual.svg)
+
+*Оригинальная двуязычная концептуальная схема; поперечный профиль не в масштабе и не описывает конкретную долину Кыргызстана. / Original bilingual conceptual diagram; the cross-section is not to scale and does not represent a specific Kyrgyz valley.*
+
 
 Горные реки Кыргызстана обладают значительной энергией потока. В верховьях преобладает глубинная эрозия, формирующая узкие ущелья и каньоны. В средних и нижних частях долин расширяются поймы и накапливаются аллювиальные отложения.
 
@@ -240,7 +491,22 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 **Конус выноса** формируется там, где поток выходит из узкого горного ущелья на более пологую поверхность и теряет транспортирующую способность. Конусы часто имеют веерообразную форму и состоят из грубого материала у вершины и более тонкого — к периферии. Они могут быть плодородными, но одновременно подвержены селям и внезапным изменениям русла.
 
+
+### English translation — 18.9
+
+Mountain landscapes are organised into altitudinal belts, but the boundaries of these belts are not fixed lines. They vary with latitude, slope aspect, moisture, local relief, wind exposure and regional climate.
+
+Lower valleys may contain dry steppe, semi-desert or cultivated landscapes. At middle elevations, mountain steppe, shrubland and forest may occur, depending on regional moisture and slope exposure. Higher elevations support subalpine and alpine meadows, followed by rocky, nival and glacial landscapes.
+
+The northern and southern slopes of the same range may differ substantially. A shaded slope may retain snow longer and support more moisture-demanding vegetation, while a sun-exposed slope may be warmer and drier.
+
+Altitudinal zonation is therefore best represented as a regional pattern with approximate transitions, not as a universal table of exact elevation limits.
+
 ## 18.10. Минеральные ресурсы и геологическое строение / Mineral Resources and Geological Setting
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-I / IMAGE PLACEHOLDER 18-I]** Минерагеническая карта основных районов полезных ископаемых с указанием даты, источника и статуса сведений; не обозначать условные проявления как действующие рудники.
+> **EN:** Mineral-resource map showing major districts, data date, source and status; do not depict occurrences as operating mines.
+
 
 Минеральные ресурсы Кыргызстана связаны с разнообразием геологических комплексов и магматических, гидротермальных, осадочных и метаморфических процессов. В стране известны месторождения золота, сурьмы, ртути, олова, вольфрама, редких металлов, угля, строительного сырья и других полезных ископаемых.
 
@@ -254,7 +520,25 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Добыча полезных ископаемых может сопровождаться нарушением земель, образованием хвостохранилищ, загрязнением воды и пылевыми выбросами. Особое значение имеют устойчивость хвостохранилищ в сейсмичных районах, контроль кислотного дренажа и долгосрочная рекультивация.
 
+
+### English translation — 18.10
+
+Mineral resources are associated with the geological structure and long history of magmatic, hydrothermal, sedimentary and tectonic processes.
+
+Important resource groups include:
+- metallic minerals, such as gold, antimony, mercury, tin, tungsten and other ore commodities;
+- non-metallic minerals, including building stone, limestone, gypsum, clay and other industrial minerals;
+- energy resources, including coal and some hydrocarbon occurrences; and
+- construction materials such as sand, gravel and crushed rock.
+
+The presence of a mineral occurrence does not mean that it is an economically viable deposit. Resource estimates depend on exploration density, geological modelling, commodity prices, extraction technology, infrastructure, environmental requirements and the classification system used.
+
+Maps of mineral resources should distinguish occurrences, exploration areas, deposits and operating mines. They should state the source date and must not imply that all mapped resources are currently mined or economically recoverable.
+
 ## 18.11. Геологические опасности и мониторинг / Geological Hazards and Monitoring
+
+> **[МЕТКА ИЛЛЮСТРАЦИИ 18-E / IMAGE PLACEHOLDER 18-E]** Карта геологических опасностей Кыргызстана с раздельными слоями землетрясений, оползней, селей, обвалов, лавин и ледниковых озёр; опасность, экспозицию и уязвимость показывать раздельно.
+> **EN:** Geological-hazard map of Kyrgyzstan with separate layers for earthquakes, landslides, debris flows, rockfalls, avalanches and glacial lakes; show hazard, exposure and vulnerability separately.
 
 Кыргызстан подвержен нескольким взаимосвязанным типам природных опасностей:
 
@@ -279,6 +563,38 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Карта опасности показывает вероятность и интенсивность природного процесса; карта риска дополнительно учитывает людей, здания, инфраструктуру и их уязвимость. Эти понятия нельзя использовать как синонимы.
 
+### 18.11.1. Как оценивают опасность прорыва ледникового озера / Assessing the Hazard of a Glacial Lake Outburst Flood
+
+Прорыв ледникового озера (GLOF) — быстрое высвобождение воды из озера, которое удерживается ледяной, моренной или смешанной естественной плотиной. Не каждое высокогорное озеро опасно: оценка требует анализа вероятности разрушения плотины и возможных последствий ниже по долине.
+
+Исследование обычно включает несколько взаимосвязанных шагов:
+
+1. **Инвентаризация озёр.** По спутниковым снимкам и полевым данным определяют местоположение, площадь, высоту, тип озёрной котловины и изменения размеров во времени.
+2. **Оценка удерживающей плотины.** Изучают её материал, высоту, ширину, крутизну откосов, признаки фильтрации, просадки, термокарстовых процессов и возможной ледяной основы.
+3. **Выявление возможных триггеров.** Рассматривают обрушение ледника или склона в озеро, интенсивные осадки, быстрое таяние, внутреннюю эрозию плотины и другие механизмы. Наличие одного фактора само по себе не доказывает неизбежность прорыва.
+4. **Моделирование пути потока.** С учётом рельефа и сценарного объёма воды оценивают возможное направление распространения паводка, затопление долины и зоны отложения наносов. Результат зависит от качества цифровой модели рельефа и исходных предположений.
+5. **Оценка экспозиции и уязвимости.** Учитывают населённые пункты, дороги, мосты, гидротехнические сооружения, пастбища и другие объекты в потенциальной зоне воздействия.
+6. **Мониторинг и готовность.** Используют повторные спутниковые наблюдения, датчики уровня воды, метеоданные и полевые обследования; заранее определяют каналы оповещения, безопасные маршруты и места эвакуации.
+
+Важно различать **опасность** и **риск**. Опасность характеризует потенциальное событие и его интенсивность; риск связан с вероятностью ущерба людям, имуществу и инфраструктуре. Даже подробная модель не даёт гарантии точного времени прорыва. Карты и сценарии должны сопровождаться датой данных, описанием метода и указанием неопределённости.
+
+**Учебное задание.** Выберите на спутниковом снимке одно высокогорное озеро (не приближаясь к нему и не проводя самостоятельных опасных полевых работ). Составьте перечень данных, необходимых для предварительной оценки: тип плотины, изменение площади озера, крутизна окружающих склонов, возможные пути стока и объекты ниже по долине. Отдельно отметьте, какие выводы по одному снимку сделать нельзя.
+
+A glacial lake outburst flood (GLOF) is the rapid release of water from a lake held by an ice, moraine or composite natural dam. Not every high-mountain lake is hazardous. Assessment requires examining both the possibility of dam failure and the potential consequences downstream.
+
+A typical assessment combines several steps:
+
+1. **Lake inventory.** Satellite imagery and field observations are used to identify the lake, measure its area and elevation, classify its basin and track changes over time.
+2. **Assessment of the retaining dam.** Investigators examine its material, height, width, slope angles, signs of seepage or subsidence, thermokarst processes and possible ice-core conditions.
+3. **Identification of potential triggers.** Possible mechanisms include an ice or slope avalanche entering the lake, intense precipitation, rapid melt, internal erosion of the dam and other processes. A single factor does not prove that an outburst is inevitable.
+4. **Flow-path modelling.** Terrain data and scenario-based water volumes are used to estimate possible flood pathways, valley inundation and sediment deposition. Results depend on the quality of the digital elevation model and the assumptions used.
+5. **Exposure and vulnerability assessment.** Settlements, roads, bridges, hydraulic infrastructure, grazing areas and other assets in the potential impact zone are identified.
+6. **Monitoring and preparedness.** Repeat satellite observations, water-level sensors, meteorological data and field inspections are combined with warning channels, safe routes and evacuation locations planned in advance.
+
+It is important to distinguish **hazard** from **risk**. Hazard describes a potentially damaging event and its intensity; risk concerns the likelihood of harm to people, property and infrastructure. Even a detailed model cannot guarantee the exact timing of an outburst. Maps and scenarios should state their data date, method and uncertainty.
+
+**Learning activity.** Select a high-mountain lake on satellite imagery (do not approach it or undertake hazardous fieldwork). List the information needed for a preliminary assessment: dam type, change in lake area, surrounding slope steepness, possible flow paths and downstream assets. Separately identify conclusions that cannot be drawn from a single image.
+
 ## 18.12. Практические методы геологического и геоморфологического исследования / Field and Geomorphological Methods
 
 Геологическое и геоморфологическое исследование горной территории строится как последовательность взаимодополняющих методов.
@@ -291,6 +607,17 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 Для воспроизводимости каждое наблюдение должно содержать дату, координаты, систему координат, метод измерения, автора, описание неопределённости и ссылку на исходные материалы. Отбор образцов из охраняемых территорий, археологических объектов и частных земель требует соблюдения соответствующих правил.
 
+
+Geological and geomorphological research in mountain areas combines several complementary methods.
+
+**Desk-based stage:** analyse topographic and geological maps, digital elevation models, satellite imagery, archive data and scientific literature.
+
+**Field stage:** describe outcrops, identify lithology, measure structural orientations, map faults and landforms, record GNSS coordinates, take photographs and collect samples in accordance with safety procedures and permit requirements.
+
+**Post-field stage:** prepare geological cross-sections, digital elevation models, slope and aspect maps; analyse river basins; interpret imagery; check field observations; and prepare metadata.
+
+For reproducibility, every observation should include its date, coordinates, coordinate reference system, measurement method, author, uncertainty description and a link to the source material. Sampling in protected areas, archaeological sites and private land must comply with the relevant rules.
+
 ## 18.13. Геоморфологические зоны по высоте / Elevation-Related Geomorphological Belts
 
 Высотные границы природных и геоморфологических поясов меняются в зависимости от широты, экспозиции склонов, континентальности климата и локальной орографии. Поэтому приведённая ниже схема является качественной, а не универсальной высотной классификацией.
@@ -302,7 +629,247 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 | Высокогорья | Крутые склоны, морозное выветривание, кары, троги, морены |
 | Нивально-ледниковый пояс | Ледники, фирновые поля, скальные стены, лавинные и обвальные процессы |
 
+### 18.13.1. Разобранный пример: расчёт уклона горного склона / Worked Example: Calculating a Mountain Slope Gradient
+
+Предположим, что на учебном профиле высота нижней точки склона составляет 2 000 м, а верхней — 2 600 м. Горизонтальное расстояние между ними по карте равно 3 км.
+
+1. Находим превышение: 2 600 − 2 000 = 600 м.
+2. Переводим горизонтальное расстояние в метры: 3 км = 3 000 м.
+3. Рассчитываем уклон в процентах:
+
+\[
+I=\frac{600}{3\,000}\times100\%=20\%
+\]
+
+Это означает, что на каждые 100 м горизонтального расстояния приходится 20 м подъёма. Угол наклона можно оценить как \(\arctan(0{,}2)\), то есть примерно 11,3°.
+
+**Важно:** 3 км здесь — горизонтальное расстояние на карте, а не длина пути по поверхности склона. Если измерять извилистый маршрут или фактическую поверхность, результат будет другим. Для инженерных и геоморфологических задач также необходимо учитывать разрешение цифровой модели рельефа, вертикальную точность и выбранную систему высот.
+
+**Проверьте себя:** при превышении 450 м и горизонтальном расстоянии 1 500 м чему равен уклон в процентах?
+
+Assume a learning profile where the lower point of a slope is at 2,000 m and the upper point is at 2,600 m. The horizontal distance between them on the map is 3 km.
+
+1. Calculate the elevation difference: 2,600 − 2,000 = 600 m.
+2. Convert the horizontal distance to metres: 3 km = 3,000 m.
+3. Calculate the gradient as a percentage:
+
+\[
+G=\frac{600}{3,000}\times100\%=20\%
+\]
+
+This means that the land rises by 20 m for every 100 m of horizontal distance. The slope angle can be estimated as \(\arctan(0.2)\), or approximately 11.3°.
+
+**Important:** the 3 km is the horizontal map distance, not the length of a route along the slope surface. Measuring a winding route or the actual terrain surface would produce a different value. Engineering and geomorphological work must also consider digital elevation model resolution, vertical accuracy and the selected height reference system.
+
+**Check your understanding:** if the elevation difference is 450 m and the horizontal distance is 1,500 m, what is the gradient as a percentage?
+
+## English-language chapter text
+
+### 18.1. Kyrgyzstan: A Mountainous Country
+
+Kyrgyzstan occupies parts of two major Central Asian mountain systems: the Tien Shan and the Pamir-Alay. Its territory is dominated by mountain ranges, intermontane basins, high plateaus and river valleys. Relief has strong elevation contrasts, from the lower parts of the Fergana Valley to the highest summits of the Central Tien Shan.
+
+The mountainous character of the country shapes not only landscapes but also settlement, transport corridors, pastures, water resources, mineral deposits and natural-hazard zones. The mountains are not one homogeneous massif: individual ranges differ in rock age, deformation history, elevation, glaciation and active geomorphological processes.
+
+The proportion of the country classified as mountainous depends on the definition of mountainous terrain and the mapping method. The atlas should therefore prioritise maps of elevation structure and morphological units rather than presenting one approximate percentage as a universal characteristic.
+
+### 18.2. Geological Regionalisation and Tectonic Framework
+
+**Geographic and tectonic regionalisation.** Geographic subdivisions describe the position and morphology of mountain systems: Northern, Inner, Central and Western Tien Shan, together with the Pamir-Alay. Geology uses different schemes based on rock age, fold structures, terranes, sutures and major faults. Their boundaries do not always coincide.
+
+Scientific literature on the Central Tien Shan commonly distinguishes North Tien Shan, Middle Tien Shan and South Tien Shan terranes. These tectonic blocks and belts formed during a long Paleozoic evolution and the later convergence of continental fragments. Terminology may differ between publications; geological maps should always be read with the legend of the particular source.
+
+**Main stages of geological history.**
+
+| Period | Main geological events | Significance for present relief |
+|---|---|---|
+| Precambrian | Formation of ancient crystalline basement and continental blocks | Creation of stable basement fragments |
+| Early–Middle Palaeozoic | Sedimentation, volcanism, development of ocean basins and island arcs | Formation of rock complexes of different ages |
+| Late Palaeozoic | Terrane convergence, ocean-basin closure, folding, thrusting and granitoid magmatism | Development of the folded and intrusive framework |
+| Mesozoic | Transformation and local denudation of older mountains; sediment accumulation in basins | Formation of planation surfaces and sedimentary sequences |
+| Cenozoic | Reactivation of old structures, compression, uplift, faulting and intermontane-basin development | Development of the modern high Tien Shan |
+| Quaternary | Glaciations, river erosion, slope processes and accumulation of unconsolidated deposits | Formation of much of the modern microrelief and valley landforms |
+
+Palaeozoic evolution involved the development and closure of ocean basins, accretion of island arcs and collision of continental blocks. During the Cenozoic, the collision of the Indian and Eurasian plates redistributed stresses far north of the Himalayas. Ancient Tien Shan structures were reactivated, and mountain belts and intermontane basins acquired much of their modern expression.
+
+**Faults and folds.** The Tien Shan is crossed by major fault systems. One of the best-known is the Talas–Fergana Fault, which extends northwest–southeast and separates geological blocks of the Western and Central Tien Shan in several regional schemes. Its history includes substantial strike-slip displacement; estimates of total offset depend on the geological markers selected and the interpretation of movement phases.
+
+Thrusts and reverse faults are also widespread and are associated with horizontal compression. Folded sedimentary sequences occur in intermontane basins. Active faults along basin margins may accompany uplift of basin edges and subsidence of individual blocks. Modern deformation is heterogeneous: it is concentrated in particular zones and does not imply that every range is rising at the same rate.
+
+**Rock types.** Kyrgyzstan contains ancient basement metamorphic rocks such as gneiss, schist, quartzite and amphibolite; sedimentary complexes including limestone, dolomite, sandstone, siltstone, mudstone and conglomerate; volcanic and volcaniclastic rocks; intrusive igneous rocks such as granite, granodiorite and diorite; and Quaternary unconsolidated deposits including alluvium, proluvium, colluvium, moraines, loess-like and lacustrine sediments.
+
+Lithology influences slope shape, rock stability, karst development, scree formation and groundwater occurrence.
+
+### 18.3. Major Mountain Regions
+
+**Northern Tien Shan.** This region includes ranges facing the Chuy and Talas valleys and mountain massifs around the western and northern parts of the Issyk-Kul Basin. It combines complex Palaeozoic rocks, granitoid intrusions, folded structures and Cenozoic faults.
+
+The **Kyrgyz Ala-Too** extends south of the Chuy Valley and forms a prominent mountain wall above Bishkek and nearby districts. Its slopes are deeply dissected by gorges carrying rivers and temporary streams. Upper belts contain rocky ridges, cirques and small glacial landforms.
+
+The **Talas Ala-Too** borders the Talas Valley to the south and is an important orographic divide in the north-western part of the country. Its relief combines high ridges, steep slopes and intermontane valleys.
+
+The **Kungey Ala-Too** extends along the northern shore of Issyk-Kul. Its northern slopes face valleys and the Chuy Basin, while its southern slopes descend towards the lake basin. Differences in slope aspect influence moisture, vegetation, snow regime and erosion.
+
+**Inner and Central Tien Shan.** The Inner Tien Shan is a system of high intermontane valleys and ranges located between the outer mountain arcs. The Naryn, Suusamyr, Jumgal and other basins are important features. High plateaus and broad valleys occur alongside narrow gorges and steep watersheds.
+
+The **Terskey Ala-Too** borders the Issyk-Kul Basin to the south. Its northern slope contains numerous gorges, glacial valleys and catchments feeding rivers that flow into the lake. The southern slope transitions to the high interior regions.
+
+The **Suusamyr-Too**, **Moldo-Too** and **Jumgal-Too** form a complex system of ranges and watersheds in the Inner Tien Shan. Their significance is not limited to elevation: they divide river basins, pasture areas and transport routes.
+
+**Ak-Shyyrak** is a high-mountain massif of the Central Tien Shan, known for glaciers, rocky plateaus and the headwaters of major rivers. It is an important area where glacial, fluvial and slope processes interact.
+
+**Central Tien Shan.** This is the highest mountainous part of Kyrgyzstan. It contains major glacier centres, high peaks and massifs, including the Sary-Jaz and Inylchek areas, Kakshaal-Too and ranges around the upper Naryn and its tributaries.
+
+**Kakshaal-Too** is a major range on the Kyrgyzstan–China border. Its eastern and central sectors contain high glaciated summits. Jengish Chokusu (Victory Peak), the highest summit in Kyrgyzstan, is located in this mountain region.
+
+The **Sary-Jaz region** is characterised by high rocky ridges, glacial valleys and complex tectonic structures. Extensive glacier systems are developed here, and relief is strongly dissected vertically.
+
+**Western and Southern Tien Shan.** The Western Tien Shan has a more complex mosaic of medium-height ranges, deep river valleys and forested areas. The Chatkal and Fergana ranges are important components. Geologically, the region includes Palaeozoic sedimentary and volcanic rocks, intrusive bodies and younger deformation structures.
+
+The **Chatkal Range** is located in the western Tien Shan and is associated with the Chatkal and Pskem river basins. Its slopes are dissected by deep gorges; altitudinal belts change from valley landscapes to forests, subalpine and alpine meadows, and higher rocky and nival zones.
+
+The **Fergana Range** separates the Fergana Valley from the interior Tien Shan. It is an important watershed and influences climatic differences between western valleys and higher interior areas.
+
+**Pamir-Alay.** Southern and south-western Kyrgyzstan are connected with the Pamir-Alay mountain system. Its northern foothills and ranges form the transition from the Fergana Valley to the highlands of Alay and the Trans-Alay Range.
+
+The **Alay Range** extends broadly east–west north of the Alay Valley. Its relief includes high ridges, deep valleys and evidence of former glaciation.
+
+The **Trans-Alay Range** forms the northern boundary of the Pamir and the southern mountain wall of the Alay Valley. The Lenin Peak massif (known as Abu Ali Ibn Sina Peak in Tajikistan) lies in its eastern part. Elevation and morphology gradually change towards the western part of the range.
+
+### 18.4. Major Ranges: Comparative Orographic Overview
+
+The comparative table in the Russian section provides a reference overview of major ranges and approximate high points. Range lengths and elevations may differ between reference works because of differences in ridge delineation, range boundaries, selection of the highest summit and quality of source surveys.
+
+Approximate high points commonly cited include Kyrgyz Ala-Too (about 4,855 m), Talas Ala-Too (about 4,488 m), Kungey Ala-Too (about 4,771 m), Terskey Ala-Too (about 5,280 m), Jumgal-Too (about 4,281 m), At-Bashy (about 4,786 m), Kakshaal-Too (Jengish Chokusu, 7,439 m), Fergana Range (about 4,940 m), Chatkal Range (about 4,503 m), Alay Range (about 5,880 m), Trans-Alay Range (Lenin Peak, about 7,134 m) and Turkestan Range (local summits around 5,600 m). These are indicative reference values, not a harmonised ranking.
+
+Before final map production, all elevations should be checked against official topographic maps and current digital elevation models. Different sources may identify different highest summits or define range boundaries differently.
+
+### 18.5. Highest Peaks of Kyrgyzstan
+
+**Jengish Chokusu (Victory Peak)** reaches approximately **7,439 m** and is the highest summit in Kyrgyzstan. It is located in the Kakshaal-Too massif of the Central Tien Shan, in a high-mountain border region. It is a massive glaciated rocky peak with severe weather, complex terrain and significant avalanche hazards.
+
+**Khan Tengri** is one of the best-known peaks of the Tien Shan, near the junction of the borders of Kyrgyzstan, Kazakhstan and China. The commonly cited elevation of the rock summit is **6,995 m**. Some sources give about **7,010 m** when the ice cap is included. An atlas must state which measurement is used.
+
+In Kyrgyzstan the peak is known as **Lenin Peak** (Kyrgyz: **Lenin Atyndagy Choku**); in Tajikistan it is officially known as **Abu Ali Ibn Sina Peak**. It lies in the Trans-Alay Range on the international border, and its commonly cited elevation is about **7,134 m**. Maps should use the name appropriate to the side of the border being represented and identify the alternative name with its country.
+
+Other high summits include Pik Voennykh Topografov, Druzhby, Semyonov-Tian-Shansky and peaks in the Trans-Alay and Alay ranges. Their elevations and names require separate checks against topographic and mountaineering sources because transliterations and rounded values may differ.
+
+Mountain elevations may vary according to vertical datum, measurement method, glacier-surface conditions and survey date. A scientific map should identify the source, date and type of elevation (rock summit or ice surface).
+
+### 18.6. Intermontane Basins, Valleys and Plateaus
+
+Intermontane basins are a major element of Kyrgyzstan's relief. They form through tectonic movement, erosion, sediment accumulation and changes in river networks. Basin floors may contain thick sequences of lacustrine, fluvial, proluvial and glacial deposits.
+
+Important intermontane and valley areas include the Chuy Valley, a broad northern foothill plain and major settlement/agricultural area; the Talas Valley, a north-western intermontane basin; the Issyk-Kul Basin, enclosed by the Kungey and Terskey Ala-Too; the Suusamyr Valley, a high-altitude valley with a severe seasonal climate and important pastures; the Naryn Basin and valley system; the Jumgal Valley; the At-Bashy Valley; the Alay Valley between the Alay and Trans-Alay ranges; and the Fergana Valley, a major intermontane basin divided among Kyrgyzstan, Uzbekistan and Tajikistan.
+
+High plateaus and syrts are characteristic of the Inner Tien Shan. They are relatively level surfaces at high elevation, dissected by river valleys and surrounded by ranges. Syrts are important for seasonal grazing, catchment functions and the conservation of cold high-mountain ecosystems.
+
+### 18.7. Landform-Forming Processes
+
+Modern relief in Kyrgyzstan is shaped by the interaction of endogenic and exogenic processes.
+
+**Tectonic uplift and deformation.** Mountain structures continue to deform. Compression produces folds, thrusts and uplift of crustal blocks, while strike-slip faults cause horizontal movement of crustal segments. Uplift increases relief energy and can intensify erosion, but uplift rates vary among regions and geological structures.
+
+**Weathering.** Physical weathering is especially active where water repeatedly freezes and thaws in rock fractures. Chemical weathering depends on temperature, moisture and rock composition. Biological weathering is associated with plant roots and soil organisms. Freeze–thaw fragmentation, scree and block fields are common in high mountains. Chemical weathering and soil formation are more evident in some warmer and wetter western areas.
+
+**Fluvial erosion and deposition.** Rivers dissect mountain slopes and form V-shaped valleys, canyons, rapids and waterfalls. Where gradients or discharge conditions change, sediment accumulates to form floodplains, terraces, alluvial fans and alluvial plains. Debris flows can transport large volumes of material in a short time and are particularly dangerous in narrow gorges and on fans where mountain streams emerge onto plains.
+
+**Glacial processes.** Glaciers erode and transport rock, deepen valleys and create characteristic landforms. Glacial erosion forms cirques, troughs and sharp ridges; deposition creates moraines. After glacier retreat, lake basins, moraine deposits and unstable slopes may remain.
+
+**Slope processes.** These include rockfalls, scree movement, landslides, earthflows, slow soil movement and avalanches. Their intensity depends on slope angle, rock fracturing, water saturation, seasonal freezing and earthquakes. Roads, slope cuts, excessive grazing and drainage changes may increase vulnerability.
+
+**Karst.** In areas of soluble rocks—especially limestone, dolomite and gypsum—water forms cavities, sinkholes, swallow holes, underground channels and springs. Karst affects surface stability and groundwater regimes. Not every depression is a karst feature; its origin must be confirmed by geological and hydrogeological evidence.
+
+### 18.8. Glacial Landforms
+
+| Landform | Description |
+|---|---|
+| Cirque | Bowl-shaped hollow in the upper part of a mountain slope, carved by a glacier |
+| Glacial basin | Large amphitheatre-shaped hollow; terminology may overlap with cirque |
+| Glacial trough | Broad U-shaped valley deepened by a glacier |
+| Rock threshold | Bedrock step or sill in a glacial valley |
+| Moraine | Unsorted debris transported and deposited by a glacier |
+| Firn field | Area of multi-year granular snow accumulation in or near the glacier accumulation zone |
+| Hanging valley | Tributary valley whose floor lies above the floor of the main glacial valley |
+| Horn | Sharp pyramidal peak formed where cirques erode a mountain from several sides |
+| Arête | Narrow sharp ridge between adjacent cirques or glacial valleys |
+
+Mapping must distinguish modern glaciers, ancient moraine complexes and landforms created by combined glacial and fluvial processes. Glacier boundaries change; their area and outlines must therefore include the date of satellite or field observation.
+
+### 18.9. River Valleys, Terraces and Alluvial Fans
+
+Mountain rivers in Kyrgyzstan often have high stream power. In their upper reaches, vertical erosion dominates and creates narrow gorges and canyons. In middle and lower reaches, floodplains widen and alluvial deposits accumulate.
+
+**River terraces** are step-like surfaces along the sides of a modern valley. They may reflect changes in base level, climate, discharge and tectonic movement. Terrace age cannot be determined from height alone; stratigraphic, geomorphological and, where possible, geochronological evidence is needed.
+
+An **alluvial fan** forms where a stream emerges from a narrow mountain gorge onto a gentler surface and loses transport capacity. Fans are often fan-shaped, with coarse material near the apex and finer sediment towards the margins. They may be fertile but are also exposed to debris flows and sudden channel shifts.
+
+### 18.10. Mineral Resources and Geological Setting
+
+Kyrgyzstan's mineral resources are linked to diverse geological complexes and igneous, hydrothermal, sedimentary and metamorphic processes. Known resources include gold, antimony, mercury, tin, tungsten, rare metals, coal, construction materials and other minerals.
+
+Important geological regions include the Central Tien Shan, with gold and polymetallic occurrences associated with intrusive and hydrothermal systems; the Southern and Western Tien Shan, known for antimony–mercury mineralisation and polymetallic occurrences; the Fergana and adjacent regions, with varied metallic and non-metallic resources; and intermontane basins, which contain coal basins, construction materials, clays, sands, gravel and some hydrocarbon occurrences.
+
+Geological prospectivity is not the same as economic viability. Deposit assessment requires information on reserves and resources, ore grade, depth, infrastructure, water balance, environmental constraints and socio-economic consequences. Historical reserve estimates must not be presented as current without stating the date and category.
+
+Mining may disturb land, create tailings facilities, pollute water and generate dust. Tailings-facility stability in seismic areas, control of acid drainage and long-term rehabilitation are particularly important.
+
+### 18.11. Geological Hazards and Monitoring
+
+Kyrgyzstan is exposed to several interconnected natural hazards:
+
+1. **Earthquakes:** active faults and complex tectonic structures create seismic hazards. Seismic risk depends not only on possible earthquake magnitude but also on population density, building quality, ground conditions and infrastructure preparedness.
+2. **Landslides:** occur on slopes with weakened materials and increased pore-water pressure. Triggers may include precipitation, snowmelt, slope cutting and seismic shaking.
+3. **Debris flows and floods:** risk increases during intense rainfall, rapid snow and glacier melt, outburst of temporary water bodies and availability of loose sediment.
+4. **Rockfalls:** common on steep rock slopes, especially during freeze–thaw cycles and earthquakes.
+5. **Avalanches:** occur when unstable snow cover combines with steep slopes and unfavourable weather.
+6. **Glacial lake outburst floods (GLOFs):** may occur when moraine or ice dams fail; lakes and moraine complexes require monitoring.
+7. **Subsidence and karst collapse:** possible in soluble rocks and unconsolidated deposits.
+
+An effective monitoring system combines seismic stations and earthquake catalogues; GNSS geodetic observations and satellite InSAR; optical and radar imagery; meteorological and hydrological stations; automatic water-level and precipitation sensors; field surveys of slopes, moraines and glacial lakes; and hazard, exposure and vulnerability maps.
+
+A hazard map shows the probability and intensity of a natural process; a risk map additionally accounts for people, buildings, infrastructure and their vulnerability. These terms are not interchangeable.
+
+### 18.12. Field and Geomorphological Methods
+
+Geological and geomorphological study of mountain terrain combines complementary stages.
+
+**Desk study:** analyse topographic and geological maps, digital elevation models, satellite imagery, archival information and scientific literature.
+
+**Fieldwork:** describe outcrops, identify lithology, measure bedding and structural orientation, map faults and landforms, record GNSS coordinates, take photographs and collect samples while following safety and permitting rules.
+
+**Office analysis:** construct geological cross-sections and digital elevation models; map slope and aspect; analyse river basins; interpret imagery; validate field observations; and prepare metadata.
+
+For reproducibility, each observation should include date, coordinates, coordinate system, measurement method, author, uncertainty description and source references. Sampling in protected areas, archaeological sites and private land must follow applicable regulations.
+
+### 18.13. Elevation-Related Geomorphological Belts
+
+The elevation limits of natural and geomorphological belts vary with latitude, slope aspect, continentality and local orography. The following is therefore a qualitative scheme rather than a universal altitude classification.
+
+| Belt | Dominant landforms and processes |
+|---|---|
+| Foothills and low mountains | Erosional valleys, alluvial fans, loess-like and proluvial deposits |
+| Middle mountains | Deeply incised river valleys, landslides, scree and structural ridges |
+| High mountains | Steep slopes, frost weathering, cirques, troughs and moraines |
+| Nival–glacial belt | Glaciers, firn fields, rock walls, avalanche and rockfall processes |
+
 ## 18.14. Практические работы / Practical Activities
+
+### English Practical Activities
+
+**1. Orographic map of Kyrgyzstan.** Using a verified topographic or digital elevation dataset, identify the major ranges, intermontane basins, valleys and highest peaks. State the coordinate system, elevation source and date.
+
+**2. Geological cross-section.** Prepare a conceptual cross-section from the northern foothills across the Inner Tien Shan towards the southern mountain belts. Identify folds, faults, thrusts, basement rocks and sediment-filled basins. Clearly label it as a conceptual diagram unless supported by geophysical data.
+
+**3. Glacial landform analysis.** Use a satellite image or topographic map to identify cirques, glacial troughs, moraines and hanging valleys. Distinguish present-day glacier outlines from landforms inherited from former glaciation.
+
+**4. River terraces and alluvial fans.** Compare a river valley and an alluvial fan using a map or image. Explain how gradient, sediment supply and discharge influence their formation and identify possible hazards.
+
+**5. Geological-hazard assessment.** Select a settlement or road corridor and identify potential earthquake, landslide, debris-flow, rockfall or avalanche hazards. Separate hazard, exposure and vulnerability; do not make a site-safety conclusion from a regional map alone.
+
+**6. Comparing elevation data.** Compare two elevation datasets for the same mountain area. Check resolution, vertical datum, date, source and possible artefacts. Explain how differences may affect calculated slope and watershed boundaries.
+
+
 
 ### Практическая работа 1. Орографическая карта Кыргызстана
 На контурной карте обозначьте основные горные системы, 10–12 главных хребтов, межгорные впадины и три высочайшие вершины. Разными условными знаками покажите государственную границу, водоразделы и ледниковые районы. Составьте легенду и укажите источник карты.
@@ -344,6 +911,25 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 
 ## 18.16. Контрольные вопросы / Review Questions
 
+### English Review Questions
+
+1. Which two major mountain systems extend into Kyrgyzstan?
+2. How does geographic regionalisation differ from tectonic regionalisation?
+3. Which geological processes contributed to the formation of the modern Tien Shan?
+4. Why do the boundaries of geological terranes not always coincide with geographic mountain regions?
+5. Which ranges frame the Issyk-Kul Basin?
+6. Which summit is the highest in Kyrgyzstan?
+7. Why should the elevation of Khan Tengri specify whether the rock summit or ice cap is measured?
+8. How do intermontane basins form?
+9. Which processes create glacial cirques, troughs and moraines?
+10. How do river terraces and alluvial fans form?
+11. Which mineral resources are associated with the geological diversity of Kyrgyzstan?
+12. How does a hazard map differ from a risk map?
+13. Which data are needed to assess the potential impact of a glacial lake outburst flood?
+14. Why must geological-resource estimates state their date and classification?
+
+
+
 1. Почему географическое и тектоническое районирование Тянь-Шаня не совпадают полностью?
 2. Какие процессы определили палеозойскую структуру горной области?
 3. Как столкновение Индийской и Евразийской плит повлияло на современный Тянь-Шань?
@@ -368,23 +954,81 @@ The Paleozoic evolution involved ocean-basin development and closure, arc accret
 3. **Геологическая карта Кыргызстана.** Возрастные комплексы пород, интрузивные тела, четвертичные отложения и главные структурные линии. Использовать официальную геологическую легенду, не упрощая стратиграфию до произвольных цветов.
 4. **Поперечный геологический разрез Тянь-Шаня.** От северных предгорий через внутренние хребты к южным горным поясам; показать складки, надвиги, фундаменты и межгорные бассейны. Разрез должен быть концептуальным, не выдавать его за точную геофизическую модель.
 5. **Орографическая карта главных хребтов.** Чётко различить Северный, Внутренний, Центральный и Западный Тянь-Шань и Памиро-Алай. Указать названия хребтов и высшие вершины только после проверки.
-6. **Панорама высочайших вершин.** Жеңиш, Хан-Тенгри и Ибн Сина. Указать высоты с пояснением скальная вершина/ледниковая шапка и не изображать вершины в едином масштабе без вертикальной шкалы.
+6. **Панорама высочайших вершин.** Жеңиш, Хан-Тенгри и пик Ленина (в Таджикистане — Абу Али ибн Сино). Указать высоты с пояснением скальная вершина/ледниковая шапка и не изображать вершины в едином масштабе без вертикальной шкалы.
 7. **Схема ледниковых форм.** Кар, цирк, трог, морены, фирновое поле, висячая долина, рог и ригель. Использовать разрез и перспективный блок-диаграмму с правильными подписями.
 8. **Геоморфология речной долины.** V-образная верхняя долина, водопад/порог, пойма, террасы, конус выноса и селевой канал; показать направление потока и перенос осадков.
 9. **Карта природных геологических опасностей.** Землетрясения, оползни, сели, лавины, обвалы и ледниковые озёра. Отдельно показать опасность и экспозицию, не смешивать их в один индекс без методики.
 10. **Минерагеническая схема.** Крупные рудные районы и типы полезных ископаемых без заявления о точных запасах. Для каждого слоя указать дату, источник и статус данных.
 
+
+**General visual style:** premium scientific cartography; dark navy for title and overview panels, white or light backgrounds for main maps, and gold only for accent lines and key summits. All geographic names must be manually edited. Do not generate labels automatically inside images: add names, numbers, legends and scale bars during vector layout.
+
+1. **Physical-geographical map of Kyrgyzstan.** Use hillshade, elevation hypsometry, the state boundary, major ranges, basins, rivers and peaks. Include scale, north arrow, coordinate reference system and DEM source.
+2. **Tectonic diagram of the Tien Shan.** Show major terranes, sutures and large faults, including the Talas-Fergana Fault. Include a legend and a note that regional tectonic models may differ.
+3. **Geological map of Kyrgyzstan.** Show age-based rock units, intrusive bodies, Quaternary deposits and major structural lines. Use an official geological legend; do not reduce stratigraphy to arbitrary colours.
+4. **Geological cross-section of the Tien Shan.** Extend from the northern foothills through the inner ranges to the southern mountain belts; show folds, thrusts, basement rocks and intermontane basins. The section must be labelled conceptual and must not be presented as a precise geophysical model.
+5. **Orographic map of the main ranges.** Clearly distinguish the Northern, Inner, Central and Western Tien Shan and the Pamir-Alay. Verify all range names and highest peaks before labelling.
+6. **Panorama of the highest peaks.** Include Jengish Chokusu, Khan Tengri and Lenin Peak (Abo Ali ibn Sino in Tajikistan). State elevations and distinguish the rock summit from the ice cap; do not depict peaks at a common scale without a vertical scale.
+7. **Glacial landform diagram.** Show a cirque, trough, moraine, firn field, hanging valley, horn and rock step. Use a cross-section and perspective block diagram with correct labels.
+8. **River-valley geomorphology.** Show a V-shaped upper valley, waterfall or bedrock step, floodplain, river terraces, alluvial fan and debris-flow channel; indicate flow direction and sediment transport.
+9. **Natural geological-hazard map.** Show earthquakes, landslides, debris flows, avalanches, rockfalls and glacial lakes. Distinguish hazard from exposure; do not combine them into one index without a stated method.
+10. **Mineral-resource schematic.** Show major mineral districts and resource types without claiming exact reserves. State the date, source and data status for every layer.
+
 ## 18.18. Научные редакционные примечания / Scientific Editorial Notes
 
 1. **Терминология горных районов.** В литературе различаются географические, орографические и тектонические схемы районирования. На всех картах необходимо указывать используемую классификацию.
-2. **Высоты вершин.** Значения 7 439 м для Жеңиш, 6 995 м для скального Хан-Тенгри (около 7 010 м с ледниковой шапкой) и около 7 134 м для пика Ибн Сина являются широко используемыми справочными ориентирами. Перед выпуском финальной карты требуется сверка с актуальными официальными топографическими источниками.
+2. **Высоты вершин.** Значения 7 439 м для Жеңиш, 6 995 м для скального Хан-Тенгри (около 7 010 м с ледниковой шапкой) и около 7 134 м для пика Ленина (в Таджикистане — Абу Али ибн Сино) являются широко используемыми справочными ориентирами. Перед выпуском финальной карты требуется сверка с актуальными официальными топографическими источниками.
 3. **Высоты хребтов.** Табличные максимумы являются ориентировочными; в разных источниках могут различаться контуры хребтов и названия высших точек. Не следует превращать такие значения в точные ранжированные рейтинги без унифицированного набора данных.
 4. **Таласо-Ферганский разлом.** Его геометрия, кинематика и суммарное смещение являются предметом научных исследований. В атласе следует избегать представления одной оценки смещения как бесспорной.
 5. **Минеральные ресурсы.** Различать запасы, ресурсы, прогнозные ресурсы, проявления и исторические оценки. Указывать год и классификационную систему.
 6. **Геологические опасности.** Не обозначать населённые пункты как «безопасные» только на основании отсутствия зарегистрированных событий. Отсутствие данных не равно отсутствию опасности.
 7. **Границы и топонимы.** Все пограничные линии, официальные названия и транслитерации сверять с государственными картографическими материалами и редакционным стандартом атласа.
 
+### 18.11.2. Как различать оползни, обвалы и сели / Distinguishing Landslides, Rockfalls and Debris Flows
+
+В горах опасные склоновые и русловые процессы могут иметь сходные последствия, но различаются механизмом движения и необходимыми мерами защиты. **Оползень** — смещение грунта или пород по поверхности скольжения. **Обвал или камнепад** — быстрое отделение и падение блоков или камней. **Сель** — быстрый поток воды, насыщенный обломочным материалом, движущийся по руслу.
+
+Для оценки опасности изучают источник материала, возможную траекторию, скорость и дальность распространения, сезонность, осадки и снеготаяние, состояние склонов и русел. Один участок может подвергаться нескольким процессам одновременно или последовательно.
+
+Защитная стена от камнепада не обязательно защитит от селя; укрепление склона не решит проблему паводка в русле. Выбор мер требует правильного определения процесса и инженерной оценки. При признаках активного движения нельзя приближаться к склону, руслу или зоне накопления обломков.
+
+**Задание.** Для трёх ситуаций — трещины и смещение грунта, свежие следы падения камней, грязекаменный поток в русле — определите вероятный процесс, необходимые наблюдения и подходящие категории защитных мер.
+
+In mountain terrain, slope and channel hazards may have similar consequences but differ in their movement mechanisms and required protection. A **landslide** is the movement of soil or rock along a slip surface. A **rockfall** is the rapid detachment and fall of blocks or stones. A **debris flow** is a rapid flow of water mixed with sediment and rock fragments moving through a channel.
+
+Assessment examines source material, possible path, speed and runout distance, seasonality, rainfall and snowmelt, and the condition of slopes and channels. One location may be exposed to several processes at once or in sequence.
+
+A rockfall barrier will not necessarily protect against a debris flow; slope stabilisation will not solve a flood-channel problem. Measures require correct process identification and engineering assessment. If active movement is suspected, do not approach the slope, channel or debris accumulation zone.
+
+**Activity.** For three situations—ground cracks and displacement, fresh rockfall deposits, and a muddy debris flow—identify the likely process, observations needed and suitable categories of protective measures.
+
+### 18.18.1. Как читать карту геологической опасности / Reading a Geological-Hazard Map
+
+Карта геологической опасности показывает пространственное распределение потенциально опасных процессов или их интенсивности при заданных условиях. Она не является картой гарантированных будущих разрушений. Для правильного прочтения необходимо выяснить, что именно отображено: наличие прошлых событий, восприимчивость территории, расчётная интенсивность или вероятность превышения заданного порога за определённый период.
+
+**Проверьте легенду и основу карты:** тип процесса (оползень, селевой поток, обвал, землетрясение); временной горизонт; масштаб; источник инвентаризации; метод моделирования; единицы и классы; дату данных. Карта, составленная по зарегистрированным событиям, может недооценивать плохо обследованные районы. Модель восприимчивости показывает относительную склонность территории к процессу, но не обязательно задаёт частоту или дату события.
+
+**От опасности к риску.** Чтобы оценить риск, карту опасности сопоставляют с населением, зданиями, дорогами, инженерными сетями и уязвимостью объектов. При этом масштаб слоёв должен быть совместимым: грубая региональная карта не подходит для решения о безопасности конкретного дома или участка дороги без детального обследования.
+
+**Учебное задание.** Представьте карту восприимчивости к оползням и слой населённых пунктов. Определите, какие населённые пункты расположены в зонах повышенной восприимчивости. Затем перечислите данные, необходимые для перехода от такого предварительного наложения к инженерной оценке риска.
+
+A geological-hazard map shows the spatial distribution of potentially hazardous processes or their intensity under specified conditions. It is not a map of guaranteed future damage. To interpret it correctly, establish what it represents: past events, terrain susceptibility, modelled intensity or the probability of exceeding a threshold during a stated period.
+
+**Check the legend and map basis:** process type (landslide, debris flow, rockfall, earthquake); time horizon; scale; inventory source; modelling method; units and classes; and data date. A map based on recorded events may underestimate poorly surveyed areas. A susceptibility model indicates relative terrain propensity but does not necessarily provide event frequency or timing.
+
+**From hazard to risk.** Risk assessment combines the hazard map with population, buildings, roads, utilities and asset vulnerability. Map scales must be compatible: a coarse regional map cannot determine the safety of an individual house or road segment without detailed investigation.
+
+**Activity.** Imagine a landslide-susceptibility map and a settlement layer. Identify settlements in areas of elevated susceptibility. Then list the data needed to move from this preliminary overlay to an engineering risk assessment.
+
 ## 18.19. Итоги главы / Chapter Summary
+
+### English Chapter Summary
+
+Kyrgyzstan is a mountainous country whose geological and geomorphological structure reflects a long Palaeozoic history, Cenozoic reactivation of tectonic structures and the continuing interaction of endogenic and exogenic processes. The Tien Shan and Pamir-Alay contain diverse mountain belts, intermontane basins, high plateaus and glaciated massifs.
+
+Modern relief is shaped by tectonics, weathering, river erosion, glaciers, slope processes and karst. These processes create distinctive landscapes and also generate natural hazards. Geological resources are economically important, but their development requires evidence-based assessment of risks and environmental consequences.
+
+
 
 Кыргызстан — горная страна, геологический и геоморфологический облик которой сформировался в результате длительной палеозойской эволюции, кайнозойской реактивации тектонических структур и продолжающегося взаимодействия эндогенных и экзогенных процессов. Тянь-Шань и Памиро-Алай объединяют разнообразные горные пояса, межгорные впадины, высокогорные плато и ледниковые массивы.
 
@@ -397,12 +1041,20 @@ Kyrgyzstan’s relief reflects a long Paleozoic tectonic history, Cenozoic react
 1. Kyrgyzstan Geoportal. **About Geology — Geology of Kyrgyzstan.** https://geoportal-kg.org/about-geology/ (справочный обзор геологического строения; дата обращения должна быть указана при финальной редактуре).
 2. Buslov, M. M., De Grave, J., Bataleva, E. A. V., & Batalev, V. Yu. (2007). **Cenozoic tectonic and geodynamic evolution of the Kyrgyz Tien Shan Mountains: A review of geological, thermochronological and geophysical data.** *Journal of Asian Earth Sciences*, 29(2–3), 205–214. https://doi.org/10.1016/j.jseaes.2006.07.001
 3. Macaulay, E. A., et al. (2014). **Cenozoic deformation and exhumation history of the Central Kyrgyz Tien Shan.** *Tectonics*. https://doi.org/10.1002/2013TC003376
-4. Konopelko, D., et al. (2017). **Ore geology and tectonic setting of the western Tien Shan.** *Ore Geology Reviews*, 86, 537–547. (Использовать оригинальную публикацию и её библиографические данные при подготовке окончательного списка.)
-5. Geological evolution of Central Asian Basins and the Western Tien Shan Range. Geological Society, London, Special Publications (2017). https://doi.org/ (точный DOI и редакторов уточнить по каталогу издания перед печатью).
+4. Konopelko, D., Klemd, R., Petrov, S. V., Apayarov, F., Nazaraliev, B., Vokueva, O., Scherstén, A., & Sergeev, A. N. (2017). **Precambrian gold mineralization at Djamgyr in the Kyrgyz Tien Shan: Tectonic and metallogenic implications.** *Ore Geology Reviews*, 86, 537–547. https://doi.org/10.1016/j.oregeorev.2017.03.007
+5. Brunet, M.-F., McCann, T., & Sobel, E. R. (Eds.). (2017). **Geological Evolution of Central Asian Basins and the Western Tien Shan Range.** Geological Society, London, Special Publications, 427. https://doi.org/10.1144/SP427
 6. Kudriavtseva, et al. (2023). **Neogene aridification and lake development in the Issyk-Kul basin, Kyrgyzstan.** *Basin Research*. https://doi.org/10.1111/bre.12751
 7. Kyrgyzjer.com. **List of some mountain ranges in the country with their highest peaks.** https://www.kyrgyzjer.com/en/kg/section29/section261/3337.html (справочная таблица; высоты требуют независимой проверки).
 8. AUCA. **Geography of Kyrgyzstan**, раздел “Geology and relief”. https://dspace.auca.kg/bitstream/123456789/2744/1/Book%20Geodgraphiy%20of%20Kyrgyzstan.pdf (учебный источник для региональной орографии).
 9. Для окончательной картографической версии: официальные государственные топографические и геологические карты Кыргызской Республики, актуальные цифровые модели рельефа и материалы профильных геологических и сейсмологических учреждений.
+10. Department of Tourism under the Ministry of Economy and Commerce of the Kyrgyz Republic. **About Kyrgyzstan** (official tourism page; uses Lenin Peak, 7,134 m). https://tourism.gov.kg/about-kyrgyzstan/
+11. UK Permanent Committee on Geographical Names. **Kyrgyzstan Toponymic Factfile**, 2025 (romanised names for Lenin Atyndagy Choku, Jengish Chokusu and Khan Tengri). https://assets.publishing.service.gov.uk/media/68dfa392c487360cc70ca0ba/Kyrgyzstan_Toponymic_Factfile.pdf
+12. UNESCAP. **Current state of land statistics and its relevant challenges in leveraging statistical and geospatial data in Central Asia.** December 2020, section 5.1.2, pp. 15–16 (Kyrg-06/ITRF-2005, 1977 Baltic Height System and legacy SK-42 mapping). https://www.unescap.org/sites/default/d8files/knowledge-products/Analytical%20Report_Current%20state%20of%20land%20statistics%20and%20its%20relevant%20challenges%20in%20leveraging%20statistical%20and%20geospatial%20data%20in%20Central%20Asia%20_ENG_0.pdf
+13. Kyrgyz Republic Aeronautical Information Publication. **GEN 2.1, Measuring System and Geodetic Reference Datum**, effective 6 August 2026, sections 3–4. https://ais.ansp.kg/eaip/2026-08-06-AIRAC/html/eAIP/UC-GEN-2.1-en-GB.html
+14. Central-Asian Institute for Applied Geosciences (CAIAG). **Kyrg_AsterTM2_DEM_utm — GeoNode layer metadata** (ASTER GDEM 30 m; published 10 December 2021; licence unspecified). https://geonode.caiag.kg/layers/geonode:Kyrg_AsterTM2_DEM_utm/metadata_detail
+15. Regional Environmental Centre for Central Asia (CAREC). **RESILAND Kyrgyz Republic Strengthens the Capacity of the Department for Monitoring and Forecasting of Emergency Situations through Acquisition of Digital Elevation Models.** 16 April 2026. https://carececo.org/en/main/news/news/proekt-resiland-kyrgyzstan-usilivaet-potentsial-dmpchs-priobreteny-tsifrovye-modeli-relefa/
+16. Ministry of Natural Resources, Ecology and Technical Supervision of the Kyrgyz Republic. **Ministry and the M. M. Adyshev Institute of Geology initiate publication of the Atlas of Geological Maps of Kyrgyzstan.** 11 March 2026. https://mnr.gov.kg/ky/posts/news/minprirody-iniciiruet-izdanie-atlasa-geologiceskix-kart-kyrgyzstana
+17. Central-Asian Institute for Applied Geosciences (CAIAG). **Glaciology** (historical glacier-catalogue and map limitations). https://caiag.kg/en/2/142-glaciology
 
 ---
 **Статус главы / Chapter status:** содержательная редакция подготовлена для научной проверки, унификации топонимов, уточнения высот и последующей картографической вёрстки.  

@@ -1,7 +1,7 @@
 # Глава 3. Литосфера и геологические процессы
 # Chapter 3. Lithosphere and Geological Processes
 
-> **Статус:** рабочая текстовая редакция. Требуются научная сверка численных параметров, редактура, иллюстрации и финальная вёрстка.
+> **Статус:** текстовая научно-редакторская и внутренняя научная проверка всех 13 визуалов завершены; все 13 ID встроены в русскую и английскую части. Проверки целостности и изолированного браузерного предпросмотра пройдены (26/26 изображений при ширине 390 и 1365 px). До публикационной готовности остаются документальное подтверждение прав и лицензии 10 локальных SVG, полноценная проверка доступности и проверка в производственном читателе.
 > **Языки:** русский / English.
 
 ## Введение / Introduction
@@ -12,7 +12,7 @@
 
 ## 3.1. Внутреннее строение Земли / Internal Structure of Earth
 
-Внутреннее строение Земли изучают по прямым образцам горных пород, геофизическим измерениям и прежде всего по распространению сейсмических волн. Земные недра невозможно исследовать непосредственно на больших глубинах, поэтому значительная часть знаний основана на физических моделях.
+Внутреннее строение Земли изучают по образцам горных пород, геофизическим измерениям и прежде всего по распространению сейсмических волн. Земные недра невозможно исследовать непосредственно на больших глубинах, поэтому значительная часть знаний основана на физических моделях.
 
 ### 3.1.1. Химическое строение / Chemical Composition
 
@@ -47,7 +47,11 @@
 - Внутреннее ядро занимает центральную область планеты.
 - Температура и давление возрастают с глубиной; оценки температуры внутренних областей имеют диапазоны и зависят от моделей.
 
-**Место для иллюстрации 3.1-A — Earth's Internal Structure.** Масштабный разрез Земли с указанием коры, литосферы, астеносферы, мантии, внешнего и внутреннего ядра; глубины границ и схематический температурный профиль. Подписи на русском и английском.
+**Иллюстрация 3.1-A — Внутреннее строение Земли / Earth's Internal Structure.**
+
+![Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера. / Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished.](../assets/03-1-A-earth-interior-bilingual.svg)
+
+*Схема не в масштабе. Мантия и астеносфера показаны как преимущественно твёрдые, способные к медленной деформации материалы; химические и механические классификации слоёв различаются. / Not to scale. The mantle and asthenosphere are shown as predominantly solid materials capable of slow deformation; compositional and mechanical layer classifications are distinct.*
 
 ## 3.2. Минералы и их свойства / Minerals and Their Properties
 
@@ -92,8 +96,8 @@
 | Кварц | SiO₂ | Распространён в магматических, осадочных и метаморфических породах |
 | Ортоклаз | KAlSi₃O₈ | Полевой шпат, важный компонент гранитов |
 | Плагиоклаз | NaAlSi₃O₈–CaAl₂Si₂O₈ | Группа полевых шпатов |
-| Биотит | Сложный алюмосиликат K, Mg, Fe | Тёмная слюда |
-| Мусковит | Сложный алюмосиликат K, Al | Светлая слюда |
+| Биотит | K(Mg,Fe)₃AlSi₃O₁₀(OH,F)₂ (обобщённая формула) | Тёмная слюда; состав изменяется |
+| Мусковит | KAl₂(AlSi₃O₁₀)(OH)₂ (упрощённая формула) | Светлая слюда |
 | Кальцит | CaCO₃ | Основной минерал многих известняков |
 | Доломит | CaMg(CO₃)₂ | Характерен для доломитовых пород |
 | Оливин | (Mg,Fe)₂SiO₄ | Типичен для многих основных и ультраосновных пород |
@@ -102,7 +106,11 @@
 
 Формулы некоторых минералов отражают переменный состав твёрдых растворов и приведены в обобщённой форме.
 
-**Место для иллюстрации 3.2-A — Mineral Identification Board.** Девять–десять образцов минералов с корректными названиями, формулами и шкалой Мооса; фотографии или реалистичные образцы без ошибочных подписей.
+**Иллюстрация 3.2-A — Образцы минералов / Mineral Identification Board.**
+
+![Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита, кварцевого песка и других минералов. / Specimens of chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite, quartz sand and other minerals.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+
+*Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость минералов приведены в таблице главы; фото служат для визуального распознавания, а не определения по одному цвету. / Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Mineral formulae and hardness are provided in the chapter table; photographs support visual recognition, not identification by colour alone.*
 
 ## 3.3. Горные породы и круговорот пород / Rocks and the Rock Cycle
 
@@ -142,7 +150,11 @@
 
 Любая группа пород может переходить в другую через выветривание, эрозию, осадконакопление, погружение, метаморфизм, плавление и кристаллизацию. Круговорот не является замкнутым циклом с обязательным единым порядком: геологические пути разнообразны.
 
-**Место для иллюстрации 3.3-A — The Rock Cycle.** Диаграмма взаимных переходов трёх групп пород с процессами выветривания, осадконакопления, метаморфизма, плавления и кристаллизации.
+**Иллюстрация 3.3-A — Круговорот горных пород / The Rock Cycle.**
+
+![Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования. / Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes.](../assets/03-3-A-rock-cycle-bilingual.svg)
+
+*Учебная схема, упрощённая по материалам USGS, Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл. / Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle.*
 
 ## 3.4. Минералогия, петрография и методы геологических исследований / Mineralogy, Petrography and Geological Methods
 
@@ -165,15 +177,21 @@
 | Рентгенофлуоресцентный анализ (XRF) | Элементный химический состав |
 | Масс-спектрометрия | Изотопный и элементный состав |
 | Электронная микроскопия | Микроструктуру и химические особенности |
-| Геохронология | Возраст минералов и геологических событий |
+| Геохронология | Численный возраст минералов и геологических событий по изотопным и другим датирующим системам |
+| Термохронология | История нагревания и охлаждения пород по температурно-зависимому поведению изотопных систем и других геологических индикаторов |
 
-Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому выбор метода датирования зависит от геологического вопроса и типа образца.
+Геохронология и термохронология отвечают на связанные, но разные вопросы: первая помогает определить возраст минерала или события, а вторая — восстановить температурную историю породы. Термохронологические данные позволяют оценивать историю охлаждения и вместе с геологическими данными помогают ограничивать время и скорость эксгумации — постепенного выведения пород к поверхности. Возраст породы и возраст события, которое её изменило, могут различаться. Поэтому метод выбирают с учётом геологического вопроса, типа образца и истории породы.
 
 ### 3.4.3. Геофизические методы / Geophysical Methods
 
 Сейсмические исследования, гравиметрия, магнитометрия и электрические методы позволяют изучать строение недр без непосредственного отбора образцов на каждой глубине.
 
-**Место для иллюстрации 3.4-A — Geological Research Toolkit.** Полевой геолог, образец породы, тонкий шлиф под микроскопом, дифрактограмма и геофизический профиль.
+**Иллюстрация 3.4-A — Методы геологических исследований / Geological Research Toolkit.**
+
+![Полевые наблюдения, образец породы, тонкий шлиф, рентгеновская дифрактограмма с осями интенсивности и угла 2θ, а также геофизический профиль с аномалией. / Field observations, rock specimen, thin section, X-ray diffraction pattern with intensity and 2θ axes, and geophysical profile showing an anomaly.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+
+*Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов. / Methods complement one another; each addresses a different set of research questions.*
+**EN:** Show a field geologist, a rock sample, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile.
 
 ## 3.5. Тектоника литосферных плит / Plate Tectonics
 
@@ -181,7 +199,7 @@
 
 ### 3.5.1. Движение плит / Plate Motion
 
-Литосферные плиты движутся со скоростями обычно от нескольких миллиметров до нескольких сантиметров в год. Движение связано с тепловой эволюцией Земли и динамикой мантии; важную роль играют тяга погружающейся плиты и силы, действующие в области срединно-океанических хребтов.
+Литосферные плиты движутся с разными скоростями: от менее 1 см/год до более 15 см/год в отдельных районах; многие участки движутся на несколько сантиметров в год. Скорость зависит от конкретной плиты, направления движения и геологического периода. Движение связано с тепловой эволюцией Земли и динамикой мантии. Среди взаимодействующих факторов обычно выделяют мантийную конвекцию, тягу погружающейся плиты и гравитационное отталкивание плит от приподнятых срединно-океанических хребтов. Их относительная роль различается в зависимости от региона и системы плит.
 
 ### 3.5.2. Типы границ плит / Types of Plate Boundaries
 
@@ -189,7 +207,7 @@
 - **Конвергентные:** плиты сближаются; возможны субдукция, вулканические дуги и горообразование.
 - **Трансформные:** плиты смещаются вдоль границы; часто возникают землетрясения.
 
-Не всякая конвергентная граница сопровождается вулканизмом. Например, столкновение двух континентальных плит может приводить к утолщению коры и формированию высоких горных систем.
+В учебной классификации выделяют три основных типа границ плит. В некоторых регионах взаимодействие распределено по широкой деформируемой зоне, а не сосредоточено на узкой границе. Не всякая конвергентная граница сопровождается вулканизмом. Например, столкновение двух континентальных плит может приводить к утолщению коры и формированию высоких горных систем.
 
 ### 3.5.3. Континентальный дрейф и доказательства / Continental Drift
 
@@ -201,7 +219,11 @@
 - возраст океанической коры;
 - современные геодезические измерения движения плит.
 
-**Место для иллюстрации 3.5-A — Global Plate Tectonic Map.** Карта основных литосферных плит с дивергентными, конвергентными и трансформными границами. Геометрия границ должна быть проверена по авторитетной геологической карте.
+**Иллюстрация 3.5-A — Карта тектонических плит мира / Global Plate Tectonic Map.**
+
+![Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006). / World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+
+*Источник: USGS, Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Карта — научно-учебный обзор 2006 года, а не актуальная карта современной сейсмичности; она подходит для изучения общей конфигурации плит и границ. / Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map; it is suitable for studying the general plate and boundary configuration.*
 
 ## 3.6. Землетрясения / Earthquakes
 
@@ -209,7 +231,7 @@
 
 ### 3.6.1. Очаг и эпицентр / Focus and Epicentre
 
-- **Очаг (focus, hypocentre):** область в недрах, где начинается разрыв и высвобождение энергии.
+- **Очаг (hypocentre, focus):** точка в недрах, где начинается разрыв и высвобождение энергии; на учебных схемах его иногда условно показывают как небольшую область.
 - **Эпицентр (epicentre):** точка на поверхности Земли непосредственно над очагом.
 - **Разлом (fault):** трещинная зона, вдоль которой происходило или может происходить смещение пород.
 
@@ -223,13 +245,80 @@
 
 Магнитуда характеризует размер землетрясения на основе инструментальных измерений. Моментная магнитуда (Mw) широко используется для оценки крупных землетрясений. Интенсивность описывает наблюдаемые эффекты и разрушения в конкретном месте; она может различаться в пределах одного события.
 
-Магнитуда не является линейной шкалой: увеличение на одну единицу соответствует примерно 32-кратному росту выделившейся сейсмической энергии.
+Магнитуда не является линейной шкалой: увеличение на одну единицу соответствует примерно десятикратному увеличению амплитуды сопоставимой записи и примерно 32-кратному росту выделившейся сейсмической энергии.
 
 ### 3.6.4. Сейсмический риск / Seismic Risk
 
 Риск определяется не только вероятностью землетрясения, но и уязвимостью зданий, плотностью населения, качеством инфраструктуры и готовностью к чрезвычайным ситуациям. Сейсмическая опасность не может быть устранена, но последствия можно уменьшить с помощью норм строительства, инженерной оценки и подготовки населения.
 
-**Место для иллюстрации 3.6-A — Anatomy of an Earthquake.** Разрез с разломом, очагом, эпицентром и типами сейсмических волн.
+**Иллюстрация 3.6-A — Строение землетрясения / Anatomy of an Earthquake.**
+
+![Разрез с разломом, очагом, эпицентром и путями P- и S-волн; вставки показывают продольное движение частиц в P-волне и поперечное движение в S-волне. / Cross-section showing the fault, hypocentre, epicentre and P- and S-wave paths; insets distinguish particle motion parallel to P-wave travel and perpendicular to S-wave travel.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+
+*Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте. / Schematic; magnitude characterises source size, while intensity describes shaking effects at a location.*
+**EN:** Cross-section showing a fault, hypocentre (focus), epicentre and the main types of seismic waves.
+
+### 3.6.5. Как определяют положение эпицентра / How the Epicentre Is Located
+
+Сейсмостанция регистрирует колебания грунта в виде сейсмограммы. На записи обычно можно различить приход более быстрых P-волн и более медленных S-волн. Чем дальше станция от очага, тем, как правило, больше временной интервал между приходом этих волн.
+
+**От разницы времени к расстоянию.** Специалисты используют кривые времени пробега сейсмических волн или вычислительные модели, чтобы перевести интервал между P- и S-волнами в оценку расстояния до очага. Нельзя применять одну постоянную скорость ко всем волнам и всем глубинам: скорость зависит от свойств и строения пород.
+
+**Трилатерация (определение по расстояниям).** Если известны расстояния от нескольких станций до эпицентра, вокруг каждой станции на карте проводят окружность соответствующего радиуса. Здесь положение определяют по расстояниям, а не по измеренным углам. В идеализированном случае три окружности пересекаются в одной точке. На практике измерения содержат погрешности, поэтому окружности могут не сходиться точно; положение эпицентра определяют методами совместной обработки данных. Для определения глубины очага и параметров разрыва нужны дополнительные наблюдения и более сложные модели.
+
+**Упрощённый учебный пример.** Пусть три станции расположены в разных частях региона, а анализ сейсмограмм дал условные расстояния до эпицентра 40, 65 и 50 км. На карте строят три окружности с этими радиусами. Область их наиболее близкого пересечения показывает примерное положение эпицентра. Эти условные расстояния иллюстрируют геометрический принцип и не описывают реальное землетрясение.
+
+**Почему важна сеть станций.** Одна станция позволяет оценить расстояние, но не задаёт однозначное направление на эпицентр. Несколько станций дают возможность локализовать событие и проверить согласованность измерений. Чем лучше географическое распределение станций и качество временной синхронизации, тем надёжнее результат. Станции, расположенные почти на одной линии, обычно дают менее устойчивую геометрию определения.
+
+**Учебное задание.** Нарисуйте условную карту с тремя сейсмостанциями. Постройте окружности по заданным расстояниям и отметьте область пересечения. Затем измените один радиус на несколько километров и объясните, почему оценка эпицентра смещается. Укажите, почему эта схема не определяет глубину очага.
+
+A seismic station records ground motion as a seismogram. The record usually makes it possible to identify the arrival of faster P-waves and slower S-waves. The farther a station is from the source, the greater the time interval between the arrivals generally becomes.
+
+**From time difference to distance.** Scientists use seismic travel-time curves or computational models to convert the interval between P- and S-wave arrivals into an estimated distance to the source. A single constant velocity cannot be applied to all waves and depths: velocity depends on the properties and structure of the rocks.
+
+**Trilateration (location by distance).** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. The location is determined from measured distances, not from measured angles. In an idealised case, three circles intersect at one point. In practice, measurements contain errors, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Additional measurements and more complex models are needed to determine focal depth and rupture parameters.
+
+**Simplified learning example.** Suppose three stations are located in different parts of a region, and seismogram analysis gives hypothetical distances to the epicentre of 40, 65 and 50 km. Draw three circles with these radii on a map. The area where they come closest to intersecting indicates the approximate epicentre location. These illustrative distances do not describe a real earthquake.
+
+**Why a station network matters.** One station can provide an estimate of distance but cannot uniquely determine the direction to the epicentre. Several stations make it possible to locate the event and check the consistency of measurements. Better geographic distribution and accurate time synchronisation improve reliability. Stations arranged almost along a single line generally provide weaker location geometry.
+
+**Learning activity.** Draw a hypothetical map with three seismic stations. Plot circles using given distances and mark their intersection area. Then change one radius by several kilometres and explain why the estimated epicentre shifts. State why this diagram cannot determine focal depth.
+
+
+
+### 3.6.6. Как читать сейсмограмму и оценивать неопределённость / Reading a Seismogram and Understanding Uncertainty
+
+Сейсмограмма показывает движение грунта во времени, зарегистрированное конкретным прибором в конкретном месте. По горизонтальной оси обычно откладывают время, по вертикальной — амплитуду сигнала или её инструментальную характеристику. Перед сравнением записей необходимо проверить единицы, масштаб времени, частотную характеристику прибора и то, была ли запись скорректирована.
+
+**Основные шаги чтения:**
+
+1. Найдите начало записи и оцените фоновый шум до события.
+2. Определите наиболее ранний уверенный приход P-волны; не принимайте случайный шум за начало сигнала.
+3. Найдите приход S-волны, учитывая, что он может быть менее отчётливым.
+4. Измерьте интервал S–P и используйте подходящую региональную кривую времени пробега, а не универсальную формулу для всех районов.
+5. Сравните результат с данными других станций. Несогласованность может указывать на ошибку чтения, сложное строение земной коры или недостаточную точность модели.
+
+**Амплитуда — не магнитуда сама по себе.** Большая амплитуда на одной записи не означает автоматически более сильное землетрясение: на неё влияют расстояние до очага, глубина, направление распространения волн, местные грунты, тип прибора и настройки регистрации. Магнитуду рассчитывают по стандартизованным методикам с поправками на эти факторы.
+
+**Неопределённость результата.** В каталогах землетрясений положение эпицентра, глубина и магнитуда могут сопровождаться оценками погрешности. Первоначальная автоматическая оценка иногда уточняется после поступления данных дополнительных станций. Поэтому для научного анализа важно указывать версию каталога и время его обновления, а не представлять предварительные координаты как абсолютно точные.
+
+**Практическое задание.** Сравните две учебные сейсмограммы с разными расстояниями S–P. Определите, на какой станции интервал больше, и объясните, почему это обычно указывает на большее расстояние до очага. Затем перечислите не менее трёх причин, по которым амплитуды двух записей нельзя сравнивать напрямую.
+
+A seismogram shows ground motion over time as recorded by a particular instrument at a particular location. Time is usually shown on the horizontal axis and signal amplitude, or an instrument-related measure, on the vertical axis. Before comparing records, check the units, time scale, instrument response and whether the record has been corrected.
+
+**A basic reading sequence:**
+
+1. Identify the beginning of the record and assess background noise before the event.
+2. Mark the earliest reliable P-wave arrival; do not mistake random noise for the signal onset.
+3. Identify the S-wave arrival, which may be less distinct.
+4. Measure the S–P interval and use an appropriate regional travel-time curve rather than a universal formula for every region.
+5. Compare the result with observations from other stations. Disagreement may indicate reading errors, complex crustal structure or limitations in the model.
+
+**Amplitude is not magnitude by itself.** A large amplitude on one record does not automatically mean a stronger earthquake. It is affected by source distance, focal depth, wave-propagation direction, local ground conditions, instrument type and recording settings. Magnitude is calculated using standardised methods that account for these factors.
+
+**Uncertainty in the result.** Earthquake catalogues may include uncertainty estimates for epicentre location, depth and magnitude. An initial automatic estimate may be revised when data from additional stations become available. Scientific analysis should therefore identify the catalogue version and its update time instead of presenting preliminary coordinates as perfectly exact.
+
+**Practical activity.** Compare two teaching seismograms with different S–P intervals. Identify the station with the longer interval and explain why this generally indicates a greater distance from the source. Then list at least three reasons why the amplitudes of the two records cannot be compared directly.
 
 ## 3.7. Вулканизм / Volcanism
 
@@ -246,7 +335,7 @@
 - Щитовые вулканы формируются преимущественно текучими лавами.
 - Стратовулканы состоят из чередующихся лавовых и пирокластических отложений.
 - Шлаковые конусы обычно меньше и состоят главным образом из рыхлых пирокластических материалов.
-- Кальдеры возникают при обрушении крупных вулканических структур после опустошения магматической системы.
+- Кальдеры возникают, когда крупная вулканическая структура обрушивается после значительного выхода или перемещения магмы из неглубокого резервуара. Это не означает, что вся магматическая система обязательно полностью опустошена.
 
 Извержения бывают эффузивными и взрывными; реальный характер может сочетать оба типа.
 
@@ -254,7 +343,12 @@
 
 Опасности включают лавовые потоки, пеплопады, пирокластические потоки, вулканические газы, лахары и оползни вулканических склонов. Пирокластические потоки особенно опасны из-за высокой температуры и скорости движения.
 
-**Место для иллюстрации 3.7-A — Volcano Anatomy and Eruption Hazards.** Разрез вулкана с магматическим очагом, жерлом, кратером и зонами распространения разных опасных явлений.
+**Иллюстрация 3.7-A — Строение вулкана и опасности извержения / Volcano Anatomy and Eruption Hazards.**
+
+![Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками и лахаром. / Volcano cross-section with magma reservoir, conduit, crater, ash fall, lava and pyroclastic flows, and a lahar.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+
+*Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала. / Hazard extents are schematic; lahars are water-rich flows of volcanic material.*
+**EN:** Volcano cross-section showing the magma reservoir, conduit, crater and zones affected by different volcanic hazards.
 
 ## 3.8. Складчатость и разломы / Folding and Faulting
 
@@ -274,11 +368,16 @@
 
 Тип разлома определяется направлением относительного смещения блоков, а не только внешним видом поверхности.
 
-**Место для иллюстрации 3.8-A — Folds and Faults.** Сопоставить антиклиналь, синклиналь, сброс, взброс/надвиг и сдвиг на геологических разрезах.
+**Иллюстрация 3.8-A — Складки и разломы / Folds and Faults.**
+
+![Схематическое сравнение антиклинали, синклинали, сброса, взброса и сдвигового разлома. / Schematic comparison of anticline, syncline, normal, reverse and strike-slip faults.](../assets/03-8-A-folds-faults-bilingual.svg)
+
+*Условные разрезы; направление перемещения показано стрелками и не задаёт универсальную геометрию разломов. / Conceptual sections; arrows indicate movement and do not imply universal fault geometry.*
+**EN:** Compare an anticline, syncline, normal fault, reverse/thrust fault and strike-slip fault using clearly labelled geological cross-sections.
 
 ## 3.9. Геологическое время / Geological Time
 
-Геологическое время охватывает около 4,54 млрд лет истории Земли. Для его изучения применяют относительную и абсолютную геохронологию.
+Геологическая история Земли охватывает около 4,54 млрд лет. В таблице ICS 2026/06 нижняя граница гадея установлена на 4 567,3 ± 0,16 млн лет по возрасту древнейших кальций-алюминиевых включений (CAI) в метеоритах. Это формальная граница, связанная с началом формирования твёрдых тел Солнечной системы, а не точная дата завершения формирования Земли. Для реконструкции геологической истории используют относительную и численную геохронологию.
 
 ### 3.9.1. Относительная геохронология / Relative Dating
 
@@ -288,9 +387,13 @@
 - принцип пересечения: геологическое тело или разлом, пересекающий другое образование, обычно моложе пересекаемого;
 - принцип включений: обломки внутри породы старше породы, которая их содержит.
 
-### 3.9.2. Абсолютная геохронология / Numerical Dating
+### 3.9.2. Численная геохронология / Numerical Dating
 
-Радиометрическое датирование использует закономерный распад радиоактивных изотопов. Метод выбирают в зависимости от возраста, минерала и геологической истории образца. Примеры систем: уран-свинцовая, калий-аргоновая/аргон-аргоновая, рубидий-стронциевая.
+Радиометрическое датирование основано на распаде радиоактивного **материнского изотопа** в **дочерний изотоп** с известной скоростью. Важное понятие — период полураспада: время, за которое распадается половина исходных материнских атомов. Измеряя соотношение материнских и дочерних изотопов, специалисты рассчитывают численный возраст образца.
+
+Метод выбирают с учётом возраста, минерала и геологической истории. Для надёжного результата важно учитывать, сохраняла ли минеральная система изотопы после своего образования: нагревание, метаморфизм, выветривание или потеря вещества могут изменить изотопное соотношение. Поэтому полученная дата часто показывает время кристаллизации минерала или последнего важного события, повлиявшего на его изотопную систему, а не автоматически возраст всей породы.
+
+Магматические минералы и вулканический пепел можно датировать подходящими радиометрическими методами. Многие обломочные осадочные породы нельзя напрямую датировать как единое целое: возраст отдельных зёрен может отражать породу-источник, а не время осадконакопления. Их возраст часто ограничивают по датируемым слоям выше и ниже или по вулканическому пеплу внутри последовательности. Примеры изотопных систем: уран-свинцовая, калий-аргоновая/аргон-аргоновая и рубидий-стронциевая.
 
 ### 3.9.3. Геологическая шкала времени / Geologic Time Scale
 
@@ -303,7 +406,65 @@
 
 Границы геологических подразделений определяются международной стратиграфической шкалой и уточняются по мере развития исследований. В окончательной версии атласа численные даты границ должны быть сверены с актуальной таблицей Международной комиссии по стратиграфии.
 
-**Место для иллюстрации 3.9-A — Geological Time Scale.** Вертикальная временная шкала от формирования Земли до современности; неравномерный масштаб должен быть явно обозначен.
+**Иллюстрация 3.9-A — Международная хроностратиграфическая шкала / International Chronostratigraphic Chart.**
+
+![Официальная международная хроностратиграфическая шкала ICS, версия 2026/06. / Official International Chronostratigraphic Chart, ICS version 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+
+*Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб. / Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale.*
+
+**Как читать шкалу по-русски.** Оригинальная диаграмма ICS опубликована на английском языке. Для чтения её основных уровней используйте соответствия:
+
+| English on chart | Стратиграфическая единица | Соответствующая единица геологического времени |
+|---|---|---|
+| Eonothem / Eon | Эонотема | Эон |
+| Erathem / Era | Эратема | Эра |
+| System / Period | Система | Период |
+| Series / Epoch | Отдел | Эпоха |
+| Stage / Age | Ярус | Век |
+
+Основные эоны: Hadean — гадей; Archean — архей; Proterozoic — протерозой; Phanerozoic — фанерозой. В фанерозое выделяют эры Paleozoic — палеозой, Mesozoic — мезозой и Cenozoic — кайнозой. Названия и численные границы на самой диаграмме оставлены в официальной английской версии ICS; приведённая таблица — краткий русскоязычный ключ, а не полный перевод всех подразделений.
+
+**Reading the chart.** The official ICS graphic is published in English. The table above is a concise Russian key to the hierarchy and the principal eons and eras; it is not a full translation of every period, epoch and age shown in the chart. Use the chart's current version for official names and boundary ages.
+
+
+
+### 3.9.4. Разобранный пример: определение относительного возраста слоёв и интрузии / Worked Example: Establishing the Relative Ages of Layers and an Intrusion
+
+Представим геологический разрез из трёх осадочных слоёв: A находится внизу, B залегает над ним, C — сверху. Магматическое тело D пересекает слои A и B, но не пересекает слой C.
+
+**Шаг 1.** По закону суперпозиции, если последовательность не опрокинута и не нарушена, слой A древнее слоя B, а слой B древнее слоя C.
+
+**Шаг 2.** По принципу пересечения интрузия D моложе слоёв A и B, которые она прорезает.
+
+**Шаг 3.** Поскольку D не пересекает слой C, а C перекрывает участок интрузии, доступные отношения позволяют заключить, что C сформировался после внедрения D.
+
+Итоговая последовательность от древнего к молодому:
+
+\[
+A\;\rightarrow\;B\;\rightarrow\;D\;\rightarrow\;C
+\]
+
+Это относительная последовательность, а не календарные даты. Чтобы определить численный возраст, нужны подходящие образцы и метод датирования. Если слои опрокинуты, разрез разломан или контакты неясны, сначала необходимо установить геологическую структуру.
+
+**Проверьте себя:** разлом пересекает слои A, B и C, но не смещает более молодой слой E, который перекрывает разлом. Что можно сказать о возрасте разлома относительно этих слоёв?
+
+Imagine a geological cross-section with three sedimentary layers: A at the bottom, B above it and C at the top. An igneous body D cuts through layers A and B but does not cut layer C.
+
+**Step 1.** Under the law of superposition, if the sequence has not been overturned or disturbed, layer A is older than B, and B is older than C.
+
+**Step 2.** Under the principle of cross-cutting relationships, intrusion D is younger than layers A and B, which it cuts through.
+
+**Step 3.** Because D does not cut layer C, and C overlies the intrusion, the available relationships indicate that C formed after D was emplaced.
+
+The sequence from oldest to youngest is:
+
+\[
+A\;\rightarrow\;B\;\rightarrow\;D\;\rightarrow\;C
+\]
+
+This is a relative sequence, not a set of calendar dates. Numerical ages require suitable samples and an appropriate dating method. If layers are overturned, the section is faulted or contacts are unclear, the geological structure must be established first.
+
+**Check your understanding:** a fault cuts layers A, B and C but does not displace a younger layer E that overlies the fault. What can you infer about the age of the fault relative to these layers?
 
 ## 3.10. Формирование материков и океанов / Formation of Continents and Oceans
 
@@ -319,7 +480,12 @@
 
 Рифтинг может привести к растяжению и расколу континентальной коры, затем к формированию нового океанического бассейна. При субдукции океаническая литосфера погружается в мантию; при столкновении континентов океанический бассейн может исчезнуть, а континентальные массы образуют складчатые горные пояса.
 
-**Место для иллюстрации 3.10-A — The Supercontinent Cycle.** Последовательность рифтинга, открытия океана, субдукции, столкновения континентов и формирования гор.
+**Иллюстрация 3.10-A — Цикл суперконтинента / The Supercontinent Cycle.**
+
+![Упрощённая последовательность рифтинга, раскрытия океана, субдукции, столкновения континентов и горообразования. / Simplified sequence of rifting, ocean opening, subduction, continental collision and mountain building.](../assets/03-10-A-supercontinent-cycle-bilingual.svg)
+
+*Концептуальная модель: циклы имеют разную длительность и не являются точным периодическим механизмом. / Conceptual model: cycles vary in duration and are not a precise periodic mechanism.*
+**EN:** Sequence illustrating continental rifting, ocean-basin opening, subduction, continental collision and mountain building.
 
 ## 3.11. Геологические ресурсы и полезные ископаемые / Geological Resources and Mineral Resources
 
@@ -329,7 +495,7 @@
 
 | Группа | Примеры |
 |---|---|
-| Металлические руды | Железо, медь, алюминий, золото |
+| Металлические руды | Железная руда, медная руда, боксит (алюминиевая руда), золотосодержащая руда |
 | Неметаллические | Фосфориты, соли, гипс, известняк |
 | Энергетические | Уголь, нефть, природный газ, уран |
 | Строительные материалы | Песок, гравий, глина, строительный камень |
@@ -344,7 +510,12 @@
 
 Добыча полезных ископаемых может сопровождаться нарушением земель, образованием отходов, загрязнением вод и воздуха, а также изменением ландшафтов. Геологическая оценка должна учитывать не только потенциальную ценность ресурса, но и весь жизненный цикл добычи, переработки и рекультивации.
 
-**Место для иллюстрации 3.11-A — From Geological Deposit to Resource Management.** Разрез месторождения, этапы разведки, добычи, переработки и рекультивации.
+**Иллюстрация 3.11-A — От месторождения к управлению ресурсами / From Deposit to Resource Management.**
+
+![Разрез рудного тела и три этапа проекта: разведка и оценка, добыча и переработка, закрытие и рекультивация; управление водой и отходами показано как непрерывная задача. / Ore-body cross-section and three project stages: exploration and assessment, extraction and processing, closure and rehabilitation; water and waste management are shown as continuous tasks.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+
+*Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства. / Conceptual diagram; actual methods and sequence depend on deposit and regulation.*
+**EN:** Cross-section of a mineral deposit with the stages of exploration, extraction, processing, closure and land rehabilitation.
 
 ## 3.12. Геологические опасности и управление рисками / Geological Hazards and Risk Management
 
@@ -352,7 +523,7 @@
 
 ### 3.12.1. Оползни и обвалы / Landslides and Rockfalls
 
-Оползень — перемещение массы грунта или горных пород вниз по склону под действием силы тяжести. Его провоцируют насыщение водой, подрезка склона, землетрясения, выветривание и изменение растительного покрова.
+Оползень — перемещение массы грунта, обломочного материала или горных пород вниз по склону под действием силы тяжести. Его провоцируют насыщение водой, подрезка склона, землетрясения, выветривание и изменение растительного покрова.
 
 Обвал — быстрое отделение и падение крупных блоков горной породы. Риск повышается на крутых склонах с трещиноватыми породами.
 
@@ -371,7 +542,12 @@
 
 Опасность, подверженность воздействию и уязвимость — разные составляющие риска. Наличие опасного процесса не означает автоматически катастрофу: последствия зависят от того, кто и что находится в зоне воздействия и насколько хорошо защищены объекты.
 
-**Место для иллюстрации 3.12-A — Geological Hazards.** Четыре панели: землетрясение, оползень, сель и обвал; показать факторы возникновения и меры снижения риска.
+**Иллюстрация 3.12-A — Геологические опасности / Geological Hazards.**
+
+![Четыре панели: землетрясение, оползень, сель и обвал; указаны примеры мер снижения риска. / Four panels: earthquake, landslide, debris flow and rockfall, with examples of risk-reduction measures.](../assets/03-12-A-geological-hazards-bilingual.svg)
+
+*Схема показывает типы процессов и общие меры снижения риска, но не предсказывает точное место и время события. / The diagram shows process types and general risk reduction, not the precise location or timing of an event.*
+**EN:** Four panels showing an earthquake, landslide, debris flow and rockfall, with key triggering factors and practical risk-reduction measures.
 
 ## Итоги главы / Chapter Summary
 
@@ -395,7 +571,7 @@
 6. Чем магнитуда землетрясения отличается от его интенсивности?
 7. Почему S-волны не проходят через внешнее ядро?
 8. Какие геологические процессы формируют складки и разломы?
-9. В чём различие относительного и абсолютного датирования?
+9. В чём различие относительного и численного датирования?
 10. Какие меры снижают риск геологических катастроф?
 
 ## Практическая работа / Practical Assignment
@@ -409,11 +585,525 @@
 - какие геологические события произошли раньше, а какие позже;
 - какие участки могут представлять инженерно-геологическую опасность.
 
-**Место для иллюстрации 3.12-B — Interpreting a Geological Cross-Section.** Учебный разрез с легендой, слоями разных возрастов, складкой, разломом и интрузивным телом; предусмотреть задания с ответами в отдельном приложении.
+**Иллюстрация 3.12-B — Чтение геологического разреза / Interpreting a Geological Cross-Section.**
+
+![Учебный разрез со складчатыми слоями, дайкой, пересекающей слои, и сбросом, смещающим их; взаимный возраст дайки и разлома по схеме не установлен. / Teaching section showing folded strata, a dyke cutting the layers, and a normal fault offsetting them; the mutual order of the dyke and fault is undetermined.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+
+*Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя. / Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram.*
+
+
+## English-language chapter text
+
+### Introduction
+
+The lithosphere is Earth's rigid outer shell, consisting of the crust and the rigid upper part of the mantle. Its structure and movement influence the development of continents and ocean basins, mountain building, earthquakes, volcanism and the location of many mineral deposits.
+
+Geological processes operate over an extremely wide range of timescales—from seconds during earthquakes to hundreds of millions of years during the formation of oceans and mountain systems. Studying them helps reconstruct Earth's history and assess natural hazards.
+
+### 3.1. Internal Structure of Earth
+
+Earth's interior is studied through rock samples, geophysical measurements and, above all, the behaviour of seismic waves. The deep interior cannot be sampled directly, so much of our knowledge is based on physical models.
+
+**Illustration 3.1-A — Earth's Internal Structure.**
+
+![Schematic Earth cutaway showing crust, mantle, outer and inner core, with lithosphere and asthenosphere distinguished. / Схематический разрез Земли: кора, мантия, внешнее и внутреннее ядро; отдельно показаны литосфера и астеносфера.](../assets/03-1-A-earth-interior-bilingual.svg)
+
+*Not to scale. The mantle and asthenosphere are shown as predominantly solid materials capable of slow deformation; compositional and mechanical layer classifications are distinct. / Схема не в масштабе. Мантия и астеносфера показаны как преимущественно твёрдые, способные к медленной деформации материалы; химические и механические классификации слоёв различаются.*
+
+### 3.1.1. Chemical Structure
+
+**Chemical structure.** Three major compositional layers are recognised:
+
+| Layer | Main characteristics |
+|---|---|
+| Crust | Thin outer shell of silicate rocks; continental and oceanic types |
+| Mantle | Silicate shell rich in magnesium and iron, extending to about 2,900 km depth |
+| Core | Mainly metallic iron and nickel; liquid outer core and solid inner core |
+
+The crust and lithosphere are not the same. The crust is a compositional layer, whereas the lithosphere is defined mainly by mechanical properties and includes the crust together with the rigid uppermost mantle.
+
+### 3.1.2. Mechanical Structure
+
+**Mechanical structure.**
+
+| Mechanical layer | Properties |
+|---|---|
+| Lithosphere | Rigid, relatively cool shell divided into plates |
+| Asthenosphere | Upper-mantle zone of reduced viscosity that can flow slowly |
+| Lower mantle | Mostly solid material that deforms over geological timescales |
+| Outer core | Liquid metallic layer |
+| Inner core | Solid metallic region |
+
+The asthenosphere is not a global ocean of magma. Its material is mostly solid but can flow slowly under high temperatures and pressures. The mantle as a whole is also predominantly solid, although long-term convective motion occurs within it.
+
+### 3.1.3. Key Depths and Properties
+
+Earth's mean radius is about 6,371 km. The crust–mantle boundary is the Mohorovičić discontinuity (Moho); the mantle–core boundary is at about 2,900 km depth. The outer core extends approximately from 2,900 to 5,150 km, while the inner core occupies the planet's centre. Temperature and pressure increase with depth; estimates for the deep interior vary among models.
+
+### 3.2. Minerals and Their Properties
+
+A mineral is a naturally occurring, usually inorganic solid with a characteristic chemical composition and an ordered internal structure. Mineralogy studies mineral composition, crystal structure, and physical and optical properties.
+
+Not every naturally occurring solid is a mineral in the strict sense. Volcanic glass, for example, lacks an ordered crystalline structure.
+
+### 3.2.1. Diagnostic Properties
+
+Diagnostic properties include:
+
+1. **Hardness:** resistance to scratching.
+2. **Cleavage:** tendency to split along particular crystallographic directions.
+3. **Fracture:** the character of a broken surface when cleavage does not control the break.
+4. **Lustre:** the way a mineral reflects light.
+5. **Colour:** the visible colour of a specimen, which may be affected by impurities.
+6. **Streak:** the colour of a mineral in powdered form.
+7. **Density:** mass per unit volume.
+8. **Crystal habit:** the characteristic external shape of crystals.
+
+### 3.2.2. Mohs Hardness Scale
+
+The Mohs scale is a relative scratch-resistance scale, not a linear scale of absolute hardness.
+
+| Hardness | Mineral |
+|---:|---|
+| 1 | Talc |
+| 2 | Gypsum |
+| 3 | Calcite |
+| 4 | Fluorite |
+| 5 | Apatite |
+| 6 | Orthoclase |
+| 7 | Quartz |
+| 8 | Topaz |
+| 9 | Corundum |
+| 10 | Diamond |
+
+A mineral with a higher number will generally scratch one with a lower number. The difference between adjacent steps is not equal.
+
+### 3.2.3. Common Rock-Forming Minerals
+
+Common rock-forming minerals include quartz (SiO₂), orthoclase (KAlSi₃O₈), plagioclase feldspars (a solid-solution series between NaAlSi₃O₈ and CaAl₂Si₂O₈), biotite (a variable-composition mica, often represented by K(Mg,Fe)₃AlSi₃O₁₀(OH,F)₂), muscovite (KAl₂(AlSi₃O₁₀)(OH)₂), calcite (CaCO₃), dolomite (CaMg(CO₃)₂), olivine ((Mg,Fe)₂SiO₄), gypsum (CaSO₄·2H₂O) and halite (NaCl). These are representative or simplified formulae; some minerals have variable compositions.
+
+### 3.3. Rocks and the Rock Cycle
+
+Rocks are natural aggregates of one or more minerals and may also contain glass or organic matter. By origin, they are divided into three main groups: igneous, sedimentary and metamorphic.
+
+### 3.3.1. Igneous Rocks
+
+**Igneous rocks** form when magma or lava cools and crystallises. Intrusive (plutonic) rocks solidify at depth and commonly have larger crystals; examples include granite and gabbro. Extrusive (volcanic) rocks solidify at or near the surface and often have fine-grained or glassy textures; examples include basalt and obsidian. Composition and texture depend on melt chemistry, cooling rate, volatile content and crystallisation history.
+
+### 3.3.2. Sedimentary Rocks
+
+**Sedimentary rocks** form through the accumulation, compaction and cementation of sediments, chemical precipitation or accumulation of organic material. Main types include clastic rocks (conglomerate, sandstone, siltstone and mudstone), chemical rocks (rock salt and some gypsum deposits), and organic or biochemical rocks (many limestones, chalk and coal). Sedimentary rocks often preserve layering, fossils and evidence of ancient depositional environments.
+
+### 3.3.3. Metamorphic Rocks
+
+**Metamorphic rocks** form when pre-existing rocks are transformed by temperature, pressure and chemically active fluids without completely melting. Examples include limestone transformed into marble, granite transformed into gneiss under suitable conditions, clay-rich rocks transformed into slate or phyllite, and sandstone transformed into quartzite.
+
+### 3.3.4. The Rock Cycle
+
+In the **rock cycle**, any rock group may be transformed into another through weathering, erosion, deposition, burial, metamorphism, melting and crystallisation. It is not a closed cycle with one compulsory sequence; geological pathways are diverse.
+
+**Illustration 3.3-A — The Rock Cycle.**
+
+![Bilingual rock-cycle diagram showing magma, igneous, sedimentary and metamorphic rocks, sediments and key transformation processes. / Двуязычная схема круговорота горных пород: магма, магматические, осадочные и метаморфические породы, осадки и основные процессы преобразования.](../assets/03-3-A-rock-cycle-bilingual.svg)
+
+*Teaching schematic simplified from USGS Open-File Report 94-636 (1994); it shows possible pathways, not a compulsory closed cycle. / Учебная схема, упрощённая по материалам USGS Open-File Report 94-636 (1994); она показывает возможные пути преобразования, а не обязательный замкнутый цикл.*
+
+### 3.4. Mineralogy, Petrography and Geological Methods
+
+Geological research combines field observations, laboratory analysis and geophysical methods.
+
+### 3.4.1. Field Methods
+
+**Field methods** include describing outcrops and geological sections, measuring the orientation of layers and fractures, collecting and documenting samples, geological mapping, and analysing relationships between rock units and structures.
+
+### 3.4.2. Laboratory Methods
+
+**Laboratory methods** include:
+
+| Method | What it can reveal |
+|---|---|
+| Optical microscopy of thin sections | Minerals, rock texture and structure |
+| X-ray diffraction (XRD) | Crystalline phases and mineral composition |
+| X-ray fluorescence (XRF) | Elemental chemical composition |
+| Mass spectrometry | Isotopic and elemental composition |
+| Electron microscopy | Microstructure and chemical features |
+| Geochronology | Numerical ages of minerals and geological events using isotopic and other dating systems |
+| Thermochronology | The heating and cooling history of rocks, inferred from the temperature-dependent behaviour of isotopic systems and other geological indicators |
+
+Geochronology and thermochronology address related but different questions: the first helps determine the age of a mineral or event, while the second reconstructs a rock's thermal history. Thermochronological data can constrain cooling history and, together with geological evidence, help estimate the timing and rate of exhumation—the gradual exposure of rocks as overlying material is removed. The age of a rock and the age of an event that altered it may differ. A method must therefore be selected according to the geological question, sample type and history of the rock.
+
+### 3.4.3. Geophysical Methods
+
+Geophysical methods—including seismic surveys, gravity, magnetic and electrical methods—help investigate the subsurface without collecting samples at every depth.
+
+### 3.5. Plate Tectonics
+
+Plate tectonics explains the movement of large lithospheric fragments and many patterns in the distribution of earthquakes, volcanoes, mountain belts and ocean-floor structures.
+
+### 3.5.1. Plate Motion
+
+Lithospheric plates move at different rates, from less than 1 cm per year to more than 15 cm per year in some regions; many plate segments move by a few centimetres per year. The rate depends on the plate, direction of motion and timescale considered. Their motion is linked to Earth's thermal evolution and mantle dynamics. Commonly discussed interacting drivers include mantle convection, slab pull and gravitational ridge push from elevated mid-ocean ridges. Their relative importance varies among plate systems and regions.
+
+### 3.5.2. Types of Plate Boundaries
+
+Three main types of plate boundary are recognised:
+
+- **Divergent boundaries:** plates move apart, forming new oceanic crust at mid-ocean ridges and continental rifts.
+- **Convergent boundaries:** plates move towards each other; subduction, volcanic arcs and mountain building may occur.
+- **Transform boundaries:** plates slide horizontally past one another, often generating earthquakes.
+
+School-level classifications describe three main types of plate boundary. In some regions, plate interaction is distributed across a broad deforming boundary zone rather than a narrow line. Not every convergent boundary is associated with volcanism. Collision between two continents, for example, may thicken the crust and form high mountain systems.
+
+### 3.5.3. Continental Drift and Evidence
+
+The idea of continental drift developed in the early twentieth century. Modern plate tectonics explains the mechanism of lithospheric movement and brings together several lines of evidence: matching geological structures across oceans, similar fossils on continents now separated, palaeoclimatic evidence, magnetic stripes on the ocean floor, the age of oceanic crust and modern geodetic measurements of plate motion.
+
+### 3.6. Earthquakes
+
+An earthquake is ground shaking caused by the rapid release of accumulated elastic energy in the crust or upper mantle. The most common cause is sudden displacement along a fault.
+
+### 3.6.1. Focus and Epicentre
+
+- **Focus (hypocentre):** the point within the Earth where rupture and energy release begin; teaching diagrams may represent it as a small area.
+- **Epicentre:** the point on Earth's surface directly above the focus.
+- **Fault:** a fracture zone along which rocks have moved or may move.
+
+### 3.6.2. Seismic Waves
+
+**Seismic waves** include P-waves, which are the fastest compressional waves and travel through solids and liquids; S-waves, which are shear waves and travel through solids but not through the liquid outer core; and surface waves, which travel along Earth's surface and often cause substantial damage.
+
+### 3.6.3. Magnitude and Intensity
+
+**Magnitude and intensity are different.** Magnitude characterises earthquake size using instrumental measurements. Moment magnitude (Mw) is widely used for large earthquakes. Intensity describes observed effects and damage at a particular location and can vary across the area affected by one event. Magnitude is not a linear scale: an increase of one unit corresponds to about ten times the amplitude on a comparable seismogram and roughly 32 times more released seismic energy.
+
+### 3.6.4. Seismic Risk
+
+Seismic risk depends not only on the probability of an earthquake but also on building vulnerability, population density, infrastructure quality and emergency preparedness. Seismic hazards cannot be eliminated, but their consequences can be reduced through building standards, engineering assessment and public preparedness.
+
+### 3.6.5. Locating an Earthquake Epicentre
+
+A seismic station records ground motion as a seismogram. The record usually makes it possible to identify the arrival of faster P-waves and slower S-waves. The farther a station is from the earthquake source, the greater the time interval between these arrivals generally becomes.
+
+**From the time difference to distance.** Seismologists use seismic travel-time curves or computational models to convert the interval between P- and S-wave arrivals into an estimate of the distance to the source. A single constant velocity cannot be applied to all waves and depths: wave speed depends on the properties and structure of the rocks.
+
+**Locating the epicentre.** If distances from several stations to the epicentre are known, a circle with the corresponding radius is drawn around each station on a map. In an idealised example, three circles intersect at one point. In practice, measurements contain uncertainties, so the circles may not meet exactly; the epicentre is estimated by jointly analysing the observations. Determining focal depth and rupture parameters requires additional observations and more complex models.
+
+**Simplified learning example.** Suppose three stations are located in different parts of a region, and analysis gives hypothetical distances to the epicentre of 40, 65 and 50 km. Draw three circles with these radii on a map. The area where they come closest to intersecting indicates the approximate epicentre location. These illustrative distances do not describe a real earthquake.
+
+**Why a station network matters.** One station can provide an estimate of distance but cannot uniquely determine the direction to the epicentre. Several stations make it possible to locate the event and check the consistency of measurements. Better geographic distribution and accurate time synchronisation improve reliability. Stations arranged almost along a single line generally provide weaker location geometry.
+
+**Learning activity.** Draw a hypothetical map with three seismic stations. Plot circles using the given distances and mark the area where they come closest to intersecting. Then change one radius by several kilometres and explain why the estimated epicentre shifts. State why this simplified construction does not determine focal depth.
+
+### 3.6.6. Reading a Seismogram and Understanding Uncertainty
+
+A seismogram shows ground motion over time as recorded by a particular instrument at a particular location. Time is usually shown on the horizontal axis and signal amplitude, or an instrument-related measure, on the vertical axis. Before comparing records, check the units, time scale, instrument response and whether the record has been corrected.
+
+**A basic reading sequence:**
+
+1. Identify the beginning of the record and assess background noise before the event.
+2. Mark the earliest reliable arrival of the P-wave; do not mistake random noise for the signal onset.
+3. Identify the S-wave arrival, which may be less distinct.
+4. Measure the S–P interval and use an appropriate regional travel-time curve, not a universal formula for every region.
+5. Compare the result with records from other stations. Differences may indicate reading errors, complex crustal structure or limitations in the model.
+
+**Amplitude is not magnitude by itself.** A large amplitude on one record does not automatically mean a stronger earthquake. Amplitude is affected by distance from the source, focal depth, wave propagation direction, local ground conditions, instrument type and recording settings. Magnitude is calculated using standardised methods that account for relevant factors.
+
+**Uncertainty.** Earthquake catalogues may report uncertainty estimates for epicentre location, depth and magnitude. An initial automatic solution may be revised when data from additional stations become available. Scientific analysis should therefore identify the catalogue version and update time rather than presenting preliminary coordinates as absolutely exact.
+
+**Practical activity.** Compare two teaching seismograms with different S–P intervals. Identify the station with the larger interval and explain why this usually indicates a greater distance from the source. Then list at least three reasons why the amplitudes of two records cannot be compared directly.
+
+### 3.7. Volcanism
+
+Volcanism includes the processes by which magma rises, gases are released and molten material reaches Earth's surface.
+
+### 3.7.1. Magma and Lava
+
+**Magma** is molten or partly molten material, with crystals and dissolved volatile components, beneath the surface. **Lava** is magma that has reached the surface and has usually lost some of its gases.
+
+### 3.7.2. Volcano Types and Eruptions
+
+Volcano shape depends on magma viscosity and composition, eruption volume and eruption style. Shield volcanoes are built mainly by fluid lava; stratovolcanoes consist of alternating lava and pyroclastic deposits; cinder cones are generally smaller and made largely of loose pyroclastic material; and calderas form when a large volcanic structure collapses after substantial magma withdrawal or eruption from a shallow reservoir. This does not mean that the entire magmatic system must be completely emptied. Eruptions may be effusive or explosive, and some combine both styles.
+
+### 3.7.3. Volcanic Hazards
+
+Volcanic hazards include lava flows, ash fall, pyroclastic flows, volcanic gases, lahars and landslides on volcanic slopes. Pyroclastic flows are especially dangerous because of their high temperature and speed.
+
+### 3.8. Folding and Faulting
+
+Rocks deform under stress. Deformation may be ductile, bending layers, or brittle, producing fractures and faults.
+
+### 3.8.1. Folds
+
+**Folds** include:
+- **anticlines**, in which layers are generally arched upwards and the oldest rocks often occur in the core if the structure has not been overturned or disrupted;
+- **synclines**, in which layers are generally folded downwards and younger rocks often occur in the core; and
+- **monoclines**, step-like bends in rock layers.
+
+### 3.8.2. Faults
+
+**Faults** are classified by the relative movement of blocks:
+- a **normal fault** has the hanging wall moving down relative to the footwall;
+- a **reverse fault** has the hanging wall moving up; a low-angle reverse fault is called a thrust; and
+- a **strike-slip fault** is dominated by horizontal displacement.
+
+Fault type is determined by the direction of relative block movement, not merely by the surface appearance.
+
+### 3.9. Geological Time
+
+Earth's geological history spans about 4.54 billion years. The ICS 2026/06 chart places the base of the Hadean at 4,567.3 ± 0.16 million years ago, based on the age of the oldest calcium–aluminium-rich inclusions (CAIs) in meteorites. This is a formal boundary tied to the earliest solids in the Solar System, not the exact date when Earth finished forming. Relative and numerical dating are used to reconstruct it.
+
+### 3.9.1. Relative Dating
+
+**Relative dating** relies on several principles:
+- the law of superposition: in an undisturbed sequence, lower layers are generally older than upper layers;
+- original horizontality: sediments are generally deposited in near-horizontal layers;
+- cross-cutting relationships: a geological body or fault that cuts another unit is generally younger than the unit it cuts; and
+- inclusions: fragments contained in a rock are older than the rock that encloses them.
+
+### 3.9.2. Numerical Dating
+
+**Numerical dating** (often called radiometric dating when radioactive decay is used) is based on the decay of a radioactive **parent isotope** into a **daughter isotope** at a predictable rate. A key concept is the half-life: the time required for half of the original parent atoms in a sample to decay. By measuring the proportions of parent and daughter isotopes, scientists calculate a numerical age.
+
+The method is selected according to the sample's age, mineral and geological history. A reliable interpretation must consider whether the mineral system has remained closed to the relevant isotopes since it formed. Heating, metamorphism, weathering or loss of material can alter isotopic ratios. A measured date may therefore record mineral crystallisation or a later event that reset the isotopic system, rather than automatically giving the age of the entire rock.
+
+Suitable igneous minerals and volcanic ash can be dated using appropriate radiometric methods. Many clastic sedimentary rocks cannot be dated directly as a whole: the ages of individual grains may record their source rocks rather than the time of deposition. Their depositional age is often constrained using datable layers above and below, or volcanic ash within the sequence. Examples of isotope systems include uranium–lead, potassium–argon/argon–argon and rubidium–strontium.
+
+### 3.9.3. Geologic Time Scale
+
+The major eons are the Hadean, when Earth formed and underwent early evolution; the Archean, which contains the oldest known evidence of life and development of early crust; the Proterozoic, marked by rising oxygen levels and the development of complex life; and the Phanerozoic, which has an abundant fossil record and includes the Paleozoic, Mesozoic and Cenozoic eras. Boundaries are defined by the international stratigraphic timescale and are refined as research develops. Numerical boundary ages must be checked against the current International Commission on Stratigraphy chart.
+
+### 3.9.4. Worked Example: Establishing the Relative Ages of Layers and an Intrusion
+
+Imagine a geological cross-section with three sedimentary layers: A at the bottom, B above it and C at the top. An igneous body D cuts through layers A and B but does not cut layer C.
+
+**Step 1.** Under the law of superposition, if the sequence has not been overturned or disturbed, layer A is older than B, and B is older than C.
+
+**Step 2.** Under the principle of cross-cutting relationships, intrusion D is younger than layers A and B, which it cuts through.
+
+**Step 3.** Because D does not cut layer C, and C overlies the intrusion, the available relationships indicate that C formed after D was emplaced.
+
+The sequence from oldest to youngest is:
+
+\\[
+A\\;\\rightarrow\\;B\\;\\rightarrow\\;D\\;\\rightarrow\\;C
+\\]
+
+This is a relative sequence, not a set of calendar dates. Numerical ages require suitable samples and an appropriate dating method. If layers are overturned, the section is faulted or contacts are unclear, the geological structure must be established first.
+
+**Check your understanding:** A fault cuts layers A, B and C but does not displace a younger layer E that overlies the fault. What can you infer about the age of the fault relative to these layers?
+
+### 3.10. Formation of Continents and Oceans
+
+Earth's surface has changed throughout geological history. Continents have grown through the accretion of island arcs, microcontinents and other terranes, while ocean basins have opened and closed through plate movement.
+
+### 3.10.1. Supercontinents
+
+Large continental assemblies known as supercontinents existed in Earth's history. Two well-known examples are Rodinia and Pangaea. Their reconstructions are based on geological, palaeomagnetic and palaeontological evidence and contain scientific uncertainties. Pangaea existed during the late Paleozoic and early Mesozoic; its breakup contributed to the development of the modern Atlantic and Indian Ocean basins.
+
+### 3.10.2. Ocean Opening and Closure
+
+Rifting may stretch and split continental crust, eventually forming a new ocean basin. During subduction, oceanic lithosphere descends into the mantle. When continents collide, an ocean basin may disappear and continental masses may form folded mountain belts.
+
+### 3.11. Geological Resources and Mineral Resources
+
+Geological resources include mineral deposits, construction materials, groundwater and geothermal energy.
+
+### 3.11.1. Mineral Resource Groups
+
+Mineral resources may be grouped as metallic ores (iron ore, copper ore, bauxite as an aluminium ore, and gold-bearing ore), non-metallic resources (phosphorites, salts, gypsum and limestone), energy resources (coal, oil, natural gas and uranium), and construction materials (sand, gravel, clay and building stone).
+
+A mineral occurrence is not necessarily an economically viable deposit. Development depends on grade, reserve volume, extraction technology, infrastructure, environmental constraints and market conditions.
+
+### 3.11.2. Ore-Forming Processes
+
+Deposits may form in igneous, hydrothermal, sedimentary, metamorphic and weathering environments. The same metal can become concentrated through different geological processes.
+
+### 3.11.3. Responsible Resource Use
+
+Mining may disturb land, generate waste, pollute water and air, and transform landscapes. Geological assessment should consider not only the potential value of a resource but also the full life cycle of extraction, processing and rehabilitation.
+
+### 3.12. Geological Hazards and Risk Management
+
+Geological hazards include earthquakes, volcanic eruptions, landslides, rockfalls, debris flows, subsidence and some types of tsunami.
+
+### 3.12.1. Landslides and Rockfalls
+
+A **landslide** is the downslope movement of soil, debris or rock under gravity. It may be triggered by water saturation, slope cutting, earthquakes, weathering and changes in vegetation cover. A **rockfall** is the rapid detachment and fall of large rock blocks; risk is elevated on steep slopes with fractured rock.
+
+### 3.12.2. Debris Flows
+
+A **debris flow** is a rapidly moving mixture of water, mud, rock fragments and other material travelling through channels and valleys. It may occur after intense rainfall, rapid snow and ice melt, or the failure of natural or artificial water bodies.
+
+### 3.12.3. Risk Reduction
+
+Risk-reduction measures include geological and engineering-geological mapping, monitoring of seismicity and slope processes, early-warning systems, compliance with building codes, land-use regulation, public information and evacuation plans.
+
+Hazard, exposure and vulnerability are different components of risk. The presence of a hazardous process does not automatically result in a disaster: consequences depend on what and who are exposed and how well they are protected.
+
+### Chapter Summary
+
+1. Earth has a layered internal structure studied through geophysics and rock analysis.
+2. The lithosphere includes the crust and rigid upper mantle.
+3. Minerals differ in composition, crystal structure and physical properties.
+4. Rocks are classified as igneous, sedimentary and metamorphic.
+5. Plate tectonics explains many processes that shape relief and distribute geological hazards.
+6. Earthquakes involve the release of stored energy; volcanism involves the movement of magma and gases.
+7. The geological record makes it possible to reconstruct Earth's history.
+8. Geological resources are economically important, but their use requires environmental and social responsibility.
+9. Geological-risk assessment depends on understanding processes, exposure and vulnerability.
+
+### Review Questions
+
+1. How does Earth's crust differ from the lithosphere?
+2. Why is the asthenosphere not completely liquid?
+3. Which properties are used to identify minerals?
+4. How do igneous rocks differ from sedimentary and metamorphic rocks?
+5. What are the three main types of lithospheric plate boundaries?
+6. How does earthquake magnitude differ from intensity?
+7. Why do S-waves not travel through the outer core?
+8. Which geological processes form folds and faults?
+9. How do relative and numerical dating differ?
+10. Which measures can reduce geological-disaster risk?
+
+### Practical Assignment: Reading a Geological Cross-Section
+
+On a schematic geological cross-section, identify:
+- the sequence of layers from oldest to youngest;
+- structures that are folds;
+- faults that cut through layers;
+- which geological events occurred earlier and which occurred later; and
+- areas that may present engineering-geological hazards.
+
+## Источники и дальнейшее чтение / Sources and Further Reading
+
+1. U.S. Geological Survey (USGS). *Inside the Earth* (This Dynamic Earth: Earth structure). https://pubs.usgs.gov/gip/dynamic/inside.html
+2. USGS. *How Fast Do Tectonic Plates Move?* https://www.usgs.gov/faqs/how-fast-do-tectonic-plates-move
+3. USGS. *Understanding Plate Motions* (This Dynamic Earth). https://pubs.usgs.gov/gip/dynamic/understanding.html
+4. National Park Service. *Minerals* (mineral properties and Mohs hardness). https://www.nps.gov/subjects/geology/minerals.htm
+5. NSF SAGE, EarthScope Consortium (formerly IRIS educational resource). *Locating an Earthquake with Seismic Data*. https://www.iris.edu/hq/inclass/lesson/locating_an_earthquake_with_recent_seismic_data
+6. International Union of Geological Sciences (IUGS), International Commission on Stratigraphy (ICS). *International Chronostratigraphic Chart*, current edition 2026/06. https://stratigraphy.org/chart
+7. British Geological Survey. *Geological Processes*. https://www.bgs.ac.uk/discovering-geology/geological-processes/
+8. U.S. Geological Survey (USGS). *Earthquake Magnitude, Energy Release, and Shaking Intensity*. https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity
+9. USGS Volcano Hazards Program. *Volcano Hazards Program Glossary* (calderas, shield volcanoes, stratovolcanoes, pyroclastic flows and volcanic hazards). https://www.usgs.gov/glossary/volcano-hazards-program-glossary
+10. USGS. *What Is a Landslide and What Causes One?* https://www.usgs.gov/faqs/what-a-landslide-and-what-causes-one/
+11. USGS. *Assessments of Mineral Resources* (definition of mineral resources and assessment scope). https://www.usgs.gov/science/science-explorer/minerals/Assessments-of-Mineral-Resources
+12. British Geological Survey. *Rocks and Minerals* (rock groups and rock cycle). https://www.bgs.ac.uk/discovering-geology/rocks-and-minerals/
+13. USGS. *Fossils, Rocks, and Time: The Laws of Superposition and Cross-Cutting Relations*. https://pubs.usgs.gov/gip/fossils/laws.html
+14. USGS. *Geologic Age: Using Radioactive Decay to Determine Geologic Age* (parent and daughter isotopes, half-life and age equation). https://www.usgs.gov/educational-resources/geologic-age-using-radioactive-decay-determine-geologic-age
+15. USGS. *Geologic Time: Radiometric Time Scale* (dating igneous minerals and bracketing sedimentary sequences). https://pubs.usgs.gov/gip/geotime/radiometric.html
+16. USGS. *Fossils, Rocks, and Time: The Numeric Time Scale* (isotopes and half-life). https://pubs.usgs.gov/gip/fossils/numeric.html
+17. British Geological Survey. *What Causes Earthquakes?* (fault movement and normal, reverse and strike-slip faults). https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/what-causes-earthquakes/
+18. USGS. *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
+19. Halla, J. et al. (2024). *Ratification of the base of the ICS Geological Time Scale: the Global Standard Stratigraphic Age (GSSA) for the Hadean lower boundary*. Episodes. https://doi.org/10.18814/epiiugs/2024/024002
+20. Thomson, K. D. et al. (2026). *USGS Geochron—A Database of Geochronological and Thermochronological Dates and Data: Technical Documentation*. U.S. Geological Survey Data Report 1227. https://www.usgs.gov/publications/usgs-geochron-a-database-geochronological-and-thermochronological-dates-and-data (DOI: https://doi.org/10.3133/dr1227).
+21. U.S. Geological Survey (2026). *Minerals and Uses Activity Ore/Mineral Sample Images*. Public Domain; image sources include USGS, Smithsonian Institution, Minerals Education Coalition and Adobe Stock. https://www.usgs.gov/media/images/minerals-and-uses-activity-oreminerals-sample-images
+22. Simkin, T., Tilling, R. I., Vogt, P. R., Kirby, S. H., Kimberly, P. & Stewart, D. B. (2006). *This Dynamic Planet: World Map of Volcanoes, Earthquakes, Impact Craters, and Plate Tectonics*. U.S. Geological Survey, Geologic Investigations Map I-2800. Public Domain. https://doi.org/10.3133/i2800
+
+Для выпуска визуальных материалов следует повторно сверять геологические термины и численные подписи с актуальной международной стратиграфической шкалой и авторитетными региональными геологическими картами.
 
 ## Редакционные и научные примечания
 
-- Численные глубины, температуры и скорости процессов должны быть сверены с авторитетными геофизическими и геологическими источниками при финальной научной редактуре.
-- Геологическая шкала времени должна быть синхронизирована с действующей международной стратиграфической шкалой на дату выпуска атласа.
-- Карты литосферных плит и геологических структур требуют проверки границ, легенды, проекции и источника исходных пространственных данных.
-- Не следует изображать мантию как глобальный океан расплава или астеносферу как полностью жидкий слой.
+- Численные параметры в тексте представлены как приближённые там, где они зависят от модели или региона; радиус Земли, основные глубины внутренних границ и диапазон скоростей плит сверены с NASA/USGS и геологическими источниками.
+- Возраст Земли (~4,54 млрд лет) не смешивается с формальной нижней границей гадея 4 567,3 ± 0,16 млн лет, основанной на возрасте CAI; версия диаграммы ICS 2026/06 подтверждена на официальном сайте.
+- Перед публикацией карты и иллюстрации должны пройти отдельную проверку границ, легенды, проекции и исходных пространственных данных.
+- Не изображать мантию как глобальный океан расплава или астеносферу как полностью жидкий слой.
+
+
+
+
+
+**Illustration 3.2-A — Mineral Identification Board.**
+
+![Mineral specimens including chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite and quartz sand. / Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита и кварцевого песка.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+
+*Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Formulae and Mohs hardness values are in the chapter table; photographs support visual recognition, not identification by colour alone. / Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость приведены в таблице главы; фотографии служат для распознавания, а не определения по одному цвету.*
+
+
+
+
+
+**Illustration 3.4-A — Geological Research Toolkit.**
+
+![Field observations, rock specimen, thin section, X-ray diffraction pattern with intensity and 2θ axes, and geophysical profile showing an anomaly. / Полевые наблюдения, образец породы, тонкий шлиф, рентгеновская дифрактограмма с осями интенсивности и угла 2θ, а также геофизический профиль с аномалией.](../assets/03-4-A-geological-research-toolkit-bilingual.svg)
+
+*Methods complement one another; each addresses a different set of research questions. / Методы дополняют друг друга; каждый отвечает на свой набор исследовательских вопросов.*
+
+
+**Illustration 3.5-A — Global Plate Tectonic Map.**
+
+![World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006). / Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+
+*Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map. / Источник: USGS Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Это научно-учебный обзор 2006 года, а не актуальная карта сейсмичности.*
+
+
+**Illustration 3.6-A — Anatomy of an Earthquake.**
+
+![Cross-section showing the fault, hypocentre, epicentre and P- and S-wave paths; insets distinguish particle motion parallel to P-wave travel and perpendicular to S-wave travel. / Разрез с разломом, очагом, эпицентром и путями P- и S-волн; вставки показывают продольное движение частиц в P-волне и поперечное движение в S-волне.](../assets/03-6-A-earthquake-anatomy-bilingual.svg)
+
+*Schematic; magnitude characterises source size, while intensity describes shaking effects at a location. / Схема условна; магнитуда характеризует размер источника, а интенсивность — проявления сотрясений в конкретном месте.*
+
+
+**Illustration 3.7-A — Volcano Anatomy and Eruption Hazards.**
+
+![Volcano cross-section with magma reservoir, conduit, crater, ash fall, lava and pyroclastic flows, and a lahar. / Разрез вулкана с магматическим очагом, жерлом, кратером, пеплопадом, лавовым и пирокластическим потоками и лахаром.](../assets/03-7-A-volcano-anatomy-bilingual.svg)
+
+*Hazard extents are schematic; lahars are water-rich flows of volcanic material. / Зоны опасностей схематичны; лахары — водонасыщенные потоки вулканического материала.*
+
+
+**Illustration 3.8-A — Folds and Faults.**
+
+![Schematic comparison of anticline, syncline, normal, reverse and strike-slip faults. / Схематическое сравнение антиклинали, синклинали, сброса, взброса и сдвигового разлома.](../assets/03-8-A-folds-faults-bilingual.svg)
+
+*Conceptual sections; arrows indicate movement and do not imply universal fault geometry. / Условные разрезы; направление перемещения показано стрелками и не задаёт универсальную геометрию разломов.*
+
+
+**Illustration 3.9-A — International Chronostratigraphic Chart.**
+
+![Official International Chronostratigraphic Chart, ICS version 2026/06. / Официальная международная хроностратиграфическая шкала ICS, версия 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+
+*Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale. / Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб.*
+
+**Reading the chart.** Time units decrease in duration as follows: eon → era → period → epoch → age. The adjacent chronostratigraphic units name the corresponding bodies of rock: eonothem → erathem → system → series → stage. These sequences are related but not interchangeable: the first names intervals of time, while the second names rock bodies formed during those intervals. The chart's layout is non-linear, so block size is not always proportional to duration.
+
+| English on chart | Russian equivalent | Meaning |
+|---|---|---|
+| Eon | Эон | Largest division of geological time |
+| Era | Эра | Subdivision of an eon |
+| Period | Период | Subdivision of an era |
+| Epoch | Эпоха | Subdivision of a period |
+| Age | Век | Subdivision of an epoch |
+| Eonothem | Эонотема | Rocks formed during an eon |
+| Erathem | Эратема | Rocks formed during an era |
+| System | Система | Rocks formed during a period |
+| Series | Отдел | Rocks formed during an epoch |
+| Stage | Ярус | Rocks formed during an age |
+
+The main eons are Hadean (гадей), Archean (архей), Proterozoic (протерозой) and Phanerozoic (фанерозой). The Phanerozoic is divided into the Paleozoic (палеозой), Mesozoic (мезозой) and Cenozoic (кайнозой) eras. This is a reading key, not a full translation of every label on the official chart.
+
+
+**Illustration 3.10-A — The Supercontinent Cycle.**
+
+![Simplified sequence of rifting, ocean opening, subduction, continental collision and mountain building. / Упрощённая последовательность рифтинга, раскрытия океана, субдукции, столкновения континентов и горообразования.](../assets/03-10-A-supercontinent-cycle-bilingual.svg)
+
+*Conceptual model: cycles vary in duration and are not a precise periodic mechanism. / Концептуальная модель: циклы имеют разную длительность и не являются точным периодическим механизмом.*
+
+
+**Illustration 3.11-A — From Deposit to Resource Management.**
+
+![Ore-body cross-section and three project stages: exploration and assessment, extraction and processing, closure and rehabilitation; water and waste management are shown as continuous tasks. / Разрез рудного тела и три этапа проекта: разведка и оценка, добыча и переработка, закрытие и рекультивация; управление водой и отходами показано как непрерывная задача.](../assets/03-11-A-mineral-resource-lifecycle-bilingual.svg)
+
+*Conceptual diagram; actual methods and sequence depend on deposit and regulation. / Концептуальная схема; реальные методы и последовательность зависят от месторождения и законодательства.*
+
+
+**Illustration 3.12-A — Geological Hazards.**
+
+![Four panels: earthquake, landslide, debris flow and rockfall, with examples of risk-reduction measures. / Четыре панели: землетрясение, оползень, сель и обвал; указаны примеры мер снижения риска.](../assets/03-12-A-geological-hazards-bilingual.svg)
+
+*The diagram shows process types and general risk reduction, not the precise location or timing of an event. / Схема показывает типы процессов и общие меры снижения риска, но не предсказывает точное место и время события.*
+
+
+**Illustration 3.12-B — Interpreting a Geological Cross-Section.**
+
+![Teaching section showing folded strata, a dyke cutting the layers, and a normal fault offsetting them; the mutual order of the dyke and fault is undetermined. / Учебный разрез со складчатыми слоями, дайкой, пересекающей слои, и сбросом, смещающим их; взаимный возраст дайки и разлома по схеме не установлен.](../assets/03-12-B-geological-cross-section-bilingual.svg)
+
+*Both features cut the strata; because the fault and intrusion do not intersect, their relative order cannot be determined from this diagram. / Оба объекта пересекают слои; поскольку разлом и интрузия не пересекают друг друга, их взаимный возраст по этой схеме определить нельзя.*

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Циклы углерода и азота / Carbon and nitrogen cycles</title>
+<desc id="desc">Упрощённая двуязычная схема: фотосинтез, дыхание, опад, разложение, газообмен океана с атмосферой и долговременное захоронение углерода; фиксация азота, молниевые процессы, упрощённая нитрификация, усвоение, аммонификация и денитрификация. Стрелки показывают направления процессов, но не величины потоков. Simplified bilingual diagram of carbon and nitrogen pathways. Nitrification is simplified; the nitrite intermediate is not shown. Arrows indicate process directions, not measured fluxes.</desc>
+<defs>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="#29465a"/></marker>
+  <marker id="both" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto-start-reverse"><path d="M0 0L8 3L0 6Z" fill="#355d49"/></marker>
+</defs>
+<rect width="1200" height="760" fill="#f8fafc"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#17384d">ЦИКЛЫ УГЛЕРОДА И АЗОТА / CARBON AND NITROGEN CYCLES</text>
+<rect x="30" y="80" width="540" height="600" rx="16" fill="#eff7f1" stroke="#8ab59a" stroke-width="2"/>
+<rect x="630" y="80" width="540" height="600" rx="16" fill="#eff5fb" stroke="#91adca" stroke-width="2"/>
+<text x="300" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#244c3a">УГЛЕРОД / CARBON</text>
+<text x="900" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#355d82">АЗОТ / NITROGEN</text>
+
+<!-- Carbon reservoirs -->
+<g font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#18394d">
+ <rect x="165" y="150" width="270" height="60" rx="10" fill="#d9ecdf" stroke="#669477" stroke-width="1.5"/>
+ <text x="300" y="187">Атмосферный CO₂ / Atmospheric CO₂</text>
+ <rect x="60" y="315" width="190" height="65" rx="10" fill="#d9ecdf" stroke="#669477" stroke-width="1.5"/>
+ <text x="155" y="342">Растения</text><text x="155" y="365">Plants</text>
+ <rect x="340" y="315" width="190" height="65" rx="10" fill="#e9e2cf" stroke="#9c8c68" stroke-width="1.5"/>
+ <text x="435" y="342">Почвы и детрит</text><text x="435" y="365">Soils and detritus</text>
+ <rect x="60" y="510" width="190" height="65" rx="10" fill="#d7eaf3" stroke="#699bb5" stroke-width="1.5"/>
+ <text x="155" y="549">Океан / Ocean</text>
+ <rect x="340" y="510" width="190" height="65" rx="10" fill="#e9e2cf" stroke="#9c8c68" stroke-width="1.5"/>
+ <text x="435" y="538">Геологические запасы</text><text x="435" y="561">Geological stores</text>
+</g>
+<!-- Carbon pathways -->
+<g fill="none" stroke="#355d49" stroke-width="3" marker-end="url(#arrow)">
+ <path d="M245 210L185 307"/>
+ <path d="M115 315C55 270 95 225 175 210"/>
+ <path d="M250 347L330 347"/>
+ <path d="M455 315C520 265 490 220 425 210"/>
+ <path d="M435 380L435 500"/>
+</g>
+<path d="M165 170C45 185 35 420 80 510" fill="none" stroke="#355d49" stroke-width="3" marker-start="url(#both)" marker-end="url(#both)"/>
+<g font-family="Arial,sans-serif" font-size="14" fill="#244c3a">
+ <text x="62" y="245">Фотосинтез / Photosynthesis</text>
+ <text x="62" y="290">Дыхание растений / Plant respiration</text>
+ <text x="290" y="400" text-anchor="middle">Опад / Litter</text>
+ <text x="355" y="260">Разложение / Decomposition</text>
+ <text x="50" y="465">Газообмен океан–</text><text x="50" y="484">атмосфера / Air–sea exchange</text>
+ <text x="455" y="450">Захоронение /</text><text x="455" y="468">Burial</text>
+</g>
+
+<!-- Nitrogen reservoirs -->
+<g font-family="Arial,sans-serif" font-size="18" text-anchor="middle" fill="#18394d">
+ <rect x="765" y="150" width="270" height="60" rx="10" fill="#dce9f6" stroke="#6c8eb3" stroke-width="1.5"/>
+ <text x="900" y="187">Атмосферный N₂ / Atmospheric N₂</text>
+ <rect x="660" y="315" width="190" height="65" rx="10" fill="#dce9f6" stroke="#6c8eb3" stroke-width="1.5"/>
+ <text x="755" y="342">Аммоний NH₄⁺</text><text x="755" y="365">Ammonium</text>
+ <rect x="930" y="315" width="190" height="65" rx="10" fill="#dce9f6" stroke="#6c8eb3" stroke-width="1.5"/>
+ <text x="1025" y="342">Нитрат NO₃⁻</text><text x="1025" y="365">Nitrate</text>
+ <rect x="660" y="510" width="190" height="65" rx="10" fill="#d9ecdf" stroke="#669477" stroke-width="1.5"/>
+ <text x="755" y="549">Растения / Plants</text>
+ <rect x="930" y="510" width="190" height="65" rx="10" fill="#e9e2cf" stroke="#9c8c68" stroke-width="1.5"/>
+ <text x="1025" y="538">Органический азот</text><text x="1025" y="561">Organic nitrogen</text>
+</g>
+<!-- Nitrogen pathways -->
+<g fill="none" stroke="#355d82" stroke-width="3" marker-end="url(#arrow)">
+ <path d="M815 210L775 307"/>
+ <path d="M985 210L1020 307"/>
+ <path d="M850 347L920 347"/>
+ <path d="M965 380C925 430 850 465 805 500"/>
+ <path d="M850 542L920 542"/>
+ <path d="M950 510C905 440 845 410 790 380"/>
+ <path d="M1090 315C1155 265 1155 195 1040 180"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="14" fill="#244c75">
+ <text x="655" y="260">Фиксация / Fixation</text>
+ <text x="1040" y="260">Молнии / Lightning</text>
+ <text x="885" y="292" text-anchor="middle">Нитрификация / Nitrification</text>
+ <text x="890" y="405" text-anchor="middle">Усвоение / Assimilation</text>
+ <text x="885" y="600" text-anchor="middle">Опад и остатки / Litter and residues</text>
+ <text x="845" y="480" text-anchor="middle">Аммонификация / Ammonification</text>
+ <text x="1050" y="410" text-anchor="middle">Денитрификация /</text>
+ <text x="1050" y="428" text-anchor="middle">Denitrification</text>
+ <text x="900" y="635" text-anchor="middle" font-size="12">Нитрификация показана упрощённо; нитрит не показан.</text>
+ <text x="900" y="652" text-anchor="middle" font-size="12">Nitrification is simplified; nitrite is not shown.</text>
+</g>
+<text x="600" y="720" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#536b78">Стрелки показывают процессы, а не величины запасов или потоков. / Arrows show processes, not reservoir sizes or flux rates.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1450" viewBox="0 0 900 1450" role="img" aria-labelledby="title desc">
+<metadata id="license">Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/ . Attribution: Atlas of Knowledge project. The project owner confirmed on 2026-11-05 that they or an authorised project organisation have authority to act as licensor and apply this licence to this asset. This records the project owner’s representation; it is not an independent legal opinion. No individual human SVG author is asserted.</metadata>
+<title id="title">Geographical scales: local to global / Географические масштабы: от местного до глобального</title>
+<desc id="desc">Five vertically arranged schematic panels show local, regional, national, international and global levels of geographical analysis. They are not actual maps or administrative boundaries. / Пять расположенных вертикально условных панелей показывают местный, региональный, национальный, международный и глобальный уровни географического анализа. Это не реальные карты и не административные границы.</desc>
+<rect width="900" height="1450" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="450" y="70" font-size="42" font-weight="700">From local to global</text>
+<text x="450" y="118" font-size="38" font-weight="700">От местного к глобальному</text>
+<g>
+<rect x="95" y="165" width="710" height="205" rx="24" fill="#eaf2f8" stroke="#3979a8" stroke-width="4"/>
+<text x="450" y="220" font-size="38" font-weight="700" fill="#174e78">Local / Местный</text>
+<text x="450" y="275" font-size="34">Street • school • neighbourhood</text>
+<text x="450" y="320" font-size="34">Улица • школа • район</text>
+<rect x="95" y="405" width="710" height="205" rx="24" fill="#e8f2e8" stroke="#56874b" stroke-width="4"/>
+<text x="450" y="460" font-size="38" font-weight="700" fill="#386432">Regional / Региональный</text>
+<text x="450" y="515" font-size="34">Valley • river basin • region</text>
+<text x="450" y="560" font-size="34">Долина • речной бассейн • регион</text>
+<rect x="95" y="645" width="710" height="205" rx="24" fill="#f6eadb" stroke="#a66b35" stroke-width="4"/>
+<text x="450" y="700" font-size="38" font-weight="700" fill="#805020">National / Национальный</text>
+<text x="450" y="755" font-size="34">Country • national systems</text>
+<text x="450" y="800" font-size="34">Страна • общенациональные системы</text>
+<rect x="95" y="885" width="710" height="205" rx="24" fill="#eee8f7" stroke="#8064a5" stroke-width="4"/>
+<text x="450" y="940" font-size="38" font-weight="700" fill="#5d477b">International / Международный</text>
+<text x="450" y="995" font-size="34">Neighbouring countries • shared basins</text>
+<text x="450" y="1040" font-size="34">Соседние страны • общие бассейны</text>
+<rect x="95" y="1125" width="710" height="205" rx="24" fill="#f8e6e2" stroke="#b45a43" stroke-width="4"/>
+<text x="450" y="1180" font-size="38" font-weight="700" fill="#8d3f35">Global / Глобальный</text>
+<text x="450" y="1235" font-size="34">Planetary systems • global change</text>
+<text x="450" y="1280" font-size="34">Планетарные системы • глобальные изменения</text>
+</g>
+<text x="450" y="1390" font-size="26" fill="#425466">Analytical levels, not map scales / Уровни анализа, а не масштабы карт</text>
+</g>
+</svg>

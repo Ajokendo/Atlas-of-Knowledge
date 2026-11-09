@@ -1,0 +1,597 @@
+# Geography visual asset register
+**Audit date:** 5 November 2026  
+**Canonical branch:** `workspace/geography`  
+**Status (6 November 2026):** 284 named visual IDs are enumerated across the 26 chapters. Chapter 07 now has 10/10 integrated (07-A–07-J), paired in RU/EN (20 embeds); new original 07-J completes Figure 7.5 with a conceptual latitudinal/altitudinal zonation schematic. The nine earlier Chapter 07 SVGs passed static and Chromium QA (runs 42222182335 and 42222182340); 07-J has source-level SVG preflight only and still requires browser/device/accessibility QA. The former Figure 7.5 production brief is closed. 07-J is now covered by the project owner's 6 November 2026 standing CC BY-NC 4.0 authorisation for original project-controlled Geography visuals. Maps 07-C and 07-E retain CC BY 4.0 attribution. Manual screen-reader and mobile map-legibility review remain open. Chapter 08 now has 7/7 integrated (08-A–08-G); 08-B is the unchanged ISRIC WRB 2014 global soil map, with HWSD v1.2 provenance and source-specific reproduction permission. Automated Chromium QA passed in run 42242134605: all six local SVGs and the ISRIC PNG rendered/decoded at 390px and 1365px; all 14 RU/EN embeds decoded; no clipping, text overlap or horizontal overflow; axe WCAG 2.1 A/AA returned zero violations. Fine labels and the ISRIC legend require zoom on phones; manual screen-reader and independent review remain open. Chapter 09 has 5/7 integrated (09-B, 09-C, 09-D, 09-F and 09-G); 09-A and 09-E remain data-driven chart/map gaps. Chapter 10 now has 6/7 integrated (10-B–10-G); 10-A remains open pending a current world political map. Chapter 12 now has 8/10 integrated (12-A, 12-B, 12-D–12-I); 12-C and 12-J remain open. Chapter 17 now has 8/9 integrated (17-A, 17-B, 17-C, 17-D, 17-E, 17-F, 17-G and 17-I); 17-H remains open. 17-A is a provisional locator; OCHA source release date and legal-border validation remain pending. 17-D includes a conceptual valley profile; spatial verification of reference anchors remains pending. Chapter 13 has all 11/11 planned visuals (13-A–13-K) embedded; its audit rows reflect source-level SVG checks and evidence-based scientific review statuses. Chapters 11–20 currently have 77 of 97 planned IDs embedded in chapter source (presence only); 20 remain open. See IMAGE_AUDIT.md for the reconciled chapter-level breakdown and separate Coverage / Verification / Gaps metrics. Chapter 16 is at 9/9, Chapter 17 at 8/9, Chapter 18 at 5/10, Chapter 19 at 7/10, and Chapter 20 at 8/11. Chapters 21–26 now have 16 of 68 planned visuals embedded (21: 5/10; 22: 4/10; 23: 2/12; 24: 0/12; 25: 2/12; 26: 3/12); 52 remain open. Atlas-wide Image Coverage is 203/284 (71.5%), with 81 named IDs still missing. Image Verification remains a separate, stricter metric because rights, scientific sign-off, accessibility and rendered browser/device checks are still pending for many assets. Chapter 01 has completed internal conceptual review; Chapters 02–04 and 18–20 remain subject to final scientific/editorial sign-off; 2.13-A uses Figure 10 from the CC BY 4.0 open-access article.
+
+## Purpose and production rule
+
+This register is the single chapter-level index for planned maps, diagrams, scientific illustrations and infographics in Atlas of Geography. Every asset has a stable chapter-prefixed ID. The same ID may appear at the relevant teaching location and again in the production-brief section; that is one asset, not two.
+
+A placeholder is an instruction, not a completed image. Do not mark an asset complete until the image/map has been created, its data and sources checked, labels/typeset, bilingual captions prepared, and scientific/editorial review recorded.
+
+## Chapter inventory
+
+| Chapter | Unique asset IDs | Count | Main visual themes |
+|---:|---|---:|---|
+| 01 | 01-A–01-E | 5 | Geography as a spatial system; branches of geography; absolute and relative location; scale levels; research cycle |
+| 02 | 19 IDs: 2-A, 2.1-A, 2.2-A, 2-B, 2.3-A, 2-C, 2.4-A, 2.5-A, 2.6-A, 2.8-A, 2.9-A, 2-D, 2.10-A, 2.10-B, 2.11-A, 2.12-A, 2.13-A, 2.14-A, 2.15-A | 19 | Geographic envelope; Earth spheres; atmosphere; global water; plate tectonics; biosphere; energy; zonation; biogeochemical cycles; geosystems; feedbacks; human pressure; planetary boundaries; integrated Earth system |
+| 03 | 13 IDs (3.1-A, 3.2-A, 3.3-A, 3.4-A, 3.5-A, 3.6-A, 3.7-A, 3.8-A, 3.9-A, 3.10-A, 3.11-A, 3.12-A, 3.12-B) | 13 | Earth structure; minerals; rock cycle; geological methods; plate tectonics; earthquakes; volcanism; folds and faults; geological time; supercontinents; mineral resources; hazards; cross-section interpretation |
+| 04 | 16 IDs (4.2-A, 4.3-A, 4.4-A, 4.5-A, 4.6-A, 4.7-A, 4.8-A, 4.9-A, 4.10-A, 4.11-A, 4.12-A, 4.13-A, 4.14-A, 4.14-B, 4.15-A, 4.15-B) | 16 | Endogenic/exogenic processes; landform classification; mountains; plains and plateaus; fluvial, glacial, aeolian, karst and coastal landforms; slope processes; weathering; global extremes; topographic maps; DEM/DSM/DTM; human modification; map exercise |
+| 05 | 19 unique IDs (5.1-A–5.18-A, including subsection-specific IDs; legacy 5-A alias excluded) | 19 | Atmospheric structure and composition; radiation and energy balance; temperature; pressure and wind; circulation; humidity, clouds and precipitation; fronts; weather and climate; climate controls and classification; climate belts; microclimates; hazards; climate change; observation-to-forecast process; climate-graph and synoptic-map exercises. All 19 IDs are integrated in RU/EN. |
+| 06 | 6-A–6-D, 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A, 6.18-A | 15 | Water distribution and cycle; oceans; ocean floor; seawater profiles; circulation; marine ecosystems and pollution; cryosphere; rivers and basins; lakes; groundwater; climate change; water-balance exercise |
+| 07 | 07-A–07-J | 10 | Biosphere; tolerance; food webs; biogeographical realms; biomes; latitudinal and altitudinal zonation; aquatic zonation; connectivity; carbon and nitrogen cycles |
+| 08 | 08-A–08-G | 7 | Soil profiles; soil formation; global soils; erosion; landscape morphology and mosaic |
+| 09 | 09-A–09-G | 7 | Population trends; demographic transition; population pyramids; migration; density; urban growth; demographic data sources |
+| 10 | 10-A–10-G | 7 | Political map; borders; maritime zones; state models; representation; cooperation; map literacy |
+| 11 | 11-A–11-G | 7 | Economic structure; location factors; agriculture; energy; transport; value chains; tourism |
+| 12 | 12-A–12-J | 10 | World-region maps: Africa, Europe, Asia, North America, Central America, South America, Oceania and Antarctica; transboundary systems and data quality |
+| 13 | 13-A–13-K | 11 | Global change; greenhouse effect; biodiversity; risk; environmental assessment; climate impacts; land restoration; adaptation; monitoring; circular economy; environmental justice |
+| 14 | 14-A–14-I | 9 | GIS architecture; vector/raster; CRS; overlay; network analysis; terrain; data quality; cartographic design; reproducible GIS |
+| 15 | 15-A–15-K | 11 | Spectral ranges; sensors; spectral indices; classification; sensing principle; signatures; resolution; composites; SAR; LiDAR; change detection |
+| 16 | 16-A–16-I | 9 | Research cycle; scale; sampling; generalisation; thematic map types; visual variables; classification; map elements; reproducibility |
+| 17 | 17-A–17-I | 9 | Kyrgyzstan location; physical map; mountain systems; valleys; geological evolution; tectonics; relief formation; elevation; resources |
+| 18 | 18-A–18-J | 10 | Relief; tectonics; mountain ranges; peaks; glacial forms; geology; river landforms; mineral districts; hazards |
+| 19 | 19-A–19-J | 10 | Climate regions; precipitation; altitudinal belts; hazards; temperature trends; circulation; temperature; inversions; climate belts; adaptation |
+| 20 | 20-A–20-K | 11 | Glaciers; river basins; lakes; hydropower; transboundary management; glacial-lake hazards; hydrographs; water balance; glacier anatomy; groundwater; 2025 water-use infographic |
+| 21 | 21-A–21-J | 10 | Biogeography; vegetation belts; forests; fauna; protected areas; crop wild relatives; vegetation map; food web; threats; monitoring |
+| 22 | 22-A–22-J | 10 | Natural zones; protected areas; reserves; ecological corridors; parks; biosphere zoning; ecotourism; governance; threats; management effectiveness |
+| 23 | 23-A–23-L | 12 | Population density; demographic panel; urban system; migration; urban/rural settlement; regional population; age-sex structure; agglomeration; seasonal settlement; hazards; scenarios |
+| 24 | 24-A–24-L | 12 | Physical geography and the seven oblasts; regional maps; risks; transport and economic corridors |
+| 25 | 25-A–25-L | 12 | Cities; agglomerations; economy; value chains; transport; energy; spatial development |
+| 26 | 26-A–26-L | 12 | Climate; glaciers and water; river-basin vulnerability; pastures; forests; air; sanitation; waste; hazards; mining; green cities; 2050 scenarios |
+
+**Reconciled inventory (current after Chapter 07 addition):** 284 named chapter-prefixed IDs are currently enumerated. Chapter 05's two former unassigned positions are now identified as 5.10-A and 5.13-A; legacy 5-A is an alias for 5.2-A. The former 231 headline is obsolete.
+
+- **Chapter 05 visual production (5 Nov 2026):** 17 named visual IDs are now integrated in the bilingual chapter, including 5.16-A, 5.17-A and 5.18-A. The 5.18-A schematic uses synthetic values and is embedded in both languages. The finished 5.18-A SVG has replaced the placeholders and is embedded in both the Russian and English practical-assignment sections; it is counted as integrated, not as fully verified. The 5.17-A pair uses explicitly synthetic monthly data, labelled as teaching examples rather than real station records. The new 5.16-A diagram distinguishes observation platforms, quality control, data assimilation, numerical prediction, ensemble/forecaster interpretation, forecast products and verification; it explicitly notes that satellites provide observations rather than independently making forecasts. The chapter section is expanded in Russian and English with ECMWF/WMO sources. Static SVG source validation and Markdown-link presence are checked; deployed rendering and device/accessibility QA remain separate.
+
+## Important consistency repairs in this pass
+
+- Chapters 14–16 received missing in-text bilingual markers so each visual brief has a stable production reference.
+- Chapters 17–23 received additional bilingual markers for visual briefs that previously lacked an in-text ID.
+- The earlier marker-ID pass reported 231 assets; that is a superseded legacy count. The pre-07-J chapter inventory had 283 named, chapter-prefixed IDs; the current inventory has 284 after Figure 7.5 was assigned 07-J. Repeated teaching/brief references and aliases are counted once; Chapter 05's 5-A is an alias of 5.2-A. Chapter 26 intentionally repeats IDs A, B, D, I and K at both teaching locations and in the production-brief list; seven production-brief-only IDs (26-C, E, F, G, H, J and L) were restored as in-text bilingual markers at their relevant chapter sections.
+- Chapters 07–13 received markers for previously unmarked figure briefs.
+- Chapter 26 had reused IDs across different visual subjects. IDs were normalised to 26-A–26-L and the missing C, E, F, G, H, J and L markers were added. Repeated references to the same asset (e.g. a teaching placeholder and its production brief) intentionally retain the same ID.
+
+## Production and scientific controls
+
+1. **Maps:** state projection, scale, north, legend, data date, source, licence and administrative/geographic classification. Legal boundaries and protected-area geometries must come from official geospatial sources.
+2. **Statistics:** state units, reference year, population/territorial denominator, and whether a value is observed, estimated, modelled or projected.
+3. **Climate and hazards:** separate observations, reconstructions, scenarios and forecasts. Never present an educational schematic as an operational hazard map.
+4. **Biodiversity:** do not publish precise locations of vulnerable species, nests or sensitive habitats; aggregate or generalise where needed.
+5. **Remote sensing:** identify sensor, product, acquisition date, processing level, resolution and validation method.
+6. **Bilingual production:** labels should be typeset in the layout stage, not embedded as unverified AI-generated text. Russian and English captions must preserve the same scientific meaning.
+7. **Accessibility:** use readable contrast, colour-blind-safe palettes, text alternatives and clear visual hierarchy.
+8. **Review:** each finished asset needs a source/data audit, geographic accuracy check, bilingual proofread and final editorial sign-off.
+
+## Current status
+
+- **Indexed (current after Chapter 07 addition):** 284 named IDs are enumerated across Chapters 01–26. Chapter 05 has 19 unique IDs; 5-A is an alias of 5.2-A. Repeated in-text and production-brief references are not double-counted.
+- **Briefed:** the previous register reports bilingual production instructions for 231 IDs, but the complete ID population and RU/EN parity must be re-counted after the 231/283 discrepancy is resolved.
+- **Created and embedded (verification status varies by chapter):** 35 local assets — Chapter 03: `03-1-A-earth-interior-bilingual.svg`, `03-3-A-rock-cycle-bilingual.svg`; Chapter 04: `04-4-A-mountain-landscape-bilingual.svg`, `04-14-A-topographic-map-bilingual.svg`; Chapter 01: `01-A-geography-spatial-system.svg`, `01-B-location-place-territory.svg`, `01-C-geographical-research-cycle.svg`, `01-D-branches-of-geography.svg`, and `01-E-local-to-global-scales.svg`; Chapters 18–20: `20-K-national-water-use-2025.svg`, `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg`. Chapter 01's four original bilingual schematics and one CC BY 4.0 adapted diagram are embedded in both language sections; all five were re-composed for mobile readability on 5 November 2026. ChatGPT GPT-6 internal conceptual review is complete; Category C method/provenance and owner-confirmed licence are documented. The designated internal reviewer is ChatGPT, not a separate human reviewer. Rendered/accessibility QA remains pending; the project owner confirmed authority to apply CC BY-NC 4.0 to the four project-created SVGs on 5 Nov 2026 (owner representation; attribution: Atlas of Knowledge project); Chapter 18–20 SVGs use official 2025 NSC figures, with the wastewater subcategory discrepancy explicitly flagged.
+- **Chapter 02 image integration:** 56 Markdown image embeds represent 28 unique assets: 28 remote images and no remaining locally stored original bilingual SVG; the official Planetary Health Check 2026 Figure 3 image is intentionally embedded in both language sections. Remote images: NOAA atmospheric layers (2-B) and temperature profile (2.3-A); USGS water distribution (2-C) and water-cycle diagram (2.4-A); My NASA Data carbon cycle adapted from U.S. DOE (2.10-A); My NASA Data/NCAR nitrogen cycle (NCAR's original page confirms nonprofit/media reuse) and Wikimedia Commons phosphorus cycle (CC0 1.0) (2.10-B); Figure 10 from Theobald et al. (2025), the 2022 global human-modification map at 300 m (2.13-A, reproduced under CC BY 4.0); and NASA Earth System Diagram (2.15-A); SERC EarthLabs balancing and reinforcing feedback diagrams (2.12-A, CC BY-NC-SA 3.0, Nick Haddad/TERC); and three S-INK plate-boundary figures by Fabio Crameri (2.5-A, CC BY-SA 4.0); and Planetary Health Check 2026 Figure 3 (2.14-A, CC BY 4.0, PBScience 2026); and LibreTexts Figure 2.3.1 by Michael E. Ritter (2.2-A, CC BY-SA 4.0); CK-12 Foundation four-spheres image (2-A, CC BY-SA 3.0); Atlas of Maps global biome map (2.9-A, CC BY 4.0, RESOLVE data) and Delphi234 Alpine altitudinal-zonation diagram (2.9-A, CC BY-SA 4.0); and OpenStax *Biology 2e* Figures 46.15, 46.17 and 46.18 (2-D, CC BY-NC-SA 4.0; USGS source credit); and Mikala14 “Levels of Organization.svg” (2.6-A, CC BY-SA 3.0, seven component credits); and USGS “Ecosystems like a Puzzle” (2.11-A, Public Domain); and NASA/SDO, USGS and Orion 8 energy-source panels (2.8-A, Public Domain bases); and ZPE “Spheres of the Earth” by Andrzej Bogusz and Michał Szymczak (2.1-A, CC BY-SA 3.0). No original Chapter 02 SVGs remain. All 19 Chapter 02 visual IDs now have integrated imagery in both language versions. The carbon-, nitrogen- and phosphorus-cycle illustrations use existing sourced scientific images; the NASA Earth System Diagram is used for the integrated-system summary. NASA media-use guidance for educational/informational reuse and the NCAR/UCAR nonprofit/media reuse statement are recorded in the relevant chapter captions. No original local Chapter 02 SVGs remain; all 11 former local assets were removed after sourced replacements were integrated. All 11 former unlicensed Chapter 02 SVGs were removed after replacement; none is left in the branch. **Rights record for all 11 former original Chapter 02 SVGs is NO PUBLIC LICENCE ASSERTED / NOT CLEARED FOR REUSE; all 11 files have been removed from the branch**; their historical no-licence records are retained in the source and audit registers, and no CC BY-NC 4.0 grant is implied. The user's separate CC BY-NC 4.0 confirmation applies only to Chapter 01 assets 01-A, 01-B, 01-C and 01-E. See `IMAGE_SOURCES.md` and `IMAGE_AUDIT.md`. For 2.13-A, the previous provisional Nature Data Lab JPEG was replaced with the article's Figure 10, whose Rights and permissions statement applies CC BY 4.0 to article images unless a separate credit line states otherwise; no separate restrictive credit line appears for Figure 10. Browser image checks rendered NASA, both NOAA images, USGS water distribution, both My NASA Data images, the USGS water-cycle image (using the verified full-width endpoint from the official USGS media page), and the Wikimedia phosphorus-cycle original (CC0 1.0 verified on Commons). The replacement Figure 10 image from Scientific Data was opened and visually verified; its article-level CC BY 4.0 terms and the absence of a separate restrictive credit line for Figure 10 were checked. All 19 Chapter 02 visual IDs now have integrated images or original diagrams in both language versions. The SVGs are committed locally in the branch; live-site loading, responsive rendering, performance, keyboard navigation and screen-reader output remain untested because no deployed site URL or deployment workflow is established in this branch.
+- **Chapter 03 superseding inventory note (6 Nov 2026):** the production batch listed below contains **10 local bilingual SVGs** for Chapter 03 (3.1-A, 3.3-A, 3.4-A, 3.6-A, 3.7-A, 3.8-A, 3.10-A, 3.11-A, 3.12-A and 3.12-B), plus the three external images 3.2-A, 3.5-A and 3.9-A. All 13 IDs are embedded in both language sections. The earlier compact “Created and embedded” list above is a historical partial list, not a complete Chapter 03 inventory. The old unnumbered 3-A label is not present in the current chapter and is excluded from the 13-ID count.
+- **Generated and fully approved:** none are claimed by this register.
+- **Historical next-work note (superseded 5 Nov 2026):** the Chapter 03–04 production batch and later chapter integrations are recorded below. Current chapter-by-chapter release priority is to close Chapter 01 technical QA before beginning Chapter 02; see `IMAGE_AUDIT.md` and `EDITORIAL_READINESS_MATRIX.md` for the current gates.
+
+- **Chapter 03–04 production batch (4 Nov 2026):** Chapter 03 local SVGs: `03-1-A-earth-interior-bilingual.svg`, `03-3-A-rock-cycle-bilingual.svg`, `03-4-A-geological-research-toolkit-bilingual.svg`, `03-6-A-earthquake-anatomy-bilingual.svg`, `03-7-A-volcano-anatomy-bilingual.svg`, `03-8-A-folds-faults-bilingual.svg`, `03-10-A-supercontinent-cycle-bilingual.svg`, `03-11-A-mineral-resource-lifecycle-bilingual.svg`, `03-12-A-geological-hazards-bilingual.svg`, `03-12-B-geological-cross-section-bilingual.svg`; Chapter 04 local SVGs: `04-2-A-endogenic-exogenic-bilingual.svg`, `04-3-A-landform-classification-bilingual.svg`, `04-4-A-mountain-landscape-bilingual.svg`, `04-5-A-plains-plateaus-bilingual.svg`, `04-6-A-river-landforms-bilingual.svg`, `04-7-A-glacial-landforms-bilingual.svg`, `04-8-A-aeolian-landforms-bilingual.svg`, `04-9-A-karst-system-bilingual.svg`, `04-10-A-coastal-ocean-floor-bilingual.svg`, `04-11-A-slope-processes-bilingual.svg`, `04-12-A-weathering-processes-bilingual.svg`, `04-13-A-earth-vertical-extremes-bilingual.svg`, `04-14-A-topographic-map-bilingual.svg`, `04-14-B-dem-dsm-dtm-bilingual.svg`, `04-15-A-human-modification-bilingual.svg`, `04-15-B-topographic-map-exercise-bilingual.svg`. All are embedded in both language sections. Chapter 03 additionally embeds USGS mineral specimen, USGS I-2800 plate map and ICS 2026/06 chart images.
+
+
+### Chapter 06 visual-ID reconciliation — 5 November 2026
+
+- Reconciled the four original core IDs (6-A–6-D) with eleven additional figure concepts that had production briefs but no in-text stable markers. Added bilingual teaching-location markers for 6.1-A, 6.5-A, 6.7-A, 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. The four duplicate aliases 6.2-A, 6.3-A, 6.4-A and 6.6-A were normalised to the corresponding core IDs rather than counted twice. Chapter 06 now has 15 unique visual IDs; 6-A, 6-C, 6.1-A, 6.5-A, 6.7-A and 6-D are integrated in both language sections. The new 6-D bilingual wave/tide/current schematic is integrated; its project rights/licence and rendered accessibility checks remain pending. 6-B has a candidate dataset with confirmed CC BY 4.0 terms but no finished map; nine other visual needs remain open. At that historical checkpoint, the repository-wide unique-ID total remained unreconciled (legacy headline 231; chapter-row sum 283). The 6 November 2026 current count is 284 after adding 07-J.
+
+
+## IMAGE-FIRST v1.1 inventory reconciliation warning — 5 November 2026
+
+At the earlier audit checkpoint, the register's headline stated **231 unique visual IDs**. However, the chapter-level counts in its inventory table sum to **283** after adding the verified Chapter 09 ID 09-G. The Chapter 05 line states 20 IDs but only 18 IDs can currently be enumerated safely from the available subsection sequence, Chapter 09's 09-G is present in the chapter itself and is now included in the inventory row. These figures must not be silently reconciled by inventing IDs or deleting valid ones. Until every chapter file, in-text marker, production brief and actual asset is reconciled, treat the register headline of 231 and the chapter-row sum of 283 as unverified competing totals. See [IMAGE_AUDIT.md](IMAGE_AUDIT.md). Do not calculate Image Coverage from either figure yet.
+
+
+## IMAGE-FIRST v1.1 integration scan — Chapters 06–26 (5 November 2026)
+
+**HISTORICAL SNAPSHOT — SUPERSEDED.** The initial 5 November scan found only four embedded assets. Subsequent chapter-by-chapter integrations made that result obsolete. Use the later superseding updates and the latest chapter-level table below; do not quote the four-asset result as current.
+
+| Chapter range | Required visual IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 06–17 | 111 | 58 | 53 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| 21–26 | 68 | 0 | 68 |
+| **Total** | **210** | **77** | **133** |
+
+This is a confirmed integration inventory, not a scientific, rights, language, accessibility or rendered-technical approval. Integrated assets remain INTEGRATED only; all applicable review dimensions are assessed separately.
+
+
+- **5.18-A integration:** created `geography/visuals/chapter-05-synoptic-map-climate-analysis.svg`, a bilingual schematic with synthetic pressure systems, fronts, station plots and climate graphs. It is a teaching exercise, not an operational weather chart. Static SVG structure and bilingual source placement were checked; scientific convention/data review passed. Project rights/licence, accessibility and rendered QA remain pending.
+
+
+## Superseding integration update — Chapters 11–20 — 5 November 2026
+
+The earlier “Chapters 06–26 integration scan” above is a historical snapshot and is superseded for Chapters 11–20 by the verified updates below. Do not continue to quote its 4-integrated / 206-missing result as the current status for those chapters.
+
+| Chapter | Registered IDs | Integrated as of 5 Nov | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 3 (11-A, 11-B, 11-C) | 4 |
+| 12 | 10 | 2 (12-A, 12-B) | 8 |
+| 13 | 11 | 2 (13-A, 13-C) | 9 |
+| 14 | 9 | 2 (14-A, 14-B) | 7 |
+| 15 | 11 | 2 (15-A, 15-B) | 9 |
+| 16 | 9 | 2 (16-A, 16-B) | 7 |
+| 17 | 9 | 3 (17-C, 17-E, 17-G) | 6 |
+| 18 | 10 | 4 (18-B, 18-D, 18-H, 18-J) | 6 |
+| 19 | 10 | 3 (19-C, 19-D, 19-H) | 7 |
+| 20 | 11 | 5 (20-F, 20-H, 20-I, 20-J, 20-K) | 6 |
+| **Total, Chapters 11–20** | **97** | **28** | **69** |
+
+Chapter 20.6.7 additionally embeds one supplementary CC BY 4.0 research figure showing the 2019 glacial-lake distribution in the Kyrgyz and Teskey ranges. It is not counted as one of the 20-A–20-K planned assets. Chapter 12-A's SVG embeds a remote Wikimedia relief map; this is a dependency, not a fully self-contained local map image.
+
+**Historical note:** the earlier repository-wide headline of 231 unique IDs and chapter-row sum of 283 were unreconciled. The table above is a scoped count for Chapters 11–20 only and does not resolve the repository-wide inventory. The full source, rights, scientific, accessibility and technical status is in IMAGE_SOURCES.md and IMAGE_AUDIT.md.
+
+
+## Superseding visual-integration update — Chapters 11–20 — 5 November 2026
+
+The 28/97 integration table recorded earlier in this register is a historical snapshot. After the fourth tranche, the current scoped status is:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 4 | 3 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 3 | 8 |
+| 14 | 9 | 3 | 6 |
+| 15 | 11 | 3 | 8 |
+| 16 | 9 | 3 | 6 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **34** | **63** |
+
+Six additional original bilingual SVGs are now integrated: 11-E, 12-D, 13-D, 14-C, 15-C and 16-C. The 11–16 first tranche therefore contains 18 integrated assets; Chapters 18–20 contain eight new assets in the November tranches, while existing SVGs 18-J, 19-H, 20-I and 20-K were also re-audited. Chapter 20.6.7 retains one supplementary CC BY 4.0 research figure outside the 20-A–20-K planned-ID count.
+
+All six new chapter embeds and their matching SVG files were re-fetched from workspace/geography; each embed has non-empty bilingual alt text and each relative asset path resolves to an existing file. Static SVG source checks passed. These checks do not certify live rendering, mobile layout, keyboard/screen-reader behaviour, scientific sign-off or project redistribution rights.
+
+Before the addition of Chapter 07 visual 07-J, the repository-wide inventory had been reconciled at 283 named IDs; Chapter 05's former 20-position count is now 19 unique IDs plus the 5-A alias. The 34/97 count is scoped only to Chapters 11–20 and must not be extrapolated to the whole repository.
+
+
+## Fifth-tranche update — Chapters 11–20 — 5 November 2026
+
+The 39/97 table above is superseded by the following current scoped count after integrating 11-D, 13-B, 14-E, 15-E and 16-D:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 5 | 6 |
+| **Total** | **97** | **39** | **58** |
+
+Five additional original bilingual SVGs are now integrated: 11-D, 13-B, 14-E, 15-E and 16-D. Chapters 11–16 therefore contain 23 integrated planned IDs; Chapters 17–20 contain 15. Total scoped integration is 39/97. Chapter 20.6.7 still contains one supplementary CC BY 4.0 research figure outside the planned-ID count.
+
+All five new embeds and their relative asset paths were checked against the working branch. All five SVGs passed static structure checks. This does not certify specialist review, licence assignment, responsive rendering, keyboard navigation or screen-reader output. The historical 231-versus-283 visual-ID discrepancy remained unresolved at that checkpoint; this scoped 39/97 count must not be extrapolated to other chapters.
+
+
+## Sixth-tranche update — Chapter 20 — 5 November 2026
+
+The 39/97 scoped count above is superseded after integrating 20-C and 20-D:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 5 | 2 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 3 | 7 |
+| 20 | 11 | 7 | 4 |
+| **Total** | **97** | **41** | **56** |
+
+Chapter 20-C compares published lake surface areas only; it does not claim to be the required map or full morphometric comparison. Depth and origin are excluded because available sources differ. Chapter 20-D shows the five-plant Lower Naryn sequence and the cited 2,870 MW aggregate capacity; it does not infer individual plant capacities. Both embeds and SVG files were checked on the working branch and passed static source checks. Browser, mobile, accessibility, project licence and specialist sign-off remain open.
+
+
+## Seventh-tranche update — Chapter 20-E — 5 November 2026
+
+Chapter 20-E (transboundary water-management schematic) is now integrated. Current Chapter 20 coverage is 8/11 (20-C, 20-D, 20-E, 20-F, 20-H, 20-I, 20-J and 20-K); 20-A, 20-B and 20-G remain open. Across Chapters 11–20 the current scoped total is **42/97 integrated; 55 missing**.
+
+20-E is a conceptual comparison of Chu–Talas cooperation and Naryn–Syr Darya reservoir/hydropower/irrigation coordination. It is not a georeferenced basin map or quantified allocation chart. Rights, browser rendering and accessibility review remain open.
+
+
+## Eighth-tranche update — Chapters 11 and 19 — 5 November 2026
+
+Two additional assets are integrated: 11-F (energy system and 2025 Kyrgyzstan example) and 19-J (climate impacts/adaptation sectors). Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 6 | 1 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **44** | **53** |
+
+All 36 newly authored local SVG assets in the November tranches (24 across Chapters 11–16 and 12 across Chapters 18–20) are integrated. This count is limited to new local SVGs created in these tranches; it excludes pre-existing project visuals that were only re-audited and the supplementary CC BY 4.0 research figure in Chapter 20.6.7. The 44/97 planned-ID coverage is scoped to Chapters 11–20 only.
+
+
+## Ninth-tranche update — Chapter 11-G — 5 November 2026
+
+Chapter 11-G (tourism destination system) is now integrated; Chapter 11 has all 7/7 planned visual IDs embedded. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 4 | 6 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **45** | **52** |
+
+Total new local SVG assets authored in the November tranches: 37 (25 across Chapters 11–16 and 12 across Chapters 18–20). Chapter 11's complete visual set is integrated but remains subject to scientific/editorial sign-off, project licence assignment, accessibility and rendered-browser QA. This is scoped planned-ID coverage, not a repository-wide percentage.
+
+
+## Tenth-tranche update — Chapter 19-F — 5 November 2026
+
+Chapter 19-F (seasonal Central Asian atmospheric circulation) is now integrated. Chapter 19 has 5/10 planned visuals. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 4 | 7 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **46** | **51** |
+
+Total new local SVG assets authored in the November tranches: 38 (25 across Chapters 11–16 and 13 across Chapters 18–20). The circulation diagram is conceptual, not a daily forecast or georeferenced map. Project licensing and final rendered/accessibility QA remain outstanding.
+
+
+## Eleventh-tranche update — Chapter 13 — 5 November 2026
+
+Chapter 13-E, 13-F and 13-H are now integrated. Chapter 13 has 7/11 planned visuals; 13-G, 13-I, 13-J and 13-K remain open. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 4 | 5 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **49** | **48** |
+
+Historical snapshot superseded by the latest status below. At the time of this tranche, the scoped coverage was 49/97.
+
+
+## Twelfth-tranche update — Chapter 14 — 5 November 2026
+
+Chapter 14-F, 14-H and 14-I are now integrated. Chapter 14 has 7/9 planned visuals; 14-D and 14-G remain open. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 4 | 7 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **52** | **45** |
+
+Total newly authored local SVG assets in the November tranches: 44 (31 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 14's remaining 14-D colour-scale guidance and 14-G DEM/derivative map require further review; 14-G is dependent on a valid DEM source and metadata.
+
+
+## Thirteenth-tranche update — Chapter 15 — 5 November 2026
+
+Chapter 15-F, 15-G and 15-H are now integrated. Chapter 15 has 7/11 planned visuals; 15-D, 15-I, 15-J and 15-K remain open. Current scoped status:
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 4 | 5 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **55** | **42** |
+
+Total newly authored local SVG assets in the November tranches: 47 (34 across Chapters 11–16 and 13 across Chapters 18–20). Chapter 15's remaining visual IDs include validation/change-detection and sensor-specific analyses; they must be grounded in data rather than schematic values.
+
+
+## Chapter 16 — final visual integration update — 5 November 2026
+
+The five remaining Chapter 16 assets are now integrated: 16-E thematic map types, 16-F cartographic visual variables, 16-G classification methods, 16-H thematic-map layout and 16-I reproducible project workflow. All are original hand-coded bilingual SVGs, Category C. They are integrated, not VERIFIED; project creator/licence assignment, independent scientific sign-off, accessibility review and browser/device QA remain pending.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 5 | 5 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **60** | **37** |
+
+This is the current scoped integration count for Chapters 11–20 only. The additional Chapter 20.6.7 research figure is not counted among planned IDs. Image Verification must be reported separately and must not be inferred from these integration counts.
+
+
+## Chapter 19 — additional integration update — 5 November 2026
+
+Visual 19-E (official Kyrgyzhydromet seasonal/annual temperature-trend chart) is now integrated. It reports the published linear trends for 22 station series and explicitly flags the source page's 1981–2020 versus 1981–2021 period inconsistency. It is not an annual temperature-anomaly series.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 4 | 6 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **61** | **36** |
+
+Image Coverage is 61/97. Image Verification is not the same metric: none of the newly authored project SVGs is marked VERIFIED while project licence assignment, manual accessibility and browser/device checks remain open.
+
+
+## Chapter 18 — additional integration update — 5 November 2026
+
+Visual 18-C is now integrated as a three-photo set: Jengish Chokusu / South Inylchek (CC BY-SA 4.0), Khan Tengri (CC BY 2.0) and Lenin Peak (CC0 1.0). Each exact Commons file page and licence was checked; attribution and bilingual alt text are in the chapter. The photographs are unchanged and are not treated as elevation evidence. Current Chapter 18 coverage is 5/10 (18-B, 18-C, 18-D, 18-H, 18-J); 18-A, 18-E, 18-F, 18-G and 18-I remain open.
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total, Chapters 11–20** | **97** | **62** | **35** |
+
+Coverage only. Verification remains separate; external image rendering and accessibility QA are still pending.
+
+
+### Chapter 17 — supplementary regional seismicity figure
+
+A CC BY 4.0 reproduction of Figure 1 from Poggi et al. (2024) was added as regional context. It covers five Central Asian countries plus a 300 km buffer and depicts the input earthquake catalogues used for the HECCA backbone. It is not a Kyrgyzstan-only map and does not show active-fault traces; therefore it is recorded as supplementary and does not increase planned 17-F coverage. The required Kyrgyzstan-specific active-fault/seismicity map remains MISSING pending data-package inspection, filter selection and boundary validation.
+
+
+### Chapter 20 — 20-G hydrograph source checkpoint
+
+A historical Naryn River gauge candidate was identified: UNH Water Systems Analysis Group station 16055, at 41.430° N, 76.000° E, drainage area 10,500 km², reported long-term mean 92.117 m³/s and graph coverage 1931–2006. The source page exposes graphs but raw reusable observations and item-specific licence terms are not yet confirmed. Visual 20-G remains MISSING; no values have been digitised from the displayed graph.
+
+
+## Historical scoped checkpoint — Chapters 11–20 — 5 November 2026 (62/97; superseded by the later 71/97 snapshot)
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 7 | 2 |
+| 15 | 11 | 7 | 4 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **62** | **35** |
+
+- **Historical Image Coverage at this checkpoint:** 62/97 (64%). This checkpoint is superseded by the later 71/97 snapshot below.
+- **Image Verification:** report separately; integration does not imply VERIFIED. Newly authored SVGs still require formal project creator/licence assignment, independent scientific sign-off, accessibility review and rendered browser/device checks. External images also require deployed load/responsive checks.
+- Supplementary research figures in Chapters 17 and 20 are not counted among planned IDs.
+- The repository-wide inventory was reconciled later in this branch: 281 named IDs plus two unresolved Chapter 05 legacy positions. Do not extrapolate this historical scoped checkpoint to the whole repository.
+
+
+## Latest scoped snapshot — Chapters 11–20 — 5 November 2026 (after Chapters 14–15 integration)
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 7 | 4 |
+| 14 | 9 | 8 | 1 |
+| 15 | 11 | 11 | 0 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **67** | **30** |
+
+**Image Coverage:** 67/97 (69%) of planned visual IDs in Chapters 11–20 are integrated. Chapter 15 is now 11/11; Chapter 14 is 8/9, with only 14-G (a source-backed DEM and derivatives) still open. Image Verification remains separate and must not be inferred from integration.
+
+
+### Chapter 14 — 14-G DEM source checkpoint
+
+NASA SRTM Global 1 arc-second V003 (~30 m, acquisition 2000) and Copernicus DEM GLO-30 Public (30 m DSM, TanDEM-X 2011–2015) have been identified as candidate sources. Copernicus GLO-30 is a surface model including vegetation/buildings and some tiles are not publicly released; it must not be described as bare-earth terrain. No Kyrgyzstan source tile has yet been downloaded and validated, so 14-G remains MISSING pending CRS/vertical-datum/NoData/licence checks and reproducible slope/aspect derivation.
+
+
+## Latest scoped snapshot — Chapters 11–20 — 5 November 2026 (after Chapter 13 integration)
+
+| Chapter | Unique IDs | Integrated | Missing |
+|---|---:|---:|---:|
+| 11 | 7 | 7 | 0 |
+| 12 | 10 | 3 | 7 |
+| 13 | 11 | 11 | 0 |
+| 14 | 9 | 8 | 1 |
+| 15 | 11 | 11 | 0 |
+| 16 | 9 | 9 | 0 |
+| 17 | 9 | 3 | 6 |
+| 18 | 10 | 5 | 5 |
+| 19 | 10 | 6 | 4 |
+| 20 | 11 | 8 | 3 |
+| **Total** | **97** | **71** | **26** |
+
+**Image Coverage:** 71/97 (73%) of planned visual IDs in Chapters 11–20 are integrated. Chapters 13, 15 and 16 are now 100% by planned-ID coverage; Chapter 14 remains 8/9, pending a validated DEM and derivatives. Image Verification is a separate measure; integration does not imply VERIFIED.
+
+
+### Chapter 18 — supplementary relief overview
+
+Blue Green Atlas's Kyrgyzstan relief map (CC BY 4.0) has been embedded as a supplementary overview. Its source metadata lists Mercator projection, NASA SRTM3 (~90 m), GEBCO 2019, HydroLAKES, HydroATLAS and VMap0. Because compilation date, vertical reference and accuracy assessment are not stated, this map does **not** close planned visual 18-A or replace the required validated DEM.
+
+
+### Chapter 12 — supplementary North America relief image
+
+NASA/JPL Photojournal PIA03377 has been added as a supplementary shaded-relief image. SRTM source data were acquired in February 2000, reduced to 30 arcseconds (~1 km), and resampled to Mercator. It is not a named drainage map; therefore it does not close planned visual 12-F or change planned-ID coverage.
+
+
+## Ninth-tranche update — Chapter 07 visual 07-D — 5 November 2026
+
+Visual 07-D, Shelford's ecological tolerance curve, is now integrated as a bilingual SVG adaptation. The source was located on Wikimedia Commons and its individual file page confirms CC BY 4.0, author credit and the originating DOI. The diagram was redrawn and translated; no numeric data were copied. It distinguishes the lower/upper tolerance limits, intolerance zones, pessimum/physiological-stress zones and central optimum. The curve is explicitly conceptual and has no numerical scale.
+
+- **Source file:** https://commons.wikimedia.org/wiki/File:Shelford%27s_Law_of_Tolerance.png
+- **File author credit:** Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu.
+- **Originating article:** Olenici et al. (2025), “Effects of Water Pollution on Diatom Communities of Roșia Montană Mining Area, Romania,” Sustainability 17(10), 4592. https://doi.org/10.3390/su17104592
+- **Licence:** CC BY 4.0. Changes: redrawn as a bilingual SVG, translated and simplified for school-level teaching; no endorsement implied.
+- **Asset:** geography/assets/diagrams/07-D-shelford-tolerance-curve-bilingual.svg
+- **Chapter embed:** geography/chapters/07-biosphere-and-natural-biomes.md, section 7.3.
+- **Review:** scientific concept PASS; rights PASS; RU/EN PASS; accessibility PENDING; live browser/mobile rendering PENDING. Therefore lifecycle is INTEGRATED, not VERIFIED.
+
+Historical 5 November snapshot — superseded 6 November 2026: Chapter 07 then had 7/9 integrated; maps 07-C and 07-E have since been generated and integrated. The separate unnumbered Figure 7.5 brief is not included in the nine-ID count.
+
+
+## Tenth-tranche update — Chapter 12-E — 5 November 2026
+
+Integrated the Blue Green Atlas physical relief map of Europe as a direct external image. The creator's page states CC BY 4.0 and identifies the Albers Equal Area Conic projection, NASA SRTM3 topography, GEBCO 2019 bathymetry and Natural Earth lakes/rivers. A bilingual key was added for major plains, mountain systems, peninsulas and seas. The map itself is used unchanged; its boundaries are not presented as a single official macroregional scheme. Rights and attribution PASS; scientific and remote-image rendering/accessibility QA remain PENDING. This adds one integrated visual ID; atlas-wide coverage is 171/281 (60.9%).
+
+
+## Eleventh-tranche update — Chapter 12-F–12-I — 5 November 2026
+
+Four additional physical-region maps were integrated: North America (Blue Green Atlas, CC BY 4.0), Central America and Caribbean (CIA World Factbook, public domain), South America (Blue Green Atlas, CC BY 4.0), and Oceania (Blue Green Atlas, CC BY 4.0). Each has bilingual alt text, a teaching key and source/licence notes. North America includes a river-drainage direction key; Central America includes the Antilles, passages and Panama Canal; South America includes major basins and relief regions; Oceania distinguishes broad continental, volcanic and coral-atoll examples. Images are external dependencies and are used unchanged. Scientific sign-off and deployed responsive/accessibility QA remain pending. Chapter 12 is now 8/10 integrated; 12-C and 12-J remain open. Atlas-wide coverage is 175/281 (62.3%).
+
+
+## Chapter 13 audit reconciliation — 5 November 2026
+
+Reconciled the detailed audit for all 11 existing bilingual SVGs. All 11 pass static source checks for title/description metadata, accessible image role and label reference, bilingual text, and absence of scripts/foreignObject/embedded external images. Scientific/conceptual review is PASS for 13-B, 13-E–13-K; remains PENDING for 13-A, 13-C and 13-D (including jurisdiction-specific legal review). Formal creator/licence assignment, accessibility and live rendering remain PENDING for every item. No new visual integration is claimed and atlas-wide coverage remains 175/281 (62.3%).
+
+
+## Chapter 13 follow-up — 6 November 2026
+
+All eleven planned bilingual visuals (13-A–13-K) are integrated beside their corresponding teaching sections; none remains only in the production-notes appendix. Scientific/conceptual review is PASS for all 11. The 13-A greenhouse-effect schematic explicitly states that greenhouse gases are mixed through the atmosphere rather than forming a separate layer and is labelled as a simplified diagram, not a complete energy budget. The 13-C disaster-risk model shows hazard, exposure, vulnerability and capacity as interacting components rather than a linear chain; the Russian label uses the established term «потенциал». The 13-D diagram distinguishes project-level EIA, strategic SEA and cross-cutting monitoring, with a note that legal procedures vary by jurisdiction.
+
+Static source checks for all 11 SVGs pass: title and description metadata, image role, valid ARIA label references, unique IDs, bilingual text, and no scripts, foreignObject elements or embedded external images. Markdown integration check: 11/11 IDs embedded once with non-empty bilingual alt text; production-notes appendix contains no image embeds.
+
+Still open: formal creator/licence assignment for each asset; jurisdiction-specific legal review of EIA/SEA terminology and requirements; independent scientific review; rendered-browser/mobile, keyboard and screen-reader QA. Static source checks do not substitute for rendered or accessibility acceptance.
+
+## Chapter 13 editorial follow-up — 6 November 2026
+
+The Chapter 13 text audit corrected the greenhouse-effect mechanism in both languages (infrared absorption and emission by greenhouse gases, not a vague “heat-trapping layer”); aligned the English Millennium Ecosystem Assessment service categories (“supporting services”); added the UNCCD land-degradation response hierarchy (avoid, reduce, reverse); aligned disaster-risk capacity terminology and summary statements; removed a duplicate English summary; and added UNECE Espoo Convention and UNEP Life Cycle Assessment references. The ocean section now gives the IPCC AR6 WGI estimate with its time windows: 23 ± 5% of anthropogenic carbon emissions stored by the ocean over the preceding 60 years, and more than 90% of excess heat accumulated in the Earth system since the 1970s. The 2026 Planetary Health Check claim remains dated and attributed to the report rather than presented as a legal threshold.
+
+Structural check: 18 RU main headings; 15 corresponding English main sections plus five paired subsections; 12/12 review questions in each language; 5/5 practical activities in each language; one bilingual summary; 26 sequential numbered references. The risk glossary now describes vulnerability as susceptibility to hazards in line with UNDRR terminology; the LCA subsection explicitly names all four phases (goal/scope, inventory, impact assessment and interpretation) in RU/EN; environmental-justice wording now refers consistently to residents of rural and remote areas. All 11 visual IDs occur once in the instructional text with non-empty bilingual alt text; no visual embeds remain in the production-notes appendix.
+
+This is a text/source and static integration pass, not a complete source-to-claim audit. Remaining: verify all dated indicators and their extraction dates; inspect the complete evidence trail for each quantitative/scientific claim; independent scientific review; formal asset creator/licence assignment; jurisdiction-specific legal review of EIA/SEA; rendered-browser/mobile, keyboard and screen-reader QA.
+
+## Twelfth-tranche update — Chapter 17-B, 17-F and 17-I — 5 November 2026
+
+Integrated three sourced map visuals for Kyrgyzstan: (17-B) a public-domain SRTM/GMT topographic map with a bilingual key to major ranges and intermontane valleys; (17-F) two CC BY 4.0 research maps from Poggi et al. (2024), one for regional earthquake epicentres and one for selected active faults; (17-I) an OCHA COD-AB-based labelled administrative map showing seven oblasts and Bishkek/Osh separately. These are external image dependencies; scientific/date validation and deployed rendering/accessibility checks remain pending where noted. Chapter 17 is now 6/9 integrated; 17-A, 17-D and 17-H remain open. Atlas-wide coverage is 178/281 (63.3%).
+
+
+## Thirteenth-tranche update — Chapter 17-A — 5 November 2026
+
+Integrated a two-map locator set: Blue Green Atlas relief map for neighbouring-country and physical-geography context (CC BY 4.0), plus an OCHA COD-AB / Ministry of Emergency Situations administrative outline (CC BY-IGO) with Natural Earth neighbouring land. Bilingual key identifies Kazakhstan, Uzbekistan, Tajikistan and China, plus the Tien Shan, Pamir–Alay, Fergana Valley, Issyk-Kul and Chuy Valley. The underlying OCHA release/version date is not exposed, so the boundary remains provisional and not legally verified. Chapter 17 is now 7/9 integrated; 17-D and 17-H remain open. Atlas-wide coverage is 179/281 (63.7%).
+
+
+## Fourteenth-tranche update — Chapter 17-D — 5 November 2026
+
+Integrated a two-part valley visual: Blue Green Atlas relief map as regional topographic context plus a new original bilingual SVG transverse profile showing typical intermontane-valley landforms. The bilingual key names the Chuy, Talas, Issyk-Kul, Suusamyr, Naryn, Fergana and Alay valleys and gives reference settlements only; no invented basin polygons or measured profiles are presented. Spatial verification of anchors and formal rights assignment for the original SVG remain pending. Chapter 17 is now 8/9 integrated; 17-H remains open. Atlas-wide coverage is 180/281 (64.1%).
+
+
+## Sixteenth-tranche update — Chapters 21, 22, 23, 25 and 26 — 5 November 2026
+
+Integrated 16 original bilingual conceptual SVGs: Chapter 21 (five: vegetation belts, forest types, high-mountain food web, pressure–impact–response, monitoring methods); Chapter 22 (four: UNESCO MAB zonation, low-impact tourism route, protected-area management, management effectiveness); Chapter 23 (two: urban/rural settlement comparison and valley/mountain/jailoo settlement forms); Chapter 25 (two: natural capital and environmental costs, agri-food value chain); Chapter 26 (three: waste hierarchy, hazard–exposure–vulnerability–risk, green urban infrastructure). All passed static source checks for bilingual labels and SVG accessibility metadata; rights assignment, accessibility and live rendering remain pending. Atlas-wide visual coverage is 197/281 (70.1%).
+
+
+## Chapter 01 — mobile-first visual revision — 5 November 2026
+
+The five existing Chapter 01 visual IDs remain unchanged and fully integrated in RU/EN. Their local SVG files were re-composed with portrait-oriented viewBoxes, larger bilingual text and vertically stacked layouts. This is a readability/layout revision, not an increase in Image Coverage. Current coverage remains 5/5 (100%). Rights: PASS on the documented source licence for 01-D and the project owner's authority representation for CC BY-NC 4.0 on 01-A/B/C/E. Static SVG structure QA: PASS 5/5. ChatGPT GPT-6 internal conceptual/pedagogical review: PASS 5/5 (5 Nov 2026); this is not independent human/expert validation. The 01-B visible bilingual title was corrected to “Absolute and relative location / Абсолютное и относительное местоположение” (commit `e9614a1a327709c43f2228e3b027eccce8f77ceb`). Browser/device rendering, keyboard operation and actual assistive-technology output remain untested and are tracked as separate technical release QA.
+
+
+## Chapter 01 — licence authority confirmation — 5 November 2026
+
+The project owner confirmed on 5 Nov 2026 that they or an authorised project organisation have authority to act as licensor and apply CC BY-NC 4.0 to the four Category C visuals (01-A, 01-B, 01-C and 01-E). Rights status is PASS on the basis of this owner representation, not an independent legal opinion; attribution: Atlas of Knowledge project. 01-D remains a separate CC BY 4.0 adaptation.
+
+## Chapter 03 — project-local SVG licence designation — 6 November 2026
+
+The project owner authorised CC BY-NC 4.0 for the ten local bilingual SVGs: 3.1-A, 3.3-A, 3.4-A, 3.6-A, 3.7-A, 3.8-A, 3.10-A, 3.11-A, 3.12-A and 3.12-B. The designated attribution party is the Atlas of Knowledge project. This is a project-owner representation, not independent legal verification; no individual human creator or specific AI authoring workflow is claimed. The licence applies only to these ten files. External Chapter 03 images 3.2-A, 3.5-A and 3.9-A retain their separate source-specific rights. See `geography/assets/CHAPTER_03_ASSET_LICENSE.md`.
+
+
+### Chapter 05 — visual inventory completed — 6 November 2026
+
+- Added 5.10-A (climate controls) and 5.13-A (urban microclimate/heat island) as original bilingual SVGs, embedded in RU and EN.
+- Confirmed 19 unique visual IDs in Chapter 05. The old 20-position count included legacy alias 5-A for 5.2-A.
+- Corrected the 5.18-A climate graph precipitation bars to match the chapter's monthly source table (A 364 mm; B 925 mm).
+- Chapter 05 now has 46 Markdown image embeds, 23 unique image URLs and zero empty alt attributes. Rights, rendered accessibility and production-reader QA remain separate pending tasks.
+
+
+### Chapter 06 — integration update — 6 November 2026
+All 15 unique Chapter 06 visual IDs are now integrated in both Russian and English sections. The chapter contains 32 Markdown image embeds across 16 distinct image targets (the 6.7-A ID intentionally includes both a NOAA surface-current map and a separate deep-circulation schematic). Eight new bilingual SVGs were added: 6.9-A, 6.11-A, 6.12-A, 6.13-A, 6.14-A, 6.15-A, 6.17-A and 6.18-A. Visual 6-B uses an unchanged Wikimedia Commons five-ocean map under CC BY-SA 3.0. The eight new local SVGs' basic structural metadata and non-empty alt text were checked. This is not a claim that rights, contrast, screen-reader behaviour, rendered browser/mobile presentation or deployment QA have passed. The 6-B map is a third-party educational map with conventional boundaries, not a universally authoritative hydrographic delimitation; the candidate VLIZ dataset is not used in it. Project rights/licence decisions for original local SVGs remain pending.
+
+
+## Chapter 07 — full-size visual QA reconciliation — 6 November 2026
+
+- Seven integrated assets (07-A, 07-B, 07-D, 07-F, 07-G, 07-H, 07-I) are paired in both languages (14 embeds). Static QA run 42218475981 and full-size Chromium run 42218476031 passed. All seven render without viewBox clipping or text-to-text overlap; live GitHub Markdown decoded all 14 embeds at 390px and 1365px; axe WCAG 2.1 A/AA returned zero violations.
+- Mobile note: labels are small at 390px (minimum effective text 2.8–5.5 CSS px); readers need to zoom for detailed reading. Manual screen-reader and deployed-site checks remain pending.
+- Open map visuals 07-C and 07-E will use RESOLVE Ecoregions 2017 (14 biomes / 8 realms, CC BY 4.0) as their data source. Figure 7.5 has an additional unnumbered production brief; do not silently count it among the nine current IDs.
+
+
+### Chapter 07 — project-owner rights confirmation — 6 November 2026
+
+On 6 November 2026, the project owner extended CC BY-NC 4.0 authorisation to all original project-controlled visuals in the Geography Atlas, including 07-J and future eligible original visuals. The earlier six-asset list is superseded. Attribution: Atlas of Knowledge project. 07-D remains a third-party-source adaptation under CC BY 4.0; 07-C and 07-E remain RESOLVE-derived maps under CC BY 4.0. The standing authorisation does not override third-party licences. See `geography/assets/CHAPTER_07_ASSET_LICENSE.md`.
+
+
+### Chapter 07 — all nine visual IDs integrated and browser checked — 6 November 2026
+
+The RESOLVE 2017 maps 07-C (14 biome classes; 845 classified ecoregion features) and 07-E (eight realms, including Antarctica; 846 source features) complete the planned nine-ID set. Both maps carry CC BY 4.0 attribution and WGS 84 / EPSG:4326 equirectangular projection metadata. The Antarctic map shows only source-defined ecoregion polygons; ice-covered areas without polygons remain unfilled. Static QA [42222182335](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42222182335) and browser QA [42222182340](https://github.com/Ajokendo/Atlas-of-Knowledge/actions/runs/42222182340) passed. Phone-width map legends still require zoom; manual screen-reader and deployed-reader checks remain pending.
+
+
+## Chapter 07 — Figure 7.5 visual added — 6 November 2026
+
+The previously unnumbered Figure 7.5 production brief is now named **07-J** and integrated in both RU and EN sections. Chapter 07 has 10/10 named visual IDs (20 language embeds). The new SVG is an original conceptual comparison of latitudinal and altitudinal zonation; it is not a measured regional dataset. Its rights status is PASS under the project owner's 6 November 2026 atlas-wide CC BY-NC 4.0 authorisation for eligible original visuals. Source-level preflight passed; browser/device and screen-reader QA remain pending.
+
+
+## Geography Atlas — standing original-visual licence authority — 6 November 2026
+
+The project owner authorises CC BY-NC 4.0 for all original visual assets in the Geography Atlas that the project owns or is authorised to license, including future original visuals. This standing authorisation supersedes earlier asset-limited lists. Third-party, adapted, sourced and composite assets retain their individual upstream terms; unresolved provenance/ownership remains PENDING until checked. This policy is limited to the Geography Atlas and does not change other subject atlases or the repository-root licence.

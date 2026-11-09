@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Глубинная океаническая циркуляция / Deep-ocean circulation</title>
+<desc id="desc">Двуязычная концептуальная схема образования и переноса глубинных вод: относительно тёплая поверхностная вода движется к высоким широтам, охлаждается и становится плотнее; образование морского льда оставляет соль в окружающей воде, усиливая её плотность; вода опускается и распространяется в глубине, а перемешивание и апвеллинг возвращают часть воды к поверхности. Схема не изображает единый непрерывный глобальный конвейер или точный маршрут конкретной водной массы. / Bilingual conceptual diagram of deep-water formation and transport: relatively warm surface water moves toward high latitudes, cools and becomes denser; sea-ice formation leaves salt in surrounding water, increasing its density; water sinks and spreads at depth, while mixing and upwelling return some water toward the surface. This is not a single continuous global conveyor or the exact route of one water mass.</desc>
+<defs>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8edf7"/><stop offset="1" stop-color="#175b84"/></linearGradient>
+<style>
+.h{font:700 30px Arial,sans-serif;fill:#17324a}.label{font:600 22px Arial,sans-serif;fill:#17324a}.sub{font:18px Arial,sans-serif;fill:#17324a}.note{font:17px Arial,sans-serif;fill:#17324a}.warm{fill:none;stroke:#d45f43;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}.cold{fill:none;stroke:#236baf;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#294f66;stroke-width:2.5}
+</style>
+<marker id="redArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#d45f43"/></marker>
+<marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 Z" fill="#236baf"/></marker>
+</defs>
+<rect width="1600" height="900" fill="#f5f8fa"/>
+<text x="800" y="54" text-anchor="middle" class="h">Глубинная океаническая циркуляция / Deep-ocean circulation</text>
+<text x="800" y="95" text-anchor="middle" class="note">Концептуальная схема образования водных масс / Conceptual diagram of water-mass formation</text>
+<rect x="55" y="145" width="1490" height="580" rx="20" fill="#ffffff" stroke="#c7d5dc" stroke-width="2"/>
+<rect x="85" y="225" width="1430" height="455" rx="12" fill="url(#sea)"/>
+<path d="M85 225 H1515" stroke="#176b91" stroke-width="5"/>
+<path d="M85 680 H1515" stroke="#123e5b" stroke-width="4"/>
+<text x="220" y="190" class="label" text-anchor="middle">Низкие широты / Lower latitudes</text>
+<text x="1330" y="190" class="label" text-anchor="middle">Высокие широты / High latitudes</text>
+<text x="800" y="210" class="sub" text-anchor="middle">Поверхность океана / Ocean surface</text>
+<!-- ice -->
+<path d="M1190 225 L1240 180 L1300 225 L1360 170 L1435 225 Z" fill="#e8f7fb" stroke="#7eb8ce" stroke-width="3"/>
+<path d="M1210 225 L1260 194 L1300 225 L1360 185 L1410 225" fill="none" stroke="#ffffff" stroke-width="4"/>
+<text x="1320" y="150" class="sub" text-anchor="middle">Морской лёд / Sea ice</text>
+<!-- warm surface -->
+<path d="M260 300 C520 270 770 270 1050 285 S1230 285 1300 280" class="warm" marker-end="url(#redArrow)"/>
+<text x="650" y="255" class="label" text-anchor="middle" fill="#7e2c1d">Тёплая поверхностная вода / Warm surface water</text>
+<text x="650" y="280" class="sub" text-anchor="middle">перенос тепла к высоким широтам / transports heat poleward</text>
+<!-- cooling and sinking -->
+<path d="M1330 300 C1350 365 1360 430 1350 515" class="cold" marker-end="url(#blueArrow)"/>
+<text x="1450" y="360" class="label" text-anchor="middle">Охлаждение</text>
+<text x="1450" y="386" class="sub" text-anchor="middle">Cooling</text>
+<text x="1450" y="415" class="sub" text-anchor="middle">Рост плотности</text>
+<text x="1450" y="440" class="sub" text-anchor="middle">Increasing density</text>
+<path d="M1370 470 L1425 470" class="thin"/>
+<!-- brine -->
+<path d="M1220 230 V280 M1260 230 V280 M1300 230 V280" stroke="#236baf" stroke-width="3" stroke-dasharray="5 5"/>
+<text x="1160" y="340" class="sub" text-anchor="middle">Соль остаётся в воде</text>
+<text x="1160" y="365" class="sub" text-anchor="middle">Salt remains in seawater</text>
+<text x="1160" y="390" class="note" text-anchor="middle">при образовании льда / as sea ice forms</text>
+<!-- deep flow -->
+<path d="M1310 565 C1080 620 820 620 570 600 S300 600 205 585" class="cold" marker-end="url(#blueArrow)"/>
+<text x="780" y="655" class="label" text-anchor="middle" fill="#ffffff">Холодная плотная глубинная вода / Cold, dense deep water</text>
+<text x="780" y="683" class="sub" text-anchor="middle" fill="#ffffff">распространяется и перемешивается / spreads and mixes</text>
+<!-- upwelling -->
+<path d="M210 585 C175 500 170 420 205 335" class="cold" marker-end="url(#blueArrow)"/>
+<text x="180" y="435" class="label" text-anchor="middle">Апвеллинг</text>
+<text x="180" y="462" class="sub" text-anchor="middle">Upwelling</text>
+<text x="180" y="490" class="note" text-anchor="middle">и перемешивание</text>
+<text x="180" y="515" class="note" text-anchor="middle">and mixing</text>
+<!-- bottom note -->
+<rect x="80" y="755" width="1440" height="100" rx="14" fill="#ffffff" stroke="#b7c8d0" stroke-width="2"/>
+<text x="110" y="792" class="note">Упрощение: реальные пути глубинных вод разветвлены; перемешивание и апвеллинг происходят в разных районах океана.</text>
+<text x="110" y="825" class="note">Simplification: real deep-water pathways branch; mixing and upwelling occur in different ocean regions.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1450" viewBox="0 0 900 1450" role="img" aria-labelledby="title desc">
+<metadata id="license">Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/ . Attribution: Atlas of Knowledge project. The project owner confirmed on 2026-11-05 that they or an authorised project organisation have authority to act as licensor and apply this licence to this asset. This records the project owner’s representation; it is not an independent legal opinion. No individual human SVG author is asserted.</metadata>
+<title id="title">Absolute and relative location / Абсолютное и относительное местоположение</title>
+<desc id="desc">Two schematic panels compare an absolute position on a coordinate grid with a relative position described by nearby settlements, a river and a road. No real coordinates or places are shown. / Две условные схемы сравнивают абсолютное положение на координатной сетке и относительное положение по отношению к поселениям, реке и дороге. Реальные координаты и места не показаны.</desc>
+<rect width="900" height="1450" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="450" y="70" font-size="42" font-weight="700">Absolute and relative location</text>
+<text x="450" y="118" font-size="38" font-weight="700">Абсолютное и относительное местоположение</text>
+<rect x="65" y="165" width="770" height="520" rx="28" fill="#edf5fa" stroke="#3979a8" stroke-width="5"/>
+<text x="450" y="225" font-size="38" font-weight="700" fill="#174e78">Absolute location / Абсолютное положение</text>
+<g stroke="#bfd0dd" stroke-width="3">
+<path d="M170 285V590 M270 285V590 M370 285V590 M470 285V590 M570 285V590 M670 285V590 M770 285V590"/>
+<path d="M145 310H790 M145 390H790 M145 470H790 M145 550H790"/>
+</g>
+<path d="M470 420L500 450L470 480L440 450Z" fill="#c64b3c" stroke="#8d3028" stroke-width="5"/>
+<path d="M470 450L650 330" stroke="#8d3028" stroke-width="4" stroke-dasharray="10 10"/>
+<text x="470" y="535" font-size="34" font-weight="700">Point / Точка</text>
+<text x="450" y="625" font-size="32">Latitude φ and longitude λ / Широта φ и долгота λ</text>
+<rect x="65" y="730" width="770" height="640" rx="28" fill="#f0f6ef" stroke="#56874b" stroke-width="5"/>
+<text x="450" y="790" font-size="38" font-weight="700" fill="#386432">Relative location / Относительное положение</text>
+<path d="M140 900C270 830 340 1040 465 970S660 860 770 945" fill="none" stroke="#4b9cc8" stroke-width="34" stroke-linecap="round"/>
+<path d="M130 1120L760 850" fill="none" stroke="#9b815e" stroke-width="24" stroke-linecap="round"/>
+<path d="M130 1120L760 850" fill="none" stroke="#f8f2e8" stroke-width="4" stroke-dasharray="18 16"/>
+<circle cx="280" cy="1015" r="26" fill="#b45a43" stroke="#7e3d30" stroke-width="5"/>
+<circle cx="650" cy="990" r="26" fill="#b45a43" stroke="#7e3d30" stroke-width="5"/>
+<text x="280" y="1080" font-size="32" font-weight="700">Town A / Город A</text>
+<text x="650" y="1050" font-size="32" font-weight="700">Town B / Город B</text>
+<text x="445" y="900" font-size="30" fill="#17658c">River / Река</text>
+<text x="450" y="1190" font-size="30" fill="#805020">Road / Дорога</text>
+<text x="450" y="1280" font-size="32">Near a river and a road</text>
+<text x="450" y="1325" font-size="32">Рядом с рекой и дорогой</text>
+</g>
+</svg>

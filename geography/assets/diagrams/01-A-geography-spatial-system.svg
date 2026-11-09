@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1250" viewBox="0 0 900 1250" role="img" aria-labelledby="title desc">
+<metadata id="license">Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/ . Attribution: Atlas of Knowledge project. The project owner confirmed on 2026-11-05 that they or an authorised project organisation have authority to act as licensor and apply this licence to this asset. This records the project owner’s representation; it is not an independent legal opinion. No individual human SVG author is asserted.</metadata>
+<title id="title">Geography connects natural and human systems / География связывает природные и общественные системы</title>
+<desc id="desc">A vertical educational model shows natural systems and human systems connected through the study of Earth. The links are conceptual, not measured or quantitative. / Вертикальная учебная модель показывает природные и общественные системы, связанные через изучение Земли. Связи концептуальные, а не измеренные или количественные.</desc>
+<rect width="900" height="1250" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="450" y="70" font-size="42" font-weight="700">Geography connects the Earth</text>
+<text x="450" y="118" font-size="38" font-weight="700">География связывает Землю</text>
+<rect x="70" y="165" width="760" height="300" rx="28" fill="#e4f0f8" stroke="#3979a8" stroke-width="5"/>
+<text x="450" y="220" font-size="38" font-weight="700" fill="#174e78">Natural systems / Природные системы</text>
+<text x="450" y="285" font-size="34">Relief • water • climate</text>
+<text x="450" y="330" font-size="34">Рельеф • воды • климат</text>
+<text x="450" y="390" font-size="34">Soils • ecosystems</text>
+<text x="450" y="435" font-size="34">Почвы • экосистемы</text>
+<path d="M450 475V535 M430 495L450 475L470 495 M430 515L450 535L470 515" fill="none" stroke="#3979a8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="450" cy="650" r="105" fill="#d7e9df" stroke="#397b73" stroke-width="6"/>
+<text x="450" y="642" font-size="42" font-weight="700">Earth</text>
+<text x="450" y="692" font-size="38" font-weight="700">Земля</text>
+<path d="M450 765V820 M430 785L450 765L470 785 M430 800L450 820L470 800" fill="none" stroke="#397b73" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="70" y="845" width="760" height="330" rx="28" fill="#f6eadb" stroke="#a66b35" stroke-width="5"/>
+<text x="450" y="905" font-size="38" font-weight="700" fill="#805020">Human systems / Общественные системы</text>
+<text x="450" y="970" font-size="34">People • settlements • economy</text>
+<text x="450" y="1015" font-size="34">Люди • поселения • экономика</text>
+<text x="450" y="1075" font-size="34">Culture • transport • decisions</text>
+<text x="450" y="1120" font-size="34">Культура • транспорт • решения</text>
+<text x="450" y="1215" font-size="27" fill="#425466">Conceptual model / Концептуальная модель</text>
+</g>
+</svg>

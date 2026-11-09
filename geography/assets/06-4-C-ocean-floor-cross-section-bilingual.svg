@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Рельеф океанического дна / Ocean-floor relief</title>
+<desc id="desc">Двуязычный схематический поперечный профиль от материка через шельф, материковый склон и подножие к абиссальной равнине, срединно-океаническому хребту и глубоководному желобу. Вертикальный и горизонтальный масштабы не пропорциональны; показанные формы не обязательно встречаются вместе в одном разрезе. / Bilingual schematic cross-section from continent across the continental shelf, slope and rise to an abyssal plain, mid-ocean ridge and deep-sea trench. Vertical and horizontal scales are not proportional; the features shown do not necessarily occur together in one transect.</desc>
+<defs>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe7f4"/><stop offset="1" stop-color="#176b91"/></linearGradient>
+  <linearGradient id="seafloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d7c39a"/><stop offset="1" stop-color="#8b7655"/></linearGradient>
+  <style>
+    .label{font:600 23px Arial,sans-serif;fill:#17324a}
+    .sub{font:18px Arial,sans-serif;fill:#17324a}
+    .small{font:17px Arial,sans-serif;fill:#17324a}
+    .call{fill:none;stroke:#294f66;stroke-width:2.5}
+    .dot{fill:#294f66}
+  </style>
+</defs>
+<rect width="1600" height="900" fill="#f5f8fa"/>
+<text x="800" y="52" text-anchor="middle" class="label" font-size="30">Рельеф океанического дна / Ocean-floor relief</text>
+<path d="M0 180 L245 180 L245 215 L520 215 L650 490 L790 545 L990 545 L1085 390 L1165 390 L1265 545 L1365 545 L1435 760 L1490 545 L1600 545 L1600 215 L0 215 Z" fill="url(#water)" opacity=".95"/>
+<path d="M0 180 L245 180 L245 215 L520 215 L650 490 L790 545 L990 545 L1085 390 L1165 390 L1265 545 L1365 545 L1435 760 L1490 545 L1600 545 L1600 900 L0 900 Z" fill="url(#seafloor)" opacity=".98"/>
+<path d="M0 180 L245 180 L245 215 L520 215 L650 490 L790 545 L990 545 L1085 390 L1165 390 L1265 545 L1365 545 L1435 760 L1490 545 L1600 545" fill="none" stroke="#4d493e" stroke-width="5"/>
+<path d="M0 215 H1600" stroke="#176b91" stroke-width="4"/>
+<text x="120" y="145" class="label">Материк / Continent</text>
+<path d="M180 155 L180 178" class="call"/>
+<text x="360" y="290" class="label" text-anchor="middle">Шельф / Shelf</text>
+<text x="360" y="320" class="sub" text-anchor="middle">затопленная окраина материка</text>
+<text x="360" y="345" class="sub" text-anchor="middle">submerged continental margin</text>
+<path d="M390 270 L440 218" class="call"/><circle cx="440" cy="218" r="5" class="dot"/>
+<text x="590" y="390" class="label" text-anchor="middle">Материковый склон</text>
+<text x="590" y="418" class="sub" text-anchor="middle">Continental slope</text>
+<path d="M610 425 L630 465" class="call"/><circle cx="630" cy="465" r="5" class="dot"/>
+<text x="760" y="640" class="label" text-anchor="middle">Материковое подножие</text>
+<text x="760" y="668" class="sub" text-anchor="middle">Continental rise</text>
+<path d="M760 615 L790 550" class="call"/><circle cx="790" cy="550" r="5" class="dot"/>
+<text x="930" y="715" class="label" text-anchor="middle">Абиссальная равнина</text>
+<text x="930" y="743" class="sub" text-anchor="middle">Abyssal plain</text>
+<path d="M930 685 L930 550" class="call"/><circle cx="930" cy="550" r="5" class="dot"/>
+<text x="1120" y="300" class="label" text-anchor="middle">Срединно-океанический хребет</text>
+<text x="1120" y="328" class="sub" text-anchor="middle">Mid-ocean ridge</text>
+<path d="M1120 340 L1125 395" class="call"/><circle cx="1125" cy="395" r="5" class="dot"/>
+<text x="1450" y="830" class="label" text-anchor="middle">Глубоководный желоб</text>
+<text x="1450" y="858" class="sub" text-anchor="middle">Deep-sea trench</text>
+<path d="M1450 800 L1440 765" class="call"/><circle cx="1440" cy="765" r="5" class="dot"/>
+<text x="800" y="105" class="sub" text-anchor="middle">Уровень моря / Sea level</text>
+<path d="M800 115 V210" stroke="#176b91" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="35" y="770" width="570" height="85" rx="12" fill="#ffffff" opacity=".9" stroke="#8da5b2"/>
+<text x="55" y="802" class="small">Схема условная: масштабы по горизонтали и вертикали не пропорциональны.</text>
+<text x="55" y="830" class="small">Schematic only: horizontal and vertical scales are not proportional.</text>
+</svg>

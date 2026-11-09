@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Отраслевая структура экономики / Sectoral structure of an economy</title>
+<desc id="desc">Схема трёх секторов экономики и двух разных показателей: занятости и валовой добавленной стоимости. Значения не заданы: для сравнения необходимо подставлять данные одного года и источника. / Diagram of the three economic sectors and two distinct measures: employment and gross value added. No values are supplied; comparisons must use data from the same year and source.</desc>
+<defs><style>.h{font:700 30px Arial,sans-serif;fill:#172b36}.t{font:24px Arial,sans-serif;fill:#172b36}.s{font:19px Arial,sans-serif;fill:#344b56}.small{font:17px Arial,sans-serif;fill:#344b56}.card{fill:#f7fafb;stroke:#45606c;stroke-width:2}.pill{fill:#e6f0f2;stroke:#45606c;stroke-width:1.5}</style></defs>
+<rect width="1200" height="700" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Отраслевая структура / Sectoral structure</text>
+<text x="600" y="88" text-anchor="middle" class="s">Классификация деятельности, а не фиксированная доля экономики / Activity classification, not fixed economic shares</text>
+<g transform="translate(55 135)">
+<rect class="card" x="0" y="0" width="340" height="300" rx="18"/>
+<rect x="0" y="0" width="340" height="68" rx="18" fill="#d9e8e2"/>
+<text x="170" y="44" text-anchor="middle" class="h">Первичный / Primary</text>
+<text x="28" y="118" class="t">Ресурсы / Resources</text>
+<text x="28" y="165" class="s">• Сельское хозяйство / Agriculture</text>
+<text x="28" y="204" class="s">• Лесное хозяйство / Forestry</text>
+<text x="28" y="243" class="s">• Добыча / Extraction</text>
+</g>
+<g transform="translate(430 135)">
+<rect class="card" x="0" y="0" width="340" height="300" rx="18"/>
+<rect x="0" y="0" width="340" height="68" rx="18" fill="#e9e4d5"/>
+<text x="170" y="44" text-anchor="middle" class="h">Вторичный / Secondary</text>
+<text x="28" y="118" class="t">Преобразование / Processing</text>
+<text x="28" y="165" class="s">• Производство / Manufacturing</text>
+<text x="28" y="204" class="s">• Строительство / Construction</text>
+<text x="28" y="243" class="s">• Энергетика / Utilities</text>
+</g>
+<g transform="translate(805 135)">
+<rect class="card" x="0" y="0" width="340" height="300" rx="18"/>
+<rect x="0" y="0" width="340" height="68" rx="18" fill="#e3e2f1"/>
+<text x="170" y="44" text-anchor="middle" class="h">Третичный / Tertiary</text>
+<text x="28" y="118" class="t">Услуги / Services</text>
+<text x="28" y="165" class="s">• Торговля / Trade</text>
+<text x="28" y="204" class="s">• Транспорт / Transport</text>
+<text x="28" y="243" class="s">• Образование и финансы / Education &amp; finance</text>
+</g>
+<text x="600" y="493" text-anchor="middle" class="h">Два разных измерения / Two different measures</text>
+<rect x="95" y="525" width="475" height="82" rx="14" class="pill"/>
+<text x="332" y="558" text-anchor="middle" class="t">Занятость / Employment</text>
+<text x="332" y="588" text-anchor="middle" class="small">Доля работников / Share of workers</text>
+<rect x="630" y="525" width="475" height="82" rx="14" class="pill"/>
+<text x="867" y="558" text-anchor="middle" class="t">Валовая добавленная стоимость / GVA</text>
+<text x="867" y="588" text-anchor="middle" class="small">Доля созданной стоимости / Share of value created</text>
+<text x="600" y="650" text-anchor="middle" class="small">Условная схема; не содержит статистических значений. Укажите год, территорию, классификацию и источник. / Conceptual diagram; no statistical values. State year, territory, classification and source.</text>
+</svg>

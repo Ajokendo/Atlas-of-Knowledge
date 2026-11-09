@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<!-- Licence: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/); attribution: Atlas of Knowledge project; exact scope and terms: CHAPTER_03_ASSET_LICENSE.md. -->
+<title id="title">Внутреннее строение Земли / Earth's internal structure</title>
+<desc id="desc">Схематический разрез Земли с очень тонкой корой, мантией, жидким внешним и твёрдым внутренним ядром. Справа отдельно объяснены механические слои: литосфера включает кору и жёсткую верхнюю мантию; астеносфера — более пластичная, преимущественно твёрдая часть верхней мантии. Толщины условны и не в масштабе. / Schematic Earth cutaway with a very thin crust, mantle, liquid outer core and solid inner core. Mechanical layers are explained separately: the lithosphere includes the crust and rigid uppermost mantle; the asthenosphere is a more ductile, predominantly solid part of the upper mantle. Thicknesses are schematic and not to scale.</desc>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172554">ВНУТРЕННЕЕ СТРОЕНИЕ ЗЕМЛИ / EARTH'S INTERNAL STRUCTURE</text>
+<g transform="translate(350 390)">
+  <circle r="250" fill="#475569" stroke="#1e293b" stroke-width="3"/>
+  <circle r="242" fill="#c2410c" stroke="#7c2d12" stroke-width="2"/>
+  <circle r="145" fill="#facc15" stroke="#a16207" stroke-width="3"/>
+  <circle r="80" fill="#fef3c7" stroke="#a16207" stroke-width="3"/>
+  <path d="M0 -250 L0 -242" stroke="#0f172a" stroke-width="4"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#1e293b">
+  <path d="M350 140 L650 140 L680 140" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="700" y="132" font-size="22" font-weight="700">Кора / Crust</text>
+  <text x="700" y="157" font-size="17">очень тонкая внешняя оболочка / very thin outer shell</text>
+
+  <path d="M520 260 L650 250 L680 250" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="700" y="244" font-size="22" font-weight="700">Мантия / Mantle</text>
+  <text x="700" y="270" font-size="17">преимущественно твёрдая; медленно течёт / mostly solid; flows slowly</text>
+
+  <path d="M495 390 L650 370 L680 370" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="700" y="364" font-size="22" font-weight="700">Внешнее ядро / Outer core</text>
+  <text x="700" y="390" font-size="17">жидкий металлический сплав / liquid metallic alloy</text>
+
+  <path d="M430 390 L650 490 L680 490" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="700" y="484" font-size="22" font-weight="700">Внутреннее ядро / Inner core</text>
+  <text x="700" y="510" font-size="17">твёрдый металлический сплав / solid metallic alloy</text>
+</g>
+<rect x="675" y="555" width="465" height="125" rx="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<text x="700" y="585" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#0c4a6e">Механические слои / Mechanical layers</text>
+<text x="700" y="615" font-family="Arial,sans-serif" font-size="17" fill="#0c4a6e">Литосфера / Lithosphere: кора + жёсткая верхняя мантия</text>
+<text x="700" y="638" font-family="Arial,sans-serif" font-size="16" fill="#0c4a6e">crust + rigid uppermost mantle</text>
+<text x="700" y="660" font-family="Arial,sans-serif" font-size="17" fill="#0c4a6e">Астеносфера / Asthenosphere: пластичная верхняя мантия</text>
+<text x="600" y="720" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#475569">Схема не в масштабе; химические слои и механические слои — разные классификации.</text>
+<text x="600" y="744" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#475569">Not to scale; compositional layers and mechanical layers are different classifications.</text>
+</svg>

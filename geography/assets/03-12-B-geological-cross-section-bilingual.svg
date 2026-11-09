@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<!-- Licence: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/); attribution: Atlas of Knowledge project; exact scope and terms: CHAPTER_03_ASSET_LICENSE.md. -->
+<title id="title">ЧТЕНИЕ ГЕОЛОГИЧЕСКОГО РАЗРЕЗА / INTERPRETING A GEOLOGICAL CROSS-SECTION</title>
+<desc id="desc">Учебный разрез показывает складчатые слои, дайку, пересекающую слои, и сброс, смещающий те же слои. Дайка и разлом не пересекаются, поэтому определить, какое из этих двух событий произошло позже, по рисунку нельзя. / Teaching cross-section showing folded strata, a dyke cutting across the layers, and a normal fault offsetting the same layers. The dyke and fault do not intersect, so their mutual relative order cannot be determined from this figure.</desc>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#172554">ЧТЕНИЕ ГЕОЛОГИЧЕСКОГО РАЗРЕЗА / INTERPRETING A GEOLOGICAL CROSS-SECTION</text>
+<rect x="70" y="210" width="1060" height="390" fill="#e7d7bd" stroke="#475569" stroke-width="3"/>
+<!-- Folded, displaced strata: the right block is downthrown across the inclined fault -->
+<path d="M70 210 L700 210 L700 300 Q560 250 420 300 Q250 350 70 300 Z" fill="#fbbf24" stroke="#a16207" stroke-width="3"/>
+<path d="M820 210 L1130 210 L1130 340 Q960 390 820 340 Z" fill="#fbbf24" stroke="#a16207" stroke-width="3"/>
+<path d="M70 300 Q250 350 420 300 Q560 250 700 300 L700 380 Q560 330 420 380 Q250 430 70 380 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="3"/>
+<path d="M820 340 Q960 390 1130 340 L1130 420 L820 420 Q960 470 820 420 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="3"/>
+<path d="M70 380 Q250 430 420 380 Q560 330 700 380 L700 460 Q560 410 420 460 Q250 510 70 460 Z" fill="#86efac" stroke="#15803d" stroke-width="3"/>
+<path d="M820 420 Q960 470 1130 420 L1130 500 L820 500 Q960 550 820 500 Z" fill="#86efac" stroke="#15803d" stroke-width="3"/>
+<!-- Intrusive dyke cuts the strata in the left block only -->
+<path d="M455 600 L500 600 L570 255 L530 255 Z" fill="#c084fc" stroke="#6d28d9" stroke-width="5"/>
+<!-- Fault plane separates blocks; offset is visible in the matching layer boundaries -->
+<path d="M700 210 L820 600" stroke="#78350f" stroke-width="12"/>
+<path d="M665 335 L665 295 M650 310 L665 295 L680 310 M850 320 L850 365 M835 350 L850 365 L865 350" stroke="#dc2626" stroke-width="4" fill="none"/>
+<g font-family="Arial,sans-serif" font-size="20" fill="#1e293b">
+ <text x="100" y="260">Слой A / Layer A</text>
+ <text x="100" y="410">Слой B / Layer B</text>
+ <text x="100" y="500">Слой C / Layer C</text>
+ <text x="250" y="185">Складка / Fold</text>
+ <text x="850" y="235">Сброс / Normal fault</text>
+ <text x="490" y="555">Дайка / Dyke</text>
+ <text x="870" y="565" font-size="17">Смещённые слои / Offset strata</text>
+</g>
+<rect x="95" y="625" width="1010" height="95" rx="12" fill="#e2e8f0"/>
+<text x="600" y="655" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#334155">Дайка и разлом пересекают слои, значит они моложе этих слоёв. Но они не пересекают друг друга, поэтому их взаимный возраст не установлен.</text>
+<text x="600" y="685" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#334155">The dyke and fault cut the strata, so both are younger than those layers. They do not intersect each other, so their mutual order is undetermined.</text>
+<text x="600" y="708" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">Схема условна и не в масштабе / Conceptual and not to scale</text>
+</svg>

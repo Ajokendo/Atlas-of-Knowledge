@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+<title id="title">Высотный профиль осадков и снежного режима / Altitudinal profile of precipitation and snow regime</title>
+<desc id="desc">Концептуальная схема горного климата: температура обычно уменьшается с высотой; количество осадков зависит от наветренной и подветренной экспозиции; продолжительность снежного покрова возрастает с высотой; показаны сезонное накопление снега, весеннее таяние и летнее ледниковое питание рек. Без численных значений и фиксированных высотных границ.</desc>
+<style>
+text{font-family:Arial,sans-serif;fill:#243447}
+.h{font-size:32px;font-weight:700}
+.sub{font-size:20px}
+.lab{font-size:22px;font-weight:700}
+.sm{font-size:18px}
+.tiny{font-size:16px}
+.box{stroke:#708393;stroke-width:2;rx:16}
+.line{stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="1500" height="900" fill="#fbfcfe"/>
+<text x="55" y="58" class="h">Осадки и снежный режим по высоте / Precipitation and snow regime with elevation</text>
+<text x="55" y="92" class="sub">Качественная модель для горных районов Кыргызстана; не климатическая карта и не измеренный профиль / Qualitative model for Kyrgyz mountain regions; not a climate map or measured transect</text>
+<!-- mountain profile panel -->
+<rect x="45" y="125" width="1410" height="390" fill="#f2f6f8" class="box"/>
+<path d="M75 435 L180 410 L285 360 L390 315 L500 235 L590 190 L680 260 L790 330 L900 380 L1010 405 L1120 430 L1240 442 L1415 442 L1415 485 L75 485 Z" fill="#d7e3d0" stroke="#607c63" stroke-width="4"/>
+<path d="M500 235 L590 190 L680 260 L640 245 L590 215 L545 260 Z" fill="#fff" stroke="#a5b8c7" stroke-width="2"/>
+<path d="M180 410 Q230 395 285 360" stroke="#6e9d76" stroke-width="10" fill="none"/>
+<path d="M390 315 Q440 275 500 235" stroke="#7ea77e" stroke-width="10" fill="none"/>
+<path d="M790 330 Q900 380 1010 405" stroke="#8e9b79" stroke-width="10" fill="none"/>
+<path d="M1010 405 Q1120 430 1240 442" stroke="#a2a48a" stroke-width="8" fill="none"/>
+<!-- precipitation cloud and windward -->
+<g fill="#e4eef5" stroke="#7c9eb4" stroke-width="3">
+<circle cx="300" cy="205" r="30"/><circle cx="340" cy="185" r="42"/><circle cx="385" cy="205" r="30"/>
+<rect x="290" y="205" width="110" height="35" rx="17"/>
+</g>
+<path d="M330 245 L330 300 M370 245 L370 300 M410 245 L410 300" stroke="#5d9fc2" stroke-width="5" stroke-linecap="round"/>
+<path d="M310 285 l-12 18 m52 -18 l-12 18 m52 -18 l-12 18" stroke="#5d9fc2" stroke-width="3" fill="none"/>
+<text x="250" y="155" class="lab">Наветренный склон / Windward slope</text>
+<text x="960" y="170" class="lab">Подветренная сторона / Leeward side</text>
+<path d="M1070 190 Q1150 210 1230 245" stroke="#b08b61" stroke-width="4" stroke-dasharray="10 9" fill="none"/>
+<text x="1080" y="270" class="sm">Возможная дождевая тень / Possible rain shadow</text>
+<text x="90" y="465" class="sm">Долина / Valley</text>
+<text x="500" y="300" class="sm">Снег на высоте / Snow at elevation</text>
+<text x="595" y="160" class="sm">Ледниковая зона / Glacial zone</text>
+<text x="1270" y="410" class="sm">Сухая долина / Drier valley</text>
+<!-- qualitative relationship cards -->
+<rect x="45" y="545" width="440" height="200" fill="#fff0e8" class="box"/>
+<text x="75" y="585" class="lab">Температура / Temperature</text>
+<path d="M95 675 L415 615" class="line" stroke="#c65d42"/>
+<text x="95" y="710" class="sm">Обычно снижается с высотой / Generally decreases with elevation</text>
+<rect x="530" y="545" width="440" height="200" fill="#edf5fa" class="box"/>
+<text x="560" y="585" class="lab">Осадки / Precipitation</text>
+<path d="M575 675 Q680 600 765 620 T925 670" class="line" stroke="#4d9abf"/>
+<text x="560" y="710" class="sm">Зависят от экспозиции и циркуляции / Depend on aspect and circulation</text>
+<rect x="1015" y="545" width="440" height="200" fill="#eef3f8" class="box"/>
+<text x="1045" y="585" class="lab">Длительность снега / Snow-cover duration</text>
+<path d="M1060 680 Q1180 675 1260 625 T1410 590" class="line" stroke="#6b829a"/>
+<text x="1045" y="710" class="sm">Обычно возрастает с высотой / Generally increases with elevation</text>
+<!-- seasonal strip -->
+<text x="55" y="790" class="lab">Сезонный цикл / Seasonal cycle</text>
+<rect x="55" y="815" width="325" height="55" rx="12" fill="#e5eef7" stroke="#7c9eb4" stroke-width="2"/>
+<rect x="405" y="815" width="325" height="55" rx="12" fill="#e7f1df" stroke="#7c9b6a" stroke-width="2"/>
+<rect x="755" y="815" width="325" height="55" rx="12" fill="#e5f4f8" stroke="#6aa7c3" stroke-width="2"/>
+<rect x="1105" y="815" width="340" height="55" rx="12" fill="#f0edf5" stroke="#9683aa" stroke-width="2"/>
+<text x="217" y="850" text-anchor="middle" class="sm">Зима: накопление / Winter: accumulation</text>
+<text x="567" y="850" text-anchor="middle" class="sm">Весна: снеготаяние / Spring: snowmelt</text>
+<text x="917" y="850" text-anchor="middle" class="sm">Лето: ледниковый сток / Summer: glacier runoff</text>
+<text x="1275" y="850" text-anchor="middle" class="sm">Осень: охлаждение / Autumn: cooling</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+<title id="title">Shelford's ecological tolerance curve / Кривая экологической толерантности Шелфорда</title>
+<desc id="desc">Conceptual bell-shaped response curve. Outside the lower and upper tolerance limits are zones of intolerance; between each limit and the optimum are zones of pessimum or physiological stress; the central optimum range is most favourable. Axes show biological performance and environmental-factor intensity. No numerical scale is implied. / Концептуальная колоколообразная кривая реакции. За нижним и верхним пределами толерантности находятся зоны непереносимости; между каждым пределом и оптимумом — зоны пессимума или физиологического стресса; центральная область оптимума наиболее благоприятна. Оси показывают жизненную активность и интенсивность экологического фактора. Числовой шкалы нет.</desc>
+<rect width="1500" height="900" fill="#f8fafc"/>
+<text x="750" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="36" font-weight="700" fill="#17324d">Shelford's law of tolerance / Закон толерантности Шелфорда</text>
+<rect x="190" y="185" width="190" height="465" fill="#f5e4e1"/>
+<rect x="380" y="185" width="210" height="465" fill="#f6edda"/>
+<rect x="590" y="185" width="320" height="465" fill="#dceee4"/>
+<rect x="910" y="185" width="210" height="465" fill="#f6edda"/>
+<rect x="1120" y="185" width="190" height="465" fill="#f5e4e1"/>
+<g stroke="#9aa9b5" stroke-width="3" stroke-dasharray="10 10">
+<path d="M380 185V650"/><path d="M590 185V650"/><path d="M910 185V650"/><path d="M1120 185V650"/>
+</g>
+<path d="M190 650H1320 M190 650V175" fill="none" stroke="#17324d" stroke-width="5"/>
+<path d="M1310 640L1320 650L1310 660 M180 185L190 175L200 185" fill="none" stroke="#17324d" stroke-width="5"/>
+<path d="M380 650 C445 648 495 625 540 555 C595 470 630 300 750 260 C870 300 905 470 960 555 C1005 625 1055 648 1120 650" fill="none" stroke="#246b83" stroke-width="11" stroke-linecap="round"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="285" y="235" font-size="25" font-weight="700">Intolerance</text><text x="285" y="270" font-size="23">Непереносимость</text>
+<text x="485" y="235" font-size="25" font-weight="700">Pessimum / stress</text><text x="485" y="270" font-size="22">Пессимум / стресс</text>
+<text x="750" y="220" font-size="28" font-weight="700">Optimum range</text><text x="750" y="258" font-size="25">Область оптимума</text>
+<text x="1015" y="235" font-size="25" font-weight="700">Pessimum / stress</text><text x="1015" y="270" font-size="22">Пессимум / стресс</text>
+<text x="1215" y="235" font-size="25" font-weight="700">Intolerance</text><text x="1215" y="270" font-size="23">Непереносимость</text>
+</g>
+<g stroke="#17324d" stroke-width="3" fill="none">
+<path d="M380 675V700 M1120 675V700"/><path d="M590 675V700 M910 675V700"/>
+</g>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#17324d">
+<text x="380" y="738" font-size="23" font-weight="700">Lower limit</text><text x="380" y="770" font-size="22">Нижний предел</text>
+<text x="1120" y="738" font-size="23" font-weight="700">Upper limit</text><text x="1120" y="770" font-size="22">Верхний предел</text>
+<text x="750" y="815" font-size="27" font-weight="700">Environmental-factor intensity / Интенсивность экологического фактора</text>
+<text x="750" y="858" font-size="22" fill="#52697c">Low / Низкая</text><text x="1295" y="858" font-size="22" fill="#52697c">High / Высокая</text>
+</g>
+<text x="82" y="420" transform="rotate(-90 82 420)" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#17324d">Biological performance / Жизненная активность</text>
+<text x="750" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Conceptual curve; no universal measured values are implied.</text><text x="750" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#52697c">Кривая условна; числовая шкала не задана.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Модель риска бедствий / Disaster risk model</title>
+<desc id="desc">Четыре взаимосвязанных компонента оценки риска бедствий: опасность, экспозиция людей и активов, их уязвимость и имеющиеся возможности предупреждения, подготовки и реагирования. Они совместно влияют на вероятность и тяжесть последствий. Схема не является универсальной числовой формулой. / Four interacting components of disaster-risk assessment: hazard, exposure of people and assets, their vulnerability, and available capacity for warning, preparedness and response. Together they influence the likelihood and severity of consequences. The diagram is not a universal numerical formula.</desc>
+<style>.h{font:700 29px Arial,sans-serif;fill:#17324d}.t{font:700 21px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.box{fill:#f5f8fa;stroke:#607e8b;stroke-width:3}.arr{stroke:#587887;stroke-width:4;fill:none}</style>
+<rect width="1200" height="760" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Риск бедствий: четыре компонента / Disaster risk: four components</text>
+<g>
+<rect x="25" y="135" width="265" height="225" rx="18" class="box"/>
+<text x="157" y="190" text-anchor="middle" class="t">Опасность</text><text x="157" y="222" text-anchor="middle" class="s">Hazard</text>
+<text x="157" y="275" text-anchor="middle" class="s">Паводок, засуха,</text><text x="157" y="301" text-anchor="middle" class="s">оползень, загрязнение</text>
+<text x="157" y="330" text-anchor="middle" class="s">Flood, drought, landslide</text>
+<text x="157" y="350" text-anchor="middle" class="s">or pollution</text>
+</g>
+<g>
+<rect x="325" y="135" width="265" height="225" rx="18" class="box"/>
+<text x="457" y="190" text-anchor="middle" class="t">Экспозиция</text><text x="457" y="222" text-anchor="middle" class="s">Exposure</text>
+<text x="457" y="275" text-anchor="middle" class="s">Люди, здания,</text><text x="457" y="301" text-anchor="middle" class="s">инфраструктура</text>
+<text x="457" y="330" text-anchor="middle" class="s">People, buildings</text><text x="457" y="350" text-anchor="middle" class="s">and infrastructure</text>
+</g>
+<g>
+<rect x="625" y="135" width="265" height="225" rx="18" class="box"/>
+<text x="757" y="190" text-anchor="middle" class="t">Уязвимость</text><text x="757" y="222" text-anchor="middle" class="s">Vulnerability</text>
+<text x="757" y="275" text-anchor="middle" class="s">Чувствительность</text><text x="757" y="301" text-anchor="middle" class="s">и условия ущерба</text>
+<text x="757" y="330" text-anchor="middle" class="s">Susceptibility</text><text x="757" y="350" text-anchor="middle" class="s">and conditions of harm</text>
+</g>
+<g>
+<rect x="925" y="135" width="250" height="225" rx="18" class="box"/>
+<text x="1050" y="190" text-anchor="middle" class="t">Потенциал</text><text x="1050" y="222" text-anchor="middle" class="s">Capacity</text>
+<text x="1050" y="275" text-anchor="middle" class="s">Предупреждение,</text><text x="1050" y="301" text-anchor="middle" class="s">подготовка, ресурсы</text>
+<text x="1050" y="330" text-anchor="middle" class="s">Warning, preparedness</text><text x="1050" y="350" text-anchor="middle" class="s">and resources</text>
+</g>
+<path d="M157 360 V425 H600 M457 360 V425 M757 360 V425 M1050 360 V425 H600 V485" class="arr"/>
+<rect x="330" y="485" width="540" height="125" rx="20" fill="#f3e7dd" stroke="#9a674a" stroke-width="3"/>
+<text x="600" y="535" text-anchor="middle" class="h">Риск / Risk</text>
+<text x="600" y="570" text-anchor="middle" class="s">Вероятность и тяжесть возможных последствий</text>
+<text x="600" y="595" text-anchor="middle" class="s">Likelihood and severity of potential consequences</text>
+<text x="600" y="680" text-anchor="middle" class="s">Компоненты взаимодействуют; схема не задаёт простой линейной цепочки или формулы.</text>
+<text x="600" y="710" text-anchor="middle" class="s">The components interact; this is not a simple linear chain or formula.</text>
+</svg>

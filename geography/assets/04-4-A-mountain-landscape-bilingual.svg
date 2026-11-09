@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Анатомия горного ландшафта / Anatomy of a mountain landscape</title>
+<desc id="desc">Схематический горный профиль с вершиной, гребнем, перевалом, склонами, долиной, подножием и линиями относительного превышения. / Schematic mountain profile showing summit, ridge, pass, slopes, valley, mountain foot and local relief.</desc>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172554">АНАТОМИЯ ГОРНОГО ЛАНДШАФТА / ANATOMY OF A MOUNTAIN LANDSCAPE</text>
+<path d="M55 575 L170 530 L260 420 L345 290 L420 190 L485 265 L550 330 L620 300 L700 365 L790 480 L890 540 L1000 495 L1145 575 Z" fill="#cbd5e1" stroke="#475569" stroke-width="5"/>
+<path d="M55 575 L170 530 L260 420 L345 290 L420 190 L485 265 L550 330 L620 300 L700 365 L790 480 L890 540 L1000 495 L1145 575" fill="none" stroke="#334155" stroke-width="5"/>
+<path d="M260 420 L345 290 L420 190" fill="none" stroke="#0f766e" stroke-width="5"/>
+<path d="M485 265 L550 330 L620 300 L700 365" fill="none" stroke="#0f766e" stroke-width="5"/>
+<g stroke="#0f172a" stroke-width="2" fill="none">
+<path d="M420 190 L420 105 L300 105"/><path d="M560 330 L560 155 L670 155"/><path d="M300 470 L185 470 L185 390"/><path d="M790 480 L930 400 L930 325"/><path d="M890 540 L1030 620 L1030 665"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#0f172a">
+<text x="190" y="98" font-size="22" font-weight="700">Вершина / Summit</text>
+<text x="680" y="150" font-size="22" font-weight="700">Перевал / Pass</text>
+<text x="70" y="380" font-size="22" font-weight="700">Гребень / Ridge</text>
+<text x="940" y="320" font-size="22" font-weight="700">Склон / Slope</text>
+<text x="1035" y="675" font-size="22" font-weight="700">Подножие / Mountain foot</text>
+<text x="545" y="625" font-size="22" font-weight="700">Долина / Valley</text>
+</g>
+<path d="M420 190 L420 575" stroke="#dc2626" stroke-width="4" stroke-dasharray="10 8"/>
+<path d="M410 200 L420 185 L430 200 M410 565 L420 580 L430 565" stroke="#dc2626" stroke-width="4" fill="none"/>
+<text x="440" y="390" font-family="Arial,sans-serif" font-size="21" fill="#991b1b" font-weight="700">Относительное превышение</text>
+<text x="440" y="417" font-family="Arial,sans-serif" font-size="19" fill="#991b1b">Local relief</text>
+<path d="M70 610 L1130 610" stroke="#64748b" stroke-width="2" stroke-dasharray="6 7"/>
+<text x="600" y="655" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#475569">Условный профиль: формы и их взаимное положение схематизированы; высоты не заданы.</text>
+<text x="600" y="685" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#475569">Conceptual profile: landforms and their relationships are schematic; no elevations are specified.</text>
+</svg>

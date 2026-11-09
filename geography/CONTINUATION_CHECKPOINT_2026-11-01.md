@@ -1,0 +1,69 @@
+# Geography continuation checkpoint — 1 November 2026
+
+- Canonical branch: `workspace/geography`.
+- Prior user-supplied checkpoint: `0ed9de0c6a8bc87008ff55f376d006d38903f00d`.
+- Prior verified continuation checkpoint: `89635827e394007b84a87d981d2f22555a056951`.
+- New map-data audit addendum: `geography/MAP_DATA_SOURCE_AUDIT_2026-11-01.md`; updated in commit `ac3fd3990547b5a188dca43f8ba1ef4c219e92c0`.
+- Chapter 17 updated with Law No. 58 of 29 April 2026 and the state-register entry for AIS “Geographical Names of the Kyrgyz Republic”; commit `549b6fc6c86da18feee2a8ac8ace58858a182055`.
+- Geography README updated to record the new Chapter 17 sources; commit `05795263ed0d1584b921e2bdac579189cadb10eb`.
+- Editorial readiness matrix updated for Chapter 17; commit `74553ae54122db349e994021c73f8a8e59c9e7f7`.
+- Source distinction: the state register reports 10,281 georeferenced geographical features and records last modernisation on 31 December 2022. This is registry metadata, not proof that all records are current or all data layers are downloadable.
+- Law entry-into-force date is not repeated in this checkpoint because secondary legal reproductions surfaced conflicting dates; use the official consolidated legal record for any effective-date statement.
+- Remaining Chapter 17 cartographic blockers: official extreme-point coordinates, current administrative-boundary geometry and legal metadata, layer-specific horizontal/vertical CRS and source dates.
+- Visual status unchanged: 216 unique bilingual production briefs/placeholders remain indexed; no generated or approved artwork is claimed.
+- Progress accounting: the new source and chapter work is a discrete audited increment, not a basis for claiming the 90% milestone. Continue source-by-source and report the next milestone only when supported by the work matrix.
+
+- New GIS legal-source addendum: `geography/NATIONAL_SPATIAL_DATA_FRAMEWORK_KG_2026-11-01.md`; records Digital Code No. 178 (31 July 2025), Chapter 12, Articles 92–98, on spatial data, metadata, the National Spatial Data Resource (Georesource) and geosite. Commit: `599a9fd7521a515d919e71e46a205c50f3c1a0a1`.
+- Editorial readiness matrix updated for Chapter 14 to record the Digital Code review and the remaining need to verify actual dataset publication, metadata, CRS, licence and access conditions. Commit: `f62be1c4b9013e22656fe75caa6322f5fb01fc96`.
+- Important limitation: the legal establishment of a national Georesource/geosite is not proof that a specific dataset is currently published, downloadable, current or validated. No map-asset completion status or overall progress percentage is changed by this legal-source review.
+- Geography README updated to point to the Chapter 14 national spatial-data legal audit. Commit: `5b3752695e63f30fc4771f39c9a83a0d0ad39382`.
+- GIS legal addendum refined: Article 95's Georesource access-by-licence conditions and one-year transfer of derived spatial data plus metadata are now explicitly flagged; free access must not be equated with unrestricted reuse. Commit: `5f37cdd54c3108e378c7ebd8fde41b10c4d5867c`.
+- Map-data audit extended with the national agency's 11 November 2025 report on the WGS 84 transformation pilot: geodetic/gravimetric/levelling work, derived transformation parameters, partial map reprojection, and deployed transformation/control-point systems. Public numerical parameters, accuracy/epoch, vertical model and full layer-migration status remain unverified. Audit commit: `fe89e0398e8eb41d4e50062a796f064274651c5d`.
+- Editorial readiness matrix updated for Chapter 17 to reflect this official evidence while retaining the CRS/transformation and boundary-geometry blockers. Commit: `5ecb7d4f33a2b08553d3b853159418810f313c23`.
+- Geography README updated to summarise the official WGS 84 transformation pilot and retain dataset-level validation requirements. Commit: `7bd24f639783f248fc3eaeb254b3d642eeb9a8cb`.
+- Map-data audit extended with UNESCAP's December 2020 national geospatial baseline: Kyrg-06 based on ITRF-2005, the 1977 Baltic Altitude System, and legacy SK-42/Gauss–Krüger topographic mapping. Cross-checked against Kyrgyz AIP GEN 2.1 effective 6 August 2026, which specifies WGS 84 for published latitude/longitude and long-term mean Baltic Sea level in its vertical-reference note. Dataset-specific vertical realization, benchmark lineage, legacy-map migration and transformations remain unresolved. Audit commit: `99eec93e822470b07848c9fa73c24d6ca6310c54`.
+- Editorial matrix updated for Chapters 14, 17 and 18 to include the horizontal/vertical CRS and DEM validation implications. Commit: `2f9e1e4a60ae790d427f263e05560fa6c7991a5c`.
+- Geography README updated with the dated geodetic baseline and explicit warning not to infer dataset-level datum realization. Commit: `b481ede551884ad165252e1e23603d9cdc317d6e`.
+- Chapter 18 updated bilingually with a subsection on the vertical reference for elevation maps and DEMs; added UNESCAP (December 2020) and AIP GEN 2.1 (effective 6 August 2026) to the bibliography. Existing illustration IDs were not intentionally changed. Commit: `09d567066840fb26a6c30d94d72a8e9b2367bf24`.
+- Source audit expanded with the CAIAG GeoNode ASTER GDEM 30 m layer (licence unspecified; vertical metadata/accuracy absent), RESILAND's up-to-3 m DEMs for 14 priority sites (~6,000 ha, not national coverage), the Ministry's 11 March 2026 announcement of a two-volume geological atlas project (in preparation, not yet a published source in the inspected announcement), and CAIAG's warning that legacy glacier catalogues/maps were rarely updated. Audit commit: `f9059c2e158a6302eb2c723709cf0329fcd1735b`.
+- Chapter 18 updated bilingually with these dataset-specific cautions and references 14–17; existing illustration placeholders retained. Commit: `308a879c3c040cdef76776ea4f8c870eae196b27`.
+- Editorial readiness matrix updated for Chapter 18, preserving open requirements for licensed/validated DEMs, current glacier outlines and official geological-map review. Commit: `0b79145b70f73c682daf4412fb84497ecc8a1f93`.
+- Geography README updated with the source-audit findings. Commit: `9a7687cf58b42f4b71577ba8fe3c04ace2646f28`.
+- Chapter 19 updated with official Kyrgyzhydromet evidence: homogenised monthly temperature/precipitation from 22 stations for 1980–2021 (+0.28°C/decade countrywide for 1981–2021; precipitation trends small, mixed and statistically insignificant) and a separate 13-station daily climate-index dataset for 1980–2022. Statistical significance and operational drought-definition caveats documented. Commit: `ab355d723d6224728250626832551a02bf49f994`.
+- Chapter 20 updated with 2025 EGU national research inventory of >2,000 glacial lakes from Sentinel-2 imagery 2022–2024 and 2026 NHESS analysis for Kyrgyz Range (lake count 274→412, area 0.80→1.42 km²; glacier area 378.5→262.0 km², 1968–2021). Explicitly limited scope and research status; added GLOF risk interpretation cautions. Commit: `53cfee209ff6bbf83f0241f7208d7cb06b0ecf24`.
+- Map-data audit expanded with official climate series, methodology, national research inventory and peer-reviewed lake/glacier change evidence. Commit: `1034c40f72ac648db116fc43a6749c13eced2e61`.
+- Editorial readiness matrix updated for Chapters 19–20. Commit: `464f18cc569cbac72a2c22bee53a8253b6df672c`.
+- Geography README updated with this climate and glacial-lake research checkpoint. Commit: `e760e9d207dfccaf75c5403295f74d5ee58407a1`.
+
+
+- Chapter 20 extended bilingually with NSC 2025 water-use and wastewater indicators, the Water Resources Service's WIS scope, and the 2025 national mudflow/flood hazard atlas plus the ESKMP portal. Distinctions retained between abstraction, consumption, discharge and natural river runoff; the WIS description is not treated as proof of open station-level time series. Added bilingual visual marker 20-K for a disaggregated national water-use infographic. Sources and access limitations recorded in the map-data audit.
+- Verified commits in this continuation: Chapter 20 source update `b1210603a0a21a931a64f779e7dd778f299fa588`; map-data audit `8cd14ac304a20e5a533ac7bc998a21cb4b79982b`; readiness matrix `5e0176c1a87a7fb71574aec220c0d73200925e8e`; README `75baa05b03864bc0a9981a7309b03cd8ba3dd0aa`; illustration marker 20-K `ca88d3a7cad3ea40517dd2e6f1b886975e5543b5`.
+
+
+## Illustration production pass — 2026-11-01
+
+- Audited stable illustration placeholder IDs across all 26 geography chapters. Register now indexes 217 unique IDs; Chapter 26 repeats A, B, D, I and K in both in-text positions and production briefs by design. Seven IDs that were only present in the Chapter 26 production-brief list (26-C, 26-E, 26-F, 26-G, 26-H, 26-J, 26-L) have now been restored as bilingual in-text markers at the relevant sections.
+- First actual asset created and embedded: `geography/assets/20-K-national-water-use-2025.svg`. Its 2025 values were checked against the National Statistical Committee open-data table. The infographic keeps abstraction, consumption and wastewater separate; underground abstraction is identified as part of total abstraction. The mismatch between wastewater total (188.5) and listed subcategories (185.6 + 1.4) is explicitly disclosed, not silently reconciled. License: CC BY-NC-SA 4.0; reuse restrictions recorded in Chapter 20 production brief.
+- Updated `VISUAL_ASSET_REGISTER.md`; 4 assets created and embedded, pending final editorial sign-off. Remaining maps and data-driven figures are not to be generated as factual maps until source geometries/data, projection, date, scale and reuse rights are cleared.
+
+- Further illustration batch completed: three conceptual SVGs created and embedded at their chapter locations — `18-J-mountain-slope-processes.svg`, `19-H-mountain-valley-circulation.svg`, and `20-I-glacier-anatomy.svg`. Together with 20-K, 4 assets are now created and embedded, all pending final editorial sign-off. Chapter 26's seven missing in-text marker locations were separately repaired and are verified below.
+
+- Final marker parity verification: all 12 Chapter 26 IDs (26-A through 26-L) are now present both at their relevant in-text teaching locations and in the visual production brief. Chapter 26 repeats the five paired in-text/brief IDs intentionally; the other seven were missing from the main teaching text and have now been inserted. The register total is corrected to 217 unique IDs.
+
+- README visual-production note was moved below the document title for clean structure; latest README commit: `32afc59a423e9d1f664f761a742f87c51bbe4220`.
+
+- Final README title placement verified after the correction above; the visual-production update now follows `# Atlas of Geography`.
+
+- Final README verification: title is first line, exactly one visual-production note follows it; duplicate pre-title note removed. README commit: `32afc59a423e9d1f664f761a742f87c51bbe4220`.
+
+## Teacher feedback preparation — 2 November 2026
+
+- Adapted the Biology pilot's common Atlas of Knowledge feedback standard for Geography; kept the shared 1–5 / cannot-assess scale, nine common criteria, moderation categories/statuses, privacy and evidence requirements.
+- Added Geography-specific review prompts for geographical data, boundaries/toponyms, statistical dates and periods, map design/projections, interactive map layers, balance of physical/human/regional geography, and the coverage of Kyrgyzstan.
+- Added a bilingual teacher questionnaire with exact chapter/subsection/page/URL and map/dataset/date anchors; guided questions on teaching use, missing curriculum topics and unclear explanations; four issue priorities; optional evidence; optional contact; and two independent voluntary publication-consent choices.
+- Added a future moderation workflow separating scientific/factual verification from pedagogical recommendations, with source checks and traceable decisions/commits.
+- Added a disabled HTML template. It has no endpoint, no fetch/network request, no storage, no analytics and no external service. Its only button is disabled and explicitly says intake is off.
+- No portal-wide files, other subject folders, shared publishing settings, or branch merges were changed. No real feedback was received or stored.
+- Files: `geography/FEEDBACK_SYSTEM_STANDARD.md`, `geography/FEEDBACK_QUESTIONNAIRE_RU_EN.md`, `geography/FEEDBACK_REVIEW_WORKFLOW.md`, `geography/FEEDBACK_WIDGET_TEMPLATE.html`, and this checkpoint/README documentation.
+- Final refinement: documented the future atlas-level and chapter-level entry points, while deliberately not adding active/public entry links at this preparation stage. The disabled HTML template reserves inert subject/page/anchor/language metadata fields for a later approved integration; no script reads or transmits them.
+- Final static-template check: zero script tags, zero form action attributes, zero network-call patterns, zero browser-storage calls, one disabled button, zero endpoint assignments, and zero success/receipt messages.

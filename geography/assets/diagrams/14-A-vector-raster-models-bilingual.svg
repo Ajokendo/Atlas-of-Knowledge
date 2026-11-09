@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Векторная и растровая модели / Vector and raster data models</title>
+<desc id="desc">Сравнение векторной модели с точками, линиями и полигонами и растровой модели с регулярной сеткой ячеек. Схема показывает типы представления, а не точность данных. / Comparison of vector points, lines and polygons with a raster regular cell grid. The diagram shows representation types, not data accuracy.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#172b36}.t{font:23px Arial,sans-serif;fill:#172b36}.s{font:18px Arial,sans-serif;fill:#344b56}.panel{fill:#f8fafb;stroke:#526d78;stroke-width:2}.grid{stroke:#738c95;stroke-width:2;fill:#e9f0f2}.v{stroke:#2b7184;stroke-width:7;fill:none}.p{fill:#d7e8d8;stroke:#39734b;stroke-width:4}.pt{fill:#c65d43;stroke:#fff;stroke-width:3}</style>
+<rect width="1200" height="650" fill="#fff"/>
+<text x="600" y="52" text-anchor="middle" class="h">Две модели пространственных данных / Two spatial data models</text>
+<rect x="55" y="95" width="520" height="460" rx="20" class="panel"/>
+<rect x="625" y="95" width="520" height="460" rx="20" class="panel"/>
+<text x="315" y="145" text-anchor="middle" class="h">Вектор / Vector</text>
+<text x="885" y="145" text-anchor="middle" class="h">Растр / Raster</text>
+<path d="M115 240 L250 195 L390 245 L460 350 L330 405 L180 365 Z" class="p"/>
+<path d="M110 430 L245 320 L375 250 L485 195" class="v"/>
+<circle cx="250" cy="195" r="12" class="pt"/><circle cx="375" cy="250" r="12" class="pt"/>
+<text x="135" y="495" class="s">Точки / Points • Линии / Lines</text>
+<text x="135" y="525" class="s">Полигоны / Polygons</text>
+<g transform="translate(705 195)">
+<rect x="0" y="0" width="55" height="42" class="grid"/><rect x="55" y="0" width="55" height="42" class="grid"/><rect x="110" y="0" width="55" height="42" class="grid"/><rect x="165" y="0" width="55" height="42" class="grid"/><rect x="220" y="0" width="55" height="42" class="grid"/><rect x="275" y="0" width="55" height="42" class="grid"/><rect x="0" y="42" width="55" height="42" class="grid"/><rect x="55" y="42" width="55" height="42" class="grid"/><rect x="110" y="42" width="55" height="42" class="grid"/><rect x="165" y="42" width="55" height="42" class="grid"/><rect x="220" y="42" width="55" height="42" class="grid"/><rect x="275" y="42" width="55" height="42" class="grid"/><rect x="0" y="84" width="55" height="42" class="grid"/><rect x="55" y="84" width="55" height="42" class="grid"/><rect x="110" y="84" width="55" height="42" class="grid"/><rect x="165" y="84" width="55" height="42" class="grid"/><rect x="220" y="84" width="55" height="42" class="grid"/><rect x="275" y="84" width="55" height="42" class="grid"/><rect x="0" y="126" width="55" height="42" class="grid"/><rect x="55" y="126" width="55" height="42" class="grid"/><rect x="110" y="126" width="55" height="42" class="grid"/><rect x="165" y="126" width="55" height="42" class="grid"/><rect x="220" y="126" width="55" height="42" class="grid"/><rect x="275" y="126" width="55" height="42" class="grid"/><rect x="0" y="168" width="55" height="42" class="grid"/><rect x="55" y="168" width="55" height="42" class="grid"/><rect x="110" y="168" width="55" height="42" class="grid"/><rect x="165" y="168" width="55" height="42" class="grid"/><rect x="220" y="168" width="55" height="42" class="grid"/><rect x="275" y="168" width="55" height="42" class="grid"/><rect x="0" y="210" width="55" height="42" class="grid"/><rect x="55" y="210" width="55" height="42" class="grid"/><rect x="110" y="210" width="55" height="42" class="grid"/><rect x="165" y="210" width="55" height="42" class="grid"/><rect x="220" y="210" width="55" height="42" class="grid"/><rect x="275" y="210" width="55" height="42" class="grid"/>
+<rect x="55" y="42" width="55" height="42" fill="#c8dfce" stroke="#738c95" stroke-width="2"/>
+<rect x="110" y="84" width="55" height="42" fill="#c8dfce" stroke="#738c95" stroke-width="2"/>
+<rect x="165" y="126" width="55" height="42" fill="#c8dfce" stroke="#738c95" stroke-width="2"/>
+<rect x="220" y="168" width="55" height="42" fill="#c8dfce" stroke="#738c95" stroke-width="2"/>
+</g>
+<text x="885" y="495" text-anchor="middle" class="s">Регулярная сетка ячеек / Regular cell grid</text>
+<text x="315" y="595" text-anchor="middle" class="s">Объекты и их геометрия / Features and geometry</text>
+<text x="885" y="595" text-anchor="middle" class="s">Значение в каждой ячейке / A value in each cell</text>
+<text x="600" y="630" text-anchor="middle" class="s">Выбор модели зависит от явления, масштаба и задачи. / Choose the model to fit the phenomenon, scale and task.</text>
+</svg>

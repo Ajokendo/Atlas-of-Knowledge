@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Погода и климат / Weather and climate</title>
+<desc id="desc">Погода показана как изменяющиеся значения в конкретные часы и дни; климат — как статистическое распределение многолетних наблюдений, среднее и диапазон изменчивости за стандартный 30-летний период. / Weather is shown as changing values over specific hours and days; climate is a statistical distribution of long-term observations, including the average and range of variability over a standard 30-year period.</desc>
+<defs>
+ <style>
+ .bg{fill:#fff}.panel{fill:#f6f9fc;stroke:#9aabba;stroke-width:2}.h{font:700 27px Arial,sans-serif;fill:#173247}.sub{font:19px Arial,sans-serif;fill:#314d61}.axis{stroke:#4b6477;stroke-width:2}.grid{stroke:#d5dfe7;stroke-width:1;stroke-dasharray:5 6}.weather{fill:none;stroke:#d97706;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.point{fill:#d97706;stroke:#fff;stroke-width:2}.mean{stroke:#1476b8;stroke-width:4;stroke-dasharray:9 6}.band{fill:#9cc9e5;opacity:.42}.note{font:17px Arial,sans-serif;fill:#263e50}.small{font:15px Arial,sans-serif;fill:#425a6c}.cold{fill:#dceeff;stroke:#4385b8;stroke-width:2}.coldtxt{font:700 18px Arial,sans-serif;fill:#245a7e}
+ </style>
+</defs>
+<rect class="bg" width="1200" height="720"/>
+<text x="600" y="43" text-anchor="middle" class="h">Погода и климат: два временных масштаба / Weather and climate: two time scales</text>
+<rect class="panel" x="35" y="75" width="550" height="440" rx="18"/>
+<rect class="panel" x="615" y="75" width="550" height="440" rx="18"/>
+<!-- weather panel -->
+<text x="65" y="118" class="h">ПОГОДА / WEATHER</text>
+<text x="65" y="148" class="sub">Что происходит сейчас? / What is happening now?</text>
+<line class="grid" x1="95" y1="220" x2="545" y2="220"/><line class="grid" x1="95" y1="290" x2="545" y2="290"/><line class="grid" x1="95" y1="360" x2="545" y2="360"/>
+<line class="axis" x1="95" y1="185" x2="95" y2="420"/><line class="axis" x1="95" y1="420" x2="545" y2="420"/>
+<text x="80" y="225" text-anchor="end" class="small">20°</text><text x="80" y="295" text-anchor="end" class="small">10°</text><text x="80" y="365" text-anchor="end" class="small">0°</text>
+<path class="weather" d="M110 332 L165 300 L220 315 L275 250 L330 275 L385 220 L440 245 L500 285 L535 260"/>
+<g class="point"><circle cx="110" cy="332" r="7"/><circle cx="165" cy="300" r="7"/><circle cx="220" cy="315" r="7"/><circle cx="275" cy="250" r="7"/><circle cx="330" cy="275" r="7"/><circle cx="385" cy="220" r="7"/><circle cx="440" cy="245" r="7"/><circle cx="500" cy="285" r="7"/><circle cx="535" cy="260" r="7"/></g>
+<text x="320" y="455" text-anchor="middle" class="small">Часы и дни / Hours and days</text>
+<text x="65" y="485" class="note">Быстрые изменения в конкретном месте и времени</text>
+<!-- climate panel -->
+<text x="645" y="118" class="h">КЛИМАТ / CLIMATE</text>
+<text x="645" y="148" class="sub">Каковы типичные условия и разброс? / What is typical, and how much does it vary?</text>
+<line class="grid" x1="675" y1="220" x2="1125" y2="220"/><line class="grid" x1="675" y1="290" x2="1125" y2="290"/><line class="grid" x1="675" y1="360" x2="1125" y2="360"/>
+<line class="axis" x1="675" y1="185" x2="675" y2="420"/><line class="axis" x1="675" y1="420" x2="1125" y2="420"/>
+<path class="band" d="M690 265 L745 250 L800 240 L855 220 L910 205 L965 215 L1020 235 L1075 250 L1110 260 L1110 335 L1075 325 L1020 315 L965 305 L910 295 L855 300 L800 315 L745 325 L690 330 Z"/>
+<path class="mean" d="M690 300 L745 290 L800 280 L855 260 L910 250 L965 260 L1020 275 L1075 290 L1110 300"/>
+<g fill="#3d789e" opacity=".9">
+<circle cx="700" cy="322" r="5"/><circle cx="720" cy="284" r="5"/><circle cx="745" cy="310" r="5"/><circle cx="770" cy="270" r="5"/><circle cx="795" cy="298" r="5"/><circle cx="820" cy="255" r="5"/><circle cx="845" cy="278" r="5"/><circle cx="870" cy="235" r="5"/><circle cx="895" cy="270" r="5"/><circle cx="920" cy="230" r="5"/><circle cx="945" cy="287" r="5"/><circle cx="970" cy="248" r="5"/><circle cx="995" cy="295" r="5"/><circle cx="1020" cy="260" r="5"/><circle cx="1045" cy="310" r="5"/><circle cx="1070" cy="270" r="5"/><circle cx="1095" cy="318" r="5"/>
+</g>
+<text x="900" y="455" text-anchor="middle" class="small">Многолетний период / Multi-year period</text>
+<line class="mean" x1="700" y1="480" x2="750" y2="480"/><text x="760" y="486" class="small">Среднее / Average</text>
+<rect x="900" y="470" width="38" height="18" class="band"/><text x="947" y="486" class="small">Диапазон / Range</text>
+<!-- bottom takeaway -->
+<rect class="cold" x="35" y="540" width="1130" height="130" rx="18"/>
+<text x="65" y="580" class="coldtxt">Один холодный день не опровергает потепление климата.</text>
+<text x="65" y="612" class="note">Отдельное наблюдение — часть изменчивой погоды; выводы о климате требуют анализа длинных рядов и статистики.</text>
+<text x="65" y="642" class="note">A single cold day does not disprove climate warming: climate conclusions require long records and statistical analysis.</text>
+<text x="600" y="700" text-anchor="middle" class="small">Схема условная; точки и линии не являются реальными измерениями. / Conceptual illustration; plotted values are not real observations.</text>
+</svg>

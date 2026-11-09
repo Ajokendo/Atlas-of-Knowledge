@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Пространственные уровни исследования / Spatial levels of analysis</title>
+<desc id="desc">Четыре вложенных уровня географического анализа: местный, региональный, национальный и глобальный. Схема различает масштаб исследования и масштаб карты. / Four nested levels of geographic analysis: local, regional, national and global. The diagram distinguishes analytical scale from map scale.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:22px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.b{stroke:#fff;stroke-width:4}</style>
+<rect width="1200" height="650" fill="#fff"/><text x="600" y="52" text-anchor="middle" class="h">Уровни географического анализа / Geographic scales of analysis</text>
+<rect x="100" y="120" width="1000" height="440" rx="28" fill="#e8eef4" class="b"/><text x="600" y="160" text-anchor="middle" class="t">Глобальный / Global</text>
+<rect x="220" y="205" width="760" height="315" rx="24" fill="#dceadf" class="b"/><text x="600" y="245" text-anchor="middle" class="t">Национальный / National</text>
+<rect x="350" y="290" width="500" height="210" rx="20" fill="#f2e6c9" class="b"/><text x="600" y="330" text-anchor="middle" class="t">Региональный / Regional</text>
+<rect x="465" y="375" width="270" height="110" rx="16" fill="#e7d8d5" class="b"/><text x="600" y="420" text-anchor="middle" class="t">Местный</text><text x="600" y="450" text-anchor="middle" class="s">Local</text>
+<rect x="115" y="585" width="970" height="48" rx="10" fill="#f7fafb" stroke="#879ca5" stroke-width="2"/><text x="600" y="616" text-anchor="middle" class="s">Уровень анализа — не то же самое, что масштаб карты. Map scale is a ratio; analytical scale is the spatial level of the question.</text>
+</svg>

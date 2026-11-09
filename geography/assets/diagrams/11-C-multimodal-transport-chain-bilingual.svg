@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">Мультимодальная транспортная цепочка / Multimodal transport chain</title>
+<desc id="desc">Схематическая сеть перевозки товара: производитель, пункт консолидации, железнодорожный терминал, морской порт, контейнерное судно, распределительный центр и рынок; показаны автомобильная и авиационная альтернативы. Линии не изображают реальные маршруты, расстояния и время не заданы. / Schematic freight network: producer, consolidation point, rail terminal, seaport, container ship, distribution centre and market, with road and air alternatives. Lines are not real routes; distances and travel times are not specified.</desc>
+<style>.h{font:700 29px Arial,sans-serif;fill:#17324d}.t{font:20px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.n{fill:#f4f8fa;stroke:#5c7b89;stroke-width:2.5}.route{stroke:#2d7898;stroke-width:5;fill:none;marker-end:url(#ar)}.alt{stroke:#b47a3e;stroke-width:4;fill:none;stroke-dasharray:10 7;marker-end:url(#gold)}</style>
+<defs><marker id="ar" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#2d7898"/></marker><marker id="gold" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#b47a3e"/></marker></defs>
+<rect width="1200" height="680" fill="#fff"/><text x="600" y="48" text-anchor="middle" class="h">Мультимодальная цепочка поставок / Multimodal supply chain</text>
+<g>
+<rect x="45" y="150" width="175" height="105" rx="16" class="n"/><text x="132" y="192" text-anchor="middle" class="t">Производитель</text><text x="132" y="223" text-anchor="middle" class="s">Producer</text>
+<rect x="285" y="150" width="175" height="105" rx="16" class="n"/><text x="372" y="192" text-anchor="middle" class="t">Консолидация</text><text x="372" y="223" text-anchor="middle" class="s">Consolidation</text>
+<rect x="525" y="150" width="175" height="105" rx="16" class="n"/><text x="612" y="192" text-anchor="middle" class="t">Ж/д терминал</text><text x="612" y="223" text-anchor="middle" class="s">Rail terminal</text>
+<rect x="765" y="150" width="175" height="105" rx="16" class="n"/><text x="852" y="192" text-anchor="middle" class="t">Морской порт</text><text x="852" y="223" text-anchor="middle" class="s">Seaport</text>
+<rect x="1005" y="150" width="150" height="105" rx="16" class="n"/><text x="1080" y="192" text-anchor="middle" class="t">Рынок</text><text x="1080" y="223" text-anchor="middle" class="s">Market</text>
+</g>
+<path d="M220 202 H280 M460 202 H520 M700 202 H760 M940 202 H1000" class="route"/>
+<rect x="765" y="355" width="175" height="95" rx="16" class="n"/><text x="852" y="395" text-anchor="middle" class="t">Контейнерное</text><text x="852" y="425" text-anchor="middle" class="s">судно / Ship</text>
+<rect x="1005" y="355" width="150" height="95" rx="16" class="n"/><text x="1080" y="395" text-anchor="middle" class="t">Склад</text><text x="1080" y="425" text-anchor="middle" class="s">Warehouse</text>
+<path d="M852 255 V350 M940 402 H1000" class="route"/>
+<rect x="285" y="355" width="175" height="95" rx="16" class="n"/><text x="372" y="395" text-anchor="middle" class="t">Автодоставка</text><text x="372" y="425" text-anchor="middle" class="s">Road freight</text>
+<rect x="525" y="355" width="175" height="95" rx="16" class="n"/><text x="612" y="395" text-anchor="middle" class="t">Авиагруз</text><text x="612" y="425" text-anchor="middle" class="s">Air cargo</text>
+<path d="M372 255 V350 M460 402 H520 M700 402 H760" class="alt"/>
+<text x="600" y="520" text-anchor="middle" class="t">Выбор маршрута зависит от стоимости, времени, надёжности и типа груза</text>
+<text x="600" y="550" text-anchor="middle" class="s">Route choice depends on cost, time, reliability and cargo type</text>
+<text x="600" y="615" text-anchor="middle" class="s">Схема условная: она не показывает реальные коридоры, географические расстояния или расписания. / Schematic only: it does not show real corridors, geographic distances or schedules.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Активные и пассивные сенсоры ДЗЗ / Active and passive remote-sensing sensors</title>
+<desc id="desc">Пассивный сенсор регистрирует естественное отражённое солнечное или собственное тепловое излучение поверхности. Активный сенсор посылает собственный сигнал и измеряет отражённый или рассеянный отклик; примеры — SAR и LiDAR. / A passive sensor records naturally reflected sunlight or emitted thermal radiation. An active sensor transmits its own signal and measures the returned or backscattered response; examples include SAR and LiDAR.</desc>
+<style>.h{font:700 30px Arial,sans-serif;fill:#17324d}.t{font:22px Arial,sans-serif;fill:#17324d}.s{font:17px Arial,sans-serif;fill:#536b7c}.panel{fill:#f5f8fa;stroke:#607e8b;stroke-width:2}.sun{stroke:#d29a35;stroke-width:7;fill:none;marker-end:url(#sunm)}.rad{stroke:#2d7f9d;stroke-width:6;fill:none;marker-end:url(#radm)}</style>
+<defs><marker id="sunm" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#d29a35"/></marker><marker id="radm" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12 z" fill="#2d7f9d"/></marker></defs>
+<rect width="1200" height="650" fill="#fff"/><text x="600" y="52" text-anchor="middle" class="h">Пассивное и активное ДЗЗ / Passive and active remote sensing</text>
+<rect x="55" y="100" width="520" height="470" rx="20" class="panel"/><rect x="625" y="100" width="520" height="470" rx="20" class="panel"/>
+<text x="315" y="150" text-anchor="middle" class="h">Пассивные сенсоры / Passive</text>
+<circle cx="160" cy="240" r="42" fill="#f6d57e" stroke="#d29a35" stroke-width="3"/><path d="M160 185v-20 M160 315v-20 M105 240H85 M235 240h-20" stroke="#d29a35" stroke-width="4"/>
+<path d="M210 250 L380 390" class="sun"/><text x="270" y="285" class="s">Отражённый свет / Reflected light</text>
+<path d="M410 380 L420 210" class="rad"/><text x="430" y="275" class="s">Тепловое излучение / Thermal emission</text>
+<rect x="125" y="390" width="320" height="65" rx="12" fill="#dce8d2" stroke="#68835d" stroke-width="2"/><text x="285" y="430" text-anchor="middle" class="t">Поверхность / Surface</text>
+<text x="315" y="510" text-anchor="middle" class="s">Оптика • мультиспектральные камеры • тепловые ИК-сенсоры</text><text x="315" y="538" text-anchor="middle" class="s">Optical • multispectral • thermal infrared</text>
+<text x="885" y="150" text-anchor="middle" class="h">Активные сенсоры / Active</text>
+<rect x="810" y="195" width="150" height="65" rx="12" fill="#dce7ef" stroke="#477b96" stroke-width="2"/><text x="885" y="235" text-anchor="middle" class="t">Радар / Radar</text>
+<path d="M885 265 L885 390" class="rad"/><path d="M925 390 L925 270" class="rad"/>
+<rect x="770" y="390" width="320" height="65" rx="12" fill="#dce8d2" stroke="#68835d" stroke-width="2"/><text x="930" y="430" text-anchor="middle" class="t">Поверхность / Surface</text>
+<text x="885" y="510" text-anchor="middle" class="s">SAR • LiDAR • лазерная альтиметрия</text><text x="885" y="538" text-anchor="middle" class="s">SAR • LiDAR • laser altimetry</text>
+<text x="600" y="615" text-anchor="middle" class="s">Активные радары часто работают ночью и сквозь облака; ограничения зависят от длины волны и условий. / Active radar often works at night and through clouds; limitations depend on wavelength and conditions.</text>
+</svg>

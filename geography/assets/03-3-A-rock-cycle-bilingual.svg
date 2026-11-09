@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<!-- Licence: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/); attribution: Atlas of Knowledge project; exact scope and terms: CHAPTER_03_ASSET_LICENSE.md. -->
+<title id="title">Круговорот горных пород / The rock cycle</title>
+<desc id="desc">Один из возможных путей: магма охлаждается и кристаллизуется в магматическую породу; выветривание, эрозия, перенос и отложение образуют осадки; уплотнение и цементация превращают их в осадочную породу; тепло, давление и флюиды могут преобразовать породу в метаморфическую; плавление образует магму. Другие пути также возможны. / One possible pathway: magma cools and crystallises into igneous rock; weathering, erosion, transport and deposition produce sediment; compaction and cementation form sedimentary rock; heat, pressure and fluids can transform rock into metamorphic rock; melting produces magma. Other pathways are also possible.</desc>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#334155"/></marker>
+</defs>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="600" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#172554">КРУГОВОРОТ ГОРНЫХ ПОРОД / THE ROCK CYCLE</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+  <rect x="430" y="90" width="340" height="92" rx="16" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+  <text x="600" y="128" font-size="25" font-weight="700" fill="#7f1d1d">МАГМА / MAGMA</text>
+  <text x="600" y="157" font-size="17" fill="#7f1d1d">расплавленная порода / molten rock</text>
+
+  <rect x="55" y="290" width="310" height="110" rx="16" fill="#ffedd5" stroke="#c2410c" stroke-width="3"/>
+  <text x="210" y="333" font-size="23" font-weight="700" fill="#7c2d12">МАГМАТИЧЕСКИЕ</text>
+  <text x="210" y="363" font-size="21" font-weight="700" fill="#7c2d12">ПОРОДЫ / IGNEOUS</text>
+  <text x="210" y="387" font-size="16" fill="#7c2d12">гранит, базальт / granite, basalt</text>
+
+  <rect x="445" y="290" width="310" height="110" rx="16" fill="#fef3c7" stroke="#a16207" stroke-width="3"/>
+  <text x="600" y="333" font-size="24" font-weight="700" fill="#713f12">ОСАДКИ / SEDIMENT</text>
+  <text x="600" y="365" font-size="17" fill="#713f12">обломки, песок, ил / fragments, sand, silt</text>
+
+  <rect x="835" y="290" width="310" height="110" rx="16" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="990" y="333" font-size="23" font-weight="700" fill="#14532d">ОСАДОЧНЫЕ</text>
+  <text x="990" y="363" font-size="21" font-weight="700" fill="#14532d">ПОРОДЫ / SEDIMENTARY</text>
+  <text x="990" y="387" font-size="16" fill="#14532d">песчаник, известняк / sandstone, limestone</text>
+
+  <rect x="445" y="555" width="310" height="110" rx="16" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="600" y="598" font-size="23" font-weight="700" fill="#1e3a8a">МЕТАМОРФИЧЕСКИЕ</text>
+  <text x="600" y="628" font-size="21" font-weight="700" fill="#1e3a8a">ПОРОДЫ / METAMORPHIC</text>
+  <text x="600" y="652" font-size="16" fill="#1e3a8a">мрамор, гнейс / marble, gneiss</text>
+</g>
+<g fill="none" stroke="#334155" stroke-width="4" marker-end="url(#arrow)">
+  <path d="M430 145 C330 145 245 205 210 282"/>
+  <path d="M365 345 L435 345"/>
+  <path d="M755 345 L825 345"/>
+  <path d="M990 405 C990 500 820 610 765 610"/>
+  <path d="M445 610 C260 585 150 330 430 150"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="17" fill="#334155" text-anchor="middle">
+  <text x="300" y="185">охлаждение и кристаллизация</text><text x="300" y="207">cooling and crystallisation</text>
+  <text x="400" y="275">выветривание, эрозия, перенос,</text><text x="400" y="297">отложение / weathering, erosion, transport, deposition</text>
+  <text x="800" y="275">уплотнение и цементация</text><text x="800" y="297">compaction and cementation</text>
+  <text x="900" y="500">тепло, давление и флюиды</text><text x="900" y="522">heat, pressure and fluids</text>
+  <text x="255" y="505">плавление / melting</text>
+</g>
+<rect x="185" y="690" width="830" height="42" rx="10" fill="#e2e8f0"/>
+<text x="600" y="708" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#334155">Упрощённый пример, а не обязательная последовательность: любая группа пород может пройти иные пути.</text>
+<text x="600" y="725" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#334155">Simplified example, not a required sequence: each rock group can follow other pathways.</text>
+</svg>

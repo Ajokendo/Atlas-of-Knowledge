@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+<title id="title">Climate change: drivers, evidence and responses / Изменение климата: причины, свидетельства и ответы</title>
+<desc id="desc">Двуязычная причинно-следственная схема: деятельность человека приводит к выбросам парниковых газов, росту их концентрации и радиационного воздействия, нагреву климатической системы, наблюдаемым изменениям и последствиям. Ответные меры — смягчение и адаптация; естественная изменчивость продолжается наряду с долгосрочной тенденцией потепления, вызванной человеком. / Bilingual causal diagram: human activities emit greenhouse gases, increasing atmospheric concentrations and radiative forcing, warming the climate system, with multiple observed indicators and impacts. Responses are mitigation and adaptation. Natural variability continues alongside the human-caused long-term trend.</desc>
+<defs>
+ <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#49677d"/></marker>
+ <linearGradient id="header" x2="1" y2="0"><stop stop-color="#dcebf4"/><stop offset="1" stop-color="#eef3f7"/></linearGradient>
+</defs>
+<rect width="1400" height="980" fill="#fbfcfe"/>
+<text x="700" y="50" font-family="Arial,sans-serif" font-size="32" font-weight="700" text-anchor="middle" fill="#17324d">Изменение климата: причины, свидетельства и ответы</text>
+<text x="700" y="91" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#315b75">Climate Change: Drivers, Evidence and Responses</text>
+<text x="700" y="124" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#526879">Упрощённая причинно-следственная схема / Simplified causal pathway</text>
+<rect x="70" y="155" width="1260" height="145" rx="20" fill="url(#header)" stroke="#9bb6c9" stroke-width="2"/>
+<text x="700" y="188" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#17324d">ДЕЯТЕЛЬНОСТЬ ЧЕЛОВЕКА / HUMAN ACTIVITIES</text>
+<g font-family="Arial,sans-serif" font-size="17" fill="#263f52" text-anchor="middle">
+ <rect x="105" y="210" width="260" height="65" rx="12" fill="#fff" stroke="#c0ced8"/><text x="235" y="237">Энергетика и транспорт</text><text x="235" y="260" font-size="14">Energy and transport</text>
+ <rect x="405" y="210" width="260" height="65" rx="12" fill="#fff" stroke="#c0ced8"/><text x="535" y="237">Промышленность</text><text x="535" y="260" font-size="14">Industry</text>
+ <rect x="705" y="210" width="260" height="65" rx="12" fill="#fff" stroke="#c0ced8"/><text x="835" y="237">Сельское хозяйство</text><text x="835" y="260" font-size="14">Agriculture</text>
+ <rect x="1005" y="210" width="285" height="65" rx="12" fill="#fff" stroke="#c0ced8"/><text x="1147" y="237">Изменение землепользования</text><text x="1147" y="260" font-size="14">Land-use change</text>
+</g>
+<path d="M700 300V333" stroke="#49677d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="260" y="345" width="880" height="95" rx="18" fill="#f9e8d7" stroke="#d8ad7c" stroke-width="2"/>
+<text x="700" y="380" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#603e20">Выбросы парниковых газов / Greenhouse-gas emissions</text>
+<text x="700" y="412" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#684d35">CO₂, CH₄, N₂O и другие газы / CO₂, CH₄, N₂O and other gases</text>
+<path d="M700 440V473" stroke="#49677d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="260" y="485" width="880" height="95" rx="18" fill="#f5edcf" stroke="#d4c17a" stroke-width="2"/>
+<text x="700" y="520" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#554a20">Рост концентрации парниковых газов и радиационного воздействия</text>
+<text x="700" y="550" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#62582f">Higher greenhouse-gas concentrations and radiative forcing</text>
+<path d="M700 580V613" stroke="#49677d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="260" y="625" width="880" height="90" rx="18" fill="#f6dede" stroke="#d5a0a0" stroke-width="2"/>
+<text x="700" y="660" font-family="Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#6a3030">Нагрев климатической системы / Warming of the climate system</text>
+<text x="700" y="689" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#754848">Атмосфера, океан и суша / Atmosphere, ocean and land</text>
+<path d="M700 715V742" stroke="#49677d" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="755" width="1260" height="100" rx="18" fill="#e8f0f5" stroke="#9bb6c9" stroke-width="2"/>
+<text x="700" y="788" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#17324d">НАБЛЮДАЕМЫЕ СВИДЕТЕЛЬСТВА / OBSERVED EVIDENCE</text>
+<g font-family="Arial,sans-serif" font-size="15" fill="#263f52" text-anchor="middle">
+<text x="205" y="824">Рост температуры</text><text x="205" y="844" font-size="13">Rising temperatures</text>
+<text x="455" y="824">Нагрев океана</text><text x="455" y="844" font-size="13">Ocean warming</text>
+<text x="700" y="824">Подъём уровня моря</text><text x="700" y="844" font-size="13">Sea-level rise</text>
+<text x="950" y="824">Потеря льда</text><text x="950" y="844" font-size="13">Ice loss</text>
+<text x="1190" y="824">Сезонные сдвиги</text><text x="1190" y="844" font-size="13">Seasonal shifts</text>
+</g>
+<rect x="70" y="880" width="610" height="75" rx="16" fill="#e0efe5" stroke="#9bbda5" stroke-width="2"/>
+<text x="375" y="910" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#214c31">СМЯГЧЕНИЕ / MITIGATION</text>
+<text x="375" y="937" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#315d3e">Сокращать выбросы и усиливать поглощение / Cut emissions and enhance removals</text>
+<rect x="720" y="880" width="610" height="75" rx="16" fill="#e5eaf6" stroke="#a5b1d1" stroke-width="2"/>
+<text x="1025" y="910" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#2c3f70">АДАПТАЦИЯ / ADAPTATION</text>
+<text x="1025" y="937" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#40547e">Снижать уязвимость и готовиться к рискам / Reduce vulnerability and prepare for risks</text>
+<text x="700" y="975" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#526879">Естественная изменчивость сохраняется, но не объясняет современную долгосрочную тенденцию потепления / Natural variability continues but does not explain the modern long-term warming trend</text>
+</svg>

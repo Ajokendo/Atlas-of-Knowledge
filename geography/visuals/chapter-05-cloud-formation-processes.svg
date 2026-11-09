@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Образование облаков и осадков / Cloud and precipitation formation</title>
+<desc id="desc">Адаптированная двуязычная схема по Figure 2 из AMS Project Atmosphere: Clouds (2025): четыре механизма подъёма воздуха — конвекция, конвергенция, фронтальный и орографический подъём. Схема перерисована, упрощена и снабжена двуязычными подписями. Поднимающийся воздух расширяется и охлаждается; облака могут образоваться при достижении насыщения. / Adapted bilingual diagram based on Figure 2 of AMS Project Atmosphere: Clouds (2025): four lifting mechanisms — convection, convergence, frontal and orographic lifting. Redrawn, simplified and relabelled bilingually. Rising air expands and cools; clouds may form when saturation is reached.</desc>
+<defs>
+ <marker id="up" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1677b8"/></marker>
+ <marker id="warm" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#d97706"/></marker>
+ <marker id="cold" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2563eb"/></marker>
+ <style>
+ .panel{fill:#f7fafc;stroke:#9aa8b5;stroke-width:2}.h{font:700 25px Arial,sans-serif;fill:#172b3a}.sub{font:18px Arial,sans-serif;fill:#334b5c}.small{font:16px Arial,sans-serif;fill:#334b5c}.air{fill:#f6c56b;opacity:.45}.coldair{fill:#93c5fd;opacity:.55}.ground{stroke:#526b43;stroke-width:9;stroke-linecap:round}.up{stroke:#1677b8;stroke-width:7;fill:none;marker-end:url(#up)}.warm{stroke:#d97706;stroke-width:7;fill:none;marker-end:url(#warm)}.cold{stroke:#2563eb;stroke-width:7;fill:none;marker-end:url(#cold)}.cloud{fill:#fff;stroke:#70879a;stroke-width:2}
+ </style>
+</defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<text x="600" y="42" text-anchor="middle" class="h">Как воздух поднимается и образует облака / How air rises and forms clouds</text>
+<text x="600" y="72" text-anchor="middle" class="sub">Подъём → расширение и охлаждение → насыщение → конденсация / Ascent → expansion and cooling → saturation → condensation</text>
+<!-- panels -->
+<rect class="panel" x="35" y="100" width="550" height="285" rx="18"/>
+<rect class="panel" x="615" y="100" width="550" height="285" rx="18"/>
+<rect class="panel" x="35" y="410" width="550" height="315" rx="18"/>
+<rect class="panel" x="615" y="410" width="550" height="315" rx="18"/>
+<!-- convection -->
+<text x="60" y="140" class="h">1. Конвекция / Convection</text>
+<path class="ground" d="M65 330 Q180 315 290 330 T555 330"/>
+<circle cx="130" cy="205" r="27" fill="#f5c451"/>
+<path class="up" d="M300 315 C270 270 280 230 310 195"/>
+<path class="up" d="M350 315 C380 270 370 230 340 195"/>
+<path class="warm" d="M245 310 Q230 260 265 225"/>
+<ellipse class="cloud" cx="330" cy="180" rx="72" ry="23"/><circle class="cloud" cx="290" cy="176" r="24"/><circle class="cloud" cx="330" cy="160" r="30"/><circle class="cloud" cx="370" cy="176" r="25"/>
+<text x="75" y="365" class="small">Нагретая поверхность создаёт восходящие потоки</text>
+<!-- convergence -->
+<text x="640" y="140" class="h">2. Сходимость / Convergence</text>
+<path class="ground" d="M645 330 Q760 315 870 330 T1135 330"/>
+<path d="M690 270 Q825 250 1090 270" fill="none" stroke="#dbe7ef" stroke-width="2"/>
+<path class="up" d="M700 270 Q820 285 875 210"/>
+<path class="up" d="M1080 270 Q960 285 905 210"/>
+<path class="up" d="M890 300 L890 190"/>
+<ellipse class="cloud" cx="890" cy="175" rx="68" ry="22"/><circle class="cloud" cx="850" cy="170" r="23"/><circle class="cloud" cx="890" cy="153" r="29"/><circle class="cloud" cx="930" cy="170" r="23"/>
+<text x="650" y="365" class="small">Потоки сходятся у поверхности и вынуждены подниматься</text>
+<!-- frontal -->
+<text x="60" y="450" class="h">3. Фронтальный подъём / Frontal lifting</text>
+<path class="ground" d="M65 665 L555 665"/>
+<path class="coldair" d="M70 660 L70 565 L290 565 L220 665 Z"/>
+<path class="air" d="M220 665 L290 565 L555 565 L555 665 Z"/>
+<path class="cold" d="M125 620 L250 620 L300 545"/>
+<path class="warm" d="M360 640 Q325 590 300 545"/>
+<path class="up" d="M300 565 Q330 520 360 505"/>
+<ellipse class="cloud" cx="365" cy="500" rx="68" ry="21"/><circle class="cloud" cx="325" cy="496" r="22"/><circle class="cloud" cx="365" cy="478" r="28"/><circle class="cloud" cx="405" cy="496" r="22"/>
+<text x="90" y="700" class="small">Холодный воздух подталкивает тёплый вверх</text>
+<!-- orographic -->
+<text x="640" y="450" class="h">4. Орографический подъём / Orographic lifting</text>
+<path class="ground" d="M645 665 L760 665 L900 520 L1035 665 L1135 665"/>
+<path class="up" d="M735 620 Q790 565 835 520"/>
+<path d="M850 520 Q900 485 950 520" fill="none" stroke="#1677b8" stroke-width="6"/>
+<ellipse class="cloud" cx="870" cy="490" rx="70" ry="20"/><circle class="cloud" cx="830" cy="486" r="22"/><circle class="cloud" cx="870" cy="468" r="28"/><circle class="cloud" cx="910" cy="486" r="22"/>
+<path d="M1000 545 Q1050 590 1080 620" stroke="#d97706" stroke-width="5" fill="none" stroke-dasharray="10 8"/>
+<text x="650" y="700" class="small">Рельеф заставляет поток подниматься по склону</text>
+<text x="600" y="728" text-anchor="middle" class="small">Схема качественная, не в масштабе; не каждый подъём приводит к осадкам. / Conceptual, not to scale; not every lifting process produces precipitation.</text>\n<text x="600" y="750" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#334b5c">Adapted from AMS Project Atmosphere: Clouds (2025), Figure 2, CC BY-SA 4.0. Redrawn, simplified and relabelled bilingually.</text>
+</svg>
