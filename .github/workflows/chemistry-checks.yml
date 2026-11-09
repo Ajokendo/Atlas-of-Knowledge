@@ -2,7 +2,7 @@ name: Chemistry atlas checks
 
 on:
   push:
-    branches: [main, portal-foundation]
+    branches: [main, portal-foundation, workspace/chemistry]
     paths:
       - "chemistry/**"
       - "catalog.html"
@@ -28,19 +28,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
       - name: Validate chemistry pages, links, assets and scripts
         run: node chemistry/checks.mjs
-      - name: Install Chromium for browser smoke tests
+      - name: Install pinned browser audit tools
         run: |
-          npm install --no-save playwright
+          npm install --no-save --package-lock=false playwright@1.64.1 axe-core@4.14.0
+          npm ls --depth=0
           npx playwright install --with-deps chromium
       - name: Start local site server
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 >/tmp/atlas-http.log 2>&1 &
       - name: Test every Chemistry Atlas page in Chromium
         run: node chemistry/browser-smoke.mjs
+      - name: Upload rendered Chemistry review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chemistry-rendered-review
+          path: artifacts/chemistry-rendered-review/
+          if-no-files-found: ignore
+          retention-days: 7

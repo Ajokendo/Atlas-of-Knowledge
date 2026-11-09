@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">Electron probability cloud</title><desc id="desc">A scientific editorial illustration of an atomic nucleus surrounded by translucent electron probability clouds.</desc>
+<title id="title">Electron probability cloud</title><desc id="desc">A schematic probability-density cloud surrounding an atomic nucleus. The diffuse overlapping regions represent where electrons are more likely to be detected; they are not electron trajectories, circular tracks or planetary orbits. Not to scale.</desc>
 <defs>
  <radialGradient id="paper"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#e9e8df"/></radialGradient>
  <radialGradient id="nucleus"><stop stop-color="#d88b69"/><stop offset=".62" stop-color="#b75e4d"/><stop offset="1" stop-color="#8e4b45"/></radialGradient>
@@ -13,9 +13,6 @@
  <ellipse rx="340" ry="150" transform="rotate(55)" fill="url(#cloud)"/>
  <ellipse rx="250" ry="180" transform="rotate(115)" fill="url(#cloud)"/>
  <ellipse rx="290" ry="120" transform="rotate(155)" fill="url(#cloud)"/>
- <g fill="none" stroke="#6f9e92" stroke-width="2" opacity=".55">
-  <ellipse rx="320" ry="126" transform="rotate(-25)"/><ellipse rx="320" ry="126" transform="rotate(55)"/><ellipse rx="250" ry="170" transform="rotate(115)"/>
- </g>
  <circle r="68" fill="#b85f50" opacity=".16" filter="url(#blur)"/>
  <circle r="48" fill="url(#nucleus)"/>
  <g fill="#d78a6b"><circle cx="-17" cy="-13" r="17"/><circle cx="18" cy="-18" r="15"/><circle cx="21" cy="16" r="17"/><circle cx="-17" cy="19" r="15"/></g>
