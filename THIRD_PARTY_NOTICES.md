@@ -1,99 +1,40 @@
-# Third-party notices and attribution
+# Авторство, лицензии и материалы третьих лиц / Authorship, licences and third-party material
 
-This document records the origin and licensing information identified in the repository review. It is not legal advice and does not represent a blanket clearance of every possible use.
+Обновлено 10.11.2026. Это не юридическое заключение. / Updated 2026-11-10. This is not legal advice.
 
-## 1. Original Atlas of Physics
+## 1. Atlas of Knowledge
 
-The interactive Physics Atlas in this repository is a Russian-language adaptation of the interactive textbook originally created by **Nathan Liow**.
+- **Правообладатель / Rights holder:** Азамат Орозобеков / Azamat Orozobekov и участники проекта / and Atlas of Knowledge contributors.
+- **Код / Code:** MIT — `LICENSE`.
+- **Тексты, задачи, тесты, схемы, модели / Texts, problems, quizzes, diagrams, models:** CC BY 4.0 — `CONTENT_LICENSE.md`.
+- **ИИ / AI:** материалы готовятся с помощью ChatGPT (OpenAI) и Claude (Anthropic) по замыслу и под редакцией автора. Условия обоих сервисов передают пользователю права на сгенерированные ответы (в той мере, в какой такие права существуют). / Materials are prepared with ChatGPT (OpenAI) and Claude (Anthropic) to the author's concept and under his editorship; both services' terms assign any rights in outputs to the user.
+- **Правила источников / Sourcing rules:** `SOURCES_AND_IMAGES.md`.
 
-- Original repository: https://github.com/nathanliow/atlas-of-physics
-- Original website: https://atlas-of-physics.vercel.app/
-- Original software license: MIT
-- Copyright notice required by the upstream license: Copyright (c) 2026 Nathan Liow
+## 2. Изображения по предметам / Images by subject
 
-The upstream MIT license is reproduced in the repository's `LICENSE` file. It applies to the upstream software and its covered derivative copies, subject to the license conditions. It should not be interpreted as automatically licensing third-party material that the upstream author did not own.
+Каждый чужой файл записан в реестре своего предмета с автором, лицензией и ссылкой. / Every third-party file is recorded in its subject register with creator, licence and link:
 
-## 2. Russian-language adaptation
+- `physics/IMAGE_SOURCES.md`
+- `chemistry/IMAGE_SOURCES.md`
+- `biology/IMAGE_SOURCES.md`
+- `geography/IMAGE_SOURCES.md`
 
-The Russian-language edition includes translated and editorially adapted chapter text, labels, practice material and interface text. The translation and adaptation were prepared with AI assistance.
+**Химия / Chemistry.** Три SVG — `chemistry/assets/carbon-cycle.svg`, `electron-cloud.svg`, `reaction-schematic.svg` — были сгенерированы ChatGPT при создании атласа химии (добавлены 31.10.2026, коммиты `e772ee79d8`, `afca6cb0ed`, `794d5ca15a`). Это не чужие изображения, но они противоречат правилу «не генерировать научные изображения нейросетью»; их нужно проверить и при необходимости перерисовать. / Three AI-generated SVGs in Chemistry, added 2026-10-31; to be reviewed and redrawn if needed under the current rules.
 
-The repository preserves the original chapter structure, interactive models, simulation logic and substantial portions of the upstream code, with modifications and Russian-language content added.
+## 3. Шрифты / Fonts
 
-This project does **not** claim authorship of Nathan Liow's original English-language textbook, original interactive engine, original models or other original work. Attribution does not imply that Nathan Liow reviewed, approved or endorses this adaptation.
+Сайт загружает с Google Fonts шрифты EB Garamond, Inter и JetBrains Mono — все под SIL Open Font License 1.1. Файлы шрифтов в репозиторий не включены. / Loaded from Google Fonts, all under the SIL Open Font License 1.1; not bundled.
 
-## 3. Three.js
+- https://github.com/google/fonts/blob/main/ofl/ebgaramond/OFL.txt
+- https://github.com/google/fonts/blob/main/ofl/inter/OFL.txt
+- https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt
 
-The repository currently imports two versions of Three.js from jsDelivr: **0.186.1** for the original interactive chapter engine and **0.180.0** for the standalone physics laboratory in `physics-lab.js`. The npm package metadata identifies the `three` package, including version **0.180.0**, as MIT-licensed. The project license is also published in the official Three.js repository. Three.js is distributed under the MIT License.
+## 4. История: адаптация Atlas of Physics / History: the Atlas of Physics adaptation
 
-Project: https://github.com/mrdoob/three.js  
-License: https://github.com/mrdoob/three.js/blob/dev/LICENSE
+До 09.11.2026 на сайте была русская адаптация открытого учебника **Atlas of Physics** Натана Лиоу (Nathan Liow): https://github.com/nathanliow/atlas-of-physics, лицензия MIT. 09.11.2026 она удалена из `main` и с сайта и заменена собственной физикой; её код остаётся в истории git (последний коммит с ней — `e91fedd`). Для этих версий действует уведомление автора:
 
-Copyright © 2010–2026 three.js authors.
+> MIT License — Copyright (c) 2026 Nathan Liow. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
-The MIT license for Three.js is separate from Nathan Liow's MIT license. The Three.js notice and permission terms apply to Three.js and its covered components, not to the Atlas as a whole.
+Те версии также подключали Three.js (MIT, © three.js authors). Нынешняя физика Atlas of Knowledge не использует ни код, ни тексты, ни изображения Atlas of Physics. Материалы College Board / AP в репозиторий не включались и не включаются.
 
-## 4. Google Fonts
-
-The site loads these typefaces from Google Fonts:
-
-- **EB Garamond** — SIL Open Font License 1.1 (OFL). Official Google Fonts family metadata: https://github.com/google/fonts/tree/main/ofl/ebgaramond
-- **Inter** — SIL Open Font License 1.1 (OFL). Official project and license: https://github.com/rsms/inter
-- **JetBrains Mono** — SIL Open Font License 1.1 (OFL). Official project and license: https://github.com/JetBrains/JetBrainsMono
-
-The font files are requested from Google Fonts; they are not bundled as local font files in this repository. If font files are later downloaded, modified or redistributed with the site, include the applicable OFL text and comply with its reserved-font-name requirements.
-
-## 5. Images and other media
-
-The upstream repository contains 15 chapter-cover JPEG files under `img/`. The current Russian repository tree reviewed for this notice does not contain those JPEG files. No separate creator or asset-license inventory for those upstream JPEGs was found in the reviewed upstream documentation.
-
-Do not assume that every image, photograph, illustration or other media asset is covered by the software MIT license. If any such upstream asset is copied into this project in the future, verify its creator and license individually and add the required attribution before publication.
-
-## 6. College Board / AP materials
-
-The upstream project contains an equation-sheet generator whose source comments state that its tables were transcribed from College Board AP Physics 1 and AP Physics C Course and Exam Descriptions (effective fall 2024; sheets © 2025 College Board), retaining the sheets' order and notation.
-
-**The College Board equation-sheet generator and its generated equation-sheet page were not found in the current Russian repository tree reviewed for this notice.** The College Board material is therefore documented here as an upstream provenance issue, not as a claim that those tables are included in this repository.
-
-College Board's published permission instructions state that copyrighted College Board material generally may not be reproduced, modified, distributed or reused without express written permission, subject to specifically stated exceptions. The instructions direct users to request permission for AP materials. See:
-- https://privacy.collegeboard.org/copyright-trademark/request-instructions
-- https://form.collegeboard.org/f/copyright-trademark-permission-request
-
-AP® is a trademark of the College Board. The College Board does not endorse this project. Do not use College Board logos or imply official affiliation. If AP materials are ever added to this repository, obtain the necessary permission first or replace them with independently authored explanations, formula references and examples.
-
-## 7. Scope, verification and publication status
-
-This notice reflects the repository files and upstream documentation reviewed so far. It is not legal advice and is not a representation that every item in the wider website, every external resource or every future release has been independently rights-cleared.
-
-### Fonts — verified license family
-
-The chapter HTML references EB Garamond, Inter and JetBrains Mono through Google Fonts. The upstream font projects publish all three under the SIL Open Font License 1.1 (OFL 1.1):
-
-- EB Garamond: https://github.com/google/fonts/blob/main/ofl/ebgaramond/OFL.txt
-- Inter: https://github.com/google/fonts/blob/main/ofl/inter/OFL.txt
-- JetBrains Mono: https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt
-
-The font binaries are requested from Google Fonts and are not bundled as local font files in this repository. If font files are later downloaded, modified or redistributed locally, include the applicable complete OFL text and comply with its reserved-font-name and redistribution conditions.
-
-### Chemistry SVG illustrations — provenance not yet independently confirmed
-
-The current repository contains three local SVG illustrations:
-
-- `chemistry/assets/carbon-cycle.svg`
-- `chemistry/assets/electron-cloud.svg`
-- `chemistry/assets/reaction-schematic.svg`
-
-The three SVG illustrations were generated by ChatGPT as part of the Chemistry Atlas development workflow; the user did not provide these images or supply external source artwork for them. Git history records their addition to this repository on 2026-10-31 under the repository account Ajokendo: `carbon-cycle.svg` (commit `e772ee79d8`), `electron-cloud.svg` (`afca6cb0ed`) and `reaction-schematic.svg` (`794d5ca15a`). They should therefore be described as AI-generated project illustrations, not as third-party images supplied by the user or as independently verified human-authored artwork. No external source attribution is currently identified for these three files. Retain this provenance note and do not imply that AI generation alone establishes exclusive copyright ownership or resolves every jurisdiction-specific legal question.
-
-### College Board / AP material — excluded from the current Russian tree
-
-The upstream English project contains an equation-sheet generator whose source comments state that its tables were transcribed from College Board AP Physics 1 and AP Physics C Course and Exam Descriptions (effective fall 2024; sheets © 2025 College Board).
-
-The current Russian repository tree does **not** contain the upstream `equations/` directory or its generated equation-sheet page. This is documented as an upstream provenance issue, not as a claim that those tables are included in this repository.
-
-College Board's permission instructions state that AP test materials require a permission request and that other College Board copyrighted content generally requires express written permission unless a specific exception applies. The request process indicates a typical processing period of four to six weeks. See:
-- https://privacy.collegeboard.org/copyright-trademark/request-instructions
-- https://form.collegeboard.org/f/copyright-trademark-permission-request
-
-AP® is a trademark of the College Board. The College Board does not endorse this project. Do not use College Board logos or imply official affiliation. Keep the upstream equation-sheet presentation out of this project unless the necessary permission is obtained. If a formula reference is needed, create an independently authored reference with original explanations, organization, examples and visual presentation. Standard mathematical and physical equations can be taught as facts; avoid copying College Board's protected presentation or source text.
-
-Unverified assets must not be described as freely reusable. A Git commit author is not, by itself, proof of the underlying creative authorship or rights ownership. Record the source, creator, license and required attribution for every third-party image, diagram, dataset or document before including it in a public release.
+Until 2026-11-09 the site hosted a Russian adaptation of Nathan Liow's MIT-licensed Atlas of Physics; it was removed from `main` and the site that day and remains in git history under his MIT notice. The current Atlas of Knowledge physics uses none of its code, text or images.

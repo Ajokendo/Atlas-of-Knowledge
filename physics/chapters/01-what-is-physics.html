@@ -27,7 +27,7 @@ table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
 details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
 .q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
-.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.score{font:500 22px var(--serif);color:var(--ink)}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
 .nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
 footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 @media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
@@ -110,7 +110,7 @@ footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padd
 <tr><td><span data-l="ru">кило (к)</span><span data-l="en">kilo (k)</span></td><td>1000</td><td><span data-l="ru">1 км = 1000 м · длина Иссык-Куля около 178 км</span><span data-l="en">1 km = 1,000 m · Issyk-Kul is about 178 km long</span></td></tr>
 <tr><td><span data-l="ru">санти (с)</span><span data-l="en">centi (c)</span></td><td>0,01</td><td><span data-l="ru">1 см = 0,01 м</span><span data-l="en">1 cm = 0.01 m</span></td></tr>
 <tr><td><span data-l="ru">милли (м)</span><span data-l="en">milli (m)</span></td><td>0,001</td><td><span data-l="ru">1 мм = 0,001 м · 1 мл = 0,001 л</span><span data-l="en">1 mm = 0.001 m · 1 mL = 0.001 L</span></td></tr>
-<tr><td><span data-l="ru">микро (мк)</span><span data-l="en">micro (µ)</span></td><td>0,000 001</td><td><span data-l="ru">толщина волоса — около 70 мкм</span><span data-l="en">a hair is about 70 µm thick</span></td></tr>
+<tr><td><span data-l="ru">микро (мк)</span><span data-l="en">micro (µ)</span></td><td>0,000 001</td><td><span data-l="ru">толщина волоса — от 20 до 200 мкм</span><span data-l="en">a hair is 20 to 200 µm thick</span></td></tr>
 </tbody></table>
 <div class="definition"><strong><span data-l="ru">Как сейчас определяют метр.</span><span data-l="en">How the metre is defined today.</span></strong> <span data-l="ru">Метр — это расстояние, которое свет проходит в вакууме за 1/299 792 458 долю секунды. Такой эталон одинаков в любой лаборатории мира, и его нельзя потерять или испортить.</span><span data-l="en">A metre is the distance light travels in a vacuum in 1/299,792,458 of a second. This standard is the same in every laboratory in the world, and it cannot be lost or damaged.</span></div>
 </section>
@@ -193,11 +193,23 @@ footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padd
 <div data-l="en"><p>Neither. Both brothers measured correctly but with different units: the elder brother’s arm span is longer, so fewer of his kulach fit along the rope. The kulach, the karysh (hand span) and the step are handy — you always have them with you — but they differ from person to person.</p><p>For craftsmen in Osh and Talas to cut identical ropes, they need a <strong>common unit</strong> that is the same for everyone — the metre — and an instrument checked against the standard, such as a tape measure. That is exactly why the world agreed on the International System of Units.</p></div>
 </section>
 
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Иссык-Куль: глубина, высота, длина —</span><span data-l="en">Issyk-Kul: depth, elevation, length —</span> <a href="https://en.wikipedia.org/wiki/Issyk-Kul" target="_blank" rel="noopener">Wikipedia: Issyk-Kul</a></li>
+<li><span data-l="ru">Высота Пика Ленина —</span><span data-l="en">Height of Lenin Peak —</span> <a href="https://en.wikipedia.org/wiki/Lenin_Peak" target="_blank" rel="noopener">Wikipedia: Lenin Peak</a></li>
+<li><span data-l="ru">Температура кипения воды на высоте (таблица NASA/NOAA) —</span><span data-l="en">Boiling point of water at altitude (NASA/NOAA table) —</span> <a href="https://en.wikipedia.org/wiki/High-altitude_cooking" target="_blank" rel="noopener">Wikipedia: High-altitude cooking</a></li>
+<li><span data-l="ru">Определение метра —</span><span data-l="en">Definition of the metre —</span> <a href="https://www.bipm.org/en/si-base-units/metre" target="_blank" rel="noopener">BIPM: SI base unit metre</a></li>
+<li><span data-l="ru">Толщина волоса —</span><span data-l="en">Thickness of a human hair —</span> <a href="https://en.wikipedia.org/wiki/Micrometre" target="_blank" rel="noopener">Wikipedia: Micrometre</a></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original.</span></p>
+</section>
+
 <section class="section">
 <div class="nav"><a href="../index.html">← <span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 02 · Строение вещества — скоро</span><span data-l="en">Chapter 02 · Structure of matter — coming soon</span> →</span></div>
 </section>
 </main>
-<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 01</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 01</span></span><span>ATLAS OF KNOWLEDGE · RU / EN</span></footer>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 01</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 01</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
 <script>
 (function(){
 const $=id=>document.getElementById(id);

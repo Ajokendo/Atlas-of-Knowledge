@@ -28,6 +28,10 @@ node chemistry/checks.mjs
 node biology/checks.mjs
 ```
 
+## Авторство и лицензии
+
+© 2026 Азамат Орозобеков и участники проекта. Код — MIT (`LICENSE`), тексты и схемы — CC BY 4.0 (`CONTENT_LICENSE.md`). Материалы готовятся с помощью ИИ (ChatGPT, Claude) по замыслу и под редакцией автора. Правила работы с источниками и изображениями — `SOURCES_AND_IMAGES.md`; материалы третьих лиц — `THIRD_PARTY_NOTICES.md`.
+
 ## История
 
-Раньше на сайте была русская адаптация открытого учебника Atlas of Physics (Nathan Liow, лицензия MIT: https://github.com/nathanliow/atlas-of-physics). 9 ноября 2026 года её убрали с сайта и заменили своей физикой; код остаётся в истории git. Лицензия и уведомления — в `LICENSE` и `THIRD_PARTY_NOTICES.md`.
+Раньше на сайте была русская адаптация открытого учебника Atlas of Physics (Nathan Liow, лицензия MIT: https://github.com/nathanliow/atlas-of-physics). 9 ноября 2026 года её убрали с сайта и заменили своей физикой; код остаётся в истории git. Уведомление его лицензии MIT сохранено в `THIRD_PARTY_NOTICES.md`.
