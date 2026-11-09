@@ -4,9 +4,13 @@ import vm from "node:vm";
 
 const files = [
   "index.html",
-  ...readdirSync("chapters")
+  "portal.html",
+  "catalog.html",
+  "progress.html",
+  "physics/index.html",
+  ...readdirSync("physics/chapters")
     .filter((name) => name.endsWith(".html"))
-    .map((name) => "chapters/" + name),
+    .map((name) => "physics/chapters/" + name),
 ];
 
 let checked = 0;
@@ -33,6 +37,7 @@ for (const file of files) {
 
   for (const match of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/gi)) {
     const reference = match[1];
+    if (reference.includes("${")) continue;
     if (/^(?:https?:|mailto:|tel:|data:|javascript:|\/\/)/i.test(reference)) continue;
 
     const parts = reference.split("#", 2);
@@ -61,5 +66,5 @@ if (errors.length) {
   console.error(errors.join("\n"));
   process.exitCode = 1;
 } else {
-  console.log("Checked " + checked + " inline scripts and local links across " + files.length + " physics pages.");
+  console.log("Checked " + checked + " inline scripts and local links across " + files.length + " portal and physics pages.");
 }

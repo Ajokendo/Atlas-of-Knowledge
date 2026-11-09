@@ -3,10 +3,13 @@ import { dirname, extname, resolve, relative } from "node:path";
 
 const htmlFiles = [
   "index.html",
+  "portal.html",
   "catalog.html",
-  ...readdirSync("chapters")
+  "progress.html",
+  "physics/index.html",
+  ...readdirSync("physics/chapters")
     .filter((name) => name.endsWith(".html"))
-    .map((name) => "chapters/" + name),
+    .map((name) => "physics/chapters/" + name),
 ];
 
 const errors = [];
