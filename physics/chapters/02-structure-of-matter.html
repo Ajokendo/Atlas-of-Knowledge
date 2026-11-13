@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 2 Атласа физики: строение вещества, молекулы и атомы, диффузия, броуновское движение, три состояния вещества.">
+<title>Строение вещества — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+canvas.sim{display:block;width:100%;height:300px;background:#fff;border:1px solid var(--line)}
+.state{font:500 20px var(--serif);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+</style></head><body>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 02 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 02 · BASICS</span></p>
+<h1><span data-l="ru">Строение вещества</span><span data-l="en">The structure of matter</span></h1>
+<p class="lead"><span data-l="ru">Всё вокруг — вода Иссык-Куля, лёд ледников, воздух над джайлоо — состоит из крошечных частиц, которые никогда не стоят на месте. В этой главе — как люди узнали о молекулах, что такое диффузия и чем отличаются лёд, вода и пар.</span><span data-l="en">Everything around us — the water of Issyk-Kul, glacier ice, the air above a jailoo — is made of tiny particles that never stand still. This chapter covers how people learned about molecules, what diffusion is and how ice, water and steam differ.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#molecules">02 <span data-l="ru">Молекулы и атомы</span><span data-l="en">Molecules and atoms</span></a><a href="#theory">03 <span data-l="ru">Три положения</span><span data-l="en">Three ideas</span></a><a href="#diffusion">04 <span data-l="ru">Диффузия</span><span data-l="en">Diffusion</span></a><a href="#states">05 <span data-l="ru">Три состояния</span><span data-l="en">Three states</span></a><a href="#tasks">06 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">07 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>У двери юрты бабушка поджигает веточку арчи — по старому обычаю дом окуривают её дымом. Запах арчи — это молекулы пахучих веществ, которые разлетаются по воздуху.</p><p>Учёные измерили: при комнатной температуре молекулы воздуха мчатся в среднем со скоростью около 470 м/с — быстрее звука! Пять метров до төра они пролетели бы за сотую долю секунды. Почему же запах доходит до дальней стороны юрты лишь через минуты?</p></div>
+<div data-l="en"><p>By the door of a yurt, a grandmother lights a sprig of archa (juniper) — by old custom the home is cleansed with its smoke. The smell of archa is molecules of fragrant substances spreading through the air.</p><p>Scientists have measured that at room temperature air molecules rush along at about 470 m/s on average — faster than sound! They would cross the five metres to the far side of the yurt in a hundredth of a second. So why does the smell take minutes to get there?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подумайте. Подсказку даст модель диффузии, а разгадка — в конце главы.</span><span data-l="en">Think it over. The diffusion model gives a hint; the answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="molecules">
+<h2><span data-l="ru">Из чего состоит вещество</span><span data-l="en">What matter is made of</span></h2>
+<div data-l="ru"><p>Положите кусочек сахара в чай и не мешайте. Через некоторое время сахар исчезнет, а чай станет сладким везде. Сахар не пропал — он разделился на частицы, такие маленькие, что их не видно даже в обычный микроскоп.</p><p><strong>Молекула</strong> — мельчайшая частица вещества, которая ещё сохраняет его свойства. Молекула сахара — это всё ещё сахар. Молекулы состоят из ещё меньших частиц — <strong>атомов</strong>. Например, молекула воды H₂O — это один атом кислорода и два атома водорода.</p></div>
+<div data-l="en"><p>Drop a sugar lump into tea and do not stir. After a while the sugar disappears and the whole cup tastes sweet. The sugar has not vanished — it has split into particles so small that even an ordinary microscope cannot show them.</p><p>A <strong>molecule</strong> is the smallest particle of a substance that still keeps its properties. A sugar molecule is still sugar. Molecules are made of even smaller particles — <strong>atoms</strong>. A water molecule, H₂O, is one oxygen atom and two hydrogen atoms.</p></div>
+<div class="cards">
+<div class="card"><b>≈ 0,3 <span data-l="ru">нм</span><span data-l="en">nm</span></b><span data-l="ru">поперечник молекулы воды: 0,000 000 000 3 м</span><span data-l="en">across a water molecule: 0.000 000 000 3 m</span></div>
+<div class="card"><b>≈ 470 <span data-l="ru">м/с</span><span data-l="en">m/s</span></b><span data-l="ru">средняя скорость молекул азота в воздухе при 20 °C</span><span data-l="en">average speed of nitrogen molecules in air at 20 °C</span></div>
+<div class="card"><b>≈ 68 <span data-l="ru">нм</span><span data-l="en">nm</span></b><span data-l="ru">столько молекула воздуха пролетает от одного столкновения до другого</span><span data-l="en">how far an air molecule flies between collisions</span></div>
+</div>
+<div class="definition"><strong><span data-l="ru">Как увидели невидимое.</span><span data-l="en">Seeing the invisible.</span></strong> <span data-l="ru">В 1827 году ботаник Роберт Броун смотрел в микроскоп на мельчайшие крупинки из пыльцы в воде и увидел, что они беспрерывно дрожат и мечутся. В 1905 году Альберт Эйнштейн объяснил: крупинки толкают со всех сторон невидимые молекулы воды. Опыты Жана Перрена (1908) подтвердили расчёт, и сомнения в существовании молекул исчезли. Это <strong>броуновское движение</strong>.</span><span data-l="en">In 1827 the botanist Robert Brown looked through a microscope at tiny grains from pollen in water and saw them jitter and dart about without stopping. In 1905 Albert Einstein explained it: the grains are pushed from all sides by invisible water molecules. Jean Perrin’s experiments (1908) confirmed the calculation, and doubts about the existence of molecules disappeared. This is <strong>Brownian motion</strong>.</span></div>
+</section>
+
+<section class="section" id="theory">
+<h2><span data-l="ru">Три главных положения</span><span data-l="en">Three key ideas</span></h2>
+<p><span data-l="ru">Теория о строении вещества из движущихся частиц называется <strong>молекулярно-кинетической</strong>. Она держится на трёх положениях — и у каждого есть опыт-доказательство.</span><span data-l="en">The theory that matter is made of moving particles is called the <strong>kinetic molecular theory</strong>. It rests on three ideas — and each has an experiment to back it up.</span></p>
+<div class="kinds">
+<div class="kind"><small><span data-l="ru">1 · Вещество состоит из частиц</span><span data-l="en">1 · Matter is made of particles</span></small><p><span data-l="ru">Между частицами есть промежутки. Смешайте 50 мл воды и 50 мл спирта — получится около 97 мл, а не 100: часть молекул «втиснулась» между другими. Летом провода ЛЭП провисают сильнее, чем зимой: при нагревании промежутки растут.</span><span data-l="en">There are gaps between the particles. Mix 50 mL of water with 50 mL of alcohol and you get about 97 mL, not 100: some molecules have slipped in between others. Power lines sag more in summer than in winter: heating widens the gaps.</span></p></div>
+<div class="kind"><small><span data-l="ru">2 · Частицы движутся всегда</span><span data-l="en">2 · Particles are always moving</span></small><p><span data-l="ru">Движение беспорядочное (хаотичное) и не прекращается. Доказательства — диффузия и броуновское движение. Чем выше температура, тем быстрее движутся частицы; поэтому такое движение называют <strong>тепловым</strong>.</span><span data-l="en">The motion is random (chaotic) and never stops. The evidence: diffusion and Brownian motion. The higher the temperature, the faster the particles move; that is why this motion is called <strong>thermal motion</strong>.</span></p></div>
+<div class="kind"><small><span data-l="ru">3 · Частицы взаимодействуют</span><span data-l="en">3 · Particles interact</span></small><p><span data-l="ru">На малых расстояниях они притягиваются, а при сильном сближении отталкиваются. Притяжение держит форму камня и каплю воды на листе. Отталкивание мешает сжать воду: попробуйте вдавить поршень шприца с водой, закрыв кончик пальцем.</span><span data-l="en">At short distances they attract each other, and when pushed very close they repel. Attraction holds a stone together and keeps a water drop round on a leaf. Repulsion makes water almost impossible to squeeze: try pushing the plunger of a water-filled syringe with its tip blocked.</span></p></div>
+</div>
+</section>
+
+<section class="section" id="diffusion">
+<h2><span data-l="ru">Диффузия</span><span data-l="en">Diffusion</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p><strong>Диффузия</strong> — взаимное проникновение частиц одного вещества между частицами другого из-за их теплового движения. Никто не перемешивает — вещества смешиваются сами.</p><ul class="src"><li><strong>В газах</strong> — быстрее всего: запах шашлыка, арчи, свежего хлеба.</li><li><strong>В жидкостях</strong> — медленнее: чай заваривается, капля марганцовки окрашивает воду, огурцы просаливаются в рассоле.</li><li><strong>В твёрдых телах</strong> — очень медленно, годами: если плотно прижать друг к другу пластинки свинца и золота, их атомы постепенно проникают друг в друга.</li></ul><p>Чем <strong>выше температура</strong>, тем быстрее диффузия: в горячей воде чай заваривается за минуты, в холодной — часами.</p></div>
+<div data-l="en"><p><strong>Diffusion</strong> is the mixing of the particles of one substance in between the particles of another, caused by their thermal motion. Nobody stirs — the substances mix on their own.</p><ul class="src"><li><strong>In gases</strong> it is fastest: the smell of shashlik, archa, fresh bread.</li><li><strong>In liquids</strong> it is slower: tea brews, a drop of potassium permanganate colours water, cucumbers soak up brine.</li><li><strong>In solids</strong> it is very slow, taking years: when plates of lead and gold are pressed tightly together, their atoms gradually work their way into each other.</li></ul><p>The <strong>higher the temperature</strong>, the faster diffusion goes: tea brews in minutes in hot water and in hours in cold water.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · ДИФФУЗИЯ</span><span data-l="en">MODEL 1 · DIFFUSION</span></p>
+<canvas class="sim" id="difCanvas" aria-label=""></canvas>
+<div class="controls"><button class="act" type="button" id="difWall"></button><button class="act ghost" type="button" id="difReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button><label class="chk"><input type="checkbox" id="difTrail"> <span data-l="ru">путь одной молекулы</span><span data-l="en">path of one molecule</span></label></div>
+<div class="controls"><label for="difT"><span data-l="ru">Температура</span><span data-l="en">Temperature</span>: <strong id="difTOut"></strong></label><input id="difT" type="range" min="-40" max="150" value="20"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Время модели</span><span data-l="en">Model time</span></small><strong id="difTime">0 с</strong></div><div class="stat"><small><span data-l="ru">Перемешано</span><span data-l="en">Mixed</span></small><strong id="difMix">0 %</strong></div><div class="stat"><small><span data-l="ru">Быстрота диффузии</span><span data-l="en">Diffusion rate</span></small><strong id="difV">×1,00</strong></div></div>
+</div>
+</div>
+<p class="callout"><span data-l="ru">Уберите перегородку при 20 °C и засеките, когда «перемешано» дойдёт до 80 %. Потом повторите при −40 °C и при 150 °C. Результаты немного разбросаны, как в настоящем опыте, — повторите по 2–3 раза. Включите «путь одной молекулы» — посмотрите, как она петляет.</span><span data-l="en">Remove the barrier at 20 °C and note when “mixed” reaches 80 %. Then repeat at −40 °C and at 150 °C. The results scatter a little, as in a real experiment — repeat each 2–3 times. Turn on “path of one molecule” and watch how it zigzags.</span></p>
+</section>
+
+<section class="section" id="states">
+<h2><span data-l="ru">Три состояния вещества</span><span data-l="en">The three states of matter</span></h2>
+<p><span data-l="ru">Одно и то же вещество бывает твёрдым, жидким и газообразным. Лёд ледника Абрамова, вода в Нарыне и пар над казаном — это одни и те же молекулы H₂O. Различается только то, <strong>как они расположены и как движутся</strong>.</span><span data-l="en">The same substance can be solid, liquid or gas. The ice of the Abramov Glacier, the water of the Naryn River and the steam above a kazan are all the same H₂O molecules. Only <strong>how they are arranged and how they move</strong> is different.</span></p>
+<div class="two">
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · ЛЁД — ВОДА — ПАР</span><span data-l="en">MODEL 2 · ICE — WATER — STEAM</span></p>
+<canvas class="sim" id="stCanvas" aria-label=""></canvas>
+<div class="controls"><label for="stT"><span data-l="ru">Температура</span><span data-l="en">Temperature</span>: <strong id="stTOut"></strong></label><input id="stT" type="range" min="-30" max="130" value="-10"></div>
+<p class="state" id="stName" aria-live="polite"></p>
+<p class="fb" id="stNote"></p>
+</div>
+<div>
+<table><thead><tr><th></th><th><span data-l="ru">ТВЁРДОЕ</span><span data-l="en">SOLID</span></th><th><span data-l="ru">ЖИДКОЕ</span><span data-l="en">LIQUID</span></th><th><span data-l="ru">ГАЗ</span><span data-l="en">GAS</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Форма</span><span data-l="en">Shape</span></td><td><span data-l="ru">своя</span><span data-l="en">its own</span></td><td><span data-l="ru">форма сосуда</span><span data-l="en">takes the container’s</span></td><td><span data-l="ru">нет своей</span><span data-l="en">none</span></td></tr>
+<tr><td><span data-l="ru">Объём</span><span data-l="en">Volume</span></td><td><span data-l="ru">свой</span><span data-l="en">its own</span></td><td><span data-l="ru">свой</span><span data-l="en">its own</span></td><td><span data-l="ru">занимает весь сосуд</span><span data-l="en">fills the whole container</span></td></tr>
+<tr><td><span data-l="ru">Частицы</span><span data-l="en">Particles</span></td><td><span data-l="ru">в строгом порядке, колеблются на месте</span><span data-l="en">in a fixed pattern, vibrating in place</span></td><td><span data-l="ru">вплотную, но перескакивают с места на место</span><span data-l="en">close together but hopping from place to place</span></td><td><span data-l="ru">далеко друг от друга, летят свободно</span><span data-l="en">far apart, flying freely</span></td></tr>
+<tr><td><span data-l="ru">Сжимается?</span><span data-l="en">Compressible?</span></td><td><span data-l="ru">почти нет</span><span data-l="en">hardly</span></td><td><span data-l="ru">почти нет</span><span data-l="en">hardly</span></td><td><span data-l="ru">легко</span><span data-l="en">easily</span></td></tr>
+<tr><td><span data-l="ru">Пример</span><span data-l="en">Example</span></td><td><span data-l="ru">лёд, камень, юрточная решётка-кереге</span><span data-l="en">ice, stone, the kerege lattice of a yurt</span></td><td><span data-l="ru">вода, кумыс, растительное масло</span><span data-l="en">water, kymyz, vegetable oil</span></td><td><span data-l="ru">воздух, водяной пар</span><span data-l="en">air, water vapour</span></td></tr>
+</tbody></table>
+<div class="definition"><strong><span data-l="ru">Белый «пар» над казаном — не пар!</span><span data-l="en">The white “steam” above a kazan is not steam!</span></strong> <span data-l="ru">Водяной пар — газ, он прозрачный и невидимый. Белое облачко — это крошечные капельки воды: пар остыл в холодном воздухе и снова стал жидкостью. Присмотритесь: у самого носика кипящего чайника есть прозрачный промежуток — там настоящий пар.</span><span data-l="en">Water vapour is a gas — clear and invisible. The white cloud is tiny droplets of water: the vapour cooled in the air and turned back into liquid. Look closely: right at the spout of a boiling kettle there is a clear gap — that is real steam.</span></div>
+</div>
+</div>
+<p class="callout"><span data-l="ru">Модель показывает воду при обычном атмосферном давлении. В горах вода закипает раньше 100 °C — почему, узнаем в главе о давлении.</span><span data-l="en">The model shows water at normal atmospheric pressure. In the mountains water boils below 100 °C — why, we will find out in the chapter on pressure.</span></p>
+</section>
+
+<section class="section" id="formula">
+<h2><span data-l="ru">Как измерить молекулу линейкой</span><span data-l="en">Measuring a molecule with a ruler</span></h2>
+<div data-l="ru"><p>Капля масла, упавшая на воду, растекается в очень тонкую плёнку. Растекание прекращается, когда плёнка становится толщиной примерно в одну молекулу. Зная объём капли <em>V</em> и площадь пятна <em>S</em>, можно оценить размер молекулы — как в методе рядов из главы 1, только «ряд» здесь плоский.</p></div>
+<div data-l="en"><p>A drop of oil on water spreads into a very thin film. It stops spreading when the film is roughly one molecule thick. Knowing the drop’s volume <em>V</em> and the area of the patch <em>S</em>, we can estimate the size of a molecule — like the method of rows from chapter 1, except the “row” is flat.</p></div>
+<div class="formula">d ≈ V / S<small><span data-l="ru">d — толщина плёнки ≈ размер молекулы масла; V в м³, S в м², d в м</span><span data-l="en">d is the film thickness ≈ size of an oil molecule; V in m³, S in m², d in m</span></small></div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Куда «делись» 3 мл?</span><span data-l="en">Problem 1. Where did 3 mL go?</span></summary>
+<div data-l="ru"><p>В мензурку налили 50 мл воды и долили 50 мл спирта. После перемешивания уровень показал 97 мл. На сколько процентов объём смеси меньше суммы объёмов? Что это доказывает?</p><p class="given">Дано: V₁ = 50 мл, V₂ = 50 мл, V = 97 мл</p><div class="sol"><p>1) Сумма объёмов: V₁ + V₂ = 100 мл.<br>2) Разница: ΔV = 100 мл − 97 мл = 3 мл.<br>3) В процентах: 3 мл / 100 мл · 100 % = 3 %.</p><p><strong>Ответ:</strong> на 3 %. Молекулы ничего не потеряли — они лишь плотнее разместились, заняв промежутки друг между другом. Значит, промежутки между молекулами есть.</p></div></div>
+<div data-l="en"><p>50 mL of water is poured into a cylinder and 50 mL of alcohol is added. After mixing, the level shows 97 mL. By what percentage is the mixture’s volume smaller than the sum of the volumes? What does this prove?</p><p class="given">Given: V₁ = 50 mL, V₂ = 50 mL, V = 97 mL</p><div class="sol"><p>1) Sum of volumes: V₁ + V₂ = 100 mL.<br>2) Difference: ΔV = 100 mL − 97 mL = 3 mL.<br>3) As a percentage: 3 mL / 100 mL · 100 % = 3 %.</p><p><strong>Answer:</strong> 3 %. No molecules were lost — they just packed more tightly, filling gaps between each other. So there are gaps between molecules.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. Масляное пятно на воде</span><span data-l="en">Problem 2. An oil patch on water</span></summary>
+<div data-l="ru"><p>Капля масла объёмом 0,5 мм³ растеклась по воде в пятно площадью 0,25 м². Оцените размер молекулы масла.</p><p class="given">Дано: V = 0,5 мм³, S = 0,25 м²</p><div class="sol"><p>1) Переводим в СИ: 1 мм³ = 0,001 м · 0,001 м · 0,001 м = 10⁻⁹ м³, значит V = 0,5 · 10⁻⁹ м³.<br>2) d ≈ V / S = 0,5 · 10⁻⁹ м³ / 0,25 м² = 2 · 10⁻⁹ м = 2 нм.</p><p><strong>Ответ:</strong> около 2 нм. Молекула масла намного крупнее молекулы воды (0,3 нм) — она длинная и состоит из десятков атомов.</p></div></div>
+<div data-l="en"><p>A drop of oil with a volume of 0.5 mm³ spreads on water into a patch with an area of 0.25 m². Estimate the size of an oil molecule.</p><p class="given">Given: V = 0.5 mm³, S = 0.25 m²</p><div class="sol"><p>1) Convert to SI: 1 mm³ = 0.001 m · 0.001 m · 0.001 m = 10⁻⁹ m³, so V = 0.5 · 10⁻⁹ m³.<br>2) d ≈ V / S = 0.5 · 10⁻⁹ m³ / 0.25 m² = 2 · 10⁻⁹ m = 2 nm.</p><p><strong>Answer:</strong> about 2 nm. An oil molecule is much larger than a water molecule (0.3 nm) — it is long and made of dozens of atoms.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Если бы молекула была горошиной</span><span data-l="en">Problem 3. If a molecule were a pea</span></summary>
+<div data-l="ru"><p>Молекулу воды (0,3 нм) мысленно увеличили до размера горошины (6 мм). Во сколько раз её увеличили? Каким стала бы при таком увеличении сама горошина?</p><p class="given">Дано: d₁ = 0,3 нм = 3 · 10⁻¹⁰ м, d₂ = 6 мм = 6 · 10⁻³ м</p><div class="sol"><p>1) Увеличение: k = d₂ / d₁ = 6 · 10⁻³ / 3 · 10⁻¹⁰ = 2 · 10⁷ — в 20 миллионов раз.<br>2) Горошина: 6 мм · 2 · 10⁷ = 1,2 · 10⁸ мм = 120 км.</p><p><strong>Ответ:</strong> в 20 млн раз; горошина вытянулась бы на 120 км — это две трети длины Иссык-Куля (около 178 км).</p></div></div>
+<div data-l="en"><p>Imagine a water molecule (0.3 nm) enlarged to the size of a pea (6 mm). By what factor was it enlarged? How big would the pea itself become at that magnification?</p><p class="given">Given: d₁ = 0.3 nm = 3 · 10⁻¹⁰ m, d₂ = 6 mm = 6 · 10⁻³ m</p><div class="sol"><p>1) Magnification: k = d₂ / d₁ = 6 · 10⁻³ / 3 · 10⁻¹⁰ = 2 · 10⁷ — 20 million times.<br>2) The pea: 6 mm · 2 · 10⁷ = 1.2 · 10⁸ mm = 120 km.</p><p><strong>Answer:</strong> 20 million times; the pea would stretch to 120 km — two thirds of the length of Issyk-Kul (about 178 km).</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Сколько раз столкнётся молекула?</span><span data-l="en">Problem 4. How often does a molecule collide?</span></summary>
+<div data-l="ru"><p>Молекула воздуха летит со скоростью около 470 м/с и между столкновениями пролетает в среднем 68 нм. Сколько раз в секунду она сталкивается с другими молекулами? За сколько она пролетела бы 5 м по прямой?</p><p class="given">Дано: v = 470 м/с, λ = 68 нм = 6,8 · 10⁻⁸ м, s = 5 м</p><div class="sol"><p>1) За 1 с молекула пролетает 470 м пути. Число столкновений: N = 470 м / 6,8 · 10⁻⁸ м ≈ 7 · 10⁹ — около 7 миллиардов в секунду.<br>2) По прямой: t = s / v = 5 м / 470 м/с ≈ 0,01 с.</p><p><strong>Ответ:</strong> около 7 млрд столкновений в секунду; по прямой — 0,01 с. Но прямой дороги у молекулы нет: каждое столкновение меняет её направление.</p></div></div>
+<div data-l="en"><p>An air molecule flies at about 470 m/s and travels 68 nm on average between collisions. How many times a second does it collide with other molecules? How long would it take to fly 5 m in a straight line?</p><p class="given">Given: v = 470 m/s, λ = 68 nm = 6.8 · 10⁻⁸ m, s = 5 m</p><div class="sol"><p>1) In 1 s the molecule travels a path of 470 m. Number of collisions: N = 470 m / 6.8 · 10⁻⁸ m ≈ 7 · 10⁹ — about 7 billion per second.<br>2) In a straight line: t = s / v = 5 m / 470 m/s ≈ 0.01 s.</p><p><strong>Answer:</strong> about 7 billion collisions per second; 0.01 s in a straight line. But a molecule has no straight road: every collision changes its direction.</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: почему запах арчи идёт минуты?</span><span data-l="en">The answer: why does the smell of archa take minutes?</span></h2>
+<div data-l="ru"><p>Молекула действительно мчится быстрее звука, но пролетает всего около 68 нанометров — и врезается в другую молекулу. Миллиарды раз в секунду она меняет направление. Её путь — не прямая, а запутанный зигзаг, как у молекулы в модели диффузии. Поэтому чистая диффузия в воздухе медленная: на метры уходят многие минуты и даже часы.</p><p>В настоящей юрте запаху помогают ещё и потоки воздуха: тёплый дым поднимается к тюндюку, по полу тянет из двери. Они переносят молекулы гораздо быстрее, чем одна диффузия. А в жаркий день запахи разносятся быстрее и сильнее: чем выше температура, тем быстрее тепловое движение.</p></div>
+<div data-l="en"><p>A molecule really does rush along faster than sound, but it travels only about 68 nanometres before crashing into another molecule. Billions of times a second it changes direction. Its path is not a straight line but a tangled zigzag, like the molecule in the diffusion model. That is why pure diffusion in air is slow: crossing metres takes many minutes, even hours.</p><p>In a real yurt the smell is also helped along by air currents: warm smoke rises to the tunduk, and a draught runs along the floor from the door. They carry molecules much faster than diffusion alone. And on a hot day smells spread faster and stronger: the higher the temperature, the faster the thermal motion.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Скорость молекул азота при 20 °C (среднеквадратичная 511 м/с; средняя около 470 м/с) —</span><span data-l="en">Speed of nitrogen molecules at 20 °C (rms 511 m/s; mean about 470 m/s) —</span> <a href="https://openstax.org/books/college-physics-2e/pages/13-4-kinetic-theory-atomic-and-molecular-explanation-of-pressure-and-temperature" target="_blank" rel="noopener">OpenStax College Physics 2e, 13.4</a></li>
+<li><span data-l="ru">Длина свободного пробега молекулы азота в воздухе (около 68 нм) —</span><span data-l="en">Mean free path of a nitrogen molecule in air (about 68 nm) —</span> <a href="https://coach.jove.com/microcourse/physics/kinetic-theory-of-gases/mean-free-path-and-mean-explained" target="_blank" rel="noopener">JoVE: Mean Free Path</a></li>
+<li><span data-l="ru">Размер молекулы воды (около 0,28 нм) —</span><span data-l="en">Size of a water molecule (about 0.28 nm) —</span> <a href="https://scaleofuniverse.com/universe/water-molecule" target="_blank" rel="noopener">Scale of the Universe: Water molecule</a></li>
+<li><span data-l="ru">Смешивание 50 мл воды и 50 мл спирта (около 97 мл) —</span><span data-l="en">Mixing 50 mL of water and 50 mL of ethanol (about 97 mL) —</span> <a href="https://sites.lib.jmu.edu/chemdemos/?p=3133" target="_blank" rel="noopener">James Madison University, Chemistry Demonstrations</a></li>
+<li><span data-l="ru">Броун (1827), Эйнштейн (1905), Перрен (1908) —</span><span data-l="en">Brown (1827), Einstein (1905), Perrin (1908) —</span> <a href="https://en.wikipedia.org/wiki/Brownian_motion" target="_blank" rel="noopener">Wikipedia: Brownian motion</a></li>
+<li><span data-l="ru">Длина Иссык-Куля —</span><span data-l="en">Length of Issyk-Kul —</span> <a href="https://en.wikipedia.org/wiki/Issyk-Kul" target="_blank" rel="noopener">Wikipedia: Issyk-Kul</a></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (canvas/SVG). Тексты, загадка и задачи — оригинальные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (canvas/SVG). The texts, puzzle and problems are original.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="01-what-is-physics.html">← <span data-l="ru">Глава 01 · Измерения</span><span data-l="en">Chapter 01 · Measurement</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 03 · Движение и силы — скоро</span><span data-l="en">Chapter 03 · Motion and forces — coming soon</span> →</span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 02</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 02</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const T={
+ru:{wallOn:"Убрать перегородку",wallOff:"Перегородка убрана",s:" с",dif:"Модель диффузии: красные частицы запаха и синие частицы воздуха в коробке",st:"Модель частиц воды при выбранной температуре",
+solid:"Лёд — твёрдое состояние",liquid:"Вода — жидкое состояние",gas:"Пар — газообразное состояние",melt:"0 °C — лёд тает (плавление)",boil:"100 °C — вода кипит",
+nSolid:"Молекулы стоят в узлах решётки и только дрожат на месте. Чем теплее, тем сильнее дрожат.",nLiquid:"Молекулы держатся вплотную, но перескакивают с места на место — поэтому вода течёт и принимает форму сосуда.",nGas:"Молекулы разлетелись и свободно летают по всему сосуду, ударяясь о стенки.",nMelt:"Пока весь лёд не растает, температура смеси льда и воды остаётся 0 °C.",nBoil:"При обычном давлении вода кипит при 100 °C; пока она выкипает, температура не растёт.",
+score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{wallOn:"Remove the barrier",wallOff:"Barrier removed",s:" s",dif:"Diffusion model: red smell particles and blue air particles in a box",st:"Model of water particles at the chosen temperature",
+solid:"Ice — solid",liquid:"Water — liquid",gas:"Steam — gas",melt:"0 °C — ice melts",boil:"100 °C — water boils",
+nSolid:"Molecules sit at the points of a lattice and only vibrate in place. The warmer it is, the harder they vibrate.",nLiquid:"Molecules stay close together but hop from place to place — so water flows and takes the shape of its container.",nGas:"Molecules have flown apart and move freely through the whole container, bouncing off the walls.",nMelt:"Until all the ice has melted, the ice-and-water mixture stays at 0 °C.",nBoil:"At normal pressure water boils at 100 °C; while it boils away, its temperature does not rise.",
+score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function setupCanvas(c){const r=c.getBoundingClientRect(),d=window.devicePixelRatio||1;c.width=Math.round(r.width*d);c.height=Math.round(r.height*d);const ctx=c.getContext("2d");ctx.setTransform(d,0,0,d,0,0);return{ctx:ctx,w:r.width,h:r.height}}
+function speedFactor(tC){return Math.sqrt((tC+273)/293)}
+function difFactor(tC){return Math.pow((tC+273)/293,1.75)}
+
+/* ---------- Model 1: diffusion ---------- */
+const D={c:$("difCanvas"),p:[],wall:true,t:0,trail:[],g:null};
+function difInit(){D.g=setupCanvas(D.c);const w=D.g.w,h=D.g.h;D.p=[];for(let i=0;i<240;i++){const red=i<120;D.p.push({x:red?6+Math.random()*(w/2-12):w/2+6+Math.random()*(w/2-12),y:6+Math.random()*(h-12),red:red,a:Math.random()*6.283})}D.wall=true;D.t=0;D.trail=[];difLabel()}
+function difLabel(){$("difWall").textContent=D.wall?T[lang].wallOn:T[lang].wallOff;$("difWall").disabled=!D.wall}
+function difStep(dt){const w=D.g.w,h=D.g.h,step=2.6*(w/500)*Math.sqrt(difFactor(+$("difT").value));
+ for(const q of D.p){q.a+=(Math.random()-0.5)*2.4;let nx=q.x+Math.cos(q.a)*step,ny=q.y+Math.sin(q.a)*step;
+  if(nx<4||nx>w-4){q.a=Math.PI-q.a;nx=Math.min(w-4,Math.max(4,nx))}if(ny<4||ny>h-4){q.a=-q.a;ny=Math.min(h-4,Math.max(4,ny))}
+  if(D.wall){if(q.red&&nx>w/2-3){nx=w/2-3;q.a=Math.PI-q.a}if(!q.red&&nx<w/2+3){nx=w/2+3;q.a=Math.PI-q.a}}
+  q.x=nx;q.y=ny}
+ if(!D.wall)D.t+=dt;
+ if($("difTrail").checked){D.trail.push([D.p[0].x,D.p[0].y]);if(D.trail.length>600)D.trail.shift()}else D.trail=[]}
+function difDraw(){const g=D.g,ctx=g.ctx;ctx.clearRect(0,0,g.w,g.h);
+ if(D.wall){ctx.fillStyle="#18181a";ctx.fillRect(g.w/2-1.5,0,3,g.h)}else{ctx.strokeStyle="#deded9";ctx.setLineDash([4,4]);ctx.beginPath();ctx.moveTo(g.w/2,0);ctx.lineTo(g.w/2,g.h);ctx.stroke();ctx.setLineDash([])}
+ for(const q of D.p){ctx.fillStyle=q.red?"#c85a46":"#6f9fc4";ctx.beginPath();ctx.arc(q.x,q.y,3.2,0,6.283);ctx.fill()}
+ if(D.trail.length>1){ctx.strokeStyle="#18181a";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(D.trail[0][0],D.trail[0][1]);for(const t of D.trail)ctx.lineTo(t[0],t[1]);ctx.stroke();const q=D.p[0];ctx.fillStyle="#18181a";ctx.beginPath();ctx.arc(q.x,q.y,5,0,6.283);ctx.fill()}
+ let right=0;for(const q of D.p)if(q.red&&q.x>g.w/2)right++;const mix=Math.min(100,right/120*2*100);
+ $("difMix").textContent=Math.round(mix)+" %";$("difTime").textContent=Math.round(D.t)+T[lang].s;$("difV").textContent="×"+fmt(difFactor(+$("difT").value),2);$("difTOut").textContent=$("difT").value+" °C"}
+$("difWall").addEventListener("click",()=>{D.wall=false;difLabel()});
+$("difReset").addEventListener("click",()=>{difInit();difDraw()});
+$("difT").addEventListener("input",difDraw);
+
+/* ---------- Model 2: states of water ---------- */
+const S={c:$("stCanvas"),p:[],mode:"",g:null};
+function stInit(){S.g=setupCanvas(S.c);const w=S.g.w,h=S.g.h,cols=9,rows=6,gap=22,x0=w/2-(cols-1)*gap/2,y0=h-24-(rows-1)*gap;S.p=[];
+ for(let r=0;r<rows;r++)for(let c=0;c<cols;c++){const hx=x0+c*gap,hy=y0+r*gap;S.p.push({hx:hx,hy:hy,x:hx,y:hy,vx:0,vy:0})}S.mode=""}
+function stMode(t){return t<0?"solid":t===0?"melt":t<100?"liquid":t===100?"boil":"gas"}
+function stStep(){const t=+$("stT").value,m=stMode(t),g=S.g,w=g.w,h=g.h,k=speedFactor(t),R=8;
+ if(m!==S.mode){if(m==="gas"||m==="boil")for(const q of S.p){const a=Math.random()*6.283;q.vx=Math.cos(a);q.vy=Math.sin(a)}if((m==="solid"||m==="melt")&&S.mode&&S.mode!=="solid"&&S.mode!=="melt")for(const q of S.p){q.x=q.hx;q.y=q.hy}S.mode=m}
+ if(m==="solid"){const amp=0.6+(t+30)*0.06;for(const q of S.p){q.x=q.hx+(Math.random()-0.5)*2*amp;q.y=q.hy+(Math.random()-0.5)*2*amp}return}
+ if(m==="melt"){S.p.forEach((q,i)=>{if(i%2){q.x=q.hx+(Math.random()-0.5)*4;q.y=q.hy+(Math.random()-0.5)*4}else liquidMove(q,k,w,h,R)});separate(R,w,h,true);return}
+ if(m==="liquid"){for(const q of S.p)liquidMove(q,k,w,h,R);separate(R,w,h,true);return}
+ const sp=2.2*k;S.p.forEach((q,i)=>{if(m==="boil"&&i%3===0){liquidMove(q,k,w,h,R);return}const n=Math.hypot(q.vx,q.vy)||1;q.vx=q.vx/n*sp;q.vy=q.vy/n*sp;q.x+=q.vx;q.y+=q.vy;if(q.x<R){q.x=R;q.vx=Math.abs(q.vx)}if(q.x>w-R){q.x=w-R;q.vx=-Math.abs(q.vx)}if(q.y<R){q.y=R;q.vy=Math.abs(q.vy)}if(q.y>h-R){q.y=h-R;q.vy=-Math.abs(q.vy)}});separate(R,w,h,false)}
+function liquidMove(q,k,w,h,R){const a=Math.random()*6.283,j=1.1*k;q.x+=Math.cos(a)*j;q.y+=Math.sin(a)*j+0.35;if(q.x<R)q.x=R;if(q.x>w-R)q.x=w-R;if(q.y>h-R)q.y=h-R;if(q.y<R)q.y=R}
+function separate(R,w,h,liquid){const n=S.p.length,min=2*R+1;for(let i=0;i<n;i++)for(let j=i+1;j<n;j++){const a=S.p[i],b=S.p[j];let dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy);if(d<min&&d>0.01){const o=(min-d)/2;dx/=d;dy/=d;a.x-=dx*o;a.y-=dy*o;b.x+=dx*o;b.y+=dy*o;if(!liquid){const va=a.vx*dx+a.vy*dy,vb=b.vx*dx+b.vy*dy;a.vx+=(vb-va)*dx;a.vy+=(vb-va)*dy;b.vx+=(va-vb)*dx;b.vy+=(va-vb)*dy}}}
+ for(const q of S.p){if(q.x<R)q.x=R;if(q.x>w-R)q.x=w-R;if(q.y<R)q.y=R;if(q.y>h-R)q.y=h-R}}
+function stDraw(){const g=S.g,ctx=g.ctx,t=+$("stT").value,m=stMode(t);ctx.clearRect(0,0,g.w,g.h);
+ const col=m==="solid"?"#7fa9c9":m==="gas"?"#c4b9a6":"#4f8fbf";
+ for(const q of S.p){ctx.fillStyle=col;ctx.strokeStyle="#2d4f6b";ctx.lineWidth=1;ctx.beginPath();ctx.arc(q.x,q.y,8,0,6.283);ctx.fill();ctx.stroke()}
+ $("stTOut").textContent=t+" °C";$("stName").textContent=T[lang][m];$("stNote").textContent=T[lang]["n"+m.charAt(0).toUpperCase()+m.slice(1)]}
+
+/* ---------- animation loop ---------- */
+let last=0,visible={dif:true,st:true};
+if("IntersectionObserver" in window){const io=new IntersectionObserver(es=>{for(const e of es)visible[e.target.id==="difCanvas"?"dif":"st"]=e.isIntersecting});io.observe(D.c);io.observe(S.c)}
+function loop(ts){const dt=Math.min(0.05,(ts-last)/1000||0);last=ts;if(visible.dif){difStep(dt);difDraw()}if(visible.st){stStep();stDraw()}requestAnimationFrame(loop)}
+$("stT").addEventListener("input",()=>{stStep();stDraw()});
+let lastW=D.c.getBoundingClientRect().width;window.addEventListener("resize",()=>{const nw=D.c.getBoundingClientRect().width;if(Math.abs(nw-lastW)<1)return;const ow=D.g.w;lastW=nw;D.g=setupCanvas(D.c);for(const q of D.p)q.x=q.x*D.g.w/ow;D.trail=[];stInit();stStep();difDraw();stDraw()});
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Что доказывает броуновское движение?",o:[["Что пыльца живая и плавает сама","Броун проверил и неживые частицы — они тоже дрожат. Значит, дело не в жизни."],["Что молекулы жидкости беспорядочно движутся и толкают крупинки","Верно. Крупинку со всех сторон бьют невидимые молекулы, и удары не уравновешены."],["Что вода нагревается от света микроскопа","Нагрев тут ни при чём: дрожание есть и при постоянной температуре."]]},
+ en:{q:"What does Brownian motion prove?",o:[["That pollen is alive and swims on its own","Brown also tested non-living particles — they jitter too. So it is not about life."],["That liquid molecules move randomly and push the grains","Correct. Invisible molecules strike the grain from all sides, and the blows do not balance out."],["That the microscope light heats the water","Heating has nothing to do with it: the jitter happens at constant temperature too."]]},a:1},
+{ru:{q:"Где диффузия идёт быстрее всего при одинаковой температуре?",o:[["В твёрдых телах","В твёрдых телах частицы почти не покидают свои места — диффузия идёт годами."],["В жидкостях","В жидкостях медленнее, чем в газах: частицы стоят вплотную и мешают друг другу."],["В газах","Верно. В газах частицы далеко друг от друга и летят свободно, поэтому смешиваются быстрее всего."]]},
+ en:{q:"Where is diffusion fastest at the same temperature?",o:[["In solids","In solids particles hardly leave their places — diffusion takes years."],["In liquids","Slower than in gases: the particles are packed close and get in each other’s way."],["In gases","Correct. In gases particles are far apart and fly freely, so they mix fastest."]]},a:2},
+{ru:{q:"Почему чай в горячей воде заваривается быстрее, чем в холодной?",o:[["Горячая вода гуще","Горячая вода, наоборот, чуть менее плотная — и дело не в этом."],["При высокой температуре молекулы движутся быстрее, и диффузия ускоряется","Верно. Тепловое движение быстрее — вещества из заварки быстрее расходятся по воде."],["В холодной воде нет молекул","Молекулы есть всегда; в холодной воде они просто движутся медленнее."]]},
+ en:{q:"Why does tea brew faster in hot water than in cold?",o:[["Hot water is thicker","Hot water is actually slightly less dense — and that is not the reason."],["At higher temperature molecules move faster, so diffusion speeds up","Correct. Faster thermal motion spreads the substances from the leaves through the water more quickly."],["Cold water has no molecules","Molecules are always there; in cold water they simply move more slowly."]]},a:1},
+{ru:{q:"50 мл воды и 50 мл спирта дают около 97 мл смеси. О чём это говорит?",o:[["Между молекулами есть промежутки","Верно. Молекулы одного вещества частично заняли промежутки между молекулами другого."],["Часть спирта испарилась","Испарение за пару секунд ничтожно мало и не объясняет 3 мл."],["Мензурка показывает неверно","Опыт повторяют с разными приборами — результат тот же."]]},
+ en:{q:"50 mL of water and 50 mL of alcohol make about 97 mL of mixture. What does this show?",o:[["There are gaps between molecules","Correct. The molecules of one substance partly filled the gaps between the molecules of the other."],["Some alcohol evaporated","Evaporation in a few seconds is tiny and cannot explain 3 mL."],["The cylinder reads wrongly","The experiment gives the same result with different instruments."]]},a:0},
+{ru:{q:"Какое состояние вещества не имеет ни своей формы, ни своего объёма?",o:[["Твёрдое","Твёрдое тело сохраняет и форму, и объём."],["Газообразное","Верно. Газ занимает весь предоставленный сосуд."],["Жидкое","Жидкость принимает форму сосуда, но объём у неё свой."]]},
+ en:{q:"Which state of matter has neither its own shape nor its own volume?",o:[["Solid","A solid keeps both its shape and its volume."],["Gas","Correct. A gas fills whatever container it is in."],["Liquid","A liquid takes the shape of its container but keeps its own volume."]]},a:1},
+{ru:{q:"Белое облачко над кипящим казаном — это…",o:[["Водяной пар","Водяной пар прозрачный и невидимый — это газ."],["Дым","Дым — частицы сгоревшего топлива, а над казаном — вода."],["Мельчайшие капельки воды, в которые превратился остывший пар","Верно. Пар остыл в холодном воздухе и снова стал жидкостью — крошечными капельками."]]},
+ en:{q:"The white cloud above a boiling kazan is…",o:[["Water vapour","Water vapour is clear and invisible — it is a gas."],["Smoke","Smoke is particles of burnt fuel; above a kazan it is water."],["Tiny droplets of water formed from cooled vapour","Correct. The vapour cooled in the air and turned back into liquid — tiny droplets."]]},a:2},
+{ru:{q:"Чем молекулы льда отличаются от молекул воды?",o:[["Ничем: это те же молекулы H₂O, по-другому расположенные и движущиеся","Верно. Состояние зависит от расположения и движения частиц, а не от самих молекул."],["Молекулы льда холоднее и меньше","Сами молекулы одинаковые; «холоднее» — значит медленнее движутся, а не меньше."],["Во льду молекулы не двигаются вообще","Двигаются: они колеблются около своих мест. Движение частиц не прекращается."]]},
+ en:{q:"How do ice molecules differ from water molecules?",o:[["They don’t: the same H₂O molecules, just arranged and moving differently","Correct. The state depends on how particles are arranged and move, not on the molecules themselves."],["Ice molecules are colder and smaller","The molecules are the same; “colder” means moving more slowly, not smaller."],["In ice the molecules don’t move at all","They do: they vibrate around their places. Particle motion never stops."]]},a:0}];
+let answers={};const ORD=[[0,1,2],[2,0,1],[1,0,2],[1,0,2],[0,2,1],[2,1,0],[1,2,0]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"02"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Строение вещества — Атлас физики":"The structure of matter — Atlas of Physics";D.c.setAttribute("aria-label",T[lang].dif);S.c.setAttribute("aria-label",T[lang].st);difLabel();difDraw();stDraw();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+difInit();stInit();stStep();apply();
+requestAnimationFrame(loop);
+})();
+</script>
+</body></html>
