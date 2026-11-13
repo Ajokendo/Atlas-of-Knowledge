@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 3 Атласа физики: механическое движение, скорость, инерция, масса, плотность, сила, сила тяжести, равнодействующая, трение.">
+<title>Движение и силы — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+.lab select{border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--sans);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+.bars{margin-top:12px}.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.bar i{display:block;height:12px;background:var(--accent)}.bar i.r{background:#c9b48f}.bar .t{display:flex}.bar b{font:12px var(--mono);font-weight:400;color:var(--ink)}
+@media(max-width:760px){.bar{grid-template-columns:110px 1fr 58px}}
+</style></head><body>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 03 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 03 · BASICS</span></p>
+<h1><span data-l="ru">Движение и силы</span><span data-l="en">Motion and forces</span></h1>
+<p class="lead"><span data-l="ru">Маршрутка на дороге Бишкек — Ош, аркан в руках двух команд, санки на снегу. В этой главе — что такое скорость, инерция, масса и плотность, откуда берутся силы и почему без трения мы не смогли бы ни идти, ни остановиться.</span><span data-l="en">A minibus on the Bishkek–Osh road, a rope in the hands of two teams, a sled on snow. This chapter covers speed, inertia, mass and density, where forces come from and why without friction we could neither walk nor stop.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#motion">02 <span data-l="ru">Движение и скорость</span><span data-l="en">Motion and speed</span></a><a href="#mass">03 <span data-l="ru">Инерция и масса</span><span data-l="en">Inertia and mass</span></a><a href="#density">04 <span data-l="ru">Плотность</span><span data-l="en">Density</span></a><a href="#force">05 <span data-l="ru">Сила</span><span data-l="en">Force</span></a><a href="#friction">06 <span data-l="ru">Трение</span><span data-l="en">Friction</span></a><a href="#tasks">07 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">08 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>Зимой на перевале Төө-Ашуу дорога покрыта гладким льдом. Водители надевают на колёса цепи, а дорожники посыпают лёд песком — то есть специально делают дорогу шершавой.</p><p>Странно: ведь по гладкому должно ехать легче? Зачем портить гладкий лёд?</p></div>
+<div data-l="en"><p>In winter the road over the Töö-Ashuu pass is covered in smooth ice. Drivers put chains on their wheels and road crews spread sand on the ice — deliberately making the road rough.</p><p>Strange: shouldn’t a smooth road be easier to drive on? Why spoil the smooth ice?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подсказку даст модель «Торможение на перевале». Разгадка — в конце главы.</span><span data-l="en">The “Braking on the pass” model gives a hint. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="motion">
+<h2><span data-l="ru">Механическое движение и скорость</span><span data-l="en">Mechanical motion and speed</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p><strong>Механическое движение</strong> — изменение положения тела относительно других тел с течением времени. Линия, по которой движется тело, — <strong>траектория</strong>; её длина — <strong>путь</strong> <em>s</em>.</p><p><strong>Движение относительно.</strong> Пассажир маршрутки сидит неподвижно относительно сиденья, но мчится относительно дороги. Поэтому всегда говорят, <em>относительно чего</em> рассматривают движение — это тело называют <strong>телом отсчёта</strong>.</p><p><strong>Скорость</strong> показывает, какой путь тело проходит за единицу времени. Если за равные промежутки времени тело проходит равные пути, движение <strong>равномерное</strong>. Если нет — говорят о <strong>средней скорости</strong>.</p></div>
+<div data-l="en"><p><strong>Mechanical motion</strong> is a change in a body’s position relative to other bodies over time. The line along which a body moves is its <strong>trajectory</strong>; the length of that line is the <strong>distance</strong> <em>s</em>.</p><p><strong>Motion is relative.</strong> A minibus passenger sits still relative to the seat but races along relative to the road. So we always say <em>relative to what</em> we describe the motion — that body is called the <strong>frame of reference</strong>.</p><p><strong>Speed</strong> tells how much distance a body covers per unit of time. If a body covers equal distances in equal time intervals, the motion is <strong>uniform</strong>. If not, we speak of <strong>average speed</strong>.</p></div>
+</div>
+<div>
+<div class="formula">v = s / t<small><span data-l="ru">v — скорость (м/с), s — путь (м), t — время (с)</span><span data-l="en">v is speed (m/s), s is distance (m), t is time (s)</span></small></div>
+<div class="formula">1 м/с = 3,6 км/ч<small><span data-l="ru">в 1 часе 3600 с, в 1 км 1000 м: 3600 / 1000 = 3,6</span><span data-l="en">1 hour has 3,600 s, 1 km has 1,000 m: 3,600 / 1,000 = 3.6</span></small></div>
+<table><thead><tr><th><span data-l="ru">КТО ДВИЖЕТСЯ</span><span data-l="en">WHO IS MOVING</span></th><th><span data-l="ru">ПРИМЕРНАЯ СКОРОСТЬ</span><span data-l="en">TYPICAL SPEED</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Пешеход</span><span data-l="en">Walker</span></td><td><span data-l="ru">5 км/ч ≈ 1,4 м/с</span><span data-l="en">5 km/h ≈ 1.4 m/s</span></td></tr>
+<tr><td><span data-l="ru">Велосипедист</span><span data-l="en">Cyclist</span></td><td><span data-l="ru">18 км/ч = 5 м/с</span><span data-l="en">18 km/h = 5 m/s</span></td></tr>
+<tr><td><span data-l="ru">Автомобиль в городе</span><span data-l="en">Car in town</span></td><td><span data-l="ru">60 км/ч ≈ 17 м/с</span><span data-l="en">60 km/h ≈ 17 m/s</span></td></tr>
+<tr><td><span data-l="ru">Звук в воздухе</span><span data-l="en">Sound in air</span></td><td><span data-l="ru">≈ 340 м/с</span><span data-l="en">≈ 340 m/s</span></td></tr>
+</tbody></table>
+</div>
+</div>
+</section>
+
+<section class="section" id="mass">
+<h2><span data-l="ru">Инерция и масса</span><span data-l="en">Inertia and mass</span></h2>
+<div data-l="ru"><p>Когда маршрутка резко тормозит, пассажиры наклоняются вперёд, а когда резко трогается — откидываются назад. Тело стремится сохранить свою скорость, пока на него не подействуют другие тела. Это явление называют <strong>инерцией</strong>.</p><p>Одни тела «упрямее» других: пустую тележку легко разогнать и остановить, гружённую углём — трудно. Это свойство тел называется <strong>инертностью</strong>, а мерой инертности служит <strong>масса</strong> <em>m</em>. Единица массы в СИ — <strong>килограмм</strong>. Массу измеряют, сравнивая тело с гирями на весах.</p></div>
+<div data-l="en"><p>When a minibus brakes sharply, passengers lurch forward; when it pulls away sharply, they are pressed back. A body tends to keep its speed until other bodies act on it. This is called <strong>inertia</strong>.</p><p>Some bodies are more “stubborn” than others: an empty cart is easy to speed up and stop, a cart loaded with coal is hard. This property of bodies is their inertia, and its measure is <strong>mass</strong> <em>m</em>. The SI unit of mass is the <strong>kilogram</strong>. Mass is measured by comparing a body with standard weights on scales.</p></div>
+<div class="definition"><span data-l="ru">Ремень безопасности нужен именно из-за инерции: при резком торможении машина останавливается, а тело человека продолжает двигаться вперёд.</span><span data-l="en">A seat belt exists precisely because of inertia: when a car brakes hard, the car stops but the passenger’s body keeps moving forward.</span></div>
+</section>
+
+<section class="section" id="density">
+<h2><span data-l="ru">Плотность вещества</span><span data-l="en">Density</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Кубик льда и кубик золота одинакового размера имеют очень разную массу: частицы золота тяжелее и упакованы плотнее. <strong>Плотность</strong> показывает, какая масса вещества приходится на единицу объёма.</p><p>Плотность — свойство вещества, а не тела: у золотой серёжки и у слитка с рудника Кумтор плотность одна и та же.</p></div>
+<div data-l="en"><p>An ice cube and a gold cube of the same size have very different masses: gold particles are heavier and packed more tightly. <strong>Density</strong> tells how much mass a substance has per unit of volume.</p><p>Density belongs to a substance, not to a body: a gold earring and a gold bar from the Kumtor mine have the same density.</p></div>
+<div class="formula">ρ = m / V<small><span data-l="ru">ρ («ро») — плотность (кг/м³), m — масса (кг), V — объём (м³)</span><span data-l="en">ρ (“rho”) is density (kg/m³), m is mass (kg), V is volume (m³)</span></small></div>
+<p class="callout"><span data-l="ru">Отсюда: m = ρ · V и V = m / ρ. 1 г/см³ = 1000 кг/м³.</span><span data-l="en">Hence m = ρ · V and V = m / ρ. 1 g/cm³ = 1,000 kg/m³.</span></p>
+</div>
+<table><thead><tr><th><span data-l="ru">ВЕЩЕСТВО</span><span data-l="en">SUBSTANCE</span></th><th><span data-l="ru">ПЛОТНОСТЬ, КГ/М³</span><span data-l="en">DENSITY, KG/M³</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Воздух (0 °C)</span><span data-l="en">Air (0 °C)</span></td><td>1,29</td></tr>
+<tr><td><span data-l="ru">Лёд (0 °C)</span><span data-l="en">Ice (0 °C)</span></td><td>917</td></tr>
+<tr><td><span data-l="ru">Вода</span><span data-l="en">Water</span></td><td>1000</td></tr>
+<tr><td><span data-l="ru">Гранит</span><span data-l="en">Granite</span></td><td>2700</td></tr>
+<tr><td><span data-l="ru">Железо</span><span data-l="en">Iron</span></td><td>7870</td></tr>
+<tr><td><span data-l="ru">Золото</span><span data-l="en">Gold</span></td><td>19 300</td></tr>
+</tbody></table>
+</div>
+<p class="callout"><span data-l="ru">Лёд легче воды — поэтому он плавает, а реки и озёра зимой замерзают сверху, а не со дна. Почему лёгкое плавает, разберём в главе о давлении.</span><span data-l="en">Ice is less dense than water — so it floats, and rivers and lakes freeze from the top, not from the bottom. Why less dense things float is covered in the chapter on pressure.</span></p>
+</section>
+
+<section class="section" id="force">
+<h2><span data-l="ru">Сила</span><span data-l="en">Force</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Скорость тела меняется только тогда, когда на него действует другое тело. Меру этого действия называют <strong>силой</strong> <em>F</em>. Сила может разогнать тело, остановить, повернуть или деформировать его. Сила имеет <strong>величину</strong> и <strong>направление</strong>, поэтому её рисуют стрелкой. Единица силы — <strong>ньютон</strong> (Н); силу измеряют <strong>динамометром</strong>.</p><h3>Сила тяжести</h3><p>Земля притягивает к себе все тела. Эта сила направлена вниз, к центру Земли, и пропорциональна массе тела.</p></div>
+<div data-l="en"><p>A body’s speed changes only when another body acts on it. The measure of that action is called <strong>force</strong> <em>F</em>. A force can speed a body up, stop it, turn it or deform it. A force has a <strong>size</strong> and a <strong>direction</strong>, so it is drawn as an arrow. The unit of force is the <strong>newton</strong> (N); force is measured with a <strong>spring balance (dynamometer)</strong>.</p><h3>Gravity</h3><p>The Earth pulls every body towards itself. This force points down, towards the Earth’s centre, and is proportional to the body’s mass.</p></div>
+<div class="formula">F<sub><span data-l="ru">тяж</span><span data-l="en">g</span></sub> = m · g<small><span data-l="ru">g ≈ 9,8 Н/кг (в задачах часто берут 10 Н/кг)</span><span data-l="en">g ≈ 9.8 N/kg (problems often use 10 N/kg)</span></small></div>
+<div data-l="ru"><h3>Равнодействующая</h3><p>Если на тело действуют несколько сил, их можно заменить одной — <strong>равнодействующей</strong> <em>R</em>. Для сил вдоль одной прямой:</p><ul class="src"><li>в одну сторону — силы складываются: R = F₁ + F₂;</li><li>в разные стороны — вычитаются: R = F₁ − F₂, и тело движется в сторону большей силы;</li><li>если R = 0, силы уравновешены, и скорость тела не меняется.</li></ul></div>
+<div data-l="en"><h3>Resultant force</h3><p>When several forces act on a body, they can be replaced by a single force — the <strong>resultant</strong> <em>R</em>. For forces along one line:</p><ul class="src"><li>in the same direction they add: R = F₁ + F₂;</li><li>in opposite directions they subtract: R = F₁ − F₂, and the body moves towards the larger force;</li><li>if R = 0, the forces are balanced and the body’s speed does not change.</li></ul></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · АРКАН ТАРТЫШ</span><span data-l="en">MODEL 1 · ARKAN TARTYSH (TUG OF WAR)</span></p>
+<svg id="tugSvg" viewBox="0 0 600 230" role="img" aria-label=""></svg>
+<div class="controls"><label for="f1"><span data-l="ru">Команда «Ала-Тоо»</span><span data-l="en">Team “Ala-Too”</span>: <strong id="f1Out"></strong></label><input id="f1" type="range" min="0" max="3000" step="50" value="1250"></div>
+<div class="controls"><label for="f2"><span data-l="ru">Команда «Ысык-Көл»</span><span data-l="en">Team “Ysyk-Köl”</span>: <strong id="f2Out"></strong></label><input id="f2" type="range" min="0" max="3000" step="50" value="1100"></div>
+<div class="controls"><button class="act" type="button" id="tugGo"><span data-l="ru">Тянуть!</span><span data-l="en">Pull!</span></button><button class="act ghost" type="button" id="tugReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button></div>
+<p class="fb" id="tugFb" aria-live="polite"></p>
+</div>
+</div>
+<p class="callout"><span data-l="ru">Аркан тартыш — старинная кыргызская игра, похожая на перетягивание каната; её устраивают на Нооруз, она входит во Всемирные игры кочевников. Поставьте силы команд равными — что будет с флажком?</span><span data-l="en">Arkan tartysh is an old Kyrgyz game like tug of war; it is played at Nooruz and is part of the World Nomad Games. Set the two teams’ forces equal — what happens to the flag?</span></p>
+</section>
+
+<section class="section" id="friction">
+<h2><span data-l="ru">Сила трения</span><span data-l="en">Friction</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Толкните книгу по столу — она остановится. Её тормозит <strong>сила трения</strong>: она возникает при соприкосновении тел и направлена против движения. Причины — неровности поверхностей, которые цепляются друг за друга, и притяжение частиц соприкасающихся тел.</p><ul class="src"><li><strong>Трение покоя</strong> не даёт телу сдвинуться: шкаф стоит на месте, пока вы толкаете слабо.</li><li><strong>Трение скольжения</strong> — при скольжении: санки по снегу, тормозящее колесо по льду.</li><li><strong>Трение качения</strong> намного меньше: поэтому изобрели колесо и подшипник.</li></ul><p>Сила трения скольжения тем больше, чем сильнее тело прижато к поверхности:</p></div>
+<div data-l="en"><p>Push a book across a table and it stops. It is slowed by <strong>friction</strong>: a force that appears when surfaces touch and acts against the motion. Its causes are bumps on the surfaces that catch on each other and attraction between the particles of the touching bodies.</p><ul class="src"><li><strong>Static friction</strong> keeps a body from moving: a wardrobe stays put while you push gently.</li><li><strong>Sliding friction</strong> acts while sliding: a sled on snow, a braking wheel on ice.</li><li><strong>Rolling friction</strong> is much smaller: that is why the wheel and the ball bearing were invented.</li></ul><p>Sliding friction is greater the harder the body is pressed against the surface:</p></div>
+<div class="formula">F<sub><span data-l="ru">тр</span><span data-l="en">fr</span></sub> = μ · N<small><span data-l="ru">μ («мю») — коэффициент трения, без единиц; N — сила, прижимающая тело (на горизонтальной дороге N = m·g)</span><span data-l="en">μ (“mu”) is the coefficient of friction, no units; N is the force pressing the body to the surface (on a level road N = m·g)</span></small></div>
+<div class="definition"><span data-l="ru">Трение бывает и врагом, и другом. Оно изнашивает детали машин — поэтому их смазывают. Но без трения нельзя ходить (ноги скользят), завязать узел на аркане, удержать ложку и остановить машину.</span><span data-l="en">Friction is both enemy and friend. It wears out machine parts — so they are lubricated. But without friction you could not walk (your feet slip), tie a knot in a rope, hold a spoon or stop a car.</span></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · ТОРМОЖЕНИЕ НА ПЕРЕВАЛЕ</span><span data-l="en">MODEL 2 · BRAKING ON THE PASS</span></p>
+<svg id="brSvg" viewBox="0 0 600 150" role="img" aria-label=""></svg>
+<div class="controls"><label for="surf"><span data-l="ru">Дорога</span><span data-l="en">Road</span></label><select id="surf"></select></div>
+<div class="controls"><label for="vel"><span data-l="ru">Скорость</span><span data-l="en">Speed</span>: <strong id="velOut"></strong></label><input id="vel" type="range" min="20" max="90" step="5" value="60"></div>
+<div class="controls"><label class="chk"><input type="checkbox" id="react" checked> <span data-l="ru">учесть время реакции водителя (1 с)</span><span data-l="en">include driver reaction time (1 s)</span></label></div>
+<div class="controls"><button class="act" type="button" id="brGo"><span data-l="ru">Тормозить!</span><span data-l="en">Brake!</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Путь за время реакции</span><span data-l="en">Reaction distance</span></small><strong id="sR"></strong></div><div class="stat"><small><span data-l="ru">Тормозной путь</span><span data-l="en">Braking distance</span></small><strong id="sB"></strong></div><div class="stat"><small><span data-l="ru">Остановочный путь</span><span data-l="en">Stopping distance</span></small><strong id="sT"></strong></div></div>
+<div class="bars" id="bars"></div>
+<p class="caption"><span data-l="ru">Модель считает по формуле s = v² / (2μg) — её выводят в старших классах. Коэффициенты трения примерные.</span><span data-l="en">The model uses s = v² / (2μg), derived in later grades. The friction coefficients are approximate.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Из Бишкека в Ош</span><span data-l="en">Problem 1. From Bishkek to Osh</span></summary>
+<div data-l="ru"><p>Длина дороги Бишкек — Ош около 685 км. Автобус прошёл её за 11 ч. Найдите среднюю скорость в км/ч и м/с.</p><p class="given">Дано: s = 685 км, t = 11 ч</p><div class="sol"><p>1) v = s / t = 685 км / 11 ч ≈ 62 км/ч.<br>2) В м/с: 62 / 3,6 ≈ 17 м/с.</p><p><strong>Ответ:</strong> около 62 км/ч ≈ 17 м/с. Это средняя скорость: на перевалах автобус шёл медленнее, на равнине — быстрее.</p></div></div>
+<div data-l="en"><p>The Bishkek–Osh road is about 685 km long. A bus covered it in 11 h. Find its average speed in km/h and m/s.</p><p class="given">Given: s = 685 km, t = 11 h</p><div class="sol"><p>1) v = s / t = 685 km / 11 h ≈ 62 km/h.<br>2) In m/s: 62 / 3.6 ≈ 17 m/s.</p><p><strong>Answer:</strong> about 62 km/h ≈ 17 m/s. This is an average: on the passes the bus went slower, on the plains faster.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. Килограмм золота</span><span data-l="en">Problem 2. A kilogram of gold</span></summary>
+<div data-l="ru"><p>Какой объём у слитка золота массой 1 кг? А у куска железа той же массы?</p><p class="given">Дано: m = 1 кг, ρ<sub>з</sub> = 19 300 кг/м³, ρ<sub>ж</sub> = 7870 кг/м³</p><div class="sol"><p>1) Золото: V = m / ρ = 1 / 19 300 м³ ≈ 0,000 052 м³ = 52 см³.<br>2) Железо: V = 1 / 7870 м³ ≈ 0,000 127 м³ = 127 см³.</p><p><strong>Ответ:</strong> 52 см³ и 127 см³. Килограмм золота поместится в коробочку размером примерно 5 × 3,5 × 3 см, а килограмм железа — в две с половиной такие.</p></div></div>
+<div data-l="en"><p>What is the volume of a 1 kg gold bar? And of a piece of iron with the same mass?</p><p class="given">Given: m = 1 kg, ρ<sub>gold</sub> = 19,300 kg/m³, ρ<sub>iron</sub> = 7,870 kg/m³</p><div class="sol"><p>1) Gold: V = m / ρ = 1 / 19,300 m³ ≈ 0.000 052 m³ = 52 cm³.<br>2) Iron: V = 1 / 7,870 m³ ≈ 0.000 127 m³ = 127 cm³.</p><p><strong>Answer:</strong> 52 cm³ and 127 cm³. A kilogram of gold fits in a box about 5 × 3.5 × 3 cm; a kilogram of iron needs two and a half such boxes.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Рюкзак на подъёме к Ала-Арче</span><span data-l="en">Problem 3. A backpack on the way up to Ala-Archa</span></summary>
+<div data-l="ru"><p>Масса рюкзака туриста 15 кг. С какой силой Земля притягивает рюкзак?</p><p class="given">Дано: m = 15 кг, g ≈ 9,8 Н/кг</p><div class="sol"><p>F<sub>тяж</sub> = m · g = 15 кг · 9,8 Н/кг = 147 Н.</p><p><strong>Ответ:</strong> около 147 Н (при g = 10 Н/кг — 150 Н).</p></div></div>
+<div data-l="en"><p>A hiker’s backpack has a mass of 15 kg. With what force does the Earth pull on it?</p><p class="given">Given: m = 15 kg, g ≈ 9.8 N/kg</p><div class="sol"><p>F<sub>g</sub> = m · g = 15 kg · 9.8 N/kg = 147 N.</p><p><strong>Answer:</strong> about 147 N (150 N with g = 10 N/kg).</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Кто перетянет аркан?</span><span data-l="en">Problem 4. Who wins the tug of war?</span></summary>
+<div data-l="ru"><p>Команда «Ала-Тоо» тянет аркан с силой 1250 Н, команда «Ысык-Көл» — в другую сторону с силой 1100 Н. Найдите равнодействующую и её направление.</p><p class="given">Дано: F₁ = 1250 Н, F₂ = 1100 Н, силы направлены противоположно</p><div class="sol"><p>R = F₁ − F₂ = 1250 Н − 1100 Н = 150 Н, направлена в сторону команды «Ала-Тоо».</p><p><strong>Ответ:</strong> 150 Н в сторону «Ала-Тоо» — аркан поедет к ним.</p></div></div>
+<div data-l="en"><p>Team “Ala-Too” pulls the rope with a force of 1,250 N; team “Ysyk-Köl” pulls the other way with 1,100 N. Find the resultant force and its direction.</p><p class="given">Given: F₁ = 1,250 N, F₂ = 1,100 N, opposite directions</p><div class="sol"><p>R = F₁ − F₂ = 1,250 N − 1,100 N = 150 N, pointing towards team “Ala-Too”.</p><p><strong>Answer:</strong> 150 N towards “Ala-Too” — the rope moves their way.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 5. Санки с горки в Чункурчаке</span><span data-l="en">Problem 5. Sledging at Chunkurchak</span></summary>
+<div data-l="ru"><p>Брат везёт санки с сестрой (общая масса 30 кг) по ровному снегу. Коэффициент трения полозьев о снег 0,1. С какой силой нужно тянуть, чтобы санки ехали равномерно?</p><p class="given">Дано: m = 30 кг, μ = 0,1, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) На ровной дороге санки прижимает к снегу их вес: N = m · g = 30 · 9,8 = 294 Н.<br>2) Сила трения: F<sub>тр</sub> = μ · N = 0,1 · 294 Н ≈ 29 Н.<br>3) При равномерном движении силы уравновешены (R = 0), значит тянуть нужно с силой, равной силе трения.</p><p><strong>Ответ:</strong> около 29 Н — примерно как поднять 3 кг.</p></div></div>
+<div data-l="en"><p>A boy pulls his sister on a sled (total mass 30 kg) across level snow. The coefficient of friction between runners and snow is 0.1. What pull keeps the sled moving at a steady speed?</p><p class="given">Given: m = 30 kg, μ = 0.1, g ≈ 9.8 N/kg</p><div class="sol"><p>1) On a level surface the sled is pressed into the snow by its weight: N = m · g = 30 · 9.8 = 294 N.<br>2) Friction: F<sub>fr</sub> = μ · N = 0.1 · 294 N ≈ 29 N.<br>3) At steady speed the forces are balanced (R = 0), so the pull must equal the friction.</p><p><strong>Answer:</strong> about 29 N — roughly like lifting 3 kg.</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: зачем портить гладкий лёд?</span><span data-l="en">The answer: why spoil smooth ice?</span></h2>
+<div data-l="ru"><p>Чтобы машина тронулась, повернула и остановилась, колёса должны «цепляться» за дорогу — нужна сила трения. На сухом асфальте коэффициент трения шины около 0,7, на льду — около 0,1. Значит, сила трения на льду примерно в 7 раз меньше, и тормозной путь во столько же раз длиннее: при 60 км/ч около 20 м на асфальте и около 140 м на льду — сравните в модели.</p><p>Песок и цепи делают поверхность шершавой и увеличивают трение. Гладкая дорога хороша для коньков и санок, где трение мешает, но опасна для машин, которым оно необходимо.</p></div>
+<div data-l="en"><p>For a car to pull away, turn and stop, its wheels must grip the road — it needs friction. On dry asphalt a tyre’s coefficient of friction is about 0.7; on ice it is about 0.1. So friction on ice is roughly 7 times smaller and the braking distance is that many times longer: at 60 km/h about 20 m on asphalt and about 140 m on ice — compare them in the model.</p><p>Sand and chains roughen the surface and increase friction. A smooth surface is good for skates and sleds, where friction gets in the way, but dangerous for cars, which depend on it.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Длина дороги Бишкек — Ош (около 685 км) —</span><span data-l="en">Length of the Bishkek–Osh road (about 685 km) —</span> <a href="https://en.wikipedia.org/wiki/European_route_E010" target="_blank" rel="noopener">Wikipedia: European route E010</a></li>
+<li><span data-l="ru">Коэффициенты трения шины о дорогу (сухой асфальт 0,7–0,8; мокрый 0,4–0,6; снег 0,2–0,3; лёд 0,1) —</span><span data-l="en">Tyre–road friction coefficients (dry asphalt 0.7–0.8; wet 0.4–0.6; snow 0.2–0.3; ice 0.1) —</span> <a href="https://hyperphysics.gsu.edu/hbase/mechanics/frictire.html" target="_blank" rel="noopener">HyperPhysics: Friction and Automobile Tires</a>, <a href="https://www.tribonet.org/wiki/tags/tire/" target="_blank" rel="noopener">Tribonet: Tire Friction</a></li>
+<li><span data-l="ru">Плотности льда, железа, золота —</span><span data-l="en">Densities of ice, iron, gold —</span> <a href="https://www.ajdesigner.com/reference/material-density/" target="_blank" rel="noopener">AJ Design: Density of Common Materials (по CRC Handbook и RSC)</a>; <span data-l="ru">воздуха —</span><span data-l="en">air —</span> <a href="https://hyperphysics.gsu.edu/hbase/Tables/density.html" target="_blank" rel="noopener">HyperPhysics: Density</a></li>
+<li><span data-l="ru">Аркан тартыш —</span><span data-l="en">Arkan tartysh —</span> <a href="https://www.weproject.media/articles/detail/igra-v-kalmara-po-kyrgyzski-lyubimye-detskie-igry-v-kyrgyzstane/" target="_blank" rel="noopener">WE Project: традиционные кыргызские игры</a></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="02-structure-of-matter.html">← <span data-l="ru">Глава 02 · Строение вещества</span><span data-l="en">Chapter 02 · Structure of matter</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 04 · Давление — скоро</span><span data-l="en">Chapter 04 · Pressure — coming soon</span> →</span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 03</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 03</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const T={
+ru:{N:" Н",m:" м",kmh:" км/ч",teamA:"Ала-Тоо",teamB:"Ысык-Көл",tugLabel:"Аркан, две команды и стрелки сил",brLabel:"Дорога с машиной и отметками расстояния",
+tugEq:"Силы равны: R = 0. Аркан стоит на месте — силы уравновешены.",tugR:(r,t)=>"Равнодействующая R = "+r+" Н, направлена в сторону команды «"+t+"». Аркан едет к ней.",tugWin:t=>"Победила команда «"+t+"»!",
+surf:[["Сухой асфальт",0.7],["Мокрый асфальт",0.5],["Укатанный снег",0.2],["Лёд",0.1]],score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{N:" N",m:" m",kmh:" km/h",teamA:"Ala-Too",teamB:"Ysyk-Köl",tugLabel:"A rope, two teams and force arrows",brLabel:"A road with a car and distance marks",
+tugEq:"The forces are equal: R = 0. The rope stays put — the forces are balanced.",tugR:(r,t)=>"Resultant R = "+r+" N, pointing towards team “"+t+"”. The rope moves their way.",tugWin:t=>"Team “"+t+"” wins!",
+surf:[["Dry asphalt",0.7],["Wet asphalt",0.5],["Packed snow",0.2],["Ice",0.1]],score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function num(x){return lang==="ru"?String(x).replace(/\B(?=(\d{3})+(?!\d))/g," "):String(x).replace(/\B(?=(\d{3})+(?!\d))/g,",")}
+
+/* ---------- Model 1: tug of war ---------- */
+let off=0,run=false,won=false,lastT=0;
+function arrow(x1,x2,y,col,w){const dir=x2>x1?1:-1;if(Math.abs(x2-x1)<2)return "";return '<line x1="'+x1+'" y1="'+y+'" x2="'+(x2-dir*10)+'" y2="'+y+'" stroke="'+col+'" stroke-width="'+w+'"/><path d="M'+x2+' '+y+' L'+(x2-dir*12)+' '+(y-7)+' L'+(x2-dir*12)+' '+(y+7)+' Z" fill="'+col+'"/>'}
+function person(x,y,col,dir){return '<g fill="none" stroke="'+col+'" stroke-width="3" stroke-linecap="round"><circle cx="'+x+'" cy="'+(y-38)+'" r="7" fill="'+col+'"/><line x1="'+x+'" y1="'+(y-30)+'" x2="'+(x-dir*6)+'" y2="'+(y-8)+'"/><line x1="'+(x-dir*6)+'" y1="'+(y-8)+'" x2="'+(x-dir*16)+'" y2="'+(y+12)+'"/><line x1="'+(x-dir*6)+'" y1="'+(y-8)+'" x2="'+(x+dir*4)+'" y2="'+(y+12)+'"/><line x1="'+(x-dir*2)+'" y1="'+(y-22)+'" x2="'+(x+dir*14)+'" y2="'+(y-20)+'"/></g>'}
+function drawTug(){const f1=+$("f1").value,f2=+$("f2").value,c=300+off,y=98;let s='<line x1="20" y1="132" x2="580" y2="132" stroke="#c9c2b0" stroke-width="2"/><line x1="300" y1="118" x2="300" y2="146" stroke="#b6533f" stroke-dasharray="3 3"/>';
+ s+='<line x1="'+(60+off)+'" y1="'+(y+2)+'" x2="'+(540+off)+'" y2="'+(y+2)+'" stroke="#8a6a3f" stroke-width="4"/>';
+ for(let i=0;i<3;i++){s+=person(75+off+i*34,y+20,"#2f6f5d",1);s+=person(525+off-i*34,y+20,"#3f5f8f",-1)}
+ s+='<line x1="'+c+'" y1="'+(y+2)+'" x2="'+c+'" y2="'+(y-26)+'" stroke="#18181a" stroke-width="2"/><path d="M'+c+' '+(y-26)+' L'+(c+18)+' '+(y-20)+' L'+c+' '+(y-14)+' Z" fill="#b6533f"/>';
+ const k=200/3000;s+=arrow(c,c-f1*k,40,"#2f6f5d",4)+arrow(c,c+f2*k,40,"#3f5f8f",4);
+ s+='<text x="'+(c-f1*k/2)+'" y="30" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#2f6f5d">F₁</text><text x="'+(c+f2*k/2)+'" y="30" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#3f5f8f">F₂</text>';
+ const R=f2-f1;s+=arrow(c,c+R*k,175,"#b6533f",5);if(R!==0)s+='<text x="'+(c+R*k/2)+'" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#b6533f">R</text>';else s+='<text x="'+c+'" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#b6533f">R = 0</text>';
+ s+='<text x="20" y="222" font-family="Inter,sans-serif" font-size="13" fill="#2f6f5d">«'+T[lang].teamA+'»</text><text x="580" y="222" text-anchor="end" font-family="Inter,sans-serif" font-size="13" fill="#3f5f8f">«'+T[lang].teamB+'»</text>';
+ $("tugSvg").innerHTML=s;$("f1Out").textContent=num(f1)+T[lang].N;$("f2Out").textContent=num(f2)+T[lang].N;
+ const fb=$("tugFb");if(won)fb.textContent=T[lang].tugWin(off<0?T[lang].teamA:T[lang].teamB);else if(R===0)fb.textContent=T[lang].tugEq;else fb.textContent=T[lang].tugR(num(Math.abs(R)),R<0?T[lang].teamA:T[lang].teamB)}
+function tugLoop(ts){if(!run)return;const dt=Math.min(0.05,(ts-lastT)/1000||0);lastT=ts;const R=+$("f2").value-+$("f1").value;off+=R*0.12*dt;if(Math.abs(off)>=60){off=Math.sign(off)*60;run=false;won=true}drawTug();if(run)requestAnimationFrame(tugLoop)}
+$("tugGo").addEventListener("click",()=>{if(won)return;run=true;lastT=performance.now();requestAnimationFrame(tugLoop)});
+$("tugReset").addEventListener("click",()=>{run=false;won=false;off=0;drawTug()});
+["f1","f2"].forEach(id=>$(id).addEventListener("input",()=>{if(!run&&!won)drawTug();}));
+
+/* ---------- Model 2: braking ---------- */
+const G=9.8,SCALE=560/360;let brRun=false,brStart=0;
+function fillSurf(){const sel=$("surf"),v=sel.value;sel.innerHTML="";T[lang].surf.forEach((s,i)=>{const o=document.createElement("option");o.value=i;o.textContent=s[0]+" (μ ≈ "+fmt(s[1],1)+")";sel.appendChild(o)});sel.value=v||"0"}
+function dists(mu){const v=+$("vel").value/3.6,r=$("react").checked?v*1:0,b=v*v/(2*mu*G);return{v:v,r:r,b:b,t:r+b}}
+function drawRoad(carX,d){let s='<rect x="0" y="62" width="600" height="46" fill="#e7e5df"/><line x1="0" y1="85" x2="600" y2="85" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>';
+ for(let m=0;m<=350;m+=50){const x=20+m*SCALE;s+='<line x1="'+x+'" y1="108" x2="'+x+'" y2="118" stroke="#66666b"/><text x="'+x+'" y="132" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#66666b">'+m+T[lang].m+'</text>'}
+ if(d){const xr=20+d.r*SCALE,xt=20+d.t*SCALE;s+='<rect x="20" y="40" width="'+Math.max(0,xr-20)+'" height="8" fill="#c9b48f"/><rect x="'+xr+'" y="40" width="'+Math.max(0,xt-xr)+'" height="8" fill="#b6533f"/>';if(xt>600)s+='<text x="596" y="34" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="11" fill="#b6533f">→ '+Math.round(d.t)+T[lang].m+'</text>'}
+ const cx=Math.min(575,carX);s+='<g transform="translate('+(cx-24)+',66)"><rect x="0" y="6" width="44" height="16" rx="4" fill="#3f5f8f"/><rect x="9" y="0" width="24" height="10" rx="3" fill="#6f8fbf"/><circle cx="10" cy="23" r="5" fill="#18181a"/><circle cx="34" cy="23" r="5" fill="#18181a"/></g>';
+ $("brSvg").innerHTML=s}
+function brUpdate(){const mu=T[lang].surf[+$("surf").value][1],d=dists(mu);$("velOut").textContent=$("vel").value+T[lang].kmh;$("sR").textContent=Math.round(d.r)+T[lang].m;$("sB").textContent=Math.round(d.b)+T[lang].m;$("sT").textContent=Math.round(d.t)+T[lang].m;
+ const max=Math.max(...T[lang].surf.map(s=>dists(s[1]).t));let h="";T[lang].surf.forEach(s=>{const q=dists(s[1]);h+='<div class="bar"><span>'+s[0]+'</span><span class="t"><i class="r" style="width:'+(q.r/max*100)+'%"></i><i style="width:'+(q.b/max*100)+'%"></i></span><b>'+Math.round(q.t)+T[lang].m+'</b></div>'});$("bars").innerHTML=h;
+ if(!brRun)drawRoad(20,d);return d}
+function brLoop(ts){if(!brRun)return;const d=dists(T[lang].surf[+$("surf").value][1]),t=(ts-brStart)/1000*3,tr=$("react").checked?1:0,a=T[lang].surf[+$("surf").value][1]*G;let x;
+ if(t<tr)x=d.v*t;else{const tb=t-tr,tStop=d.v/a;x=d.r+(tb>=tStop?d.b:d.v*tb-a*tb*tb/2);if(tb>=tStop)brRun=false}
+ drawRoad(20+x*SCALE,d);if(brRun)requestAnimationFrame(brLoop)}
+$("brGo").addEventListener("click",()=>{brRun=true;brStart=performance.now();requestAnimationFrame(brLoop)});
+["surf","vel","react"].forEach(id=>$(id).addEventListener("input",()=>{brRun=false;brUpdate()}));
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Пассажир сидит в едущей маршрутке. Относительно чего он покоится?",o:[["Относительно дороги","Относительно дороги пассажир движется вместе с маршруткой."],["Относительно сиденья маршрутки","Верно. Расстояние между пассажиром и сиденьем не меняется."],["Относительно столбов на обочине","Столбы остаются позади — относительно них пассажир движется."]]},
+ en:{q:"A passenger sits in a moving minibus. Relative to what is the passenger at rest?",o:[["The road","Relative to the road the passenger moves along with the minibus."],["The minibus seat","Correct. The distance between passenger and seat does not change."],["Roadside posts","The posts fall behind — relative to them the passenger is moving."]]},a:1},
+{ru:{q:"Сколько это — 72 км/ч в м/с?",o:[["20 м/с","Верно: 72 / 3,6 = 20 м/с."],["259,2 м/с","Это умножение на 3,6. Чтобы перевести км/ч в м/с, делят на 3,6."],["7,2 м/с","Делили на 10, а нужно на 3,6."]]},
+ en:{q:"What is 72 km/h in m/s?",o:[["20 m/s","Correct: 72 / 3.6 = 20 m/s."],["259.2 m/s","That multiplies by 3.6. To convert km/h to m/s, divide by 3.6."],["7.2 m/s","That divides by 10; you need to divide by 3.6."]]},a:0},
+{ru:{q:"Маршрутка резко затормозила. Почему пассажиры наклонились вперёд?",o:[["Их толкнула сила трения","Трение тормозит колёса, а не пассажиров."],["Из-за инерции: тело стремится сохранить свою скорость","Верно. Маршрутка остановилась, а тела пассажиров продолжили двигаться вперёд."],["Их притянуло лобовое стекло","Стекло никого не притягивает; дело в инерции."]]},
+ en:{q:"A minibus brakes sharply. Why do the passengers lurch forward?",o:[["Friction pushes them","Friction acts on the wheels, not on the passengers."],["Inertia: a body tends to keep its speed","Correct. The minibus stopped, but the passengers’ bodies kept moving forward."],["The windscreen attracts them","The windscreen attracts nobody; it is inertia."]]},a:1},
+{ru:{q:"Три кубика одинакового объёма: из льда, железа и золота. У какого масса больше?",o:[["У льда","У льда самая маленькая плотность — 917 кг/м³, значит, и масса меньше всех."],["Массы одинаковые, раз объёмы равны","При равных объёмах масса зависит от плотности: m = ρ·V."],["У золота","Верно. Плотность золота 19 300 кг/м³ — больше всех, а m = ρ·V."]]},
+ en:{q:"Three cubes of equal volume: ice, iron and gold. Which has the greatest mass?",o:[["Ice","Ice has the lowest density — 917 kg/m³ — so the smallest mass."],["They have equal masses since their volumes are equal","With equal volumes, mass depends on density: m = ρ·V."],["Gold","Correct. Gold’s density, 19,300 kg/m³, is the highest, and m = ρ·V."]]},a:2},
+{ru:{q:"С какой силой Земля притягивает арбуз массой 6 кг (g ≈ 10 Н/кг)?",o:[["6 Н","Это масса в килограммах, а не сила. Нужно умножить на g."],["60 Н","Верно: F = m·g = 6 кг · 10 Н/кг = 60 Н."],["0,6 Н","Делили на g, а нужно умножать."]]},
+ en:{q:"With what force does the Earth pull a 6 kg watermelon (g ≈ 10 N/kg)?",o:[["6 N","That is the mass in kilograms, not a force. Multiply by g."],["60 N","Correct: F = m·g = 6 kg · 10 N/kg = 60 N."],["0.6 N","That divides by g; you should multiply."]]},a:1},
+{ru:{q:"Две команды тянут аркан в разные стороны с силами 900 Н и 900 Н. Что происходит?",o:[["Аркан движется к любой из команд","При равных противоположных силах равнодействующая равна нулю."],["Аркан не сдвигается: R = 0, силы уравновешены","Верно. R = 900 Н − 900 Н = 0, скорость аркана не меняется."],["Аркан рвётся","Это зависит от прочности аркана, а не от равнодействующей."]]},
+ en:{q:"Two teams pull a rope in opposite directions with 900 N and 900 N. What happens?",o:[["The rope moves towards either team","With equal opposite forces the resultant is zero."],["The rope doesn’t move: R = 0, the forces are balanced","Correct. R = 900 N − 900 N = 0, so the rope’s speed does not change."],["The rope snaps","That depends on the rope’s strength, not on the resultant."]]},a:1},
+{ru:{q:"Зачем зимой лёд на дороге посыпают песком?",o:[["Песок растапливает лёд","Лёд растапливает соль, а песок — нет."],["Песок увеличивает трение между колёсами и дорогой","Верно. Шершавая поверхность сильнее «держит» колёса — тормозной путь короче."],["Песок делает машину тяжелее","Песок лежит на дороге, а не в машине."]]},
+ en:{q:"Why is sand spread on icy roads in winter?",o:[["Sand melts the ice","Salt melts ice; sand does not."],["Sand increases friction between the wheels and the road","Correct. A rough surface grips the wheels better — the braking distance is shorter."],["Sand makes the car heavier","The sand is on the road, not in the car."]]},a:1}];
+let answers={};const ORD=[[0,1,2],[1,0,2],[1,2,0],[0,2,1],[2,0,1],[0,1,2],[2,1,0]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"03"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Движение и силы — Атлас физики":"Motion and forces — Atlas of Physics";$("tugSvg").setAttribute("aria-label",T[lang].tugLabel);$("brSvg").setAttribute("aria-label",T[lang].brLabel);fillSurf();drawTug();brRun=false;brUpdate();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+apply();
+})();
+</script>
+</body></html>

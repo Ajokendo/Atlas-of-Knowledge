@@ -10,6 +10,8 @@
 | PH-01-02 | 01 | Линейка с горошинами (модель «Метод рядов») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 10.11.2026 |
 | PH-02-01 | 02 | Частицы двух газов и перегородка (модель «Диффузия») | Авторская анимация canvas | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
 | PH-02-02 | 02 | Молекулы воды во льду, воде и паре (модель «Лёд — вода — пар») | Авторская анимация canvas | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
+| PH-03-01 | 03 | Аркан тартыш: две команды и стрелки сил | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
+| PH-03-02 | 03 | Дорога, машина, тормозной путь и диаграмма | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -28,3 +30,8 @@
 | 02 | 50 мл воды + 50 мл спирта ≈ 97 мл | James Madison University, Chemistry Demonstrations: https://sites.lib.jmu.edu/chemdemos/?p=3133 | 13.11.2026 |
 | 02 | Броун 1827, Эйнштейн 1905, Перрен 1908 | Wikipedia, «Brownian motion»: https://en.wikipedia.org/wiki/Brownian_motion | 13.11.2026 |
 | 02 | Модель диффузии: быстрота диффузии в газе ∝ T^1,75 (условная модель, не расчёт) | Учебное приближение; в главе показано как «×» относительно 20 °C | 13.11.2026 |
+| 03 | Дорога Бишкек — Ош ≈ 685 км | Wikipedia, «European route E010»: https://en.wikipedia.org/wiki/European_route_E010 | 13.11.2026 |
+| 03 | Коэффициенты трения шины: сухой асфальт ≈ 0,7–0,8, мокрый ≈ 0,4–0,6, снег ≈ 0,2–0,3, лёд ≈ 0,1 (в модели: 0,7 / 0,5 / 0,2 / 0,1) | HyperPhysics: https://hyperphysics.gsu.edu/hbase/mechanics/frictire.html; Tribonet: https://www.tribonet.org/wiki/tags/tire/ | 13.11.2026 |
+| 03 | Плотности: лёд 917, железо 7870, золото 19 300 кг/м³ | AJ Design (по CRC Handbook, RSC): https://www.ajdesigner.com/reference/material-density/ | 13.11.2026 |
+| 03 | Плотность воздуха при 0 °C ≈ 1,29 кг/м³ | HyperPhysics: https://hyperphysics.gsu.edu/hbase/Tables/density.html | 13.11.2026 |
+| 03 | Аркан тартыш — традиционная кыргызская игра, Нооруз, Всемирные игры кочевников | WE Project: https://www.weproject.media/articles/detail/igra-v-kalmara-po-kyrgyzski-lyubimye-detskie-igry-v-kyrgyzstane/ | 13.11.2026 |
