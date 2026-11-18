@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 4 Атласа физики: давление, давление в жидкости, закон Паскаля, атмосферное давление, закон Архимеда, плавание тел.">
+<title>Давление — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+.lab select{border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--sans);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+.bars{margin-top:12px}.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.bar i{display:block;height:12px;background:var(--accent)}.bar i.r{background:#c9b48f}.bar .t{display:flex}.bar b{font:12px var(--mono);font-weight:400;color:var(--ink)}
+@media(max-width:760px){.bar{grid-template-columns:110px 1fr 58px}}
+</style></head><body>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 04 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 04 · BASICS</span></p>
+<h1><span data-l="ru">Давление</span><span data-l="en">Pressure</span></h1>
+<p class="lead"><span data-l="ru">Пачка чипсов на перевале Төө-Ашуу, водолаз в Иссык-Куле, плотина Токтогульской ГЭС и железный пароход, который не тонет. В этой главе — что такое давление, как оно растёт с глубиной, чем «давит» воздух и почему вода выталкивает тела.</span><span data-l="en">A bag of crisps on the Töö-Ashuu pass, a diver in Issyk-Kul, the Toktogul dam and an iron steamship that does not sink. This chapter covers what pressure is, how it grows with depth, how air “presses” on us and why water pushes bodies upwards.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#pressure">02 <span data-l="ru">Давление</span><span data-l="en">Pressure</span></a><a href="#liquid">03 <span data-l="ru">В жидкости</span><span data-l="en">In liquids</span></a><a href="#atmosphere">04 <span data-l="ru">Атмосфера</span><span data-l="en">Atmosphere</span></a><a href="#archimedes">05 <span data-l="ru">Архимед</span><span data-l="en">Archimedes</span></a><a href="#tasks">06 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">07 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>В Бишкеке вы купили запечатанную пачку чипсов и поехали по дороге на юг. Когда маршрутка поднялась к перевалу Төө-Ашуу, пачка раздулась, как маленькая подушка. Никто её не надувал, и теплее в салоне не стало.</p><p>Откуда взялся «лишний воздух»? И куда он исчезнет, когда вы спуститесь обратно?</p></div>
+<div data-l="en"><p>In Bishkek you bought a sealed bag of crisps and set off on the road south. When the minibus climbed towards the Töö-Ashuu pass, the bag swelled like a small pillow. Nobody pumped it up, and it was not warmer in the cabin.</p><p>Where did the “extra air” come from? And where will it go when you drive back down?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подсказку даст модель «Воздух на высоте». Разгадка — в конце главы.</span><span data-l="en">The “Air at altitude” model gives a hint. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="pressure">
+<h2><span data-l="ru">Что такое давление</span><span data-l="en">What is pressure</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Встаньте на рыхлый снег в ботинках — провалитесь. Встаньте на лыжи — удержитесь, хотя вес тот же. Значит, важна не только сила, но и то, <em>на какую площадь</em> она распределена.</p><p><strong>Давление</strong> — величина, равная отношению силы, действующей перпендикулярно поверхности, к площади этой поверхности. Чем больше сила и чем меньше площадь, тем больше давление.</p><p>Единица давления в СИ — <strong>паскаль</strong> (Па): 1 Па = 1 Н/м². Это очень мало: лист бумаги на столе давит примерно на 1 Па. Поэтому часто используют <strong>килопаскаль</strong> (1 кПа = 1000 Па) и <strong>мегапаскаль</strong> (1 МПа = 1 000 000 Па).</p></div>
+<div data-l="en"><p>Step onto loose snow in boots — you sink in. Step onto skis — you stay on top, though your weight is the same. So not only the force matters, but also <em>the area</em> over which it is spread.</p><p><strong>Pressure</strong> is the force acting perpendicular to a surface divided by the area of that surface. The larger the force and the smaller the area, the greater the pressure.</p><p>The SI unit of pressure is the <strong>pascal</strong> (Pa): 1 Pa = 1 N/m². That is tiny: a sheet of paper on a table presses with about 1 Pa. So we often use the <strong>kilopascal</strong> (1 kPa = 1,000 Pa) and the <strong>megapascal</strong> (1 MPa = 1,000,000 Pa).</p></div>
+<div class="formula">p = F / S<small><span data-l="ru">p — давление (Па), F — сила (Н), S — площадь (м²)</span><span data-l="en">p is pressure (Pa), F is force (N), S is area (m²)</span></small></div>
+<div data-l="ru"><p>Давление <em>увеличивают</em>, уменьшая площадь: острое лезвие ножа, игла, заточенный топор. Давление <em>уменьшают</em>, увеличивая площадь: лыжи, гусеницы трактора, широкие лямки рюкзака.</p></div>
+<div data-l="en"><p>We <em>increase</em> pressure by reducing the area: a sharp knife blade, a needle, an axe. We <em>reduce</em> it by increasing the area: skis, tractor tracks, wide rucksack straps.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · ЛЫЖИ И СНЕГ</span><span data-l="en">MODEL 1 · SKIS AND SNOW</span></p>
+<svg id="snowSvg" viewBox="0 0 600 220" role="img" aria-label=""></svg>
+<div class="controls"><label for="shoe"><span data-l="ru">Обувь</span><span data-l="en">Footwear</span></label><select id="shoe"></select></div>
+<div class="controls"><label for="mass"><span data-l="ru">Масса человека</span><span data-l="en">Person’s mass</span>: <strong id="massOut"></strong></label><input id="mass" type="range" min="20" max="100" step="5" value="60"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Сила (вес человека)</span><span data-l="en">Force (his weight)</span></small><strong id="sF"></strong></div><div class="stat"><small><span data-l="ru">Площадь опоры S</span><span data-l="en">Contact area S</span></small><strong id="sS"></strong></div><div class="stat"><small><span data-l="ru">Давление</span><span data-l="en">Pressure</span></small><strong id="sP"></strong></div></div>
+<p class="fb" id="snowFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Площади округлены. Предел «рыхлого снега» — условные 10 кПа; настоящий снег бывает очень разным.</span><span data-l="en">Areas are rounded. The “loose snow” limit is an assumed 10 kPa; real snow varies a lot.</span></p>
+</div>
+</div>
+<table style="margin-top:18px"><thead><tr><th><span data-l="ru">ЧТО ДАВИТ</span><span data-l="en">WHAT PRESSES</span></th><th><span data-l="ru">ПРИМЕРНОЕ ДАВЛЕНИЕ</span><span data-l="en">TYPICAL PRESSURE</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Лист бумаги на столе</span><span data-l="en">A sheet of paper on a table</span></td><td>≈ 1 <span data-l="ru">Па</span><span data-l="en">Pa</span></td></tr>
+<tr><td><span data-l="ru">Школьник (45 кг) в ботинках на снегу</span><span data-l="en">A schoolchild (45 kg) in boots on snow</span></td><td>≈ 15 <span data-l="ru">кПа</span><span data-l="en">kPa</span></td></tr>
+<tr><td><span data-l="ru">Воздух на уровне моря</span><span data-l="en">Air at sea level</span></td><td>≈ 101 <span data-l="ru">кПа</span><span data-l="en">kPa</span></td></tr>
+<tr><td><span data-l="ru">Вода на глубине 100 м</span><span data-l="en">Water at 100 m depth</span></td><td>≈ 1 <span data-l="ru">МПа</span><span data-l="en">MPa</span></td></tr>
+</tbody></table>
+</section>
+
+<section class="section" id="liquid">
+<h2><span data-l="ru">Давление в жидкости</span><span data-l="en">Pressure in liquids</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Жидкость течёт и принимает форму сосуда, поэтому она давит не только вниз, но и на стенки, и вверх. <strong>Закон Паскаля:</strong> жидкости и газы передают производимое на них давление одинаково во все стороны.</p><p>Нырните на глубину — уши заложит. Над вами столб воды, и чем он выше, тем больше его вес. Давление <strong>неподвижной жидкости</strong> растёт прямо пропорционально глубине:</p></div>
+<div data-l="en"><p>A liquid flows and takes the shape of its container, so it presses not only down, but also on the walls and upwards. <strong>Pascal’s law:</strong> liquids and gases transmit the pressure applied to them equally in all directions.</p><p>Dive down and your ears hurt. Above you is a column of water, and the taller it is, the more it weighs. The pressure of a <strong>liquid at rest</strong> grows in direct proportion to depth:</p></div>
+<div class="formula">p = ρ · g · h<small><span data-l="ru">ρ — плотность жидкости (кг/м³), g ≈ 9,8 Н/кг, h — глубина (м)</span><span data-l="en">ρ is the liquid’s density (kg/m³), g ≈ 9.8 N/kg, h is depth (m)</span></small></div>
+<div data-l="ru"><p>Важно: давление зависит от <em>глубины</em> и плотности жидкости, но не от формы и ширины сосуда. В узкой трубке и в широком озере на одной глубине оно одинаково.</p><p>В воде каждые 10 м глубины добавляют давление примерно в одну атмосферу (≈ 100 кПа). Поэтому плотины, например Токтогульская высотой 215 м, делают очень массивными, а у основания — особенно толстыми: давление там измеряется мегапаскалями.</p></div>
+<div data-l="en"><p>Note: pressure depends on <em>depth</em> and the liquid’s density, but not on the shape or width of the container. At the same depth it is the same in a narrow tube and in a wide lake.</p><p>In water every 10 m of depth adds about one atmosphere (≈ 100 kPa). That is why dams, such as the 215 m Toktogul dam, are built massive and especially thick at the base: the pressure there is measured in megapascals.</p></div>
+<h3><span data-l="ru">Гидравлический пресс</span><span data-l="en">The hydraulic press</span></h3>
+<div data-l="ru"><p>По закону Паскаля давление в жидкости передаётся без изменения. Если в узком цилиндре давить на поршень малой площади <em>S₁</em>, то в широком цилиндре жидкость давит на большой поршень <em>S₂</em> с силой во столько раз большей, во сколько раз S₂ больше S₁:</p></div>
+<div data-l="en"><p>By Pascal’s law the pressure in a liquid is passed on unchanged. If you push a small piston of area <em>S₁</em> in a narrow cylinder, the liquid pushes a large piston <em>S₂</em> in a wide cylinder with a force as many times larger as S₂ is larger than S₁:</p></div>
+<div class="formula">F₂ / F₁ = S₂ / S₁<small><span data-l="ru">выигрыш в силе — проигрыш в пути: большой поршень сдвигается меньше малого</span><span data-l="en">what you gain in force you lose in distance: the large piston moves less than the small one</span></small></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · ГЛУБИНА ИССЫК-КУЛЯ</span><span data-l="en">MODEL 2 · THE DEPTHS OF ISSYK-KUL</span></p>
+<svg id="depthSvg" viewBox="0 0 600 290" role="img" aria-label=""></svg>
+<div class="controls"><label for="dep"><span data-l="ru">Глубина</span><span data-l="en">Depth</span>: <strong id="depOut"></strong></label><input id="dep" type="range" min="0" max="700" step="1" value="100"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Давление воды</span><span data-l="en">Water pressure</span></small><strong id="dP"></strong></div><div class="stat"><small><span data-l="ru">В атмосферах</span><span data-l="en">In atmospheres</span></small><strong id="dA"></strong></div><div class="stat"><small><span data-l="ru">На ладонь 100 см²</span><span data-l="en">On a 100 cm² palm</span></small><strong id="dF"></strong></div></div>
+<p class="fb" id="depFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Плотность воды принята 1000 кг/м³, g = 9,8 Н/кг; давление воздуха над озером не прибавлено. Пунктир на 215 м — высота плотины Токтогульской ГЭС для сравнения.</span><span data-l="en">Water density taken as 1,000 kg/m³, g = 9.8 N/kg; the air pressure above the lake is not added. The dashed line at 215 m is the height of the Toktogul dam, for comparison.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="atmosphere">
+<h2><span data-l="ru">Атмосферное давление</span><span data-l="en">Atmospheric pressure</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Мы живём на дне воздушного океана. Воздух имеет вес, и столб воздуха от поверхности Земли до границы атмосферы давит на всё, что внизу: на землю, на стены юрты, на нас. Над каждым квадратным метром у поверхности моря лежит столб воздуха весом примерно 100 000 Н — это вес около 10 тонн.</p><p>Почему мы не раздавлены? Воздух есть и <em>внутри</em> нас — в лёгких, в крови, в клетках. Давление внутри и снаружи уравновешено.</p><h3>Опыт Торричелли</h3><p>В 1643 году Эванджелиста Торричелли запаял стеклянную трубку, заполнил её ртутью и перевернул открытым концом в чашку с ртутью. Ртуть вытекла не вся: столбик высотой около 760 мм остался. Его удерживает давление воздуха на ртуть в чашке. Так появился первый <strong>барометр</strong>, а давление стали измерять <strong>миллиметрами ртутного столба</strong>.</p></div>
+<div data-l="en"><p>We live at the bottom of an ocean of air. Air has weight, and the column of air from the Earth’s surface to the top of the atmosphere presses on everything below: the ground, the walls of a yurt, us. Above every square metre at sea level lies a column of air weighing about 100,000 N — the weight of roughly 10 tonnes.</p><p>Why are we not crushed? There is air <em>inside</em> us too — in our lungs, blood and cells. The pressure inside and outside is balanced.</p><h3>Torricelli’s experiment</h3><p>In 1643 Evangelista Torricelli filled a sealed glass tube with mercury and turned it upside down with its open end in a dish of mercury. Not all of the mercury ran out: a column about 760 mm tall stayed. It is held up by the air pressure on the mercury in the dish. This was the first <strong>barometer</strong>, and pressure came to be measured in <strong>millimetres of mercury</strong>.</p></div>
+<div class="formula">1 <span data-l="ru">атм</span><span data-l="en">atm</span> = 101 325 <span data-l="ru">Па</span><span data-l="en">Pa</span> = 760 <span data-l="ru">мм рт. ст.</span><span data-l="en">mmHg</span><small><span data-l="ru">нормальное атмосферное давление на уровне моря</span><span data-l="en">standard atmospheric pressure at sea level</span></small></div>
+<div data-l="ru"><p>С высотой воздуха над головой становится меньше, и давление падает: у земли примерно на 1,2 кПа на каждые 100 м подъёма, выше — медленнее. В горах Кыргызстана это очень заметно. Вместе с давлением меняется и температура кипения воды: чем давление ниже, тем ниже она.</p></div>
+<div data-l="en"><p>As you climb there is less air overhead and the pressure falls: near the ground by about 1.2 kPa for every 100 m, more slowly higher up. In the mountains of Kyrgyzstan this is very noticeable. The boiling point of water changes with pressure too: the lower the pressure, the lower the boiling point.</p></div>
+<div style="overflow-x:auto"><table><thead><tr><th><span data-l="ru">МЕСТО</span><span data-l="en">PLACE</span></th><th><span data-l="ru">ВЫСОТА, М</span><span data-l="en">HEIGHT, M</span></th><th><span data-l="ru">ДАВЛЕНИЕ, КПА</span><span data-l="en">PRESSURE, KPA</span></th><th><span data-l="ru">ВОДА КИПИТ</span><span data-l="en">WATER BOILS</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Уровень моря</span><span data-l="en">Sea level</span></td><td>0</td><td>101,3</td><td>100 °C</td></tr>
+<tr><td><span data-l="ru">Бишкек</span><span data-l="en">Bishkek</span></td><td>800</td><td>92,1</td><td>97,3 °C</td></tr>
+<tr><td><span data-l="ru">Озеро Иссык-Куль</span><span data-l="en">Lake Issyk-Kul</span></td><td>1607</td><td>83,5</td><td>94,7 °C</td></tr>
+<tr><td><span data-l="ru">Перевал Төө-Ашуу</span><span data-l="en">Töö-Ashuu pass</span></td><td>3586</td><td>65,0</td><td>88,1 °C</td></tr>
+<tr><td><span data-l="ru">Пик Ленина</span><span data-l="en">Lenin Peak</span></td><td>7134</td><td>40,3</td><td>76,1 °C</td></tr>
+</tbody></table></div>
+<p class="callout"><span data-l="ru">Значения — для «стандартной атмосферы»; реальное давление меняется с погодой на несколько кПа. Тоннель под перевалом Төө-Ашуу проходит на высоте около 3,2 км, старая дорога поднимается выше, до 3,6 км.</span><span data-l="en">Values are for the “standard atmosphere”; real pressure shifts by a few kPa with the weather. The tunnel under the Töö-Ashuu pass runs at about 3.2 km; the old road climbs higher, to 3.6 km.</span></p>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 3 · ВОЗДУХ НА ВЫСОТЕ</span><span data-l="en">MODEL 3 · AIR AT ALTITUDE</span></p>
+<svg id="airSvg" viewBox="0 0 600 260" role="img" aria-label=""></svg>
+<div class="controls"><label for="alt"><span data-l="ru">Высота над уровнем моря</span><span data-l="en">Height above sea level</span>: <strong id="altOut"></strong></label><input id="alt" type="range" min="0" max="7500" step="1" value="800"></div>
+<div class="controls" id="places"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Давление воздуха</span><span data-l="en">Air pressure</span></small><strong id="aP"></strong></div><div class="stat"><small><span data-l="ru">От уровня моря</span><span data-l="en">Of sea level</span></small><strong id="aPct"></strong></div><div class="stat"><small><span data-l="ru">Вода кипит при</span><span data-l="en">Water boils at</span></small><strong id="aBoil"></strong></div></div>
+<p class="fb" id="airFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Давление — по формуле стандартной атмосферы, кипение — по уравнению Антуана. Пачка: объём газа ∝ 1/p при постоянной температуре, плёнка считается нерастяжимой без сопротивления — это идеализация.</span><span data-l="en">Pressure from the standard-atmosphere formula, boiling from the Antoine equation. The bag: gas volume ∝ 1/p at constant temperature, the film is treated as stretching without resistance — an idealisation.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="archimedes">
+<h2><span data-l="ru">Сила Архимеда и плавание тел</span><span data-l="en">Archimedes’ force and floating</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Погрузите в воду мяч — рука почувствует, как вода выталкивает его вверх. Причина — давление. У нижней грани погружённого тела глубина больше, чем у верхней, значит, давление снизу больше, чем сверху. Разность давлений даёт силу, направленную вверх, — <strong>выталкивающую силу</strong>, или <strong>силу Архимеда</strong>.</p><p><strong>Закон Архимеда:</strong> на тело, погружённое в жидкость или газ, действует выталкивающая сила, равная весу жидкости (газа) в объёме погружённой части тела.</p></div>
+<div data-l="en"><p>Push a ball into water — your hand feels the water pushing it up. The cause is pressure. The bottom face of a submerged body is deeper than the top face, so the pressure from below is greater than from above. The difference gives an upward force — the <strong>buoyant force</strong>, or <strong>Archimedes’ force</strong>.</p><p><strong>Archimedes’ principle:</strong> a body immersed in a liquid or gas is acted on by a buoyant force equal to the weight of the liquid (gas) in the volume of the submerged part of the body.</p></div>
+<div class="formula">F<sub>A</sub> = ρ<sub><span data-l="ru">ж</span><span data-l="en">liq</span></sub> · g · V<sub><span data-l="ru">погр</span><span data-l="en">sub</span></sub><small><span data-l="ru">ρ<sub>ж</sub> — плотность жидкости, V<sub>погр</sub> — объём погружённой части тела</span><span data-l="en">ρ<sub>liq</sub> is the liquid’s density, V<sub>sub</sub> is the volume of the submerged part</span></small></div>
+<div data-l="ru"><h3>Тонет или плавает?</h3><p>Сравните силу тяжести <em>W</em> и силу Архимеда при полном погружении:</p><ul class="src"><li>если W больше — тело <strong>тонет</strong> (плотность тела больше плотности жидкости);</li><li>если W меньше — тело <strong>всплывает</strong>, пока часть его не окажется над водой;</li><li>если силы равны — тело <strong>плавает</strong> там, где находится.</li></ul><p>Плавающее тело погружено так, что F<sub>A</sub> = W. Доля погружённого объёма равна ρ<sub>тела</sub> / ρ<sub>жидкости</sub>. У льдины это 917 / 1000 — почти 92 %, над водой только около 8 %.</p><p>Железный гвоздь тонет, а железный пароход плавает: у парохода внутри полости с воздухом, и <em>средняя</em> плотность корпуса вместе с воздухом меньше плотности воды. Человек легче держится в солёной воде: чем плотнее жидкость, тем больше сила Архимеда при том же объёме. Воздух тоже выталкивает: на этом летают воздушные шары.</p></div>
+<div data-l="en"><h3>Does it sink or float?</h3><p>Compare the weight <em>W</em> with Archimedes’ force at full immersion:</p><ul class="src"><li>if W is larger, the body <strong>sinks</strong> (its density is greater than the liquid’s);</li><li>if W is smaller, the body <strong>rises</strong> until part of it sticks out of the water;</li><li>if the forces are equal, the body <strong>floats</strong> where it is.</li></ul><p>A floating body sits so that F<sub>A</sub> = W. The submerged fraction equals ρ<sub>body</sub> / ρ<sub>liquid</sub>. For an ice floe that is 917 / 1000 — almost 92 %, with only about 8 % above the water.</p><p>An iron nail sinks, but an iron steamship floats: the ship has air-filled hollows, and the <em>average</em> density of hull plus air is less than that of water. A person floats more easily in salty water: the denser the liquid, the larger Archimedes’ force for the same volume. Air pushes up too: that is how hot-air balloons fly.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 4 · ТОНЕТ ИЛИ ПЛАВАЕТ</span><span data-l="en">MODEL 4 · SINK OR FLOAT</span></p>
+<svg id="arcSvg" viewBox="0 0 600 270" role="img" aria-label=""></svg>
+<div class="controls"><label for="obj"><span data-l="ru">Тело</span><span data-l="en">Body</span></label><select id="obj"></select></div>
+<div class="controls"><label for="liq"><span data-l="ru">Жидкость</span><span data-l="en">Liquid</span></label><select id="liq"></select></div>
+<div class="controls"><label for="vol"><span data-l="ru">Объём</span><span data-l="en">Volume</span>: <strong id="volOut"></strong></label><input id="vol" type="range" min="1" max="20" step="1" value="5"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Сила тяжести W</span><span data-l="en">Weight W</span></small><strong id="aW"></strong></div><div class="stat"><small><span data-l="ru">Сила Архимеда F<sub>A</sub></span><span data-l="en">Archimedes’ force F<sub>A</sub></span></small><strong id="aF"></strong></div><div class="stat"><small><span data-l="ru">Под водой</span><span data-l="en">Submerged</span></small><strong id="aSub"></strong></div></div>
+<p class="fb" id="arcFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Плотности: сосна 470, лёд 917, гранит 2700, железо 7870 кг/м³. У лодки учтён воздух внутри: средняя плотность условно 300 кг/м³. Жидкости: пресная вода 1000, морская 1025, вода Мёртвого моря 1240 кг/м³.</span><span data-l="en">Densities: pine 470, ice 917, granite 2,700, iron 7,870 kg/m³. For the boat the air inside is included: an assumed average density of 300 kg/m³. Liquids: fresh water 1,000, sea water 1,025, Dead Sea water 1,240 kg/m³.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Пешком или на лыжах</span><span data-l="en">Problem 1. On foot or on skis</span></summary>
+<div data-l="ru"><p>Мальчик массой 45 кг стоит на снегу. Площадь подошв его ботинок — 0,03 м² (по 150 см²). Какое давление он производит? Во сколько раз оно уменьшится на лыжах общей площадью 0,24 м²?</p><p class="given">Дано: m = 45 кг, S₁ = 0,03 м², S₂ = 0,24 м², g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Сила, давящая на снег, равна весу: F = m · g = 45 · 9,8 ≈ 441 Н.<br>2) В ботинках: p₁ = F / S₁ = 441 / 0,03 = 14 700 Па ≈ 15 кПа.<br>3) На лыжах: p₂ = 441 / 0,24 ≈ 1840 Па ≈ 1,8 кПа.<br>4) p₁ / p₂ = S₂ / S₁ = 0,24 / 0,03 = 8.</p><p><strong>Ответ:</strong> ≈ 15 кПа; на лыжах давление в 8 раз меньше (≈ 1,8 кПа).</p></div></div>
+<div data-l="en"><p>A boy of mass 45 kg stands on snow. The area of his boot soles is 0.03 m² (150 cm² each). What pressure does he exert? By what factor does it drop on skis of total area 0.24 m²?</p><p class="given">Given: m = 45 kg, S₁ = 0.03 m², S₂ = 0.24 m², g ≈ 9.8 N/kg</p><div class="sol"><p>1) The force on the snow equals his weight: F = m · g = 45 · 9.8 ≈ 441 N.<br>2) In boots: p₁ = F / S₁ = 441 / 0.03 = 14,700 Pa ≈ 15 kPa.<br>3) On skis: p₂ = 441 / 0.24 ≈ 1,840 Pa ≈ 1.8 kPa.<br>4) p₁ / p₂ = S₂ / S₁ = 0.24 / 0.03 = 8.</p><p><strong>Answer:</strong> ≈ 15 kPa; on skis the pressure is 8 times smaller (≈ 1.8 kPa).</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. На дне Иссык-Куля</span><span data-l="en">Problem 2. At the bottom of Issyk-Kul</span></summary>
+<div data-l="ru"><p>Наибольшая глубина озера Иссык-Куль — 668 м. Какое давление создаёт вода на этой глубине? С какой силой она давит на ладонь площадью 100 см²? Плотность воды примите 1000 кг/м³.</p><p class="given">Дано: h = 668 м, ρ = 1000 кг/м³, S = 100 см² = 0,01 м²</p><div class="sol"><p>1) p = ρ · g · h = 1000 · 9,8 · 668 ≈ 6 546 000 Па ≈ 6,5 МПа.<br>2) В атмосферах: 6 546 000 / 101 325 ≈ 65 атм.<br>3) F = p · S = 6 546 000 · 0,01 ≈ 65 000 Н = 65 кН.</p><p><strong>Ответ:</strong> около 6,5 МПа (≈ 65 атмосфер); на ладонь давит сила около 65 кН — как вес 6,7 тонны. Без скафандра на такой глубине человек не выживет.</p></div></div>
+<div data-l="en"><p>The greatest depth of Lake Issyk-Kul is 668 m. What pressure does the water create at that depth? With what force does it press on a palm of area 100 cm²? Take the density of water as 1,000 kg/m³.</p><p class="given">Given: h = 668 m, ρ = 1,000 kg/m³, S = 100 cm² = 0.01 m²</p><div class="sol"><p>1) p = ρ · g · h = 1,000 · 9.8 · 668 ≈ 6,546,000 Pa ≈ 6.5 MPa.<br>2) In atmospheres: 6,546,000 / 101,325 ≈ 65 atm.<br>3) F = p · S = 6,546,000 · 0.01 ≈ 65,000 N = 65 kN.</p><p><strong>Answer:</strong> about 6.5 MPa (≈ 65 atmospheres); a force of about 65 kN presses on the palm — like the weight of 6.7 tonnes. A person without a pressure suit could not survive at such a depth.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Торричелли: ртуть и вода</span><span data-l="en">Problem 3. Torricelli: mercury and water</span></summary>
+<div data-l="ru"><p>Столбик ртути в трубке Торричелли имеет высоту 760 мм. Найдите давление атмосферы. Какой высоты был бы столб воды в таком барометре?</p><p class="given">Дано: h<sub>рт</sub> = 0,76 м, ρ<sub>рт</sub> = 13 600 кг/м³, ρ<sub>в</sub> = 1000 кг/м³</p><div class="sol"><p>1) p = ρ · g · h = 13 600 · 9,8 · 0,76 ≈ 101 300 Па ≈ 101 кПа.<br>2) Воду выразим из той же формулы: h = p / (ρ<sub>в</sub> · g) = 101 300 / (1000 · 9,8) ≈ 10,3 м.</p><p><strong>Ответ:</strong> ≈ 101 кПа; водяной барометр должен быть выше 10 м. Поэтому Торричелли взял ртуть — она в 13,6 раза плотнее воды, и трубка получается короткой. Заодно видно, почему каждые 10 м глубины в воде добавляют около 1 атмосферы.</p></div></div>
+<div data-l="en"><p>The mercury column in a Torricelli tube is 760 mm tall. Find the atmospheric pressure. How tall would the column be if the barometer used water?</p><p class="given">Given: h<sub>Hg</sub> = 0.76 m, ρ<sub>Hg</sub> = 13,600 kg/m³, ρ<sub>w</sub> = 1,000 kg/m³</p><div class="sol"><p>1) p = ρ · g · h = 13,600 · 9.8 · 0.76 ≈ 101,300 Pa ≈ 101 kPa.<br>2) For water use the same formula: h = p / (ρ<sub>w</sub> · g) = 101,300 / (1,000 · 9.8) ≈ 10.3 m.</p><p><strong>Answer:</strong> ≈ 101 kPa; a water barometer would have to be taller than 10 m. That is why Torricelli used mercury — it is 13.6 times denser than water, so the tube is short. It also shows why every 10 m of depth in water adds about 1 atmosphere.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Камень в воде</span><span data-l="en">Problem 4. A stone in water</span></summary>
+<div data-l="ru"><p>Гранитный камень объёмом 4 дм³ полностью погружён в воду. Найдите силу тяжести, силу Архимеда и показание динамометра, на котором камень подвешен в воде. Плотность гранита 2700 кг/м³.</p><p class="given">Дано: V = 4 дм³ = 0,004 м³, ρ<sub>г</sub> = 2700 кг/м³, ρ<sub>в</sub> = 1000 кг/м³</p><div class="sol"><p>1) W = ρ<sub>г</sub> · V · g = 2700 · 0,004 · 9,8 ≈ 106 Н.<br>2) F<sub>A</sub> = ρ<sub>в</sub> · g · V = 1000 · 9,8 · 0,004 ≈ 39 Н.<br>3) Динамометр покажет W − F<sub>A</sub> = 106 − 39 ≈ 67 Н.</p><p><strong>Ответ:</strong> 106 Н, 39 Н и 67 Н. В воде камень «полегчал» на вес вытесненной воды — почти на 40 %.</p></div></div>
+<div data-l="en"><p>A granite stone of volume 4 dm³ is fully submerged in water. Find its weight, Archimedes’ force and the reading of a spring balance from which the stone hangs in the water. The density of granite is 2,700 kg/m³.</p><p class="given">Given: V = 4 dm³ = 0.004 m³, ρ<sub>g</sub> = 2,700 kg/m³, ρ<sub>w</sub> = 1,000 kg/m³</p><div class="sol"><p>1) W = ρ<sub>g</sub> · V · g = 2,700 · 0.004 · 9.8 ≈ 106 N.<br>2) F<sub>A</sub> = ρ<sub>w</sub> · g · V = 1,000 · 9.8 · 0.004 ≈ 39 N.<br>3) The balance reads W − F<sub>A</sub> = 106 − 39 ≈ 67 N.</p><p><strong>Answer:</strong> 106 N, 39 N and 67 N. In water the stone “lost” the weight of the displaced water — almost 40 %.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 5. Гидравлический пресс</span><span data-l="en">Problem 5. A hydraulic press</span></summary>
+<div data-l="ru"><p>Площадь малого поршня гидравлического пресса — 10 см², большого — 500 см². На малый поршень давят с силой 100 Н. С какой силой давит большой поршень?</p><p class="given">Дано: S₁ = 10 см², S₂ = 500 см², F₁ = 100 Н</p><div class="sol"><p>1) Давление одинаково: F₁ / S₁ = F₂ / S₂, откуда F₂ = F₁ · S₂ / S₁.<br>2) F₂ = 100 · 500 / 10 = 5000 Н.</p><p><strong>Ответ:</strong> 5000 Н — как вес груза массой около 510 кг. Выигрыш в силе — в 50 раз, но большой поршень сдвинется в 50 раз меньше малого.</p></div></div>
+<div data-l="en"><p>A hydraulic press has a small piston of area 10 cm² and a large piston of 500 cm². The small piston is pushed with a force of 100 N. With what force does the large piston push?</p><p class="given">Given: S₁ = 10 cm², S₂ = 500 cm², F₁ = 100 N</p><div class="sol"><p>1) The pressure is the same: F₁ / S₁ = F₂ / S₂, so F₂ = F₁ · S₂ / S₁.<br>2) F₂ = 100 · 500 / 10 = 5,000 N.</p><p><strong>Answer:</strong> 5,000 N — like the weight of a load of about 510 kg. The force gain is 50 times, but the large piston moves 50 times less than the small one.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 6. Льдина на реке</span><span data-l="en">Problem 6. An ice floe on a river</span></summary>
+<div data-l="ru"><p>Льдина плавает в пресной воде. Какая часть её объёма находится под водой? Плотность льда 917 кг/м³.</p><p class="given">Дано: ρ<sub>л</sub> = 917 кг/м³, ρ<sub>в</sub> = 1000 кг/м³</p><div class="sol"><p>1) Льдина плавает: F<sub>A</sub> = W, то есть ρ<sub>в</sub> · g · V<sub>погр</sub> = ρ<sub>л</sub> · g · V.<br>2) V<sub>погр</sub> / V = ρ<sub>л</sub> / ρ<sub>в</sub> = 917 / 1000 ≈ 0,92.</p><p><strong>Ответ:</strong> около 92 % объёма под водой, над водой остаётся около 8 %.</p></div></div>
+<div data-l="en"><p>An ice floe floats in fresh water. What fraction of its volume is under water? The density of ice is 917 kg/m³.</p><p class="given">Given: ρ<sub>ice</sub> = 917 kg/m³, ρ<sub>w</sub> = 1,000 kg/m³</p><div class="sol"><p>1) The floe floats: F<sub>A</sub> = W, that is ρ<sub>w</sub> · g · V<sub>sub</sub> = ρ<sub>ice</sub> · g · V.<br>2) V<sub>sub</sub> / V = ρ<sub>ice</sub> / ρ<sub>w</sub> = 917 / 1,000 ≈ 0.92.</p><p><strong>Answer:</strong> about 92 % of the volume is under water, about 8 % above.</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: почему раздулась пачка?</span><span data-l="en">The answer: why did the bag swell?</span></h2>
+<div data-l="ru"><p>Лишнего воздуха не появилось. В Бишкеке (около 800 м) пачку запечатали при давлении примерно 92 кПа. На перевале Төө-Ашуу (около 3,6 км) давление снаружи — всего около 65 кПа. Внутри пачки воздух ещё «помнит» 92 кПа, а снаружи его давит меньше, поэтому он расширяется и раздувает плёнку. Если бы плёнка тянулась без сопротивления, объём вырос бы примерно в 1,4 раза — проверьте в модели «Воздух на высоте».</p><p>Когда вы спуститесь обратно, давление снаружи вырастет, воздух сожмётся, и пачка снова станет плоской. Так же ведут себя закрытые бутылки: поднимите пустую закрытую бутылку в горы и откройте — раздастся шипение: воздух выходит, давление выравнивается. Любителям гор это знакомо ещё по одному признаку: на высоте вода закипает при более низкой температуре, поэтому там дольше варится мясо.</p></div>
+<div data-l="en"><p>No extra air appeared. In Bishkek (about 800 m) the bag was sealed at a pressure of about 92 kPa. At the Töö-Ashuu pass (about 3.6 km) the outside pressure is only about 65 kPa. The air in the bag still “remembers” 92 kPa, but outside pushes on it less, so it expands and stretches the film. If the film stretched without resistance, the volume would grow about 1.4 times — check it in the “Air at altitude” model.</p><p>When you drive back down, the outside pressure rises, the air is compressed and the bag goes flat again. Closed bottles behave the same way: take an empty capped bottle up a mountain and open it — you hear a hiss as air escapes and the pressures even out. Mountain lovers know another sign of the same thing: at altitude water boils at a lower temperature, so meat takes longer to cook there.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Стандартная атмосфера: 101 325 Па на уровне моря, формула давления по высоте (показатель 5,25588) —</span><span data-l="en">Standard atmosphere: 101,325 Pa at sea level, the pressure–altitude formula (exponent 5.25588) —</span> <a href="https://www.calculate.co.nz/air-pressure-at-altitude-calculator.php" target="_blank" rel="noopener">Air Pressure at Altitude Calculator (ISA)</a>, <a href="https://en.wikipedia.org/wiki/Atmospheric_pressure" target="_blank" rel="noopener">Wikipedia: Atmospheric pressure</a></li>
+<li><span data-l="ru">1 атм = 760 мм рт. ст.; падение давления около 1,2 кПа на 100 м у земли —</span><span data-l="en">1 atm = 760 mmHg; pressure drop of about 1.2 kPa per 100 m near the ground —</span> <a href="https://en.wikipedia.org/wiki/Atmospheric_pressure" target="_blank" rel="noopener">Wikipedia: Atmospheric pressure</a></li>
+<li><span data-l="ru">Опыт Торричелли (1643), 760 мм ртути, плотность ртути 13 600 кг/м³ —</span><span data-l="en">Torricelli’s experiment (1643), 760 mm of mercury, mercury density 13,600 kg/m³ —</span> <a href="https://learn.physicslens.com/pressure/barometer.html" target="_blank" rel="noopener">PhysicsLens: Barometer</a>, <a href="https://en.wikipedia.org/wiki/Millimetre_of_mercury" target="_blank" rel="noopener">Wikipedia: Millimetre of mercury</a></li>
+<li><span data-l="ru">Температура кипения воды — уравнение Антуана, коэффициенты для воды —</span><span data-l="en">Boiling point of water — the Antoine equation, coefficients for water —</span> <a href="https://en.wikipedia.org/wiki/Antoine_equation" target="_blank" rel="noopener">Wikipedia: Antoine equation</a>; <span data-l="ru">проверка: около 90 °C на высоте 3000 м —</span><span data-l="en">cross-check: about 90 °C at 3,000 m —</span> <a href="https://en.wikipedia.org/wiki/High-altitude_cooking" target="_blank" rel="noopener">Wikipedia: High-altitude cooking</a></li>
+<li><span data-l="ru">Высота перевала Төө-Ашуу (3586 м; тоннель около 3,2 км) —</span><span data-l="en">Töö-Ashuu pass height (3,586 m; the tunnel at about 3.2 km) —</span> <a href="https://en.wikipedia.org/wiki/T%C3%B6%C3%B6_Ashuu" target="_blank" rel="noopener">Wikipedia: Töö Ashuu</a></li>
+<li><span data-l="ru">Высота Бишкека (около 800 м) —</span><span data-l="en">Height of Bishkek (about 800 m) —</span> <a href="https://en.wikipedia.org/wiki/Bishkek" target="_blank" rel="noopener">Wikipedia: Bishkek</a></li>
+<li><span data-l="ru">Иссык-Куль (глубина 668 м, высота 1607 м), пик Ленина (7134 м) —</span><span data-l="en">Issyk-Kul (depth 668 m, height 1,607 m), Lenin Peak (7,134 m) —</span> <a href="https://en.wikipedia.org/wiki/Issyk-Kul" target="_blank" rel="noopener">Wikipedia: Issyk-Kul</a>, <a href="https://en.wikipedia.org/wiki/Lenin_Peak" target="_blank" rel="noopener">Wikipedia: Lenin Peak</a></li>
+<li><span data-l="ru">Плотина Токтогульской ГЭС: высота 215 м —</span><span data-l="en">Toktogul dam: height 215 m —</span> <a href="https://en.wikipedia.org/wiki/Toktogul_Dam" target="_blank" rel="noopener">Wikipedia: Toktogul Dam</a></li>
+<li><span data-l="ru">Плотность воды Мёртвого моря около 1240 кг/м³ —</span><span data-l="en">Dead Sea water density about 1,240 kg/m³ —</span> <a href="https://me.ucsb.edu/sites/default/files/publications/Meiburg/Meiburg%20%2B%20Lensky%20ARFM%20submitted.pdf" target="_blank" rel="noopener">Meiburg &amp; Lensky, Annual Review of Fluid Mechanics (UCSB)</a></li>
+<li><span data-l="ru">Плотность морской воды около 1025 кг/м³ —</span><span data-l="en">Sea water density about 1,025 kg/m³ —</span> <a href="https://en.wikipedia.org/wiki/Seawater" target="_blank" rel="noopener">Wikipedia: Seawater</a></li>
+<li><span data-l="ru">Плотность сосны (около 470 кг/м³ при влажности 12 %) —</span><span data-l="en">Pine density (about 470 kg/m³ at 12 % moisture) —</span> <a href="https://www.swedishwood.com/wood-facts/about-wood/from-log-to-plank/properties-of-softwood/" target="_blank" rel="noopener">Swedish Wood: Properties of softwood</a></li>
+<li><span data-l="ru">Плотности льда, гранита и железа — как в главе 3 (см. её источники).</span><span data-l="en">Densities of ice, granite and iron are taken from chapter 3 (see its sources).</span></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные. Площади подошв и лыж, предел «рыхлого снега» и средняя плотность лодки — условные значения для модели.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original. Sole and ski areas, the “loose snow” limit and the boat’s average density are assumed values for the models.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="03-motion-and-forces.html">← <span data-l="ru">Глава 03 · Движение и силы</span><span data-l="en">Chapter 03 · Motion and forces</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 05 · Работа, мощность, энергия — скоро</span><span data-l="en">Chapter 05 · Work, power, energy — coming soon</span> →</span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 04</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 04</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const G=9.8,P0=101325;
+const T={
+ru:{Pa:" Па",kPa:" кПа",MPa:" МПа",N:" Н",kN:" кН",m:" м",kg:" кг",m2:" м²",atm:" атм",t:" т",c:" °C",mmHg:" мм рт. ст.",dm3:" дм³",
+snowLabel:"Человек на снегу в разной обуви",depthLabel:"Столб воды с водолазом и график давления",airLabel:"Воздух на разной высоте и пачка чипсов",arcLabel:"Тело в жидкости, силы тяжести и Архимеда",
+shoes:[["Ботинки",0.04],["Снегоступы",0.2],["Лыжи",0.3],["Каблук-шпилька (один)",0.0001]],
+snowOk:"Давление меньше 10 кПа — снег держит.",snowBad:"Давление больше 10 кПа — снег не держит, человек проваливается.",
+depth:{top:"У поверхности — только давление воздуха.",dam:"Это уже глубина как высота плотины Токтогульской ГЭС.",lake:"Дно самого глубокого места Иссык-Куля.",mid:"Каждые 10 м глубины добавляют около 1 атмосферы."},
+places:[["Бишкек",800],["Иссык-Куль",1607],["Төө-Ашуу",3586],["Пик Ленина",7134]],
+air:{bag0:"запаяна в Бишкеке",bag1:"на этой высоте",more:"Давление ниже, чем в Бишкеке: объём пачки вырастает примерно ×",less:"Давление выше, чем в Бишкеке: пачка сморщивается, объём примерно ×",same:"Давление такое же, как в Бишкеке: пачка не меняется.",hg:"Ртутный барометр показал бы ",times:""},
+objs:[["Сосна",470],["Лёд",917],["Гранит",2700],["Железный брусок",7870],["Стальная лодка (с воздухом)",300]],liqs:[["Пресная вода",1000],["Морская вода",1025],["Вода Мёртвого моря",1240]],
+arcFloat:"Плавает: F_A = W. Под водой ",arcSink:"Тонет: F_A меньше W. Динамометр в жидкости показал бы ",arcRise:"",wLab:"W",fLab:"F_A",
+score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{Pa:" Pa",kPa:" kPa",MPa:" MPa",N:" N",kN:" kN",m:" m",kg:" kg",m2:" m²",atm:" atm",t:" t",c:" °C",mmHg:" mmHg",dm3:" dm³",
+snowLabel:"A person on snow in different footwear",depthLabel:"A water column with a diver and a pressure graph",airLabel:"Air at different heights and a bag of crisps",arcLabel:"A body in a liquid, weight and Archimedes’ force",
+shoes:[["Boots",0.04],["Snowshoes",0.2],["Skis",0.3],["Stiletto heel (one)",0.0001]],
+snowOk:"Pressure is below 10 kPa — the snow holds.",snowBad:"Pressure is above 10 kPa — the snow does not hold, the person sinks in.",
+depth:{top:"At the surface — only the air pressure.",dam:"This is already as deep as the Toktogul dam is tall.",lake:"The bottom of the deepest part of Issyk-Kul.",mid:"Every 10 m of depth adds about 1 atmosphere."},
+places:[["Bishkek",800],["Issyk-Kul",1607],["Töö-Ashuu",3586],["Lenin Peak",7134]],
+air:{bag0:"sealed in Bishkek",bag1:"at this height",more:"Pressure is lower than in Bishkek: the bag’s volume grows about ×",less:"Pressure is higher than in Bishkek: the bag shrinks, volume about ×",same:"Pressure equals Bishkek’s: the bag is unchanged.",hg:"A mercury barometer would read ",times:""},
+objs:[["Pine",470],["Ice",917],["Granite",2700],["Iron block",7870],["Steel boat (with air)",300]],liqs:[["Fresh water",1000],["Sea water",1025],["Dead Sea water",1240]],
+arcFloat:"Floats: F_A = W. Submerged ",arcSink:"Sinks: F_A is less than W. A spring balance in the liquid would read ",arcRise:"",wLab:"W",fLab:"F_A",
+score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function num(x){return lang==="ru"?String(x).replace(/\B(?=(\d{3})+(?!\d))/g," "):String(x).replace(/\B(?=(\d{3})+(?!\d))/g,",")}
+function fmtP(p){const t=T[lang];if(p>=1e6)return fmt(p/1e6,2)+t.MPa;if(p>=1e3)return fmt(p/1e3,p>=1e5?0:1)+t.kPa;return fmt(p,0)+t.Pa}
+function fmtF(f){const t=T[lang];return f>=1e4?fmt(f/1e3,0)+t.kN:fmt(f,f<100?1:0)+t.N}
+function areaTxt(s){const t=T[lang];return s>=0.01?fmt(s,s<0.1?2:1)+t.m2:fmt(s*1e4,0)+(lang==="ru"?" см²":" cm²")}
+function svgText(x,y,txt,col,anchor,size){return '<text x="'+x+'" y="'+y+'" text-anchor="'+(anchor||"start")+'" font-family="JetBrains Mono,monospace" font-size="'+(size||11)+'" fill="'+col+'">'+txt+'</text>'}
+function arrowV(x,y1,y2,col,w){const d=y2>y1?1:-1;if(Math.abs(y2-y1)<2)return "";return '<line x1="'+x+'" y1="'+y1+'" x2="'+x+'" y2="'+(y2-d*9)+'" stroke="'+col+'" stroke-width="'+w+'"/><path d="M'+x+' '+y2+' L'+(x-6)+' '+(y2-d*11)+' L'+(x+6)+' '+(y2-d*11)+' Z" fill="'+col+'"/>'}
+function arrowH(x1,x2,y,col,w){const d=x2>x1?1:-1;if(Math.abs(x2-x1)<2)return "";return '<line x1="'+x1+'" y1="'+y+'" x2="'+(x2-d*9)+'" y2="'+y+'" stroke="'+col+'" stroke-width="'+w+'"/><path d="M'+x2+' '+y+' L'+(x2-d*11)+' '+(y-6)+' L'+(x2-d*11)+' '+(y+6)+' Z" fill="'+col+'"/>'}
+function airP(h){return P0*Math.pow(1-2.25577e-5*h,5.25588)}
+function boilC(p){return 1730.63/(8.07131-Math.log10(p/133.322387415))-233.426}
+
+/* ---------- Model 1: skis and snow ---------- */
+function fillShoe(){const sel=$("shoe"),v=sel.value;sel.innerHTML="";T[lang].shoes.forEach((s,i)=>{const o=document.createElement("option");o.value=i;o.textContent=s[0]+" (S = "+areaTxt(s[1])+")";sel.appendChild(o)});sel.value=v||"0"}
+function drawSnow(){const t=T[lang],sh=t.shoes[+$("shoe").value],m=+$("mass").value,S=sh[1],F=m*G,p=F/S,thr=10000;
+ const sink=Math.min(60,60*p/(p+3*thr)),w=Math.max(6,Math.sqrt(S)*240),cx=300,gy=130;
+ let s='<rect x="0" y="0" width="600" height="220" fill="none"/>';
+ s+='<g transform="translate(0,'+sink.toFixed(1)+')">';
+ s+='<rect x="'+(cx-w/2)+'" y="'+(gy-8)+'" width="'+w+'" height="8" rx="3" fill="#8a6a3f"/>';
+ s+='<g fill="none" stroke="#2f6f5d" stroke-width="3" stroke-linecap="round"><circle cx="'+cx+'" cy="'+(gy-92)+'" r="9" fill="#2f6f5d"/><line x1="'+cx+'" y1="'+(gy-82)+'" x2="'+cx+'" y2="'+(gy-40)+'"/><line x1="'+cx+'" y1="'+(gy-40)+'" x2="'+(cx-9)+'" y2="'+(gy-9)+'"/><line x1="'+cx+'" y1="'+(gy-40)+'" x2="'+(cx+9)+'" y2="'+(gy-9)+'"/><line x1="'+cx+'" y1="'+(gy-72)+'" x2="'+(cx-16)+'" y2="'+(gy-50)+'"/><line x1="'+cx+'" y1="'+(gy-72)+'" x2="'+(cx+16)+'" y2="'+(gy-50)+'"/></g>';
+ s+=arrowV(cx+60,gy-60,gy-8,"#b6533f",4)+svgText(cx+72,gy-30,"F","#b6533f","start",13);
+ s+='</g>';
+ s+='<rect x="0" y="'+gy+'" width="600" height="90" fill="#eef1f3"/><line x1="0" y1="'+gy+'" x2="600" y2="'+gy+'" stroke="#c4ccd2" stroke-width="2"/>';
+ s+=svgText(14,24,fmtP(p),"#18181a","start",16)+svgText(14,42,"p = F / S","#66666b","start",11);
+ s+=svgText(586,206,"S = "+areaTxt(S),"#66666b","end",11);
+ $("snowSvg").innerHTML=s;
+ $("massOut").textContent=m+t.kg;$("sF").textContent=fmtF(F);$("sS").textContent=areaTxt(S);$("sP").textContent=fmtP(p);
+ const fb=$("snowFb");if(p<=thr){fb.className="fb ok";fb.textContent=t.snowOk}else{fb.className="fb bad";fb.textContent=t.snowBad}}
+["shoe","mass"].forEach(id=>$(id).addEventListener("input",drawSnow));
+
+/* ---------- Model 2: depth ---------- */
+function drawDepth(){const t=T[lang],h=+$("dep").value,p=1000*G*h,y0=30,y1=240,ys=hh=>y0+hh/700*(y1-y0),yd=ys(h);
+ let s='<defs><linearGradient id="wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bcd8e8"/><stop offset="1" stop-color="#3f6f93"/></linearGradient></defs>';
+ s+='<rect x="64" y="'+y0+'" width="200" height="'+(y1-y0)+'" fill="url(#wg)"/><line x1="54" y1="'+y0+'" x2="270" y2="'+y0+'" stroke="#18181a" stroke-width="2"/>';
+ for(let d=0;d<=700;d+=100){const y=ys(d);s+='<line x1="252" y1="'+y+'" x2="264" y2="'+y+'" stroke="#fff"/>'+svgText(58,y+4,d+t.m,"#66666b","end",10)}
+ s+='<line x1="64" y1="'+ys(215)+'" x2="252" y2="'+ys(215)+'" stroke="#18181a" stroke-dasharray="4 4" stroke-opacity=".6"/>'+svgText(70,ys(215)-4,"215"+t.m,"#18181a","start",10);
+ s+='<line x1="64" y1="'+ys(668)+'" x2="252" y2="'+ys(668)+'" stroke="#fff" stroke-dasharray="2 4"/>'+svgText(70,ys(668)-4,"668"+t.m,"#fff","start",10);
+ const k=Math.min(26,6+p/6546400*26);
+ s+=arrowH(164-k-18,164-18,yd,"#b6533f",3)+arrowH(164+k+18,164+18,yd,"#b6533f",3)+arrowV(164,yd-k-18,yd-18,"#b6533f",3)+arrowV(164,yd+k+18,yd+18,"#b6533f",3);
+ s+='<circle cx="164" cy="'+yd+'" r="9" fill="#18181a"/><circle cx="164" cy="'+yd+'" r="3" fill="#f2f2ef"/>';
+ /* graph */
+ const gx=330,gw=240,gy0=30,gh=210;s+='<line x1="'+gx+'" y1="'+gy0+'" x2="'+gx+'" y2="'+(gy0+gh)+'" stroke="#66666b"/><line x1="'+gx+'" y1="'+(gy0+gh)+'" x2="'+(gx+gw)+'" y2="'+(gy0+gh)+'" stroke="#66666b"/>';
+ s+='<line x1="'+gx+'" y1="'+(gy0+gh)+'" x2="'+(gx+gw)+'" y2="'+gy0+'" stroke="#2f6f5d" stroke-width="2"/>';
+ const px=gx+h/700*gw,py=gy0+gh-p/6860000*gh;
+ s+='<line x1="'+px+'" y1="'+(gy0+gh)+'" x2="'+px+'" y2="'+py+'" stroke="#b6533f" stroke-dasharray="3 3"/><circle cx="'+px+'" cy="'+py+'" r="6" fill="#b6533f"/>';
+ s+=svgText(gx+gw,gy0+gh+16,(lang==="ru"?"глубина h →":"depth h →"),"#66666b","end",10)+svgText(gx+6,gy0+10,(lang==="ru"?"давление p":"pressure p"),"#66666b","start",10)+svgText(gx+gw/2,gy0+gh*0.25,"p = ρ·g·h","#2f6f5d","middle",12);
+ $("depthSvg").innerHTML=s;
+ $("depOut").textContent=h+t.m;$("dP").textContent=fmtP(p);$("dA").textContent=fmt(p/P0,1)+t.atm;
+ const F=p*0.01;$("dF").textContent=fmtF(F)+(F>=1000?" ≈ "+fmt(F/G/1000,1)+t.t:"");
+ const fb=$("depFb");fb.className="fb";fb.textContent=h===0?t.depth.top:(h>=660?t.depth.lake:(h>=205&&h<=225?t.depth.dam:t.depth.mid))}
+$("dep").addEventListener("input",drawDepth);
+
+/* ---------- Model 3: air at altitude ---------- */
+const dots=[];(function(){let r=12345;function rnd(){r=(r*1103515245+12345)&0x7fffffff;return r/0x7fffffff}for(let i=0;i<150;i++)dots.push([rnd(),rnd()])})();
+function placesBtns(){const box=$("places");box.innerHTML="";T[lang].places.forEach(pl=>{const b=document.createElement("button");b.type="button";b.className="act ghost";b.textContent=pl[0]+" · "+num(pl[1])+T[lang].m;b.addEventListener("click",()=>{$("alt").value=pl[1];drawAir()});box.appendChild(b)})}
+function bag(cx,cy,sc,fill,stroke,dash){const rx=40*sc,ry=26*sc;return '<g><rect x="'+(cx-rx-7)+'" y="'+(cy-ry*0.65)+'" width="7" height="'+(ry*1.3)+'" fill="'+stroke+'" opacity=".6"/><rect x="'+(cx+rx)+'" y="'+(cy-ry*0.65)+'" width="7" height="'+(ry*1.3)+'" fill="'+stroke+'" opacity=".6"/><ellipse cx="'+cx+'" cy="'+cy+'" rx="'+rx+'" ry="'+ry+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="2"'+(dash?' stroke-dasharray="5 4"':"")+'/></g>'}
+function drawAir(){const t=T[lang],h=+$("alt").value,p=airP(h),pb=airP(800),ratio=pb/p,sc=Math.max(0.55,Math.min(1.5,Math.sqrt(ratio)));
+ const yh=hh=>230-hh/7500*200;
+ let s='<rect x="20" y="20" width="230" height="210" fill="#f7f9fb" stroke="#deded9"/>';
+ const n=Math.round(150*p/P0);for(let i=0;i<n;i++){s+='<circle cx="'+(26+dots[i][0]*218).toFixed(1)+'" cy="'+(26+dots[i][1]*198).toFixed(1)+'" r="2.6" fill="#3f5f8f" opacity=".75"/>'}
+ s+=svgText(30,16,(lang==="ru"?"молекулы воздуха":"air molecules"),"#66666b","start",10);
+ s+='<polygon points="300,230 325,190 345,172 365,120 385,40 405,95 425,150 445,230" fill="#c9c2b0"/><polygon points="385,40 372,76 385,68 398,80" fill="#fff"/>';
+ s+='<line x1="290" y1="30" x2="290" y2="230" stroke="#66666b"/>';
+ for(let k=0;k<=7;k+=1){const y=yh(k*1000);s+='<line x1="286" y1="'+y+'" x2="294" y2="'+y+'" stroke="#66666b"/>'+svgText(282,y+4,k+(lang==="ru"?" км":" km"),"#66666b","end",9)}
+ const y=yh(h);s+='<line x1="290" y1="'+y+'" x2="455" y2="'+y+'" stroke="#b6533f" stroke-dasharray="4 3" stroke-width="2"/><circle cx="290" cy="'+y+'" r="5" fill="#b6533f"/>';
+ s+=bag(520,70,1,"none","#66666b",true)+bag(520,70,sc,"rgba(182,83,63,.28)","#b6533f",false);
+ s+=svgText(520,125,t.air.bag0,"#66666b","middle",10)+svgText(520,140,"· · ·","#66666b","middle",10);
+ s+=svgText(520,170,t.air.bag1+":","#b6533f","middle",10)+svgText(520,188,"× "+fmt(ratio,2),"#b6533f","middle",16);
+ $("airSvg").innerHTML=s;
+ $("altOut").textContent=num(h)+t.m;$("aP").textContent=fmt(p/1000,1)+t.kPa;const hg=fmt(p/133.322387415,0)+t.mmHg;$("aPct").textContent=fmt(p/P0*100,0)+" %";$("aBoil").textContent=fmt(boilC(p),1)+t.c;
+ const fb=$("airFb");fb.className="fb";if(Math.abs(ratio-1)<0.01)fb.textContent=t.air.same;else if(ratio>1)fb.textContent=t.air.more+fmt(ratio,2)+".";else fb.textContent=t.air.less+fmt(ratio,2)+".";fb.textContent+=" "+t.air.hg+hg+(hg.endsWith(".")?"":".")}
+$("alt").addEventListener("input",drawAir);
+
+/* ---------- Model 4: Archimedes ---------- */
+const OBJCOL=["#c9a46a","#bcd8e8","#8d8d92","#5c6470","#3f5f8f"];
+function fillArc(){const so=$("obj"),sl=$("liq"),vo=so.value,vl=sl.value;so.innerHTML="";sl.innerHTML="";T[lang].objs.forEach((o,i)=>{const e=document.createElement("option");e.value=i;e.textContent=o[0]+" (ρ = "+num(o[1])+")";so.appendChild(e)});T[lang].liqs.forEach((o,i)=>{const e=document.createElement("option");e.value=i;e.textContent=o[0]+" (ρ = "+num(o[1])+")";sl.appendChild(e)});so.value=vo||"0";sl.value=vl||"0"}
+function drawArc(){const t=T[lang],oi=+$("obj").value,ro=t.objs[oi][1],rl=t.liqs[+$("liq").value][1],V=+$("vol").value,Vm=V/1000;
+ const W=ro*G*Vm,frac=Math.min(1,ro/rl),FA=rl*G*Vm*frac,sub=frac;
+ const surf=80,bot=230,side=34+Math.cbrt(V)*12,cx=195;
+ let top,floats=ro<rl;
+ if(floats)top=surf-(1-frac)*side;else top=bot-2-side;
+ let s='<rect x="60" y="'+surf+'" width="270" height="'+(bot-surf)+'" fill="#8eb8d1" opacity=".55"/><path d="M60 40 L60 '+bot+' L330 '+bot+' L330 40" fill="none" stroke="#18181a" stroke-width="2"/><line x1="60" y1="'+surf+'" x2="330" y2="'+surf+'" stroke="#3f6f93" stroke-width="2"/>';
+ s+='<rect x="'+(cx-side/2)+'" y="'+top+'" width="'+side+'" height="'+side+'" fill="'+OBJCOL[oi]+'" stroke="#18181a" stroke-width="2"/>';
+ s+='<rect x="60" y="'+surf+'" width="270" height="'+(bot-surf)+'" fill="#8eb8d1" opacity=".18"/>';
+ const kk=44/Math.max(W,FA,0.001),my=top+side/2;
+ s+=arrowV(cx+side/4,my,my+12+W*kk,"#b6533f",4)+svgText(cx+side/4+10,my+12+W*kk,t.wLab,"#b6533f","start",12);
+ s+=arrowV(cx-side/4,my,my-12-FA*kk,"#2f6f5d",4)+svgText(cx-side/4-10,my-12-FA*kk+8,t.fLab,"#2f6f5d","end",12);
+ s+=svgText(345,surf-6,(lang==="ru"?"поверхность":"surface"),"#3f6f93","start",10);
+ $("arcSvg").innerHTML=s;
+ $("volOut").textContent=V+t.dm3;$("aW").textContent=fmtF(W);$("aF").textContent=fmtF(FA);$("aSub").textContent=fmt(sub*100,0)+" %";
+ const fb=$("arcFb");fb.className="fb";
+ if(floats){fb.classList.add("ok");fb.textContent=t.arcFloat+fmt(frac*100,0)+" %."}
+ else{fb.classList.add("bad");fb.textContent=t.arcSink+fmtF(W-FA)+(lang==="ru"?" (W − F_A).":" (W − F_A).")}}
+["obj","liq","vol"].forEach(id=>$(id).addEventListener("input",drawArc));
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Почему лыжник не проваливается в снег, а пешеход в ботинках проваливается?",o:[["Лыжник всегда легче пешехода","Вес может быть тем же; дело не в нём, а в площади опоры."],["Лыжи увеличивают площадь опоры, поэтому давление на снег меньше","Верно: p = F / S. Сила та же, площадь больше, давление меньше."],["Снег под лыжами твёрже","Снег тот же; меняется давление, которое на него производят."]]},
+ en:{q:"Why does a skier not sink into snow while a walker in boots does?",o:[["A skier is always lighter than a walker","The weight may be the same; the cause is not weight but contact area."],["Skis increase the contact area, so the pressure on the snow is smaller","Correct: p = F / S. The same force over a larger area gives less pressure."],["The snow under skis is harder","The snow is the same; what changes is the pressure on it."]]},a:1},
+{ru:{q:"Какая сила давит на площадь 0,5 м² при давлении 2000 Па?",o:[["4000 Н","Это деление на 0,5. Силу находят умножением: F = p·S."],["1000 Н","Верно: F = p·S = 2000 Па · 0,5 м² = 1000 Н."],["2000 Н","Это только число давления; нужно умножить на площадь."]]},
+ en:{q:"What force acts on an area of 0.5 m² at a pressure of 2000 Pa?",o:[["4000 N","That divides by 0.5. Force is found by multiplying: F = p·S."],["1000 N","Correct: F = p·S = 2000 Pa · 0.5 m² = 1000 N."],["2000 N","That is just the pressure value; you need to multiply by the area."]]},a:1},
+{ru:{q:"Глубину воды в бассейне увеличили в 2 раза. Как изменилось давление на дне?",o:[["Не изменилось","Давление p = ρ·g·h зависит от глубины h."],["Выросло в 4 раза","Зависимость линейная, не квадратичная."],["Выросло в 2 раза","Верно: p пропорционально h, а ρ и g не менялись."]]},
+ en:{q:"The depth of water in a pool was doubled. How did the pressure on the bottom change?",o:[["It did not change","The pressure p = ρ·g·h depends on the depth h."],["It grew 4 times","The dependence is linear, not quadratic."],["It grew 2 times","Correct: p is proportional to h, while ρ and g did not change."]]},a:2},
+{ru:{q:"Каково давление воды на глубине 30 м (ρ = 1000 кг/м³, g = 10 Н/кг)?",o:[["3000 Па","Не хватает множителя: 1000 · 10 · 30 = 300 000 Па."],["300 кПа","Верно: 1000 · 10 · 30 = 300 000 Па = 300 кПа — около трёх атмосфер."],["30 кПа","Ошибка в порядке: 1000 · 10 · 30 = 300 000 Па, это 300 кПа."]]},
+ en:{q:"What is the water pressure at 30 m depth (ρ = 1,000 kg/m³, g = 10 N/kg)?",o:[["3,000 Pa","A factor is missing: 1,000 · 10 · 30 = 300,000 Pa."],["300 kPa","Correct: 1,000 · 10 · 30 = 300,000 Pa = 300 kPa — about three atmospheres."],["30 kPa","Off by a factor of ten: 1,000 · 10 · 30 = 300,000 Pa, that is 300 kPa."]]},a:1},
+{ru:{q:"Почему на перевале раздувается запечатанная пачка чипсов?",o:[["Внутри пачки воздух сильно нагрелся","На перевале обычно холоднее, а не теплее."],["В пачке выделился новый газ","Количество газа не изменилось, изменился его объём."],["Снаружи давление меньше, чем внутри, и воздух расширяет пачку","Верно: давление воздуха с высотой падает, а внутри оно осталось прежним."]]},
+ en:{q:"Why does a sealed bag of crisps swell on a mountain pass?",o:[["The air inside got very hot","It is usually colder on a pass, not warmer."],["New gas formed inside the bag","The amount of gas is the same; its volume changed."],["The outside pressure is lower than inside, so the air stretches the bag","Correct: air pressure falls with height while inside it stayed the same."]]},a:2},
+{ru:{q:"Ртуть в трубке Торричелли стоит на высоте 760 мм. Что это значит?",o:[["Масса ртути в трубке равна 760 г","Высота столбика не говорит о массе — она зависит от сечения трубки."],["Давление столбика ртути высотой 760 мм уравновешивает давление атмосферы","Верно: p = ρ·g·h ≈ 101 кПа — это и есть атмосферное давление."],["Температура воздуха равна 760 градусам","Ртутный барометр измеряет давление, а не температуру."]]},
+ en:{q:"The mercury in a Torricelli tube stands 760 mm high. What does it mean?",o:[["The mass of mercury in the tube is 760 g","The height does not tell the mass — it depends on the tube’s cross-section."],["The pressure of a 760 mm mercury column balances atmospheric pressure","Correct: p = ρ·g·h ≈ 101 kPa — that is the atmospheric pressure."],["The air temperature is 760 degrees","A mercury barometer measures pressure, not temperature."]]},a:1},
+{ru:{q:"Железный гвоздь тонет, а железный пароход плавает. Почему?",o:[["Пароход сделан из особого лёгкого железа","Материал тот же; важна средняя плотность тела."],["Средняя плотность парохода вместе с воздухом внутри меньше плотности воды","Верно: тело плавает, если его средняя плотность меньше плотности жидкости."],["Вода выталкивает только очень большие тела","Выталкивающая сила действует на любое погружённое тело, в том числе на гвоздь."]]},
+ en:{q:"An iron nail sinks, but an iron steamship floats. Why?",o:[["The ship is made of a special light iron","The material is the same; what matters is the body’s average density."],["The ship’s average density, with the air inside, is less than the density of water","Correct: a body floats if its average density is less than the liquid’s."],["Water pushes up only very large bodies","The buoyant force acts on every submerged body, including a nail."]]},a:1},
+{ru:{q:"Почему в воде Мёртвого моря плыть легче, чем в пресной?",o:[["Сила тяжести там меньше","Сила тяжести та же; изменилась плотность жидкости."],["Плотность воды больше, поэтому при том же объёме сила Архимеда больше","Верно: F_A = ρ_ж·g·V, а у воды Мёртвого моря ρ ≈ 1240 кг/м³."],["Вода там теплее","Температура не определяет выталкивающую силу."]]},
+ en:{q:"Why is it easier to float in the Dead Sea than in fresh water?",o:[["Gravity is weaker there","Gravity is the same; the liquid’s density is what changed."],["The water is denser, so for the same volume Archimedes’ force is greater","Correct: F_A = ρ_liq·g·V, and Dead Sea water has ρ ≈ 1,240 kg/m³."],["The water is warmer","Temperature does not set the buoyant force."]]},a:1}];
+let answers={};const ORD=[[0,1,2],[1,2,0],[2,0,1],[0,2,1],[2,1,0],[1,0,2],[0,1,2],[2,0,1]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"04"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Давление — Атлас физики":"Pressure — Atlas of Physics";
+ $("snowSvg").setAttribute("aria-label",T[lang].snowLabel);$("depthSvg").setAttribute("aria-label",T[lang].depthLabel);$("airSvg").setAttribute("aria-label",T[lang].airLabel);$("arcSvg").setAttribute("aria-label",T[lang].arcLabel);
+ fillShoe();drawSnow();drawDepth();placesBtns();drawAir();fillArc();drawArc();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+apply();
+})();
+</script>
+</body></html>

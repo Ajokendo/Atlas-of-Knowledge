@@ -11,7 +11,22 @@
 | PH-02-01 | 02 | Частицы двух газов и перегородка (модель «Диффузия») | Авторская анимация canvas | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
 | PH-02-02 | 02 | Молекулы воды во льду, воде и паре (модель «Лёд — вода — пар») | Авторская анимация canvas | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
 | PH-03-01 | 03 | Аркан тартыш: две команды и стрелки сил | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
+| 04 | Стандартная атмосфера: 101 325 Па на уровне моря; p = 101325·(1 − 2,25577·10⁻⁵·h)^5,25588 (расчёт таблицы и модели) | Air Pressure at Altitude Calculator (ISA): https://www.calculate.co.nz/air-pressure-at-altitude-calculator.php; Wikipedia, «Atmospheric pressure»: https://en.wikipedia.org/wiki/Atmospheric_pressure | 18.11.2026 |
+| 04 | 1 атм = 760 мм рт. ст.; около 1,2 кПа на 100 м подъёма у земли | Wikipedia, «Atmospheric pressure»: https://en.wikipedia.org/wiki/Atmospheric_pressure | 18.11.2026 |
+| 04 | Опыт Торричелли 1643 г., 760 мм ртути, плотность ртути 13 600 кг/м³ | PhysicsLens, «Barometer»: https://learn.physicslens.com/pressure/barometer.html; Wikipedia, «Millimetre of mercury»: https://en.wikipedia.org/wiki/Millimetre_of_mercury | 18.11.2026 |
+| 04 | Температура кипения воды по давлению: уравнение Антуана, A = 8,07131, B = 1730,63, C = 233,426 (мм рт. ст., °C); проверка: ≈ 90 °C на 3000 м | Wikipedia, «Antoine equation»: https://en.wikipedia.org/wiki/Antoine_equation; Wikipedia, «High-altitude cooking»: https://en.wikipedia.org/wiki/High-altitude_cooking | 18.11.2026 |
+| 04 | Перевал Төө-Ашуу: 3586 м, тоннель около 3,2 км | Wikipedia, «Töö Ashuu»: https://en.wikipedia.org/wiki/T%C3%B6%C3%B6_Ashuu | 18.11.2026 |
+| 04 | Бишкек: около 800 м | Wikipedia, «Bishkek»: https://en.wikipedia.org/wiki/Bishkek | 18.11.2026 |
+| 04 | Плотина Токтогульской ГЭС: высота 215 м | Wikipedia, «Toktogul Dam»: https://en.wikipedia.org/wiki/Toktogul_Dam | 18.11.2026 |
+| 04 | Плотность воды Мёртвого моря ≈ 1240 кг/м³ | Meiburg & Lensky, Annual Review of Fluid Mechanics (UCSB): https://me.ucsb.edu/sites/default/files/publications/Meiburg/Meiburg%20%2B%20Lensky%20ARFM%20submitted.pdf | 18.11.2026 |
+| 04 | Плотность морской воды ≈ 1025 кг/м³ | Wikipedia, «Seawater»: https://en.wikipedia.org/wiki/Seawater | 18.11.2026 |
+| 04 | Плотность сосны ≈ 470 кг/м³ (влажность 12 %) | Swedish Wood, «Properties of softwood»: https://www.swedishwood.com/wood-facts/about-wood/from-log-to-plank/properties-of-softwood/ | 18.11.2026 |
+| 04 | Условные значения моделей (не факты): площади подошв 0,04 м², снегоступов 0,2 м², лыж 0,3 м², каблука 1 см²; предел «рыхлого снега» 10 кПа; средняя плотность стальной лодки 300 кг/м³ | Авторские допущения для учебной модели, помечены в главе | 18.11.2026 |
 | PH-03-02 | 03 | Дорога, машина, тормозной путь и диаграмма | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 13.11.2026 |
+| PH-04-01 | 04 | Человек на снегу в ботинках, на лыжах, на снегоступах (модель «Лыжи и снег») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-04-02 | 04 | Столб воды с водолазом и график p(h) (модель «Глубина Иссык-Куля») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-04-03 | 04 | Молекулы воздуха, профиль горы и пачка чипсов (модель «Воздух на высоте») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-04-04 | 04 | Тело в жидкости, силы W и F_A (модель «Тонет или плавает») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
