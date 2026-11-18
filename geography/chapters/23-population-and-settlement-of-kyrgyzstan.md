@@ -101,6 +101,10 @@ The difference between the 2022 census result and later annual estimates reflect
 Population growth is influenced by fertility, the size of cohorts entering reproductive ages, long-term mortality trends, migration and statistical adjustments. Natural increase remains an important component. However, the absolute number of births depends both on fertility rates and on the number of women in relevant age groups. Sound analysis therefore uses age-specific and total fertility rates, not births alone. Mortality comparisons should account for age structure: crude death rates can be higher in older populations even where health services are effective.
 
 
+![Динамика численности населения и распределение по областям и городам. / Population trend and distribution by region and city.](../assets/diagrams/23-B-demographic-panel-bilingual.svg)
+
+*23-B. Численность и региональное распределение населения. / Population trend and regional distribution.*
+
 ## 23.3. Размещение населения и плотность
 ## Population Distribution and Density
 
@@ -154,6 +158,10 @@ where (D) is population density, (P) is population and (A) is land area. For a m
 Settlement patterns are shaped by natural factors (elevation, climate, relief, water, soils and hazards), historical factors (agricultural oases, trade routes and seasonal pastoral routes), economic factors (jobs, farming, industry, trade, services and tourism) and infrastructure (roads, railways, water supply, energy, schools, health care and communications).
 
 
+![Население сосредоточено в долинах, высокогорье почти не заселено. / Settlement is concentrated in valleys; the high mountains are almost empty.](../assets/diagrams/23-A-population-density-qualitative-bilingual.svg)
+
+*23-A. Плотность населения: качественная схема. / Population density: qualitative schematic.*
+
 ## 23.4. Городское и сельское население
 ![Сравнение городского и сельского расселения по плотности, услугам, занятости, мобильности и землепользованию. / Comparison of urban and rural settlement by density, services, livelihoods, mobility and land use.](../assets/diagrams/23-E-urban-rural-settlement-comparison-bilingual.svg)
 
@@ -205,8 +213,9 @@ Rural settlements vary in size, density, elevation, accessibility, agricultural 
 
 ## 23.5. Административно-территориальная структура и население регионов
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-F / IMAGE PLACEHOLDER 23-F]** Региональная демографическая карта на единую дату; отдельно обозначить города республиканского значения и административные области.
-> **EN:** Regional demographic map for one reference date, distinguishing cities of republican significance from oblast-level units.
+![Области закрашены по численности, Бишкек и Ош показаны кругами. / Regions are shaded by population; Bishkek and Osh are shown as circles.](../assets/diagrams/23-F-regional-population-2026-bilingual.svg)
+
+*23-F. Население областей на 01.01.2026. / Regional population on 1 January 2026.*
 
 ## Administrative Structure and Regional Population
 
@@ -347,8 +356,9 @@ Kyrgyz is the state language and Russian has official-language status. Uzbek, Ta
 
 ## 23.8. Миграция: внутренняя и внешняя
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-H / IMAGE PLACEHOLDER 23-H]** Карта внутренних и международных миграционных потоков разными слоями; толщину линий использовать только при наличии сопоставимых количественных данных.
-> **EN:** Map internal and international migration flows in separate layers; scale line widths only where comparable quantitative data exist.
+![Внутренние и международные потоки показаны раздельно. / Internal and international flows are shown separately.](../assets/diagrams/23-H-migration-layers-bilingual.svg)
+
+*23-H. Миграция: внутренние и международные слои. / Migration: internal and international layers.*
 
 ## Migration: Internal and International
 
@@ -556,10 +566,15 @@ NSC statistics help track the registered balance over time and across administra
 
 **Learning activity.** Compare the NSC migration balance in 2021 and 2025. Then explain why the IOM estimate of citizens still living abroad cannot be equated with a negative migration balance for a single year. Use the terms “flow”, “population stock”, “net migration” and “data-collection method”.
  
+![Внутренние перемещения и международная трудовая миграция. / Internal movements and international labour migration.](../assets/diagrams/23-D-migration-schematic-bilingual.svg)
+
+*23-D. Миграция: направления потоков. / Migration: flow directions.*
+
 ## 23.9. Урбанизация и развитие агломераций
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-I / IMAGE PLACEHOLDER 23-I]** Схема Бишкекской агломерации с центральным городом, пригородами, транспортными осями и зоной застройки; границы определять по методике.
-> **EN:** Diagram of the Bishkek agglomeration showing the core city, suburbs, transport axes and built-up area; define boundaries using an explicit method.
+![Центральный город, спутники и связи вдоль Чуйской долины. / The central city, satellites and links along the Chuy Valley.](../assets/diagrams/23-I-bishkek-agglomeration-bilingual.svg)
+
+*23-I. Бишкекская агломерация: схема. / Bishkek agglomeration: schematic.*
 
 ## Urbanization and Metropolitan Development
 
@@ -634,6 +649,10 @@ An administrative city boundary does not always match the actual urban area. Bui
 
 **Learning activity.** Compare an administrative map of Bishkek with a map of its built-up area and any available data on commuting from surrounding settlements. Identify settlements functionally connected to the city and list the data needed for a precise delineation of the agglomeration. Do not infer population totals from a satellite image alone.
 
+![Бишкек и Ош, областные центры и другие крупные города. / Bishkek and Osh, oblast centres and other major cities.](../assets/diagrams/23-C-urban-system-bilingual.svg)
+
+*23-C. Городская система: схема. / Urban system: schematic.*
+
 ## 23.10. Сельское расселение, сезонная мобильность и джайлоо
 ![Иллюстрация долинного села, горного поселения и сезонной стоянки на джайлоо. / Illustration of a valley village, mountain settlement and seasonal jailoo camp.](../assets/diagrams/23-J-valley-mountain-jailoo-settlement-bilingual.svg)
 
@@ -683,8 +702,9 @@ Rural settlement in Kyrgyzstan is closely linked to valley agriculture and mount
 
 ## 23.11. Население, природная среда и климатические риски
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-K / IMAGE PLACEHOLDER 23-K]** Карта поселений и природных опасностей с раздельными слоями сейсмического, селевого, оползневого и лавинного риска.
-> **EN:** Settlement and natural-hazard map with separate seismic, debris-flow, landslide and avalanche layers.
+![Города на фоне качественных зон опасностей. / Cities set against qualitative hazard zones.](../assets/diagrams/23-K-settlements-and-hazards-bilingual.svg)
+
+*23-K. Поселения и опасности: схема. / Settlements and hazards: schematic.*
 
 ## Population, Environment and Climate Risks
 
@@ -726,8 +746,9 @@ Population growth should not automatically lead to settlement in hazardous locat
 
 ## 23.12. Демографическое будущее Кыргызстана
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-L / IMAGE PLACEHOLDER 23-L]** Сценарный график численности и возрастной структуры населения с базовым, высоким и низким сценариями и явным указанием источника прогноза.
-> **EN:** Scenario chart of population size and age structure showing baseline, high and low variants with the projection source stated.
+![Три траектории от базового года; значения не показаны. / Three trajectories from the baseline year; values are not shown.](../assets/diagrams/23-L-population-scenarios-fan-bilingual.svg)
+
+*23-L. Сценарии численности: схема. / Population scenarios: schematic.*
 
 ## Kyrgyzstan’s Demographic Future
 
@@ -1023,17 +1044,9 @@ The overall average therefore hides a strong contrast between a densely populate
 ## 23.17. Технические задания для карт, графиков и инфографики
 ## Visual, Map and Infographic Briefs
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-A / IMAGE PLACEHOLDER 23-A]** Карта плотности населения по районам или айылным аймакам на сопоставимую дату; отдельно выделить долины и высокогорные территории, указать единицы и источник.
-> **EN:** Population-density map by rayon or ayil aimak for a comparable reference date, distinguishing valleys from high-mountain areas and stating units and source.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-B / IMAGE PLACEHOLDER 23-B]** Демографическая панель: динамика численности населения, возрастно-половая пирамида переписи 2022 года и региональное распределение на 01.01.2026; переписные данные и годовые оценки маркировать раздельно.
-> **EN:** Demographic dashboard showing population change, the 2022 census age-sex pyramid and regional distribution as of 1 January 2026; label census data and annual estimates separately.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-C / IMAGE PLACEHOLDER 23-C]** Карта городской системы и агломераций: Бишкек, Ош, Манас и региональные центры; города республиканского значения отделить от областных итогов.
-> **EN:** Map of the urban system and agglomerations showing Bishkek, Osh, Manas and regional centres; distinguish cities of republican significance from oblast totals.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-D / IMAGE PLACEHOLDER 23-D]** Схема миграции и расселения: внутренние перемещения и международная трудовая миграция разными слоями; ширину потоков использовать только при наличии количественных данных.
-> **EN:** Migration and settlement diagram showing internal movements and international labour migration in separate layers; scale flow widths only when quantitative data are available.
 
 
 **Общий визуальный стандарт:** премиальная научная энциклопедия; тёмно-синий, белый и сдержанный золотой акцент. Все статистические визуалы должны иметь дату, единицы измерения, источник и пояснение методики. Карты административного устройства должны соответствовать официальной версии границ на указанную дату.

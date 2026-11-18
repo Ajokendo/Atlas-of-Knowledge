@@ -9,8 +9,9 @@
 
 ## 21.1. Биогеографическое положение и происхождение биоразнообразия
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 21-A / IMAGE PLACEHOLDER 21-A]** Биогеографическая карта Кыргызстана с основными горными системами, высотными поясами и природными комплексами; границы биогеографических областей не подменять административными.
-> **EN:** Biogeographical map of Kyrgyzstan showing major mountain systems, altitudinal belts and natural complexes; do not substitute administrative boundaries for biogeographical regions.
+![Основные природные комплексы гор и котловин. / Main natural complexes of mountains and basins.](../assets/diagrams/21-A-biogeography-belts-bilingual.svg)
+
+*21-A. Природные комплексы Кыргызстана: схема. / Natural complexes of Kyrgyzstan: schematic.*
 ## Biogeographical Setting and Origins of Biodiversity
 
 Кыргызстан расположен в пределах Палеарктической биогеографической области, на стыке центральноазиатских пустынно-степных, континентальных горных и западно-тянь-шаньских природных комплексов. Основу горной территории составляют Тянь-Шань и Памиро-Алай. Их хребты, межгорные котловины, ущелья, речные долины и высокогорные плато создают множество экологических ниш.
@@ -30,8 +31,9 @@
 
 ## 21.2. Флора: разнообразие, эндемизм и генетические ресурсы
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 21-F / IMAGE PLACEHOLDER 21-F]** Научная таблица диких родичей культурных растений Кыргызстана: яблоня Сиверса, абрикос, орех, фисташка и груша; виды подтверждать ботаническими источниками.
-> **EN:** Scientific plate of Kyrgyzstan’s crop wild relatives, including Sievers’ apple, apricot, walnut, pistachio and pear; verify taxa against botanical sources.
+![Таблица основных диких родичей плодовых и орехоплодных культур. / Table of the main wild relatives of fruit and nut crops.](../assets/diagrams/21-F-crop-wild-relatives-table-bilingual.svg)
+
+*21-F. Дикие родичи культурных растений: таблица. / Crop wild relatives: table.*
 
 ## Flora: Diversity, Endemism and Genetic Resources
 
@@ -144,8 +146,9 @@
 
 ## 21.5. Растительность по регионам Кыргызстана
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 21-G / IMAGE PLACEHOLDER 21-G]** Карта основных типов растительности Кыргызстана с природными, а не административными границами; указать источник и дату геоданных.
-> **EN:** Map of Kyrgyzstan’s main vegetation types using ecological rather than administrative boundaries, with data source and date.
+![Типы растительности по природным поясам. / Vegetation types by natural belts.](../assets/diagrams/21-G-vegetation-types-bilingual.svg)
+
+*21-G. Типы растительности: схема. / Vegetation types: schematic.*
 
 ## Regional Patterns of Vegetation
 
@@ -205,8 +208,9 @@
 
 ## 21.7. Фауна: основные группы и местообитания
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 21-D / IMAGE PLACEHOLDER 21-D]** Карта местообитаний ключевых групп фауны и экологических коридоров; чувствительные координаты редких видов обобщать.
-> **EN:** Map of habitats for key fauna groups and ecological corridors; generalise sensitive coordinates of rare species.
+![Крупные районы обитания; точные координаты редких видов не показаны. / Broad habitat areas; exact locations of rare species are not shown.](../assets/diagrams/21-D-fauna-habitats-bilingual.svg)
+
+*21-D. Местообитания фауны: обобщённая схема. / Fauna habitats: generalised schematic.*
 ## Fauna: Major Groups and Habitats
 
 Фауна Кыргызстана включает горных млекопитающих, хищников, копытных, многочисленных грызунов, разнообразных птиц, рептилий, амфибий, рыб и беспозвоночных. Полнота национальных списков меняется по мере исследований и уточнения таксономии.
@@ -373,8 +377,9 @@
 
 ## 21.12. Охрана биоразнообразия и природоохранные инструменты
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 21-E / IMAGE PLACEHOLDER 21-E]** Карта охраняемых природных территорий и экологических коридоров Кыргызстана с юридически проверенными категориями и датой геоданных.
-> **EN:** Map of protected natural areas and ecological corridors in Kyrgyzstan, using legally verified categories and a stated geodata date.
+![Примеры заповедников и природных парков. / Examples of nature reserves and nature parks.](../assets/diagrams/21-E-protected-areas-examples-bilingual.svg)
+
+*21-E. Примеры ООПТ точками. / Examples of protected areas as points.*
 ## Biodiversity Conservation and Policy Instruments
 
 ### Национальная Красная книга

@@ -20,8 +20,9 @@ After studying this chapter, readers should be able to explain the geological st
 
 ## 18.1. Кыргызстан — страна высокогорного рельефа / Kyrgyzstan: A Mountainous Country
 
- > **[МЕТКА ИЛЛЮСТРАЦИИ 18-A / IMAGE PLACEHOLDER 18-A]** Физико-географическая карта Кыргызстана с высотной гипсометрией, главными хребтами, межгорными впадинами и вершинами; использовать проверенную цифровую модель рельефа.
-> **EN:** Physical-geographical map of Kyrgyzstan showing elevation hypsometry, major ranges, intermontane basins and peaks; use a validated digital elevation model.
+![Основные хребты, межгорные впадины, озёра, реки и высочайшие вершины. / Main ranges, intermontane basins, lakes, rivers and highest peaks.](../assets/diagrams/18-A-physical-schematic-bilingual.svg)
+
+*18-A. Хребты, впадины, озёра и реки; высотная гипсометрия на схеме не показана. / Ranges, basins, lakes and rivers; hypsometry is not shown in this schematic.*
 
 **Дополнительная обзорная карта рельефа / Supplementary relief overview**
 
@@ -67,8 +68,9 @@ CAIAG also notes that the USSR Glacier Catalogue (1968–1982) and the 1:500,000
 
 ## 18.2. Геологическое районирование и тектонический каркас / Geological Regionalisation and Tectonic Framework
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-F / IMAGE PLACEHOLDER 18-F]** Тектоническая схема Тянь-Шаня с террейнами, сутурами и крупными разломами; указать научную модель и её источник.
-> **EN:** Tectonic map of the Tien Shan showing terranes, sutures and major faults, with the scientific model and source identified.
+![Упрощённые тектонические зоны Тянь-Шаня и главные разломы. / Simplified Tien Shan tectonic zones and major faults.](../assets/diagrams/18-F-tectonic-schematic-bilingual.svg)
+
+*18-F. Упрощённая тектоника Тянь-Шаня; трассы разломов ориентировочные. / Simplified Tien Shan tectonics; fault traces are approximate.*
 
 
 ### 18.2.1. Географическое и тектоническое районирование
@@ -252,8 +254,9 @@ The **Turkestan Range** and associated mountain massifs in the south-west have p
 
 ## 18.4. Главные хребты: сравнительная орографическая характеристика / Major Ranges: Comparative Orographic Overview
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-G / IMAGE PLACEHOLDER 18-G]** Орографическая карта главных хребтов Кыргызстана с разделением Северного, Внутреннего, Центрального и Западного Тянь-Шаня и Памиро-Алая.
-> **EN:** Orographic map of Kyrgyzstan’s major ranges, distinguishing Northern, Inner, Central and Western Tien Shan and the Pamir–Alay.
+![Главные хребты, сгруппированные по Северному, Западному, Внутреннему, Центральному Тянь-Шаню и Памиро-Алаю. / Main ranges grouped into the Northern, Western, Inner and Central Tien Shan and the Pamir-Alay.](../assets/diagrams/18-G-orographic-systems-bilingual.svg)
+
+*18-G. Хребты по горным системам; границы систем условны. / Ranges by mountain system; system boundaries are conventional.*
 
 
 Таблица даёт обзор наиболее известных хребтов, но не заменяет подробную топографическую карту. Длины и высоты в разных справочниках могут отличаться из-за различий в проведении осевых линий, границ хребтов, выбора высшей точки и качества исходной съёмки.
@@ -504,8 +507,9 @@ Altitudinal zonation is therefore best represented as a regional pattern with ap
 
 ## 18.10. Минеральные ресурсы и геологическое строение / Mineral Resources and Geological Setting
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-I / IMAGE PLACEHOLDER 18-I]** Минерагеническая карта основных районов полезных ископаемых с указанием даты, источника и статуса сведений; не обозначать условные проявления как действующие рудники.
-> **EN:** Mineral-resource map showing major districts, data date, source and status; do not depict occurrences as operating mines.
+![Районы золота, сурьмы, ртути, угля и уранового наследия. / Districts of gold, antimony, mercury, coal and uranium legacy.](../assets/diagrams/18-I-mineragenic-districts-bilingual.svg)
+
+*18-I. Минерагенические районы: схема. / Mineragenic districts: schematic.*
 
 
 Минеральные ресурсы Кыргызстана связаны с разнообразием геологических комплексов и магматических, гидротермальных, осадочных и метаморфических процессов. В стране известны месторождения золота, сурьмы, ртути, олова, вольфрама, редких металлов, угля, строительного сырья и других полезных ископаемых.
@@ -537,8 +541,9 @@ Maps of mineral resources should distinguish occurrences, exploration areas, dep
 
 ## 18.11. Геологические опасности и мониторинг / Geological Hazards and Monitoring
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 18-E / IMAGE PLACEHOLDER 18-E]** Карта геологических опасностей Кыргызстана с раздельными слоями землетрясений, оползней, селей, обвалов, лавин и ледниковых озёр; опасность, экспозицию и уязвимость показывать раздельно.
-> **EN:** Geological-hazard map of Kyrgyzstan with separate layers for earthquakes, landslides, debris flows, rockfalls, avalanches and glacial lakes; show hazard, exposure and vulnerability separately.
+![Качественная схема районов землетрясений, оползней, селей, лавин и ледниковых озёр. / Qualitative schematic of earthquake, landslide, debris-flow, avalanche and glacial-lake areas.](../assets/diagrams/18-E-geohazard-zones-schematic-bilingual.svg)
+
+*18-E. Качественная схема опасных процессов; не карта риска. / Qualitative schematic of hazardous processes; not a risk map.*
 
 Кыргызстан подвержен нескольким взаимосвязанным типам природных опасностей:
 

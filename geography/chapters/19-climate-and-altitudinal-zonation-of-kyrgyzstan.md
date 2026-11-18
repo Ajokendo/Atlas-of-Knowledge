@@ -22,8 +22,9 @@ This chapter examines Kyrgyzstan’s climate as the outcome of latitude, contine
 
 ## 19.1. Климатическое положение Кыргызстана / Kyrgyzstan’s Climatic Setting
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-A / IMAGE PLACEHOLDER 19-A]** Карта климатических районов Кыргызстана с основными долинами, хребтами и высотными зонами; не смешивать климатическую классификацию с физико-географическим районированием.
-> **EN:** Map of Kyrgyzstan's climatic regions showing major valleys, ranges and elevation zones; do not conflate climatic classification with physical-geographical regionalisation.
+![Основные климатические районы долин и котловин. / Main climatic regions of valleys and basins.](../assets/diagrams/19-A-climatic-regions-bilingual.svg)
+
+*19-A. Качественная схема климатических районов. / Qualitative schematic of climatic regions.*
 
 Кыргызстан находится в глубине Евразийского материка, вдали от основных океанических источников влаги и вблизи аридных областей Центральной Азии. Такое положение способствует высокой континентальности: значительным сезонным и суточным колебаниям температуры, жаркому лету в долинах и холодной зиме во многих внутренних и высокогорных районах.
 
@@ -84,8 +85,9 @@ Throughout the year, Central Asia is influenced by the interaction of mid-latitu
 
 ## 19.3. Температурный режим и высотный градиент / Temperature Regime and Vertical Gradient
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-G / IMAGE PLACEHOLDER 19-G]** Карта среднегодовой температуры по единому климатическому периоду с метеостанциями, высотными зонами и методом интерполяции.
-> **EN:** Mean annual temperature map for one consistent climate-normal period, with stations, elevation zones and interpolation method.
+![Тепло в низких долинах, холод в высокогорье. / Warm low valleys, cold high mountains.](../assets/diagrams/19-G-temperature-zones-schematic-bilingual.svg)
+
+*19-G. Качественная схема температурных зон. / Qualitative schematic of temperature zones.*
 
 
 Температура воздуха в целом понижается с высотой, но реальная скорость изменения зависит от сезона, влажности, облачности, ветра, экспозиции и состояния поверхности. Для свободной атмосферы часто используют ориентировочный средний вертикальный градиент около 6,5 °C на 1 000 м, однако его нельзя механически применять к любому склону или метеостанции.
@@ -121,8 +123,9 @@ Slope aspect also matters. In the Northern Hemisphere, south-facing slopes usual
 
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 19-B / IMAGE PLACEHOLDER 19-B]** Карта годовых осадков и схема орографического подъёма воздуха с наветренной стороной и дождевой тенью; интерполированные значения отличать от прямых измерений.
-> **EN:** Annual-precipitation map and orographic-lift diagram showing windward slopes and rain shadows; distinguish interpolated values from direct measurements.
+![Влажные наветренные склоны и сухие внутренние котловины. / Wet windward slopes and dry inner basins.](../assets/diagrams/19-B-precipitation-orographic-bilingual.svg)
+
+*19-B. Осадки по рельефу: качественно. / Precipitation and relief: qualitative.*
 
 Распределение осадков в Кыргызстане крайне неоднородно. На него влияют направление воздушного потока, высота и ориентация хребтов, положение относительно наветренной или подветренной стороны, сезон и тип осадков.
 

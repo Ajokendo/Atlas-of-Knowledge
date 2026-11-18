@@ -46,6 +46,10 @@ The main landscape groups include dry foothills and basins; foothill and middle-
 
 These boundaries are local and dynamic. At the same elevation, a moist slope may support forest while a dry slope supports steppe. A national vegetation map should therefore represent regional variation rather than impose one universal set of elevation bands across the country.
 
+![Смена природных поясов от долин к вершинам. / Change of natural belts from valleys to summits.](../assets/diagrams/22-A-natural-belts-bilingual.svg)
+
+*22-A. Природные пояса: общий порядок. / Natural belts: general order.*
+
 ## 22.2. Что такое особо охраняемая природная территория
 ## What Is a Protected Area?
 
@@ -140,6 +144,10 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 | Число охраняемых видов | Количество видов в конкретном списке | Состояние популяций и динамику численности |
 | Бюджет и персонал | Ресурсы управления | Результат без показателей состояния природы |
 
+![Заповедники и природные парки как отдельные категории. / Nature reserves and nature parks as separate categories.](../assets/diagrams/22-B-protected-network-examples-bilingual.svg)
+
+*22-B. Категории ООПТ: примеры. / Protected-area categories: examples.*
+
 ## 22.4. Государственные природные заповедники
 ## State Nature Reserves
 
@@ -199,10 +207,15 @@ State nature reserves are national protected-area institutions whose primary pur
 **Other state nature reserves.** The Ministry's public overview also lists Kulun-Ata and Surmatash state nature reserves. Their importance is associated with the conservation of mountain ecosystems in the south of the country. Exact boundaries, areas and legal regimes should be checked against the current official register before publication or map production.
 
 
+![Где расположены заповедники и что они охраняют. / Where the reserves are and what they protect.](../assets/diagrams/22-C-reserves-comparison-bilingual.svg)
+
+*22-C. Основные заповедники: сравнение. / Main nature reserves: comparison.*
+
 ## 22.5. Государственные природные парки и национальные парки
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-E / IMAGE PLACEHOLDER 22-E]** Карта государственных природных парков Кыргызстана с официальными границами, категориями и датой геоданных.
-> **EN:** Map of Kyrgyzstan’s state nature parks using official boundaries, legal categories and a stated geodata date.
+![Расположение нескольких природных парков. / Locations of several nature parks.](../assets/diagrams/22-E-nature-parks-examples-bilingual.svg)
+
+*22-E. Примеры природных парков. / Examples of nature parks.*
 
 ## State Nature Parks and National Parks
 
@@ -328,6 +341,10 @@ The transboundary **Western Tien-Shan** property was inscribed on the UNESCO Wor
 
 **Ramsar wetlands.** Issyk-Kul, Son-Kul and Chatyr-Kul are listed under the Ramsar Convention as wetlands of international importance. They support waterbirds during migration, breeding, moulting and wintering, and conserve important aquatic ecosystems. Ramsar recognition promotes the conservation and wise use of wetlands; it does not mean that all economic activity is automatically prohibited.
 
+
+![Две разные системы признания природных территорий. / Two separate systems of recognising natural areas.](../assets/diagrams/22-D-national-vs-international-status-bilingual.svg)
+
+*22-D. Национальный статус и международное признание. / National status and international recognition.*
 
 ## 22.8. Экологические коридоры и связность ландшафтов
 ## Ecological Corridors and Landscape Connectivity
@@ -483,8 +500,9 @@ There is no single safe visitor quota for every park. Appropriate levels depend 
 
 ## 22.11. Угрозы природным территориям
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-I / IMAGE PLACEHOLDER 22-I]** Карта и матрица угроз природным территориям: пожары, выпас, инфраструктура, инвазивные виды, загрязнение и климатические изменения.
-> **EN:** Map and threat matrix for protected landscapes, covering fires, grazing, infrastructure, invasive species, pollution and climate change.
+![Какие угрозы типичны для лесов, лугов, озёр и высокогорья. / Which threats are typical for forests, meadows, lakes and high mountains.](../assets/diagrams/22-I-threat-matrix-bilingual.svg)
+
+*22-I. Матрица угроз природным территориям. / Threat matrix for natural areas.*
 
 ## Threats to Protected Landscapes
 
@@ -763,17 +781,9 @@ The combined area, without double counting, is therefore **170 km²**, or **17%*
 ## 22.16. Технические задания для карт, схем и инфографики
 ## Visual, Map and Infographic Briefs
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-A / IMAGE PLACEHOLDER 22-A]** Карта природной поясности Кыргызстана: высотные пояса, леса, степи, альпийские луга и водно-болотные угодья; географические границы природных зон обозначать по проверенным данным.
-> **EN:** Map of Kyrgyzstan's natural zonation showing altitudinal belts, forests, steppes, alpine meadows and wetlands; delineate natural-zone boundaries using verified data.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-B / IMAGE PLACEHOLDER 22-B]** Официальная сеть ООПТ Кыргызстана: заповедники, национальные природные парки, заказники и памятники природы с юридически проверенными границами, категориями и датой данных.
-> **EN:** Official protected-area network of Kyrgyzstan showing reserves, national nature parks, sanctuaries and natural monuments, with legally verified boundaries, categories and data date.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-C / IMAGE PLACEHOLDER 22-C]** Сравнительная инфографика ключевых заповедников и национальных природных парков: местоположение, охраняемые экосистемы, ключевые виды и основные угрозы.
-> **EN:** Comparative infographic of key nature reserves and national nature parks, showing location, protected ecosystems, key species and major threats.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 22-D / IMAGE PLACEHOLDER 22-D]** Схема экологических коридоров и международных статусов UNESCO/Ramsar; отдельно показать национальный правовой статус и международное признание, не смешивая их.
-> **EN:** Diagram of ecological corridors and UNESCO/Ramsar designations; show national legal status and international recognition separately.
 
 
 **Общий стандарт:** научная точность, единая картографическая проекция и легенда, тёмно-синий фон или акценты, белое поле данных, сдержанные золотые элементы. Границы ООПТ должны браться из официальных геоданных; схематические границы нельзя выдавать за юридические.

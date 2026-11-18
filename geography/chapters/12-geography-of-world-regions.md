@@ -403,7 +403,9 @@ Low islands and atolls are vulnerable to sea-level rise, saltwater intrusion, st
 
 Южный океан окружает Антарктиду и играет важную роль в глобальной циркуляции вод, климатической системе и морских экосистемах. Ключевые экологические вопросы включают изменение ледникового покрова, морского льда, океаническое потепление, подкисление океана и состояние популяций криля и других организмов.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-J / IMAGE PLACEHOLDER 12-J]** Карта Антарктики и Южного океана с научными станциями, ледниковым щитом и принятой границей океана; указать дату данных. / **EN:** Map of Antarctica and the Southern Ocean showing research stations, ice sheet and the adopted ocean boundary, with data date.
+![Материк, шельфовые ледники, станции и граница Договора об Антарктике. / The continent, ice shelves, research stations and the Antarctic Treaty limit.](../assets/diagrams/12-J-antarctica-southern-ocean-bilingual.svg)
+
+*12-J. Антарктика: схема. / Antarctica: schematic.*
 **Рисунок 12.8 / Figure 12.8 — Антарктика и Южный океан / Antarctica and the Southern Ocean.**  
 Техническое задание: полярная проекция с континентом, ледниковым щитом, Южным океаном и научными станциями как условными точками; не изображать территориальные претензии без специального юридического пояснения.
 
@@ -416,8 +418,9 @@ The Southern Ocean surrounds Antarctica and plays an important role in global oc
 
 ## 12.11. Трансграничные регионы и глобальные связи / Transboundary Regions and Global Connections
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 12-C / IMAGE PLACEHOLDER 12-C]** Карта трансграничных речных бассейнов, горных систем, морских экосистем и транспортных коридоров.
-> **EN:** Map of transboundary river basins, mountain systems, marine ecosystems and transport corridors.
+![Реки, горные системы и морские узлы, связывающие регионы. / Rivers, mountain systems and maritime nodes that link regions.](../assets/diagrams/12-C-transboundary-systems-bilingual.svg)
+
+*12-C. Трансграничные системы: примеры. / Transboundary systems: examples.*
 >
 > **Рисунок 12.9 / Figure 12.9 — Трансграничные географические системы / Transboundary geographical systems.**
 

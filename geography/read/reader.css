@@ -69,3 +69,9 @@ article p.fig + p em{font-style:normal}
   .pager .next{grid-column:1}
 }
 @media print{.top,.toc,.pager{display:none}.layout{display:block}}
+
+/* mobile safety: long URLs and wide tables must not widen the page */
+.layout>*{min-width:0}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+article{overflow-wrap:anywhere}
+.tableWrap{max-width:100%}

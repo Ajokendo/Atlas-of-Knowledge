@@ -456,8 +456,9 @@ In high mountain areas, characteristic landforms include U-shaped glacial trough
 
 ## 17.10. Геологическое строение и природные ресурсы / Geological Structure and Natural Resources
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 17-H / IMAGE PLACEHOLDER 17-H]** Обзорная карта геологического строения и основных минеральных районов; не показывать запасы как доказанные без соответствующего статуса и источника.
-> **EN:** Overview map of geological structure and major mineral districts; do not portray resources as proven reserves without a documented classification and source.
+![Схема районов добычи золота, угля, сурьмы и ртути и уранового наследия; запасы не показаны. / Schematic of gold, coal, antimony and mercury districts and uranium legacy; reserves are not shown.](../assets/diagrams/17-H-mineral-districts-schematic-bilingual.svg)
+
+*17-H. Районы добычи и наследия: схема без запасов и лицензионных границ. / Mining districts and legacy sites: schematic without reserves or licence boundaries.*
 
 
 Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами. Сам факт геологического обнаружения полезного компонента, однако, ещё не означает, что его можно безопасно и рентабельно добывать.

@@ -87,6 +87,18 @@ Each region is examined using the same framework: location and neighbouring terr
 
 **Interpretation.** Naryn is the largest region by area but has the lowest population density. Osh is the most populous region, followed by Jalal-Abad. The higher average densities in Osh and Chuy reflect population concentration in valleys and foothills; they do not imply uniform settlement across mountainous terrain.
 
+![Области, их центры и города республиканского значения. / Regions, their centres and cities of republican significance.](../assets/diagrams/24-A-seven-regions-map-bilingual.svg)
+
+*24-A. Семь областей и города республиканского значения. / Seven regions and cities of republican significance.*
+
+![Единый формат сравнения областей. / A consistent format for comparing regions.](../assets/diagrams/24-B-regional-profiles-bilingual.svg)
+
+*24-B. Области: площадь, население, плотность. / Regions: area, population, density.*
+
+![Хребты, долины, котловины, ледники, реки и озёра. / Ranges, valleys, basins, glaciers, rivers and lakes.](../assets/diagrams/24-D-physical-map-regions-bilingual.svg)
+
+*24-D. Физико-географическая схема Кыргызстана. / Physical-geography schematic of Kyrgyzstan.*
+
 ### Функциональные профили
 
 | Область | Преобладающие пространственные особенности | Важные направления хозяйства |
@@ -154,6 +166,10 @@ Each region is examined using the same framework: location and neighbouring terr
 **Challenges and prospects.** Priorities include protecting fertile land from uncontrolled construction, modernising irrigation, treating wastewater, reducing air pollution in the Bishkek–Chuy urban area, improving public transport, managing waste and increasing energy efficiency. With sound land-use planning, the region has potential for agro-industrial clusters, logistics, technology-related services and recreation.
 
 
+![Река Чу, оросительные системы, города и хребет с юга. / The Chu River, irrigation systems, towns and the range to the south.](../assets/diagrams/24-E-chuy-valley-bilingual.svg)
+
+*24-E. Чуйская долина: схема. / Chuy Valley: schematic.*
+
 ## 24.4. Таласская область / Talas Region
 
 **Положение и центр.** Таласская область находится на северо-западе страны, граничит с Казахстаном, Чуйской и Джалал-Абадской областями. Площадь — около 11,4 тыс. км²; административный центр — город Талас. Это наименьшая по площади область Кыргызстана.
@@ -192,6 +208,10 @@ Each region is examined using the same framework: location and neighbouring terr
 **Challenges and prospects.** Key priorities include sustainable water use, protecting soils from erosion and degradation, strengthening farmer cooperation, improving the quality of beans and other crops, and expanding access to laboratories, certification, cold chains and markets. The region's opportunities include agricultural processing, branding of regional products, agrotourism and cross-border trade.
 
 
+![Долина реки Талас, город Талас и связи с Казахстаном. / The Talas river valley, Talas city and links to Kazakhstan.](../assets/diagrams/24-F-talas-basin-bilingual.svg)
+
+*24-F. Бассейн Таласа: схема. / Talas basin: schematic.*
+
 ## 24.5. Иссык-Кульская область / Issyk-Kul Region
 
 **Положение и центр.** Область расположена на северо-востоке Кыргызстана и граничит с Казахстаном, Китаем, Чуйской и Нарынской областями. Площадь — около 43,1 тыс. км². Административный центр — Каракол. Важнейший природный объект — озеро Иссык-Куль, окружённое хребтами Күнгөй-Ала-Тоо на севере и Тескей-Ала-Тоо на юге.
@@ -229,6 +249,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 **Challenges and prospects.** Major risks include pollution from inadequately treated wastewater, excessive construction along the shoreline, shortages of seasonal infrastructure, pasture degradation, changes in glacier and river runoff, and natural hazards in mountain areas. Priorities include comprehensive sewerage and wastewater treatment, development controls along the shore, water-quality monitoring, waste management, year-round tourism and more diverse employment opportunities.
 
+
+![Озеро, прибрежные города, хребты и туристические районы. / The lake, coastal towns, ranges and tourist areas.](../assets/diagrams/24-G-issyk-kul-basin-bilingual.svg)
+
+*24-G. Иссык-Кульская котловина: схема. / Issyk-Kul Basin: schematic.*
 
 ## 24.6. Нарынская область / Naryn Region
 
@@ -272,6 +296,10 @@ Each region is examined using the same framework: location and neighbouring terr
 **Challenges and prospects.** Priorities include improving pasture productivity without degrading rangelands, strengthening veterinary services, processing meat and dairy products, developing cold-chain logistics, improving access to education and healthcare, and making roads and communications more resilient. Opportunities include environmentally responsible tourism, high-altitude livestock production, renewable energy and cross-border trade developed in accordance with conservation requirements.
 
 
+![Нарын, Сон-Куль, Чатыр-Куль, перевалы и Таш-Рабат. / Naryn, Song-Kul, Chatyr-Kul, passes and Tash-Rabat.](../assets/diagrams/24-H-inner-tien-shan-bilingual.svg)
+
+*24-H. Внутренний Тянь-Шань: схема. / Inner Tien Shan: schematic.*
+
 ## 24.7. Джалал-Абадская область / Jalal-Abad Region
 
 **Название и административный центр.** Область расположена на юго-западе страны, граничит с Узбекистаном, Таласской, Нарынской и Ошской областями. Площадь — около 33,7 тыс. км². После переименования города Джалал-Абад в Манас в 2025 году в атласе следует использовать название **город Манас** для современного административного центра, а прежнее название приводить только как историческое или пояснительное. Название самой области не изменилось.
@@ -313,6 +341,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 **Challenges and prospects.** Priorities include conserving walnut-fruit forests, managing forest resources sustainably, preventing erosion and landslides, improving industrial safety and water quality, increasing irrigation efficiency and improving access to mountain districts. Opportunities include environmentally responsible agricultural processing, non-timber forest products, hydropower with effective environmental safeguards and nature-based tourism.
 
+
+![Долина Нарына, Токтогульское водохранилище, Чаткал, Арсланбоб, Сары-Челек и город Манас. / The Naryn valley, Toktogul Reservoir, Chatkal, Arslanbob, Sary-Chelek and Manas city.](../assets/diagrams/24-I-jalal-abad-region-bilingual.svg)
+
+*24-I. Джалал-Абадская область: схема. / Jalal-Abad Region: schematic.*
 
 ## 24.8. Ошская область / Osh Region
 
@@ -356,6 +388,10 @@ Each region is examined using the same framework: location and neighbouring terr
 **Challenges and prospects.** Key issues include water stress in irrigated areas, soil degradation, pressure on Osh's urban infrastructure, seasonal migration, access to social services in remote mountain communities and natural hazards. Priorities include efficient irrigation, agricultural logistics, processing, safer roads, mountain tourism and stronger connections between valley markets and high-altitude areas.
 
 
+![Ферганская, Алайская и Чон-Алайская долины; город Ош отдельно. / The Fergana, Alay and Chon-Alay valleys; Osh city shown separately.](../assets/diagrams/24-J-osh-region-bilingual.svg)
+
+*24-J. Ошская область: схема. / Osh Region: schematic.*
+
 ## 24.9. Баткенская область / Batken Region
 
 **Положение и центр.** Баткенская область расположена на юго-западе страны и граничит с Ошской областью, Таджикистаном и Узбекистаном. Площадь — около 17,0 тыс. км²; административный центр — город Баткен. Регион включает Ферганские предгорья, межгорные долины и горные территории.
@@ -397,6 +433,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 **Challenges and prospects.** Priorities include sustainable water management, reducing risks associated with competition over access to water and roads, strengthening local infrastructure, diversifying the economy, increasing the value added to fruit products, modernising mining facilities and rehabilitating disturbed land. Regional development should be grounded in international law, interstate agreements and the interests of local communities.
 
+
+![Рельеф, города и водные объекты; сложные участки границы не показаны. / Relief, towns and water bodies; complex border segments are not shown.](../assets/diagrams/24-K-batken-region-bilingual.svg)
+
+*24-K. Баткенская область: схема. / Batken Region: schematic.*
 
 ### 24.9.1. Как корректно сравнивать семь областей / How to Compare the Seven Regions Fairly
 
@@ -542,6 +582,10 @@ The risk assessment must consider not only the probability of a hazardous event 
 | Water pollution | Lakeshores, urban areas and industrial sites | Inadequate wastewater treatment, waste and mining activities | Monitoring, treatment facilities and source control |
 | Glacier- and snow-related hazards | High-mountain catchments | Glacier change and unstable glacial-moraine lakes | Inventories, monitoring and evacuation plans |
 
+![Районы типичных опасностей и уязвимый транспортный коридор. / Areas of typical hazards and a vulnerable transport corridor.](../assets/diagrams/24-C-regional-risk-schematic-bilingual.svg)
+
+*24-C. Региональные риски: качественная схема. / Regional risks: qualitative schematic.*
+
 ## 24.12. Пространственное планирование и региональная политика / Spatial Planning and Regional Policy
 
 Государственная программа комплексного социально-экономического развития регионов на 2025–2030 годы задаёт рамку для региональной политики. В ней важны индустриализация, сельское хозяйство, туризм, цифровизация, инфраструктура, охрана окружающей среды и развитие пространственного планирования. Региональная политика должна переводить национальные цели в конкретные проекты, привязанные к территории и измеримым результатам.
@@ -573,46 +617,35 @@ A practical planning system includes:
 7. comparing alternative development scenarios; and
 8. monitoring indicators and publishing results openly.
 
+![Главные дороги, железные дороги, пункты пропуска и проектируемая линия. / Main roads, railways, border crossings and the planned line.](../assets/diagrams/24-L-transport-corridors-bilingual.svg)
+
+*24-L. Транспортные коридоры: схема. / Transport corridors: schematic.*
+
 ## 24.13. Карты и визуальные материалы / Maps and Visual Briefs
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-A / IMAGE PLACEHOLDER 24-A]** Сравнительная карта семи областей Кыргызстана: актуальные административные границы, центры областей, города республиканского значения, основные долины и горные хребты. Отдельной легендой показать, что Бишкек и Ош не входят в состав соответствующих областей.
-> **EN:** Comparative map of Kyrgyzstan's seven oblasts showing current administrative boundaries, oblast centres, cities of republican significance, major valleys and mountain ranges. The legend must show that Bishkek and Osh are not part of the corresponding oblasts.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-B / IMAGE PLACEHOLDER 24-B]** Семь региональных профилей в едином инфографическом формате: площадь, население на 01.01.2026, расчётная плотность и ведущие пространственные функции; население городов республиканского значения не включать в областные итоги.
-> **EN:** Seven regional profiles in a consistent infographic format: area, population as of 1 January 2026, calculated density and leading spatial functions. Do not include the populations of cities of republican significance in oblast totals.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-C / IMAGE PLACEHOLDER 24-C]** Карта региональных природных рисков и климатической уязвимости: селевые бассейны, оползневые зоны, лавиноопасные участки, засушливые территории и уязвимые транспортные коридоры; дата и масштаб каждого набора данных обязательны.
-> **EN:** Map of regional natural hazards and climate vulnerability, showing debris-flow basins, landslide zones, avalanche-prone areas, drought-affected territories and vulnerable transport corridors; state the date and scale of each dataset.
 
 
 Все карты должны иметь масштаб, легенду, дату данных, систему координат, источник границ и пояснение к спорным или изменявшимся административным единицам. Географические подписи проверяются по официальным топонимическим и картографическим источникам. Генеративная графика не должна самостоятельно создавать государственные границы, названия или статистические числа.
 
 1. **Административная карта семи областей.** Семь областей разными, но спокойными оттенками; Бишкек и Ош как отдельные города республиканского значения; центры областей, соседние государства, дата границ и источник.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-D / IMAGE PLACEHOLDER 24-D]** Физико-географическая карта Кыргызстана: хребты, долины, котловины, ледники, крупные реки и озёра; административные границы вторичным слоем. / Physical-geography map of Kyrgyzstan: mountain ranges, valleys, basins, glaciers, major rivers and lakes; administrative boundaries as a secondary layer.
 
 2. **Физико-географическая карта.** Главные хребты, долины, котловины, ледники, крупные реки и озёра; административные границы — вторичным слоем.
 3. **Сравнительная инфографика.** Площадь, население на 1 января 2026 года, расчётная плотность, высотный диапазон и ведущие виды хозяйства; единицы измерения обязательны.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-E / IMAGE PLACEHOLDER 24-E]** Детальная карта Чуйской долины: рельеф, оросительные системы, река Чу и притоки, городские центры, расширение агломерации и транспортные оси. / Detailed map of Chuy Valley: relief, irrigation, the Chuy River and tributaries, urban centres, agglomeration growth and transport axes.
 
 4. **Чуйская долина.** Рельеф, оросительные системы, Чу и притоки, городские центры, агломерационное расширение и основные транспортные оси.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-F / IMAGE PLACEHOLDER 24-F]** Карта бассейна Таласа: сельскохозяйственные земли, пастбища, город Талас и трансграничные связи. / Map of the Talas basin: agricultural land, pastures, Talas city and cross-border links.
 
 5. **Таласская долина.** Бассейн реки Талас, сельскохозяйственные земли, пастбищные зоны, Талас и направления трансграничных связей.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-G / IMAGE PLACEHOLDER 24-G]** Карта Иссык-Кульской котловины: озеро, притоки, прибрежные поселения, туристические зоны, ООПТ и чувствительные водно-болотные участки. / Map of the Issyk-Kul Basin: lake, tributaries, coastal settlements, tourism zones, protected areas and sensitive wetlands.
 
 6. **Иссык-Кульская котловина.** Озеро, основные притоки, прибрежные поселения, туристические зоны, охраняемые территории и чувствительные водно-болотные участки.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-H / IMAGE PLACEHOLDER 24-H]** Карта Внутреннего Тянь-Шаня: система Нарына, Сон-Куль, Чатыр-Куль, перевалы, пастбища и Таш-Рабат. / Map of the Inner Tien Shan: Naryn river system, Song-Kul, Chatyr-Kul, mountain passes, pastures and Tash-Rabat.
 
 7. **Нарын и высокогорные долины.** Внутренний Тянь-Шань, Нарынская речная система, Сон-Куль, Чатыр-Куль, перевалы, пастбища и Таш-Рабат.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-I / IMAGE PLACEHOLDER 24-I]** Региональная карта Джалал-Абадской области: долина Нарына, Токтогульское водохранилище, Чаткал, Арсланбоб, Сары-Челек и город Манас с пояснением переименования. / Regional map of Jalal-Abad: Naryn Valley, Toktogul Reservoir, Chatkal, Arslanbob, Sary-Chelek and Manas with a renaming note.
 
 8. **Джалал-Абадская область.** Долина Нарына, Токтогульское водохранилище, Чаткал, Арсланбоб и Сары-Челек; современное название города Манас с примечанием о переименовании.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-J / IMAGE PLACEHOLDER 24-J]** Карта Ошской области: Ферганская, Алайская и Чон-Алайская долины; город Ош обозначить отдельно от области. / Map of Osh Region: Fergana, Alay and Chon-Alay valleys; show Osh city separately from the region.
 
 9. **Ошская область и Ферганская долина.** Контраст долинных агроландшафтов, Алайской и Чон-Алайской долин, горных территорий; город Ош показать отдельным символом.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-K / IMAGE PLACEHOLDER 24-K]** Карта Баткенской области: рельеф, поселения, дороги и водные объекты; сложные участки границ брать только из проверенного официального источника. / Map of Batken Region: relief, settlements, roads and water features; use verified official boundary data for complex border sections.
 
 10. **Баткенская область.** Рельеф, населённые пункты, дороги и водные объекты; границы наносить исключительно по проверенному официальному источнику, без схематизации сложных участков.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 24-L / IMAGE PLACEHOLDER 24-L]** Карта транспортно-экономических коридоров: дороги, железнодорожные связи, пункты пропуска и логистические узлы; действующие и планируемые объекты различать. / Map of transport and economic corridors: roads, rail links, border crossings and logistics hubs; distinguish operating and planned facilities.
 
 11. **Транспортно-экономические коридоры.** Основные дороги, железнодорожные связи, пункты пропуска и логистические узлы; действующие и планируемые объекты визуально различать.
 12. **Карта экологической уязвимости.** Сели, оползни, засухи, деградация пастбищ, водный стресс, загрязнение и ледниковые риски; легенда должна показывать тип и уровень уверенности данных.

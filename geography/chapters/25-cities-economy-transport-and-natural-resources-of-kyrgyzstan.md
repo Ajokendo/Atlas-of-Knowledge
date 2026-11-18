@@ -77,9 +77,14 @@ International assessments also distinguish short-term growth drivers from long-t
 
 The Cabinet of Ministers' 2026 action plan for implementing the National Development Programme to 2030 identifies four directions: industrialisation, development of the country as a regional hub, agriculture and tourism, and green energy. These are policy objectives, not proof of achieved results. Progress should be assessed using annual indicators and independent data.
 
+![Предварительная оценка НСК за январь–сентябрь 2026 года. / NSC preliminary estimate for January–September 2026.](../assets/diagrams/25-H-gdp-structure-2026-bilingual.svg)
+
+*25-H. Структура ВВП и темпы роста. / GDP structure and growth rates.*
+
 ## 25.3. Городская система Кыргызстана / The Urban System of Kyrgyzstan
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-A / IMAGE PLACEHOLDER 25-A]** Карта-схема городской системы Кыргызстана: Бишкек и Ош, областные центры, Манас (бывший Джалал-Абад), функциональные города и основные связи. Границы и статус населённых пунктов сверить с актуальными официальными геоданными.
-> **EN:** Schematic map of Kyrgyzstan's urban system showing Bishkek and Osh, oblast centres, Manas (formerly Jalal-Abad), functional cities and major connections. Verify settlement boundaries and status against current official geodata.
+![Бишкек, Ош, областные центры и транспортные связи между ними. / Bishkek, Osh, oblast centres and the transport links between them.](../assets/diagrams/25-A-urban-system-links-bilingual.svg)
+
+*25-A. Города и главные связи: схема. / Cities and main links: schematic.*
 
 
 Города Кыргызстана различаются по масштабу, функциям, историческому происхождению и положению в транспортной сети. Бишкек и Ош — крупнейшие города республиканского значения. Другие города выполняют областные, районные, промышленные, транспортные, туристические и приграничные функции.
@@ -158,6 +163,18 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 
 **Other important towns.** Balykchy is the western gateway to Issyk-Kul; Cholpon-Ata is a tourism centre on the northern shore; Kara-Balta is an industrial and transport hub in the Chuy Valley; Tokmok is a historic, trade and production centre; Kant is an industrial and suburban node; and Toktogul serves a district associated with hydropower and the reservoir. Their functions should be analysed in regional context, not by population size alone.
 
+![У города может быть несколько функций. / A city can have several functions.](../assets/diagrams/25-E-functional-cities-bilingual.svg)
+
+*25-E. Функции городов: схема. / City functions: schematic.*
+
+![Города-спутники, маятниковые потоки и окружающие земли. / Satellite towns, commuting flows and surrounding land.](../assets/diagrams/25-F-bishkek-chuy-commuting-bilingual.svg)
+
+*25-F. Агломерация Бишкек–Чуй. / Bishkek–Chuy agglomeration.*
+
+![Ош, Кара-Суу, Узген, Ноокат и центры Баткенской и Джалал-Абадской областей. / Osh, Kara-Suu, Uzgen, Nookat and centres of Batken and Jalal-Abad regions.](../assets/diagrams/25-G-southern-urban-system-bilingual.svg)
+
+*25-G. Южная городская система: схема. / Southern urban system: schematic.*
+
 ## 25.4. Экономические отрасли и территориальная организация / Economic Sectors and Their Spatial Organization
 
 ### Сельское хозяйство и агропромышленная цепочка
@@ -225,9 +242,14 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 
 **Digital economy and services.** Bishkek and Osh concentrate many education, financial, medical and business services. Digital platforms can extend services beyond major cities, but require reliable internet, digital literacy, data protection, payment infrastructure and skilled workers. High-tech services do not need the same location pattern as heavy industry, but depend on education, the rule of law, reliable electricity and access to international markets.
 
+![Этапы агропродовольственной цепочки от производства и сбора до хранения, переработки, логистики и рынка. / Agri-food value-chain stages from production and collection through storage, processing, logistics and market.](../assets/diagrams/25-I-agri-food-value-chain-bilingual.svg)
+
+*25-I. Обобщённая цепочка; конкретные культуры, участники, маршруты и требования безопасности зависят от продукта и региона. / Generalised chain; crops, actors, routes and safety requirements vary by product and region.*
+
 ## 25.5. Транспортная география / Transport Geography
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-B / IMAGE PLACEHOLDER 25-B]** Схема транспортной сети: основные автодороги, действующие железнодорожные участки, аэропорты и пункты пропуска; строящуюся железную дорогу Китай — Кыргызстан — Узбекистан показать отдельным условным знаком с подписью «строительство», не как действующую линию.
-> **EN:** Transport-network diagram showing main roads, operating railway sections, airports and border crossings. Depict the China–Kyrgyzstan–Uzbekistan railway under construction with a separate symbol and the label “under construction”, not as an operating line.
+![Основные автодороги, железные дороги, пункты пропуска и строящаяся линия. / Main roads, railways, border crossings and the line under development.](../assets/diagrams/25-B-transport-network-bilingual.svg)
+
+*25-B. Транспортная сеть: схема. / Transport network: schematic.*
 
 
 Транспортная система Кыргызстана опирается прежде всего на автомобильные перевозки: горный рельеф и рассредоточенность поселений делают дороги основой внутренней связности. По публикации Национального статистического комитета от 25 октября 2026 года, в 2025 году автомобильным транспортом было перевезено более 62 млн тонн грузов — свыше 80% общего объёма грузоперевозок; на автобусы и такси приходилось более 90% пассажирских перевозок. Эти доли относятся к статистическому учёту перевозок за 2025 год и не должны автоматически смешиваться с более высокими долями (до 96% грузов и 98% пассажиров), приводимыми в материалах Министерства транспорта для дорожной сети: определения охвата и методики могут различаться. Общая дорожная сеть оценивается примерно в 34 тыс. км, включая дороги общего пользования, городские, сельские и ведомственные дороги; для сопоставления протяжённости необходимо указывать категорию дорог, дату и источник.
@@ -323,9 +345,14 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 
 **Renewables and efficiency.** Solar and wind power can complement hydropower where resource conditions and grid connections are suitable. Further opportunities include small hydropower, grid modernisation, storage, demand management, building insulation and efficient heating. Installed capacity alone is not enough to assess a project: capacity factor, seasonal generation profile, grid constraints, storage costs, environmental effects and supply reliability must also be considered.
 
+![ГЭС Токтогульского каскада, ТЭЦ Бишкека и линия север–юг. / Toktogul cascade, Bishkek CHP and the north–south line.](../assets/diagrams/25-K-energy-system-bilingual.svg)
+
+*25-K. Энергетическая система: схема. / Energy system: schematic.*
+
 ## 25.7. Минеральные и другие природные ресурсы / Mineral and Other Natural Resources
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-C / IMAGE PLACEHOLDER 25-C]** Карта минеральных ресурсов: месторождения и районы добычи с раздельными обозначениями действующих объектов, разведанных запасов и перспективных участков; не изображать лицензии как доказательство фактической добычи.
-> **EN:** Mineral-resource map showing deposits and mining districts, with separate symbols for operating sites, explored reserves and prospective areas; do not treat a licence as proof of actual extraction.
+![Районы добычи и перспективных ресурсов без статуса отдельных объектов. / Mining and resource districts without the status of individual sites.](../assets/diagrams/25-C-mineral-resources-districts-bilingual.svg)
+
+*25-C. Минеральные ресурсы: районы. / Mineral resources: districts.*
 
 
 Кыргызстан обладает месторождениями золота, серебра, угля, сурьмы, ртути, олова, вольфрама, редких и цветных металлов, нерудных строительных материалов, а также значительными водными, земельными и рекреационными ресурсами. Геологический потенциал не равен экономически извлекаемым запасам: для каждого месторождения необходимо различать прогнозные ресурсы, разведанные запасы, лицензированные участки, действующую добычу и экономически обоснованные извлекаемые объёмы.
@@ -438,6 +465,10 @@ The competitiveness of a corridor depends on:
 - return loads and balanced freight flows.
 
 Regional trade nodes—including Bishkek, Osh, Kara-Suu, Balykchy, Kara-Balta, Naryn and border towns—perform different functions. Analysis must distinguish re-exports, transit and exports of goods produced domestically. Growth in trade turnover does not necessarily mean a comparable increase in domestic value added.
+
+![Север–юг и проектируемая связь Китай–Кыргызстан–Узбекистан. / North–south links and the planned China–Kyrgyzstan–Uzbekistan connection.](../assets/diagrams/25-J-international-corridors-bilingual.svg)
+
+*25-J. Международные коридоры: схема. / International corridors: schematic.*
 
 ## 25.10. Региональная доступность и неравенство / Regional Accessibility and Inequality
 
@@ -658,6 +689,10 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 
 **Check your understanding:** if a 210 km route is travelled at an average speed of 35 km/h, how long will driving take without stops? What additional information is needed to estimate actual delivery time?
 
+![Качественное сравнение трёх путей развития. / A qualitative comparison of three development paths.](../assets/diagrams/25-L-spatial-development-scenarios-bilingual.svg)
+
+*25-L. Три сценария: качественно. / Three scenarios: qualitative.*
+
 ## 25.12. Практические работы / Practical Exercises
 
 ### Работа 1. Функциональная классификация городов
@@ -707,34 +742,23 @@ In this hypothetical example, Route 1 is both faster and less expensive. A real 
 Все визуалы создаются на основе проверенных геоданных и статистики. Генеративные инструменты допустимы для художественной стилизации, но не для самостоятельного нанесения границ, названий, чисел и маршрутов.
 
 1. **Иерархия городской системы.** Карта Кыргызстана с Бишкеком, Ошом, областными центрами и важными функциональными городами; отдельно показать города республиканского значения.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-E / IMAGE PLACEHOLDER 25-E]** Функциональная карта городов: административные, промышленные, транспортные, туристические и приграничные функции; допускается несколько функций на город. / Functional city map: administrative, industrial, transport, tourism and border functions; multiple functions may be assigned to one city.
 
 2. **Функциональная карта городов.** Символами показать административные, промышленные, транспортные, туристические и приграничные функции; один город может иметь несколько функций.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-F / IMAGE PLACEHOLDER 25-F]** Карта агломерации Бишкек–Чуй: административные границы, пригороды, маятниковые потоки, дороги, промышленные зоны и сельхозземли. / Bishkek–Chuy agglomeration map: boundaries, suburbs, commuting flows, roads, industrial zones and agricultural land.
 
 3. **Агломерация Бишкек–Чуй.** Административные границы, пригородные поселения, маятниковые потоки, основные дороги, промышленные зоны и сельскохозяйственные земли.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-G / IMAGE PLACEHOLDER 25-G]** Карта южной городской системы: Ош, Кара-Суу, Узген, Ноокат и центры Баткенской и Джалал-Абадской областей; не смешивать административные статусы. / Southern urban-system map: Osh, Kara-Suu, Uzgen, Nookat and centres in Batken and Jalal-Abad; preserve administrative distinctions.
 
 4. **Городская система юга.** Ош, Кара-Суу, Узген, Ноокат, Баткенские и Джалал-Абадские центры; показать торговые и транспортные связи без смешения административных статусов.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-H / IMAGE PLACEHOLDER 25-H]** Диаграмма структуры ВВП по секторам за указанный период: доли и темпы роста раздельно, предварительные данные явно маркировать.
-> **EN:** Sectoral GDP chart for a stated period, showing shares and growth rates separately and clearly marking preliminary data. / GDP-by-sector chart for a specified period: show shares and growth rates separately and label provisional data.
 
 5. **Экономическая структура.** Диаграмма ВВП по секторам за конкретный период; отдельные графики доли и темпа роста, с подписью «предварительные данные», если применимо.
-![Этапы агропродовольственной цепочки от производства и сбора до хранения, переработки, логистики и рынка. / Agri-food value-chain stages from production and collection through storage, processing, logistics and market.](../assets/diagrams/25-I-agri-food-value-chain-bilingual.svg)
-
-*25-I. Обобщённая цепочка; конкретные культуры, участники, маршруты и требования безопасности зависят от продукта и региона. / Generalised chain; crops, actors, routes and safety requirements vary by product and region.*
 
 6. **Агропромышленные цепочки.** От поля и фермы через хранение, сортировку, переработку и логистику к рынку; показать региональные примеры.
 7. **Транспортная сеть.** Автодороги международного, государственного и местного значения, железнодорожные участки, аэропорты и пограничные переходы; легенда статусов и дата данных.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-J / IMAGE PLACEHOLDER 25-J]** Карта международных коридоров Китай–Кыргызстан–Узбекистан, север–юг и региональных связей; действующие маршруты отличать от проектируемых. / Map of China–Kyrgyzstan–Uzbekistan, north–south and regional corridors; distinguish operating routes from proposals.
 
 8. **Международные коридоры.** Направления Китай–Кыргызстан–Узбекистан, север–юг и региональные связи; действующие маршруты отличить от проектируемых.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-K / IMAGE PLACEHOLDER 25-K]** Карта энергетической системы: ГЭС, ТЭЦ, водохранилища, ЛЭП и центры потребления; мощности указывать только по проверенным данным. / Energy-system map: hydropower and thermal plants, reservoirs, transmission lines and consumption centres; include capacities only when verified.
 
 9. **Энергетическая система.** ГЭС, ТЭЦ, водохранилища, линии электропередачи и основные центры потребления; не наносить непроверенные мощности.
 10. **Карта минеральных ресурсов.** Типы месторождений и промышленные районы; отделить действующую добычу, разведанные объекты и перспективные участки.
 11. **Природный капитал и экологические риски.** Водосборы, пастбища, леса, ООПТ, горнодобывающие площадки и зоны уязвимости.
-> **[МЕТКА ИЛЛЮСТРАЦИИ 25-L / IMAGE PLACEHOLDER 25-L]** Сравнительная инфографика трёх сценариев пространственного развития с измеримыми индикаторами и явными допущениями. / Comparative infographic of three spatial-development scenarios, with measurable indicators and explicit assumptions.
 
 12. **Сценарии пространственного развития.** Сравнение инерционного, диверсифицированного и зелёного сценариев с измеримыми индикаторами.
 

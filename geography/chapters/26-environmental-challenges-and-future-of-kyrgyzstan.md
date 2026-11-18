@@ -32,8 +32,9 @@ Environmental policy should address these issues as one connected system. Forest
 
 ## 26.2. Климатические изменения: наблюдения и последствия / Climate Change: Observations and Impacts
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-A / IMAGE PLACEHOLDER 26-A]** График национального температурного тренда 1960–2023 годов и климатическая карта региональных различий; отдельно обозначить наблюдения и модельные проекции, подписать базовые периоды.
-> **EN:** Chart of Kyrgyzstan's national temperature trend for 1960–2023 and a climate map of regional differences; distinguish observations from model projections and state the baseline periods.
+![Оценка прироста температуры и качественная схема различий. / Estimated temperature rise and a qualitative schematic of differences.](../assets/diagrams/26-A-climate-trend-and-regions-bilingual.svg)
+
+*26-A. Потепление: оценка и региональные различия. / Warming: estimate and regional differences.*
 
 
 По данным UNEP, средняя годовая температура в Кыргызстане увеличилась примерно на 1,2 °C в период 1960–2023 годов — приблизительно вдвое больше приведённой в той же оценке глобальной величины. Это национальная оценка за конкретный период, а не универсальная характеристика каждого района: локальные тренды различаются по высоте, сезону и географическому положению.
@@ -80,8 +81,9 @@ In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribut
 NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-B / IMAGE PLACEHOLDER 26-B]** Комплексная карта и инфографика водной безопасности Кыргызстана: ледники и основные речные бассейны, сравнение инвентаризаций 1940–1970-х и 2013–2016 годов, снеговое и ледниковое питание, сезонный сток, водохранилища, орошение и зоны потенциального риска прорыва ледниковых озёр; указать даты, версии каталогов и методические различия.
-> **EN:** Integrated map and infographic of water security in Kyrgyzstan: glaciers and major river basins, comparison of the 1940s–1970s and 2013–2016 inventories, snow and glacier melt, seasonal runoff, reservoirs, irrigation and potential glacial-lake outburst zones; state dates, catalogue versions and methodological differences.
+![Ледники питают реки, уходящие в соседние страны. / Glaciers feed rivers that flow into neighbouring countries.](../assets/diagrams/26-B-water-security-schematic-bilingual.svg)
+
+*26-B. Водная безопасность: схема. / Water security: schematic.*
 
 Для количественной оценки важно указывать дату и метод инвентаризации. По каталогу, подготовленному ЦАИИЗ на основе спутниковых снимков Landsat 8 за 2013–2016 годы, в Кыргызстане было учтено 9 959 ледников общей площадью 6 683,9 км². Сопоставляемый советский каталог, основанный на материалах аэрофотосъёмки 1940–1970-х годов, содержал 8 164 ледника общей площадью 7 944,2 км². Разница площадей составляет около 16% (примерно 1 260 км²), но сравнение не является идеально однородным: старый каталог в отдельных районах не учитывал ледники менее 0,1 км², тогда как новая инвентаризация включала объекты более 0,01 км². Поэтому увеличение числа учтённых ледников не означает роста ледникового покрова: деградация крупных ледников сопровождается их фрагментацией на более мелкие тела. Данные 2013–2016 годов — важная базовая инвентаризация, но не актуальная оценка площади на 2026 год.
 
@@ -152,13 +154,15 @@ Managing water demand requires:
 
 Water-saving technologies should be assessed at the river-basin scale. Improving efficiency at one location may encourage the expansion of irrigated areas and fail to reduce total abstraction if limits and accounting systems are absent.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-C / IMAGE PLACEHOLDER 26-C]** Карта уязвимости речных бассейнов: водозаборы, население, орошение и трансграничные направления с датой и источником.
-> **EN:** River-basin vulnerability map showing abstractions, population, irrigation and transboundary directions, with data date and source.
+![Орошение, города и направления трансграничного стока. / Irrigation, cities and transboundary flow directions.](../assets/diagrams/26-C-river-basin-vulnerability-bilingual.svg)
+
+*26-C. Уязвимость бассейнов: схема. / Basin vulnerability: schematic.*
 
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-D / IMAGE PLACEHOLDER 26-D]** Карта землепользования и состояния пастбищ: отделить национальную агрегированную оценку деградации от локальных обследований и спутниковых индексов.
-> **EN:** Land-use and pasture-condition map distinguishing national aggregate degradation estimates from local field surveys and satellite indices.
+![Летние и зимние пастбища и участки перегрузки. / Summer and winter pastures and overloaded sites.](../assets/diagrams/26-D-pastures-schematic-bilingual.svg)
+
+*26-D. Пастбища: схема. / Pastures: schematic.*
 > **EN:** Land-use and pasture-condition map distinguishing national aggregate degradation estimates from local field surveys and satellite indices.
 
 
@@ -270,8 +274,9 @@ According to UNEP, forest cover increased from 6.2% of the country's area in 200
 
 Biodiversity conservation cannot be limited to the boundaries of nature reserves. It requires connectivity between natural areas, sustainable land use outside protected areas and measures to reduce conflict between people and wildlife.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-E / IMAGE PLACEHOLDER 26-E]** Карта лесных экосистем и экологических коридоров с официальными границами ООПТ и датой геоданных.
-> **EN:** Map of forest ecosystems and ecological corridors, using official protected-area boundaries and dated geodata.
+![Основные лесные комплексы и условные связи между охраняемыми территориями. / Main forest complexes and conceptual links between protected areas.](../assets/diagrams/26-E-forests-and-corridors-bilingual.svg)
+
+*26-E. Леса и связность: схема. / Forests and connectivity: schematic.*
 
 ## 26.6. Воздух и здоровье населения / Air Quality and Public Health
 
@@ -316,8 +321,9 @@ Effective air-quality policy should combine monitoring of PM2.5 and other pollut
 
 Children, pregnant women, older people and people with chronic illnesses require particular attention. Public information about pollution should be clear and accompanied by practical advice on reducing exposure.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-F / IMAGE PLACEHOLDER 26-F]** Карта городского качества воздуха: источники выбросов, посты наблюдений, сезонность и температурные инверсии.
-> **EN:** Urban air-quality map showing emission sources, monitoring stations, seasonality and temperature inversions.
+![Почему зимой воздух в котловинах хуже. / Why winter air is worse in basins.](../assets/diagrams/26-F-urban-air-inversion-bilingual.svg)
+
+*26-F. Городской воздух: схема. / Urban air: schematic.*
 
 ## 26.7. Вода, сточные воды и санитарная безопасность / Water, Wastewater and Sanitation
 
@@ -356,8 +362,9 @@ Main challenges include:
 
 Priority measures include building and modernising treatment facilities, adopting energy-efficient technologies, controlling discharge quality, laboratory monitoring, managing sewage sludge, protecting water intakes and ensuring sustainable financing for system operation. Constructing a facility without an operating and maintenance budget does not guarantee a lasting result.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-G / IMAGE PLACEHOLDER 26-G]** Схема водозаборов, очистных сооружений, канализации, сбросов и чувствительных водных объектов.
-> **EN:** Diagram of water intakes, treatment plants, sewerage, discharges and sensitive water bodies.
+![Путь воды от источника до водоёма-приёмника. / The path of water from source to receiving water body.](../assets/diagrams/26-G-water-sanitation-chain-bilingual.svg)
+
+*26-G. Водоснабжение и канализация: цепочка. / Water supply and sanitation: the chain.*
 
 ## 26.8. Отходы и циркулярная экономика / Waste and Circular Economy
 
@@ -411,10 +418,11 @@ Priority actions include:
 - developing markets for secondary raw materials.
 
 Waste incineration is not a universal solution. Without flue-gas cleaning and control of the waste composition, it can transfer pollution from the solid phase into the atmosphere.
+> **EN:** Waste-management diagram showing prevention, separate collection, sorting, recycling, composting and safe residual disposal.
+
 ![Иерархия обращения с отходами от предотвращения и повторного использования до восстановления и безопасного удаления остатка. / Waste-management hierarchy from prevention and reuse to recovery and safe disposal of residuals.](../assets/diagrams/26-H-waste-hierarchy-bilingual.svg)
 
 *26-H. Приоритеты соответствуют общей иерархии предотвращения, повторного использования, переработки, восстановления и удаления; конкретные решения зависят от потока отходов и жизненного цикла. / Priorities follow the general hierarchy of prevention, reuse, recycling, recovery and disposal; specific choices depend on the waste stream and life-cycle impacts.*
-> **EN:** Waste-management diagram showing prevention, separate collection, sorting, recycling, composting and safe residual disposal.
 
 ## 26.9. Горнодобывающая промышленность и экологическое наследие / Mining and Environmental Legacy
 
@@ -449,13 +457,11 @@ The mining sector creates jobs, export earnings and tax revenue, but it can also
 
 For legacy industrial sites, priorities include inventories of contaminated locations, assessment of contaminant pathways, risk-based ranking of sites, safe containment or remediation, and long-term monitoring. The end of mining does not automatically eliminate environmental risk.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-J / IMAGE PLACEHOLDER 26-J]** Карта экологических обязательств горнодобывающих объектов: карьеры, шахты, хвостохранилища, нарушенные земли, мониторинг и рекультивация.
-> **EN:** Map of mining-related environmental liabilities: open pits, mines, tailings facilities, disturbed land, monitoring and rehabilitation.
+![Последовательность экологических обязательств. / The sequence of environmental obligations.](../assets/diagrams/26-J-mining-obligations-cycle-bilingual.svg)
+
+*26-J. Горнодобыча и рекультивация: цикл. / Mining and reclamation: cycle.*
 
 ## 26.10. Природные опасности и снижение риска бедствий / Natural Hazards and Disaster Risk Reduction
-![Концептуальная модель риска: опасность, подверженность, уязвимость и потенциал реагирования. / Conceptual risk model: hazard, exposure, vulnerability and coping capacity.](../assets/diagrams/26-I-hazard-exposure-vulnerability-risk-bilingual.svg)
-
-*26-I. Риск возникает из взаимодействия факторов; схема не является численной формулой, картой опасностей или прогнозом конкретного события. / Risk emerges from interacting factors; this is not a numerical formula, hazard map or forecast of a specific event.*
 > **EN:** Hazard–exposure–vulnerability–risk infographic and map examples of debris-flow, landslide, flood and seismic hazards; do not present a schematic map as a forecast.
 
 
@@ -582,10 +588,11 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 
 **Learning activity.** Select two hypothetical assets in a mountain valley and compare the consequences of their damage during a flood or landslide. Prepare a qualitative hazard, exposure and vulnerability matrix, state uncertainties and propose two measures each for prevention, preparedness and recovery. Do not assign precise probabilities without supporting data.
 
-## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
-![Зелёная городская инфраструктура: деревья, парки, биоканавы, водопроницаемые покрытия, теневые маршруты и мониторинг. / Green urban infrastructure: trees, parks, bioswales, permeable surfaces, shaded routes and monitoring.](../assets/diagrams/26-K-green-urban-infrastructure-bilingual.svg)
+![Концептуальная модель риска: опасность, подверженность, уязвимость и потенциал реагирования. / Conceptual risk model: hazard, exposure, vulnerability and coping capacity.](../assets/diagrams/26-I-hazard-exposure-vulnerability-risk-bilingual.svg)
 
-*26-K. Концептуальная сеть решений; эффекты охлаждения, инфильтрации, качества воздуха и биоразнообразия зависят от местного проектирования и обслуживания. / Conceptual network of interventions; cooling, infiltration, air-quality and biodiversity benefits depend on local design and maintenance.*
+*26-I. Риск возникает из взаимодействия факторов; схема не является численной формулой, картой опасностей или прогнозом конкретного события. / Risk emerges from interacting factors; this is not a numerical formula, hazard map or forecast of a specific event.*
+
+## 26.11. Города, зелёная инфраструктура и качество жизни / Cities, Green Infrastructure and Quality of Life
 > **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 > **EN:** Green urban infrastructure diagram showing trees, parks, drainage, cool routes and public transport, linked to heat and air quality.
 
@@ -622,6 +629,10 @@ Urban environmental policy includes:
 Green infrastructure is more than decorative landscaping. It is a connected network of parks, waterways, urban forests, green streets, permeable surfaces and natural areas that support cooling, stormwater retention, biodiversity and public health.
 
 Tree planting should account for local climate, water availability, species resilience, allergenicity, infrastructure safety and long-term maintenance. The number of seedlings planted is not the same as the area of resilient green cover restored.
+
+![Зелёная городская инфраструктура: деревья, парки, биоканавы, водопроницаемые покрытия, теневые маршруты и мониторинг. / Green urban infrastructure: trees, parks, bioswales, permeable surfaces, shaded routes and monitoring.](../assets/diagrams/26-K-green-urban-infrastructure-bilingual.svg)
+
+*26-K. Концептуальная сеть решений; эффекты охлаждения, инфильтрации, качества воздуха и биоразнообразия зависят от местного проектирования и обслуживания. / Conceptual network of interventions; cooling, infiltration, air-quality and biodiversity benefits depend on local design and maintenance.*
 
 ## 26.12. Биоразнообразие, охраняемые территории и экологические коридоры / Biodiversity, Protected Areas and Ecological Corridors
 
@@ -800,8 +811,9 @@ This is a substantial volume, but it should not automatically be described entir
 
 **Check your understanding:** if 800 m³ enters a system each day and recorded useful consumption is 680 m³, what percentage of the supplied volume is the difference? What information is needed to determine how much of it is physical leakage?
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 26-L / IMAGE PLACEHOLDER 26-L]** Сценарный график до 2050 года с тремя вариантами и сопоставимыми индикаторами климата, воды, земель, биоразнообразия, воздуха и качества жизни.
-> **EN:** Scenario chart to 2050 with three pathways and comparable indicators for climate, water, land, biodiversity, air and quality of life.
+![Как меры влияют на климат, воду, земли, воздух и жизнь. / How measures affect climate, water, land, air and quality of life.](../assets/diagrams/26-L-scenarios-2050-bilingual.svg)
+
+*26-L. Сценарии до 2050: качественно. / Scenarios to 2050: qualitative.*
 
 ## 26.15. Практические работы / Practical Exercises
 

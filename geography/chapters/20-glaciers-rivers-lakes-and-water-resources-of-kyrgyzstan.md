@@ -119,8 +119,9 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 
 
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-A / IMAGE PLACEHOLDER 20-A]** Карта современных ледников Кыргызстана по датированной инвентаризации с раздельным отображением ледниковых районов и границ бассейнов; указать порог учёта и метод.
-> **EN:** Map of Kyrgyzstan's glaciers based on a dated inventory, distinguishing glacier regions from basin boundaries; state the inclusion threshold and method.
+![Основные районы современного оледенения. / Main areas of present-day glaciation.](../assets/diagrams/20-A-glaciated-areas-bilingual.svg)
+
+*20-A. Районы оледенения: схема. / Glaciated areas: schematic.*
 
 ### 20.3.1. Формирование и строение ледников
 
@@ -241,8 +242,9 @@ It is important to distinguish the short-term effect of accelerated melting from
 
 ## 20.4. Реки и речные бассейны Кыргызстана / Rivers and River Basins of Kyrgyzstan
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-B / IMAGE PLACEHOLDER 20-B]** Гидрографическая карта основных речных бассейнов и направлений трансграничного стока; показать водоразделы, крупные реки и страны-соседи.
-> **EN:** Hydrographic map of the main river basins and transboundary flow directions, showing watershed divides, major rivers and neighbouring countries.
+![Куда уходит вода Кыргызстана: бассейны Сырдарьи, Чу, Таласа, Тарима и Амударьи. / Where Kyrgyzstan's water goes: the Syr Darya, Chu, Talas, Tarim and Amu Darya basins.](../assets/diagrams/20-B-river-basins-flow-directions-bilingual.svg)
+
+*20-B. Направления стока по основным бассейнам. / Flow directions of the main basins.*
 
 ### 20.4.1. Речная сеть
 
@@ -349,8 +351,9 @@ The Chatkal forms in the Western Tien Shan and is connected downstream with the 
 
 ## 20.5. Питание рек и сезонный режим стока / River Regimes and Sources of Flow
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 20-G / IMAGE PLACEHOLDER 20-G]** Гидрограф сезонного стока горной реки с вкладом снегового, ледникового и дождевого питания; данные должны относиться к указанному створу и периоду.
-> **EN:** Seasonal hydrograph of a mountain river showing snowmelt, glacier-melt and rainfall contributions for a specified gauge and period.
+![Вклад снегового, ледникового и дождевого питания по месяцам. / Contribution of snowmelt, glacier melt and rain by month.](../assets/diagrams/20-G-hydrograph-schematic-bilingual.svg)
+
+*20-G. Сезонный сток горной реки: условная схема. / Seasonal flow of a mountain river: schematic.*
 
 
 Горные реки получают воду из нескольких источников:

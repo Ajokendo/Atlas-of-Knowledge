@@ -36,7 +36,9 @@ After studying this chapter, readers will be able to explain core demographic co
 **EN production brief:** Place “Population” in the centre and connect it to census data, civil registration, surveys, administrative records and geospatial sources. Show which indicators each source provides; all labels must be bilingual.
 
 ## 9.2. Численность населения и её изменение / Population Size and Change
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-A / IMAGE PLACEHOLDER 09-A]** График численности населения мира; наблюдения и прогнозы показать раздельно. / World population trend chart, separating observations from projections.
+![Рост численности в 1950–2024 годах и средний вариант прогноза до 2100 года. / Population growth in 1950–2024 and the medium projection to 2100.](../assets/diagrams/09-A-world-population-trend-bilingual.svg)
+
+*09-A. Население мира: оценки и прогноз. / World population: estimates and projection.*
 **Рисунок 9.2 / Figure 9.2 — Изменение численности населения мира / World population change.**  
 Техническое задание: показать исторический ряд оценок отдельно от прогнозной части; обозначить базовый год, горизонт и сценарий WPP 2024; если используются интервалы неопределённости, объяснить их значение; не соединять наблюдения и прогнозы как один непрерывный ряд без визуального разграничения.
 **EN production brief:** Separate historical estimates from the projection period; identify the base year, horizon and WPP 2024 scenario. If uncertainty intervals are shown, explain them. Do not present observations and projections as one undifferentiated continuous series.
@@ -225,7 +227,9 @@ r_{ест} = \frac{B-D}{P_{mid}}\times 1000, \qquad r_{мигр} = \frac{I-E}{P_
 
 Крупные зоны концентрации населения исторически формировались в районах благоприятных условий земледелия, речных долин, побережий, промышленных узлов и транспортных коридоров. Большие пустынные, высокогорные, полярные и удалённые районы обычно заселены реже, но и там существуют локальные центры расселения.
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 09-E / IMAGE PLACEHOLDER 09-E]** Карта глобальной плотности населения на сопоставимую дату с единицами, источником и проекцией. / **EN:** Global population-density map for a stated reference date, with units, source and projection.
+![Человек на квадратный километр по странам. / People per square kilometre by country.](../assets/diagrams/09-E-world-population-density-bilingual.svg)
+
+*09-E. Плотность населения мира по странам. / World population density by country.*
 **Рисунок 9.6 / Figure 9.6 — Глобальная плотность населения / Global population density.**  
 Техническое задание: карта плотности населения на основе одной согласованной даты и пространственной сетки; использовать логарифмическую или категориальную шкалу, если диапазон значений велик; указать источник, год, проекцию и разрешение; не подменять плотность населения картой административных средних.
 **EN production brief:** Map population density using a consistent reference date and spatial grid. Use a logarithmic or categorical scale if the value range is large; state the source, year, projection and resolution. Do not substitute administrative-area averages for a gridded density surface.

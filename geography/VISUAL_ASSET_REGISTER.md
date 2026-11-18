@@ -595,3 +595,6 @@ The previously unnumbered Figure 7.5 production brief is now named **07-J** and 
 ## Geography Atlas — standing original-visual licence authority — 6 November 2026
 
 The project owner authorises CC BY-NC 4.0 for all original visual assets in the Geography Atlas that the project owns or is authorised to license, including future original visuals. This standing authorisation supersedes earlier asset-limited lists. Third-party, adapted, sourced and composite assets retain their individual upstream terms; unresolved provenance/ownership remains PENDING until checked. This policy is limited to the Geography Atlas and does not change other subject atlases or the repository-root licence.
+
+
+**Обновление 18.11.2026:** добавлено 68 схем и карт (главы 09, 10, 12, 17–26); открытыми остаются 23-G (возрастно-половая пирамида 2022: нет данных в тексте главы) и часть карт, требующих официальных датированных геоданных (границы ООПТ, запасы, ЦМР). Все добавленные карты — учебные схемы на основе Natural Earth, см. IMAGE_SOURCES.md.
