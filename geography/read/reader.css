@@ -76,3 +76,16 @@ article p.fig + p em{font-style:normal}
 article{overflow-wrap:anywhere}
 .tableWrap{max-width:100%}
 .tableWrap td:first-child,.tableWrap th:first-child{min-width:7.5em;overflow-wrap:normal;word-break:normal}
+
+/* key points card and collapsible sections */
+.keyfacts{margin:26px 0 8px;padding:18px 20px 16px;background:#e8f3f5;border:1px solid #b9d9df;border-left:5px solid var(--accent);border-radius:6px}
+.keyfacts .kfT{display:block;font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:#1d5f6d;margin-bottom:12px}
+.keyfacts ul{margin:0;padding-left:1.2em}
+.keyfacts li{margin:7px 0;font-size:15.5px;line-height:1.55}
+.foldAll{margin-top:12px;border:1px solid var(--accent);background:#fff;color:var(--accent);border-radius:999px;padding:8px 16px;font:inherit;font-size:14px;cursor:pointer}
+article h2.foldable{cursor:pointer;position:relative;padding-right:34px;user-select:none}
+article h2.foldable::after{content:"▸";position:absolute;right:4px;top:26px;font-size:.7em;color:var(--accent);transition:transform .15s}
+article h2.foldable.open::after{transform:rotate(90deg)}
+article h2.foldable:not(.open){margin-top:0;margin-bottom:0;padding-bottom:16px}
+.folded{display:none!important}
+@media print{.folded{display:block!important}.foldAll{display:none}}

@@ -24,7 +24,7 @@
       var has = false;
       for (var j = i + 1; j < blocks.length; j++) {
         var b = blocks[j], bl = level(b);
-        if (bl && bl <= lv) break;
+        if (bl && bl <= lv) { if (shown(b, lang) && !b.classList.contains('empty')) break; continue; }
         if (!shown(b, lang) || b.classList.contains('empty')) continue;
         has = true; break;
       }
@@ -55,6 +55,56 @@
     });
   }
 
+  // Collapsible sections: the page opens as a short list of headings.
+  var openSet = {0: true}, secHeads = [];
+  function buildFold(lang) {
+    secHeads = [];
+    var cur = -1;
+    blocks.forEach(function (b) {
+      b.classList.remove('foldable', 'open', 'folded'); delete b.dataset.sec;
+    });
+    blocks.forEach(function (b) {
+      if (b.tagName === 'H2' && shown(b, lang) && !b.classList.contains('empty')) {
+        cur = secHeads.length; secHeads.push(b); b.classList.add('foldable'); b.dataset.n = cur;
+      } else if (cur >= 0 && b.tagName !== 'H1') { b.dataset.sec = cur; }
+    });
+    paintFold();
+  }
+  function paintFold() {
+    secHeads.forEach(function (h, i) { h.classList.toggle('open', !!openSet[i]); });
+    blocks.forEach(function (b) {
+      if (b.dataset.sec !== undefined) b.classList.toggle('folded', !openSet[+b.dataset.sec]);
+    });
+    var all = secHeads.length > 0 && secHeads.every(function (h, i) { return openSet[i]; });
+    document.querySelectorAll('.foldAll').forEach(function (bt) {
+      var en = bt.parentNode.classList.contains('en');
+      bt.textContent = all ? (en ? 'Collapse all sections' : 'Свернуть все разделы') : (en ? 'Expand all sections' : 'Развернуть все разделы');
+    });
+  }
+  function secOf(el) {
+    var b = el; while (b && b.parentNode !== article) b = b.parentNode;
+    if (!b) return -1;
+    if (b.classList.contains('foldable')) return +b.dataset.n;
+    return b.dataset.sec !== undefined ? +b.dataset.sec : -1;
+  }
+  function reveal(id) {
+    var el = id && document.getElementById(id); if (!el) return;
+    var i = secOf(el);
+    if (i >= 0 && !openSet[i]) { openSet[i] = true; paintFold(); }
+    setTimeout(function () { el.scrollIntoView(); }, 30);
+  }
+  article.addEventListener('click', function (e) {
+    var h = e.target.closest('h2.foldable');
+    if (h && !e.target.closest('a')) { openSet[+h.dataset.n] = !openSet[+h.dataset.n]; paintFold(); }
+    var fa = e.target.closest('.foldAll');
+    if (fa) {
+      var all = secHeads.every(function (x, i) { return openSet[i]; });
+      secHeads.forEach(function (x, i) { openSet[i] = !all; }); paintFold();
+    }
+  });
+  window.addEventListener('hashchange', function () { reveal(location.hash.slice(1)); });
+  window.addEventListener('beforeprint', function () { secHeads.forEach(function (x, i) { openSet[i] = true; }); paintFold(); });
+
   function apply(lang) {
     body.dataset.lang = lang;
     document.documentElement.lang = lang;
@@ -62,6 +112,7 @@
     var t = window.CHAPTER_TITLES || {};
     document.title = (t[lang] || t.ru || '') + (lang === 'ru' ? ' — Атлас географии' : ' — Atlas of Geography');
     hideEmpty(lang);
+    buildFold(lang);
     buildToc(lang);
     setAlts(lang);
     spy();
@@ -105,4 +156,5 @@
   });
 
   apply(getLang());
+  if (location.hash) reveal(location.hash.slice(1));
 })();
