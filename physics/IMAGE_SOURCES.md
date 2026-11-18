@@ -99,6 +99,21 @@
 | PH-32-01 | 32 | Глаз и очки (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-32-02 | 32 | Микроскоп (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-32-03 | 32 | Телескоп (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-33-01 | 33 | Сани с трением (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-33-02 | 33 | Вес в лифте (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-33-03 | 33 | Падение с сопротивлением (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-34-01 | 34 | Столкновение тележек (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-34-02 | 34 | Сила удара и время торможения (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-34-03 | 34 | Ракета Циолковского (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-35-01 | 35 | Момент силы на ключе (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-35-02 | 35 | Поворот на дороге (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-35-03 | 35 | Фигурист (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-36-01 | 36 | Тяготение на высотах (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-36-02 | 36 | Спутник на орбите (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-36-03 | 36 | Прыжок на разных телах (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-37-01 | 37 | Горка и энергия (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-37-02 | 37 | Баллистический маятник (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-37-03 | 37 | Эллиптическая орбита (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -190,6 +205,13 @@
 | 31 | Показатели преломления: воздух 1,00, вода 1,33, стекло 1,5, алмаз 2,42; закон Снеллиуса; полное внутреннее отражение; формула тонкой линзы | Wikipedia, Refractive index: https://en.wikipedia.org/wiki/Refractive_index; Total internal reflection: https://en.wikipedia.org/wiki/Total_internal_reflection; OpenStax University Physics Vol. 3, гл. 2: https://openstax.org/books/university-physics-volume-3/pages/2-introduction | 18.11.2026 |
 | 32 | Глаз как линза, аккомодация, близорукость и дальнозоркость, лупа, микроскоп, телескоп; угловой размер Луны ≈ 0,52° | OpenStax University Physics Vol. 3, § 2.5: https://openstax.org/books/university-physics-volume-3/pages/2-5-the-eye; Wikipedia: https://en.wikipedia.org/wiki/Human_eye; https://en.wikipedia.org/wiki/Magnification; https://en.wikipedia.org/wiki/Moon | 18.11.2026 |
 | 25–32 | Условные значения моделей (не факты): ползунки, коэффициенты трения, параметры струны комуза, скорости P/S 6 и 3,5 км/с, напор и расстояния, упрощённая модель глаза | — | 18.11.2026 |
+| 33 | Законы Ньютона, вес в лифте, предельная скорость падения | OpenStax University Physics Vol. 1, гл. 5–6: https://openstax.org/books/university-physics-volume-1/pages/5-introduction | 18.11.2026 |
+| 34 | Импульс, столкновения, уравнение Циолковского, удельный импульс | OpenStax University Physics Vol. 1, гл. 9: https://openstax.org/books/university-physics-volume-1/pages/9-introduction ; Wikipedia, Tsiolkovsky rocket equation: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation | 18.11.2026 |
+| 35 | Момент силы, центростремительное ускорение, момент импульса | OpenStax University Physics Vol. 1, гл. 10–11: https://openstax.org/books/university-physics-volume-1/pages/10-introduction | 18.11.2026 |
+| 36 | G = 6,674·10⁻¹¹; массы и радиусы Земли, Луны, Марса; g Луны 1,62; геостационарная орбита ≈ 35 786 км; МКС ≈ 400 км | NASA Planetary Fact Sheets: https://nssdc.gsfc.nasa.gov/planetary/factsheet/ ; Wikipedia, Geostationary orbit: https://en.wikipedia.org/wiki/Geostationary_orbit | 18.11.2026 |
+| 36 | Первый национальный спутник Кыргызстана запущен 1 октября 2026 г. (Falcon 9, Ванденберг, около 5 кг, управление из Бишкека) | Interfax: https://www.interfax.com/newsroom/top-stories/119376/ ; The Times of Central Asia: https://timesca.com/first-kyrgyzstan-satellite-spacex-falcon-9/ | 18.11.2026 |
+| 37 | Сохранение энергии, импульса, момента импульса; баллистический маятник; законы Кеплера | OpenStax University Physics Vol. 1, гл. 8, 9, 11; Wikipedia, Ballistic pendulum: https://en.wikipedia.org/wiki/Ballistic_pendulum ; Kepler's laws: https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion | 18.11.2026 |
+| 33–37 | Условные значения моделей (не факты): коэффициенты трения, CdA, массы и скорости в задачах, момент инерции фигуриста, скорость спутника в загадке главы 36 (≈ 7,5 км/с; высота орбиты кыргызского спутника в источниках не указана) | Авторские допущения | 18.11.2026 |
 | 21–24 | Условные значения моделей (не факты): расстояния до магнита, проницаемость сердечника 500, сопротивление цепи 0,5 Ом, напор 130 м в задаче, сопротивление линии, параметры ползунков | — | 18.11.2026 |
 | 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
