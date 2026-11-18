@@ -24,6 +24,10 @@ BLOCKS = [
  dict(id='VI', ru='Алгебра', en='Algebra',
       note_ru='Функции и графики, корни, квадратные уравнения и парабола, дробные выражения, неравенства, нелинейные системы, прогрессии. Уровень — основы и углублённо.',
       note_en='Functions and graphs, roots, quadratic equations and the parabola, rational expressions, inequalities, nonlinear systems, progressions. Level — basics and advanced.'),
+
+ dict(id='VII', ru='Тригонометрия, показательная функция, логарифмы', en='Trigonometry, exponential function, logarithms',
+      note_ru='Старшая школа: радианы, тригонометрические функции и уравнения, показательный рост и логарифмы. Уровень — основы и углублённо.',
+      note_en='Upper secondary: radians, trigonometric functions and equations, exponential growth and logarithms. Level — basics and advanced.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -123,4 +127,18 @@ CHAPTERS = [
   'Формула n-го члена, сумма n членов.', 'The nth term formula, the sum of n terms.', 'VI'),
  ('48', '48-geometric-progression.html', 'Геометрическая прогрессия', 'Geometric progression',
   'Знаменатель, формула n-го члена, сумма, сложные проценты.', 'The common ratio, the nth term, the sum, compound interest.', 'VI'),
+ ('49', '49-radians-unit-circle.html', 'Радианы и единичная окружность', 'Radians and the unit circle',
+  'Радианная мера, длина дуги, синус и косинус как координаты точки.', 'Radian measure, arc length, sine and cosine as coordinates of a point.', 'VII'),
+ ('50', '50-trig-functions.html', 'Тригонометрические функции и графики', 'Trigonometric functions and graphs',
+  'Графики синуса, косинуса, тангенса, период, амплитуда, сдвиг.', 'Graphs of sine, cosine, tangent, period, amplitude, shift.', 'VII'),
+ ('51', '51-trig-identities.html', 'Формулы тригонометрии', 'Trigonometric identities',
+  'Основное тождество, формулы сложения и двойного угла.', 'The basic identity, addition and double-angle formulas.', 'VII'),
+ ('52', '52-trig-equations.html', 'Тригонометрические уравнения', 'Trigonometric equations',
+  'sin x = a, cos x = a, tan x = a и серии решений.', 'sin x = a, cos x = a, tan x = a and families of solutions.', 'VII'),
+ ('53', '53-exponential.html', 'Показательная функция', 'The exponential function',
+  'Степень с любым показателем, график aˣ, рост и распад, число e.', 'Powers with any exponent, the graph of aˣ, growth and decay, the number e.', 'VII'),
+ ('54', '54-logarithms.html', 'Логарифмы', 'Logarithms',
+  'Определение, свойства, десятичный и натуральный логарифмы, шкалы.', 'The definition, properties, decimal and natural logarithms, scales.', 'VII'),
+ ('55', '55-exp-log-equations.html', 'Показательные и логарифмические уравнения', 'Exponential and logarithmic equations',
+  'Решение уравнений и неравенств, задачи на рост и период полураспада.', 'Solving equations and inequalities, problems of growth and half-life.', 'VII'),
 ]
