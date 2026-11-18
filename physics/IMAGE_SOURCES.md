@@ -25,6 +25,23 @@
 | PH-07-01 | 07 | Автомобиль на дороге и график пути (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-07-02 | 07 | Автомобиль, график скорости и площадь под ним (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-07-03 | 07 | Два камня падают с обрыва (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-08-01 | 08 | Термометр и шкалы (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-08-02 | 08 | Рельс и тепловое расширение (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-09-01 | 09 | Стенка и теплопроводность (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-09-02 | 09 | Конвекция в сосуде (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-09-03 | 09 | Излучение нагретого тела (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-10-01 | 10 | Полоски теплоёмкости (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-10-02 | 10 | Смешивание воды (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-10-03 | 10 | Теплота сгорания топлива (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-11-01 | 11 | График нагрева от льда до пара (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-11-02 | 11 | Лёд в стакане (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-11-03 | 11 | Кипение на высоте (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-12-01 | 12 | Первый закон термодинамики (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-12-02 | 12 | Тепловой двигатель (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-12-03 | 12 | Предел Карно (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-13-01 | 13 | Склон горы и температура (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-13-02 | 13 | Бриз у озера (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-13-03 | 13 | Парниковый эффект (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -76,3 +93,14 @@
 | 07 | Свободное падение: ускорение не зависит от массы, g ≈ 9,8 м/с² | OpenStax University Physics Vol. 1, 3.5: https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall; OpenStax College Physics 2.7: https://openstax.org/books/college-physics/pages/2-7-falling-objects | 18.11.2026 |
 | 07 | Кинематика входит в программу 7 класса (12 ч) | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
 | 07 | Условные значения моделей (не факты): скорости до 40 м/с, ускорения до 6 м/с², обрыв 5–100 м, камни 10 кг и 0,1 кг; примеры задач | Условия авторские | 18.11.2026 |
+| 08 | Шкалы: K = °C + 273,15; °F = °C·9/5 + 32; тепловое расширение Δl = αlΔt; коэффициенты α стали, меди, алюминия, стекла | Engineering ToolBox, Linear thermal expansion: https://engineeringtoolbox.com/linear-expansion-coefficients-d_95.html | 18.11.2026 |
+| 09 | Коэффициенты теплопроводности материалов; закон Стефана — Больцмана P = εσST⁴, σ = 5,670374·10⁻⁸ Вт/(м²·К⁴) | Engineering ToolBox, Thermal conductivity: https://engineeringtoolbox.com/thermal-conductivity-d_429.html; Wikipedia, Stefan–Boltzmann law: https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law | 18.11.2026 |
+| 10 | Удельные теплоёмкости (вода 4186, лёд ≈ 2090, песок ≈ 830, сталь 490, медь 385, воздух ≈ 1005 Дж/(кг·К)) | Engineering ToolBox, Specific heat: https://engineeringtoolbox.com/specific-heat-capacity-d_391.html | 18.11.2026 |
+| 10 | Теплота сгорания: метан ≈ 55, бензин ≈ 46, уголь ≈ 27, сухие дрова ≈ 15 МДж/кг; 1 кВт·ч = 3,6 МДж | FAO, Comparison of energy values: https://www.fao.org/4/T0269E/t0269e0c.htm; Berkeley, Fuel energy: https://w.astro.berkeley.edu/~wright/fuel_energy.html | 18.11.2026 |
+| 11 | Теплота плавления льда 334 кДж/кг, парообразования воды 2256 кДж/кг (пот при 37 °C ≈ 2428) | OpenStax College Physics, Phase change and latent heat: https://openbooks.lib.msu.edu/collegephysics1/chapter/phase-change-and-latent-heat-2 | 18.11.2026 |
+| 11 | Давление воздуха по стандартной атмосфере; температура кипения по уравнению Антуана; кипение ≈ 94,7 °C на 1607 м и ≈ 88 °C на 3586 м (расчёт) | The Standard Atmosphere: https://aty.sdsu.edu/explain/thermal/std_atm.html | 18.11.2026 |
+| 12 | КПД бензиновых (≈ 25–30 %) и дизельных (≈ 35–40 %) двигателей; предел Карно η = 1 − T₂/T₁ | fueleconomy.gov: https://www.fueleconomy.gov/feg/atv.shtml; Wikipedia, Carnot's theorem: https://en.wikipedia.org/wiki/Carnot%27s_theorem_(thermodynamics) | 18.11.2026 |
+| 13 | Градиент температуры стандартной атмосферы 6,5 К/км | Wikipedia, Lapse rate: https://en.wikipedia.org/wiki/Lapse_rate | 18.11.2026 |
+| 13 | Эффективная температура Земли ≈ 255 К (−18 °C), средняя ≈ 15 °C, парниковая добавка ≈ 33 К; S ≈ 1361 Вт/м²; альбедо ≈ 0,3 | NASA, Causes of climate change: https://science.nasa.gov/climate-change/causes/; Wikipedia, Effective temperature: https://en.wikipedia.org/wiki/Effective_temperature | 18.11.2026 |
+| 08–13 | Условные значения моделей (не факты): массы, мощности, КПД нагрева, толщины слоёв, массы слоёв в модели бриза; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
+| 08–13 | Тепловые явления входят в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
