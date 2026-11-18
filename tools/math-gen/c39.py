@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+from gen2 import *
+
+m1 = M(('Функция — «машина»', 'A function as a machine'),
+ [('s', 'f', 'Функция', 'Function', ['y = 2x + 1', 'y = x²', 'y = |x|', 'y = √x', 'y = 1/x'], ['y = 2x + 1', 'y = x²', 'y = |x|', 'y = √x', 'y = 1/x'], 1), ('r', 'x', 'Вход x', 'Input x', -5, 5, 0.5, 2)],
+ [('Вход', 'Input'), ('Выход', 'Output'), ('Область определения', 'Domain')],
+ 'Каждому допустимому входу функция ставит в соответствие ровно один выход. Не любое число допустимо: нельзя делить на нуль и извлекать корень из отрицательного.', 'A function assigns exactly one output to each admissible input. Not every number is admissible: we cannot divide by zero or take the root of a negative number.', ('График функции и выбранная точка', 'The graph of the function and the chosen point'),
+ r'''const F=[x=>2*x+1,x=>x*x,x=>Math.abs(x),x=>Math.sqrt(x),x=>1/x][v.f],D=[U("все числа","all numbers"),U("все числа","all numbers"),U("все числа","all numbers"),"x ≥ 0",U("x ≠ 0","x ≠ 0")][v.f];
+ const G=Gr({x0:-6,x1:6,y0:-6,y1:12,L:100,T:10,W:400,H:210});const y=F(v.x),ok=isFinite(y);let g=G.grid(1,2)+G.fn(F,COL.b,3,-6,6);if(ok)g+=G.seg(v.x,0,v.x,y,COL.mut,1.5)+G.pt(v.x,y,COL.a,8)+G.txt(v.x+0.9,y+0.9,"("+fnum(v.x,1)+"; "+fnum(y,2)+")",COL.a,13);
+ return {svg:g,st:[fnum(v.x,1),ok?fnum(y,3):U("не определено","undefined"),D],fb:ok?U("Один вход — один выход.","One input — one output."):U("Для этого x функция не определена.","The function is undefined for this x.")}''', '0 0 600 250')
+
+m2 = M(('Преобразования графиков', 'Graph transformations'),
+ [('s', 'f', 'Исходная функция', 'Base function', ['x²', '|x|', '√x', 'x³'], ['x²', '|x|', '√x', 'x³'], 0), ('r', 'h', 'Сдвиг вправо h', 'Shift right h', -4, 4, 1, 2), ('r', 'k', 'Сдвиг вверх k', 'Shift up k', -4, 4, 1, 1), ('r', 'a', 'Растяжение a', 'Stretch a', -3, 3, 1, 1)],
+ [('Формула', 'Formula'), ('Что сделали', 'What was done'), ('Значение в x = h', 'Value at x = h')],
+ 'График y = a·f(x − h) + k получается из y = f(x): сдвиг на h вправо, на k вверх и растяжение в a раз по вертикали (a &lt; 0 — отражение).', 'The graph of y = a·f(x − h) + k is obtained from y = f(x): shift h to the right, k up and stretch by a vertically (a &lt; 0 — reflection).', ('Исходный график и преобразованный', 'The base graph and the transformed one'),
+ r'''const F=[x=>x*x,x=>Math.abs(x),x=>Math.sqrt(x),x=>x*x*x/4][v.f],nm=["x²","|x|","√x","x³/4"][v.f],G=Gr({x0:-8,x1:8,y0:-8,y1:8,L:100,T:10,W:400,H:210});
+ let g=G.grid(2,2)+G.fn(F,"#bfbdb5",2,-8,8,true)+G.fn(x=>v.a*F(x-v.h)+v.k,COL.a,3.5,-8,8);
+ const ps=n=>n<0?"− "+(-n):"+ "+n,inn=v.h===0?"x":"(x "+ps(-v.h)+")",body=[inn+"²","|"+inn+"|","√"+(v.h===0?"x":inn),inn+"³/4"][v.f],co=v.a===1?"":v.a===-1?"−":v.a+"·";return {svg:g,st:["y = "+co+body+(v.k===0?"":" "+ps(v.k)),U("вправо "+v.h+", вверх "+v.k+", растяжение "+v.a,"right "+v.h+", up "+v.k+", stretch "+v.a),fnum(v.a*F(0)+v.k,2)],fb:v.a===0?U("При a = 0 график — горизонтальная прямая y = k.","At a = 0 the graph is the horizontal line y = k."):U("Серая линия — исходная функция.","The grey line is the original function.")}''', '0 0 600 250')
+
+m3 = M(('Чтение графика', 'Reading a graph'),
+ [('r', 'x', 'Время, ч', 'Time, h', 0, 24, 1, 14)],
+ [('Температура', 'Temperature'), ('Растёт или убывает', 'Rising or falling'), ('Наибольшая за сутки', 'The day’s maximum')],
+ 'График — рассказ в картинке. Это условная суточная температура для примера: по оси x время, по оси y температура.', 'A graph is a story in a picture. This is an illustrative daily temperature: time along x, temperature along y.', ('Изменение температуры за сутки (условный пример)', 'Temperature over a day (illustrative example)'),
+ r'''const T=t=>12+9*Math.sin((t-9)*Math.PI/12),G=Gr({x0:0,x1:24,y0:0,y1:24,L:70,T:10,W:470,H:210});let g=G.grid(4,4)+G.fn(T,COL.b,3,0,24);const y=T(v.x),d=T(v.x+0.01)-T(v.x-0.01);g+=G.seg(v.x,0,v.x,y,COL.mut,1.5)+G.pt(v.x,y,COL.a,8);
+ return {svg:g,st:[fnum(y,1)+" °C",d>0.01?U("растёт","rising"):d<-0.01?U("убывает","falling"):U("максимум/минимум","a turning point"),"21 °C ("+U("в 15 ч","at 15:00")+")"],fb:U("На возрастающей части график идёт вверх, на убывающей — вниз.","On a rising part the graph goes up, on a falling part down.")}''', '0 0 600 250')
+
+chapter('39', '39-functions-graphs.html', 'VI', ('Функции и графики', 'Functions and graphs'),
+ ('Что такое функция, как читать и преобразовывать графики.', 'What a function is, how to read and transform graphs.'),
+ ('Такси берёт 100 сомов за посадку и 20 сомов за километр. Водитель говорит: «Скажи расстояние — назову цену».\n\nЧто здесь вход, что выход и сколько выходов может быть у одного входа?', 'A taxi charges 100 som for boarding and 20 som per kilometre. The driver says: “Tell me the distance — I will tell the price”.\n\nWhat is the input here, what is the output and how many outputs can one input have?'),
+ ('Разгадка: выход ровно один', 'The answer: exactly one output'),
+ ('Вход — расстояние x, выход — цена y = 100 + 20x. Для каждого расстояния цена определена однозначно: ровно один выход. Это и есть функция. Если бы один вход давал две цены, это не было бы функцией. График такого соответствия — прямая; по нему можно прочесть цену для любого расстояния.', 'The input is the distance x, the output is the price y = 100 + 20x. For each distance the price is uniquely defined: exactly one output. That is a function. If one input gave two prices it would not be a function. The graph of this relation is a straight line; from it we can read the price for any distance.'),
+ [S('def', 'Определение функции', 'The definition of a function', ('<strong>Функция</strong> — правило, которое каждому значению <em>аргумента</em> x из <strong>области определения</strong> ставит в соответствие единственное значение y. Задают функцию формулой, таблицей или графиком. <strong>График</strong> — множество точек (x; y). Вертикальная прямая пересекает график функции не более одного раза.', 'A <strong>function</strong> is a rule that assigns to each value of the <em>argument</em> x from the <strong>domain</strong> a single value y. A function is given by a formula, a table or a graph. The <strong>graph</strong> is the set of points (x; y). A vertical line meets the graph of a function at most once.'),
+    ('y = f(x)', '', 'y = f(x)'), m1),
+  S('tr', 'Преобразования графиков', 'Graph transformations', ('По графику y = f(x) строят: y = f(x − h) — сдвиг на h вправо; y = f(x) + k — сдвиг на k вверх; y = a·f(x) — растяжение в |a| раз по вертикали, при a &lt; 0 ещё и отражение относительно оси x. Это основа для чтения любых графиков.', 'From the graph y = f(x) we build: y = f(x − h) — a shift of h to the right; y = f(x) + k — a shift of k up; y = a·f(x) — a stretch by |a| vertically, and for a &lt; 0 also a reflection in the x-axis. This is the basis for reading any graphs.'),
+    ('y = a·f(x − h) + k', '', 'y = a·f(x − h) + k'), m2),
+  S('read', 'Чтение графика', 'Reading a graph', ('По графику находят значение функции при данном x, наибольшее и наименьшее значения, промежутки, где функция возрастает или убывает, нули (где y = 0). Функция <strong>возрастает</strong>, если большему x соответствует большее y.', 'From a graph we find the value of the function at a given x, the greatest and least values, the intervals where the function rises or falls and the zeros (where y = 0). A function is <strong>increasing</strong> if a greater x gives a greater y.'),
+    ('f(x₁) < f(x₂) при x₁ < x₂ — возрастает', '', 'f(x₁) < f(x₂) for x₁ < x₂ — increasing'), m3)],
+ [TK(('Значение', 'Value'), ('f(x) = 3x − 2. Найдите f(4).', 'f(x) = 3x − 2. Find f(4).'), '', '3 · 4 − 2 = 10.', '10.'),
+  TK(('Область определения', 'Domain'), ('Найдите область определения y = 1/(x − 3).', 'Find the domain of y = 1/(x − 3).'), 'x − 3 ≠ 0', 'Все числа, кроме x = 3.', ('x ≠ 3.', 'x ≠ 3.')),
+  TK(('Функция ли', 'Is it a function'), ('Является ли функцией соответствие «число → его квадратный корень со знаком ±»?', 'Is the rule “number → its square root with sign ±” a function?'), '', 'Одному входу (4) соответствуют два выхода (2 и −2), значит нет.', ('Нет.', 'No.')),
+  TK(('Сдвиг', 'A shift'), ('Как получить график y = (x − 2)² + 3 из y = x²?', 'How to get the graph y = (x − 2)² + 3 from y = x²?'), '', 'Сдвинуть на 2 вправо и на 3 вверх.', ('На 2 вправо, на 3 вверх.', '2 right, 3 up.')),
+  TK(('Нули', 'Zeros'), ('Найдите нуль функции y = 2x − 8.', 'Find the zero of y = 2x − 8.'), '2x − 8 = 0', 'x = 4.', 'x = 4.')],
+ [Q('Функция ставит каждому x', 'A function assigns each x', ('ровно одно y', 'exactly one y'), ('два y', 'two y'), ('любое число y', 'any number y'), ('Определение.', 'The definition.')),
+  Q('f(x) = x². f(−3) =', 'f(x) = x². f(−3) =', '9', '−9', '6', ('(−3)².', '(−3)².')),
+  Q('Нуль функции — это x, при котором', 'A zero of a function is the x where', ('y = 0', 'y = 0'), ('x = 0', 'x = 0'), ('y = 1', 'y = 1'), ('График пересекает ось x.', 'The graph meets the x-axis.')),
+  Q('Область определения y = √x', 'The domain of y = √x', 'x ≥ 0', 'x ≤ 0', ('все числа', 'all numbers'), ('Корень из отрицательного не определён.', 'The root of a negative number is undefined.')),
+  Q('График y = f(x) + 3 — это сдвиг', 'The graph y = f(x) + 3 is a shift', ('на 3 вверх', 'up by 3'), ('на 3 вправо', 'right by 3'), ('на 3 вниз', 'down by 3'), ('Прибавили к значению.', 'Added to the value.')),
+  Q('График y = f(x − 2) — это сдвиг', 'The graph y = f(x − 2) is a shift', ('на 2 вправо', 'right by 2'), ('на 2 влево', 'left by 2'), ('на 2 вверх', 'up by 2'), ('Нужно x − 2 вместо x.', 'We need x − 2 in place of x.')),
+  Q('Вертикальная прямая пересекает график функции', 'A vertical line meets the graph of a function', ('не более одного раза', 'at most once'), ('дважды', 'twice'), ('всегда дважды', 'always twice'), ('Тест вертикали.', 'The vertical line test.')),
+  Q('Функция возрастает, если с ростом x значение', 'A function is increasing if as x grows the value', ('растёт', 'grows'), ('убывает', 'falls'), ('постоянно', 'stays'), ('Определение.', 'The definition.'))],
+ src=[('Wikipedia: Function (mathematics)', 'https://en.wikipedia.org/wiki/Function_(mathematics)'), ('Wikipedia: Graph of a function', 'https://en.wikipedia.org/wiki/Graph_of_a_function'), ('OpenStax: Intermediate Algebra 2e', 'https://openstax.org/details/books/intermediate-algebra-2e')],
+ note=('Тариф такси и температура за сутки — условные примеры.', 'The taxi tariff and the daily temperature are illustrative examples.'))

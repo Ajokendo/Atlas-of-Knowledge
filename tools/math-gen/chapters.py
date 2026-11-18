@@ -20,6 +20,10 @@ BLOCKS = [
  dict(id='V', ru='Планиметрия', en='Plane geometry',
       note_ru='Геометрия на плоскости: углы, треугольники, четырёхугольники, окружность, площади, подобие, теорема Пифагора, тригонометрия в прямоугольном треугольнике. Уровень — основы.',
       note_en='Geometry in the plane: angles, triangles, quadrilaterals, the circle, areas, similarity, the Pythagorean theorem, trigonometry in a right triangle. Level — basics.'),
+
+ dict(id='VI', ru='Алгебра', en='Algebra',
+      note_ru='Функции и графики, корни, квадратные уравнения и парабола, дробные выражения, неравенства, нелинейные системы, прогрессии. Уровень — основы и углублённо.',
+      note_en='Functions and graphs, roots, quadratic equations and the parabola, rational expressions, inequalities, nonlinear systems, progressions. Level — basics and advanced.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -99,4 +103,24 @@ CHAPTERS = [
   'Синус, косинус, тангенс острого угла и решение прямоугольных треугольников.', 'Sine, cosine, tangent of an acute angle and solving right triangles.', 'V'),
  ('38', '38-sine-cosine-laws.html', 'Теоремы синусов и косинусов', 'The laws of sines and cosines',
   'Решение произвольных треугольников.', 'Solving arbitrary triangles.', 'V'),
+ ('39', '39-functions-graphs.html', 'Функции и графики', 'Functions and graphs',
+  'Функция как правило, область определения, график и его преобразования.', 'A function as a rule, the domain, a graph and its transformations.', 'VI'),
+ ('40', '40-linear-inverse.html', 'Линейная функция и обратная пропорциональность', 'The linear function and inverse proportion',
+  'Наклон и сдвиг, пересечение графиков, гипербола.', 'Slope and shift, the intersection of graphs, the hyperbola.', 'VI'),
+ ('41', '41-square-roots.html', 'Квадратный корень и иррациональные числа', 'Square roots and irrational numbers',
+  'Арифметический квадратный корень, свойства, иррациональные числа.', 'The arithmetic square root, its properties, irrational numbers.', 'VI'),
+ ('42', '42-quadratic-equations.html', 'Квадратные уравнения', 'Quadratic equations',
+  'Дискриминант, формула корней, теорема Виета, разложение на множители.', 'The discriminant, the root formula, Vieta’s theorem, factorisation.', 'VI'),
+ ('43', '43-parabola.html', 'Квадратичная функция и парабола', 'The quadratic function and the parabola',
+  'Вершина, ось симметрии, нули, наибольшее и наименьшее значения.', 'The vertex, the axis of symmetry, zeros, the greatest and least values.', 'VI'),
+ ('44', '44-rational-expressions.html', 'Дробно-рациональные выражения', 'Rational expressions',
+  'Сокращение и действия с алгебраическими дробями, дробные уравнения.', 'Simplifying and operating with algebraic fractions, fractional equations.', 'VI'),
+ ('45', '45-inequalities.html', 'Неравенства', 'Inequalities',
+  'Линейные и квадратные неравенства, метод интервалов.', 'Linear and quadratic inequalities, the interval method.', 'VI'),
+ ('46', '46-nonlinear-systems.html', 'Системы нелинейных уравнений', 'Nonlinear systems',
+  'Пересечение прямой и параболы, окружности и прямой.', 'The intersection of a line and a parabola, a circle and a line.', 'VI'),
+ ('47', '47-arithmetic-progression.html', 'Последовательности и арифметическая прогрессия', 'Sequences and arithmetic progression',
+  'Формула n-го члена, сумма n членов.', 'The nth term formula, the sum of n terms.', 'VI'),
+ ('48', '48-geometric-progression.html', 'Геометрическая прогрессия', 'Geometric progression',
+  'Знаменатель, формула n-го члена, сумма, сложные проценты.', 'The common ratio, the nth term, the sum, compound interest.', 'VI'),
 ]
