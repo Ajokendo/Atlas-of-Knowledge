@@ -113,6 +113,6 @@ c = dict(n='08', slug='08-fractions-intro.html', block='I', level_ru='ОСНОВ
   ('Учебник арифметики —', 'An arithmetic textbook —', LINK('https://openstax.org/books/prealgebra-2e/pages/1-introduction', 'OpenStax Prealgebra 2e'))],
  note=stdnote('Сюжет про лепёшки придуман для атласа.', 'The story of the flatbreads was invented for the atlas.'),
  prev=('07-word-problems.html', 'Глава 7 · Текстовые задачи', 'Chapter 7 · Word problems'),
- next=('../index.html', 'Конец блока I — к содержанию', 'End of Block I — to the contents'),
+ next=('09-points-lines-angles.html', 'Глава 9 · Точки, линии, углы, фигуры', 'Chapter 9 · Points, lines, angles, shapes'),
  js=js)
 build(c)
