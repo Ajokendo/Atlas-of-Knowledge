@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["x0", "y0", "k1", "k2"],sel:{},fn:function(v,q){const G=Gr({x0:-8,x1:8,y0:-8,y1:8,L:100,T:10,W:400,H:220});const b1=v.y0-v.k1*v.x0,b2=v.y0-v.k2*v.x0,ps=n=>n<0?"− "+(-n):"+ "+n;
  let g=G.grid(2,2)+G.fn(t=>v.k1*t+b1,COL.a,3)+G.fn(t=>v.k2*t+b2,COL.b,3);if(v.k1!==v.k2)g+=G.pt(v.x0,v.y0,COL.c,8)+G.txt(v.x0+1.5,v.y0+0.8,"("+v.x0+"; "+v.y0+")",COL.c,14);
  return {svg:g,st:["y = "+v.k1+"x "+ps(b1),"y = "+v.k2+"x "+ps(b2),v.k1===v.k2?U("прямые параллельны — решений нет","the lines are parallel — no solution"):"x = "+v.x0+",  y = "+v.y0],fb:v.k1===v.k2?U("Одинаковый наклон — прямые не пересекаются.","Equal slopes — the lines do not meet."):U("Подставьте пару ("+v.x0+"; "+v.y0+") в оба уравнения — оба верны.","Substitute the pair ("+v.x0+"; "+v.y0+") into both equations — both hold.")}}},{k:2,svg:"m2Svg",ids:["p", "q", "x0", "y0"],sel:{},fn:function(v,q){const C1=v.p*v.x0+v.y0,C2=v.q*v.x0-v.y0,s=v.p+v.q,ps=n=>n<0?"− "+(-n):"+ "+n;const st=[v.p+"x + y = "+C1+",   "+v.q+"x − y = "+C2,s+"x = "+(C1+C2)+"  →  x = "+v.x0,"y = "+C1+" − "+v.p+"·"+v.x0+" = "+v.y0];let g="";

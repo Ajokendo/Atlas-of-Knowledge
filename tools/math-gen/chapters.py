@@ -31,6 +31,9 @@ BLOCKS = [
  dict(id='VIII', ru='Начала анализа', en='Introduction to calculus',
       note_ru='Старшая школа, углублённо: предел, производная и её применение, первообразная и интеграл. Уровень — углублённо.',
       note_en='Upper secondary, advanced: limits, the derivative and its uses, the antiderivative and the integral. Level — advanced.'),
+ dict(id='IX', ru='Стереометрия и векторы', en='Solid geometry and vectors',
+      note_ru='Геометрия в пространстве: прямые и плоскости, многогранники, тела вращения, площади и объёмы, векторы на плоскости и в пространстве. Уровень — углублённо.',
+      note_en='Geometry in space: lines and planes, polyhedra, solids of revolution, areas and volumes, vectors in the plane and in space. Level — advanced.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -156,4 +159,18 @@ CHAPTERS = [
   'Обратная операция к дифференцированию, неопределённый интеграл.', 'The inverse of differentiation, the indefinite integral.', 'VIII'),
  ('61', '61-definite-integral.html', 'Определённый интеграл', 'The definite integral',
   'Площадь под графиком, формула Ньютона — Лейбница.', 'Area under a graph, the Newton–Leibniz formula.', 'VIII'),
+ ('62', '62-lines-planes.html', 'Прямые и плоскости в пространстве', 'Lines and planes in space',
+  'Взаимное расположение, параллельность, перпендикулярность.', 'Relative position, parallelism, perpendicularity.', 'IX'),
+ ('63', '63-polyhedra.html', 'Многогранники', 'Polyhedra',
+  'Вершины, рёбра, грани, формула Эйлера, правильные многогранники.', 'Vertices, edges, faces, Euler’s formula, regular polyhedra.', 'IX'),
+ ('64', '64-prism-pyramid.html', 'Призма и пирамида', 'Prism and pyramid',
+  'Элементы, площадь поверхности и объём.', 'Elements, surface area and volume.', 'IX'),
+ ('65', '65-round-solids.html', 'Цилиндр, конус, шар', 'Cylinder, cone, sphere',
+  'Тела вращения, развёртки, сечения.', 'Solids of revolution, nets, cross-sections.', 'IX'),
+ ('66', '66-areas-volumes.html', 'Площади поверхностей и объёмы', 'Surface areas and volumes',
+  'Сводка формул, подобие тел, задачи.', 'A summary of formulas, similar solids, problems.', 'IX'),
+ ('67', '67-vectors-plane.html', 'Векторы на плоскости', 'Vectors in the plane',
+  'Сложение, умножение на число, координаты, скалярное произведение.', 'Addition, scalar multiplication, coordinates, the dot product.', 'IX'),
+ ('68', '68-vectors-space.html', 'Векторы и координаты в пространстве', 'Vectors and coordinates in space',
+  'Координаты в пространстве, длина, угол, расстояния.', 'Coordinates in space, length, angle, distances.', 'IX'),
 ]

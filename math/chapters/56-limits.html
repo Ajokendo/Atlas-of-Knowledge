@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["k", "n"],sel:{"k": [["1/n", "(2n+1)/n", "(−1)ⁿ/n", "n"], ["1/n", "(2n+1)/n", "(−1)ⁿ/n", "n"], 1]},fn:function(v,q){const F=[n=>1/n,n=>(2*n+1)/n,n=>Math.pow(-1,n)/n,n=>n][v.k],Lm=[0,2,0,null][v.k];const G=Gr({x0:0,x1:50,y0:v.k===3?0:-1.2,y1:v.k===3?55:3.2,L:80,T:10,W:470,H:210});let g=G.grid(10,v.k===3?10:0.5);if(Lm!==null)g+=G.seg(0,Lm,50,Lm,COL.c,2,true);for(let i=1;i<=50;i++)g+=G.pt(i,F(i),i===v.n?COL.b:COL.a,i===v.n?7:3);
  return {svg:g,st:[fnum(F(v.n),5),Lm===null?U("нет (растёт без границ)","none (grows without bound)"):String(Lm),Lm===null?"—":fnum(Math.abs(F(v.n)-Lm),5)],fb:Lm===null?U("Последовательность уходит в бесконечность — предела нет.","The sequence goes to infinity — no limit."):U("Точки сгущаются около предела: расстояние до него становится сколь угодно малым.","The points cluster near the limit: the distance to it becomes arbitrarily small.")}}},{k:2,svg:"m2Svg",ids:["x"],sel:{},fn:function(v,q){const G=Gr({x0:0,x1:2,y0:0,y1:3,L:80,T:10,W:470,H:210});const f=x=>x+1;let g=G.grid(0.5,0.5)+G.fn(f,COL.a,3.5,0,2)+C(G.X(1),G.Y(2),6,COL.bg,COL.a,2.5)+G.pt(v.x,Math.abs(v.x-1)<1e-9?2:f(v.x),COL.b,7);
  const same=Math.abs(v.x-1)<1e-9;

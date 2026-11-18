@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["n"],sel:{},fn:function(v,q){const n=v.n,ds=String(n).split("").reduce((s,c)=>s+ +c,0),l=n%10,l2=n%100;
  const rows=[[2,U("последняя цифра "+l+(l%2?" нечётная":" чётная"),"the last digit "+l+(l%2?" is odd":" is even")),l%2===0],[3,U("сумма цифр "+ds+(ds%3?" не делится на 3":" делится на 3"),"digit sum "+ds+(ds%3?" is not divisible by 3":" is divisible by 3")),ds%3===0],[4,U("две последние цифры "+l2+(l2%4?" не делятся на 4":" делятся на 4"),"last two digits "+l2+(l2%4?" are not divisible by 4":" are divisible by 4")),l2%4===0],[5,U("оканчивается на "+l,"ends in "+l),l===0||l===5],[9,U("сумма цифр "+ds+(ds%9?" не делится на 9":" делится на 9"),"digit sum "+ds+(ds%9?" is not divisible by 9":" is divisible by 9")),ds%9===0],[10,U("оканчивается на "+l,"ends in "+l),l===0]];
  let g="";rows.forEach((r,i)=>{const y=30+i*38;g+=R(30,y-22,540,32,r[2]?"#e1f0e8":COL.bg,r[2]?COL.c:COL.line,1.5,4)+TX(50,y,U(n+" : "+r[0],n+" : "+r[0]),COL.ink,16,"start",600)+TX(130,y,r[1],COL.mut,13,"start")+TX(550,y,r[2]?"✓":"✗",r[2]?COL.c:COL.a,20,"end",700)});

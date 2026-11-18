@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["r", "ph"],sel:{},fn:function(v,q){const R0=85,cx=300,cy=105,a=v.ph;let g=C(cx,cy,R0,COL.bg,COL.line,2)+'<path d="M'+cx+" "+cy+" L"+(cx+R0)+" "+cy+" A"+R0+" "+R0+" 0 "+(a>Math.PI?1:0)+" 0 "+(cx+R0*Math.cos(a)).toFixed(1)+" "+(cy-R0*Math.sin(a)).toFixed(1)+' Z" fill="#f4dfd8" stroke="'+COL.a+'" stroke-width="3"/>';
  g+=TX(cx+30,cy-8,fnum(a,1)+" рад",COL.a,13,"start",700);return {svg:g,st:[fnum(v.r*a,2),fnum(a*180/Math.PI,1)+"°",fnum(a/(2*Math.PI)*100,1)+" %"],fb:U("1 рад: дуга равна радиусу = "+v.r+"; весь круг = 2π ≈ 6,28 рад.","1 rad: the arc equals the radius = "+v.r+"; the whole circle = 2π ≈ 6.28 rad.")}}},{k:2,svg:"m2Svg",ids:["a"],sel:{},fn:function(v,q){const a=deg(v.a),R0=85,cx=300,cy=105;const px=cx+R0*Math.cos(a),py=cy-R0*Math.sin(a);let g=L(cx-110,cy,cx+110,cy,COL.mut,1.5)+L(cx,cy-100,cx,cy+100,COL.mut,1.5)+C(cx,cy,R0,"none",COL.ink,2.5)+arcA(cx,cy,24,0,a,COL.a,5)+L(cx,cy,px,py,COL.a,3)+L(px,py,px,cy,COL.c,2.5)+L(cx,cy,px,cy,COL.b,2.5)+C(px,py,7,COL.a);
  g+=TX(cx+36,cy-8,v.a+"°",COL.a,13,"start",700)+TX(px+(px>cx?12:-12),py+(py<cy?-8:16),"("+fnum(Math.cos(a),2)+"; "+fnum(Math.sin(a),2)+")",COL.ink,12,px>cx?"start":"end",600);

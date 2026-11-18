@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["a", "n"],sel:{},fn:function(v,q){const val=Math.pow(v.a,v.n);let g="";for(let i=0;i<v.n;i++)g+=R(30+i*54,50,48,48,[COL.a,COL.b,COL.c][i%3],COL.ink,1.5,6)+TX(54+i*54,82,v.a,"#fff",20,"middle",700);
  g+=TX(300,160,v.a+supn(v.n)+" = "+val.toLocaleString("ru"),COL.ink,26,"middle",700);
  return {svg:g,st:[v.a+supn(v.n),Array(v.n).fill(v.a).join(" · "),val.toLocaleString("ru")],fb:U("Любое число в нулевой степени равно 1: a⁰ = 1.","Any number to the power zero is 1: a⁰ = 1.")}}},{k:2,svg:"m2Svg",ids:["a", "m", "n"],sel:{},fn:function(v,q){const a=v.a,m=v.m,n=v.n;const rows=[[a+supn(m)+" · "+a+supn(n)+" = "+a+supn(m+n),Math.pow(a,m+n)],[a+supn(m)+" : "+a+supn(n)+" = "+(m>=n?a+supn(m-n):"—"),m>=n?Math.pow(a,m-n):"—"],["("+a+supn(m)+")"+supn(n)+" = "+a+supn(m*n),Math.pow(a,m*n)]];let g="";

@@ -125,6 +125,12 @@ function triSides(a,b,c){if(a+b<=c||a+c<=b||b+c<=a)return null;const x=(b*b+c*c-
 function fitPts(P,x0,y0,w,h,keep){const xs=P.map(p=>p[0]),ys=P.map(p=>p[1]),mnx=Math.min(...xs),mxx=Math.max(...xs),mny=Math.min(...ys),mxy=Math.max(...ys);const s=Math.min(w/Math.max(1e-9,mxx-mnx),h/Math.max(1e-9,mxy-mny))*(keep||1);return P.map(p=>[x0+(p[0]-mnx)*s+(w-(mxx-mnx)*s)/2,y0+h-(p[1]-mny)*s-(h-(mxy-mny)*s)/2])}
 function angAt(P,i){const A=P[i],B=P[(i+1)%3],C=P[(i+2)%3];const u=[B[0]-A[0],B[1]-A[1]],w=[C[0]-A[0],C[1]-A[1]];return Math.acos(clamp((u[0]*w[0]+u[1]*w[1])/(Math.hypot(...u)*Math.hypot(...w)),-1,1))*180/Math.PI}
 
+function P3(yaw,pitch,s,cx,cy){const cy_=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);return function(x,y,z){const x1=x*cy_-y*sy,y1=x*sy+y*cy_;return [cx+s*x1,cy-s*(z*cp-y1*sp)]}}
+function box3(P,pts,edges,col,w){let g="";edges.forEach(e=>{g+=L(P(...pts[e[0]])[0],P(...pts[e[0]])[1],P(...pts[e[1]])[0],P(...pts[e[1]])[1],col||COL.ink,w||2)});return g}
+function cross3(a,b){return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]}
+function dot3(a,b){return a[0]*b[0]+a[1]*b[1]+a[2]*b[2]}
+function len3(a){return Math.hypot(a[0],a[1],a[2])}
+
 const MODELS=[{k:1,svg:"m1Svg",ids:["a", "b"],sel:{},fn:function(v,q){const X=t=>300+t*18;let g=L(20,120,580,120,COL.ink,3);for(let t=-15;t<=15;t++)g+=L(X(t),t%5===0?110:115,X(t),t%5===0?130:125,COL.ink,t%5===0?2:1)+(t%5===0?TX(X(t),150,t,COL.mut,12):"");
  g+=L(X(v.a),70,X(v.a),120,COL.a,2)+C(X(v.a),120,9,COL.a)+TX(X(v.a),60,v.a,COL.a,16,"middle",700)+C(X(v.b),120,9,COL.b)+TX(X(v.b),90,v.b,COL.b,16,"middle",700)+L(X(v.a),185,X(v.b),185,COL.c,4)+TX((X(v.a)+X(v.b))/2,205,U("расстояние "+Math.abs(v.a-v.b),"distance "+Math.abs(v.a-v.b)),COL.c,14,"middle",600);
  return {svg:g,st:["|"+v.a+"| = "+Math.abs(v.a)+",  |"+v.b+"| = "+Math.abs(v.b),v.a===v.b?"=":v.a>v.b?v.a+" > "+v.b:v.b+" > "+v.a,"|"+v.a+" − "+v.b+"| = "+Math.abs(v.a-v.b)],fb:U("Чем правее число на прямой, тем оно больше.","The further right on the line, the greater the number.")}}},{k:2,svg:"m2Svg",ids:["a", "b"],sel:{},fn:function(v,q){const X=t=>300+t*14;let g=L(20,120,580,120,COL.ink,3);for(let t=-20;t<=20;t+=5)g+=L(X(t),112,X(t),128,COL.ink,2)+TX(X(t),148,t,COL.mut,12);
