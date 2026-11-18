@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 5 Атласа физики: механическая работа, мощность, кинетическая и потенциальная энергия, закон сохранения энергии, гидроэлектростанция.">
+<title>Работа, мощность, энергия — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+.lab select{border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--sans);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+.bars{margin-top:12px}.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.bar i{display:block;height:12px;background:var(--accent)}.bar i.r{background:#c9b48f}.bar .t{display:flex}.bar b{font:12px var(--mono);font-weight:400;color:var(--ink)}
+@media(max-width:760px){.bar{grid-template-columns:110px 1fr 58px}}
+</style></head><body>
+<style>.bar i.h{background:#8a8a8f}.bar i.k{background:#2f6f5d}.bar i.p{background:#b6533f}.bar{grid-template-columns:140px 1fr 84px}@media(max-width:760px){.bar{grid-template-columns:92px 1fr 78px}}</style>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 05 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 05 · BASICS</span></p>
+<h1><span data-l="ru">Работа, мощность, энергия</span><span data-l="en">Work, power, energy</span></h1>
+<p class="lead"><span data-l="ru">Рюкзак, который поднимают по лестнице, санки с горки в Чункурчаке и вода Токтогульского водохранилища, превращающаяся в электричество. В этой главе — что такое работа и мощность, какие бывают виды энергии и как она сохраняется.</span><span data-l="en">A rucksack carried up the stairs, a sled sliding down a hill at Chunkurchak and the water of the Toktogul reservoir turning into electricity. This chapter covers what work and power are, what kinds of energy there are and how energy is conserved.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#work">02 <span data-l="ru">Работа</span><span data-l="en">Work</span></a><a href="#power">03 <span data-l="ru">Мощность</span><span data-l="en">Power</span></a><a href="#energy">04 <span data-l="ru">Энергия</span><span data-l="en">Energy</span></a><a href="#hydro">05 <span data-l="ru">ГЭС</span><span data-l="en">Hydropower</span></a><a href="#tasks">06 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">07 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>В главе 3 вы пробовали модель торможения. На сухом асфальте автомобиль, едущий 30 км/ч, останавливается примерно за 5 м. При 60 км/ч — примерно за 20 м.</p><p>Скорость выросла вдвое, а тормозной путь — вчетверо. Почему не вдвое?</p></div>
+<div data-l="en"><p>In chapter 3 you tried the braking model. On dry asphalt a car travelling at 30 km/h stops in about 5 m. At 60 km/h it needs about 20 m.</p><p>The speed doubled, but the braking distance quadrupled. Why not just double?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подсказка: подумайте, что именно «гасит» тормозная сила. Разгадка — в конце главы.</span><span data-l="en">Hint: think about what exactly the braking force “uses up”. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="work">
+<h2><span data-l="ru">Механическая работа</span><span data-l="en">Mechanical work</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Вытащили ведро из колодца, толкнули санки, натянули тетиву лука — во всех случаях сила передвигала тело. Говорят, что сила совершает <strong>механическую работу</strong>, когда под действием силы тело перемещается.</p><p>Работа равна произведению силы на путь, пройденный телом в направлении силы:</p></div>
+<div data-l="en"><p>You pulled a bucket from a well, pushed a sled, drew a bow — in every case a force moved a body. We say the force does <strong>mechanical work</strong> when a body moves under its action.</p><p>Work equals the force times the distance the body moves in the direction of the force:</p></div>
+<div class="formula">A = F · s<small><span data-l="ru">A — работа (Дж), F — сила (Н), s — путь вдоль силы (м)</span><span data-l="en">A is work (J), F is force (N), s is distance along the force (m)</span></small></div>
+<div data-l="ru"><p>Единица работы — <strong>джоуль</strong> (Дж): 1 Дж = 1 Н · 1 м. Это работа силы в 1 Н на пути 1 м; примерно столько нужно, чтобы поднять небольшое яблоко (около 100 г) на 1 м.</p><h3>Когда работа равна нулю</h3><ul class="src"><li>Тело не движется. Турист стоит и держит рюкзак: мышцы устают, но перемещения нет, и работа силы руки равна нулю.</li><li>Сила перпендикулярна перемещению. Рюкзак несут по ровной дороге: сила тяжести направлена вниз, перемещение — горизонтально, и работа силы тяжести равна нулю.</li></ul><h3>Работа при подъёме</h3><p>Чтобы равномерно поднять груз массой <em>m</em> на высоту <em>h</em>, нужна сила, равная силе тяжести, <em>m·g</em>. Значит:</p></div>
+<div data-l="en"><p>The unit of work is the <strong>joule</strong> (J): 1 J = 1 N · 1 m. It is the work of a 1 N force over 1 m; roughly what it takes to lift a small apple (about 100 g) by 1 m.</p><h3>When work is zero</h3><ul class="src"><li>The body does not move. A hiker stands holding a rucksack: the muscles tire, but there is no displacement, so the work of the hand’s force is zero.</li><li>The force is perpendicular to the motion. A rucksack is carried along a level road: gravity points down, the motion is horizontal, and the work of gravity is zero.</li></ul><h3>Work when lifting</h3><p>To lift a load of mass <em>m</em> steadily by a height <em>h</em> you need a force equal to the weight, <em>m·g</em>. So:</p></div>
+<div class="formula">A = m · g · h<small><span data-l="ru">работа по подъёму груза (g ≈ 9,8 Н/кг)</span><span data-l="en">work done in lifting a load (g ≈ 9.8 N/kg)</span></small></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · ПОДЪЁМ ГРУЗА</span><span data-l="en">MODEL 1 · LIFTING A LOAD</span></p>
+<svg id="liftSvg" viewBox="0 0 600 260" role="img" aria-label=""></svg>
+<div class="controls"><label for="lm"><span data-l="ru">Масса груза</span><span data-l="en">Mass of the load</span>: <strong id="lmOut"></strong></label><input id="lm" type="range" min="5" max="50" step="1" value="15"></div>
+<div class="controls"><label for="lh"><span data-l="ru">Высота подъёма</span><span data-l="en">Lifting height</span>: <strong id="lhOut"></strong></label><input id="lh" type="range" min="1" max="10" step="0.5" value="3"></div>
+<div class="controls"><label for="lt"><span data-l="ru">Время подъёма</span><span data-l="en">Time to lift</span>: <strong id="ltOut"></strong></label><input id="lt" type="range" min="1" max="30" step="1" value="6"></div>
+<div class="controls"><button class="act" type="button" id="liftGo"><span data-l="ru">Поднять</span><span data-l="en">Lift</span></button><button class="act ghost" type="button" id="liftReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Сила F</span><span data-l="en">Force F</span></small><strong id="lF"></strong></div><div class="stat"><small><span data-l="ru">Работа A</span><span data-l="en">Work A</span></small><strong id="lA"></strong></div><div class="stat"><small><span data-l="ru">Мощность N</span><span data-l="en">Power N</span></small><strong id="lN"></strong></div></div>
+<p class="fb" id="liftFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Подъём равномерный. Анимация идёт 3 с независимо от выбранного времени; расчёт — по выбранному.</span><span data-l="en">The lift is steady. The animation always takes 3 s whatever time you choose; the calculation uses your chosen time.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="power">
+<h2><span data-l="ru">Мощность</span><span data-l="en">Power</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Один и тот же рюкзак можно поднять на третий этаж за минуту, а можно за десять секунд. Работа одна, но быстрее — «мощнее». <strong>Мощность</strong> показывает, какая работа совершается за единицу времени:</p></div>
+<div data-l="en"><p>The same rucksack can be carried to the third floor in a minute or in ten seconds. The work is the same, but faster means “more powerful”. <strong>Power</strong> tells how much work is done per unit of time:</p></div>
+<div class="formula">N = A / t<small><span data-l="ru">N — мощность (Вт), A — работа (Дж), t — время (с)</span><span data-l="en">N is power (W), A is work (J), t is time (s)</span></small></div>
+<div data-l="ru"><p>Единица мощности — <strong>ватт</strong> (Вт): 1 Вт = 1 Дж/с. Используют и <strong>киловатт</strong> (1 кВт = 1000 Вт), и <strong>мегаватт</strong> (1 МВт = 1 000 000 Вт). Во времена паровых машин мощность мерили «лошадиными силами»: 1 л. с. ≈ 735,5 Вт.</p><p>Если тело движется равномерно со скоростью <em>v</em> под действием постоянной силы <em>F</em>, то работа за время <em>t</em> равна F·v·t, и мощность вычисляется ещё проще:</p></div>
+<div data-l="en"><p>The unit of power is the <strong>watt</strong> (W): 1 W = 1 J/s. We also use the <strong>kilowatt</strong> (1 kW = 1,000 W) and the <strong>megawatt</strong> (1 MW = 1,000,000 W). In the days of steam engines power was measured in “horsepower”: 1 hp ≈ 735.5 W (metric).</p><p>If a body moves steadily at speed <em>v</em> under a constant force <em>F</em>, the work in time <em>t</em> is F·v·t, and power is even simpler to find:</p></div>
+<div class="formula">N = F · v<small><span data-l="ru">так находят мощность двигателя машины, едущей с постоянной скоростью</span><span data-l="en">this is how we find the power of a vehicle’s engine at constant speed</span></small></div>
+<p class="callout"><span data-l="ru">Поднимите в модели 1 груз за разное время: работа не меняется, а мощность меняется обратно пропорционально времени.</span><span data-l="en">In model 1, lift the same load in different times: the work stays the same, while the power changes in inverse proportion to time.</span></p>
+</div>
+<div>
+<table><thead><tr><th><span data-l="ru">ЕДИНИЦА</span><span data-l="en">UNIT</span></th><th><span data-l="ru">ЧТО ЭТО</span><span data-l="en">WHAT IT IS</span></th></tr></thead><tbody>
+<tr><td>1 <span data-l="ru">Дж</span><span data-l="en">J</span></td><td>1 Н · 1 м</td></tr>
+<tr><td>1 <span data-l="ru">Вт</span><span data-l="en">W</span></td><td>1 <span data-l="ru">Дж за 1 с</span><span data-l="en">J per 1 s</span></td></tr>
+<tr><td>1 <span data-l="ru">л. с.</span><span data-l="en">hp (metric)</span></td><td>≈ 735,5 <span data-l="ru">Вт</span><span data-l="en">W</span></td></tr>
+<tr><td>1 <span data-l="ru">кВт·ч</span><span data-l="en">kWh</span></td><td>3 600 000 <span data-l="ru">Дж = 3,6 МДж</span><span data-l="en">J = 3.6 MJ</span></td></tr>
+<tr><td>1 <span data-l="ru">ккал</span><span data-l="en">kcal</span></td><td>4184 <span data-l="ru">Дж</span><span data-l="en">J</span></td></tr>
+</tbody></table>
+<p class="callout"><span data-l="ru">Киловатт-час — это энергия, а не мощность: столько энергии потребляет прибор мощностью 1 кВт за 1 час. Именно в киловатт-часах считают электричество на счётчике.</span><span data-l="en">A kilowatt-hour is energy, not power: it is the energy a 1 kW appliance uses in 1 hour. This is the unit on an electricity meter.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="energy">
+<h2><span data-l="ru">Энергия и её сохранение</span><span data-l="en">Energy and its conservation</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p><strong>Энергия</strong> показывает, какую работу может совершить тело. Чем больше энергии, тем большую работу оно способно выполнить. Энергию тоже измеряют в джоулях.</p><h3>Кинетическая энергия</h3><p>Энергию, которую имеет движущееся тело, называют <strong>кинетической</strong>. Она растёт с массой и очень быстро — со скоростью:</p></div>
+<div data-l="en"><p><strong>Energy</strong> shows how much work a body can do. The more energy, the more work it is able to do. Energy is also measured in joules.</p><h3>Kinetic energy</h3><p>The energy a moving body has is called <strong>kinetic</strong>. It grows with mass and, very quickly, with speed:</p></div>
+<div class="formula">E<sub><span data-l="ru">к</span><span data-l="en">k</span></sub> = m · v² / 2<small><span data-l="ru">скорость вдвое больше — энергия вчетверо больше</span><span data-l="en">double the speed — four times the energy</span></small></div>
+<div data-l="ru"><h3>Потенциальная энергия</h3><p>Тело, поднятое над землёй, тоже может совершить работу: упав, оно забьёт сваю или раскрутит турбину. Эту энергию называют <strong>потенциальной</strong>. Ею обладают также сжатая пружина и натянутая тетива.</p></div>
+<div data-l="en"><h3>Potential energy</h3><p>A body raised above the ground can also do work: falling, it can drive a pile or spin a turbine. This energy is called <strong>potential</strong>. A compressed spring and a drawn bowstring have it too.</p></div>
+<div class="formula">E<sub><span data-l="ru">п</span><span data-l="en">p</span></sub> = m · g · h<small><span data-l="ru">h — высота над выбранным нулевым уровнем</span><span data-l="en">h is the height above a chosen zero level</span></small></div>
+<div data-l="ru"><h3>Закон сохранения энергии</h3><p>Энергия не появляется из ничего и не исчезает бесследно: она переходит из одного вида в другой или от одного тела к другому. Когда санки едут с горки, потенциальная энергия переходит в кинетическую. Если трения нет, сумма <em>E<sub>к</sub> + E<sub>п</sub></em> остаётся постоянной.</p><p>При трении часть механической энергии превращается во <strong>внутреннюю</strong> — полозья и снег нагреваются. Механическая энергия убывает, но полная энергия сохраняется.</p><p>Связь работы и энергии: работа силы равна изменению энергии тела. Тормозящая сила трения «забирает» кинетическую энергию автомобиля — на этом построена разгадка главы.</p></div>
+<div data-l="en"><h3>Law of conservation of energy</h3><p>Energy does not appear from nothing and does not vanish without trace: it passes from one kind into another or from one body to another. When a sled slides down a hill, potential energy turns into kinetic. Without friction the sum <em>E<sub>k</sub> + E<sub>p</sub></em> stays constant.</p><p>With friction, part of the mechanical energy turns into <strong>internal</strong> energy — the runners and snow get warm. Mechanical energy decreases, but total energy is conserved.</p><p>Work and energy are linked: the work of a force equals the change of the body’s energy. A braking friction force “takes away” the car’s kinetic energy — the answer to the chapter’s puzzle rests on this.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · САНКИ С ГОРКИ</span><span data-l="en">MODEL 2 · SLEDDING DOWNHILL</span></p>
+<svg id="slideSvg" viewBox="0 0 600 260" role="img" aria-label=""></svg>
+<div class="controls"><label for="sH"><span data-l="ru">Высота горки</span><span data-l="en">Hill height</span>: <strong id="sHOut"></strong></label><input id="sH" type="range" min="2" max="10" step="0.5" value="5"></div>
+<div class="controls"><label for="sMu"><span data-l="ru">Трение (коэффициент μ)</span><span data-l="en">Friction (coefficient μ)</span>: <strong id="sMuOut"></strong></label><input id="sMu" type="range" min="0" max="0.15" step="0.01" value="0.05"></div>
+<div class="controls"><label for="sF"><span data-l="ru">Положение на склоне</span><span data-l="en">Position on the slope</span>: <strong id="sFOut"></strong></label><input id="sF" type="range" min="0" max="100" step="1" value="0"></div>
+<div class="controls"><button class="act" type="button" id="slideGo"><span data-l="ru">Скатиться!</span><span data-l="en">Slide!</span></button><button class="act ghost" type="button" id="slideReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button></div>
+<div class="bars" id="sBars"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Высота</span><span data-l="en">Height</span></small><strong id="sHt"></strong></div><div class="stat"><small><span data-l="ru">Скорость</span><span data-l="en">Speed</span></small><strong id="sV"></strong></div><div class="stat"><small><span data-l="ru">Полная энергия</span><span data-l="en">Total energy</span></small><strong id="sE"></strong></div></div>
+<p class="fb" id="slideFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Санки с седоком — 40 кг; склон длиной 20 м по горизонтали. Сопротивление воздуха не учитывается. Работа трения на склоне равна μ·m·g·(пройденный путь по горизонтали).</span><span data-l="en">Sled plus rider: 40 kg; the slope spans 20 m horizontally. Air resistance is ignored. Friction work on the slope equals μ·m·g·(horizontal distance covered).</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="hydro">
+<h2><span data-l="ru">Энергия воды: Токтогульская ГЭС</span><span data-l="en">The energy of water: the Toktogul power station</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>В Кыргызстане около 90 % электроэнергии вырабатывают гидроэлектростанции. Крупнейшая из них — Токтогульская ГЭС на реке Нарын. Плотина высотой 215 м удерживает водохранилище, а вода по напорным трубам падает на турбины.</p><p>Цепочка превращений такая: <em>потенциальная энергия воды в водохранилище → кинетическая энергия потока в трубах → вращение турбины → электрическая энергия генератора</em>.</p><p>Сколько энергии «теряет» вода за секунду? За секунду через турбину проходит вода объёмом <em>Q</em> (м³/с), то есть массой ρ·Q. Падая с высоты напора <em>H</em>, она отдаёт мощность ρ·g·Q·H. Часть уходит на трение и потери в машинах, поэтому вводят коэффициент <em>η</em> («эта») — долю полезной мощности:</p></div>
+<div data-l="en"><p>About 90 % of Kyrgyzstan’s electricity comes from hydropower stations. The biggest is the Toktogul station on the Naryn river. A 215 m dam holds back the reservoir, and the water falls through pressure pipes onto the turbines.</p><p>The chain of conversions is: <em>potential energy of reservoir water → kinetic energy of the flow in the pipes → turbine rotation → electrical energy from the generator</em>.</p><p>How much energy does the water “give up” each second? Each second a volume of water <em>Q</em> (m³/s), of mass ρ·Q, passes the turbine. Falling through the head <em>H</em>, it releases power ρ·g·Q·H. Some is lost to friction and in the machines, so a coefficient <em>η</em> (“eta”) is introduced — the useful fraction:</p></div>
+<div class="formula">P = η · ρ · g · Q · H<small><span data-l="ru">P — мощность (Вт), η — доля полезной мощности (≈ 0,85–0,9), ρ = 1000 кг/м³, Q — расход (м³/с), H — напор (м)</span><span data-l="en">P is power (W), η is the useful fraction (≈ 0.85–0.9), ρ = 1,000 kg/m³, Q is flow (m³/s), H is head (m)</span></small></div>
+<div data-l="ru"><p>Станция работала с четырьмя агрегатами по 300 МВт — всего 1200 МВт. После модернизации каждый агрегат даёт 360 МВт, а вся станция — 1440 МВт. Напор — перепад высот между водохранилищем и турбинами — около 180 м, но он меняется с уровнем воды в водохранилище.</p><p>Видно, от чего зависит мощность: вдвое больше воды — вдвое больше мощности; вдвое выше напор — тоже вдвое.</p></div>
+<div data-l="en"><p>The station was built with four units of 300 MW — 1,200 MW in all. After modernisation each unit gives 360 MW, and the whole station 1,440 MW. The head — the height difference between the reservoir and the turbines — is about 180 m, but it changes with the reservoir level.</p><p>You can see what power depends on: twice the water gives twice the power; twice the head also gives twice the power.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 3 · ГЭС НА НАРЫНЕ</span><span data-l="en">MODEL 3 · A POWER STATION ON THE NARYN</span></p>
+<svg id="hydroSvg" viewBox="0 0 600 260" role="img" aria-label=""></svg>
+<div class="controls"><label for="hH"><span data-l="ru">Напор H</span><span data-l="en">Head H</span>: <strong id="hHOut"></strong></label><input id="hH" type="range" min="60" max="200" step="5" value="180"></div>
+<div class="controls"><label for="hQ"><span data-l="ru">Расход воды Q</span><span data-l="en">Water flow Q</span>: <strong id="hQOut"></strong></label><input id="hQ" type="range" min="0" max="1000" step="10" value="900"></div>
+<div class="controls"><label for="hE"><span data-l="ru">Доля полезной мощности η</span><span data-l="en">Useful fraction η</span>: <strong id="hEOut"></strong></label><input id="hE" type="range" min="0.8" max="0.95" step="0.01" value="0.9"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Мощность P</span><span data-l="en">Power P</span></small><strong id="hP"></strong></div><div class="stat"><small><span data-l="ru">От 1440 МВт</span><span data-l="en">Of 1,440 MW</span></small><strong id="hPct"></strong></div><div class="stat"><small><span data-l="ru">Энергия за сутки</span><span data-l="en">Energy per day</span></small><strong id="hDay"></strong></div></div>
+<p class="fb" id="hydroFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Модель упрощена: расход, напор и η — примерные; реальный напор зависит от уровня водохранилища и времени года. Высота плотины 215 м, глубина воды у плотины меньше.</span><span data-l="en">A simplified model: flow, head and η are approximate; the real head depends on the reservoir level and the season. The dam is 215 m tall; the water at the dam is shallower than that.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Рюкзак на третий этаж</span><span data-l="en">Problem 1. A rucksack to the third floor</span></summary>
+<div data-l="ru"><p>Школьник поднимает рюкзак массой 15 кг на высоту 3 м. Какую работу он совершает против силы тяжести?</p><p class="given">Дано: m = 15 кг, h = 3 м, g ≈ 9,8 Н/кг</p><div class="sol"><p>A = m · g · h = 15 · 9,8 · 3 = 441 Дж.</p><p><strong>Ответ:</strong> 441 Дж. Если рюкзак потом несут по ровному коридору, работа силы тяжести равна нулю.</p></div></div>
+<div data-l="en"><p>A schoolchild lifts a 15 kg rucksack to a height of 3 m. What work is done against gravity?</p><p class="given">Given: m = 15 kg, h = 3 m, g ≈ 9.8 N/kg</p><div class="sol"><p>A = m · g · h = 15 · 9.8 · 3 = 441 J.</p><p><strong>Answer:</strong> 441 J. If the rucksack is then carried along a level corridor, the work of gravity is zero.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. Мощность подъёма</span><span data-l="en">Problem 2. Power of the lift</span></summary>
+<div data-l="ru"><p>Подъём из задачи 1 занял 6 с. Найдите среднюю мощность в ваттах и в лошадиных силах.</p><p class="given">Дано: A = 441 Дж, t = 6 с, 1 л. с. ≈ 735,5 Вт</p><div class="sol"><p>1) N = A / t = 441 / 6 = 73,5 Вт.<br>2) В лошадиных силах: 73,5 / 735,5 ≈ 0,1 л. с.</p><p><strong>Ответ:</strong> 73,5 Вт ≈ 0,1 л. с. Лошадь мощностью 1 л. с. выполнила бы ту же работу примерно за 0,6 с.</p></div></div>
+<div data-l="en"><p>The lift in problem 1 took 6 s. Find the average power in watts and in horsepower.</p><p class="given">Given: A = 441 J, t = 6 s, 1 hp ≈ 735.5 W</p><div class="sol"><p>1) N = A / t = 441 / 6 = 73.5 W.<br>2) In horsepower: 73.5 / 735.5 ≈ 0.1 hp.</p><p><strong>Answer:</strong> 73.5 W ≈ 0.1 hp. A 1 hp horse would do the same work in about 0.6 s.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Энергия автомобиля</span><span data-l="en">Problem 3. A car’s energy</span></summary>
+<div data-l="ru"><p>Автомобиль массой 1200 кг едет со скоростью 60 км/ч. Найдите его кинетическую энергию. Во сколько раз она увеличится при 120 км/ч?</p><p class="given">Дано: m = 1200 кг, v₁ = 60 км/ч, v₂ = 120 км/ч</p><div class="sol"><p>1) Переведём: v₁ = 60 / 3,6 ≈ 16,7 м/с.<br>2) E<sub>к1</sub> = m · v² / 2 = 1200 · 16,7² / 2 ≈ 1200 · 278 / 2 ≈ 167 000 Дж = 167 кДж.<br>3) Скорость выросла в 2 раза, значит, энергия — в 2² = 4 раза: E<sub>к2</sub> ≈ 667 кДж.</p><p><strong>Ответ:</strong> ≈ 167 кДж; при 120 км/ч — в 4 раза больше (≈ 667 кДж).</p></div></div>
+<div data-l="en"><p>A 1,200 kg car travels at 60 km/h. Find its kinetic energy. By what factor does it grow at 120 km/h?</p><p class="given">Given: m = 1,200 kg, v₁ = 60 km/h, v₂ = 120 km/h</p><div class="sol"><p>1) Convert: v₁ = 60 / 3.6 ≈ 16.7 m/s.<br>2) E<sub>k1</sub> = m · v² / 2 = 1,200 · 16.7² / 2 ≈ 1,200 · 278 / 2 ≈ 167,000 J = 167 kJ.<br>3) The speed grew 2 times, so the energy grew 2² = 4 times: E<sub>k2</sub> ≈ 667 kJ.</p><p><strong>Answer:</strong> ≈ 167 kJ; at 120 km/h it is 4 times larger (≈ 667 kJ).</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Санки с горки</span><span data-l="en">Problem 4. Sledding downhill</span></summary>
+<div data-l="ru"><p>Санки с седоком (40 кг) скатываются с горки высотой 5 м. Какую скорость они разовьют внизу без трения? А если на склоне трение совершает работу 392 Дж?</p><p class="given">Дано: m = 40 кг, h = 5 м, A<sub>тр</sub> = 392 Дж, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Вверху E<sub>п</sub> = m·g·h = 40 · 9,8 · 5 = 1960 Дж.<br>2) Без трения вся она переходит в кинетическую: m·v²/2 = m·g·h, откуда v = √(2·g·h) = √98 ≈ 9,9 м/с ≈ 36 км/ч.<br>3) С трением: E<sub>к</sub> = 1960 − 392 = 1568 Дж. v = √(2·E<sub>к</sub> / m) = √(2 · 1568 / 40) = √78,4 ≈ 8,9 м/с ≈ 32 км/ч.</p><p><strong>Ответ:</strong> ≈ 9,9 м/с без трения и ≈ 8,9 м/с с трением. Недостающие 392 Дж превратились во внутреннюю энергию — полозья и снег чуть нагрелись.</p></div></div>
+<div data-l="en"><p>A sled with rider (40 kg) slides down a hill 5 m high. What speed does it reach at the bottom without friction? And if friction does 392 J of work on the slope?</p><p class="given">Given: m = 40 kg, h = 5 m, A<sub>fr</sub> = 392 J, g ≈ 9.8 N/kg</p><div class="sol"><p>1) At the top E<sub>p</sub> = m·g·h = 40 · 9.8 · 5 = 1,960 J.<br>2) Without friction all of it becomes kinetic: m·v²/2 = m·g·h, so v = √(2·g·h) = √98 ≈ 9.9 m/s ≈ 36 km/h.<br>3) With friction: E<sub>k</sub> = 1,960 − 392 = 1,568 J. v = √(2·E<sub>k</sub> / m) = √(2 · 1,568 / 40) = √78.4 ≈ 8.9 m/s ≈ 32 km/h.</p><p><strong>Answer:</strong> ≈ 9.9 m/s without friction and ≈ 8.9 m/s with friction. The missing 392 J turned into internal energy — the runners and snow warmed slightly.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 5. Сколько воды нужно одному агрегату</span><span data-l="en">Problem 5. How much water one unit needs</span></summary>
+<div data-l="ru"><p>Один агрегат Токтогульской ГЭС после модернизации имеет мощность 360 МВт. Какой расход воды нужен при напоре 180 м и η = 0,9?</p><p class="given">Дано: P = 360 МВт = 360 000 000 Вт, H = 180 м, η = 0,9, ρ = 1000 кг/м³, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Из P = η·ρ·g·Q·H выразим Q = P / (η·ρ·g·H).<br>2) Q = 360 000 000 / (0,9 · 1000 · 9,8 · 180) = 360 000 000 / 1 587 600 ≈ 227 м³/с.</p><p><strong>Ответ:</strong> около 227 м³/с — то есть примерно 227 тонн воды каждую секунду, и это только один агрегат из четырёх.</p></div></div>
+<div data-l="en"><p>After modernisation one unit of the Toktogul station has a power of 360 MW. What water flow is needed at a head of 180 m and η = 0.9?</p><p class="given">Given: P = 360 MW = 360,000,000 W, H = 180 m, η = 0.9, ρ = 1,000 kg/m³, g ≈ 9.8 N/kg</p><div class="sol"><p>1) From P = η·ρ·g·Q·H we get Q = P / (η·ρ·g·H).<br>2) Q = 360,000,000 / (0.9 · 1,000 · 9.8 · 180) = 360,000,000 / 1,587,600 ≈ 227 m³/s.</p><p><strong>Answer:</strong> about 227 m³/s — roughly 227 tonnes of water every second, for just one of the four units.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 6. Средняя мощность за год</span><span data-l="en">Problem 6. Average power over a year</span></summary>
+<div data-l="ru"><p>Станция вырабатывает в среднем около 4400 ГВт·ч электроэнергии в год. Какова средняя мощность? Какую долю она составляет от 1440 МВт?</p><p class="given">Дано: E = 4400 ГВт·ч, в году 8760 ч, P<sub>уст</sub> = 1440 МВт</p><div class="sol"><p>1) Средняя мощность: P = E / t = 4400 ГВт·ч / 8760 ч ≈ 0,502 ГВт ≈ 502 МВт.<br>2) Доля: 502 / 1440 ≈ 0,35.</p><p><strong>Ответ:</strong> ≈ 500 МВт, около 35 % установленной мощности. Станция редко работает на полную мощность: расход зависит от притока воды, потребления электричества и орошения.</p></div></div>
+<div data-l="en"><p>The station generates on average about 4,400 GWh of electricity a year. What is its average power? What fraction of 1,440 MW is that?</p><p class="given">Given: E = 4,400 GWh, a year has 8,760 h, P<sub>installed</sub> = 1,440 MW</p><div class="sol"><p>1) Average power: P = E / t = 4,400 GWh / 8,760 h ≈ 0.502 GW ≈ 502 MW.<br>2) Fraction: 502 / 1,440 ≈ 0.35.</p><p><strong>Answer:</strong> ≈ 500 MW, about 35 % of the installed capacity. The station seldom runs at full power: the flow depends on inflow, on electricity demand and on irrigation.</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: почему путь растёт вчетверо</span><span data-l="en">The answer: why the distance quadruples</span></h2>
+<div data-l="ru"><p>Движущийся автомобиль обладает кинетической энергией <em>E<sub>к</sub> = m·v²/2</em>. Она пропорциональна <em>квадрату</em> скорости: при вдвое большей скорости энергия вчетверо больше.</p><p>Тормозит автомобиль сила трения <em>F = μ·m·g</em>; на дороге она почти не зависит от скорости. Чтобы остановить автомобиль, эта сила должна совершить работу, равную его кинетической энергии: <em>μ·m·g·s = m·v²/2</em>. Отсюда <em>s = v² / (2·μ·g)</em> — это та самая формула, по которой считает модель в главе 3.</p><p>Постоянная сила «съедает» энергию на каждом метре пути поровну. Энергии вчетверо больше — значит, и пути нужно вчетверо больше. Поэтому ограничения скорости возле школ так важны: на лишних 10 км/ч приходится гораздо больше «лишней» энергии, чем кажется.</p></div>
+<div data-l="en"><p>A moving car has kinetic energy <em>E<sub>k</sub> = m·v²/2</em>. It is proportional to the <em>square</em> of the speed: double the speed and the energy is four times larger.</p><p>The car is stopped by the friction force <em>F = μ·m·g</em>; on a road it hardly depends on speed. To stop the car, this force must do work equal to its kinetic energy: <em>μ·m·g·s = m·v²/2</em>. Hence <em>s = v² / (2·μ·g)</em> — the very formula the model in chapter 3 uses.</p><p>A constant force “uses up” energy at the same rate over every metre. Four times the energy means four times the distance. That is why speed limits near schools matter so much: each extra 10 km/h carries far more “extra” energy than it seems.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Токтогульская ГЭС: плотина 215 м, четыре агрегата; около 4400 ГВт·ч в год —</span><span data-l="en">Toktogul station: 215 m dam, four units; about 4,400 GWh a year —</span> <a href="https://en.wikipedia.org/wiki/Toktogul_Dam" target="_blank" rel="noopener">Wikipedia: Toktogul Dam</a></li>
+<li><span data-l="ru">Агрегаты 4 × 300 МВт (1200 МВт), после модернизации 4 × 360 МВт (1440 МВт) —</span><span data-l="en">Units 4 × 300 MW (1,200 MW), after modernisation 4 × 360 MW (1,440 MW) —</span> <a href="https://www.powermag.com/?p=262598" target="_blank" rel="noopener">Power Magazine: GE Vernova rebuilt Toktogul units</a>, <a href="https://en.kabar.kg/news/hydropower-units-of-toktogul-and-uch-korgon-hpp-put-into-operation/" target="_blank" rel="noopener">Kabar: Toktogul HPP units put into operation (18.11.2025)</a></li>
+<li><span data-l="ru">Номинальный напор около 180 м; напор меняется с уровнем водохранилища —</span><span data-l="en">Gross head about 180 m; the head varies with the reservoir level —</span> <a href="https://power-technology.com/?p=159950" target="_blank" rel="noopener">Power Technology: Toktogul Hydropower Plant</a>, <a href="https://www.powermag.com/?p=262598" target="_blank" rel="noopener">Power Magazine</a></li>
+<li><span data-l="ru">Около 90 % электроэнергии Кыргызстана даёт гидроэнергетика —</span><span data-l="en">Hydropower provides about 90 % of Kyrgyzstan’s electricity —</span> <a href="https://www.iea.org/reports/kyrgyzstan-energy-profile" target="_blank" rel="noopener">IEA: Kyrgyzstan energy profile</a>, <a href="https://en.kabar.kg/news/hydropower-provides-90-of-kyrgyzstans-electricity/" target="_blank" rel="noopener">Kabar (10.12.2025)</a></li>
+<li><span data-l="ru">Формула мощности ГЭС P = η·ρ·g·Q·H; η порядка 0,85–0,9 —</span><span data-l="en">Hydropower formula P = η·ρ·g·Q·H; η of about 0.85–0.9 —</span> <a href="https://rechneronline.de/hydropower/" target="_blank" rel="noopener">Rechneronline: Hydropower Turbine Calculator</a>, <a href="https://www.open.edu/openlearn/ocw/mod/oucontent/view.php?id=73762&amp;section=6.2" target="_blank" rel="noopener">OpenLearn (Open University): hydro power</a></li>
+<li><span data-l="ru">1 ккал = 4184 Дж —</span><span data-l="en">1 kcal = 4,184 J —</span> <a href="https://uniteasy.com/en/unitsDict/Energys.htm" target="_blank" rel="noopener">UnitsEasy: units of energy</a>; <span data-l="ru">1 л. с. (метрическая) ≈ 735,5 Вт —</span><span data-l="en">1 hp (metric) ≈ 735.5 W —</span> <a href="https://sengpielaudio.com/calculator-powerunits.htm" target="_blank" rel="noopener">Sengpielaudio: power units</a></li>
+<li><span data-l="ru">1 кВт·ч = 3 600 000 Дж —</span><span data-l="en">1 kWh = 3,600,000 J —</span> <a href="https://miscpartsmanuals3.tpub.com/TM-750-245-4/TM-750-245-40102.htm" target="_blank" rel="noopener">TM 750-245-4: work and energy equivalents</a></li>
+<li><span data-l="ru">Коэффициенты трения шины о дорогу (0,7 для сухого асфальта) — как в главе 3.</span><span data-l="en">Tyre–road friction coefficients (0.7 for dry asphalt) — as in chapter 3.</span></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные. Масса санок с седоком, длина склона и значения η в модели 3 — условные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original. The sled-and-rider mass, the slope length and the η values in model 3 are assumed.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="04-pressure.html">← <span data-l="ru">Глава 04 · Давление</span><span data-l="en">Chapter 04 · Pressure</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Глава 06 · Простые механизмы — скоро</span><span data-l="en">Chapter 06 · Simple machines — coming soon</span> →</span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 05</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 05</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const G=9.8;
+const T={
+ru:{J:" Дж",kJ:" кДж",MJ:" МДж",W:" Вт",kW:" кВт",MW:" МВт",N:" Н",m:" м",s:" с",kg:" кг",ms:" м/с",kmh:" км/ч",hp:" л. с.",GWh:" ГВт·ч",
+liftLabel:"Груз на верёвке поднимают на высоту",slideLabel:"Склон горки с санками",hydroLabel:"Плотина, водохранилище, напорная труба и турбина",
+liftFb:(h,t)=>"Вы подняли груз на "+h+" за "+t+": работа не зависит от времени, а мощность — зависит.",
+slideStuck:"Санки не поедут: сила трения на склоне слишком велика (μ·20 м не меньше высоты горки).",slideGo:"Потенциальная энергия переходит в кинетическую; часть уходит на нагрев из-за трения.",slideEnd:"Внизу: Ep = 0, вся энергия — кинетическая и тепло. Сумма всех видов энергии осталась прежней.",
+barP:"Потенциальная",barK:"Кинетическая",barH:"Тепло от трения",
+hydroOver:"Больше 1440 МВт: такую мощность генераторы станции не выдадут.",hydroOk:"В пределах мощности станции (1440 МВт).",hydroZero:"Вода не течёт — турбины стоят, мощность равна нулю.",
+score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{J:" J",kJ:" kJ",MJ:" MJ",W:" W",kW:" kW",MW:" MW",N:" N",m:" m",s:" s",kg:" kg",ms:" m/s",kmh:" km/h",hp:" hp",GWh:" GWh",
+liftLabel:"A load on a rope lifted to a height",slideLabel:"A hill slope with a sled",hydroLabel:"A dam, reservoir, pressure pipe and turbine",
+liftFb:(h,t)=>"You lifted the load "+h+" in "+t+": the work does not depend on time, while the power does.",
+slideStuck:"The sled will not move: friction on the slope is too large (μ·20 m is not less than the hill height).",slideGo:"Potential energy turns into kinetic; some goes into heat because of friction.",slideEnd:"At the bottom: Ep = 0, all the energy is kinetic plus heat. The sum of all kinds of energy is unchanged.",
+barP:"Potential",barK:"Kinetic",barH:"Heat from friction",
+hydroOver:"Above 1,440 MW: the station’s generators cannot deliver that.",hydroOk:"Within the station’s capacity (1,440 MW).",hydroZero:"No water flows — the turbines are idle, power is zero.",
+score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function num(x){return lang==="ru"?String(x).replace(/\B(?=(\d{3})+(?!\d))/g," "):String(x).replace(/\B(?=(\d{3})+(?!\d))/g,",")}
+function fmtE(e){const t=T[lang];if(e>=1e6)return fmt(e/1e6,2)+t.MJ;if(e>=1e4)return fmt(e/1e3,1)+t.kJ;return num(Math.round(e))+t.J}
+function fmtW(p){const t=T[lang];if(p>=1e6)return fmt(p/1e6,0)+t.MW;if(p>=1e3)return fmt(p/1e3,1)+t.kW;return fmt(p,p<100?1:0)+t.W}
+function svgText(x,y,txt,col,anchor,size){return '<text x="'+x+'" y="'+y+'" text-anchor="'+(anchor||"start")+'" font-family="JetBrains Mono,monospace" font-size="'+(size||11)+'" fill="'+col+'">'+txt+'</text>'}
+function arrowV(x,y1,y2,col,w){const d=y2>y1?1:-1;if(Math.abs(y2-y1)<2)return "";return '<line x1="'+x+'" y1="'+y1+'" x2="'+x+'" y2="'+(y2-d*9)+'" stroke="'+col+'" stroke-width="'+w+'"/><path d="M'+x+' '+y2+' L'+(x-6)+' '+(y2-d*11)+' L'+(x+6)+' '+(y2-d*11)+' Z" fill="'+col+'"/>'}
+
+/* ---------- Model 1: lifting ---------- */
+let liftProg=0,liftRun=false,liftStart=0;
+function drawLift(){const t=T[lang],m=+$("lm").value,h=+$("lh").value,tt=+$("lt").value,F=m*G,A=F*h,N=A/tt,ppm=22,fy=236,top=fy-h*ppm,size=26+m*0.7,by=fy-liftProg*h*ppm-size;
+ let s='<line x1="40" y1="'+fy+'" x2="560" y2="'+fy+'" stroke="#18181a" stroke-width="2"/>';
+ for(let k=0;k<=10;k++){const y=fy-k*ppm;s+='<line x1="'+(k%5===0?420:430)+'" y1="'+y+'" x2="440" y2="'+y+'" stroke="#66666b"/>';if(k%2===0)s+=svgText(448,y+4,k+t.m,"#66666b","start",10)}
+ s+='<line x1="440" y1="'+fy+'" x2="440" y2="'+(fy-10*ppm)+'" stroke="#66666b"/>';
+ s+='<line x1="120" y1="'+top+'" x2="420" y2="'+top+'" stroke="#b6533f" stroke-dasharray="4 4"/>'+svgText(124,top-6,"h = "+fmt(h,1)+t.m,"#b6533f","start",11);
+ s+='<rect x="244" y="12" width="112" height="8" fill="#8a6a3f"/><circle cx="300" cy="30" r="9" fill="none" stroke="#18181a" stroke-width="2"/>';
+ s+='<line x1="300" y1="39" x2="300" y2="'+by+'" stroke="#8a6a3f" stroke-width="2"/>';
+ s+='<rect x="'+(300-size/2)+'" y="'+by+'" width="'+size+'" height="'+size+'" fill="#c9a46a" stroke="#18181a" stroke-width="2"/>'+svgText(300,by+size/2+4,fmt(m,0)+t.kg,"#18181a","middle",10);
+ s+=arrowV(340,by+size/2+30,by+size/2-6,"#2f6f5d",4)+svgText(350,by+size/2+22,"F","#2f6f5d","start",12);
+ $("liftSvg").innerHTML=s;
+ $("lmOut").textContent=m+t.kg;$("lhOut").textContent=fmt(h,1)+t.m;$("ltOut").textContent=tt+t.s;
+ $("lF").textContent=fmt(F,0)+t.N;$("lA").textContent=fmt(A,0)+t.J;$("lN").textContent=fmt(N,N<100?1:0)+t.W+" ≈ "+fmt(N/735.5,2)+t.hp;
+ $("liftFb").textContent=t.liftFb(fmt(h,1)+t.m,tt+t.s)}
+function liftLoop(ts){if(!liftRun)return;liftProg=Math.min(1,(ts-liftStart)/3000);drawLift();if(liftProg<1)requestAnimationFrame(liftLoop);else liftRun=false}
+$("liftGo").addEventListener("click",()=>{liftProg=0;liftRun=true;liftStart=performance.now();requestAnimationFrame(liftLoop)});
+$("liftReset").addEventListener("click",()=>{liftRun=false;liftProg=0;drawLift()});
+["lm","lh","lt"].forEach(id=>$(id).addEventListener("input",()=>{if(!liftRun)drawLift()}));
+
+/* ---------- Model 2: slide ---------- */
+const SM=40,SD=20;let slRun=false,slStart=0,slFrom=0;
+function slideState(){const H=+$("sH").value,mu=+$("sMu").value,f=+$("sF").value/100,E0=SM*G*H,Ep=E0*(1-f),Q=mu*SM*G*SD*f,Ek=Math.max(0,E0-Ep-Q),stuck=H<=mu*SD+1e-9;return{H,mu,f,E0,Ep,Q,Ek,stuck,v:Math.sqrt(2*Ek/SM)}}
+function drawSlide(){const t=T[lang],q=slideState(),pxH=q.H/10*170,gy=228,x0=120,x1=x0+300,yTop=gy-pxH;
+ let s='<polygon points="'+x0+','+yTop+' '+x1+','+gy+' '+x0+','+gy+'" fill="#e3e8ec" stroke="#c4ccd2"/><line x1="'+x0+'" y1="'+gy+'" x2="560" y2="'+gy+'" stroke="#18181a" stroke-width="2"/>';
+ const px=x0+(x1-x0)*q.f,py=yTop+(gy-yTop)*q.f;
+ s+='<g transform="translate('+px+','+py+') rotate('+(Math.atan2(gy-yTop,x1-x0)*180/Math.PI)+')"><rect x="-15" y="-9" width="30" height="7" rx="2" fill="#8a6a3f"/><circle cx="0" cy="-17" r="7" fill="#2f6f5d"/><rect x="-5" y="-12" width="10" height="4" fill="#2f6f5d"/></g>';
+ s+='<line x1="'+(x0-14)+'" y1="'+yTop+'" x2="'+(x0-14)+'" y2="'+gy+'" stroke="#b6533f"/><line x1="'+(x0-18)+'" y1="'+yTop+'" x2="'+(x0-10)+'" y2="'+yTop+'" stroke="#b6533f"/>'+svgText(x0-20,(yTop+gy)/2,"H = "+fmt(q.H,1)+t.m,"#b6533f","end",11);
+ s+=svgText(x1,gy+22,"20"+t.m,"#66666b","middle",10)+'<line x1="'+x1+'" y1="'+gy+'" x2="'+x1+'" y2="'+(gy+6)+'" stroke="#66666b"/>';
+ $("slideSvg").innerHTML=s;
+ const bar=(lab,v,cls)=>'<div class="bar"><span>'+lab+'</span><span class="t"><i class="'+cls+'" style="width:'+(q.E0>0?v/q.E0*100:0)+'%"></i></span><b>'+num(Math.round(v))+t.J+'</b></div>';
+ $("sBars").innerHTML=bar(t.barP,q.Ep,"p")+bar(t.barK,q.Ek,"k")+bar(t.barH,q.Q,"h");
+ $("sHOut").textContent=fmt(q.H,1)+t.m;$("sMuOut").textContent=fmt(q.mu,2);$("sFOut").textContent=Math.round(q.f*100)+" %";
+ $("sHt").textContent=fmt(q.H*(1-q.f),1)+t.m;$("sV").textContent=fmt(q.v,1)+t.ms+" ≈ "+fmt(q.v*3.6,0)+t.kmh;$("sE").textContent=num(Math.round(q.E0))+t.J;
+ const fb=$("slideFb");fb.className="fb";if(q.stuck){fb.classList.add("bad");fb.textContent=t.slideStuck}else if(q.f>=1){fb.classList.add("ok");fb.textContent=t.slideEnd}else fb.textContent=t.slideGo}
+function slLoop(ts){if(!slRun)return;const f=Math.min(1,slFrom+(ts-slStart)/3000*(1-slFrom));$("sF").value=Math.round(f*100);drawSlide();if(f<1)requestAnimationFrame(slLoop);else slRun=false}
+$("slideGo").addEventListener("click",()=>{const q=slideState();if(q.stuck){drawSlide();return}slFrom=q.f>=1?0:q.f;if(q.f>=1)$("sF").value=0;slRun=true;slStart=performance.now();requestAnimationFrame(slLoop)});
+$("slideReset").addEventListener("click",()=>{slRun=false;$("sF").value=0;drawSlide()});
+["sH","sMu","sF"].forEach(id=>$(id).addEventListener("input",()=>{slRun=false;drawSlide()}));
+
+/* ---------- Model 3: hydro ---------- */
+function drawHydro(){const t=T[lang],H=+$("hH").value,Q=+$("hQ").value,eta=+$("hE").value,P=eta*1000*G*Q*H,yy=hh=>230-hh/215*180,yh=yy(H);
+ let s='<rect x="0" y="0" width="600" height="260" fill="none"/>';
+ s+='<polygon points="30,'+yh+' 250,'+yh+' 250,230 30,230" fill="#8eb8d1" opacity=".75"/>';
+ s+='<polygon points="250,50 276,50 330,230 250,230" fill="#b9b4a8" stroke="#18181a" stroke-width="1.5"/>';
+ s+='<line x1="30" y1="230" x2="560" y2="230" stroke="#18181a" stroke-width="2"/>';
+ const pw=3+Q/1000*9;s+='<line x1="252" y1="'+(yh+12)+'" x2="302" y2="214" stroke="#3f6f93" stroke-width="'+pw.toFixed(1)+'" stroke-linecap="round"/>';
+ s+='<circle cx="312" cy="214" r="14" fill="#f2f2ef" stroke="#18181a" stroke-width="2"/>';
+ const ang=Q*0.36;
+ for(let k=0;k<4;k++){const a=(ang+k*90)*Math.PI/180;s+='<line x1="312" y1="214" x2="'+(312+13*Math.cos(a)).toFixed(1)+'" y2="'+(214+13*Math.sin(a)).toFixed(1)+'" stroke="#18181a" stroke-width="2"/>'}
+ s+='<rect x="340" y="196" width="46" height="34" fill="#c9c2b0" stroke="#18181a"/>'+svgText(363,217,"~","#18181a","middle",18);
+ s+='<line x1="326" y1="214" x2="340" y2="214" stroke="#18181a" stroke-width="3"/>';
+ s+='<line x1="386" y1="205" x2="520" y2="205" stroke="#2f6f5d" stroke-width="2"/><line x1="520" y1="205" x2="520" y2="150" stroke="#2f6f5d" stroke-width="2"/><path d="M510 150 L520 132 L530 150 Z" fill="#2f6f5d"/>'+svgText(520,122,(lang==="ru"?"в сеть":"to the grid"),"#2f6f5d","middle",10);
+ s+='<line x1="14" y1="'+yh+'" x2="14" y2="230" stroke="#b6533f"/><line x1="10" y1="'+yh+'" x2="18" y2="'+yh+'" stroke="#b6533f"/><line x1="10" y1="230" x2="18" y2="230" stroke="#b6533f"/>'+svgText(22,(yh+230)/2+4,"H = "+H+t.m,"#b6533f","start",11);
+ s+=svgText(36,yh-6,(lang==="ru"?"водохранилище":"reservoir"),"#3f6f93","start",10)+svgText(263,44,(lang==="ru"?"плотина 215 м":"dam 215 m"),"#18181a","middle",10)+svgText(312,246,(lang==="ru"?"турбина":"turbine"),"#18181a","middle",10)+svgText(380,246,(lang==="ru"?"генератор":"generator"),"#18181a","middle",10);
+ const n=Math.round(Q/1000*8);for(let k=0;k<n;k++){const x=400+k*18;s+='<circle cx="'+x+'" cy="'+(222+(k%2)*3)+'" r="2.6" fill="#3f6f93"/>'}
+ $("hydroSvg").innerHTML=s;
+ $("hHOut").textContent=H+t.m;$("hQOut").textContent=num(Q)+(lang==="ru"?" м³/с":" m³/s");$("hEOut").textContent=Math.round(eta*100)+" %";
+ $("hP").textContent=fmt(P/1e6,0)+t.MW;$("hPct").textContent=fmt(P/1.44e9*100,0)+" %";$("hDay").textContent=fmt(P*24/1e9,1)+t.GWh;
+ const fb=$("hydroFb");fb.className="fb";if(Q===0)fb.textContent=t.hydroZero;else if(P>1.44e9){fb.classList.add("bad");fb.textContent=t.hydroOver}else{fb.classList.add("ok");fb.textContent=t.hydroOk}}
+["hH","hQ","hE"].forEach(id=>$(id).addEventListener("input",drawHydro));
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Турист стоит на месте и держит рюкзак на плечах. Совершает ли он механическую работу над рюкзаком?",o:[["Совершает: он держит груз","Мышцы устают, но работа по определению требует перемещения."],["Не совершает: перемещения нет","Верно: A = F·s, а s = 0, значит, A = 0."],["Совершает, потому что действует сила тяжести","Сила тяжести тоже есть, но рюкзак не перемещается — работа нулевая."]]},
+ en:{q:"A hiker stands still holding a rucksack on the shoulders. Does the hiker do mechanical work on the rucksack?",o:[["Yes: the load is being held","Muscles tire, but by definition work needs displacement."],["No: there is no displacement","Correct: A = F·s and s = 0, so A = 0."],["Yes, because gravity acts","Gravity acts too, but the rucksack does not move — the work is zero."]]},a:1},
+{ru:{q:"Сила 50 Н передвигает санки на 4 м вдоль силы. Какая работа совершена?",o:[["12,5 Дж","Это деление силы на путь; работу находят умножением."],["200 Дж","Верно: A = F·s = 50 Н · 4 м = 200 Дж."],["54 Дж","Силу и путь складывать нельзя — работу получают умножением."]]},
+ en:{q:"A 50 N force moves a sled 4 m along the force. How much work is done?",o:[["12.5 J","That divides force by distance; work is found by multiplying."],["200 J","Correct: A = F·s = 50 N · 4 m = 200 J."],["54 J","Force and distance cannot be added — work is found by multiplying."]]},a:1},
+{ru:{q:"Какую работу совершает двигатель мощностью 2 кВт за 10 с?",o:[["20 кДж","Верно: A = N·t = 2000 Вт · 10 с = 20 000 Дж."],["0,2 кДж","Это деление мощности на время; работа — произведение N·t."],["2 кДж","Не хватает множителя 10 — 2 кВт = 2000 Вт, а A = N·t = 20 000 Дж."]]},
+ en:{q:"How much work does a 2 kW engine do in 10 s?",o:[["20 kJ","Correct: A = N·t = 2,000 W · 10 s = 20,000 J."],["0.2 kJ","That divides power by time; work is the product N·t."],["2 kJ","A factor of 10 is missing — 2 kW = 2,000 W, and A = N·t = 20,000 J."]]},a:0},
+{ru:{q:"Скорость автомобиля выросла в 3 раза. Как изменилась его кинетическая энергия?",o:[["Выросла в 3 раза","Энергия зависит от скорости в квадрате, а не линейно."],["Выросла в 9 раз","Верно: E = m·v²/2, а 3² = 9."],["Выросла в 6 раз","Энергия пропорциональна v², то есть растёт в 3² = 9 раз."]]},
+ en:{q:"A car’s speed increased 3 times. How did its kinetic energy change?",o:[["It grew 3 times","Energy depends on the square of speed, not linearly."],["It grew 9 times","Correct: E = m·v²/2, and 3² = 9."],["It grew 6 times","Energy is proportional to v², so it grows 3² = 9 times."]]},a:1},
+{ru:{q:"Камень массой 2 кг поднят на 5 м (g = 10 Н/кг). Какова его потенциальная энергия?",o:[["10 Дж","Это m·h без g; нужно умножить ещё на g."],["100 Дж","Верно: E = m·g·h = 2 · 10 · 5 = 100 Дж."],["50 Дж","Это 10·5 — забыта масса: E = 2 · 10 · 5 = 100 Дж."]]},
+ en:{q:"A 2 kg stone is raised 5 m (g = 10 N/kg). What is its potential energy?",o:[["10 J","That is m·h without g; you must multiply by g too."],["100 J","Correct: E = m·g·h = 2 · 10 · 5 = 100 J."],["50 J","That is 10·5 — the mass is forgotten: E = 2 · 10 · 5 = 100 J."]]},a:1},
+{ru:{q:"Санки съехали с горки, и из-за трения скорость внизу оказалась меньше, чем была бы без трения. Куда делась часть энергии?",o:[["Исчезла бесследно","Энергия не исчезает — это закон сохранения."],["Превратилась во внутреннюю энергию: полозья и снег нагрелись","Верно: механическая энергия убыла, но полная энергия сохранилась."],["Стала потенциальной энергией санок","Потенциальная энергия внизу не увеличилась — высота стала меньше."]]},
+ en:{q:"A sled slid down a hill and, because of friction, its speed at the bottom was lower than it would have been without friction. Where did part of the energy go?",o:[["It vanished without trace","Energy does not vanish — that is the law of conservation."],["It became internal energy: the runners and snow warmed up","Correct: mechanical energy decreased, but total energy was conserved."],["It became the sled’s potential energy","Potential energy at the bottom did not grow — the height is lower."]]},a:1},
+{ru:{q:"Какая энергия воды на ГЭС в итоге превращается в электрическую?",o:[["Потенциальная энергия воды в водохранилище","Верно: вода падает с напора, потенциальная энергия переходит в кинетическую, затем во вращение турбины и в электричество."],["Тепловая энергия воды","Станция использует падение воды, а не её нагрев."],["Энергия воды не используется — работает только плотина","Плотина создаёт напор; электричество даёт энергия падающей воды."]]},
+ en:{q:"Which energy of the water at a hydropower station finally becomes electrical?",o:[["The potential energy of reservoir water","Correct: water falls from the head, potential energy becomes kinetic, then turbine rotation and electricity."],["The thermal energy of the water","The station uses the fall of the water, not its heat."],["No water energy is used — only the dam works","The dam creates the head; electricity comes from the energy of falling water."]]},a:0},
+{ru:{q:"Как изменится мощность ГЭС при том же напоре и КПД, если расход воды вырастет вдвое?",o:[["Не изменится","P = η·ρ·g·Q·H зависит от расхода Q."],["Вырастет вдвое","Верно: P пропорциональна Q, поэтому при вдвое большем расходе мощность вдвое больше."],["Вырастет вчетверо","Зависимость линейная: вдвое больше Q — вдвое больше P."]]},
+ en:{q:"How does a power station’s output change, with the same head and efficiency, if the water flow doubles?",o:[["It does not change","P = η·ρ·g·Q·H depends on the flow Q."],["It doubles","Correct: P is proportional to Q, so double the flow gives double the power."],["It quadruples","The dependence is linear: double Q gives double P."]]},a:1}];
+let answers={};const ORD=[[1,0,2],[0,2,1],[2,1,0],[0,1,2],[1,2,0],[2,0,1],[0,2,1],[1,0,2]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"05"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Работа, мощность, энергия — Атлас физики":"Work, power, energy — Atlas of Physics";
+ $("liftSvg").setAttribute("aria-label",T[lang].liftLabel);$("slideSvg").setAttribute("aria-label",T[lang].slideLabel);$("hydroSvg").setAttribute("aria-label",T[lang].hydroLabel);
+ drawLift();drawSlide();drawHydro();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+apply();
+})();
+</script>
+</body></html>
