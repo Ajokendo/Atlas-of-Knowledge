@@ -1,0 +1,50 @@
+# -*- coding: utf-8 -*-
+from gen2 import *
+
+m1 = M(('Средняя и мгновенная скорость', 'Average and instantaneous speed'),
+ [('r', 't', 'Момент t, с', 'Moment t, s', 0.5, 4, 0.5, 2), ('r', 'h', 'Интервал h, с', 'Interval h, s', 0.05, 1.5, 0.05, 1)],
+ [('Средняя скорость на [t; t+h]', 'Average speed on [t; t+h]'), ('Мгновенная скорость v(t)', 'Instantaneous speed v(t)'), ('Разница', 'Difference')],
+ 'Для пути s(t) = t² средняя скорость на интервале — наклон секущей. Когда интервал сжимается, секущая превращается в касательную, а наклон — в скорость в момент.', 'For the distance s(t) = t² the average speed over an interval is the slope of the secant. As the interval shrinks the secant becomes the tangent and the slope becomes the speed at a moment.', ('Секущая и касательная', 'Secant and tangent'),
+ r'''const s=x=>x*x,G=Gr({x0:0,x1:5.5,y0:0,y1:20,L:80,T:10,W:470,H:210});const av=(s(v.t+v.h)-s(v.t))/v.h,inst=2*v.t;let g=G.grid(1,5)+G.fn(s,COL.a,3.5,0,4.5)+G.fn(x=>s(v.t)+inst*(x-v.t),COL.c,2,0,5.5,true)+G.fn(x=>s(v.t)+av*(x-v.t),COL.b,2.5,0,5.5)+G.pt(v.t,s(v.t),COL.ink,6)+G.pt(v.t+v.h,s(v.t+v.h),COL.b,7);
+ return {svg:g,st:[fnum(av,4),fnum(inst,4),fnum(av-inst,4)],fb:U("Чем меньше h, тем ближе средняя скорость к мгновенной: разница равна h.","The smaller h, the closer the average speed to the instantaneous one: the difference equals h.")}''', '0 0 600 250')
+
+m2 = M(('Производная как наклон', 'The derivative as a slope'),
+ [('s', 'f', 'Функция', 'Function', ['x²', 'x³', 'sin x', 'eˣ'], ['x²', 'x³', 'sin x', 'eˣ'], 0), ('r', 'x', 'Точка x', 'Point x', -2, 2, 0.1, 1)],
+ [('f(x)', 'f(x)'), ("f′(x) — наклон касательной", 'f′(x) — slope of the tangent'), ('Уравнение касательной', 'Tangent equation')],
+ 'Производная f′(x) — это предел отношения приращений: (f(x + h) − f(x)) / h при h → 0. Геометрически — наклон касательной в точке.', 'The derivative f′(x) is the limit of the ratio of increments: (f(x + h) − f(x)) / h as h → 0. Geometrically — the slope of the tangent at the point.', ('График и касательная', 'The graph and the tangent'),
+ r'''const F=[x=>x*x,x=>x*x*x,Math.sin,Math.exp][v.f],D=[x=>2*x,x=>3*x*x,Math.cos,Math.exp][v.f];const G=Gr({x0:-2.5,x1:2.5,y0:-4,y1:6,L:80,T:10,W:470,H:210});const k=D(v.x),y=F(v.x);let g=G.grid(1,2)+G.fn(F,COL.a,3.5,-2.5,2.5)+G.fn(t=>y+k*(t-v.x),COL.b,2.5,-2.5,2.5)+G.pt(v.x,y,COL.c,7);
+ return {svg:g,st:[fnum(y,4),fnum(k,4),"y = "+fnum(k,3)+"·(x − "+fnum(v.x,2)+") + "+fnum(y,3)],fb:k>0.05?U("Наклон положителен: функция в этой точке возрастает.","The slope is positive: the function is increasing here."):k<-0.05?U("Наклон отрицателен: функция убывает.","The slope is negative: the function is decreasing."):U("Касательная почти горизонтальна: возможен максимум или минимум.","The tangent is almost horizontal: a maximum or minimum is possible.")}''', '0 0 600 250')
+
+m3 = M(('Производная — это функция', 'The derivative is a function'),
+ [('r', 'x', 'Точка x', 'Point x', -3, 3, 0.1, 1)],
+ [('f(x) = x³ − 3x', 'f(x) = x³ − 3x'), ('f′(x) = 3x² − 3', 'f′(x) = 3x² − 3'), ('Знак f′', 'Sign of f′')],
+ 'Там, где график f возрастает, график f′ лежит выше нуля; где убывает — ниже; в точках максимума и минимума f′ = 0.', 'Where the graph of f rises, the graph of f′ lies above zero; where it falls, below; at maxima and minima f′ = 0.', ('f и f′ друг под другом', 'f and f′ together'),
+ r'''const f=x=>x*x*x-3*x,d=x=>3*x*x-3;const G=Gr({x0:-3,x1:3,y0:-6,y1:12,L:80,T:10,W:470,H:210});let g=G.grid(1,3)+G.fn(f,COL.a,3.5,-3,3)+G.fn(d,COL.b,3,-3,3)+G.pt(v.x,f(v.x),COL.a,7)+G.pt(v.x,d(v.x),COL.b,7);
+ const dv=d(v.x);
+ return {svg:g,st:[fnum(f(v.x),3),fnum(dv,3),dv>0.01?U("плюс — f возрастает","plus — f increases"):dv<-0.01?U("минус — f убывает","minus — f decreases"):U("ноль — касательная горизонтальна","zero — horizontal tangent")],fb:U("Корни f′ (x = ±1) — точки, где f меняет направление.","The roots of f′ (x = ±1) are where f changes direction.")}''', '0 0 600 250')
+
+chapter('57', '57-derivative.html', 'VIII', ('Производная', 'The derivative'),
+ ('Скорость изменения в момент времени, касательная и определение производной.', 'Speed of change at a moment, the tangent and the definition of the derivative.'),
+ ('Спидометр показывает скорость в данный момент. Но скорость — это путь за время, а в «момент» времени путь равен нулю и время равно нулю. Как же спидометр вообще может что-то показывать?', 'A speedometer shows the speed at a given moment. But speed is distance over time, and in a “moment” both distance and time are zero. How can a speedometer show anything at all?'),
+ ('Разгадка: предел средних скоростей', 'The answer: the limit of average speeds'),
+ ('Спидометр (или навигатор) измеряет путь за очень короткий промежуток h и делит на h — получает среднюю скорость на крошечном интервале. Мгновенная скорость — предел этих средних скоростей при h → 0. Тот же предел называется производной пути по времени. Для s = t² отношение равно 2t + h, предел равен 2t.', 'A speedometer (or a navigator) measures the distance over a very short interval h and divides by h — the average speed on a tiny interval. The instantaneous speed is the limit of these average speeds as h → 0. The same limit is called the derivative of distance with respect to time. For s = t² the ratio is 2t + h and the limit is 2t.'),
+ [S('speed', 'От средней скорости к мгновенной', 'From average to instantaneous speed', ('Средняя скорость на [t; t + h]: (s(t + h) − s(t)) / h. При h → 0 она стремится к <strong>мгновенной скорости v(t) = s′(t)</strong>. Для s = t²: (t + h)² − t² = 2th + h², делим на h: 2t + h → 2t.', 'Average speed on [t; t + h]: (s(t + h) − s(t)) / h. As h → 0 it tends to the <strong>instantaneous speed v(t) = s′(t)</strong>. For s = t²: (t + h)² − t² = 2th + h², dividing by h: 2t + h → 2t.'),
+    ('v(t) = lim (s(t+h) − s(t)) / h', '', 'v(t) = lim (s(t+h) − s(t)) / h'), m1),
+  S('def', 'Определение и касательная', 'Definition and the tangent', ('<strong>f′(x) = lim (f(x + h) − f(x)) / h при h → 0</strong>. Значение f′(a) — наклон касательной к графику в точке a; уравнение касательной: y = f(a) + f′(a)·(x − a). Если предела нет (например, в «изломе» |x| при x = 0), функция в точке не дифференцируема.', '<strong>f′(x) = lim (f(x + h) − f(x)) / h as h → 0</strong>. The value f′(a) is the slope of the tangent to the graph at a; the tangent line is y = f(a) + f′(a)·(x − a). If the limit does not exist (for example at the “corner” of |x| at x = 0) the function is not differentiable there.'),
+    ('y = f(a) + f′(a)(x − a)', '', 'y = f(a) + f′(a)(x − a)'), m2),
+  S('fn', 'Производная как функция', 'The derivative as a function', ('Для каждого x можно найти f′(x), и получается новая функция. Её знак показывает, что делает f: f′ &gt; 0 — возрастает, f′ &lt; 0 — убывает, f′ = 0 — касательная горизонтальна. Производная — это ещё и скорость любого процесса: роста населения, остывания чая, тока в цепи.', 'For each x we can find f′(x) and get a new function. Its sign shows what f does: f′ &gt; 0 — increasing, f′ &lt; 0 — decreasing, f′ = 0 — horizontal tangent. The derivative is also the rate of any process: population growth, tea cooling, current in a circuit.'),
+    ('f′ > 0 ⇒ f возрастает', '', 'f′ > 0 ⇒ f increases'), m3)],
+ [TK(('По определению', 'By definition'), ('Найдите производную f(x) = x² по определению.', 'Find the derivative of f(x) = x² by the definition.'), '(x+h)² − x² = 2xh + h²', '(2xh + h²)/h = 2x + h → 2x.', '2x.'),
+  TK(('Скорость', 'Speed'), ('Путь s(t) = t² м. Найдите скорость при t = 3 с.', 'Distance s(t) = t² m. Find the speed at t = 3 s.'), '', 's′ = 2t = 6 м/с.', '6 м/с.'),
+  TK(('Касательная', 'Tangent'), ('Напишите касательную к y = x² в точке x = 1.', 'Write the tangent to y = x² at x = 1.'), 'f(1) = 1, f′(1) = 2', 'y = 1 + 2(x − 1) = 2x − 1.', 'y = 2x − 1.'),
+  TK(('Знак', 'Sign'), ('Возрастает ли x³ − 3x при x = 2?', 'Is x³ − 3x increasing at x = 2?'), 'f′ = 3x² − 3', 'f′(2) = 9 > 0 — возрастает.', ('Да.', 'Yes.')),
+  TK(('Излом', 'A corner'), ('Есть ли производная у |x| в нуле?', 'Does |x| have a derivative at zero?'), '', 'Слева наклон −1, справа +1: единого предела нет.', ('Нет.', 'No.'))],
+ [Q('Производная — это', 'The derivative is', ('предел отношения приращений', 'the limit of the ratio of increments'), ('сумма значений', 'a sum of values'), ('площадь', 'an area'), ('Определение.', 'The definition.')),
+  Q('Геометрически f′(a) — это', 'Geometrically f′(a) is', ('наклон касательной', 'the slope of the tangent'), ('длина кривой', 'the curve length'), ('площадь под графиком', 'the area under the graph'), ('Касательная в точке a.', 'The tangent at a.')),
+  Q('(x²)′ =', '(x²)′ =', '2x', 'x', 'x²', ('Из определения.', 'From the definition.')),
+  Q('Если f′(a) > 0, то в точке a функция', 'If f′(a) > 0 then at a the function', ('возрастает', 'increases'), ('убывает', 'decreases'), ('равна нулю', 'is zero'), ('Положительный наклон.', 'A positive slope.')),
+  Q('Мгновенная скорость — это производная', 'Instantaneous speed is the derivative of', ('пути по времени', 'distance with respect to time'), ('времени по пути', 'time with respect to distance'), ('скорости', 'speed'), ('v = s′.', 'v = s′.')),
+  Q('Производная |x| в нуле', 'The derivative of |x| at zero', ('не существует', 'does not exist'), ('равна 0', 'equals 0'), ('равна 1', 'equals 1'), ('Излом.', 'A corner.')),
+  Q('Касательная к y = x² при x = 0', 'The tangent to y = x² at x = 0', ('горизонтальна', 'is horizontal'), ('вертикальна', 'is vertical'), ('имеет наклон 1', 'has slope 1'), ('f′(0) = 0.', 'f′(0) = 0.')),
+  Q('Значения средней скорости при h → 0 стремятся к', 'Average speeds as h → 0 tend to', ('мгновенной скорости', 'the instantaneous speed'), ('нулю', 'zero'), ('бесконечности', 'infinity'), ('Это определение.', 'This is the definition.'))],
+ src=[('Wikipedia: Derivative', 'https://en.wikipedia.org/wiki/Derivative'), ('Wikipedia: Tangent', 'https://en.wikipedia.org/wiki/Tangent'), ('OpenStax: Calculus Volume 1', 'https://openstax.org/details/books/calculus-volume-1')])

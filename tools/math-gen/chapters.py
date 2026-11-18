@@ -28,6 +28,9 @@ BLOCKS = [
  dict(id='VII', ru='Тригонометрия, показательная функция, логарифмы', en='Trigonometry, exponential function, logarithms',
       note_ru='Старшая школа: радианы, тригонометрические функции и уравнения, показательный рост и логарифмы. Уровень — основы и углублённо.',
       note_en='Upper secondary: radians, trigonometric functions and equations, exponential growth and logarithms. Level — basics and advanced.'),
+ dict(id='VIII', ru='Начала анализа', en='Introduction to calculus',
+      note_ru='Старшая школа, углублённо: предел, производная и её применение, первообразная и интеграл. Уровень — углублённо.',
+      note_en='Upper secondary, advanced: limits, the derivative and its uses, the antiderivative and the integral. Level — advanced.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -141,4 +144,16 @@ CHAPTERS = [
   'Определение, свойства, десятичный и натуральный логарифмы, шкалы.', 'The definition, properties, decimal and natural logarithms, scales.', 'VII'),
  ('55', '55-exp-log-equations.html', 'Показательные и логарифмические уравнения', 'Exponential and logarithmic equations',
   'Решение уравнений и неравенств, задачи на рост и период полураспада.', 'Solving equations and inequalities, problems of growth and half-life.', 'VII'),
+ ('56', '56-limits.html', 'Пределы и непрерывность', 'Limits and continuity',
+  'Предел последовательности и функции, непрерывность.', 'Limits of sequences and functions, continuity.', 'VIII'),
+ ('57', '57-derivative.html', 'Производная', 'The derivative',
+  'Скорость изменения, касательная, определение производной.', 'Rate of change, the tangent, the definition of the derivative.', 'VIII'),
+ ('58', '58-diff-rules.html', 'Правила дифференцирования', 'Differentiation rules',
+  'Производные степени, суммы, произведения, частного, сложной функции.', 'Derivatives of powers, sums, products, quotients, composite functions.', 'VIII'),
+ ('59', '59-derivative-applications.html', 'Применения производной', 'Applications of the derivative',
+  'Возрастание, экстремумы, наибольшее и наименьшее значения.', 'Increase, extrema, greatest and least values.', 'VIII'),
+ ('60', '60-antiderivative.html', 'Первообразная', 'The antiderivative',
+  'Обратная операция к дифференцированию, неопределённый интеграл.', 'The inverse of differentiation, the indefinite integral.', 'VIII'),
+ ('61', '61-definite-integral.html', 'Определённый интеграл', 'The definite integral',
+  'Площадь под графиком, формула Ньютона — Лейбница.', 'Area under a graph, the Newton–Leibniz formula.', 'VIII'),
 ]
