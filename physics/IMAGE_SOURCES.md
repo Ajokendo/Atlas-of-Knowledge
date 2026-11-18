@@ -114,6 +114,24 @@
 | PH-37-01 | 37 | Горка и энергия (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-37-02 | 37 | Баллистический маятник (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-37-03 | 37 | Эллиптическая орбита (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-38-01 | 38 | Энергия фотона (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-38-02 | 38 | Фотоэффект (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-38-03 | 38 | Фотоны в луче (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-39-01 | 39 | Уровни энергии водорода (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-39-02 | 39 | Размеры атома и ядра (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-39-03 | 39 | Спектры газов (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-40-01 | 40 | Период полураспада (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-40-02 | 40 | Радиоуглеродный возраст (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-40-03 | 40 | Время, расстояние, защита (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-41-01 | 41 | E = mc² (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-41-02 | 41 | Цепная реакция (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-41-03 | 41 | Топливо станции (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-42-01 | 42 | Планеты и закон Кеплера (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-42-02 | 42 | Свет и расстояния (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-42-03 | 42 | Скорость убегания и атмосфера (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-43-01 | 43 | Параллакс (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-43-02 | 43 | Цвет и светимость звезды (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-43-03 | 43 | Телескоп и атмосфера (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -212,6 +230,17 @@
 | 36 | Первый национальный спутник Кыргызстана запущен 1 октября 2026 г. (Falcon 9, Ванденберг, около 5 кг, управление из Бишкека) | Interfax: https://www.interfax.com/newsroom/top-stories/119376/ ; The Times of Central Asia: https://timesca.com/first-kyrgyzstan-satellite-spacex-falcon-9/ | 18.11.2026 |
 | 37 | Сохранение энергии, импульса, момента импульса; баллистический маятник; законы Кеплера | OpenStax University Physics Vol. 1, гл. 8, 9, 11; Wikipedia, Ballistic pendulum: https://en.wikipedia.org/wiki/Ballistic_pendulum ; Kepler's laws: https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion | 18.11.2026 |
 | 33–37 | Условные значения моделей (не факты): коэффициенты трения, CdA, массы и скорости в задачах, момент инерции фигуриста, скорость спутника в загадке главы 36 (≈ 7,5 км/с; высота орбиты кыргызского спутника в источниках не указана) | Авторские допущения | 18.11.2026 |
+| 38 | Фотон, E = hf, hc ≈ 1240 эВ·нм, фотоэффект и уравнение Эйнштейна; Нобелевская премия 1921 г.; работы выхода (округлены) | OpenStax University Physics Vol. 3, § 6.2: https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect ; NobelPrize.org: https://www.nobelprize.org/prizes/physics/1921/summary/ | 18.11.2026 |
+| 38 | Планируется крупная солнечная электростанция в Иссык-Кульской области | 24.kg: https://24.kg/english/352462_Russia_to_consider_building_small_modular_reactors_in_Kyrgyzstan__Putin | 18.11.2026 |
+| 39 | Модель Бора, E_n = −13,6/n² эВ, r_n = 0,0529·n² нм; опыт Резерфорда; линии H, He, Na | OpenStax University Physics Vol. 3, § 7.3: https://openstax.org/books/university-physics-volume-3/pages/7-3-the-bohr-model-of-the-hydrogen-atom ; NIST ASD: https://physics.nist.gov/PhysRefData/ASD/lines_form.html | 18.11.2026 |
+| 40 | Периоды полураспада I-131 8,02 сут, Cs-137 30,1 года, C-14 5730 лет, U-238 4,468 млрд лет; естественный фон ≈ 2,4 мЗв/год | OpenStax University Physics Vol. 3, § 10.3; Wikipedia, Background radiation: https://en.wikipedia.org/wiki/Background_radiation | 18.11.2026 |
+| 40 | Майлуу-Суу: добыча и переработка урана 1946–1968, 23 хвостохранилища и 13 отвалов | Pure Earth: https://www.pureearth.org/project/mailuu-suu-legacy-uranium-dumps-2/ ; BGR: https://www.bgr.bund.de/EN/Themen/Wasser/Projekte/abgeschlossen/TZ/Kirgisistan/kirgisistan_fb_en.html?nn=1542366 ; The Times of Central Asia, 18.09.2026: https://timesca.com/?p=56376 | 18.11.2026 |
+| 41 | Деление U-235 ≈ 200 МэВ; 1 а.е.м. = 931,5 МэВ; уголь ≈ 29 МДж/кг | OpenStax University Physics Vol. 3, § 10.4: https://openstax.org/books/university-physics-volume-3/pages/10-4-nuclear-fission ; Wikipedia, Nuclear fission: https://en.wikipedia.org/wiki/Nuclear_fission | 18.11.2026 |
+| 41 | Малая АЭС в Кыргызстане: РИТМ-200Н (55 МВт эл. / 190 МВт тепл. на модуль), обсуждаемая мощность ≈ 330 МВт, решение не принято, возможен референдум | World Nuclear News: https://world-nuclear-news.org/articles/kyrgyzstan-considering-possible-russian-smr-plant ; ABC.az 20.06.2026: https://erp.alba.az/en/news/206336/kyrgyzstan-eyes-construction-of-a-330-mw-small-nuclear-power-plant-to-offset-energy-deficit ; Akchabar 20.06.2026 и 04.04.2026 | 18.11.2026 |
+| 42 | Большие полуоси, массы и радиусы планет; 1 а.е. = 149,6 млн км; третий закон Кеплера | NASA Planetary Fact Sheets: https://nssdc.gsfc.nasa.gov/planetary/factsheet/ ; Wikipedia, Astronomical unit: https://en.wikipedia.org/wiki/Astronomical_unit | 18.11.2026 |
+| 43 | Параллакс, закон Вина (b = 2,898·10⁶ нм·К), светимость, дифракционный предел, сиинг; Проксима Центавра ≈ 0,77″ | Wikipedia: https://en.wikipedia.org/wiki/Stellar_parallax ; https://en.wikipedia.org/wiki/Wien%27s_displacement_law ; https://en.wikipedia.org/wiki/Astronomical_seeing ; OpenStax Astronomy 2e § 17.2 | 18.11.2026 |
+| 43 | Тянь-Шаньская астрономическая обсерватория: близ Алматы, ≈ 2700–2800 м, основана 1957, два телескопа по 1 м | Wikipedia: https://en.wikipedia.org/wiki/Tien_Shan_Astronomical_Observatory ; Tengrinews 2014: https://en.tengrinews.kz/science/Kazakhstan-steps-up-space-research-254980 | 18.11.2026 |
+| 38–43 | Условные значения моделей (не факты): работы выхода, мощности и энергии в задачах, мощность источника 100 мкЗв/ч и слой половинного ослабления свинца 0,65 см, значения сиинга, правило удержания атмосферы (6 скоростей молекул), параметры звёзд в моделях | Авторские допущения | 18.11.2026 |
 | 21–24 | Условные значения моделей (не факты): расстояния до магнита, проницаемость сердечника 500, сопротивление цепи 0,5 Ом, напор 130 м в задаче, сопротивление линии, параметры ползунков | — | 18.11.2026 |
 | 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
