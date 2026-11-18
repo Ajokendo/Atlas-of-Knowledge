@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+from gen2 import *
+
+m1 = M(('Ожидание выигрыша в лотерее', 'The expected prize in a raffle'),
+ [('r', 'p', 'Шанс выигрыша, %', 'Chance of winning, %', 1, 50, 1, 10), ('r', 'W', 'Приз, сом', 'Prize, som', 100, 1000, 50, 500), ('r', 'T', 'Билет, сом', 'Ticket, som', 10, 100, 5, 40)],
+ [('Среднее значение приза E = p·W', 'Mean prize E = p·W'), ('Средний итог игрока', 'The player’s average result'), ('Оценка', 'Verdict')],
+ 'Математическое ожидание — среднее значение случайной величины при многих повторах: E = Σ x·p. Лотерея «выгодна» игроку, только если E больше цены билета. Числа условные.', 'The expectation is the average value of a random variable over many repeats: E = Σ x·p. A raffle is “fair” to the player only if E is not less than the ticket price. The numbers are illustrative.', ('Ожидаемый приз и цена билета', 'Expected prize and ticket price'),
+ r'''const E=v.p/100*v.W,net=E-v.T,mx=Math.max(E,v.T,1)*1.2;let g=L(60,200,560,200,COL.ink,2)+R(150,200-150*E/mx,100,150*E/mx,COL.c,COL.ink,1.5,3)+R(360,200-150*v.T/mx,100,150*v.T/mx,COL.a,COL.ink,1.5,3)+TX(200,192-150*E/mx,fnum(E,1),COL.ink,15,"middle",700)+TX(410,192-150*v.T/mx,String(v.T),COL.ink,15,"middle",700)+TX(200,222,U("в среднем приз","average prize"),COL.ink,13,"middle")+TX(410,222,U("цена билета","ticket price"),COL.ink,13,"middle");
+ return {svg:g,st:[fnum(E,1)+" сом",(net>=0?"+":"")+fnum(net,1)+" сом",net>=0?U("не в убыток","not at a loss"):U("в среднем убыточно","loses on average")],fb:U("В единичной игре можно выиграть, но на длинной серии средний итог стремится к E − T.","A single game may be won, but over a long series the average result tends to E − T.")}''', '0 0 600 235')
+
+m2 = M(('Биномиальное распределение', 'The binomial distribution'),
+ [('r', 'n', 'Число испытаний n', 'Number of trials n', 1, 20, 1, 10), ('r', 'p', 'Вероятность успеха p', 'Success probability p', 0.1, 0.9, 0.1, 0.5), ('r', 'k', 'Число успехов k', 'Number of successes k', 0, 20, 1, 5)],
+ [('P(X = k)', 'P(X = k)'), ('Среднее np', 'Mean np'), ('Стандартное отклонение √(npq)', 'Standard deviation √(npq)')],
+ 'Число успехов в n независимых испытаниях: P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ. Среднее np, разброс √(np(1 − p)).', 'The number of successes in n independent trials: P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ. The mean is np, the spread √(np(1 − p)).', ('Распределение числа успехов', 'The distribution of the number of successes'),
+ r'''const n=v.n,pr=k=>nCr(n,k)*Math.pow(v.p,k)*Math.pow(1-v.p,n-k);let mx=0;for(let k=0;k<=n;k++)mx=Math.max(mx,pr(k));const w=Math.min(24,500/(n+1)),kk=Math.min(v.k,n);let g=L(40,200,580,200,COL.ink,2);for(let k=0;k<=n;k++){const h=165*pr(k)/mx,x=300+(k-n/2)*w*1.15-w/2;g+=R(x,200-h,w*0.9,h,k===kk?COL.b:COL.a,COL.ink,1,2);if(n<=12)g+=TX(x+w*0.45,216,String(k),COL.ink,11)}
+ return {svg:g,st:[fnum(pr(kk),4),fnum(n*v.p,2),fnum(Math.sqrt(n*v.p*(1-v.p)),3)],fb:U("Столбцы группируются около np; чем больше n, тем колокол точнее.","The bars cluster around np; the larger n, the more bell-shaped.")}''', '0 0 600 230')
+
+m3 = M(('Нормальное распределение', 'The normal distribution'),
+ [('r', 'mu', 'Среднее μ', 'Mean μ', 140, 180, 1, 160), ('r', 'sg', 'Разброс σ', 'Spread σ', 3, 12, 1, 6), ('s', 'm', 'Границы', 'Bounds', ['μ ± σ', 'μ ± 2σ', 'μ ± 3σ'], ['μ ± σ', 'μ ± 2σ', 'μ ± 3σ'], 0)],
+ [('Доля внутри границ', 'Share within bounds'), ('Границы, см', 'Bounds, cm'), ('Доля снаружи', 'Share outside')],
+ 'Рост, ошибки измерений, многие природные величины распределены «колоколом». Правило 68–95–99,7: в пределах 1, 2 и 3 σ от среднего лежат около 68 %, 95 % и 99,7 % значений. Параметры условные.', 'Height, measurement errors and many natural quantities are bell-shaped. The 68–95–99.7 rule: within 1, 2 and 3 σ of the mean lie about 68 %, 95 % and 99.7 % of values. The parameters are illustrative.', ('Колоколообразная кривая', 'The bell curve'),
+ r'''const f=x=>Math.exp(-Math.pow(x-v.mu,2)/(2*v.sg*v.sg))/(v.sg*Math.sqrt(2*Math.PI)),G=Gr({x0:120,x1:200,y0:0,y1:0.14,L:60,T:10,W:500,H:210});const m=v.m+1,lo=v.mu-m*v.sg,hi=v.mu+m*v.sg;const pts=[[G.X(Math.max(120,lo)),G.Y(0)]];for(let x=Math.max(120,lo);x<=Math.min(200,hi);x+=0.5)pts.push([G.X(x),G.Y(f(x))]);pts.push([G.X(Math.min(200,hi)),G.Y(0)]);
+ let g=G.grid(10,0.04)+poly(pts,COL.b+"66","none",0)+G.fn(f,COL.a,3.5,120,200);const sh=[0.6827,0.9545,0.9973][v.m];
+ return {svg:g,st:[fnum(sh*100,1)+"%",fnum(lo,0)+" … "+fnum(hi,0),fnum((1-sh)*100,1)+"%"],fb:U("Значения дальше 3σ от среднего встречаются очень редко — меньше 0,3 %.","Values beyond 3σ from the mean are very rare — under 0.3 %.")}''', '0 0 600 250')
+
+chapter('73', '73-random-variables.html', 'X', ('Случайные величины и распределения', 'Random variables and distributions'),
+ ('Ожидание, дисперсия, биномиальное и нормальное распределения.', 'Expectation, variance, the binomial and normal distributions.'),
+ ('Билет на школьную лотерею стоит 40 сомов. Шанс выиграть приз в 500 сомов — 10 %. Стоит ли покупать билеты, если хочется «в среднем не потерять»?', 'A school-raffle ticket costs 40 som. The chance of winning a 500 som prize is 10 %. Is it worth buying tickets if you want “not to lose on average”?'),
+ ('Разгадка: в среднем +10 сомов за билет', 'The answer: on average +10 som per ticket'),
+ ('Среднее значение приза — математическое ожидание E = 0,1 · 500 + 0,9 · 0 = 50 сомов. Билет стоит 40, так что средний результат игрока +10 сомов — это выгодно игроку; а вот организатору лотереи — нет. Если бы шанс был 5 %, E = 25 < 40 — в среднем минус 15 сомов. Ожидание показывает «справедливую цену» игры. (Числа придуманы для задачи.)', 'The average prize is the expectation E = 0.1 · 500 + 0.9 · 0 = 50 som. The ticket costs 40, so the player’s average result is +10 som — good for the player, not for the organiser. With a 5 % chance, E = 25 < 40 — on average a loss of 15 som. The expectation shows the “fair price” of a game. (The numbers are invented for the exercise.)'),
+ [S('ev', 'Случайная величина и ожидание', 'A random variable and expectation', ('<strong>Случайная величина</strong> X — число, зависящее от исхода случайного опыта (очки на кубике, выигрыш). Распределение — таблица значений и вероятностей. <strong>Математическое ожидание E(X) = Σ xᵢ·pᵢ</strong>. Для кубика E = 3,5. Дисперсия D = E[(X − E)²], стандартное отклонение σ = √D.', 'A <strong>random variable</strong> X is a number depending on the outcome of a random experiment (dice points, a prize). The distribution is a table of values and probabilities. <strong>The expectation E(X) = Σ xᵢ·pᵢ</strong>. For a die E = 3.5. The variance D = E[(X − E)²], the standard deviation σ = √D.'),
+    ('E(X) = Σ xᵢ·pᵢ', '', 'E(X) = Σ xᵢ·pᵢ'), m1),
+  S('bin', 'Биномиальное распределение', 'The binomial distribution', ('Число успехов в n независимых испытаниях с вероятностью p: <strong>P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ</strong>. E = np, D = np(1 − p). Пример: 10 бросков монеты, P(ровно 5 орлов) = 252/1024 ≈ 0,246.', 'The number of successes in n independent trials with probability p: <strong>P(X = k) = C(n, k)·pᵏ·(1 − p)ⁿ⁻ᵏ</strong>. E = np, D = np(1 − p). Example: 10 coin tosses, P(exactly 5 heads) = 252/1024 ≈ 0.246.'),
+    ('P(X=k) = C(n,k)pᵏ(1−p)ⁿ⁻ᵏ', '', 'P(X=k) = C(n,k)pᵏ(1−p)ⁿ⁻ᵏ'), m2),
+  S('norm', 'Нормальное распределение', 'The normal distribution', ('Непрерывная величина (рост, масса, ошибка измерения) часто имеет колоколообразное распределение с параметрами μ и σ. Правило <strong>68–95–99,7</strong> даёт доли в пределах 1, 2, 3σ. Биномиальное распределение при большом n приближается к нормальному.', 'A continuous quantity (height, mass, a measurement error) often has a bell-shaped distribution with parameters μ and σ. The <strong>68–95–99.7</strong> rule gives the shares within 1, 2, 3σ. The binomial distribution at large n approaches the normal one.'),
+    ('68 % · 95 % · 99,7 %', '', '68 % · 95 % · 99.7 %'), m3)],
+ [TK(('Кубик', 'A die'), ('Найдите E для кубика.', 'Find E for a die.'), '', '(1+2+…+6)/6 = 3,5.', '3.5.'),
+  TK(('Лотерея', 'Raffle'), ('Шанс приза 200 сомов — 5 %. Ожидаемый выигрыш?', 'A 5 % chance of a 200 som prize. The expected win?'), '', '0,05 · 200 = 10 сомов.', '10 сом.'),
+  TK(('Биномиальное', 'Binomial'), ('P(ровно 2 орла в 3 бросках)?', 'P(exactly 2 heads in 3 tosses)?'), '', 'C(3,2)·(1/2)³ = 3/8.', '3/8.'),
+  TK(('Среднее', 'Mean'), ('np для n = 100, p = 0,2.', 'np for n = 100, p = 0.2.'), '', '20.', '20.'),
+  TK(('Колокол', 'The bell'), ('μ = 160, σ = 6. Между какими значениями лежит ≈ 95 %?', 'μ = 160, σ = 6. Between which values lie ≈ 95 %?'), '', '160 ± 12: от 148 до 172.', '148 … 172.')],
+ [Q('E(X) = ', 'E(X) = ', 'Σ xᵢ·pᵢ', 'Σ pᵢ', 'Σ xᵢ', ('Взвешенное среднее.', 'A weighted mean.')),
+  Q('E для кубика', 'E for a die', '3,5', '3', '4', ('21/6.', '21/6.')),
+  Q('Биномиальное: среднее', 'Binomial: the mean', 'np', 'n/p', 'n+p', ('Формула.', 'Formula.')),
+  Q('Правило 68–95–99,7 для', 'The 68–95–99.7 rule is for the', ('нормального распределения', 'normal distribution'), ('любого', 'any distribution'), ('кубика', 'a die'), ('Для колокола.', 'For the bell.')),
+  Q('В пределах ±2σ лежит около', 'Within ±2σ lie about', '95 %', '68 %', '50 %', ('Правило.', 'The rule.')),
+  Q('Лотерея выгодна игроку, если E', 'A raffle is good for the player if E is', ('больше цены билета', 'larger than the ticket price'), ('меньше цены', 'smaller than the price'), ('равна нулю', 'zero'), ('Средний итог положителен.', 'The average result is positive.')),
+  Q('Разброс характеризует', 'The spread is described by', ('стандартное отклонение', 'the standard deviation'), ('медиана', 'the median'), ('мода', 'the mode'), ('σ.', 'σ.')),
+  Q('P(1 орёл в 2 бросках) =', 'P(1 head in 2 tosses) =', '1/2', '1/4', '3/4', ('2/4.', '2/4.'))],
+ src=[('Wikipedia: Expected value', 'https://en.wikipedia.org/wiki/Expected_value'), ('Wikipedia: Binomial distribution', 'https://en.wikipedia.org/wiki/Binomial_distribution'), ('Wikipedia: 68–95–99.7 rule', 'https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule'), ('OpenStax: Introductory Statistics 2e', 'https://openstax.org/details/books/introductory-statistics-2e')],
+ note=('Лотерея и размеры в моделях придуманы; ожидание — учебный пример, не призыв играть.', 'The raffle and the sizes in the models are invented; expectation is a teaching example, not a call to gamble.'))

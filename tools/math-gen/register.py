@@ -26,8 +26,8 @@ for b in BLOCKS:
         body += '<a class="ch" href="chapters/%s"><span class="num">%s</span><h3>%s</h3><p>%s</p><span class="st">%s</span></a>\n' % (
             slug, bi('ГЛАВА ' + n, 'CHAPTER ' + n), bi(ru, en), bi(dr, de), bi('ОТКРЫТЬ ГЛАВУ ↗', 'OPEN CHAPTER ↗'))
     body += '</div>\n</section>\n'
-body += '<section class="note">%s</section>\n' % ('<p>%s</p>' % bi('Следующие блоки (дроби и проценты, уравнения, геометрия, алгебра, начала анализа, вероятность) — по плану в <a style="color:inherit" href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/math/ROADMAP.md" target="_blank" rel="noopener">ROADMAP.md</a>.',
-       'The next blocks (fractions and percentages, equations, geometry, algebra, calculus, probability) follow the plan in <a style="color:inherit" href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/math/ROADMAP.md" target="_blank" rel="noopener">ROADMAP.md</a>.'))
+body += '<section class="note">%s</section>\n' % ('<p>%s</p>' % bi('План математики выполнен: 10 блоков, 74 главы. Содержание составлено по общепринятой школьной программе; предметный стандарт 12-летней школы Кыргызстана найти не удалось, поэтому перед использованием план нужно сверить с учителями — см. <a style="color:inherit" href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/math/ROADMAP.md" target="_blank" rel="noopener">ROADMAP.md</a>. Сюжеты, цены и числа в задачах придуманы для атласа.',
+       'The mathematics plan is complete: 10 blocks, 74 chapters. The content follows the commonly accepted school syllabus; the subject standard of the 12-year school of Kyrgyzstan could not be found, so the plan should be checked with teachers before use — see <a style="color:inherit" href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/math/ROADMAP.md" target="_blank" rel="noopener">ROADMAP.md</a>. Stories, prices and numbers in the exercises are invented for the atlas.'))
 body += '</main>\n'
 tail = ph[ph.index('<footer>'):]
 tail = re.sub(r'<span><span data-l="ru">АТЛАС ФИЗИКИ · БЛОК I</span><span data-l="en">ATLAS OF PHYSICS · BLOCK I</span></span>', '<span>%s</span>' % bi('АТЛАС МАТЕМАТИКИ', 'ATLAS OF MATHEMATICS'), tail)
@@ -38,12 +38,12 @@ wr('math/index.html', head + body + tail)
 # ---------- index.html (портал) ----------
 p = rd('index.html')
 card = ('<a class="subject" href="./math/index.html" style="--accent:#6b5ba8"><span class="num">SUBJECT 05 · MATHEMATICS</span><h2 data-i18n="math">Атлас математики</h2>'
-        '<p data-i18n="mathDesc">Числа, фигуры, уравнения и функции — с загадками, моделями и задачами на примерах из жизни Кыргызстана.</p><span class="open" data-i18n="open">ОТКРЫТЬ АТЛАС ↗</span></a>\n')
+        '<p data-i18n="mathDesc">От чисел и счёта до начал анализа, стереометрии и вероятности: 74 главы с загадками, моделями и задачами на примерах из жизни Кыргызстана.</p><span class="open" data-i18n="open">ОТКРЫТЬ АТЛАС ↗</span></a>\n')
 if 'SUBJECT 05 · MATHEMATICS' not in p:
     p = p.replace('</section>\n<section class="coming">', card + '</section>\n<section class="coming">', 1)
     assert 'SUBJECT 05' in p
-    p = p.replace('geography:"Атлас географии",', 'geography:"Атлас географии",math:"Атлас математики",mathDesc:"Числа, фигуры, уравнения и функции — с загадками, моделями и задачами на примерах из жизни Кыргызстана.",', 1)
-    p = p.replace('geography:"Atlas of Geography",', 'geography:"Atlas of Geography",math:"Atlas of Mathematics",mathDesc:"Numbers, shapes, equations and functions — with puzzles, models and problems from everyday life in Kyrgyzstan.",', 1)
+    p = p.replace('geography:"Атлас географии",', 'geography:"Атлас географии",math:"Атлас математики",mathDesc:"От чисел и счёта до начал анализа, стереометрии и вероятности: 74 главы с загадками, моделями и задачами на примерах из жизни Кыргызстана.",', 1)
+    p = p.replace('geography:"Atlas of Geography",', 'geography:"Atlas of Geography",math:"Atlas of Mathematics",mathDesc:"From numbers and counting to calculus, solid geometry and probability: 74 chapters with puzzles, models and problems from everyday life in Kyrgyzstan.",', 1)
     assert p.count('mathDesc') == 3, p.count('mathDesc')
 p = p.replace('Математика · Астрономия · География и другие дисциплины', 'Астрономия · История и другие дисциплины').replace('Mathematics · Astronomy · Geography and more', 'Astronomy · History and more')
 p = p.replace('Математика · Астрономия · История и другие дисциплины', 'Астрономия · История и другие дисциплины')

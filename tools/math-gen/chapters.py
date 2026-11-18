@@ -34,6 +34,9 @@ BLOCKS = [
  dict(id='IX', ru='Стереометрия и векторы', en='Solid geometry and vectors',
       note_ru='Геометрия в пространстве: прямые и плоскости, многогранники, тела вращения, площади и объёмы, векторы на плоскости и в пространстве. Уровень — углублённо.',
       note_en='Geometry in space: lines and planes, polyhedra, solids of revolution, areas and volumes, vectors in the plane and in space. Level — advanced.'),
+ dict(id='X', ru='Комбинаторика, вероятность, статистика', en='Combinatorics, probability, statistics',
+      note_ru='Как считать варианты, оценивать шансы и читать данные: правила суммы и произведения, перестановки и сочетания, вероятность, случайные величины, среднее, медиана, разброс. Уровень — основы и углублённо.',
+      note_en='How to count options, estimate chances and read data: the sum and product rules, permutations and combinations, probability, random variables, mean, median, spread. Level — basics and advanced.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -173,4 +176,16 @@ CHAPTERS = [
   'Сложение, умножение на число, координаты, скалярное произведение.', 'Addition, scalar multiplication, coordinates, the dot product.', 'IX'),
  ('68', '68-vectors-space.html', 'Векторы и координаты в пространстве', 'Vectors and coordinates in space',
   'Координаты в пространстве, длина, угол, расстояния.', 'Coordinates in space, length, angle, distances.', 'IX'),
+ ('69', '69-counting-rules.html', 'Правила суммы и произведения', 'The sum and product rules',
+  'Дерево вариантов, перебор, принцип умножения.', 'The tree of options, enumeration, the multiplication principle.', 'X'),
+ ('70', '70-combinatorics.html', 'Перестановки, размещения, сочетания', 'Permutations, arrangements, combinations',
+  'Факториал, число способов выбрать и расставить.', 'Factorial, the number of ways to choose and arrange.', 'X'),
+ ('71', '71-probability.html', 'Вероятность события', 'Probability of an event',
+  'Классическая вероятность, противоположные и несовместные события.', 'Classical probability, complementary and mutually exclusive events.', 'X'),
+ ('72', '72-independent-events.html', 'Независимые события и условная вероятность', 'Independent events and conditional probability',
+  'Умножение вероятностей, формула Байеса на примере.', 'Multiplying probabilities, Bayes’ formula by example.', 'X'),
+ ('73', '73-random-variables.html', 'Случайные величины и распределения', 'Random variables and distributions',
+  'Ожидание, биномиальное и нормальное распределения.', 'Expectation, binomial and normal distributions.', 'X'),
+ ('74', '74-statistics.html', 'Статистика: среднее, медиана, разброс', 'Statistics: mean, median, spread',
+  'Выборка, диаграммы, стандартное отклонение, как читать данные.', 'Samples, charts, standard deviation, how to read data.', 'X'),
 ]
