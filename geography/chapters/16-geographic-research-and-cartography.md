@@ -157,6 +157,10 @@ Accuracy should not be confused with resolution. A highly detailed map may still
 
 ## 16.5. Выборка и дизайн наблюдений / Sampling and Study Design
 
+![Четыре схемы выборки: случайная, систематическая, расслоённая, кластерная. / Four sampling designs: random, systematic, stratified, cluster.](../assets/diagrams/16-M-sampling-designs-bilingual.svg)
+
+*Четыре схемы выборки: случайная, систематическая, расслоённая, кластерная. Схема. / Four sampling designs: random, systematic, stratified, cluster. A schematic.*
+
 ![Типы выборочного обследования / Sampling designs](../assets/diagrams/16-C-sampling-designs-bilingual.svg)
 
 *Схемы условные; выбор дизайна зависит от генеральной совокупности, вопроса исследования и требуемой точности. / Illustrative designs; selection depends on the population, research question and required precision.*

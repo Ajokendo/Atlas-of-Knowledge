@@ -71,6 +71,10 @@ After studying this chapter, readers will be able to explain the extent and func
 *07-D. Двуязычная адаптация по схеме «Shelford's Law of Tolerance» авторов Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos и Călin Baciu. Источник: Wikimedia Commons; CC BY 4.0. Перерисовано и переведено; форма кривой и границы условны. / Bilingual adaptation of “Shelford's Law of Tolerance” by Adriana Olenici, Francisco Jiménez-Gómez, María Borrego-Ramos and Călin Baciu. Source: Wikimedia Commons; CC BY 4.0. Redrawn and translated; curve shape and boundaries are illustrative.*
 
 ## 7.4. Трофическая структура и поток энергии / Trophic Structure and Energy Flow
+
+![Цепь питания: трава — копытные — снежный барс. / Food chain: grass — ungulates — snow leopard.](../assets/diagrams/07-M-food-chain-kyrgyzstan-bilingual.svg)
+
+*Цепь питания: трава — копытные — снежный барс. Схема. / Food chain: grass — ungulates — snow leopard. A schematic.*
 ![Луговая пищевая сеть со стрелками от ресурса к потребителю и условная пирамида энергии. / Grassland food web with arrows from resource to consumer and an illustrative energy pyramid.](../assets/diagrams/07-B-food-web-energy-pyramid-bilingual.svg)
 
 *07-B. Авторская двуязычная схема. Значения 12 000, 1 200 и 90 кДж взяты из условного примера в этой главе; они не являются универсальными коэффициентами передачи энергии. / Original bilingual diagram. The 12,000, 1,200 and 90 kJ values come from this chapter's worked example; they are not universal energy-transfer ratios.*
@@ -216,6 +220,10 @@ After studying this chapter, readers will be able to explain the extent and func
 **Рисунок 7.6 / Figure 7.6 — Панорама основных биомов планеты / Panorama of Earth's major biomes.**  
 
 ## 7.9. Пресноводные и морские биомы / Freshwater and Marine Biomes
+
+![Разрез озера: прибрежная, открытая вода, глубинная зона. / Cross-section of a lake: littoral, open water, profundal.](../assets/diagrams/07-M-lake-zones-bilingual.svg)
+
+*Разрез озера: прибрежная, открытая вода, глубинная зона. Схема. / Cross-section of a lake: littoral, open water, profundal. A schematic.*
 
 Водные биомы классифицируют по солёности, глубине, движению воды, освещённости, температуре, содержанию кислорода и доступности питательных веществ.
 

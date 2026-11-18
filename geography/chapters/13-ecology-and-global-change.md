@@ -303,6 +303,10 @@ Assessing circularity requires consideration of the product's full life cycle: r
 
 ## 13.10. Экологические риски и уязвимость территорий / Environmental Risks and Territorial Vulnerability
 
+![Риск = опасность × уязвимость × экспозиция. / Risk = hazard × vulnerability × exposure.](../assets/diagrams/03-M-risk-formula-bilingual.svg)
+
+*Риск = опасность × уязвимость × экспозиция. Схема. / Risk = hazard × vulnerability × exposure. A schematic.*
+
 ![Риск бедствий: опасность, экспозиция, уязвимость и потенциал / Disaster risk: hazard, exposure, vulnerability and capacity](../assets/diagrams/13-C-environmental-risk-model-bilingual.svg)
 
 *Четыре взаимосвязанных компонента риска бедствий; схема не задаёт линейной последовательности или универсальной формулы. / Four interacting components of disaster risk; the diagram is neither a linear sequence nor a universal formula.*
@@ -458,6 +462,10 @@ The estimated reduction is 400 − 280 = **120 tonnes of CO₂-equivalent**, or 
 This is a simplified estimate of the direct effect of reduced electricity use. A reliable report must use an appropriate emission factor and consistent accounting boundaries, account for weather and changes in building area or use, and consider possible shifts in emissions elsewhere in the life cycle. If the electricity-generation mix changes, the emission factor may also change.
 
 ## 13.13. Экологическая оценка и мониторинг / Environmental Assessment and Monitoring
+
+![Цикл мониторинга: от вопроса до проверки результата. / Monitoring cycle: from question to checking results.](../assets/diagrams/13-M-monitoring-cycle-bilingual.svg)
+
+*Цикл мониторинга: от вопроса до проверки результата. Схема. / Monitoring cycle: from question to checking results. A schematic.*
 
 ![ОВОС, СЭО и экологический мониторинг / EIA, SEA and environmental monitoring](../assets/diagrams/13-D-eia-sea-monitoring-bilingual.svg)
 

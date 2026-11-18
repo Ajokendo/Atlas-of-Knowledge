@@ -497,6 +497,10 @@
 
 ### 2.14.1. Планетарные границы / Planetary Boundaries
 
+![Девять процессов, образующих «безопасное пространство» для человечества. / The nine processes that make up humanity's "safe operating space".](../assets/diagrams/02-M-planetary-boundaries-bilingual.svg)
+
+*Девять процессов, образующих «безопасное пространство» для человечества. Схема. / The nine processes that make up humanity's "safe operating space". A schematic.*
+
 Планетарные границы — научная концепция, описывающая критически важные процессы системы Земли и пределы безопасного воздействия на них.
 
 К рассматриваемым процессам относятся:

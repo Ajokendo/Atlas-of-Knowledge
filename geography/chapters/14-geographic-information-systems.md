@@ -144,6 +144,10 @@ Limitations include:
 
 ## 14.4. Координаты и системы координат / Coordinates and Coordinate Reference Systems
 
+![Широта и долгота на примере Бишкека. / Latitude and longitude, with Bishkek as an example.](../assets/diagrams/14-M-latitude-longitude-bilingual.svg)
+
+*Широта и долгота на примере Бишкека. Схема. / Latitude and longitude, with Bishkek as an example. A schematic.*
+
 ![Система координат: модель Земли, географические координаты и проекция; отдельная вертикальная система высот / Coordinate reference system: Earth model, geographic coordinates and projection; separate vertical height reference](../assets/diagrams/14-B-coordinate-reference-system-bilingual.svg)
 
 *Оригинальная двуязычная схема; геоид и эллипсоид не тождественны, а вертикальная система отсчёта выбирается отдельно. / Original bilingual diagram; the geoid and ellipsoid are not identical, and a vertical reference is selected separately.*
@@ -402,6 +406,10 @@ Before processing, check the units of horizontal coordinates and elevation. If h
 
 ## 14.11. Топология и качество пространственных данных / Topology and Spatial Data Quality
 
+![Типичные топологические ошибки: разрыв, наложение, висячая линия. / Common topology errors: gap, overlap, dangle.](../assets/diagrams/14-M-topology-errors-bilingual.svg)
+
+*Типичные топологические ошибки: разрыв, наложение, висячая линия. Схема. / Common topology errors: gap, overlap, dangle. A schematic.*
+
 ![Типичные топологические ошибки / Common topology errors](../assets/diagrams/14-H-topology-errors-bilingual.svg)
 
 *Проверочные правила зависят от модели данных: не каждый зазор или висячий узел является ошибкой в каждом наборе. / Validation rules depend on the data model: not every gap or dangling node is an error in every dataset.*
@@ -484,6 +492,10 @@ WMS and WFS remain widely used and should be recognised and documented. For new 
 A file format or standard interface alone does not guarantee quality or interoperability. Data exchange should include checks of character encoding, CRS, geometry types, identifier systems, attribute constraints, the implemented standard version and the licence.
 
 ## 14.13. Картографическая визуализация и дизайн / Cartographic Visualisation and Design
+
+![Обязательные элементы карты: название, стрелка севера, масштаб, легенда. / Essential map elements: title, north arrow, scale, legend.](../assets/diagrams/14-M-map-anatomy-bilingual.svg)
+
+*Обязательные элементы карты: название, стрелка севера, масштаб, легенда. Схема. / Essential map elements: title, north arrow, scale, legend. A schematic.*
 
 ![Последовательная, расходящаяся и качественная цветовые шкалы и подходящие типы данных / Sequential, diverging and qualitative colour schemes and their suitable data types](../assets/diagrams/14-D-map-colour-schemes-bilingual.svg)
 

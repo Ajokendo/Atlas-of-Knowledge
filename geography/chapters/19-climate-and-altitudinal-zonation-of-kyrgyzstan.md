@@ -123,6 +123,10 @@ Slope aspect also matters. In the Northern Hemisphere, south-facing slopes usual
 
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
 
+![Как горный хребет распределяет осадки между склонами. / How a mountain ridge divides precipitation between its slopes.](../assets/diagrams/19-M-orographic-effect-bilingual.svg)
+
+*Как горный хребет распределяет осадки между склонами. Схема. / How a mountain ridge divides precipitation between its slopes. A schematic.*
+
 ![Влажные наветренные склоны и сухие внутренние котловины. / Wet windward slopes and dry inner basins.](../assets/diagrams/19-B-precipitation-orographic-bilingual.svg)
 
 *19-B. Осадки по рельефу: качественно. / Precipitation and relief: qualitative.*

@@ -112,6 +112,10 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 
 ## 20.3. Ледники Кыргызстана / Glaciers of Kyrgyzstan
 
+![Ледник: область питания, линия равновесия, область таяния, морена. / Glacier: accumulation zone, equilibrium line, ablation zone, moraine.](../assets/diagrams/20-M-glacier-zones-bilingual.svg)
+
+*Ледник: область питания, линия равновесия, область таяния, морена. Схема. / Glacier: accumulation zone, equilibrium line, ablation zone, moraine. A schematic.*
+
 
 ![Строение горного ледника / Anatomy of a mountain glacier](../assets/20-I-glacier-anatomy.svg)
 
@@ -374,6 +378,10 @@ The Sary-Jaz is one of the largest rivers in the eastern part of the country. It
 The Chatkal forms in the Western Tien Shan and is connected downstream with the Syr Darya basin. Rivers in south-western Kyrgyzstan, including tributaries of the Kara Darya, are important for irrigation, water supply and hydropower. Their regimes reflect a combination of snowmelt, glacier melt, rainfall and groundwater.
 
 ## 20.5. Питание рек и сезонный режим стока / River Regimes and Sources of Flow
+
+![Годовой ход стока рек разного питания (схема). / Annual flow of rivers with different sources (schematic).](../assets/diagrams/20-M-river-regimes-bilingual.svg)
+
+*Годовой ход стока рек разного питания (схема). Схема. / Annual flow of rivers with different sources (schematic). A schematic.*
 
 ![Вклад снегового, ледникового и дождевого питания по месяцам. / Contribution of snowmelt, glacier melt and rain by month.](../assets/diagrams/20-G-hydrograph-schematic-bilingual.svg)
 

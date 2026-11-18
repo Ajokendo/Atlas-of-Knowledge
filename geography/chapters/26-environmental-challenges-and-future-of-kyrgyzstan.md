@@ -81,6 +81,10 @@ In 2025, the Kyrgyz Republic submitted its third Nationally Determined Contribut
 NDC 3.0 treats adaptation as a strategic priority and identifies water resources, energy, agriculture, forests and biodiversity, disaster-risk reduction, cities and health as key areas. It provides for water-saving technologies, climate-resilient agriculture, renewable energy, energy-efficient buildings, and stronger monitoring and institutional capacity.
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
+
+![Схема «пика воды» при таянии ледников. / The «peak water» scheme for melting glaciers.](../assets/diagrams/26-M-peak-water-bilingual.svg)
+
+*Схема «пика воды» при таянии ледников. Схема. / The «peak water» scheme for melting glaciers. A schematic.*
 ![Ледники питают реки, уходящие в соседние страны. / Glaciers feed rivers that flow into neighbouring countries.](../assets/diagrams/26-B-water-security-schematic-bilingual.svg)
 
 *26-B. Водная безопасность: схема. / Water security: schematic.*
@@ -159,6 +163,10 @@ Water-saving technologies should be assessed at the river-basin scale. Improving
 *26-C. Уязвимость бассейнов: схема. / Basin vulnerability: schematic.*
 
 ## 26.4. Земли, почвы и пастбища / Land, Soils and Pastures
+
+![Порочный круг деградации пастбищ. / The vicious circle of pasture degradation.](../assets/diagrams/26-M-pasture-degradation-cycle-bilingual.svg)
+
+*Порочный круг деградации пастбищ. Схема. / The vicious circle of pasture degradation. A schematic.*
 
 ![Летние и зимние пастбища и участки перегрузки. / Summer and winter pastures and overloaded sites.](../assets/diagrams/26-D-pastures-schematic-bilingual.svg)
 

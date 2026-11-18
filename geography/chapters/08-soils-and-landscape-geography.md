@@ -60,6 +60,10 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ## 8.3. Строение почвенного профиля / Soil Profile and Horizons
 
+![Почвенный профиль: горизонты O, A, E, B, C, R. / Soil profile: horizons O, A, E, B, C, R.](../assets/diagrams/08-M-soil-profile-bilingual.svg)
+
+*Почвенный профиль: горизонты O, A, E, B, C, R. Схема. / Soil profile: horizons O, A, E, B, C, R. A schematic.*
+
 <!-- VISUAL ID 08-A — integrated bilingual SVG below -->
 ![Схематический почвенный профиль с горизонтами H, O, A, E, B, C и R; последовательность условна. / Schematic soil profile with H, O, A, E, B, C horizons and R bedrock; sequence is illustrative.](../assets/diagrams/08-A-soil-profile-horizons-bilingual.svg)
 

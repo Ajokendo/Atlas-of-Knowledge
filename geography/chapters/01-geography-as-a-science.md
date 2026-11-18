@@ -233,6 +233,10 @@ After studying this chapter, readers will be able to:
 
 ## 1.10.1. Практический пример: как читать масштаб карты / Worked Example: Reading a Map Scale
 
+![Три масштаба карты и линейные масштабы. / Three map scales with scale bars.](../assets/diagrams/01-M-map-scale-bilingual.svg)
+
+*Три масштаба карты и линейные масштабы. Схема. / Three map scales with scale bars. A schematic.*
+
 Предположим, на карте указан численный масштаб **1:50 000**. Это означает, что 1 единица длины на карте соответствует 50 000 таким же единицам на местности.
 
 **Шаг 1. Переводим масштаб в удобные единицы.**  
