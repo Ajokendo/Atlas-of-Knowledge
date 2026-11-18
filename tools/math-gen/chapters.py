@@ -12,6 +12,10 @@ BLOCKS = [
  dict(id='III', ru='Делимость, дроби, десятичные числа, проценты', en='Divisibility, fractions, decimals, percentages',
       note_ru='Основа для алгебры: делители и кратные, обыкновенные и десятичные дроби, пропорции, проценты, среднее, задачи на движение и работу. Уровень — основы.',
       note_en='A foundation for algebra: divisors and multiples, common and decimal fractions, proportions, percentages, the mean, motion and work problems. Level — basics.'),
+
+ dict(id='IV', ru='Отрицательные числа, выражения, уравнения, координаты', en='Negative numbers, expressions, equations, coordinates',
+      note_ru='Начало алгебры: числа со знаком, координаты, буквенные выражения, линейные уравнения, степени, многочлены, системы. Уровень — основы.',
+      note_en='The start of algebra: signed numbers, coordinates, letter expressions, linear equations, powers, polynomials, systems. Level — basics.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -57,4 +61,18 @@ CHAPTERS = [
   'Процент от числа, скидки и надбавки, какую часть составляет число.', 'A percentage of a number, discounts and increases, what part one number is of another.', 'III'),
  ('21', '21-mean-motion-work.html', 'Среднее, движение, работа', 'The mean, motion, work',
   'Среднее арифметическое, встречное движение, совместная работа.', 'The arithmetic mean, motion towards each other, working together.', 'III'),
+ ('22', '22-integers-rationals.html', 'Целые и рациональные числа', 'Integers and rational numbers',
+  'Отрицательные числа, модуль, сложение и умножение чисел со знаком.', 'Negative numbers, absolute value, adding and multiplying signed numbers.', 'IV'),
+ ('23', '23-coordinates.html', 'Координатная прямая и плоскость', 'The number line and the coordinate plane',
+  'Точки на прямой и на плоскости, четверти, расстояния, симметрия.', 'Points on a line and in a plane, quadrants, distances, symmetry.', 'IV'),
+ ('24', '24-expressions.html', 'Буквенные выражения', 'Letter expressions',
+  'Переменная, значение выражения, упрощение, раскрытие скобок.', 'A variable, the value of an expression, simplifying, expanding brackets.', 'IV'),
+ ('25', '25-linear-equations.html', 'Линейные уравнения', 'Linear equations',
+  'Уравнение как весы, перенос слагаемых, текстовые задачи.', 'An equation as a balance, moving terms, word problems.', 'IV'),
+ ('26', '26-powers-monomials.html', 'Степени и одночлены', 'Powers and monomials',
+  'Степень с натуральным показателем, свойства степеней, стандартный вид числа.', 'A power with a natural exponent, properties of powers, scientific notation.', 'IV'),
+ ('27', '27-polynomials.html', 'Многочлены и формулы сокращённого умножения', 'Polynomials and special products',
+  'Сложение и умножение многочленов, квадрат суммы и разность квадратов.', 'Adding and multiplying polynomials, the square of a sum and the difference of squares.', 'IV'),
+ ('28', '28-linear-systems.html', 'Системы линейных уравнений', 'Systems of linear equations',
+  'Графический способ, подстановка, сложение.', 'The graphical method, substitution, addition.', 'IV'),
 ]
