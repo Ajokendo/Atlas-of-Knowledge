@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+from gen2 import *
+
+m1 = M(('Признаки делимости', 'Divisibility tests'),
+ [('r', 'n', 'Число', 'The number', 10, 999, 1, 360)],
+ [('Сумма цифр', 'Digit sum'), ('Последняя цифра', 'Last digit'), ('Разложение на простые множители', 'Prime factorisation'), ('Число делителей', 'Number of divisors')],
+ 'Признаки позволяют узнать, делится ли число, не выполняя деление. Зелёная галочка — делится.', 'The tests tell whether a number is divisible without dividing. A green tick means it divides.', ('Таблица признаков делимости числа', 'A table of divisibility tests for the number'),
+ r'''const n=v.n,ds=String(n).split("").reduce((s,c)=>s+ +c,0),l=n%10,l2=n%100;
+ const rows=[[2,U("последняя цифра "+l+(l%2?" нечётная":" чётная"),"the last digit "+l+(l%2?" is odd":" is even")),l%2===0],[3,U("сумма цифр "+ds+(ds%3?" не делится на 3":" делится на 3"),"digit sum "+ds+(ds%3?" is not divisible by 3":" is divisible by 3")),ds%3===0],[4,U("две последние цифры "+l2+(l2%4?" не делятся на 4":" делятся на 4"),"last two digits "+l2+(l2%4?" are not divisible by 4":" are divisible by 4")),l2%4===0],[5,U("оканчивается на "+l,"ends in "+l),l===0||l===5],[9,U("сумма цифр "+ds+(ds%9?" не делится на 9":" делится на 9"),"digit sum "+ds+(ds%9?" is not divisible by 9":" is divisible by 9")),ds%9===0],[10,U("оканчивается на "+l,"ends in "+l),l===0]];
+ let g="";rows.forEach((r,i)=>{const y=30+i*38;g+=R(30,y-22,540,32,r[2]?"#e1f0e8":COL.bg,r[2]?COL.c:COL.line,1.5,4)+TX(50,y,U(n+" : "+r[0],n+" : "+r[0]),COL.ink,16,"start",600)+TX(130,y,r[1],COL.mut,13,"start")+TX(550,y,r[2]?"✓":"✗",r[2]?COL.c:COL.a,20,"end",700)});
+ return {svg:g,st:[ds,l,isPrime(n)?U("простое число","a prime number"):facStr(n),divisors(n).length],fb:isPrime(n)?U(n+" — простое: делится только на 1 и на себя.",n+" is prime: it divides only by 1 and itself."):U(n+" = "+facStr(n)+".",n+" = "+facStr(n)+".")}''')
+
+m2 = M(('НОД и НОК', 'GCD and LCM'),
+ [('r', 'a', 'Число a', 'Number a', 2, 60, 1, 12), ('r', 'b', 'Число b', 'Number b', 2, 60, 1, 18)],
+ [('НОД(a, b)', 'GCD(a, b)'), ('НОК(a, b)', 'LCM(a, b)'), ('Проверка: НОД · НОК = a · b', 'Check: GCD · LCM = a · b')],
+ 'Зелёные делители — общие. Самый большой из них — НОД. НОК — наименьшее число, которое делится и на a, и на b.', 'Green divisors are common. The biggest of them is the GCD. The LCM is the smallest number divisible by both a and b.', ('Делители двух чисел', 'Divisors of two numbers'),
+ r'''const A=divisors(v.a),B=divisors(v.b),g0=gcd(v.a,v.b),l0=lcm(v.a,v.b);let g=TX(20,40,v.a+":",COL.ink,16,"start",600)+TX(20,125,v.b+":",COL.ink,16,"start",600);
+ [[A,B,50],[B,A,135]].forEach((row,k)=>{row[0].forEach((d,i)=>{const com=row[1].indexOf(d)>=0;g+=R(75+i*40,row[2]-4,36,34,com?(d===g0?COL.c:"#e1f0e8"):COL.bg,com?COL.c:COL.line,d===g0?3:1.5,4)+TX(93+i*40,row[2]+19,d,d===g0?"#fff":COL.ink,14,"middle",600)})});
+ g+=TX(300,215,U("НОД = "+g0+",  НОК = "+l0,"GCD = "+g0+",  LCM = "+l0),COL.ink,22,"middle",600);
+ return {svg:g,st:[g0,l0,g0+" · "+l0+" = "+g0*l0+" = "+v.a+" · "+v.b],fb:g0===1?U("НОД = 1: числа взаимно простые.","GCD = 1: the numbers are coprime."):U("Общие делители: "+A.filter(d=>B.indexOf(d)>=0).join(", ")+". Наибольший — "+g0+".","Common divisors: "+A.filter(d=>B.indexOf(d)>=0).join(", ")+". The greatest is "+g0+".")}''')
+
+m3 = M(('Решето Эратосфена', 'The sieve of Eratosthenes'),
+ [('r', 'k', 'Шаг решета', 'Step of the sieve', 0, 4, 1, 4)],
+ [('Вычеркнули кратные', 'Multiples crossed out'), ('Осталось невычеркнутых', 'Numbers not crossed out'), ('Простых до 100', 'Primes up to 100')],
+ 'Простое число делится только на 1 и на себя. Вычёркиваем кратные 2, 3, 5, 7 — остаются простые.', 'A prime divides only by 1 and itself. We cross out multiples of 2, 3, 5, 7 — the primes remain.', ('Таблица чисел от 1 до 100', 'A table of numbers from 1 to 100'),
+ r'''const ps=[2,3,5,7].slice(0,v.k);let g="",left=0;
+ for(let n=1;n<=100;n++){const c=(n-1)%10,r=Math.floor((n-1)/10);const out=n===1||ps.some(p=>n>p&&n%p===0),pr=ps.indexOf(n)>=0;if(!out)left++;
+  g+=R(35+c*53,6+r*23,50,21,pr?COL.a:out?"#e9e8e2":COL.bg,pr?COL.a:COL.line,1,3)+TX(60+c*53,22+r*23,n,pr?"#fff":out?"#b0aea6":COL.ink,12,"middle",pr?700:400)}
+ return {svg:g,st:[ps.length?ps.join(", "):"—",left-0,25],fb:v.k===0?U("Сначала все числа, кроме 1, под подозрением.","At first all numbers except 1 are suspects."):v.k<4?U("Вычеркнули кратные "+ps.join(", ")+". Красные — уже проверенные простые.","Crossed out multiples of "+ps.join(", ")+". Red ones are primes already checked."):U("Остались ровно 25 простых чисел: 2, 3, 5, 7, 11, …, 97.","Exactly 25 primes remain: 2, 3, 5, 7, 11, …, 97.")}''')
+
+chapter('15', '15-divisibility.html', 'III', ('Делимость, НОД и НОК', 'Divisibility, GCD and LCM'),
+ ('Как узнать, делится ли число, не деля; что такое простые числа; как найти общий делитель и общее кратное.', 'How to tell if a number divides without dividing; what primes are; how to find a common divisor and a common multiple.'),
+ ('От автостанции в 8:00 одновременно отправились два автобуса. Один ходит рейсами каждые 12 минут, другой — каждые 18.\n\nВо сколько они снова отправятся одновременно?', 'At 8:00 two buses leave a bus station at the same moment. One runs every 12 minutes, the other every 18.\n\nWhen will they next leave together?'),
+ ('Разгадка: в 8:36', 'The answer: at 8:36'),
+ ('Нужно наименьшее число, которое делится и на 12, и на 18, — это НОК(12, 18). Разложим: 12 = 2² · 3, 18 = 2 · 3². Берём каждый простой множитель в наибольшей степени: 2² · 3² = 36. Через 36 минут, в 8:36, автобусы снова отправятся вместе. Проверка: 36 : 12 = 3 и 36 : 18 = 2.', 'We need the smallest number divisible by both 12 and 18 — the LCM(12, 18). Factorise: 12 = 2² · 3, 18 = 2 · 3². Take each prime factor to its highest power: 2² · 3² = 36. After 36 minutes, at 8:36, the buses leave together again. Check: 36 : 12 = 3 and 36 : 18 = 2.'),
+ [S('tests', 'Признаки делимости', 'Divisibility tests', ('Число делится на <strong>2</strong>, если оканчивается на чётную цифру; на <strong>5</strong> — если на 0 или 5; на <strong>10</strong> — если на 0; на <strong>3</strong> (и на <strong>9</strong>) — если сумма цифр делится на 3 (на 9); на <strong>4</strong> — если две последние цифры образуют число, делящееся на 4.\n\nЧисло, у которого ровно два делителя (1 и оно само), — <strong>простое</strong>. Остальные числа больше 1 — составные: их можно разложить на простые множители.', 'A number is divisible by <strong>2</strong> if it ends in an even digit; by <strong>5</strong> if it ends in 0 or 5; by <strong>10</strong> if it ends in 0; by <strong>3</strong> (and <strong>9</strong>) if its digit sum is divisible by 3 (9); by <strong>4</strong> if its last two digits form a number divisible by 4.\n\nA number with exactly two divisors (1 and itself) is <strong>prime</strong>. Other numbers above 1 are composite: they can be factorised into primes.'),
+    ('360 = 2³ · 3² · 5', 'разложение на простые множители', 'prime factorisation'), m1),
+  S('gcd', 'Наибольший общий делитель и наименьшее общее кратное', 'GCD and LCM', ('<strong>НОД</strong> двух чисел — наибольшее число, на которое делятся оба. <strong>НОК</strong> — наименьшее число, которое делится на оба. Через разложение на простые множители: для НОД берём общие множители в <em>наименьшей</em> степени, для НОК — все в <em>наибольшей</em>.', 'The <strong>GCD</strong> of two numbers is the greatest number that divides both. The <strong>LCM</strong> is the smallest number divisible by both. Via prime factorisation: for the GCD take the common factors to their <em>lowest</em> power; for the LCM take all factors to their <em>highest</em> power.'),
+    ('НОД(a, b) · НОК(a, b) = a · b', '12 и 18: 6 · 36 = 216', '12 and 18: 6 · 36 = 216'), m2),
+  S('sieve', 'Простые числа и решето', 'Primes and the sieve', ('Древнегреческий учёный Эратосфен придумал простой способ находить простые числа: выписать числа, вычеркнуть кратные 2, потом 3, потом 5 и так далее. Достаточно проверять простые числа до √n: для чисел до 100 — это 2, 3, 5 и 7.', 'The ancient Greek scholar Eratosthenes invented a simple way to find primes: write the numbers, cross out multiples of 2, then 3, then 5 and so on. It is enough to check primes up to √n: for numbers up to 100 these are 2, 3, 5 and 7.'),
+    ('до 100 — 25 простых чисел', 'последнее — 97', 'up to 100 there are 25 primes; the last is 97'), m3)],
+ [TK(('Признаки делимости', 'Divisibility tests'), ('Делится ли 1 236 на 2, 3, 4, 5, 9?', 'Is 1,236 divisible by 2, 3, 4, 5, 9?'), '1236', 'Оканчивается на 6 — на 2 делится. Сумма цифр 1 + 2 + 3 + 6 = 12 — на 3 делится, на 9 нет. Две последние цифры 36 : 4 = 9 — на 4 делится. На 5 нет.', ('На 2, 3 и 4 делится; на 5 и 9 — нет.', 'Divisible by 2, 3 and 4; not by 5 or 9.')),
+  TK(('Разложение', 'Factorisation'), ('Разложите 360 на простые множители.', 'Factorise 360 into primes.'), '360', '360 = 2 · 180 = 2 · 2 · 90 = 2 · 2 · 2 · 45 = 2³ · 5 · 9 = 2³ · 3² · 5.', ('2³ · 3² · 5.', '2³ · 3² · 5.')),
+  TK(('НОД', 'GCD'), ('Найдите НОД(24, 36).', 'Find GCD(24, 36).'), '24 = 2³ · 3, 36 = 2² · 3²', 'Общие множители в наименьшей степени: 2² · 3 = 12.', '12.'),
+  TK(('НОК', 'LCM'), ('Найдите НОК(12, 18).', 'Find LCM(12, 18).'), '12 = 2² · 3, 18 = 2 · 3²', 'Все множители в наибольшей степени: 2² · 3² = 36. Проверка: НОД = 6, 6 · 36 = 216 = 12 · 18.', '36.'),
+  TK(('Простое или составное', 'Prime or composite'), ('Простое ли число 91?', 'Is 91 a prime?'), '91', 'Проверяем простые до √91 ≈ 9,5: 2, 3, 5, 7. 91 : 7 = 13. Значит, 91 = 7 · 13.', ('Нет, составное: 7 · 13.', 'No, composite: 7 · 13.'))],
+ [Q('На какую цифру оканчивается число, делящееся на 5?', 'What does a number divisible by 5 end in?', '0 или 5', 'только 0', '5 или 6', ('Признак делимости на 5.', 'The divisibility test for 5.')),
+  Q('Делится ли 462 на 3?', 'Is 462 divisible by 3?', ('Да: 4 + 6 + 2 = 12', 'Yes: 4 + 6 + 2 = 12'), ('Нет', 'No'), ('Только на 9', 'Only by 9'), ('12 делится на 3.', '12 is divisible by 3.')),
+  Q('Какое число простое?', 'Which number is prime?', '37', '39', '51', ('39 = 3 · 13 и 51 = 3 · 17.', '39 = 3 · 13 and 51 = 3 · 17.')),
+  Q('НОД(12, 18) =', 'GCD(12, 18) =', '6', '36', '3', ('Наибольший общий делитель — 6.', 'The greatest common divisor is 6.')),
+  Q('НОК(4, 6) =', 'LCM(4, 6) =', '12', '24', '2', ('Наименьшее общее кратное — 12.', 'The least common multiple is 12.')),
+  Q('Сколько простых чисел до 100?', 'How many primes are below 100?', '25', '20', '30', ('Решето оставляет 25 простых.', 'The sieve leaves 25 primes.')),
+  Q('Является ли 1 простым числом?', 'Is 1 a prime number?', ('Нет: у него один делитель', 'No: it has one divisor'), ('Да', 'Yes'), ('Зависит', 'It depends'), ('У простого числа ровно два делителя.', 'A prime has exactly two divisors.')),
+  Q('Разложение числа 60', 'The factorisation of 60', '2² · 3 · 5', '2 · 3 · 5', '6 · 10', ('4 · 3 · 5 = 60.', '4 · 3 · 5 = 60.'))],
+ src=[('Wikipedia: Divisibility rule', 'https://en.wikipedia.org/wiki/Divisibility_rule'), ('Wikipedia: Sieve of Eratosthenes', 'https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes')])

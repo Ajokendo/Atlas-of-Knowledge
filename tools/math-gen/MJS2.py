@@ -27,3 +27,12 @@ function ruen(n,ruForms,enOne,enMany){return lang==="ru"?n+" "+pn(n,ruForms[0],r
 function fact(n){let r=1;for(let i=2;i<=n;i++)r*=i;return r}
 function nCr(n,k){if(k<0||k>n)return 0;let r=1;for(let i=1;i<=k;i++)r=r*(n-k+i)/i;return Math.round(r)}
 '''
+MJS2 += r'''
+function supn(e){return String(e).split("").map(c=>"⁰¹²³⁴⁵⁶⁷⁸⁹"[+c]).join("")}
+function facStr(n){if(n<2)return String(n);let r=[],p=2,m=n;while(p*p<=m){let e=0;while(m%p===0){m/=p;e++}if(e)r.push(e>1?p+supn(e):""+p);p++}if(m>1)r.push(String(m));return r.join("·")}
+function lcm(a,b){return a/gcd(a,b)*b}
+function divisors(n){const r=[];for(let i=1;i<=n;i++)if(n%i===0)r.push(i);return r}
+function isPrime(n){if(n<2)return false;for(let i=2;i*i<=n;i++)if(n%i===0)return false;return true}
+function frStr(n,d){return n+"/"+d}
+function mixed(n,d){const w=Math.floor(n/d),r=n%d;return w===0?frStr(n,d):r===0?String(w):w+" "+frStr(r,d)}
+'''

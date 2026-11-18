@@ -8,6 +8,10 @@ BLOCKS = [
  dict(id='II', ru='Фигуры, величины и данные', en='Shapes, quantities and data',
       note_ru='Начальная и средняя школа: фигуры, измерения, периметр и площадь, симметрия, диаграммы и закономерности. Темы, а не классы. Уровень — основы.',
       note_en='Primary and middle school: shapes, measurement, perimeter and area, symmetry, charts and patterns. Organised by topic, not by grade. Level — basics.'),
+
+ dict(id='III', ru='Делимость, дроби, десятичные числа, проценты', en='Divisibility, fractions, decimals, percentages',
+      note_ru='Основа для алгебры: делители и кратные, обыкновенные и десятичные дроби, пропорции, проценты, среднее, задачи на движение и работу. Уровень — основы.',
+      note_en='A foundation for algebra: divisors and multiples, common and decimal fractions, proportions, percentages, the mean, motion and work problems. Level — basics.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -39,4 +43,18 @@ CHAPTERS = [
   'Столбчатая диаграмма, как читать график, обрезанная ось.', 'A bar chart, reading a graph, the truncated axis.', 'II'),
  ('14', '14-patterns-logic.html', 'Закономерности и логика', 'Patterns and logic',
   'Числовые последовательности, формулы закономерностей, круги Эйлера.', 'Number sequences, pattern formulas, Venn diagrams.', 'II'),
+ ('15', '15-divisibility.html', 'Делимость, НОД и НОК', 'Divisibility, GCD and LCM',
+  'Признаки делимости, простые числа, решето Эратосфена, наибольший общий делитель и наименьшее общее кратное.', 'Divisibility tests, primes, the sieve of Eratosthenes, the greatest common divisor and least common multiple.', 'III'),
+ ('16', '16-common-fractions.html', 'Обыкновенные дроби', 'Common fractions',
+  'Неправильные дроби и смешанные числа, сокращение, дроби на числовой прямой.', 'Improper fractions and mixed numbers, simplifying, fractions on the number line.', 'III'),
+ ('17', '17-fraction-operations.html', 'Действия с дробями', 'Operations with fractions',
+  'Сложение и вычитание с общим знаменателем, умножение и деление дробей.', 'Adding and subtracting with a common denominator, multiplying and dividing fractions.', 'III'),
+ ('18', '18-decimals.html', 'Десятичные дроби', 'Decimal fractions',
+  'Разряды после запятой, сравнение и округление, умножение и деление на 10, 100, 1000.', 'Places after the point, comparing and rounding, multiplying and dividing by 10, 100, 1000.', 'III'),
+ ('19', '19-ratios-proportions.html', 'Отношения и пропорции', 'Ratios and proportions',
+  'Отношение, деление в данном отношении, масштаб, прямая и обратная пропорциональность.', 'A ratio, dividing in a given ratio, scale, direct and inverse proportion.', 'III'),
+ ('20', '20-percent.html', 'Проценты', 'Percentages',
+  'Процент от числа, скидки и надбавки, какую часть составляет число.', 'A percentage of a number, discounts and increases, what part one number is of another.', 'III'),
+ ('21', '21-mean-motion-work.html', 'Среднее, движение, работа', 'The mean, motion, work',
+  'Среднее арифметическое, встречное движение, совместная работа.', 'The arithmetic mean, motion towards each other, working together.', 'III'),
 ]
