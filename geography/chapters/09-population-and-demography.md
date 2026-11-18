@@ -36,6 +36,10 @@ After studying this chapter, readers will be able to explain core demographic co
 **EN production brief:** Place “Population” in the centre and connect it to census data, civil registration, surveys, administrative records and geospatial sources. Show which indicators each source provides; all labels must be bilingual.
 
 ## 9.2. Численность населения и её изменение / Population Size and Change
+
+![Страны мира по численности населения (оценки около 2019 г.). / Countries of the world by population (estimates c. 2019).](../assets/diagrams/09-H-world-population-by-country-bilingual.svg)
+
+*Страны мира по численности населения (оценки около 2019 г.). Карта по открытым данным. / Countries of the world by population (estimates c. 2019). Map from open data.*
 ![Рост численности в 1950–2024 годах и средний вариант прогноза до 2100 года. / Population growth in 1950–2024 and the medium projection to 2100.](../assets/diagrams/09-A-world-population-trend-bilingual.svg)
 
 *09-A. Население мира: оценки и прогноз. / World population: estimates and projection.*

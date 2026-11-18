@@ -32,6 +32,10 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 ## 17.1. Географическое положение в Центральной Азии / Geographic Location in Central Asia
 
+![Кыргызстан среди соседей: Казахстан, Китай, Таджикистан, Узбекистан. / Kyrgyzstan among its neighbours: Kazakhstan, China, Tajikistan, Uzbekistan.](../assets/diagrams/10-H-central-asia-neighbours-bilingual.svg)
+
+*Кыргызстан среди соседей: Казахстан, Китай, Таджикистан, Узбекистан. Политическая карта. / Kyrgyzstan among its neighbours: Kazakhstan, China, Tajikistan, Uzbekistan. A political map.*
+
 ![Кыргызстан и соседние государства в топографическом контексте Центральной Азии. / Kyrgyzstan and neighbouring states in the topographic context of Central Asia.](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
 
 ![Административный контур Кыргызстана с областными границами; соседние территории показаны как контекст. / Administrative outline of Kyrgyzstan with oblast boundaries; neighbouring territory shown for context.](https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-borders.svg)

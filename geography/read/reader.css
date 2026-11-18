@@ -75,3 +75,4 @@ article p.fig + p em{font-style:normal}
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
 article{overflow-wrap:anywhere}
 .tableWrap{max-width:100%}
+.tableWrap td:first-child,.tableWrap th:first-child{min-width:7.5em;overflow-wrap:normal;word-break:normal}

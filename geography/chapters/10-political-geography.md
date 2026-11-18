@@ -58,6 +58,10 @@ After studying this chapter, readers will be able to explain the scope of politi
 В учебной и картографической работе важно не смешивать фактический контроль над территорией, международно-правовой статус, признание и заявленные притязания. Эти характеристики могут не совпадать.
 
 ## 10.4. Государственные границы / International and State Borders
+
+![Пять государств Центральной Азии и их соседи. / The five Central Asian states and their neighbours.](../assets/diagrams/10-H-central-asia-neighbours-bilingual.svg)
+
+*Пять государств Центральной Азии и их соседи. Политическая карта. / The five Central Asian states and their neighbours. A political map.*
 <!-- VISUAL ID 10-B — integrated bilingual SVG below -->
 
 ![Схематические типы государственных границ: геометрическая, речная, по водоразделу и историческая. / Schematic types of state boundaries: geometric, river, watershed and historical.](../assets/diagrams/10-B-border-types-landscapes-bilingual.svg)

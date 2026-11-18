@@ -14,7 +14,7 @@ OBL={ # ключ NE: (slug, рус., англ., цвет, центр рус., ц
  'Talas':('talas','Таласская','Talas','#b7dba5','Талас','Talas',(72.24,42.52)),
  'Ysyk-Köl':('issyk-kul','Иссык-Кульская','Issyk-Kul','#a5d3e8','Каракол','Karakol',(78.39,42.49)),
  'Naryn':('naryn','Нарынская','Naryn','#d3c1e8','Нарын','Naryn',(76.0,41.43)),
- 'Jalal-Abad':('jalal-abad','Джалал-Абадская','Jalal-Abad','#f1b9a3','Джалал-Абад','Jalal-Abad',(72.98,40.93)),
+ 'Jalal-Abad':('jalal-abad','Джалал-Абадская','Jalal-Abad','#f1b9a3','Манас (б. Джалал-Абад)','Manas (formerly Jalal-Abad)',(72.98,40.93)),
  'Osh':('osh','Ошская','Osh','#d9c3a0','Ош','Osh',(72.80,40.53)),
  'Batken':('batken','Баткенская','Batken','#9fd9cc','Баткен','Batken',(70.82,40.06)),
 }

@@ -60,6 +60,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 ### Население, площадь и расчётная плотность
 
+![Семь областей в цифрах: площадь, население, плотность. / Seven regions in numbers: area, population, density.](../assets/diagrams/24-N-regions-in-numbers-bilingual.svg)
+
+*Семь областей в цифрах: площадь, население, плотность. Диаграммы по таблице ниже. / Seven regions in numbers: area, population, density. Charts based on the table below.*
+
 | Область | Площадь, тыс. км² | Население на 01.01.2026, тыс. чел. | Расчётная плотность, чел./км² | Административный центр |
 |---|---:|---:|---:|---|
 | Баткенская | 17,0 | 605,3 | 35,6 | Баткен |

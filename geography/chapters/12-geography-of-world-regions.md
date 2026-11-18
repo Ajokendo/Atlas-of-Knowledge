@@ -12,6 +12,10 @@ Regional geography studies major parts of the world as complex territorial syste
 
 ## 12.1. Понятие региона и регионализация мира / The Concept of a Region and World Regionalisation
 
+![Подрегионы мира по геосхеме ООН. / World subregions by the UN geoscheme.](../assets/diagrams/12-K-world-subregions-bilingual.svg)
+
+*Подрегионы мира по геосхеме ООН. Одно из возможных делений: границы регионов условны. / World subregions by the UN geoscheme. One of several possible divisions; regional boundaries are conventional.*
+
 **Регион** — территория, выделенная по одному или нескольким признакам и рассматриваемая как относительно целостная пространственная система. Регион может быть природным, историко-культурным, социально-экономическим, политическим или функциональным.
 
 Регионализация — процесс выделения территориальных единиц для исследования, управления, статистики и планирования. Единственной универсальной схемы деления мира нет: границы регионов зависят от цели и выбранных критериев.

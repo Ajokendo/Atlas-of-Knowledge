@@ -213,6 +213,10 @@ Rural settlements vary in size, density, elevation, accessibility, agricultural 
 
 ## 23.5. Административно-территориальная структура и население регионов
 
+![Семь областей в цифрах: площадь, население, плотность. / Seven regions in numbers: area, population, density.](../assets/diagrams/24-N-regions-in-numbers-bilingual.svg)
+
+*Семь областей в цифрах: площадь, население, плотность. Диаграммы по таблице главы 24. / Seven regions in numbers: area, population, density. Charts based on the table in chapter 24.*
+
 ![Области закрашены по численности, Бишкек и Ош показаны кругами. / Regions are shaded by population; Bishkek and Osh are shown as circles.](../assets/diagrams/23-F-regional-population-2026-bilingual.svg)
 
 *23-F. Население областей на 01.01.2026. / Regional population on 1 January 2026.*
