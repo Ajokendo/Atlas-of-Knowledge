@@ -75,6 +75,30 @@
 | PH-24-01 | 24 | Мощность ГЭС (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-24-02 | 24 | Линия электропередачи (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-24-03 | 24 | Каскад на Нарыне (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-25-01 | 25 | Маятник (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-25-02 | 25 | Груз на пружине (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-25-03 | 25 | Резонанс (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-26-01 | 26 | Бегущая волна (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-26-02 | 26 | Поперечная и продольная (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-26-03 | 26 | Наложение волн (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-27-01 | 27 | Эхо в ущелье (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-27-02 | 27 | Струна комуза (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-27-03 | 27 | Громкость в дБ (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-28-01 | 28 | Сейсмограмма (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-28-02 | 28 | Расстояние до эпицентра (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-28-03 | 28 | Магнитуда и энергия (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-29-01 | 29 | Тень и высота Солнца (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-29-02 | 29 | Камера-обскура (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-29-03 | 29 | Время пути света (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-30-01 | 30 | Закон отражения (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-30-02 | 30 | Плоское зеркало (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-30-03 | 30 | Параболическое зеркало (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-31-01 | 31 | Преломление света (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-31-02 | 31 | Полное внутреннее отражение (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-31-03 | 31 | Тонкая линза (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-32-01 | 32 | Глаз и очки (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-32-02 | 32 | Микроскоп (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-32-03 | 32 | Телескоп (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -153,6 +177,19 @@
 | 24 | Токтогульская ГЭС: плотина 215 м, 1200 МВт (модернизация до 1440 МВт), выработка ≈ 4400 ГВт·ч, полезный объём водохранилища 14 км³ | Wikipedia, Toktogul Dam: https://en.wikipedia.org/wiki/Toktogul_Dam; CAWater-Info: https://www.cawater-info.net/bk/1-1-1-1-3-kg_e.htm; Water Power Magazine: https://www.waterpowermagazine.com/?p=30698 | 18.11.2026 |
 | 24 | Станции Нарынского каскада: Курпсайская 800, Таш-Кумырская 450, Шамалды-Сайская 240, Учкурганская 180 МВт | Hydropower.org, Kyrgyz hydropower overview: https://invest.gov.kg/wp-content/uploads/2019/07/2-Hydropower.org-Kyrgyz-Republic%E2%80%99s-hydropower-overview-2017.pdf | 18.11.2026 |
 | 24 | Около 90% электроэнергии Кыргызстана вырабатывают ГЭС | IRENA, Kyrgyz Republic summary 2022: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Dec/IRENA_RRA_Kyrgyz_Republic_Summary_2022.pdf; Kabar, 10.12.2025: https://en.kabar.kg/news/hydropower-provides-90-of-kyrgyzstans-electricity/ | 18.11.2026 |
+| 25 | Период маятника T = 2π√(l/g), пружины T = 2π√(m/k); g Луны 1,62 и Марса 3,71 Н/кг | OpenStax University Physics Vol. 1, гл. 15: https://openstax.org/books/university-physics-volume-1/pages/15-introduction; Wikipedia, Surface gravity: https://en.wikipedia.org/wiki/Surface_gravity | 18.11.2026 |
+| 26 | v = λf; поперечные и продольные волны; суперпозиция и стоячие волны | OpenStax University Physics Vol. 1, гл. 16: https://openstax.org/books/university-physics-volume-1/pages/16-introduction; Wikipedia, Standing wave: https://en.wikipedia.org/wiki/Standing_wave | 18.11.2026 |
+| 27 | Скорость звука: воздух ≈ 343 м/с при 20 °C (v ≈ 331 + 0,6·t), вода ≈ 1500, сталь ≈ 5000 м/с; частота струны f = (1/2L)√(F/μ); шум > 85 дБ вреден для слуха | Wikipedia, Speed of sound: https://en.wikipedia.org/wiki/Speed_of_sound; Wikipedia, String vibration: https://en.wikipedia.org/wiki/String_vibration; Wikipedia, Noise-induced hearing loss: https://en.wikipedia.org/wiki/Noise-induced_hearing_loss | 18.11.2026 |
+| 27 | Комуз: трёхструнный безладовый инструмент из дерева (абрикос, орех, можжевельник) | Wikipedia, Komuz: https://en.wikipedia.org/wiki/Komuz | 18.11.2026 |
+| 28 | Скорости P- и S-волн в коре (P 3–6,5 км/с, S 1,5–3,8 км/с), S-волны не идут в жидкости | Physical Geology (BCcampus): https://opentextbc.ca/geology/chapter/9-1-understanding-earth-through-seismology/ | 18.11.2026 |
+| 28 | Суусамырское землетрясение 19.08.1992: Ms 7,3, макс. интенсивность IX, 75 погибших; Кеминское 1911: оценки 7,7–8,0 | Wikipedia: https://en.wikipedia.org/wiki/1992_Suusamyr_earthquake; Wikipedia: https://en.wikipedia.org/wiki/List_of_earthquakes_in_Kyrgyzstan; USGS: https://earthquake.usgs.gov/earthquakes/eventpage/iscgem16958130 | 18.11.2026 |
+| 28 | Энергия по Гутенбергу — Рихтеру lg E = 1,5M + 4,8; Тянь-Шань растёт из-за столкновения Индии и Азии | Wikipedia, Seismic magnitude scales: https://en.wikipedia.org/wiki/Seismic_magnitude_scales; Wikipedia, Tian Shan: https://en.wikipedia.org/wiki/Tian_Shan | 18.11.2026 |
+| 29 | Скорость света c = 299 792 458 м/с; расстояния до Луны, Солнца, Юпитера, Проксимы Центавра | NIST: https://physics.nist.gov/cgi-bin/cuu/Value?c; Wikipedia: https://en.wikipedia.org/wiki/Lunar_distance; https://en.wikipedia.org/wiki/Astronomical_unit; https://en.wikipedia.org/wiki/Jupiter; https://en.wikipedia.org/wiki/Proxima_Centauri | 18.11.2026 |
+| 29 | Камера-обскура, прямолинейность света, тени | OpenStax University Physics Vol. 3, гл. 1: https://openstax.org/books/university-physics-volume-3/pages/1-introduction-to-the-nature-of-light; Wikipedia, Pinhole camera: https://en.wikipedia.org/wiki/Pinhole_camera | 18.11.2026 |
+| 30 | Закон отражения, плоское зеркало, параболическое зеркало, солнечная кухня; освещённость ≈ 1000 Вт/м² | OpenStax University Physics Vol. 3, § 1.5: https://openstax.org/books/university-physics-volume-3/pages/1-5-reflection; Wikipedia, Parabolic reflector: https://en.wikipedia.org/wiki/Parabolic_reflector; Solar cooker: https://en.wikipedia.org/wiki/Solar_cooker; Solar irradiance: https://en.wikipedia.org/wiki/Solar_irradiance | 18.11.2026 |
+| 31 | Показатели преломления: воздух 1,00, вода 1,33, стекло 1,5, алмаз 2,42; закон Снеллиуса; полное внутреннее отражение; формула тонкой линзы | Wikipedia, Refractive index: https://en.wikipedia.org/wiki/Refractive_index; Total internal reflection: https://en.wikipedia.org/wiki/Total_internal_reflection; OpenStax University Physics Vol. 3, гл. 2: https://openstax.org/books/university-physics-volume-3/pages/2-introduction | 18.11.2026 |
+| 32 | Глаз как линза, аккомодация, близорукость и дальнозоркость, лупа, микроскоп, телескоп; угловой размер Луны ≈ 0,52° | OpenStax University Physics Vol. 3, § 2.5: https://openstax.org/books/university-physics-volume-3/pages/2-5-the-eye; Wikipedia: https://en.wikipedia.org/wiki/Human_eye; https://en.wikipedia.org/wiki/Magnification; https://en.wikipedia.org/wiki/Moon | 18.11.2026 |
+| 25–32 | Условные значения моделей (не факты): ползунки, коэффициенты трения, параметры струны комуза, скорости P/S 6 и 3,5 км/с, напор и расстояния, упрощённая модель глаза | — | 18.11.2026 |
 | 21–24 | Условные значения моделей (не факты): расстояния до магнита, проницаемость сердечника 500, сопротивление цепи 0,5 Ом, напор 130 м в задаче, сопротивление линии, параметры ползунков | — | 18.11.2026 |
 | 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
