@@ -19,6 +19,9 @@
 | PH-05-01 | 05 | Груз на верёвке, высота и сила (модель «Подъём груза») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-05-02 | 05 | Склон с санками и столбики энергии (модель «Санки с горки») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-05-03 | 05 | Плотина, водохранилище, напорная труба, турбина, генератор (модель «ГЭС на Нарыне») | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-06-01 | 06 | Рычаг-качели с двумя грузами (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-06-02 | 06 | Неподвижный и подвижный блоки, полиспаст (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-06-03 | 06 | Наклонная плоскость с силами (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -62,3 +65,7 @@
 | 05 | 1 л. с. (метрическая) ≈ 735,5 Вт | Sengpielaudio: https://sengpielaudio.com/calculator-powerunits.htm | 18.11.2026 |
 | 05 | 1 кВт·ч = 3 600 000 Дж | TM 750-245-4: https://miscpartsmanuals3.tpub.com/TM-750-245-4/TM-750-245-40102.htm | 18.11.2026 |
 | 05 | Условные значения моделей (не факты): санки с седоком 40 кг, склон 20 м по горизонтали; η = 0,8–0,95 и расход 0–1000 м³/с в модели ГЭС | Авторские допущения для учебной модели, помечены в главе | 18.11.2026 |
+| 06 | Правило рычага F₁l₁ = F₂l₂; в идеальном блоке F = mg/n, вытянуто n·h верёвки; золотое правило механики; η = A_п/A_з | OpenStax Physics 9.3: https://openstax.org/books/physics/pages/9-3-simple-machines; LibreTexts: https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I:_Classical_Mechanics/25:_Simple_Machines | 18.11.2026 |
+| 06 | КПД: ДВС ≈ 20–30 %, электродвигатель ≈ 90 % | Electric Motion Tech: https://sites.google.com/view/electricmotiontech-com/home/ev-tech-101/efficiency; US DOE FOTW #1360: https://www.energy.gov/cmei/vehicles/articles/fotw-1360-sept-16-2024-typical-ev-87-91-efficient-compared-30-conventional | 18.11.2026 |
+| 06 | Серпантин на перевале Төө-Ашуу | too.kg: https://too.kg/en/too-ashuu-pass/; Wikipedia: https://en.wikipedia.org/wiki/T%C3%B6%C3%B6_Ashuu | 18.11.2026 |
+| 06 | Условные значения моделей (не факты): η блоков 50–100 %, μ плоскости 0–0,3, подъём на 2 м; примеры задач (камень 300 кг, серпантин 3000 м и др.) | Условия авторские | 18.11.2026 |

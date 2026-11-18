@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 6 Атласа физики: рычаг, блоки, наклонная плоскость, золотое правило механики, КПД.">
+<title>Простые механизмы — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+.lab select{border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--sans);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+.bars{margin-top:12px}.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.bar i{display:block;height:12px;background:var(--accent)}.bar i.r{background:#c9b48f}.bar .t{display:flex}.bar b{font:12px var(--mono);font-weight:400;color:var(--ink)}
+@media(max-width:760px){.bar{grid-template-columns:110px 1fr 58px}}
+</style></head><body>
+<style>.bar i.h{background:#8a8a8f}.bar i.k{background:#2f6f5d}.bar i.p{background:#b6533f}</style>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 06 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 06 · BASICS</span></p>
+<h1><span data-l="ru">Простые механизмы</span><span data-l="en">Simple machines</span></h1>
+<p class="lead"><span data-l="ru">Серпантин на перевале Төө-Ашуу, лом под тяжёлым камнем, верёвка с блоком над колодцем и доска, по которой грузят мешки в кузов. В этой главе — как рычаг, блок и наклонная плоскость помогают выиграть в силе, чем за это приходится платить и что такое КПД.</span><span data-l="en">The hairpin road over the Töö-Ashuu pass, a crowbar under a heavy stone, a rope and pulley over a well and a plank used to load sacks onto a truck. This chapter covers how a lever, a pulley and an inclined plane help us gain force, what we pay for it and what efficiency is.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#lever">02 <span data-l="ru">Рычаг</span><span data-l="en">Lever</span></a><a href="#pulley">03 <span data-l="ru">Блоки</span><span data-l="en">Pulleys</span></a><a href="#incline">04 <span data-l="ru">Наклонная плоскость</span><span data-l="en">Inclined plane</span></a><a href="#rule">05 <span data-l="ru">Золотое правило и КПД</span><span data-l="en">Golden rule and efficiency</span></a><a href="#tasks">06 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">07 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>Старая дорога на перевал Төө-Ашуу идёт крутыми петлями — серпантином. Ехать по ней долго, а подъём можно было бы проложить напрямик, и путь стал бы в несколько раз короче.</p><p>Почему же дорожники нарочно удлиняют дорогу, заставляя машины ехать в обход? И выигрывает ли машина в работе, поднимаясь по петлям, а не напрямую?</p></div>
+<div data-l="en"><p>The old road over the Töö-Ashuu pass climbs in steep loops — a serpentine. It takes a long time to drive, and a road could have been laid straight up the slope, making the distance several times shorter.</p><p>Why do road builders deliberately lengthen the road and make cars take a detour? And does a car gain anything in work by climbing the loops instead of going straight up?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подсказку даст модель «Наклонная плоскость». Разгадка — в конце главы.</span><span data-l="en">The “Inclined plane” model gives a hint. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="lever">
+<h2><span data-l="ru">Рычаг</span><span data-l="en">The lever</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p><strong>Простые механизмы</strong> — приспособления, которые меняют величину или направление силы. Самый старый из них — <strong>рычаг</strong>: твёрдый стержень, который может поворачиваться вокруг опоры, называемой <strong>осью</strong> (точкой опоры).</p><p>Кратчайшее расстояние от оси до линии, вдоль которой действует сила, называют <strong>плечом силы</strong>. Если к рычагу приложены две силы <em>F₁</em> и <em>F₂</em> с плечами <em>l₁</em> и <em>l₂</em>, то он находится в равновесии при условии:</p></div>
+<div data-l="en"><p><strong>Simple machines</strong> are devices that change the size or the direction of a force. The oldest of them is the <strong>lever</strong>: a rigid bar that can turn about a support called the <strong>fulcrum</strong> (pivot).</p><p>The shortest distance from the fulcrum to the line along which a force acts is called the force’s <strong>arm</strong>. If two forces <em>F₁</em> and <em>F₂</em> with arms <em>l₁</em> and <em>l₂</em> act on a lever, it is in balance when:</p></div>
+<div class="formula">F₁ · l₁ = F₂ · l₂<small><span data-l="ru">правило рычага; произведение силы на плечо называют моментом силы (Н·м)</span><span data-l="en">the law of the lever; force times arm is called the moment of force (N·m)</span></small></div>
+<div data-l="ru"><p>Отсюда <em>F₁ / F₂ = l₂ / l₁</em>: во сколько раз плечо больше, во столько раз сила меньше. Под тяжёлый камень подсовывают лом и давят на длинный конец — маленькой силой руки уравновешивают большую силу тяжести камня. Так работают лом, ножницы, пассатижи, ручка двери, качели.</p><p>Платой за выигрыш в силе служит проигрыш в пути: длинное плечо должно пройти большее расстояние, чем короткое. Если, наоборот, сила приложена у короткого плеча (лопата, пинцет, удочка), мы проигрываем в силе, но выигрываем в пути и скорости.</p></div>
+<div data-l="en"><p>Hence <em>F₁ / F₂ = l₂ / l₁</em>: the longer the arm, the smaller the force by the same factor. A crowbar is pushed under a heavy stone and pressed down at its long end — a small force of the hand balances the large weight of the stone. Crowbars, scissors, pliers, a door handle and a seesaw all work this way.</p><p>The price of gaining force is losing distance: the long arm must move farther than the short one. If instead the force acts at the short arm (a shovel, tweezers, a fishing rod), we lose force but gain distance and speed.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · РЫЧАГ-КАЧЕЛИ</span><span data-l="en">MODEL 1 · THE SEESAW LEVER</span></p>
+<svg id="levSvg" viewBox="0 0 600 240" role="img" aria-label=""></svg>
+<div class="controls"><label for="m1"><span data-l="ru">Слева: масса</span><span data-l="en">Left: mass</span> <strong id="m1Out"></strong></label><input id="m1" type="range" min="1" max="40" step="1" value="10"></div>
+<div class="controls"><label for="d1"><span data-l="ru">Слева: плечо</span><span data-l="en">Left: arm</span> <strong id="d1Out"></strong></label><input id="d1" type="range" min="0.5" max="3" step="0.05" value="2"></div>
+<div class="controls"><label for="m2"><span data-l="ru">Справа: масса</span><span data-l="en">Right: mass</span> <strong id="m2Out"></strong></label><input id="m2" type="range" min="1" max="40" step="1" value="10"></div>
+<div class="controls"><label for="d2"><span data-l="ru">Справа: плечо</span><span data-l="en">Right: arm</span> <strong id="d2Out"></strong></label><input id="d2" type="range" min="0.5" max="3" step="0.05" value="1"></div>
+<div class="controls"><button class="act ghost" type="button" id="levBal"><span data-l="ru">Уравновесить (подвинуть правый груз)</span><span data-l="en">Balance it (move the right load)</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Момент слева</span><span data-l="en">Left moment</span></small><strong id="mo1"></strong></div><div class="stat"><small><span data-l="ru">Момент справа</span><span data-l="en">Right moment</span></small><strong id="mo2"></strong></div><div class="stat"><small><span data-l="ru">Отношение</span><span data-l="en">Ratio</span></small><strong id="moR"></strong></div></div>
+<p class="fb" id="levFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Плечи — расстояния грузов от опоры, g = 9,8 Н/кг. Равновесие считается, если моменты различаются менее чем на 1,5 %.</span><span data-l="en">Arms are the loads’ distances from the pivot, g = 9.8 N/kg. Balance is declared if the moments differ by less than 1.5 %.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="pulley">
+<h2><span data-l="ru">Блоки</span><span data-l="en">Pulleys</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p><strong>Блок</strong> — колесо с желобом, по которому проходит верёвка. Он тоже вид рычага: ось блока — опора, а радиус колеса — плечо.</p><ul class="src"><li><strong>Неподвижный блок</strong> закреплён и не движется. Он лишь меняет <em>направление</em> силы (тянем вниз — груз идёт вверх), но выигрыша в силе не даёт.</li><li><strong>Подвижный блок</strong> поднимается вместе с грузом: его держат две части верёвки, и каждая берёт на себя половину веса. Выигрыш в силе — в 2 раза.</li><li><strong>Полиспаст</strong> — система блоков. Выигрыш в силе равен числу частей верёвки, которые поддерживают груз.</li></ul><p>В идеальном случае (без трения, без веса блоков):</p></div>
+<div data-l="en"><p>A <strong>pulley</strong> is a grooved wheel over which a rope runs. It is also a kind of lever: the axle is the fulcrum and the wheel’s radius is the arm.</p><ul class="src"><li>A <strong>fixed pulley</strong> is anchored and does not move. It only changes the <em>direction</em> of the force (pull down — the load goes up) but gives no gain in force.</li><li>A <strong>movable pulley</strong> rises together with the load: two parts of the rope hold it, and each carries half the weight. The force gain is 2 times.</li><li>A <strong>block and tackle</strong> is a system of pulleys. The force gain equals the number of rope parts that support the load.</li></ul><p>In the ideal case (no friction, weightless pulleys):</p></div>
+<div class="formula">F = m · g / n<small><span data-l="ru">n — число частей верёвки, поддерживающих груз; чтобы поднять груз на h, нужно вытянуть n·h верёвки</span><span data-l="en">n is the number of rope parts supporting the load; to raise the load by h you must pull n·h of rope</span></small></div>
+<p class="callout"><span data-l="ru">И снова плата за выигрыш: в полиспасте с 4 частями верёвки сила в 4 раза меньше, но тянуть приходится в 4 раза больше верёвки.</span><span data-l="en">And again a price: with 4 rope parts the force is 4 times smaller, but you must pull 4 times as much rope.</span></p>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · БЛОКИ И ПОЛИСПАСТ</span><span data-l="en">MODEL 2 · PULLEYS AND TACKLE</span></p>
+<svg id="pulSvg" viewBox="0 0 600 250" role="img" aria-label=""></svg>
+<div class="controls"><label for="pn"><span data-l="ru">Система</span><span data-l="en">System</span></label><select id="pn"></select></div>
+<div class="controls"><label for="pm"><span data-l="ru">Масса груза</span><span data-l="en">Load mass</span>: <strong id="pmOut"></strong></label><input id="pm" type="range" min="5" max="100" step="5" value="40"></div>
+<div class="controls"><label for="pe"><span data-l="ru">Доля полезной работы (КПД)</span><span data-l="en">Efficiency</span>: <strong id="peOut"></strong></label><input id="pe" type="range" min="50" max="100" step="5" value="90"></div>
+<div class="controls"><button class="act" type="button" id="pulGo"><span data-l="ru">Поднять груз на 2 м</span><span data-l="en">Lift the load by 2 m</span></button><button class="act ghost" type="button" id="pulReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Сила тяги</span><span data-l="en">Pulling force</span></small><strong id="pF"></strong></div><div class="stat"><small><span data-l="ru">Вытянуто верёвки</span><span data-l="en">Rope pulled</span></small><strong id="pL"></strong></div><div class="stat"><small><span data-l="ru">Затрачено / полезно</span><span data-l="en">Spent / useful</span></small><strong id="pW"></strong></div></div>
+<p class="fb" id="pulFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Схема условная. Груз поднимается равномерно. Полезная работа — m·g·h; затраченная — сила тяги на вытянутую верёвку.</span><span data-l="en">A schematic drawing. The load rises steadily. Useful work is m·g·h; work spent is the pulling force times the rope pulled.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="incline">
+<h2><span data-l="ru">Наклонная плоскость</span><span data-l="en">The inclined plane</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Тяжёлый мешок легче закатить в кузов по доске, чем поднять на руках. Доска — <strong>наклонная плоскость</strong>. Любая пологая дорога, лестница, горная тропа — тоже наклонные плоскости.</p><p>Чтобы равномерно поднять груз массой <em>m</em> на высоту <em>h</em> по гладкой плоскости длиной <em>l</em>, достаточно силы, направленной вдоль плоскости:</p></div>
+<div data-l="en"><p>It is easier to roll a heavy sack onto a truck along a plank than to lift it by hand. The plank is an <strong>inclined plane</strong>. Any gentle road, staircase or mountain path is an inclined plane too.</p><p>To lift a load of mass <em>m</em> steadily through a height <em>h</em> along a smooth plane of length <em>l</em>, a force directed along the plane is enough:</p></div>
+<div class="formula">F = m · g · h / l<small><span data-l="ru">чем длиннее плоскость при той же высоте, тем меньше сила; без трения</span><span data-l="en">the longer the plane for the same height, the smaller the force; no friction</span></small></div>
+<div data-l="ru"><p>Выигрыш в силе — в <em>l / h</em> раз, а проигрыш в пути — во столько же. Работа без трения не меняется: <em>F · l = m·g·h</em>.</p><p>С трением нужна большая сила: к составляющей силы тяжести добавляется сила трения <em>μ·N</em>, где <em>N</em> — сила, прижимающая груз к плоскости. Для плоскости это <em>N = m·g·cos α</em>, где α — угол наклона.</p></div>
+<div data-l="en"><p>The force gain is <em>l / h</em> times, and so is the loss in distance. Without friction the work does not change: <em>F · l = m·g·h</em>.</p><p>With friction a larger force is needed: friction <em>μ·N</em> is added to the component of gravity, where <em>N</em> is the force pressing the load onto the plane. On a slope <em>N = m·g·cos α</em>, where α is the angle of the slope.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 3 · НАКЛОННАЯ ПЛОСКОСТЬ</span><span data-l="en">MODEL 3 · THE INCLINED PLANE</span></p>
+<svg id="incSvg" viewBox="0 0 600 250" role="img" aria-label=""></svg>
+<div class="controls"><label for="im"><span data-l="ru">Масса груза</span><span data-l="en">Load mass</span>: <strong id="imOut"></strong></label><input id="im" type="range" min="20" max="200" step="10" value="100"></div>
+<div class="controls"><label for="il"><span data-l="ru">Длина плоскости (высота подъёма 2 м)</span><span data-l="en">Length of the plane (lift height 2 m)</span>: <strong id="ilOut"></strong></label><input id="il" type="range" min="2.2" max="12" step="0.1" value="5"></div>
+<div class="controls"><label for="iu"><span data-l="ru">Трение (коэффициент μ)</span><span data-l="en">Friction (coefficient μ)</span>: <strong id="iuOut"></strong></label><input id="iu" type="range" min="0" max="0.3" step="0.01" value="0.1"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Сила без трения</span><span data-l="en">Force, no friction</span></small><strong id="iF0"></strong></div><div class="stat"><small><span data-l="ru">Сила с трением</span><span data-l="en">Force with friction</span></small><strong id="iF"></strong></div><div class="stat"><small><span data-l="ru">КПД</span><span data-l="en">Efficiency</span></small><strong id="iEta"></strong></div></div>
+<div class="stats"><div class="stat"><small><span data-l="ru">Полезная работа</span><span data-l="en">Useful work</span></small><strong id="iA1"></strong></div><div class="stat"><small><span data-l="ru">Затраченная работа</span><span data-l="en">Work spent</span></small><strong id="iA2"></strong></div><div class="stat"><small><span data-l="ru">Уклон</span><span data-l="en">Slope</span></small><strong id="iSl"></strong></div></div>
+<p class="fb" id="incFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Сила направлена вдоль плоскости, груз движется равномерно. Сила трения: μ·m·g·cos α.</span><span data-l="en">The force acts along the plane and the load moves steadily. Friction force: μ·m·g·cos α.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="rule">
+<h2><span data-l="ru">Золотое правило механики и КПД</span><span data-l="en">The golden rule of mechanics and efficiency</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Рычаг, блок, наклонная плоскость — все они позволяют уменьшить силу. Но выигрыш в силе всегда оплачивается проигрышем в пути: с силой в 5 раз меньшей нужно пройти путь в 5 раз длиннее. Работа, то есть произведение силы на путь, не уменьшается.</p><div class="definition"><strong>Золотое правило механики:</strong> ни один простой механизм не даёт выигрыша в работе. Во сколько раз выигрываем в силе, во столько раз проигрываем в пути.</div><p>Это следствие закона сохранения энергии из главы 5: механизм не создаёт энергию, он лишь передаёт её, меняя силу и путь.</p></div>
+<div data-l="en"><p>A lever, a pulley and an inclined plane all let us reduce the force. But a gain in force is always paid for by a loss in distance: with a force 5 times smaller you must go 5 times farther. Work, the product of force and distance, does not decrease.</p><div class="definition"><strong>The golden rule of mechanics:</strong> no simple machine gives a gain in work. The factor by which we gain in force is the factor by which we lose in distance.</div><p>This follows from the law of conservation of energy of chapter 5: a machine does not create energy, it only passes it on, changing force and distance.</p></div>
+<div data-l="ru"><h3>КПД</h3><p>В реальных механизмах есть трение, а у блоков и рычагов — свой вес. Поэтому затраченная работа <em>A<sub>з</sub></em> всегда больше полезной <em>A<sub>п</sub></em>: разница уходит на нагрев деталей. Отношение полезной работы к затраченной называют <strong>коэффициентом полезного действия</strong> (КПД):</p></div>
+<div data-l="en"><h3>Efficiency</h3><p>Real machines have friction, and pulleys and levers have weight of their own. So the work spent <em>A<sub>s</sub></em> is always larger than the useful work <em>A<sub>u</sub></em>: the difference goes into heating the parts. The ratio of useful work to work spent is called the <strong>efficiency</strong>:</p></div>
+<div class="formula">η = A<sub><span data-l="ru">п</span><span data-l="en">u</span></sub> / A<sub><span data-l="ru">з</span><span data-l="en">s</span></sub> · 100 %<small><span data-l="ru">КПД всегда меньше 100 %: «вечный двигатель» невозможен</span><span data-l="en">efficiency is always below 100 %: a “perpetual motion machine” is impossible</span></small></div>
+</div>
+<div>
+<table><thead><tr><th><span data-l="ru">УСТРОЙСТВО</span><span data-l="en">DEVICE</span></th><th><span data-l="ru">ПРИМЕРНЫЙ КПД</span><span data-l="en">TYPICAL EFFICIENCY</span></th></tr></thead><tbody>
+<tr><td><span data-l="ru">Электродвигатель</span><span data-l="en">Electric motor</span></td><td>≈ 90 %</td></tr>
+<tr><td><span data-l="ru">Двигатель бензинового автомобиля</span><span data-l="en">Petrol-car engine</span></td><td>≈ 20–30 %</td></tr>
+<tr><td><span data-l="ru">Гидротурбина с генератором (глава 5)</span><span data-l="en">Hydro turbine with generator (chapter 5)</span></td><td>≈ 85–90 %</td></tr>
+</tbody></table>
+<p class="callout"><span data-l="ru">Бо́льшая часть энергии бензина в обычном двигателе уходит в тепло — вот почему капот горячий.</span><span data-l="en">Most of the energy in petrol turns into heat in an ordinary engine — that is why the bonnet gets hot.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Лом под камнем</span><span data-l="en">Problem 1. A crowbar under a stone</span></summary>
+<div data-l="ru"><p>Камень массой 300 кг приподнимают ломом. Плечо камня 0,2 м, плечо руки 1,5 м. С какой силой надо давить на лом?</p><p class="given">Дано: m = 300 кг, l₂ = 0,2 м, l₁ = 1,5 м, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Сила тяжести камня: F₂ = m·g = 300 · 9,8 = 2940 Н.<br>2) Правило рычага: F₁ · l₁ = F₂ · l₂, откуда F₁ = F₂ · l₂ / l₁ = 2940 · 0,2 / 1,5 = 392 Н.</p><p><strong>Ответ:</strong> около 392 Н — как вес груза в 40 кг. Выигрыш в силе в 1,5 / 0,2 = 7,5 раза; конец лома, на который давят, пройдёт путь в 7,5 раза длиннее.</p></div></div>
+<div data-l="en"><p>A 300 kg stone is raised slightly with a crowbar. The stone’s arm is 0.2 m, the hand’s arm is 1.5 m. What force must be applied to the bar?</p><p class="given">Given: m = 300 kg, l₂ = 0.2 m, l₁ = 1.5 m, g ≈ 9.8 N/kg</p><div class="sol"><p>1) The stone’s weight: F₂ = m·g = 300 · 9.8 = 2,940 N.<br>2) The law of the lever: F₁ · l₁ = F₂ · l₂, so F₁ = F₂ · l₂ / l₁ = 2,940 · 0.2 / 1.5 = 392 N.</p><p><strong>Answer:</strong> about 392 N — like the weight of a 40 kg load. The gain in force is 1.5 / 0.2 = 7.5 times; the end of the bar that you push moves 7.5 times farther.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. Качели во дворе</span><span data-l="en">Problem 2. A seesaw in the yard</span></summary>
+<div data-l="ru"><p>На качелях мальчик массой 30 кг сидит в 2 м от опоры. Где должна сесть девочка массой 20 кг, чтобы качели были в равновесии?</p><p class="given">Дано: m₁ = 30 кг, l₁ = 2 м, m₂ = 20 кг</p><div class="sol"><p>Силы тяжести пропорциональны массам, g сокращается: m₁ · l₁ = m₂ · l₂, откуда l₂ = m₁ · l₁ / m₂ = 30 · 2 / 20 = 3 м.</p><p><strong>Ответ:</strong> в 3 м от опоры, по другую сторону от мальчика. Лёгкая девочка должна сидеть дальше.</p></div></div>
+<div data-l="en"><p>On a seesaw a boy of mass 30 kg sits 2 m from the pivot. Where must a girl of mass 20 kg sit for the seesaw to balance?</p><p class="given">Given: m₁ = 30 kg, l₁ = 2 m, m₂ = 20 kg</p><div class="sol"><p>The weights are proportional to the masses, g cancels: m₁ · l₁ = m₂ · l₂, so l₂ = m₁ · l₁ / m₂ = 30 · 2 / 20 = 3 m.</p><p><strong>Answer:</strong> 3 m from the pivot, on the other side from the boy. The lighter girl must sit farther out.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Подвижный блок</span><span data-l="en">Problem 3. A movable pulley</span></summary>
+<div data-l="ru"><p>Груз массой 80 кг поднимают на 3 м с помощью подвижного блока. Какая нужна сила в идеальном случае? Сколько верёвки придётся вытянуть? Какая нужна сила, если КПД блока 90 %?</p><p class="given">Дано: m = 80 кг, h = 3 м, n = 2, η = 0,9, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Идеально: F = m·g / n = 80 · 9,8 / 2 = 392 Н.<br>2) Верёвки: n · h = 2 · 3 = 6 м.<br>3) Полезная работа A<sub>п</sub> = m·g·h = 784 · 3 = 2352 Дж. Затраченная A<sub>з</sub> = A<sub>п</sub> / η ≈ 2613 Дж, значит, F = A<sub>з</sub> / (n·h) = 2613 / 6 ≈ 436 Н.</p><p><strong>Ответ:</strong> 392 Н и 6 м верёвки; при КПД 90 % — около 436 Н.</p></div></div>
+<div data-l="en"><p>A load of 80 kg is lifted 3 m with a movable pulley. What force is needed in the ideal case? How much rope must be pulled? What force is needed if the pulley’s efficiency is 90 %?</p><p class="given">Given: m = 80 kg, h = 3 m, n = 2, η = 0.9, g ≈ 9.8 N/kg</p><div class="sol"><p>1) Ideal: F = m·g / n = 80 · 9.8 / 2 = 392 N.<br>2) Rope: n · h = 2 · 3 = 6 m.<br>3) Useful work A<sub>u</sub> = m·g·h = 784 · 3 = 2,352 J. Work spent A<sub>s</sub> = A<sub>u</sub> / η ≈ 2,613 J, so F = A<sub>s</sub> / (n·h) = 2,613 / 6 ≈ 436 N.</p><p><strong>Answer:</strong> 392 N and 6 m of rope; at 90 % efficiency — about 436 N.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Доска в кузов</span><span data-l="en">Problem 4. A plank to the truck bed</span></summary>
+<div data-l="ru"><p>Мешок массой 100 кг закатывают в кузов высотой 1 м по гладкой доске длиной 4 м. Какая нужна сила вдоль доски?</p><p class="given">Дано: m = 100 кг, h = 1 м, l = 4 м, g ≈ 9,8 Н/кг</p><div class="sol"><p>F = m·g·h / l = 100 · 9,8 · 1 / 4 = 245 Н.</p><p><strong>Ответ:</strong> 245 Н — в 4 раза меньше веса мешка (980 Н). Но катить придётся 4 м вместо 1 м, и работа та же: 245 · 4 = 980 Дж.</p></div></div>
+<div data-l="en"><p>A sack of 100 kg is rolled onto a truck bed 1 m high along a smooth plank 4 m long. What force along the plank is needed?</p><p class="given">Given: m = 100 kg, h = 1 m, l = 4 m, g ≈ 9.8 N/kg</p><div class="sol"><p>F = m·g·h / l = 100 · 9.8 · 1 / 4 = 245 N.</p><p><strong>Answer:</strong> 245 N — 4 times less than the sack’s weight (980 N). But you roll it 4 m instead of 1 m, and the work is the same: 245 · 4 = 980 J.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 5. КПД наклонной плоскости</span><span data-l="en">Problem 5. Efficiency of an inclined plane</span></summary>
+<div data-l="ru"><p>Груз массой 100 кг поднимают на высоту 2 м по наклонной плоскости длиной 5 м, прикладывая вдоль неё силу 450 Н. Найдите КПД.</p><p class="given">Дано: m = 100 кг, h = 2 м, l = 5 м, F = 450 Н, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Полезная работа: A<sub>п</sub> = m·g·h = 100 · 9,8 · 2 = 1960 Дж.<br>2) Затраченная работа: A<sub>з</sub> = F · l = 450 · 5 = 2250 Дж.<br>3) η = A<sub>п</sub> / A<sub>з</sub> = 1960 / 2250 ≈ 0,87.</p><p><strong>Ответ:</strong> КПД ≈ 87 %. Остальные 13 % (290 Дж) превратились в тепло из-за трения.</p></div></div>
+<div data-l="en"><p>A load of 100 kg is raised 2 m along an inclined plane 5 m long by a force of 450 N applied along it. Find the efficiency.</p><p class="given">Given: m = 100 kg, h = 2 m, l = 5 m, F = 450 N, g ≈ 9.8 N/kg</p><div class="sol"><p>1) Useful work: A<sub>u</sub> = m·g·h = 100 · 9.8 · 2 = 1,960 J.<br>2) Work spent: A<sub>s</sub> = F · l = 450 · 5 = 2,250 J.<br>3) η = A<sub>u</sub> / A<sub>s</sub> = 1,960 / 2,250 ≈ 0.87.</p><p><strong>Answer:</strong> efficiency ≈ 87 %. The other 13 % (290 J) turned into heat because of friction.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 6. Прямая дорога и серпантин</span><span data-l="en">Problem 6. A straight road and a serpentine</span></summary>
+<div data-l="ru"><p>Автомобиль массой 1200 кг должен подняться на 300 м. Сравните силу, действующую вдоль дороги, если дорога напрямик имеет длину 1000 м, а серпантин — 3000 м. Трением пренебрегите.</p><p class="given">Дано: m = 1200 кг, h = 300 м, l₁ = 1000 м, l₂ = 3000 м, g ≈ 9,8 Н/кг</p><div class="sol"><p>1) Сила тяжести: m·g = 1200 · 9,8 = 11 760 Н.<br>2) Напрямик: F₁ = m·g·h / l₁ = 11 760 · 0,3 = 3528 Н.<br>3) Серпантин: F₂ = 11 760 · 300 / 3000 = 1176 Н.<br>4) Работа против силы тяжести в обоих случаях m·g·h = 11 760 · 300 ≈ 3,5 МДж.</p><p><strong>Ответ:</strong> 3528 Н и 1176 Н — на серпантине сила втрое меньше, а путь втрое длиннее; работа одна и та же (≈ 3,5 МДж).</p></div></div>
+<div data-l="en"><p>A car of mass 1,200 kg must climb 300 m. Compare the force along the road if the straight road is 1,000 m long and the serpentine is 3,000 m. Ignore friction.</p><p class="given">Given: m = 1,200 kg, h = 300 m, l₁ = 1,000 m, l₂ = 3,000 m, g ≈ 9.8 N/kg</p><div class="sol"><p>1) Weight: m·g = 1,200 · 9.8 = 11,760 N.<br>2) Straight: F₁ = m·g·h / l₁ = 11,760 · 0.3 = 3,528 N.<br>3) Serpentine: F₂ = 11,760 · 300 / 3,000 = 1,176 N.<br>4) The work against gravity in both cases is m·g·h = 11,760 · 300 ≈ 3.5 MJ.</p><p><strong>Answer:</strong> 3,528 N and 1,176 N — on the serpentine the force is three times smaller and the distance three times longer; the work is the same (≈ 3.5 MJ).</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: зачем удлинять дорогу</span><span data-l="en">The answer: why lengthen the road</span></h2>
+<div data-l="ru"><p>Дорога на перевал — наклонная плоскость. Подъём на высоту <em>h</em> требует одной и той же работы <em>m·g·h</em>, как ни ехать: напрямик или петлями. Золотое правило механики: выигрыша в работе нет. Серпантин не уменьшает работу, он <em>уменьшает силу</em>: чем длиннее дорога при той же высоте, тем меньше сила, которую должен создавать двигатель вдоль пути (<em>F = m·g·h / l</em>). В задаче 6 серпантин втрое длиннее, и сила втрое меньше.</p><p>Это важно на практике. Мощности двигателя и сцепления шин не хватит на очень крутой подъём, а на спуске тормоза перегреваются. Пологая дорога позволяет ехать равномерно и безопасно. Платим мы временем и расходом топлива на лишние километры — выигрыш в силе всегда стоит проигрыша в пути.</p></div>
+<div data-l="en"><p>A road up a pass is an inclined plane. Climbing a height <em>h</em> takes the same work <em>m·g·h</em> whichever way you go: straight up or by loops. The golden rule of mechanics: there is no gain in work. A serpentine does not reduce the work, it <em>reduces the force</em>: the longer the road for the same height, the smaller the force the engine must provide along the way (<em>F = m·g·h / l</em>). In problem 6 the serpentine is three times longer and the force three times smaller.</p><p>This matters in practice. An engine’s power and a tyre’s grip are not enough for a very steep climb, and on the way down the brakes overheat. A gentle road lets vehicles move steadily and safely. We pay in time and in fuel for the extra kilometres — a gain in force is always paid for by a loss in distance.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Простые механизмы, правило рычага, число частей верёвки в блоках, работа на входе и выходе, КПД —</span><span data-l="en">Simple machines, the law of the lever, rope parts in pulleys, input and output work, efficiency —</span> <a href="https://openstax.org/books/physics/pages/9-3-simple-machines" target="_blank" rel="noopener">OpenStax Physics 9.3: Simple Machines</a>, <a href="https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I:_Classical_Mechanics/25:_Simple_Machines" target="_blank" rel="noopener">LibreTexts: Simple Machines</a>, <a href="https://courses.lumenlearning.com/suny-physics/?p=1688" target="_blank" rel="noopener">Lumen Learning (SUNY Physics): Simple Machines</a></li>
+<li><span data-l="ru">Серпантин (крутые петли) на перевале Төө-Ашуу —</span><span data-l="en">The hairpin turns of the Töö-Ashuu pass —</span> <a href="https://too.kg/en/too-ashuu-pass/" target="_blank" rel="noopener">too.kg: Too-Ashuu pass</a>, <a href="https://en.wikipedia.org/wiki/T%C3%B6%C3%B6_Ashuu" target="_blank" rel="noopener">Wikipedia: Töö Ashuu</a></li>
+<li><span data-l="ru">КПД двигателя внутреннего сгорания — около 20–30 %, электродвигателя — около 90 % —</span><span data-l="en">Efficiency of an internal combustion engine about 20–30 %, of an electric motor about 90 % —</span> <a href="https://sites.google.com/view/electricmotiontech-com/home/ev-tech-101/efficiency" target="_blank" rel="noopener">Electric Motion Tech: Efficiency</a>, <a href="https://www.energy.gov/cmei/vehicles/articles/fotw-1360-sept-16-2024-typical-ev-87-91-efficient-compared-30-conventional" target="_blank" rel="noopener">US DOE, Fact of the Week #1360</a></li>
+<li><span data-l="ru">КПД гидротурбин — как в главе 5.</span><span data-l="en">Hydro turbine efficiency — as in chapter 5.</span></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные. Значения КПД и μ в моделях — условные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original. The efficiency and μ values in the models are assumed.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="05-work-power-energy.html">← <span data-l="ru">Глава 05 · Работа, мощность, энергия</span><span data-l="en">Chapter 05 · Work, power, energy</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Блок I пройден — дальше новые блоки</span><span data-l="en">Block I complete — new blocks ahead</span></span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 06</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 06</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const G=9.8;
+const T={
+ru:{J:" Дж",kJ:" кДж",N:" Н",Nm:" Н·м",m:" м",kg:" кг",
+levLabel:"Рычаг с двумя грузами на разных расстояниях от опоры",pulLabel:"Груз, поднимаемый с помощью блоков",incLabel:"Груз на наклонной плоскости",
+levBal:"Рычаг в равновесии: моменты равны (F₁·l₁ = F₂·l₂).",levL:"Перевешивает левая сторона: её момент больше.",levR:"Перевешивает правая сторона: её момент больше.",
+sys:["Неподвижный блок (n = 1)","Подвижный блок (n = 2)","Полиспаст (n = 3)","Полиспаст (n = 4)"],
+pulFb:(n,gain)=>n===1?"Неподвижный блок меняет направление силы, но выигрыша в силе нет.":"Выигрыш в силе — в "+gain+" раза, а верёвки вытянуто в "+n+" раза больше, чем поднят груз. Выигрыша в работе нет.",
+incNo:"Без трения: F = m·g·h/l. Работа затраченная равна полезной, КПД 100 %.",incYes:"Трение добавляет силу и затраченную работу: КПД меньше 100 %.",
+score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{J:" J",kJ:" kJ",N:" N",Nm:" N·m",m:" m",kg:" kg",
+levLabel:"A lever with two loads at different distances from the pivot",pulLabel:"A load lifted with pulleys",incLabel:"A load on an inclined plane",
+levBal:"The lever is balanced: the moments are equal (F₁·l₁ = F₂·l₂).",levL:"The left side outweighs: its moment is larger.",levR:"The right side outweighs: its moment is larger.",
+sys:["Fixed pulley (n = 1)","Movable pulley (n = 2)","Block and tackle (n = 3)","Block and tackle (n = 4)"],
+pulFb:(n,gain)=>n===1?"A fixed pulley changes the direction of the force but gives no gain in force.":"The gain in force is "+gain+" times, while "+n+" times as much rope is pulled as the load rises. There is no gain in work.",
+incNo:"No friction: F = m·g·h/l. Work spent equals useful work, efficiency 100 %.",incYes:"Friction adds force and work spent: efficiency is below 100 %.",
+score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function num(x){return lang==="ru"?String(x).replace(/\B(?=(\d{3})+(?!\d))/g," "):String(x).replace(/\B(?=(\d{3})+(?!\d))/g,",")}
+function svgText(x,y,txt,col,anchor,size){return '<text x="'+x+'" y="'+y+'" text-anchor="'+(anchor||"start")+'" font-family="JetBrains Mono,monospace" font-size="'+(size||11)+'" fill="'+col+'">'+txt+'</text>'}
+function arrow(x1,y1,x2,y2,col,w){const dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy);if(L<3)return "";const ux=dx/L,uy=dy/L,bx=x2-ux*11,by=y2-uy*11;return '<line x1="'+x1+'" y1="'+y1+'" x2="'+bx+'" y2="'+by+'" stroke="'+col+'" stroke-width="'+w+'"/><path d="M'+x2+' '+y2+' L'+(bx-uy*6)+' '+(by+ux*6)+' L'+(bx+uy*6)+' '+(by-ux*6)+' Z" fill="'+col+'"/>'}
+
+/* ---------- Model 1: lever ---------- */
+function levState(){const m1=+$("m1").value,d1=+$("d1").value,m2=+$("m2").value,d2=+$("d2").value,M1=m1*G*d1,M2=m2*G*d2,diff=(M1-M2)/Math.max(M1,M2);return{m1,d1,m2,d2,M1,M2,diff,bal:Math.abs(diff)<0.015}}
+function drawLever(){const t=T[lang],q=levState(),th=q.bal?0:-q.diff*15,pp=80;
+ let s='<line x1="40" y1="212" x2="560" y2="212" stroke="#18181a" stroke-width="2"/><polygon points="284,212 316,212 300,168" fill="#c9c2b0" stroke="#18181a"/>';
+ s+='<g transform="translate(300,166) rotate('+th.toFixed(2)+')"><rect x="-240" y="-7" width="480" height="7" fill="#8a6a3f" stroke="#18181a"/>';
+ const b1=14+q.m1*0.9,b2=14+q.m2*0.9;
+ s+='<rect x="'+(-q.d1*pp-b1/2)+'" y="'+(-7-b1)+'" width="'+b1+'" height="'+b1+'" fill="#3f5f8f" stroke="#18181a"/>'+svgText(-q.d1*pp,-7-b1-4,q.m1+t.kg,"#18181a","middle",10);
+ s+='<rect x="'+(q.d2*pp-b2/2)+'" y="'+(-7-b2)+'" width="'+b2+'" height="'+b2+'" fill="#b6533f" stroke="#18181a"/>'+svgText(q.d2*pp,-7-b2-4,q.m2+t.kg,"#18181a","middle",10);
+ s+='<line x1="'+(-q.d1*pp)+'" y1="4" x2="0" y2="4" stroke="#3f5f8f" stroke-width="2"/><line x1="0" y1="4" x2="'+(q.d2*pp)+'" y2="4" stroke="#b6533f" stroke-width="2"/>'+svgText(-q.d1*pp/2,18,"l₁ = "+fmt(q.d1,2)+t.m,"#3f5f8f","middle",10)+svgText(q.d2*pp/2,18,"l₂ = "+fmt(q.d2,2)+t.m,"#b6533f","middle",10)+'</g>';
+ $("levSvg").innerHTML=s;
+ $("m1Out").textContent=q.m1+t.kg;$("d1Out").textContent=fmt(q.d1,2)+t.m;$("m2Out").textContent=q.m2+t.kg;$("d2Out").textContent=fmt(q.d2,2)+t.m;
+ $("mo1").textContent=fmt(q.M1,0)+t.Nm;$("mo2").textContent=fmt(q.M2,0)+t.Nm;$("moR").textContent=fmt(q.M1/q.M2,2);
+ const fb=$("levFb");fb.className="fb";if(q.bal){fb.classList.add("ok");fb.textContent=t.levBal}else{fb.textContent=q.diff>0?t.levL:t.levR}}
+["m1","d1","m2","d2"].forEach(id=>$(id).addEventListener("input",drawLever));
+$("levBal").addEventListener("click",()=>{const q=levState();let d=q.m1*q.d1/q.m2;d=Math.max(0.5,Math.min(3,Math.round(d*20)/20));$("d2").value=d;drawLever()});
+
+/* ---------- Model 2: pulleys ---------- */
+let pProg=0,pRun=false,pStart=0;const PH=2;
+function fillSys(){const sel=$("pn"),v=sel.value;sel.innerHTML="";T[lang].sys.forEach((s,i)=>{const o=document.createElement("option");o.value=i+1;o.textContent=s;sel.appendChild(o)});sel.value=v||"2"}
+function drawPul(){const t=T[lang],n=+$("pn").value,m=+$("pm").value,eta=+$("pe").value/100,F=m*G/(n*eta),Fi=m*G/n,pull=n*PH*pProg,Au=m*G*PH,As=F*n*PH;
+ const bs=34+m*0.22,cx=250,top=36,rise=pProg*PH*40,by=165-rise;
+ let s='<rect x="120" y="14" width="260" height="10" fill="#8a6a3f"/><line x1="60" y1="222" x2="540" y2="222" stroke="#18181a" stroke-width="2"/>';
+ const sp=n===1?0:24,x0=cx-sp*(n-1)/2;
+ if(n===1){s+='<circle cx="'+cx+'" cy="'+top+'" r="11" fill="#f2f2ef" stroke="#18181a" stroke-width="2"/><line x1="'+(cx-11)+'" y1="'+top+'" x2="'+(cx-11)+'" y2="'+by+'" stroke="#8a6a3f" stroke-width="2"/><line x1="'+(cx+11)+'" y1="'+top+'" x2="'+(cx+11)+'" y2="'+(top+120)+'" stroke="#8a6a3f" stroke-width="2"/>'}
+ else{for(let i=0;i<n;i++){const x=x0+i*sp;s+='<line x1="'+x+'" y1="24" x2="'+x+'" y2="'+by+'" stroke="#8a6a3f" stroke-width="2"/>'}
+  s+='<circle cx="'+x0+'" cy="'+(by-10)+'" r="9" fill="#f2f2ef" stroke="#18181a" stroke-width="2"/>'}
+ s+='<rect x="'+(cx-bs/2)+'" y="'+by+'" width="'+bs+'" height="'+bs+'" fill="#c9a46a" stroke="#18181a" stroke-width="2"/>'+svgText(cx,by+bs/2+4,m+t.kg,"#18181a","middle",10);
+ const ex=n===1?cx+11:x0+(n-1)*sp+14;
+ s+=svgText(ex+10,150,"F","#2f6f5d","start",13);
+ s+=arrow(ex,100,ex,176,"#2f6f5d",4);
+ s+='<line x1="480" y1="222" x2="480" y2="'+(222-PH*40)+'" stroke="#b6533f"/><line x1="474" y1="222" x2="486" y2="222" stroke="#b6533f"/><line x1="474" y1="'+(222-PH*40)+'" x2="486" y2="'+(222-PH*40)+'" stroke="#b6533f"/>'+svgText(470,222-PH*20,"h = 2"+t.m,"#b6533f","end",10);
+ $("pulSvg").innerHTML=s;
+ $("pmOut").textContent=m+t.kg;$("peOut").textContent=Math.round(eta*100)+" %";
+ $("pF").textContent=fmt(F,0)+t.N+" ("+(lang==="ru"?"идеал ":"ideal ")+fmt(Fi,0)+")";$("pL").textContent=fmt(pull,1)+t.m+" / "+fmt(n*PH,0)+t.m;$("pW").textContent=fmt(As,0)+" / "+fmt(Au,0)+t.J;
+ $("pulFb").textContent=t.pulFb(n,n)}
+function pulLoop(ts){if(!pRun)return;pProg=Math.min(1,(ts-pStart)/3000);drawPul();if(pProg<1)requestAnimationFrame(pulLoop);else pRun=false}
+$("pulGo").addEventListener("click",()=>{pProg=0;pRun=true;pStart=performance.now();requestAnimationFrame(pulLoop)});
+$("pulReset").addEventListener("click",()=>{pRun=false;pProg=0;drawPul()});
+["pn","pm","pe"].forEach(id=>$(id).addEventListener("input",()=>{if(!pRun)drawPul()}));
+
+/* ---------- Model 3: inclined plane ---------- */
+function drawInc(){const t=T[lang],m=+$("im").value,L=+$("il").value,mu=+$("iu").value,h=2,D=Math.sqrt(L*L-h*h),sinA=h/L,cosA=D/L,W=m*G,F0=W*sinA,F=W*(sinA+mu*cosA),Au=W*h,As=F*L,eta=Au/As;
+ const sc=Math.min(46,480/D),x0=50,y0=225,x1=x0+D*sc,y1=y0-h*sc,ang=Math.atan2(y0-y1,x1-x0)*180/Math.PI*-1;
+ let s='<polygon points="'+x0+','+y0+' '+x1+','+y0+' '+x1+','+y1+'" fill="#e3e8ec" stroke="#c4ccd2"/><line x1="30" y1="'+y0+'" x2="570" y2="'+y0+'" stroke="#18181a" stroke-width="2"/>';
+ const px=x0+D*sc*0.5,py=y0-h*sc*0.5,a=Math.atan2(y1-y0,x1-x0);
+ s+='<g transform="translate('+px+','+py+') rotate('+(a*180/Math.PI)+')"><rect x="-17" y="-22" width="34" height="22" fill="#c9a46a" stroke="#18181a" stroke-width="2"/></g>';
+ const ux=Math.cos(a),uy=Math.sin(a),cxr=px+11*Math.sin(a),cyr=py-11*Math.cos(a);
+ const Fl=Math.min(140,60*F/W+20);
+ s+=arrow(cxr,cyr,cxr+ux*Fl,cyr+uy*Fl,"#2f6f5d",4)+svgText(cxr+ux*Fl+4,cyr+uy*Fl-8,"F","#2f6f5d","start",12);
+ s+=arrow(cxr,cyr,cxr,cyr+34,"#b6533f",3)+svgText(cxr+8,cyr+34,"m·g","#b6533f","start",11);
+ s+='<line x1="'+(x1+16)+'" y1="'+y0+'" x2="'+(x1+16)+'" y2="'+y1+'" stroke="#b6533f"/>'+svgText(x1+22,(y0+y1)/2+4,"h = 2"+t.m,"#b6533f","start",11);
+ s+=svgText((x0+x1)/2,y0+24,"l = "+fmt(L,1)+t.m,"#66666b","middle",11);
+ $("incSvg").innerHTML=s;
+ $("imOut").textContent=m+t.kg;$("ilOut").textContent=fmt(L,1)+t.m;$("iuOut").textContent=fmt(mu,2);
+ $("iF0").textContent=fmt(F0,0)+t.N;$("iF").textContent=fmt(F,0)+t.N;$("iEta").textContent=fmt(eta*100,0)+" %";
+ $("iA1").textContent=num(Math.round(Au))+t.J;$("iA2").textContent=num(Math.round(As))+t.J;$("iSl").textContent=fmt(sinA*100,0)+" %";
+ const fb=$("incFb");fb.className="fb";fb.textContent=mu===0?t.incNo:t.incYes}
+["im","il","iu"].forEach(id=>$(id).addEventListener("input",drawInc));
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"При каком условии рычаг находится в равновесии?",o:[["F₁ + l₁ = F₂ + l₂","Силы и плечи не складывают; сравнивают их произведения."],["F₁ · l₁ = F₂ · l₂","Верно: моменты сил, действующих в противоположные стороны, равны."],["F₁ = F₂ всегда","Силы могут быть разными, если плечи тоже разные."]]},
+ en:{q:"Under what condition is a lever in balance?",o:[["F₁ + l₁ = F₂ + l₂","Forces and arms are not added; their products are compared."],["F₁ · l₁ = F₂ · l₂","Correct: the moments of the forces turning in opposite directions are equal."],["F₁ = F₂ always","The forces can differ if the arms differ too."]]},a:1},
+{ru:{q:"Плечо руки у лома в 5 раз длиннее плеча камня. Какой выигрыш в силе?",o:[["В 5 раз","Верно: F₁ / F₂ = l₂ / l₁ = 1/5, сила руки в 5 раз меньше силы тяжести камня."],["В 25 раз","Выигрыш равен отношению плеч, а не его квадрату."],["Выигрыша нет","Длинное плечо как раз и даёт выигрыш в силе."]]},
+ en:{q:"The hand’s arm of a crowbar is 5 times longer than the stone’s arm. What is the gain in force?",o:[["5 times","Correct: F₁ / F₂ = l₂ / l₁ = 1/5, the hand’s force is 5 times smaller than the stone’s weight."],["25 times","The gain equals the ratio of arms, not its square."],["There is no gain","The long arm is exactly what gives the gain in force."]]},a:0},
+{ru:{q:"Чем приходится платить за выигрыш в силе при использовании рычага?",o:[["Проигрышем в пути","Верно: конец длинного плеча проходит больший путь, чем конец короткого."],["Проигрышем в массе груза","Масса груза от рычага не зависит."],["Ничем — выигрыш бесплатный","Золотое правило механики: выигрыш в силе — проигрыш в пути."]]},
+ en:{q:"What do we pay for a gain in force when using a lever?",o:[["A loss in distance","Correct: the end of the long arm moves farther than the end of the short arm."],["A loss in the load’s mass","The load’s mass does not depend on the lever."],["Nothing — the gain is free","The golden rule of mechanics: a gain in force is a loss in distance."]]},a:0},
+{ru:{q:"Что даёт неподвижный блок?",o:[["Выигрыш в силе в 2 раза","Выигрыш в 2 раза даёт подвижный блок."],["Изменение направления силы без выигрыша в силе","Верно: тянем вниз — груз идёт вверх, но сила та же."],["Выигрыш в работе","Выигрыша в работе не даёт ни один механизм."]]},
+ en:{q:"What does a fixed pulley give?",o:[["A 2-times gain in force","A 2-times gain is given by a movable pulley."],["A change in the direction of the force with no gain in force","Correct: pull down — the load goes up, but the force is the same."],["A gain in work","No machine gives a gain in work."]]},a:1},
+{ru:{q:"Груз весом 100 Н поднимают подвижным блоком (идеальный случай). С какой силой нужно тянуть верёвку?",o:[["100 Н","Это вес груза — без блока или с неподвижным блоком."],["200 Н","Подвижный блок уменьшает силу, а не увеличивает."],["50 Н","Верно: две части верёвки поддерживают груз, F = 100 / 2 = 50 Н."]]},
+ en:{q:"A 100 N load is lifted with a movable pulley (ideal case). With what force must the rope be pulled?",o:[["100 N","That is the load’s weight — with no pulley or with a fixed pulley."],["200 N","A movable pulley reduces the force, it does not increase it."],["50 N","Correct: two rope parts support the load, F = 100 / 2 = 50 N."]]},a:2},
+{ru:{q:"Даёт ли какой-нибудь простой механизм выигрыш в работе?",o:[["Да, рычаг","Рычаг даёт выигрыш в силе, но не в работе."],["Да, наклонная плоскость","Наклонная плоскость уменьшает силу, а путь увеличивает: работа та же."],["Нет, ни один не даёт","Верно: золотое правило механики следует из закона сохранения энергии."]]},
+ en:{q:"Does any simple machine give a gain in work?",o:[["Yes, the lever","A lever gives a gain in force, not in work."],["Yes, the inclined plane","An inclined plane reduces force but increases distance: the work is the same."],["No, none does","Correct: the golden rule of mechanics follows from the law of conservation of energy."]]},a:2},
+{ru:{q:"Полезная работа механизма 80 Дж, затраченная 100 Дж. Каков КПД?",o:[["80 %","Верно: η = A_п / A_з = 80 / 100 = 0,8 = 80 %."],["125 %","КПД не может быть больше 100 %. Это отношение затраченной работы к полезной — наоборот."],["20 %","Это доля потерь, а не КПД."]]},
+ en:{q:"A machine’s useful work is 80 J and the work spent is 100 J. What is the efficiency?",o:[["80 %","Correct: η = A_u / A_s = 80 / 100 = 0.8 = 80 %."],["125 %","Efficiency cannot exceed 100 %. That is work spent divided by useful work — the wrong way round."],["20 %","That is the fraction lost, not the efficiency."]]},a:0},
+{ru:{q:"Как изменится сила, нужная для подъёма груза по гладкой наклонной плоскости, если при той же высоте её длину увеличить вдвое?",o:[["Уменьшится вдвое","Верно: F = m·g·h / l, длина вдвое больше — сила вдвое меньше, а путь вдвое длиннее."],["Увеличится вдвое","Наоборот: чем длиннее и положе плоскость, тем меньше сила."],["Не изменится","Сила зависит от отношения h / l, а оно изменилось."]]},
+ en:{q:"How does the force needed to raise a load up a smooth inclined plane change if, for the same height, its length is doubled?",o:[["It halves","Correct: F = m·g·h / l, with twice the length the force is half, and the distance is twice as long."],["It doubles","The opposite: the longer and gentler the plane, the smaller the force."],["It does not change","The force depends on the ratio h / l, and that changed."]]},a:0}];
+let answers={};const ORD=[[1,0,2],[0,2,1],[2,1,0],[0,1,2],[2,0,1],[1,2,0],[0,2,1],[2,0,1]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"06"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Простые механизмы — Атлас физики":"Simple machines — Atlas of Physics";
+ $("levSvg").setAttribute("aria-label",T[lang].levLabel);$("pulSvg").setAttribute("aria-label",T[lang].pulLabel);$("incSvg").setAttribute("aria-label",T[lang].incLabel);
+ fillSys();drawLever();drawPul();drawInc();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+apply();
+})();
+</script>
+</body></html>
