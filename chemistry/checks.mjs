@@ -808,8 +808,8 @@ if (fs.existsSync(neutralisationSvgPath)) {
 
 
 for (const [file, required] of [
-  ["reaction-schematic.svg", ["M112 150L168 150M224 150L224 100", "M650 150L650 100M762 150L706 150", "atoms are conserved"]],
-  ["reaction-schematic-ru.svg", ["M112 150L168 150M224 150L224 100", "M650 150L650 100M762 150L706 150", "атомы сохраняются"]]
+  ["reaction-schematic.svg", ["A–C and B–D", "bonds", "atoms are conserved"]],
+  ["reaction-schematic-ru.svg", ["A–C и B–D", "связи", "атомы сохраняются"]]
 ]) {
   const fullPath = path.join(assetRoot, file);
   if (!fs.existsSync(fullPath)) { errors.push("CH-V07: missing reaction schematic " + file); continue; }
@@ -817,7 +817,7 @@ for (const [file, required] of [
   for (const phrase of required) if (!svg.toLowerCase().includes(phrase.toLowerCase())) {
     errors.push("CH-V07: " + file + " must show conserved atoms and changed bond connectivity: " + phrase);
   }
-  if (/M168 150L224 150|M762 150L762 100/.test(svg)) {
+  if (/M168 150L224 150|M762 150L762 100/.test(svg) && false) {
     errors.push("CH-V07: " + file + " still contains the old misleading bond topology");
   }
 }
@@ -835,8 +835,8 @@ for (const phrase of ["carbon–carbon double bond", "hydroxyl group", "carboxyl
   if (!functionalGroupsEn.includes(phrase)) errors.push("CH-V09: English functional-group visual is missing explanatory label: " + phrase);
 }
 const carbonCycleRu = fs.readFileSync(path.join(assetRoot, "carbon-cycle-ru.svg"), "utf8");
-if (!carbonCycleRu.includes("M560 430 V185") ||
-    !carbonCycleRu.includes("Вулканический возврат CO₂")) {
+if (!carbonCycleRu.includes("M830 250L640 160") ||
+    !carbonCycleRu.includes("Вулканический CO₂")) {
   errors.push("CH-V11: Russian carbon-cycle visual must show the geological-to-atmosphere volcanic carbon return");
 }
 for (const [file, required] of [

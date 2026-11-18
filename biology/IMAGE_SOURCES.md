@@ -153,3 +153,6 @@ Any external evaluation, consultation, expert review, school-teacher assessment,
 The former “rights authority / licence decision pending” wording is superseded for use inside this Atlas. The image was generated in ChatGPT at the project owner's explicit request for this project. OpenAI Terms of Use effective 1 January 2026, Section “Content”, state that as between the user and OpenAI, and to the extent permitted by applicable law, the user owns Output and OpenAI assigns its right, title and interest, if any, in Output: https://openai.com/policies/terms-of-use/.
 
 **Decision:** project-use authorization is **PASS** for inclusion in the owner's non-commercial Atlas. This is not a declaration that the image is copyrightable in every jurisdiction, nor does it assign a Creative Commons/public-domain licence. The asset remains labelled as AI-generated educational artwork, with provenance disclosed. Do not claim third-party source or third-party endorsement.
+
+## Оптимизация размера (18.11.2026)
+Фотографии в biology/images/generated уменьшены до 1600 px по длинной стороне (WebP, качество 80) для быстрой загрузки на телефонах; содержание, авторство и лицензии не изменены — исходные файлы доступны по ссылкам в этом реестре.

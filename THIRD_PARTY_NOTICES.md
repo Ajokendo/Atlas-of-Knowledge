@@ -21,6 +21,8 @@
 
 **Химия / Chemistry.** Три SVG — `chemistry/assets/carbon-cycle.svg`, `electron-cloud.svg`, `reaction-schematic.svg` — были сгенерированы ChatGPT при создании атласа химии (добавлены 31.10.2026, коммиты `e772ee79d8`, `afca6cb0ed`, `794d5ca15a`). Это не чужие изображения, но они противоречат правилу «не генерировать научные изображения нейросетью»; их нужно проверить и при необходимости перерисовать. / Three AI-generated SVGs in Chemistry, added 2026-10-31; to be reviewed and redrawn if needed under the current rules.
 
+**Обновление 18.11.2026 / Update:** эти три SVG (русские и английские версии) перерисованы заново как собственные схемы проекта: круговорот углерода, электронная плотность (s- и p-орбитали), перегруппировка атомов. Файлы ChatGPT заменены; остаются в истории git. / The three SVGs (RU and EN) were redrawn as original project diagrams; the ChatGPT-generated files are replaced and remain only in git history.
+
 ## 3. Шрифты / Fonts
 
 Сайт загружает с Google Fonts шрифты EB Garamond, Inter и JetBrains Mono — все под SIL Open Font License 1.1. Файлы шрифтов в репозиторий не включены. / Loaded from Google Fonts, all under the SIL Open Font License 1.1; not bundled.
