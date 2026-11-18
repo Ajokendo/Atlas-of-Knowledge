@@ -1370,3 +1370,47 @@ The Chapter 08 browser smoke test now checks that all 14 RU/EN Markdown image em
 | 26-G | assets/diagrams/26-G-water-sanitation-chain-bilingual.svg | Автор схемы: проект (Азамат Орозобеков и участники; подготовлено с помощью ИИ), CC BY 4.0; основа карт — Natural Earth (общественное достояние) | Схема; положение объектов ориентировочное | Natural Earth |
 | 26-J | assets/diagrams/26-J-mining-obligations-cycle-bilingual.svg | Автор схемы: проект (Азамат Орозобеков и участники; подготовлено с помощью ИИ), CC BY 4.0; основа карт — Natural Earth (общественное достояние) | Схема; положение объектов ориентировочное | Natural Earth |
 | 26-L | assets/diagrams/26-L-scenarios-2050-bilingual.svg | Автор схемы: проект (Азамат Орозобеков и участники; подготовлено с помощью ИИ), CC BY 4.0; основа карт — Natural Earth (общественное достояние) | Схема; положение объектов ориентировочное | Natural Earth |
+
+
+## Карты местоположения Кыргызстана (добавлены 19.11.2026, главы 18, 20–22, 25)
+
+Генератор: `tools/geo-maps/loc.py` + `locdata.py`; вставка в главы — `insert.py`. Файлы `NN-L-*-bilingual.svg` в `geography/assets/diagrams/`.
+
+- Авторские SVG-карты: слева — Кыргызстан с рамкой увеличения, справа — увеличенный фрагмент.
+- Контуры стран, озеро Иссык-Куль, русло Нарына и Токтогульское водохранилище — **Natural Earth** (общественное достояние), версия 10m с GitHub `nvkelso/natural-earth-vector`, загружено 19.11.2026.
+- Русла рек Карадарья, Чу, Талас, Сары-Джаз и положение небольших озёр, вершин, городов, парков, Кумтора и аэропорта проведены **по опорным координатам вручную и приблизительно** (подписано на самих картах). Для точных русел и границ нужны официальные геоданные (см. открытую задачу «замена схем на карты с официальными геоданными»).
+- Овалы у парков и заповедников показывают район, а не границы.
+
+| Файл | Где | Объект |
+|---|---|---|
+| 18-L-jengish-chokusu-bilingual.svg | гл. 18 | Пик Жеңиш |
+| 18-L-khan-tengri-bilingual.svg | гл. 18 | Хан-Тенгри |
+| 18-L-lenin-peak-bilingual.svg | гл. 18 | Пик Ленина |
+| 20-L-naryn-bilingual.svg | гл. 20 | Река Нарын |
+| 20-L-kara-darya-bilingual.svg | гл. 20 | Карадарья |
+| 20-L-chu-bilingual.svg | гл. 20 | Река Чу |
+| 20-L-talas-bilingual.svg | гл. 20 | Река Талас |
+| 20-L-sary-jaz-bilingual.svg | гл. 20 | Сары-Джаз |
+| 20-L-chatkal-bilingual.svg | гл. 20 | Чаткал и реки юго-запада. |
+| 20-L-issyk-kul-bilingual.svg | гл. 20 | Иссык-Куль |
+| 20-L-son-kul-bilingual.svg | гл. 20 | Сон-Куль |
+| 20-L-chatyr-kul-bilingual.svg | гл. 20 | Чатыр-Куль |
+| 20-L-sary-chelek-bilingual.svg | гл. 20 | Сары-Челек |
+| 20-L-merzbacher-bilingual.svg | гл. 20 | Озеро Мерцбахера |
+| 20-L-toktogul-bilingual.svg | гл. 20 | Токтогульское водохранилище |
+| 22-L-sary-chelek-reserve-bilingual.svg | гл. 22 | Сары-Челекский заповедник |
+| 22-L-ala-archa-bilingual.svg | гл. 22 | Национальный парк «Ала-Арча» |
+| 22-L-karakol-park-bilingual.svg | гл. 22 | Природный парк «Каракол» |
+| 22-L-chon-kemin-bilingual.svg | гл. 22 | Парк «Чон-Кемин» |
+| 22-L-khan-tengri-park-bilingual.svg | гл. 22 | Природный парк «Хан-Тенири» |
+| 22-L-issyk-kul-biosphere-bilingual.svg | гл. 22 | Иссык-Кульская биосферная территория |
+| 25-L-bishkek-bilingual.svg | гл. 25 | Бишкек |
+| 25-L-osh-bilingual.svg | гл. 25 | Ош |
+| 25-L-karakol-bilingual.svg | гл. 25 | Каракол |
+| 25-L-jalal-abad-bilingual.svg | гл. 25 | Джалал-Абад |
+| 25-L-naryn-city-bilingual.svg | гл. 25 | Нарын |
+| 25-L-talas-city-bilingual.svg | гл. 25 | Талас |
+| 25-L-batken-bilingual.svg | гл. 25 | Города Баткенской области |
+| 25-L-toktogul-hpp-bilingual.svg | гл. 25 | Токтогульская ГЭС |
+| 25-L-kumtor-bilingual.svg | гл. 25 | Месторождение Кумтор |
+| 25-L-manas-airport-bilingual.svg | гл. 25 | Аэропорт «Манас» |
