@@ -138,5 +138,5 @@ def build(c):
     head, k1 = re.subn(r'<title>.*?</title>', '<title>%s — Атлас математики</title>' % c['title'][0], head)
     head, k2 = re.subn(r'(<meta name="description" content=")[^"]*(")', lambda m: m.group(1) + c['desc'] + m.group(2), head)
     assert k1 == 1 and k2 == 1, (k1, k2)
-    open(BASE + c['slug'], 'w', encoding='utf-8').write(head.replace('</style>','h1{overflow-wrap:anywhere}</style>',1) + '\n' + body + js)
+    open(BASE + c['slug'], 'w', encoding='utf-8').write(head.replace('</style>','h1{overflow-wrap:anywhere}.stats{grid-template-columns:repeat(3,minmax(0,1fr))}.stat strong{overflow-wrap:anywhere;hyphens:auto}@media(max-width:560px){.stat strong{font-size:15px;line-height:1.25}}</style>',1) + '\n' + body + js)
     print('built', c['slug'])

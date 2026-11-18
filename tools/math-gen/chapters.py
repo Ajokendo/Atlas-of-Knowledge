@@ -16,6 +16,10 @@ BLOCKS = [
  dict(id='IV', ru='Отрицательные числа, выражения, уравнения, координаты', en='Negative numbers, expressions, equations, coordinates',
       note_ru='Начало алгебры: числа со знаком, координаты, буквенные выражения, линейные уравнения, степени, многочлены, системы. Уровень — основы.',
       note_en='The start of algebra: signed numbers, coordinates, letter expressions, linear equations, powers, polynomials, systems. Level — basics.'),
+
+ dict(id='V', ru='Планиметрия', en='Plane geometry',
+      note_ru='Геометрия на плоскости: углы, треугольники, четырёхугольники, окружность, площади, подобие, теорема Пифагора, тригонометрия в прямоугольном треугольнике. Уровень — основы.',
+      note_en='Geometry in the plane: angles, triangles, quadrilaterals, the circle, areas, similarity, the Pythagorean theorem, trigonometry in a right triangle. Level — basics.'),
 ]
 # n, slug, ru, en, descRu, descEn, block
 CHAPTERS = [
@@ -75,4 +79,24 @@ CHAPTERS = [
   'Сложение и умножение многочленов, квадрат суммы и разность квадратов.', 'Adding and multiplying polynomials, the square of a sum and the difference of squares.', 'IV'),
  ('28', '28-linear-systems.html', 'Системы линейных уравнений', 'Systems of linear equations',
   'Графический способ, подстановка, сложение.', 'The graphical method, substitution, addition.', 'IV'),
+ ('29', '29-angles-parallel.html', 'Углы и параллельные прямые', 'Angles and parallel lines',
+  'Смежные и вертикальные углы, углы при параллельных прямых и секущей.', 'Adjacent and vertical angles, angles at parallel lines and a transversal.', 'V'),
+ ('30', '30-triangles-congruence.html', 'Треугольники и признаки равенства', 'Triangles and congruence',
+  'Виды треугольников, три признака равенства, равнобедренный треугольник.', 'Kinds of triangles, three congruence tests, the isosceles triangle.', 'V'),
+ ('31', '31-triangle-angle-sum.html', 'Сумма углов и неравенство треугольника', 'Angle sum and the triangle inequality',
+  'Сумма углов 180°, внешний угол, когда существует треугольник.', 'The angle sum 180°, the exterior angle, when a triangle exists.', 'V'),
+ ('32', '32-quadrilaterals.html', 'Четырёхугольники', 'Quadrilaterals',
+  'Параллелограмм, прямоугольник, ромб, квадрат, трапеция.', 'Parallelogram, rectangle, rhombus, square, trapezoid.', 'V'),
+ ('33', '33-circle.html', 'Окружность и круг', 'The circle',
+  'Радиус, хорда, касательная, длина окружности, вписанные углы.', 'Radius, chord, tangent, circumference, inscribed angles.', 'V'),
+ ('34', '34-areas.html', 'Площади фигур', 'Areas of figures',
+  'Площади треугольника, параллелограмма, трапеции, круга.', 'Areas of a triangle, parallelogram, trapezoid, circle.', 'V'),
+ ('35', '35-similarity.html', 'Подобие фигур', 'Similar figures',
+  'Подобные треугольники, коэффициент подобия, измерение высоты по тени.', 'Similar triangles, the similarity ratio, measuring height by a shadow.', 'V'),
+ ('36', '36-pythagoras.html', 'Теорема Пифагора', 'The Pythagorean theorem',
+  'Теорема, обратная теорема, пифагоровы тройки.', 'The theorem, its converse, Pythagorean triples.', 'V'),
+ ('37', '37-right-triangle-trig.html', 'Тригонометрия в прямоугольном треугольнике', 'Trigonometry in a right triangle',
+  'Синус, косинус, тангенс острого угла и решение прямоугольных треугольников.', 'Sine, cosine, tangent of an acute angle and solving right triangles.', 'V'),
+ ('38', '38-sine-cosine-laws.html', 'Теоремы синусов и косинусов', 'The laws of sines and cosines',
+  'Решение произвольных треугольников.', 'Solving arbitrary triangles.', 'V'),
 ]
