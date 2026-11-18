@@ -132,6 +132,24 @@
 | PH-43-01 | 43 | Параллакс (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-43-02 | 43 | Цвет и светимость звезды (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-43-03 | 43 | Телескоп и атмосфера (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-44-01 | 44 | Уравнение состояния (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-44-02 | 44 | Шина и температура (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-44-03 | 44 | Скорость молекул (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-45-01 | 45 | Плоский конденсатор (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-45-02 | 45 | Соединение конденсаторов (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-45-03 | 45 | Зарядка через резистор (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-46-01 | 46 | Заряд в магнитном поле (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-46-02 | 46 | Циклотрон (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-46-03 | 46 | Масс-спектрометр (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-47-01 | 47 | Переменное напряжение (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-47-02 | 47 | Конденсатор и катушка (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-47-03 | 47 | Резонанс в контуре (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-48-01 | 48 | Шкала волн (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-48-02 | 48 | Радиосвязь (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-48-03 | 48 | Ослабление с расстоянием (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-49-01 | 49 | Замедление времени (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-49-02 | 49 | Поправка GPS (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-49-03 | 49 | Сложение скоростей (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -241,6 +259,14 @@
 | 43 | Параллакс, закон Вина (b = 2,898·10⁶ нм·К), светимость, дифракционный предел, сиинг; Проксима Центавра ≈ 0,77″ | Wikipedia: https://en.wikipedia.org/wiki/Stellar_parallax ; https://en.wikipedia.org/wiki/Wien%27s_displacement_law ; https://en.wikipedia.org/wiki/Astronomical_seeing ; OpenStax Astronomy 2e § 17.2 | 18.11.2026 |
 | 43 | Тянь-Шаньская астрономическая обсерватория: близ Алматы, ≈ 2700–2800 м, основана 1957, два телескопа по 1 м | Wikipedia: https://en.wikipedia.org/wiki/Tien_Shan_Astronomical_Observatory ; Tengrinews 2014: https://en.tengrinews.kz/science/Kazakhstan-steps-up-space-research-254980 | 18.11.2026 |
 | 38–43 | Условные значения моделей (не факты): работы выхода, мощности и энергии в задачах, мощность источника 100 мкЗв/ч и слой половинного ослабления свинца 0,65 см, значения сиинга, правило удержания атмосферы (6 скоростей молекул), параметры звёзд в моделях | Авторские допущения | 18.11.2026 |
+| 44 | Уравнение состояния, газовые законы, кинетическая теория; R = 8,314; N_A = 6,02·10²³; давление на высоте (стандартная атмосфера) | OpenStax University Physics Vol. 2, гл. 2: https://openstax.org/books/university-physics-volume-2/pages/2-introduction ; Wikipedia, Ideal gas law и Atmospheric pressure | 18.11.2026 |
+| 45 | Ёмкость, конденсаторы, RC-цепь; электрическая прочность воздуха ≈ 3 МВ/м; ёмкостные сенсорные экраны | OpenStax University Physics Vol. 2, гл. 8: https://openstax.org/books/university-physics-volume-2/pages/8-introduction ; Wikipedia, Dielectric strength и Touchscreen | 18.11.2026 |
+| 46 | Сила Лоренца, циклотрон, масс-спектрометр; магнитосфера | OpenStax University Physics Vol. 2, гл. 11: https://openstax.org/books/university-physics-volume-2/pages/11-introduction ; Wikipedia, Lorentz force, Cyclotron, Magnetosphere | 18.11.2026 |
+| 47 | Переменный ток, действующее значение, реактивное сопротивление, резонанс | OpenStax University Physics Vol. 2, гл. 15: https://openstax.org/books/university-physics-volume-2/pages/15-introduction | 18.11.2026 |
+| 47 | Линия Датка–Кемин: около 450 км, 500 кВ, связала юг и север Кыргызстана в обход соседних стран | The Bulletin: https://thebulletin.news/?p=610 ; Transformer Magazine: https://transformer-magazine.com/news/kyrgyzstan-secures-independent-power-grid/ | 18.11.2026 |
+| 48 | Электромагнитные волны, шкала, антенны, плотность потока; Максвелл и Герц | OpenStax University Physics Vol. 2, гл. 16: https://openstax.org/books/university-physics-volume-2/pages/16-introduction ; Wikipedia, Electromagnetic spectrum, Maxwell's equations, Heinrich Hertz | 18.11.2026 |
+| 49 | Специальная теория относительности; поправки GPS (≈ −7 и +46 мкс/сут, итог ≈ +38 мкс/сут) | OpenStax University Physics Vol. 3, гл. 5: https://openstax.org/books/university-physics-volume-3/pages/5-introduction ; Ashby, Living Reviews in Relativity: https://www.livingreviews.org/lrr-2003-1 ; Wikipedia, Error analysis for the GPS | 18.11.2026 |
+| 44–49 | Условные значения моделей (не факты): параметры газа в моделях, ε диэлектриков, значения B, скоростей и радиусов, R, L, C, частоты служб, мощности передатчиков, параметры корабля | Авторские допущения | 18.11.2026 |
 | 21–24 | Условные значения моделей (не факты): расстояния до магнита, проницаемость сердечника 500, сопротивление цепи 0,5 Ом, напор 130 м в задаче, сопротивление линии, параметры ползунков | — | 18.11.2026 |
 | 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
