@@ -8,6 +8,7 @@
 - **Химия** — `chemistry/`.
 - **Биология** — `biology/`.
 - **География** — `geography/` (исходники глав в `geography/chapters/*.md`, страницы для чтения в `geography/read/`).
+- **Математика** — `math/` (план — `math/ROADMAP.md`; генератор глав — `tools/math-gen/`). Блок I «Числа и счёт», главы 1–8.
 
 Главная страница — `index.html` (портал). `catalog.html` — каталог глав, `progress.html` — личный прогресс ученика.
 

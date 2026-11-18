@@ -11,6 +11,10 @@ const files = [
   ...readdirSync("physics/chapters")
     .filter((name) => name.endsWith(".html"))
     .map((name) => "physics/chapters/" + name),
+  "math/index.html",
+  ...readdirSync("math/chapters")
+    .filter((name) => name.endsWith(".html"))
+    .map((name) => "math/chapters/" + name),
 ];
 
 let checked = 0;
