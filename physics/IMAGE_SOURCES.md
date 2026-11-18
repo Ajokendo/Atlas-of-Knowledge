@@ -42,6 +42,27 @@
 | PH-13-01 | 13 | Склон горы и температура (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-13-02 | 13 | Бриз у озера (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-13-03 | 13 | Парниковый эффект (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-14-01 | 14 | Заряды и стрелки сил (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-14-02 | 14 | Расчёска и волосы: переход электронов (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-14-03 | 14 | Гроза: вспышка и гром (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-15-01 | 15 | Поле точечного заряда (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-15-02 | 15 | Заряженные пластины и электрон (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-15-03 | 15 | Источник напряжения и груз (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-16-01 | 16 | Провод с электронами (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-16-02 | 16 | Гирлянда: последовательно и параллельно (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-16-03 | 16 | Правила для токов и напряжений (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-17-01 | 17 | График закона Ома (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-17-02 | 17 | Провод и материал (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-17-03 | 17 | Два резистора (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-18-01 | 18 | Энергия прибора (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-18-02 | 18 | Тепло в проводнике (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-18-03 | 18 | Автомат и перегрузка (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-19-01 | 19 | Электролиз (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-19-02 | 19 | Ячейка с раствором (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-19-03 | 19 | Пробой воздуха на высоте (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-20-01 | 20 | Ток через тело (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-20-02 | 20 | УЗО (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-20-03 | 20 | Заземление (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -104,3 +125,15 @@
 | 13 | Эффективная температура Земли ≈ 255 К (−18 °C), средняя ≈ 15 °C, парниковая добавка ≈ 33 К; S ≈ 1361 Вт/м²; альбедо ≈ 0,3 | NASA, Causes of climate change: https://science.nasa.gov/climate-change/causes/; Wikipedia, Effective temperature: https://en.wikipedia.org/wiki/Effective_temperature | 18.11.2026 |
 | 08–13 | Условные значения моделей (не факты): массы, мощности, КПД нагрева, толщины слоёв, массы слоёв в модели бриза; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 08–13 | Тепловые явления входят в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
+| 14 | Элементарный заряд e ≈ 1,602·10⁻¹⁹ Кл; закон Кулона, k ≈ 9·10⁹ Н·м²/Кл² | NIST: https://physics.nist.gov/cgi-bin/cuu/Value?e; Wikipedia, Coulomb's law: https://en.wikipedia.org/wiki/Coulomb%27s_law | 18.11.2026 |
+| 14 | Молния: ток ≈ 30 000 А, температура канала ≈ 30 000 °C, напряжение сотни миллионов вольт; расстояние по задержке грома | Britannica: https://www.britannica.com/science/thunderstorm/Cloud-to-ground-lightning; UNDRR: https://www.preventionweb.net/understanding-disaster-risk/terminology/hips/mh0102; Alloprof: https://www.alloprof.qc.ca/en/students/vl/sciences/lightning-s1365 | 18.11.2026 |
+| 15 | Электрическая прочность воздуха ≈ 3 МВ/м; масса электрона 9,109·10⁻³¹ кг | Wikipedia, Dielectric strength: https://en.wikipedia.org/wiki/Dielectric_strength; NIST: https://physics.nist.gov/cgi-bin/cuu/Value?me | 18.11.2026 |
+| 15 | Напряжение сети в Кыргызстане 220 В, 50 Гц; розетки C и F | CIA World Factbook: https://www.cia.gov/the-world-factbook/countries/kyrgyzstan/travel-facts; World Standards: https://www.worldstandards.eu/?p=13756 | 18.11.2026 |
+| 16 | Концентрация свободных электронов в меди 8,5·10²⁸ м⁻³; скорость дрейфа | Wikipedia, Drift velocity: https://en.wikipedia.org/wiki/Drift_velocity | 18.11.2026 |
+| 17 | Удельные сопротивления меди, алюминия, железа, нихрома при 20 °C | Electronics Notes: https://www.electronics-notes.com/articles/basic_concepts/resistance/electrical-resistivity-table-materials.php; HyperPhysics: https://hyperphysics.gsu.edu/hbase/Tables/rstiv.html | 18.11.2026 |
+| 18 | Мощность тока P = UI, закон Джоуля — Ленца, 1 кВт·ч = 3,6 МДж | OpenStax University Physics Vol. 2, 9.4: https://openstax.org/books/university-physics-volume-2/pages/9-4-electrical-energy-and-power; Berkeley: https://w.astro.berkeley.edu/~wright/fuel_energy.html | 18.11.2026 |
+| 19 | Постоянная Фарадея F = 96 485 Кл/моль; закон Фарадея; плотности металлов | NIST: https://physics.nist.gov/cgi-bin/cuu/Value?f; Wikipedia: https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis; Engineering ToolBox: https://www.engineeringtoolbox.com/metal-alloys-densities-d_50.html | 18.11.2026 |
+| 19 | Проводимость воды: чистая ≈ 5,5·10⁻⁶ См/м, морская (35 г/л) ≈ 5 См/м; закон Пашена | Wikipedia: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity; https://en.wikipedia.org/wiki/Seawater; https://en.wikipedia.org/wiki/Paschen%27s_law | 18.11.2026 |
+| 20 | Пороги тока (≈ 1 мА ощущение, 10–16 мА не отпустить, ≈ 30 мА дыхание, 50–100 мА фибрилляция); сопротивление кожи 1 кОм (мокрая) — 100 кОм (сухая); УЗО 30 мА | eLCOSH: https://www.elcosh.org/document/1624/888/d000543/section2.html; UCSB: https://web.physics.ucsb.edu/~phys13BH/w2014/electrical_safety.pdf; IEC/TS 60479-1: https://standards.iteh.ai/catalog/standards/iec/148397ec-5007-4232-9e06-3c3e10853fcc/iec-ts-60479-1 | 18.11.2026 |
+| 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
+| 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
