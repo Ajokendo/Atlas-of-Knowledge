@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f2ef">
+<meta name="description" content="Глава 7 Атласа физики: скорость, ускорение, графики движения, свободное падение.">
+<title>Кинематика — Атлас физики</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f2ef;--card:#fbfbfa;--ink:#18181a;--text:#57575a;--muted:#66666b;--line:#deded9;--accent:#b6533f;--ok:#2f6f5d;--bad:#a45a49;--water:#8eb8d1;--serif:'EB Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--text);font:15px/1.7 var(--sans)}a{color:inherit}
+html[lang=ru] [data-l=en],html[lang=en] [data-l=ru]{display:none!important}
+.top{max-width:1200px;margin:auto;height:68px;padding:0 25px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:500 23px var(--serif);color:var(--ink);text-decoration:none}.actions{display:flex;gap:9px}.btn{border:1px solid var(--line);background:transparent;padding:8px 11px;font:11px var(--mono);cursor:pointer;text-decoration:none;color:var(--ink)}
+main{max-width:1050px;margin:auto;padding:0 25px}.intro{padding:60px 0 38px}.eyebrow,footer{font:10px var(--mono);letter-spacing:.12em;color:var(--muted)}
+h1{font:400 clamp(44px,7vw,72px)/1 var(--serif);color:var(--ink);margin:16px 0}.lead{font:italic 21px/1.5 var(--serif);max-width:760px;color:#6b6762}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.toc a{font:10px var(--mono);letter-spacing:.06em;border:1px solid var(--line);padding:6px 9px;text-decoration:none;color:var(--ink)}
+.section{border-top:1px solid var(--line);padding:30px 0 38px}.section h2{font:400 36px/1.15 var(--serif);color:var(--ink);margin:0 0 14px}.section h3{font:500 22px var(--serif);color:var(--ink);margin:22px 0 8px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+.riddle{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:24px 26px}.riddle .tag{font:10px var(--mono);letter-spacing:.12em;color:var(--accent)}.riddle p{font:19px/1.55 var(--serif);color:var(--ink);margin:10px 0}
+.definition{background:var(--card);border-left:3px solid var(--ok);padding:15px 20px;margin:16px 0}.definition strong{color:var(--ink)}
+.formula{font:25px var(--serif);color:var(--ink);background:#e9e9e4;padding:12px 18px;display:inline-block;margin:8px 0}.formula small{font:13px var(--sans);color:var(--muted);display:block}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.card{background:var(--card);border:1px solid var(--line);padding:16px}.card b{display:block;font:500 19px var(--serif);color:var(--ink)}.card span{font-size:13px}
+.kinds{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.kind{background:var(--card);border:1px solid var(--line);padding:14px 16px}.kind small{font:9px var(--mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}.kind p{margin:4px 0 0;font-size:14px}
+.steps{counter-reset:s;list-style:none;padding:0;margin:12px 0}.steps li{counter-increment:s;position:relative;padding:0 0 12px 42px}.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font:12px var(--mono);color:var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}th{font:10px var(--mono);letter-spacing:.08em;color:var(--muted);font-weight:400}
+.lab{background:var(--card);border:1px solid var(--line);padding:20px}.lab svg{display:block;width:100%;height:auto}.caption{font:9px var(--mono);color:var(--muted);letter-spacing:.1em;margin-top:8px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.controls label{font-size:13px}.controls input[type=number]{width:96px;border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--mono);color:var(--ink)}.controls input[type=range]{width:220px;accent-color:var(--accent)}
+.act{border:0;background:var(--ink);color:#fff;padding:10px 14px;cursor:pointer;font:12px var(--sans)}.act.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fb{font-size:14px;min-height:22px;margin-top:8px}.fb.ok{color:var(--ok)}.fb.bad{color:var(--bad)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.stat{border-top:1px solid var(--line);padding-top:8px}.stat small{display:block;font:9px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.stat strong{font:22px var(--serif);color:var(--ink)}
+details.task{background:var(--card);border:1px solid var(--line);padding:16px 20px;margin:12px 0}details.task summary{cursor:pointer;font:500 18px var(--serif);color:var(--ink)}details.task .given{font:13px var(--mono);color:var(--muted);margin:10px 0 4px}details.task .sol{border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.q{background:var(--card);border:1px solid var(--line);padding:18px 20px;margin:12px 0}.q h3{margin:0 0 8px;font-size:19px}.q button.opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;padding:9px 12px;margin:6px 0;cursor:pointer;font:14px var(--sans);color:var(--ink)}.q button.opt.right{border-color:var(--ok);background:#e9f2ee}.q button.opt.wrong{border-color:var(--bad);background:#f6ebe8}.q .why{font-size:14px;margin-top:6px}
+.callout{font-size:13px;color:var(--muted)}.scrollx{overflow-x:auto}@media(max-width:760px){.scrollx svg{min-width:680px}}.src{padding-left:20px;font-size:14px}.src li{margin:4px 0}.score{font:500 22px var(--serif);color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.nav a,.nav span{font:11px var(--mono);border:1px solid var(--line);padding:10px 13px;text-decoration:none;color:var(--ink)}.nav span{color:var(--muted)}
+footer{max-width:1200px;margin:40px auto 0;border-top:1px solid var(--line);padding:20px 25px 35px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.top{padding:0 15px}main{padding:0 16px}.intro{padding:38px 0 24px}.two,.cards,.kinds{grid-template-columns:1fr;gap:12px}.section h2{font-size:30px}.formula{font-size:21px}.controls input[type=range]{width:100%}footer{padding:18px 15px}table{font-size:13px}th,td{padding:6px}}
+</style>
+<style>
+.lab select{border:1px solid var(--line);background:#fff;padding:8px 9px;font:14px var(--sans);color:var(--ink)}
+.chk{font-size:13px;display:flex;gap:6px;align-items:center}
+.bars{margin-top:12px}.bar{display:grid;grid-template-columns:150px 1fr 70px;gap:8px;align-items:center;font-size:13px;margin:4px 0}.bar i{display:block;height:12px;background:var(--accent)}.bar i.r{background:#c9b48f}.bar .t{display:flex}.bar b{font:12px var(--mono);font-weight:400;color:var(--ink)}
+@media(max-width:760px){.bar{grid-template-columns:110px 1fr 58px}}
+</style></head><body>
+<header class="top"><a class="brand" href="../index.html"><span data-l="ru">Атлас физики</span><span data-l="en">Atlas of Physics</span></a><div class="actions"><a class="btn" href="../../index.html"><span data-l="ru">Все предметы</span><span data-l="en">All subjects</span></a><button type="button" class="btn" id="lang">EN</button></div></header>
+<main>
+
+<section class="intro">
+<p class="eyebrow"><span data-l="ru">БЛОК I · ГЛАВА 07 · ОСНОВЫ</span><span data-l="en">BLOCK I · CHAPTER 07 · BASICS</span></p>
+<h1><span data-l="ru">Кинематика: скорость и ускорение</span><span data-l="en">Kinematics: speed and acceleration</span></h1>
+<p class="lead"><span data-l="ru">Автомобиль на трассе, поезд, который набирает ход, камень, летящий в ущелье. Кинематика описывает, как движется тело, не спрашивая, почему. В этой главе — скорость, ускорение, графики движения и свободное падение.</span><span data-l="en">A car on a highway, a train picking up speed, a stone falling into a gorge. Kinematics describes how a body moves without asking why. This chapter covers speed, acceleration, motion graphs and free fall.</span></p>
+<nav class="toc" aria-label="Contents"><a href="#riddle">01 <span data-l="ru">Загадка</span><span data-l="en">Puzzle</span></a><a href="#speed">02 <span data-l="ru">Скорость</span><span data-l="en">Speed</span></a><a href="#accel">03 <span data-l="ru">Ускорение</span><span data-l="en">Acceleration</span></a><a href="#fall">04 <span data-l="ru">Свободное падение</span><span data-l="en">Free fall</span></a><a href="#tasks">05 <span data-l="ru">Задачи</span><span data-l="en">Worked problems</span></a><a href="#quiz">06 <span data-l="ru">Тест</span><span data-l="en">Quiz</span></a></nav>
+</section>
+
+<section class="section" id="riddle">
+<div class="riddle">
+<span class="tag"><span data-l="ru">ЗАГАДКА В НАЧАЛЕ</span><span data-l="en">OPENING PUZZLE</span></span>
+<div data-l="ru"><p>Двое мальчиков стоят на краю скального обрыва над ущельем. Один одновременно отпускает два камня: большой, тяжёлый, и маленький, лёгкий. Камни падают с одной высоты.</p><p>Какой камень долетит до дна первым? Чем тяжелее тело, тем быстрее оно должно падать — так нам подсказывает опыт. Верно ли это?</p></div>
+<div data-l="en"><p>Two boys stand at the edge of a rocky cliff above a gorge. One lets go of two stones at the same moment: a big, heavy one and a small, light one. They fall from the same height.</p><p>Which stone reaches the bottom first? Everyday experience says the heavier a body, the faster it falls. Is that true?</p></div>
+</div>
+<p class="callout"><span data-l="ru">Подсказку даст модель «Свободное падение». Разгадка — в конце главы.</span><span data-l="en">The “Free fall” model gives a hint. The answer is at the end of the chapter.</span></p>
+</section>
+
+<section class="section" id="speed">
+<h2><span data-l="ru">Скорость</span><span data-l="en">Speed</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Тело, которое движется, меняет своё положение. Длину пройденного пути обозначают <em>s</em>, время движения — <em>t</em>. <strong>Скорость</strong> показывает, какой путь тело проходит за единицу времени. Единица скорости в СИ — метр в секунду (м/с); на дорогах скорость обычно измеряют в км/ч. Чтобы перейти от км/ч к м/с, число делят на 3,6: 36 км/ч = 10 м/с.</p><p>Если тело проходит за любые равные промежутки времени одинаковые пути, его движение <strong>равномерное</strong>. Тогда:</p></div>
+<div data-l="en"><p>A moving body changes its position. The length of the path covered is written <em>s</em>, the time of motion <em>t</em>. <strong>Speed</strong> tells us what distance a body covers per unit of time. The SI unit of speed is the metre per second (m/s); on roads speed is usually given in km/h. To convert km/h to m/s, divide by 3.6: 36 km/h = 10 m/s.</p><p>If a body covers equal distances in any equal intervals of time, its motion is <strong>uniform</strong>. Then:</p></div>
+<div class="formula">v = s / t,&nbsp;&nbsp; s = v · t<small><span data-l="ru">равномерное движение: скорость постоянна</span><span data-l="en">uniform motion: the speed is constant</span></small></div>
+<div data-l="ru"><p>Реальное движение редко равномерное. Тогда пользуются <strong>средней скоростью</strong>: весь пройденный путь делят на всё затраченное время. Средняя скорость — не среднее арифметическое скоростей на участках (см. задачу 2).</p><p><strong>График пути.</strong> Если по горизонтали откладывать время, а по вертикали — путь, то равномерное движение изображается прямой линией. Чем круче прямая, тем больше скорость.</p></div>
+<div data-l="en"><p>Real motion is rarely uniform. Then we use the <strong>average speed</strong>: the whole distance covered divided by the whole time taken. The average speed is not the arithmetic mean of the speeds on separate stretches (see problem 2).</p><p><strong>The distance graph.</strong> If time is plotted horizontally and distance vertically, uniform motion is a straight line. The steeper the line, the greater the speed.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 1 · РАВНОМЕРНОЕ ДВИЖЕНИЕ</span><span data-l="en">MODEL 1 · UNIFORM MOTION</span></p>
+<svg id="uniSvg" viewBox="0 0 600 300" role="img" aria-label=""></svg>
+<div class="controls"><label for="uv"><span data-l="ru">Скорость</span><span data-l="en">Speed</span>: <strong id="uvOut"></strong></label><input id="uv" type="range" min="1" max="40" step="1" value="20"></div>
+<div class="controls"><label for="ut"><span data-l="ru">Время</span><span data-l="en">Time</span>: <strong id="utOut"></strong></label><input id="ut" type="range" min="0" max="10" step="0.1" value="6"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Пройденный путь</span><span data-l="en">Distance covered</span></small><strong id="uS"></strong></div><div class="stat"><small><span data-l="ru">Скорость в км/ч</span><span data-l="en">Speed in km/h</span></small><strong id="uK"></strong></div><div class="stat"><small><span data-l="ru">Путь за 1 с</span><span data-l="en">Distance per second</span></small><strong id="uP"></strong></div></div>
+<p class="fb" id="uniFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Схема условная. Дорога и график построены в одном масштабе пути: 0–400 м.</span><span data-l="en">A schematic drawing. The road and the graph use the same distance scale: 0–400 m.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="accel">
+<h2><span data-l="ru">Ускорение</span><span data-l="en">Acceleration</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Когда автомобиль трогается с места, его скорость растёт. Быстроту изменения скорости описывает <strong>ускорение</strong> — изменение скорости за единицу времени. Единица ускорения в СИ — метр в секунду за секунду (м/с²). Ускорение 2 м/с² означает: каждую секунду скорость растёт на 2 м/с.</p><p>Для движения с постоянным ускорением <em>a</em> из начальной скорости <em>v₀</em>:</p></div>
+<div data-l="en"><p>When a car pulls away, its speed grows. How fast the speed changes is described by <strong>acceleration</strong>: the change in speed per unit of time. The SI unit of acceleration is the metre per second squared (m/s²). An acceleration of 2 m/s² means that every second the speed grows by 2 m/s.</p><p>For motion with constant acceleration <em>a</em> from an initial speed <em>v₀</em>:</p></div>
+<div class="formula">a = (v − v₀) / t<br>v = v₀ + a · t<br>s = v₀ · t + a · t² / 2<br>v² = v₀² + 2 · a · s<small><span data-l="ru">четыре связанные формулы; движение вдоль прямой, ускорение направлено по движению</span><span data-l="en">four related formulas; motion along a line, acceleration along the direction of motion</span></small></div>
+<div data-l="ru"><p>Если тело стартует с места (<em>v₀</em> = 0), формулы упрощаются: <em>v = a·t</em>, <em>s = a·t²/2</em>. Обратите внимание: путь растёт пропорционально <em>t²</em>, то есть за вдвое большее время тело проходит вчетверо большее расстояние.</p><p><strong>График скорости.</strong> При постоянном ускорении скорость растёт по прямой линии, а наклон прямой равен ускорению. Важное свойство: <em>путь равен площади под графиком скорости</em>. Площадь трапеции под линией от 0 до <em>t</em> даёт ту же формулу <em>s = v₀t + at²/2</em>.</p><p>Если ускорение направлено против движения, тело тормозит: так в главе 3 мы считали тормозной путь <em>s = v²/(2μg)</em> — это та же формула <em>v² = v₀² + 2as</em> при конечной скорости 0.</p></div>
+<div data-l="en"><p>If a body starts from rest (<em>v₀</em> = 0), the formulas simplify: <em>v = a·t</em>, <em>s = a·t²/2</em>. Notice that the distance grows in proportion to <em>t²</em>: in twice the time the body covers four times the distance.</p><p><strong>The speed graph.</strong> With constant acceleration the speed grows along a straight line whose slope equals the acceleration. An important property: <em>the distance equals the area under the speed graph</em>. The area of the trapezoid under the line from 0 to <em>t</em> gives the same formula <em>s = v₀t + at²/2</em>.</p><p>If the acceleration points against the motion, the body brakes: in chapter 3 we computed the braking distance <em>s = v²/(2μg)</em> — it is the same formula <em>v² = v₀² + 2as</em> with a final speed of 0.</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 2 · РАВНОУСКОРЕННОЕ ДВИЖЕНИЕ</span><span data-l="en">MODEL 2 · UNIFORMLY ACCELERATED MOTION</span></p>
+<svg id="accSvg" viewBox="0 0 600 300" role="img" aria-label=""></svg>
+<div class="controls"><label for="av0"><span data-l="ru">Начальная скорость</span><span data-l="en">Initial speed</span>: <strong id="av0Out"></strong></label><input id="av0" type="range" min="0" max="20" step="1" value="0"></div>
+<div class="controls"><label for="aa"><span data-l="ru">Ускорение</span><span data-l="en">Acceleration</span>: <strong id="aaOut"></strong></label><input id="aa" type="range" min="0" max="6" step="0.5" value="3"></div>
+<div class="controls"><label for="at"><span data-l="ru">Время</span><span data-l="en">Time</span>: <strong id="atOut"></strong></label><input id="at" type="range" min="0" max="10" step="0.1" value="6"></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Скорость</span><span data-l="en">Speed</span></small><strong id="aV"></strong></div><div class="stat"><small><span data-l="ru">Путь (площадь)</span><span data-l="en">Distance (area)</span></small><strong id="aS"></strong></div><div class="stat"><small><span data-l="ru">Скорость в км/ч</span><span data-l="en">Speed in km/h</span></small><strong id="aK"></strong></div></div>
+<p class="fb" id="accFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Схема условная. Закрашенная площадь под графиком равна пройденному пути. Дорога показана в масштабе 0–500 м.</span><span data-l="en">A schematic drawing. The shaded area under the graph equals the distance covered. The road is drawn on a 0–500 m scale.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="fall">
+<h2><span data-l="ru">Свободное падение</span><span data-l="en">Free fall</span></h2>
+<div class="two">
+<div>
+<div data-l="ru"><p>Падение тела, на которое действует только сила тяжести (без сопротивления воздуха), называют <strong>свободным падением</strong>. Опыт показывает неожиданную вещь: вблизи поверхности Земли все тела падают с одним и тем же ускорением — независимо от массы. Это <strong>ускорение свободного падения</strong>:</p></div>
+<div data-l="en"><p>The fall of a body acted on by gravity alone (no air resistance) is called <strong>free fall</strong>. Experiment shows something unexpected: near the Earth’s surface all bodies fall with the same acceleration, whatever their mass. It is the <strong>acceleration of free fall</strong>:</p></div>
+<div class="formula">g ≈ 9,8 м/с²<small><span data-l="ru">примерно 9,8 м/с²; в задачах для простоты иногда берут 10 м/с²</span><span data-l="en">about 9.8 m/s²; in problems 10 m/s² is sometimes used for simplicity</span></small></div>
+<div data-l="ru"><p>Это то самое <em>g</em>, которое в главе 3 связывало массу и силу тяжести (<em>F = m·g</em>). Для падения из состояния покоя с высоты <em>h</em> получаем:</p></div>
+<div data-l="en"><p>It is the same <em>g</em> that in chapter 3 linked mass and weight (<em>F = m·g</em>). For a fall from rest from a height <em>h</em> we get:</p></div>
+<div class="formula">h = g · t² / 2,&nbsp;&nbsp; v = g · t,&nbsp;&nbsp; t = √(2h / g)<small><span data-l="ru">падение с нулевой начальной скоростью, без сопротивления воздуха</span><span data-l="en">a fall with zero initial speed, no air resistance</span></small></div>
+<div data-l="ru"><p>Сила тяжести больше у тяжёлого тела, но и массу, которую надо разогнать, у него больше. Эти два эффекта в точности сокращаются, и ускорение получается одинаковым. Поэтому молоток и перо падают одинаково в вакууме. В воздухе перо отстаёт только из-за сопротивления воздуха — оно сильно влияет на лёгкие тела с большой площадью (глава 4 рассказывала о давлении воздуха).</p></div>
+<div data-l="en"><p>Gravity is greater on a heavy body, but the mass to be accelerated is also greater. The two effects cancel exactly, so the acceleration is the same. That is why a hammer and a feather fall together in a vacuum. In air a feather lags only because of air resistance, which strongly affects light bodies with a large area (chapter 4 told about air pressure).</p></div>
+</div>
+<div class="lab">
+<p class="eyebrow"><span data-l="ru">МОДЕЛЬ 3 · ДВА КАМНЯ В УЩЕЛЬЕ</span><span data-l="en">MODEL 3 · TWO STONES IN A GORGE</span></p>
+<svg id="fallSvg" viewBox="0 0 600 300" role="img" aria-label=""></svg>
+<div class="controls"><label for="fh"><span data-l="ru">Высота обрыва</span><span data-l="en">Cliff height</span>: <strong id="fhOut"></strong></label><input id="fh" type="range" min="5" max="100" step="1" value="45"></div>
+<div class="controls"><label for="fp"><span data-l="ru">Момент падения</span><span data-l="en">Moment of the fall</span>: <strong id="fpOut"></strong></label><input id="fp" type="range" min="0" max="100" step="1" value="0"></div>
+<div class="controls"><button class="act" type="button" id="fallGo"><span data-l="ru">Отпустить камни</span><span data-l="en">Drop the stones</span></button><button class="act ghost" type="button" id="fallReset"><span data-l="ru">Сначала</span><span data-l="en">Reset</span></button></div>
+<div class="stats" aria-live="polite"><div class="stat"><small><span data-l="ru">Время всего падения</span><span data-l="en">Total fall time</span></small><strong id="fT"></strong></div><div class="stat"><small><span data-l="ru">Скорость сейчас</span><span data-l="en">Speed now</span></small><strong id="fV"></strong></div><div class="stat"><small><span data-l="ru">Пролетели</span><span data-l="en">Fallen so far</span></small><strong id="fY"></strong></div></div>
+<p class="fb" id="fallFb" aria-live="polite"></p>
+<p class="caption"><span data-l="ru">Схема условная: камни 10 кг и 0,1 кг, g = 9,8 м/с², сопротивление воздуха не учитывается. Кнопка запускает падение в реальном времени.</span><span data-l="en">A schematic drawing: stones of 10 kg and 0.1 kg, g = 9.8 m/s², air resistance neglected. The button runs the fall in real time.</span></p>
+</div>
+</div>
+</section>
+
+<section class="section" id="tasks">
+<h2><span data-l="ru">Разобранные задачи</span><span data-l="en">Worked problems</span></h2>
+
+<details class="task" open><summary><span data-l="ru">Задача 1. Автомобиль на трассе</span><span data-l="en">Problem 1. A car on the highway</span></summary>
+<div data-l="ru"><p>Автомобиль едет равномерно со скоростью 72 км/ч. Какой путь он пройдёт за 15 минут?</p><p class="given">Дано: v = 72 км/ч, t = 15 мин</p><div class="sol"><p>1) Переведём: 72 км/ч = 72 / 3,6 = 20 м/с; 15 мин = 900 с.<br>2) s = v · t = 20 · 900 = 18 000 м.</p><p><strong>Ответ:</strong> 18 км. Проверка: 72 км/ч · 0,25 ч = 18 км.</p></div></div>
+<div data-l="en"><p>A car moves uniformly at 72 km/h. What distance does it cover in 15 minutes?</p><p class="given">Given: v = 72 km/h, t = 15 min</p><div class="sol"><p>1) Convert: 72 km/h = 72 / 3.6 = 20 m/s; 15 min = 900 s.<br>2) s = v · t = 20 · 900 = 18,000 m.</p><p><strong>Answer:</strong> 18 km. Check: 72 km/h · 0.25 h = 18 km.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 2. Средняя скорость</span><span data-l="en">Problem 2. Average speed</span></summary>
+<div data-l="ru"><p>Первые 60 км пути поезд идёт со скоростью 30 км/ч, следующие 60 км — со скоростью 60 км/ч. Найдите среднюю скорость на всём пути.</p><p class="given">Дано: s₁ = s₂ = 60 км, v₁ = 30 км/ч, v₂ = 60 км/ч</p><div class="sol"><p>1) Время на первом участке: t₁ = 60 / 30 = 2 ч; на втором: t₂ = 60 / 60 = 1 ч.<br>2) Весь путь 120 км, всё время 3 ч.<br>3) v<sub>ср</sub> = 120 / 3 = 40 км/ч.</p><p><strong>Ответ:</strong> 40 км/ч, а не (30 + 60) / 2 = 45 км/ч: на медленном участке поезд провёл больше времени.</p></div></div>
+<div data-l="en"><p>A train covers the first 60 km at 30 km/h and the next 60 km at 60 km/h. Find the average speed over the whole trip.</p><p class="given">Given: s₁ = s₂ = 60 km, v₁ = 30 km/h, v₂ = 60 km/h</p><div class="sol"><p>1) Time on the first stretch: t₁ = 60 / 30 = 2 h; on the second: t₂ = 60 / 60 = 1 h.<br>2) The whole distance is 120 km, the whole time 3 h.<br>3) v<sub>avg</sub> = 120 / 3 = 40 km/h.</p><p><strong>Answer:</strong> 40 km/h, not (30 + 60) / 2 = 45 km/h: the train spent more time on the slow stretch.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 3. Разгон автомобиля</span><span data-l="en">Problem 3. A car accelerating</span></summary>
+<div data-l="ru"><p>Автомобиль разгоняется с места до скорости 20 м/с за 8 с. Найдите ускорение и пройденный за это время путь.</p><p class="given">Дано: v₀ = 0, v = 20 м/с, t = 8 с</p><div class="sol"><p>1) a = (v − v₀) / t = 20 / 8 = 2,5 м/с².<br>2) s = a·t² / 2 = 2,5 · 64 / 2 = 80 м.</p><p><strong>Ответ:</strong> 2,5 м/с² и 80 м. Проверка по площади: треугольник под графиком ½ · 8 · 20 = 80 м.</p></div></div>
+<div data-l="en"><p>A car accelerates from rest to 20 m/s in 8 s. Find the acceleration and the distance covered in that time.</p><p class="given">Given: v₀ = 0, v = 20 m/s, t = 8 s</p><div class="sol"><p>1) a = (v − v₀) / t = 20 / 8 = 2.5 m/s².<br>2) s = a·t² / 2 = 2.5 · 64 / 2 = 80 m.</p><p><strong>Answer:</strong> 2.5 m/s² and 80 m. Check by area: the triangle under the graph is ½ · 8 · 20 = 80 m.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 4. Торможение</span><span data-l="en">Problem 4. Braking</span></summary>
+<div data-l="ru"><p>Автомобиль, едущий со скоростью 15 м/с, тормозит с ускорением 5 м/с² (направлено против движения). Через какое время он остановится и каков тормозной путь?</p><p class="given">Дано: v₀ = 15 м/с, v = 0, a = −5 м/с²</p><div class="sol"><p>1) Из v = v₀ + a·t: t = (0 − 15) / (−5) = 3 с.<br>2) Из v² = v₀² + 2·a·s: 0 = 225 − 10·s, откуда s = 22,5 м.</p><p><strong>Ответ:</strong> 3 с и 22,5 м. Если скорость вдвое больше (30 м/с), путь вырастет вчетверо — до 90 м (вспомните загадку главы 5).</p></div></div>
+<div data-l="en"><p>A car moving at 15 m/s brakes with an acceleration of 5 m/s² (directed against the motion). How long until it stops, and what is the braking distance?</p><p class="given">Given: v₀ = 15 m/s, v = 0, a = −5 m/s²</p><div class="sol"><p>1) From v = v₀ + a·t: t = (0 − 15) / (−5) = 3 s.<br>2) From v² = v₀² + 2·a·s: 0 = 225 − 10·s, so s = 22.5 m.</p><p><strong>Answer:</strong> 3 s and 22.5 m. If the speed is twice as great (30 m/s), the distance grows fourfold to 90 m (recall the puzzle of chapter 5).</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 5. Камень с обрыва</span><span data-l="en">Problem 5. A stone from a cliff</span></summary>
+<div data-l="ru"><p>Камень отпускают с обрыва высотой 45 м. Сколько времени он падает и с какой скоростью ударится о землю? Сопротивлением воздуха пренебрегите.</p><p class="given">Дано: h = 45 м, v₀ = 0, g ≈ 9,8 м/с²</p><div class="sol"><p>1) t = √(2h / g) = √(90 / 9,8) = √9,18 ≈ 3,03 с.<br>2) v = g·t ≈ 9,8 · 3,03 ≈ 29,7 м/с.</p><p><strong>Ответ:</strong> примерно 3,0 с и 30 м/с (около 107 км/ч). Масса камня в ответ не входит.</p></div></div>
+<div data-l="en"><p>A stone is released from a cliff 45 m high. How long does it fall and how fast does it hit the ground? Neglect air resistance.</p><p class="given">Given: h = 45 m, v₀ = 0, g ≈ 9.8 m/s²</p><div class="sol"><p>1) t = √(2h / g) = √(90 / 9.8) = √9.18 ≈ 3.03 s.<br>2) v = g·t ≈ 9.8 · 3.03 ≈ 29.7 m/s.</p><p><strong>Answer:</strong> about 3.0 s and 30 m/s (roughly 107 km/h). The stone’s mass does not enter the answer.</p></div></div>
+</details>
+
+<details class="task"><summary><span data-l="ru">Задача 6. Читаем график скорости</span><span data-l="en">Problem 6. Reading a speed graph</span></summary>
+<div data-l="ru"><p>Велосипедист 4 с разгоняется равномерно от 0 до 8 м/с, затем 6 с едет с постоянной скоростью 8 м/с. Найдите пройденный путь и среднюю скорость за 10 с.</p><p class="given">Дано: участок 1 — t₁ = 4 с, v от 0 до 8 м/с; участок 2 — t₂ = 6 с, v = 8 м/с</p><div class="sol"><p>1) Путь на разгоне — площадь треугольника: ½ · 4 · 8 = 16 м.<br>2) Путь на втором участке — площадь прямоугольника: 6 · 8 = 48 м.<br>3) Весь путь: 16 + 48 = 64 м. Средняя скорость: 64 / 10 = 6,4 м/с.</p><p><strong>Ответ:</strong> 64 м и 6,4 м/с (меньше 8 м/с, потому что часть времени он разгонялся).</p></div></div>
+<div data-l="en"><p>A cyclist accelerates uniformly from 0 to 8 m/s for 4 s, then rides at a constant 8 m/s for 6 s. Find the distance covered and the average speed over the 10 s.</p><p class="given">Given: stage 1 — t₁ = 4 s, v from 0 to 8 m/s; stage 2 — t₂ = 6 s, v = 8 m/s</p><div class="sol"><p>1) The distance while accelerating is the area of a triangle: ½ · 4 · 8 = 16 m.<br>2) The distance on the second stage is the area of a rectangle: 6 · 8 = 48 m.<br>3) Total distance: 16 + 48 = 64 m. Average speed: 64 / 10 = 6.4 m/s.</p><p><strong>Answer:</strong> 64 m and 6.4 m/s (below 8 m/s because part of the time was spent speeding up).</p></div></div>
+</details>
+</section>
+
+<section class="section" id="quiz">
+<h2><span data-l="ru">Проверьте себя</span><span data-l="en">Check yourself</span></h2>
+<p><span data-l="ru">Выберите ответ — сразу появится объяснение.</span><span data-l="en">Pick an answer — an explanation appears at once.</span></p>
+<div id="quizBox"></div>
+<p class="score" id="score" aria-live="polite"></p>
+<button class="act ghost" type="button" id="resetQuiz"><span data-l="ru">Пройти заново</span><span data-l="en">Start again</span></button>
+</section>
+
+<section class="section" id="answer">
+<h2><span data-l="ru">Разгадка: какой камень упадёт первым</span><span data-l="en">The answer: which stone falls first</span></h2>
+<div data-l="ru"><p>Оба камня долетят до дна одновременно. Сила тяжести, действующая на тяжёлый камень, больше, но и разгонять приходится большую массу. В формуле <em>t = √(2h/g)</em> массы нет вовсе: время зависит только от высоты. Скорость обоих камней в каждый момент одна и та же (<em>v = g·t</em>). Модель 3 показывает это: оба камня всё время на одной высоте.</p><p>Опыт подсказывает другое, потому что в воздухе на лёгкие предметы с большой площадью, например перо или лист бумаги, сильно действует сопротивление воздуха. Два камня, большой и маленький, падают почти одинаково и в воздухе: для них сопротивление мало по сравнению с силой тяжести. В вакууме одинаково падают любые тела.</p></div>
+<div data-l="en"><p>Both stones reach the bottom at the same moment. Gravity pulls harder on the heavy stone, but a larger mass also has to be accelerated. The formula <em>t = √(2h/g)</em> has no mass in it at all: the time depends only on the height. The speed of both stones is the same at every moment (<em>v = g·t</em>). Model 3 shows it: the two stones stay at the same height all the time.</p><p>Everyday experience suggests otherwise because in air light bodies with a large area, such as a feather or a sheet of paper, are strongly affected by air resistance. Two stones, a big and a small one, fall almost alike even in air, because for them the resistance is small compared with gravity. In a vacuum all bodies fall alike.</p></div>
+</section>
+
+<section class="section" id="sources">
+<h2><span data-l="ru">Источники</span><span data-l="en">Sources</span></h2>
+<ul class="src">
+<li><span data-l="ru">Скорость, средняя скорость, ускорение, формулы равноускоренного движения —</span><span data-l="en">Speed, average speed, acceleration, formulas for uniformly accelerated motion —</span> <a href="https://openstax.org/books/physics/pages/3-2-representing-acceleration-with-equations-and-graphs" target="_blank" rel="noopener">OpenStax Physics 3.2: Representing Acceleration with Equations and Graphs</a>, <a href="https://openstax.org/books/physics/pages/3-key-equations" target="_blank" rel="noopener">OpenStax Physics: Chapter 3 key equations</a>, <a href="https://openstax.org/books/university-physics-volume-1/pages/3-summary" target="_blank" rel="noopener">OpenStax University Physics Vol. 1, ch. 3: summary</a></li>
+<li><span data-l="ru">Свободное падение, независимость ускорения от массы, g ≈ 9,8 м/с² —</span><span data-l="en">Free fall, acceleration independent of mass, g ≈ 9.8 m/s² —</span> <a href="https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall" target="_blank" rel="noopener">OpenStax University Physics Vol. 1, 3.5: Free Fall</a>, <a href="https://openstax.org/books/college-physics/pages/2-7-falling-objects" target="_blank" rel="noopener">OpenStax College Physics 2.7: Falling Objects</a></li>
+<li><span data-l="ru">Содержание темы в программе Министерства (кинематика в 7 классе) —</span><span data-l="en">The topic in the Ministry’s programme (kinematics in grade 7) —</span> <a href="https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf" target="_blank" rel="noopener">Программа по физике, 7–9 классы</a></li>
+</ul>
+<p class="callout"><span data-l="ru">Все схемы и модели главы нарисованы для атласа (SVG). Тексты, загадка и задачи — оригинальные. Значения в моделях (скорости, ускорения, высоты, массы камней) — условные.</span><span data-l="en">All diagrams and models in this chapter were drawn for the atlas (SVG). The texts, puzzle and problems are original. The values in the models (speeds, accelerations, heights, stone masses) are assumed.</span></p>
+</section>
+
+<section class="section">
+<div class="nav"><a href="06-simple-machines.html">← <span data-l="ru">Глава 06 · Простые механизмы</span><span data-l="en">Chapter 06 · Simple machines</span></a><a href="../index.html"><span data-l="ru">Содержание блока</span><span data-l="en">Block contents</span></a><span><span data-l="ru">Блок I пройден — дальше тепловые явления</span><span data-l="en">Block I complete — thermal phenomena next</span></span></div>
+</section>
+</main>
+<footer><span><span data-l="ru">АТЛАС ФИЗИКИ · ГЛАВА 07</span><span data-l="en">ATLAS OF PHYSICS · CHAPTER 07</span></span><span class="credit"><span data-l="ru">© 2026 Азамат Орозобеков · подготовлено с помощью ИИ · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span><span data-l="en">© 2026 Azamat Orozobekov · prepared with AI assistance · <a href="https://github.com/Ajokendo/Atlas-of-Knowledge/blob/main/CONTENT_LICENSE.md" target="_blank" rel="noopener">CC BY 4.0</a></span></span></footer>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let lang="ru";
+try{const s=localStorage.getItem("atlas-lang");if(s==="en"||s==="ru")lang=s}catch(e){}
+const G=9.8;
+const T={
+ru:{ms:" м/с",kmh:" км/ч",m:" м",s:" с",
+uniLabel:"Автомобиль на дороге и график пути от времени",accLabel:"Автомобиль, график скорости от времени и площадь под ним",fallLabel:"Два камня разной массы падают с обрыва с одинаковой скоростью",
+tAx:"t, с",sAx:"s, м",vAx:"v, м/с",
+uniFb:(v)=>"Скорость постоянна ("+v+" м/с), поэтому график пути — прямая линия.",
+accFb0:"Ускорение равно нулю: скорость не меняется, график скорости горизонтален.",
+accFb:"Скорость растёт по прямой, а путь равен закрашенной площади под графиком.",
+fallFb:"Оба камня всё время на одной высоте: ускорение не зависит от массы.",fallStart:"Камни ещё у края обрыва.",fallEnd:"Оба камня долетели до дна одновременно.",
+big:"10 кг",small:"0,1 кг",
+score:(s,n)=>"Результат: "+s+" из "+n,right:"Правильный ответ: "},
+en:{ms:" m/s",kmh:" km/h",m:" m",s:" s",
+uniLabel:"A car on a road and a graph of distance against time",accLabel:"A car, a speed–time graph and the area under it",fallLabel:"Two stones of different mass fall from a cliff at the same rate",
+tAx:"t, s",sAx:"s, m",vAx:"v, m/s",
+uniFb:(v)=>"The speed is constant ("+v+" m/s), so the distance graph is a straight line.",
+accFb0:"The acceleration is zero: the speed does not change and the speed graph is horizontal.",
+accFb:"The speed grows along a straight line and the distance equals the shaded area under the graph.",
+fallFb:"Both stones stay at the same height all the time: the acceleration does not depend on mass.",fallStart:"The stones are still at the edge of the cliff.",fallEnd:"Both stones reached the bottom at the same moment.",
+big:"10 kg",small:"0.1 kg",
+score:(s,n)=>"Score: "+s+" of "+n,right:"Right answer: "}};
+function fmt(x,dp){let s=x.toFixed(dp);return lang==="ru"?s.replace(".",","):s}
+function svgText(x,y,txt,col,anchor,size){return '<text x="'+x+'" y="'+y+'" text-anchor="'+(anchor||"start")+'" font-family="JetBrains Mono,monospace" font-size="'+(size||11)+'" fill="'+col+'">'+txt+'</text>'}
+function car(x,y){return '<rect x="'+(x-16)+'" y="'+(y-16)+'" width="32" height="14" rx="3" fill="#3f5f8f" stroke="#18181a"/><circle cx="'+(x-9)+'" cy="'+(y-1)+'" r="4" fill="#18181a"/><circle cx="'+(x+9)+'" cy="'+(y-1)+'" r="4" fill="#18181a"/>'}
+function axes(xmax,ymax,xs,ys,t,x0,x1,yb,yt){
+ let s='';
+ for(let k=0;k<=xs;k++){const x=x0+k/xs*(x1-x0);s+='<line x1="'+x+'" y1="'+yb+'" x2="'+x+'" y2="'+yt+'" stroke="#e3e1da"/>'+svgText(x,yb+14,fmt(k*xmax/xs,0),"#66666b","middle",10)}
+ for(let k=0;k<=ys;k++){const y=yb-k/ys*(yb-yt);s+='<line x1="'+x0+'" y1="'+y+'" x2="'+x1+'" y2="'+y+'" stroke="#e3e1da"/>'+svgText(x0-6,y+4,fmt(k*ymax/ys,0),"#66666b","end",10)}
+ s+='<line x1="'+x0+'" y1="'+yb+'" x2="'+x1+'" y2="'+yb+'" stroke="#18181a" stroke-width="1.5"/><line x1="'+x0+'" y1="'+yb+'" x2="'+x0+'" y2="'+yt+'" stroke="#18181a" stroke-width="1.5"/>';
+ return s}
+
+/* ---------- Model 1 ---------- */
+function drawUni(){const t=T[lang],v=+$("uv").value,tm=+$("ut").value,s=v*tm,X=q=>60+q/10*500,Y=q=>270-q/400*150;
+ let g='<line x1="30" y1="70" x2="570" y2="70" stroke="#18181a" stroke-width="2"/>';
+ for(let k=0;k<=4;k++){const x=30+k*135;g+='<line x1="'+x+'" y1="70" x2="'+x+'" y2="76" stroke="#18181a"/>'+svgText(x,90,k*100,"#66666b","middle",10)}
+ g+=car(30+s/400*540,70);
+ g+=axes(10,400,5,4,t,60,560,270,120);
+ g+='<line x1="'+X(0)+'" y1="'+Y(0)+'" x2="'+X(10)+'" y2="'+Y(10*v)+'" stroke="#c9c2b0" stroke-width="1.5" stroke-dasharray="4 4"/>';
+ g+='<line x1="'+X(0)+'" y1="'+Y(0)+'" x2="'+X(tm)+'" y2="'+Y(s)+'" stroke="#b6533f" stroke-width="3"/>';
+ g+='<line x1="'+X(tm)+'" y1="270" x2="'+X(tm)+'" y2="'+Y(s)+'" stroke="#b6533f" stroke-dasharray="3 3"/><line x1="60" y1="'+Y(s)+'" x2="'+X(tm)+'" y2="'+Y(s)+'" stroke="#b6533f" stroke-dasharray="3 3"/><circle cx="'+X(tm)+'" cy="'+Y(s)+'" r="5" fill="#b6533f"/>';
+ g+=svgText(60,112,t.sAx,"#18181a","start",11)+svgText(560,296,t.tAx,"#18181a","end",11);
+ $("uniSvg").innerHTML=g;
+ $("uvOut").textContent=v+t.ms;$("utOut").textContent=fmt(tm,1)+t.s;
+ $("uS").textContent=fmt(s,0)+t.m;$("uK").textContent=fmt(v*3.6,1)+t.kmh;$("uP").textContent=v+t.m;
+ $("uniFb").textContent=t.uniFb(v)}
+["uv","ut"].forEach(id=>$(id).addEventListener("input",drawUni));
+
+/* ---------- Model 2 ---------- */
+function drawAcc(){const t=T[lang],v0=+$("av0").value,a=+$("aa").value,tm=+$("at").value,v=v0+a*tm,s=v0*tm+a*tm*tm/2,X=q=>60+q/10*500,Y=q=>270-q/80*150;
+ let g='<line x1="30" y1="70" x2="570" y2="70" stroke="#18181a" stroke-width="2"/>';
+ for(let k=0;k<=5;k++){const x=30+k*108;g+='<line x1="'+x+'" y1="70" x2="'+x+'" y2="76" stroke="#18181a"/>'+svgText(x,90,k*100,"#66666b","middle",10)}
+ g+=car(30+Math.min(s,500)/500*540,70);
+ g+=axes(10,80,5,4,t,60,560,270,120);
+ g+='<polygon points="'+X(0)+','+Y(0)+' '+X(0)+','+Y(v0)+' '+X(tm)+','+Y(v)+' '+X(tm)+','+Y(0)+'" fill="#2f6f5d" fill-opacity="0.22"/>';
+ g+='<line x1="'+X(0)+'" y1="'+Y(v0)+'" x2="'+X(10)+'" y2="'+Y(v0+10*a)+'" stroke="#c9c2b0" stroke-width="1.5" stroke-dasharray="4 4"/>';
+ g+='<line x1="'+X(0)+'" y1="'+Y(v0)+'" x2="'+X(tm)+'" y2="'+Y(v)+'" stroke="#2f6f5d" stroke-width="3"/><circle cx="'+X(tm)+'" cy="'+Y(v)+'" r="5" fill="#2f6f5d"/>';
+ g+=svgText(60,112,t.vAx,"#18181a","start",11)+svgText(560,296,t.tAx,"#18181a","end",11);
+ $("accSvg").innerHTML=g;
+ $("av0Out").textContent=v0+t.ms;$("aaOut").textContent=fmt(a,1)+(lang==="ru"?" м/с²":" m/s²");$("atOut").textContent=fmt(tm,1)+t.s;
+ $("aV").textContent=fmt(v,1)+t.ms;$("aS").textContent=fmt(s,0)+t.m;$("aK").textContent=fmt(v*3.6,0)+t.kmh;
+ $("accFb").textContent=a===0?t.accFb0:t.accFb}
+["av0","aa","at"].forEach(id=>$(id).addEventListener("input",drawAcc));
+
+/* ---------- Model 3 ---------- */
+let fRun=false,fStart=0;
+function drawFall(){const t=T[lang],h=+$("fh").value,Tt=Math.sqrt(2*h/G),p=+$("fp").value/100,tm=p*Tt,y=Math.min(h,G*tm*tm/2),v=G*tm,fr=y/h,ty=a=>20+a*(250-12);
+ let g='<polygon points="30,20 150,20 150,270 30,270" fill="#d9d5c9" stroke="#18181a"/><rect x="30" y="268" width="540" height="12" fill="#a8a28f"/>';
+ for(let k=0;k<=4;k++){const yy=h*k/4,py=20+k/4*250;g+='<line x1="318" y1="'+py+'" x2="324" y2="'+py+'" stroke="#18181a"/>'+svgText(330,py+4,fmt(yy,0)+t.m,"#66666b","start",10)}
+ g+='<line x1="321" y1="20" x2="321" y2="270" stroke="#18181a"/>';
+ const cy=20+fr*(250-12);
+ g+='<line x1="200" y1="20" x2="200" y2="'+cy+'" stroke="#c9c2b0" stroke-dasharray="3 3"/><line x1="250" y1="20" x2="250" y2="'+cy+'" stroke="#c9c2b0" stroke-dasharray="3 3"/>';
+ g+='<circle cx="200" cy="'+(cy+10)+'" r="12" fill="#3f5f8f" stroke="#18181a" stroke-width="2"/><circle cx="250" cy="'+(cy+6)+'" r="6" fill="#b6533f" stroke="#18181a" stroke-width="2"/>';
+ g+=svgText(200,16,t.big,"#3f5f8f","middle",10)+svgText(250,16,t.small,"#b6533f","middle",10);
+ g+='<line x1="316" y1="'+(cy+8)+'" x2="300" y2="'+(cy+8)+'" stroke="#b6533f" stroke-width="2"/>';
+ $("fallSvg").innerHTML=g;
+ $("fhOut").textContent=h+t.m;$("fpOut").textContent=fmt(tm,2)+t.s;
+ $("fT").textContent=fmt(Tt,2)+t.s;$("fV").textContent=fmt(v,1)+t.ms;$("fY").textContent=fmt(y,1)+t.m;
+ $("fallFb").textContent=p===0?t.fallStart:(p>=1?t.fallEnd:t.fallFb)}
+function fallLoop(ts){if(!fRun)return;const Tt=Math.sqrt(2*(+$("fh").value)/G),q=Math.min(1,(ts-fStart)/1000/Tt);$("fp").value=Math.round(q*100);drawFall();if(q<1)requestAnimationFrame(fallLoop);else fRun=false}
+$("fallGo").addEventListener("click",()=>{$("fp").value=0;fRun=true;fStart=performance.now();requestAnimationFrame(fallLoop)});
+$("fallReset").addEventListener("click",()=>{fRun=false;$("fp").value=0;drawFall()});
+["fh","fp"].forEach(id=>$(id).addEventListener("input",()=>{if(id==="fp")fRun=false;drawFall()}));
+
+/* ---------- Quiz ---------- */
+const Q=[
+{ru:{q:"Чему равна скорость 36 км/ч в метрах в секунду?",o:[["10 м/с","Верно: 36 / 3,6 = 10 м/с."],["36 м/с","Это то же число, но в других единицах: км/ч нужно перевести."],["129,6 м/с","Так получится, если умножить на 3,6 вместо деления."]]},
+ en:{q:"What is 36 km/h in metres per second?",o:[["10 m/s","Correct: 36 / 3.6 = 10 m/s."],["36 m/s","That is the same number in other units: km/h must be converted."],["129.6 m/s","That comes from multiplying by 3.6 instead of dividing."]]},a:0},
+{ru:{q:"Что изображает наклонная прямая на графике пути от времени?",o:[["Покой","Тело в покое изображается горизонтальной прямой: путь не растёт."],["Равномерное движение","Верно: путь растёт на одно и то же за равное время, а наклон равен скорости."],["Движение с ускорением","При ускорении график пути изгибается, это не прямая."]]},
+ en:{q:"What does an inclined straight line on a distance–time graph show?",o:[["Rest","A body at rest is a horizontal line: the distance does not grow."],["Uniform motion","Correct: the distance grows by the same amount in equal times, and the slope equals the speed."],["Accelerated motion","With acceleration the distance graph curves; it is not a straight line."]]},a:1},
+{ru:{q:"Что означает ускорение 2 м/с²?",o:[["Тело проходит 2 м каждую секунду","Это описывает равномерное движение со скоростью 2 м/с."],["Скорость растёт на 2 м/с каждую секунду","Верно: ускорение — это изменение скорости за единицу времени."],["Тело движется 2 секунды","Ускорение не говорит о длительности движения."]]},
+ en:{q:"What does an acceleration of 2 m/s² mean?",o:[["The body covers 2 m every second","That describes uniform motion at 2 m/s."],["The speed grows by 2 m/s every second","Correct: acceleration is the change in speed per unit of time."],["The body moves for 2 seconds","Acceleration says nothing about how long the motion lasts."]]},a:1},
+{ru:{q:"Тело стартует с места с ускорением 2 м/с². Какова его скорость через 5 с?",o:[["2,5 м/с","Это 5 / 2: так делить не нужно, скорость растёт на 2 м/с каждую секунду."],["10 м/с","Верно: v = a·t = 2 · 5 = 10 м/с."],["25 м/с","Это 5², а в формуле скорости время не возводят в квадрат."]]},
+ en:{q:"A body starts from rest with an acceleration of 2 m/s². What is its speed after 5 s?",o:[["2.5 m/s","That is 5 / 2: you do not divide; the speed grows by 2 m/s every second."],["10 m/s","Correct: v = a·t = 2 · 5 = 10 m/s."],["25 m/s","That is 5², but time is not squared in the speed formula."]]},a:1},
+{ru:{q:"Как найти пройденный путь по графику скорости?",o:[["Это наклон графика","Наклон графика скорости — это ускорение."],["Это высота графика в конце","Высота — это конечная скорость, а не путь."],["Это площадь под графиком","Верно: путь равен площади фигуры под графиком скорости."]]},
+ en:{q:"How do you find the distance covered from a speed graph?",o:[["It is the slope of the graph","The slope of a speed graph is the acceleration."],["It is the height of the graph at the end","The height is the final speed, not the distance."],["It is the area under the graph","Correct: the distance equals the area under the speed graph."]]},a:2},
+{ru:{q:"Автомобиль увеличил скорость вдвое, тормозя с тем же ускорением. Как изменится тормозной путь?",o:[["Вырастет вдвое","Путь зависит от квадрата скорости: s = v²/(2a)."],["Вырастет вчетверо","Верно: скорость вдвое больше — v² вчетверо больше."],["Не изменится","Чем быстрее едем, тем длиннее путь до остановки."]]},
+ en:{q:"A car doubled its speed and brakes with the same acceleration. How does the braking distance change?",o:[["It doubles","The distance depends on the square of the speed: s = v²/(2a)."],["It quadruples","Correct: twice the speed means v² four times as large."],["It does not change","The faster we go, the longer the distance to a stop."]]},a:1},
+{ru:{q:"С обрыва одновременно отпускают тяжёлый и лёгкий камни (сопротивлением воздуха пренебрегаем). Что произойдёт?",o:[["Тяжёлый упадёт первым","Большая сила тяжести компенсируется большей массой, которую надо разогнать."],["Лёгкий упадёт первым","Для лёгкого камня и сила, и масса меньше, ускорение то же."],["Оба упадут одновременно","Верно: ускорение свободного падения g не зависит от массы."]]},
+ en:{q:"A heavy and a light stone are released from a cliff at the same time (neglect air resistance). What happens?",o:[["The heavy one lands first","The greater gravity is offset by the larger mass to be accelerated."],["The light one lands first","For the light stone both the force and the mass are smaller; the acceleration is the same."],["They land at the same moment","Correct: the acceleration of free fall g does not depend on mass."]]},a:2},
+{ru:{q:"Сколько примерно времени падает камень с высоты 20 м (g ≈ 9,8 м/с², без сопротивления воздуха)?",o:[["1 с","За 1 с тело упадёт лишь на 4,9 м."],["2 с","Верно: t = √(2h/g) = √(40/9,8) ≈ 2,0 с."],["4 с","За 4 с тело пролетело бы около 78 м."]]},
+ en:{q:"About how long does a stone take to fall 20 m (g ≈ 9.8 m/s², no air resistance)?",o:[["1 s","In 1 s a body falls only 4.9 m."],["2 s","Correct: t = √(2h/g) = √(40/9.8) ≈ 2.0 s."],["4 s","In 4 s a body would fall about 78 m."]]},a:1}];
+let answers={};const ORD=[[1,0,2],[0,2,1],[2,1,0],[0,1,2],[2,0,1],[1,2,0],[0,2,1],[2,0,1]];
+function saveScore(){const score=Q.filter((x,i)=>answers[i]===x.a).length,r={score:score,total:Q.length,date:new Date().toISOString(),chapter:"07"};try{localStorage.setItem("atlas-physics-quiz-v1",JSON.stringify(r));const k="atlas-physics-quiz-v1-history-v1";let h=JSON.parse(localStorage.getItem(k)||"[]");if(!Array.isArray(h))h=[];h.push(r);localStorage.setItem(k,JSON.stringify(h.slice(-20)))}catch(e){}}
+function renderQuiz(){const box=$("quizBox");box.innerHTML="";Q.forEach((item,i)=>{const d=item[lang],div=document.createElement("div");div.className="q";const h=document.createElement("h3");h.textContent=(i+1)+". "+d.q;div.appendChild(h);
+ ORD[i].forEach(j=>{const o=d.o[j],b=document.createElement("button");b.type="button";b.className="opt";b.textContent=o[0];if(answers[i]!==undefined){if(j===item.a)b.classList.add("right");if(j===answers[i]&&j!==item.a)b.classList.add("wrong");b.disabled=true}b.addEventListener("click",()=>{answers[i]=j;if(Object.keys(answers).length===Q.length)saveScore();renderQuiz()});div.appendChild(b)});
+ if(answers[i]!==undefined){const w=document.createElement("p");w.className="why "+(answers[i]===item.a?"fb ok":"fb bad");w.textContent=d.o[answers[i]][1]+(answers[i]===item.a?"":" — "+T[lang].right+d.o[item.a][0]+".");div.appendChild(w)}box.appendChild(div)});
+ const n=Object.keys(answers).length;$("score").textContent=n===Q.length?T[lang].score(Q.filter((x,i)=>answers[i]===x.a).length,Q.length):""}
+$("resetQuiz").addEventListener("click",()=>{answers={};renderQuiz()});
+
+/* ---------- Language ---------- */
+function apply(){document.documentElement.lang=lang;$("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Кинематика — Атлас физики":"Kinematics — Atlas of Physics";
+ $("uniSvg").setAttribute("aria-label",T[lang].uniLabel);$("accSvg").setAttribute("aria-label",T[lang].accLabel);$("fallSvg").setAttribute("aria-label",T[lang].fallLabel);
+ drawUni();drawAcc();drawFall();renderQuiz()}
+$("lang").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("atlas-lang",lang)}catch(e){}apply()});
+apply();
+})();
+</script>
+</body></html>

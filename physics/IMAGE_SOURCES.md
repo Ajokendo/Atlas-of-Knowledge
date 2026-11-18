@@ -22,6 +22,9 @@
 | PH-06-01 | 06 | Рычаг-качели с двумя грузами (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-06-02 | 06 | Неподвижный и подвижный блоки, полиспаст (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-06-03 | 06 | Наклонная плоскость с силами (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-07-01 | 07 | Автомобиль на дороге и график пути (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-07-02 | 07 | Автомобиль, график скорости и площадь под ним (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-07-03 | 07 | Два камня падают с обрыва (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -69,3 +72,7 @@
 | 06 | КПД: ДВС ≈ 20–30 %, электродвигатель ≈ 90 % | Electric Motion Tech: https://sites.google.com/view/electricmotiontech-com/home/ev-tech-101/efficiency; US DOE FOTW #1360: https://www.energy.gov/cmei/vehicles/articles/fotw-1360-sept-16-2024-typical-ev-87-91-efficient-compared-30-conventional | 18.11.2026 |
 | 06 | Серпантин на перевале Төө-Ашуу | too.kg: https://too.kg/en/too-ashuu-pass/; Wikipedia: https://en.wikipedia.org/wiki/T%C3%B6%C3%B6_Ashuu | 18.11.2026 |
 | 06 | Условные значения моделей (не факты): η блоков 50–100 %, μ плоскости 0–0,3, подъём на 2 м; примеры задач (камень 300 кг, серпантин 3000 м и др.) | Условия авторские | 18.11.2026 |
+| 07 | Определения скорости, средней скорости, ускорения; формулы v = v₀ + at, s = v₀t + at²/2, v² = v₀² + 2as; путь — площадь под графиком скорости | OpenStax Physics 3.2: https://openstax.org/books/physics/pages/3-2-representing-acceleration-with-equations-and-graphs; OpenStax Physics key equations: https://openstax.org/books/physics/pages/3-key-equations | 18.11.2026 |
+| 07 | Свободное падение: ускорение не зависит от массы, g ≈ 9,8 м/с² | OpenStax University Physics Vol. 1, 3.5: https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall; OpenStax College Physics 2.7: https://openstax.org/books/college-physics/pages/2-7-falling-objects | 18.11.2026 |
+| 07 | Кинематика входит в программу 7 класса (12 ч) | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
+| 07 | Условные значения моделей (не факты): скорости до 40 м/с, ускорения до 6 м/с², обрыв 5–100 м, камни 10 кг и 0,1 кг; примеры задач | Условия авторские | 18.11.2026 |
