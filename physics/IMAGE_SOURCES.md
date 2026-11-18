@@ -63,6 +63,18 @@
 | PH-20-01 | 20 | Ток через тело (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-20-02 | 20 | УЗО (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 | PH-20-03 | 20 | Заземление (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-21-01 | 21 | Компас у магнита (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-21-02 | 21 | Поле Земли (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-21-03 | 21 | Деление магнита (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-22-01 | 22 | Поле прямого провода (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-22-02 | 22 | Катушка и электромагнит (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-22-03 | 22 | Сила на провод с током (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-23-01 | 23 | Магнит входит в катушку (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-23-02 | 23 | Проводник в поле (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-23-03 | 23 | Генератор (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-24-01 | 24 | Мощность ГЭС (модель 1) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-24-02 | 24 | Линия электропередачи (модель 2) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
+| PH-24-03 | 24 | Каскад на Нарыне (модель 3) | Авторская SVG, рисуется кодом | Atlas of Knowledge, CC BY 4.0 | 18.11.2026 |
 
 Чужих изображений в физике пока нет.
 
@@ -135,5 +147,12 @@
 | 19 | Постоянная Фарадея F = 96 485 Кл/моль; закон Фарадея; плотности металлов | NIST: https://physics.nist.gov/cgi-bin/cuu/Value?f; Wikipedia: https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis; Engineering ToolBox: https://www.engineeringtoolbox.com/metal-alloys-densities-d_50.html | 18.11.2026 |
 | 19 | Проводимость воды: чистая ≈ 5,5·10⁻⁶ См/м, морская (35 г/л) ≈ 5 См/м; закон Пашена | Wikipedia: https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity; https://en.wikipedia.org/wiki/Seawater; https://en.wikipedia.org/wiki/Paschen%27s_law | 18.11.2026 |
 | 20 | Пороги тока (≈ 1 мА ощущение, 10–16 мА не отпустить, ≈ 30 мА дыхание, 50–100 мА фибрилляция); сопротивление кожи 1 кОм (мокрая) — 100 кОм (сухая); УЗО 30 мА | eLCOSH: https://www.elcosh.org/document/1624/888/d000543/section2.html; UCSB: https://web.physics.ucsb.edu/~phys13BH/w2014/electrical_safety.pdf; IEC/TS 60479-1: https://standards.iteh.ai/catalog/standards/iec/148397ec-5007-4232-9e06-3c3e10853fcc/iec-ts-60479-1 | 18.11.2026 |
+| 21 | Магнитное поле Земли ≈ 25–65 мкТл; дипольная модель; наклонение | Wikipedia, Earth’s magnetic field: https://en.wikipedia.org/wiki/Earth%27s_magnetic_field; Wikipedia, Magnetic dipole: https://en.wikipedia.org/wiki/Magnetic_dipole; OpenStax University Physics Vol. 2, гл. 11: https://openstax.org/books/university-physics-volume-2/pages/11-introduction | 18.11.2026 |
+| 22 | Магнитная постоянная μ₀ = 4π·10⁻⁷ Тл·м/А; поле прямого тока и соленоида; сила Ампера; насыщение железа ≈ 1,5–2 Тл | OpenStax University Physics Vol. 2, гл. 12: https://openstax.org/books/university-physics-volume-2/pages/12-introduction; Wikipedia, Solenoid: https://en.wikipedia.org/wiki/Solenoid | 18.11.2026 |
+| 23 | Закон индукции Фарадея, правило Ленца, ЭДС движущегося проводника, генератор | OpenStax University Physics Vol. 2, гл. 13: https://openstax.org/books/university-physics-volume-2/pages/13-introduction; Wikipedia, Faraday’s law of induction: https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction; Wikipedia, Electric generator: https://en.wikipedia.org/wiki/Electric_generator | 18.11.2026 |
+| 24 | Токтогульская ГЭС: плотина 215 м, 1200 МВт (модернизация до 1440 МВт), выработка ≈ 4400 ГВт·ч, полезный объём водохранилища 14 км³ | Wikipedia, Toktogul Dam: https://en.wikipedia.org/wiki/Toktogul_Dam; CAWater-Info: https://www.cawater-info.net/bk/1-1-1-1-3-kg_e.htm; Water Power Magazine: https://www.waterpowermagazine.com/?p=30698 | 18.11.2026 |
+| 24 | Станции Нарынского каскада: Курпсайская 800, Таш-Кумырская 450, Шамалды-Сайская 240, Учкурганская 180 МВт | Hydropower.org, Kyrgyz hydropower overview: https://invest.gov.kg/wp-content/uploads/2019/07/2-Hydropower.org-Kyrgyz-Republic%E2%80%99s-hydropower-overview-2017.pdf | 18.11.2026 |
+| 24 | Около 90% электроэнергии Кыргызстана вырабатывают ГЭС | IRENA, Kyrgyz Republic summary 2022: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2022/Dec/IRENA_RRA_Kyrgyz_Republic_Summary_2022.pdf; Kabar, 10.12.2025: https://en.kabar.kg/news/hydropower-provides-90-of-kyrgyzstans-electricity/ | 18.11.2026 |
+| 21–24 | Условные значения моделей (не факты): расстояния до магнита, проницаемость сердечника 500, сопротивление цепи 0,5 Ом, напор 130 м в задаче, сопротивление линии, параметры ползунков | — | 18.11.2026 |
 | 14–20 | Условные значения моделей (не факты): заряды и расстояния, число электронов, сопротивления тела и заземления, мощности приборов, цена кВт·ч, линейность проводимости, пропорциональность пробоя давлению; примеры задач | Условные учебные значения, авторские | 18.11.2026 |
 | 14–20 | Электричество входит в программу 8 класса | Программа по физике 7–9 классов: https://edu.gov.kg/media/files/f34d9f4a-9197-49bd-8e3e-939cb10015e1.pdf | 18.11.2026 |
