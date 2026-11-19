@@ -134,6 +134,7 @@
 Формируются в результате накопления, уплотнения и цементации осадков, химического осаждения или накопления органического материала.
 
 Основные типы:
+
 - обломочные: конгломерат, песчаник, алевролит, аргиллит;
 - химические: каменная соль, некоторые разновидности гипса;
 - органогенные и биохемогенные: многие известняки, мел, уголь.
@@ -145,6 +146,7 @@
 Возникают при преобразовании ранее существовавших пород под воздействием температуры, давления и химически активных флюидов без полного плавления исходного материала.
 
 Примеры:
+
 - известняк → мрамор;
 - гранит → гнейс (при соответствующих условиях метаморфизма);
 - глинистые породы → сланцы и филлиты;
@@ -220,6 +222,7 @@
 ### 3.5.3. Континентальный дрейф и доказательства / Continental Drift
 
 Идея дрейфа материков получила развитие в начале XX века. Современная теория тектоники плит объясняет механизм перемещения литосферы и объединяет доказательства:
+
 - соответствие геологических структур по разные стороны океанов;
 - сходство ископаемых организмов на ныне разделённых материках;
 - палеоклиматические свидетельства;
@@ -402,6 +405,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 ### 3.9.1. Относительная геохронология / Relative Dating
 
 Основные принципы:
+
 - закон суперпозиции: в ненарушенной последовательности нижние слои обычно древнее верхних;
 - принцип первоначальной горизонтальности: осадки обычно накапливаются близко к горизонтальному положению;
 - принцип пересечения: геологическое тело или разлом, пересекающий другое образование, обычно моложе пересекаемого;
@@ -599,6 +603,7 @@ This is a relative sequence, not a set of calendar dates. Numerical ages require
 **Задание: чтение геологического разреза.**
 
 На схематическом разрезе (будет подготовлен как учебная иллюстрация) определите:
+
 - последовательность слоёв от древних к молодым;
 - какие структуры являются складками;
 - какие разломы пересекают слои;
@@ -855,6 +860,7 @@ Rocks deform under stress. Deformation may be ductile, bending layers, or brittl
 ### 3.8.1. Folds
 
 **Folds** include:
+
 - **anticlines**, in which layers are generally arched upwards and the oldest rocks often occur in the core if the structure has not been overturned or disrupted;
 - **synclines**, in which layers are generally folded downwards and younger rocks often occur in the core; and
 - **monoclines**, step-like bends in rock layers.
@@ -862,6 +868,7 @@ Rocks deform under stress. Deformation may be ductile, bending layers, or brittl
 ### 3.8.2. Faults
 
 **Faults** are classified by the relative movement of blocks:
+
 - a **normal fault** has the hanging wall moving down relative to the footwall;
 - a **reverse fault** has the hanging wall moving up; a low-angle reverse fault is called a thrust; and
 - a **strike-slip fault** is dominated by horizontal displacement.
@@ -875,6 +882,7 @@ Earth's geological history spans about 4.54 billion years. The ICS 2026/06 chart
 ### 3.9.1. Relative Dating
 
 **Relative dating** relies on several principles:
+
 - the law of superposition: in an undisturbed sequence, lower layers are generally older than upper layers;
 - original horizontality: sediments are generally deposited in near-horizontal layers;
 - cross-cutting relationships: a geological body or fault that cuts another unit is generally younger than the unit it cuts; and
@@ -988,6 +996,7 @@ Hazard, exposure and vulnerability are different components of risk. The presenc
 ### Practical Assignment: Reading a Geological Cross-Section
 
 On a schematic geological cross-section, identify:
+
 - the sequence of layers from oldest to youngest;
 - structures that are folds;
 - faults that cut through layers;

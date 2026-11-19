@@ -17,6 +17,7 @@ Economic geography studies the spatial organisation of economic activity, the lo
 В отличие от общего экономического анализа, который часто рассматривает рынки и решения в абстрактной модели, экономическая география подчёркивает значение расстояния, доступности, масштаба, местных условий, исторического наследия и территориальных институтов.
 
 Основные направления:
+
 - география промышленности, сельского хозяйства и сферы услуг;
 - география транспорта, торговли и логистики;
 - региональная экономика и территориальное развитие;
@@ -32,6 +33,7 @@ Economic geography examines where and why economic activities are located, how t
 Unlike general economic analysis, which often studies markets and decisions through abstract models, economic geography emphasises distance, accessibility, scale, local conditions, historical legacies and territorial institutions.
 
 Its main fields include:
+
 - the geography of industry, agriculture and services;
 - transport, trade and logistics;
 - regional economies and territorial development;
@@ -85,6 +87,7 @@ Specialisation can raise productivity by concentrating knowledge and infrastruct
 В условной экономике заняты 120 000 человек: 18 000 работают в первичном секторе, 30 000 — во вторичном и 72 000 — в третичном.
 
 Доли занятых рассчитываются делением числа работников сектора на общую занятость:
+
 - первичный сектор: 18 000 / 120 000 × 100 = **15%**;
 - вторичный сектор: 30 000 / 120 000 × 100 = **25%**;
 - третичный сектор: 72 000 / 120 000 × 100 = **60%**.
@@ -94,6 +97,7 @@ Specialisation can raise productivity by concentrating knowledge and infrastruct
 In a hypothetical economy, 120,000 people are employed: 18,000 in the primary sector, 30,000 in the secondary sector, and 72,000 in the tertiary sector.
 
 Each employment share is calculated by dividing the number employed in a sector by total employment:
+
 - primary sector: 18,000 / 120,000 × 100 = **15%**;
 - secondary sector: 30,000 / 120,000 × 100 = **25%**;
 - tertiary sector: 72,000 / 120,000 × 100 = **60%**.
@@ -107,6 +111,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 ВВП на душу населения — ВВП, делённый на численность населения; для годовых рядов обычно используют среднегодовую численность или другое значение, прямо указанное в метаданных показателя. При сравнении необходимо применять одинаковое определение знаменателя. Показатель полезен для сопоставления среднего масштаба экономического производства, но не показывает распределение доходов, неоплачиваемый труд, качество окружающей среды или все аспекты благополучия.
 
 Необходимо различать:
+
 - **номинальный ВВП:** оценивается в текущих ценах;
 - **реальный ВВП:** скорректирован на изменение цен, чтобы оценивать динамику объёма производства;
 - **ВВП по паритету покупательной способности (ППС):** пересчитывается с помощью коэффициентов ППС, чтобы привести расходы и выпуск к сопоставимому уровню цен. ППС — это способ пространственного пересчёта, а не отдельный тип цен: необходимо уточнять, выражен ли показатель в текущих или постоянных международных долларах и какой год принят за ценовую базу. Рыночный валютный курс сам по себе не устраняет различия в уровнях цен между странами;
@@ -115,6 +120,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 **Добавленная стоимость и ВВП.** Добавленная стоимость показывает, какую новую стоимость создаёт производитель: из стоимости выпуска вычитают стоимость промежуточных товаров и услуг, использованных при производстве. В системе национальных счетов ВВП производственным методом получают суммированием валовой добавленной стоимости всех производителей и добавлением налогов на продукты за вычетом субсидий на продукты. Это предотвращает повторный счёт стоимости сырья и компонентов на последовательных стадиях производства. Поэтому валовую стоимость продаж или экспорта нельзя автоматически считать вкладом предприятия или страны в ВВП.
 
 Дополнительные показатели:
+
 - производительность труда;
 - уровень занятости и безработицы;
 - инфляция;
@@ -131,6 +137,7 @@ Assume that the sectors account for 8%, 32%, and 60% of total value added, respe
 GDP per capita is GDP divided by the population. It is useful for comparing the average scale of economic production, but it does not show how income is distributed, unpaid work, environmental quality or every aspect of well-being.
 
 Important distinctions include:
+
 - **Nominal GDP:** measured at current prices.
 - **Real GDP:** adjusted for price changes to estimate changes in the volume of production.
 - **GDP at purchasing power parity (PPP):** converted using PPP rates so that output or expenditure can be compared at a more comparable price level. PPP is a spatial conversion method, not a separate type of price: state whether the indicator is expressed in current or constant international dollars and identify the price-base year. Market exchange rates alone do not remove differences in price levels between countries.
@@ -151,6 +158,7 @@ No single indicator describes an economy in full. GDP measures production, not t
 Размещение предприятия зависит от сочетания затрат, доступа к рынкам и рабочей силе, инфраструктуры, регулирования, технологий и экологических ограничений.
 
 Основные факторы:
+
 - **сырьевой:** близость к месторождениям и источникам сельскохозяйственного сырья;
 - **энергетический:** надёжность и стоимость энергоснабжения;
 - **водный:** доступ к воде и условия её использования;
@@ -171,6 +179,7 @@ No single indicator describes an economy in full. GDP measures production, not t
 A firm's location depends on a combination of costs, access to markets and labour, infrastructure, regulation, technology and environmental constraints.
 
 The main factors include:
+
 - **raw materials:** proximity to mineral deposits and agricultural sources;
 - **energy:** reliability and cost of energy supply;
 - **water:** access to water and the conditions governing its use;
@@ -210,6 +219,7 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 Сельское хозяйство зависит от климата, почв, рельефа, водных ресурсов, сезонности, технологий, земельных отношений, рынков и государственной политики. Его география включает растениеводство, животноводство, агролесоводство, рыболовство и связанные цепочки хранения и переработки.
 
 Основные типы аграрных систем:
+
 - натуральное и мелкотоварное хозяйство;
 - интенсивное товарное земледелие;
 - плантационное производство;
@@ -233,6 +243,7 @@ Deindustrialisation is a decline in industry's relative share of employment or o
 Agriculture depends on climate, soils, relief, water resources, seasonality, technology, land tenure, markets and public policy. Its geography includes crop production, livestock, agroforestry, fisheries, and the related storage and processing chains.
 
 Major types of agricultural systems include:
+
 - subsistence and smallholder farming;
 - intensive commercial crop production;
 - plantation agriculture;
@@ -255,6 +266,7 @@ Agricultural intensity is not determined only by the amount of fertiliser and ma
 Энергетическая география изучает размещение источников энергии, производство, преобразование, передачу и потребление энергетических ресурсов. Энергетические системы включают добычу топлива, электростанции, сети, хранилища, рынки и конечных потребителей.
 
 Источники энергии обычно группируют на:
+
 - ископаемые: уголь, нефть и природный газ;
 - ядерную энергию;
 - возобновляемые: гидроэнергию, солнечную, ветровую, геотермальную энергию и устойчиво используемую биоэнергию.
@@ -273,6 +285,7 @@ Agricultural intensity is not determined only by the amount of fertiliser and ma
 Energy geography studies the location of energy sources, production, conversion, transmission and consumption. Energy systems include fuel extraction, power plants, networks, storage, markets and end users.
 
 Energy sources are commonly grouped as:
+
 - **fossil fuels:** coal, oil and natural gas;
 - **nuclear energy;** and
 - **renewables:** hydropower, solar, wind, geothermal energy and sustainably used bioenergy.
@@ -294,6 +307,7 @@ Energy security includes reliability of supply, price affordability, infrastruct
 Транспорт обеспечивает перемещение людей, сырья и товаров, а также предоставление транспортных услуг. География транспорта исследует сети, узлы, коридоры, доступность, стоимость и время перемещения, а также воздействие транспортной инфраструктуры на территорию.
 
 Основные виды транспорта:
+
 - автомобильный;
 - железнодорожный;
 - морской и внутренний водный;
@@ -314,6 +328,7 @@ Energy security includes reliability of supply, price affordability, infrastruct
 Transport moves people, raw materials, goods and services. Transport geography studies networks, nodes, corridors, accessibility, cost and travel time, as well as the territorial impacts of transport infrastructure.
 
 Main transport modes include:
+
 - road;
 - rail;
 - maritime and inland waterway;
@@ -410,6 +425,7 @@ Sustainable tourism management includes monitoring visitor numbers, involving lo
 Экономическая активность распределена неравномерно. Крупные города и транспортные узлы часто концентрируют рабочие места, капитал, университеты и инфраструктуру, тогда как периферийные территории могут сталкиваться с оттоком населения, ограниченным доступом к услугам и узкой отраслевой базой.
 
 Региональное неравенство измеряют различными показателями:
+
 - ВРП на душу населения;
 - производительность труда;
 - доходы и бедность домохозяйств;
@@ -425,6 +441,7 @@ Sustainable tourism management includes monitoring visitor numbers, involving lo
 Economic activity is unevenly distributed. Large cities and transport hubs often concentrate jobs, capital, universities and infrastructure, while peripheral areas may experience population loss, limited access to services and a narrow industrial base.
 
 Regional inequality can be measured using different indicators:
+
 - gross regional product per capita;
 - labour productivity;
 - household income and poverty;
@@ -439,6 +456,7 @@ Regional policy may include investment in infrastructure, education, innovation,
 ## 11.14. Агломерационные эффекты и пространственная концентрация / Agglomeration Economies and Spatial Concentration
 
 Агломерационные эффекты возникают, когда близость предприятий, работников, поставщиков и потребителей повышает эффективность экономической деятельности. Обычно выделяют:
+
 - **эффекты совместного использования:** общая инфраструктура, поставщики и специализированные услуги;
 - **эффекты согласования:** более широкий рынок труда и лучшее соответствие работников рабочим местам;
 - **эффекты обучения:** распространение знаний, технологий и деловых практик.
@@ -446,6 +464,7 @@ Regional policy may include investment in infrastructure, education, innovation,
 Концентрация имеет и издержки: дорожные заторы, дорогую землю и жильё, загрязнение, перегрузку инфраструктуры и уязвимость к локальным кризисам. Поэтому экономическая эффективность агломерации зависит от качества планирования, транспорта, жилья и управления землепользованием.
 
 Agglomeration effects arise when the proximity of firms, workers, suppliers and consumers increases the efficiency of economic activity. Three common types are:
+
 - **sharing effects:** access to shared infrastructure, suppliers and specialised services;
 - **matching effects:** a larger labour market and a better match between workers and jobs; and
 - **learning effects:** the spread of knowledge, technologies and business practices.
@@ -458,6 +477,7 @@ Concentration also creates costs: traffic congestion, expensive land and housing
 Экономическое использование ресурсов связано с экологическими пределами. Добыча полезных ископаемых может создавать рабочие места и экспортные доходы, но также приводить к нарушению земель, загрязнению воды, накоплению отходов и конфликтам землепользования. Сельское хозяйство может обеспечивать продовольствие, одновременно воздействуя на почвы, биоразнообразие и водные системы.
 
 Важные подходы:
+
 - оценка жизненного цикла продукции;
 - принцип «загрязнитель платит»;
 - циркулярная экономика и повторное использование материалов;
@@ -492,6 +512,7 @@ Climate change affects agriculture, energy, transport, tourism, insurance and in
 Экономико-географические исследования используют количественные, качественные и пространственные методы.
 
 **Статистические методы:**
+
 - анализ структуры и динамики;
 - расчёт темпов роста и индексов;
 - сравнение региональных показателей;
@@ -499,6 +520,7 @@ Climate change affects agriculture, energy, transport, tourism, insurance and in
 - оценка концентрации и диверсификации.
 
 **Пространственные методы:**
+
 - картографирование предприятий, занятости и потоков;
 - сетевой анализ транспортной доступности;
 - анализ зон обслуживания;
@@ -506,6 +528,7 @@ Climate change affects agriculture, energy, transport, tourism, insurance and in
 - моделирование размещения объектов.
 
 **Качественные методы:**
+
 - интервью с предприятиями и местными сообществами;
 - анализ документов и стратегий;
 - полевые исследования;
@@ -593,6 +616,7 @@ A sector's share of employment may differ from its share of value added. Automat
 GDP per capita is GDP divided by population; annual series usually use average annual population or another denominator explicitly specified in the indicator metadata. Comparisons should use the same denominator definition. The indicator is useful for comparing the average scale of economic production, but does not show income distribution, unpaid work, environmental quality or every aspect of well-being.
 
 Important distinctions include:
+
 - **nominal GDP:** measured at current prices;
 - **real GDP:** adjusted for price changes to measure changes in production volume;
 - **GDP at purchasing power parity (PPP):** converted using PPPs to make output and expenditure comparable at a common price level. PPP is a spatial conversion method, not a separate price concept: specify whether the indicator is in current or constant international dollars and state the price-reference year. A market exchange rate alone does not remove differences in price levels between countries; and
@@ -609,6 +633,7 @@ No single indicator describes an economy fully. GDP measures production, not the
 The location of an enterprise depends on a combination of costs, access to markets and labour, infrastructure, regulation, technology and environmental constraints.
 
 Main factors include:
+
 - **raw materials:** proximity to mineral deposits and agricultural inputs;
 - **energy:** reliability and cost of energy supply;
 - **water:** access to water and the conditions governing its use;
@@ -707,6 +732,7 @@ Regional policy may include investment in infrastructure, education, innovation,
 ### 11.14. Agglomeration Economies and Spatial Concentration
 
 Agglomeration effects arise when proximity among firms, workers, suppliers and consumers improves economic efficiency. Common types include:
+
 - **sharing effects:** shared infrastructure, suppliers and specialised services;
 - **matching effects:** a larger labour market and better matching between workers and jobs; and
 - **learning effects:** the spread of knowledge, technologies and business practices.

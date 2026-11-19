@@ -28,6 +28,7 @@
 Для CO₂ важно не смешивать разные способы расчёта: предварительное среднегодовое значение NOAA за 2025 год для сети морских поверхностных станций составляет 425,62 ppm, тогда как глобально усреднённая поверхностная концентрация WMO по сети Global Atmosphere Watch составляет 426,8 ± 0,2 ppm. Разница связана с охватом и методикой наблюдений; оба значения должны сопровождаться названием сети и типом среднего. В этой таблице приведено значение NOAA, округлённое до 425,6 ppm.
 
 Атмосфера:
+
 - обеспечивает кислород для дыхания большинства организмов и углекислый газ для фотосинтеза;
 - переносит тепло и влагу;
 - формирует облака и осадки;
@@ -103,6 +104,7 @@
 ## 5.4. Температура воздуха и её распределение / Air Temperature and Its Distribution
 
 Температура воздуха — характеристика его теплового состояния. На неё влияют:
+
 - широта и угол падения солнечных лучей;
 - высота над уровнем моря;
 - облачность и влажность;
@@ -148,6 +150,7 @@
 Ветер — горизонтальное движение воздуха относительно поверхности. Его формирование связано с градиентом давления, вращением Земли, трением и кривизной траекторий.
 
 Основные факторы:
+
 - сила градиента давления;
 - сила Кориолиса;
 - трение у поверхности;
@@ -170,6 +173,7 @@
 Глобальная циркуляция формируется из-за неравномерного нагрева Земли, вращения планеты, распределения суши и океана, сезонных изменений и взаимодействия с океанами.
 
 В идеализированной модели каждого полушария выделяют три ячейки:
+
 - ячейка Хэдли — в тропиках и субтропиках;
 - ячейка Феррела — в средних широтах;
 - полярная ячейка — в высоких широтах.
@@ -213,6 +217,7 @@
 Облака формируются, когда влажный воздух охлаждается до насыщения и образуются облачные частицы. Капли воды возникают при конденсации водяного пара на ядрах конденсации; кристаллы льда могут образовываться на ледяных ядрах. В облаках возможны переохлаждённые капли и смесь жидких и твёрдых частиц. Подъём воздуха — один из распространённых способов охлаждения, но облака могут развиваться и при других изменениях температуры и влажности.
 
 В международной классификации ВМО выделяют десять основных родов облаков:
+
 - верхнего яруса: перистые, перисто-кучевые, перисто-слоистые;
 - среднего яруса: высококучевые, высокослоистые, слоисто-дождевые;
 - нижнего яруса: слоисто-кучевые, слоистые;
@@ -324,6 +329,7 @@
 ### 5.11.1. Классификация Кёппена — Гейгера / Köppen–Geiger Classification
 
 Одна из наиболее распространённых схем использует буквенные обозначения пяти крупных климатических групп:
+
 - A — тропические;
 - B — сухие;
 - C — умеренные;
@@ -371,6 +377,7 @@
 Городской остров тепла возникает, когда городские поверхности и застройка накапливают и удерживают тепло, а испарительное охлаждение и вентиляция могут быть ограничены. Интенсивность эффекта меняется в зависимости от времени суток, сезона, погоды, плотности застройки и озеленения.
 
 Меры смягчения:
+
 - увеличение площади зелёных насаждений;
 - создание затенённых общественных пространств;
 - использование отражающих и проницаемых покрытий;
@@ -407,6 +414,7 @@
 ### 5.14.3. Засухи и волны жары / Droughts and Heatwaves
 
 Засуха — продолжительный дефицит влаги или доступной воды относительно обычных условий территории. Различают несколько взаимосвязанных видов:
+
 - **метеорологическая** — длительный дефицит осадков относительно нормы;
 - **сельскохозяйственная** — недостаток влаги в почве, влияющий на растения и урожай;
 - **гидрологическая** — снижение запасов воды в реках, озёрах, водохранилищах и подземных водах;
@@ -440,6 +448,7 @@
 ### 5.15.1. Основные наблюдаемые изменения / Observed Changes
 
 К наблюдаемым проявлениям относятся:
+
 - повышение средней глобальной температуры поверхности;
 - потепление океана;
 - повышение среднего уровня моря;
@@ -469,6 +478,7 @@
 Метеорология изучает атмосферные процессы и погоду. Прогнозы строятся на наблюдениях, физических уравнениях и численных моделях атмосферы.
 
 Источники данных:
+
 - метеорологические станции;
 - радиозонды;
 - метеорологические радары;
@@ -630,6 +640,7 @@
 **Задание: сравнительный анализ климатограмм и атмосферной циркуляции.**
 
 Используя два набора климатических данных:
+
 - определите среднюю температуру наиболее тёплого и холодного месяцев;
 - рассчитайте годовую амплитуду температуры;
 - найдите годовую сумму осадков и сезон их максимума;
@@ -758,6 +769,7 @@ Global circulation is shaped by uneven heating of Earth, planetary rotation, the
 *Трёхъячеечная модель общей циркуляции атмосферы. NOAA, JetStream: Global Atmospheric Circulations. Государственный образовательный ресурс США; схема иллюстрирует упрощённую модель, а не полную изменчивость реальной циркуляции. / Three-cell model of global atmospheric circulation. NOAA, JetStream: Global Atmospheric Circulations. U.S. government educational resource; the figure illustrates a simplified model, not the full variability of real circulation.* [Источник / Source](https://www.noaa.gov/jetstream/global/global-atmospheric-circulations).
 
 An idealised model identifies three circulation cells in each hemisphere:
+
 - the **Hadley cell** in the tropics and subtropics;
 - the **Ferrel cell** in the middle latitudes; and
 - the **polar cell** at high latitudes.
@@ -765,6 +777,7 @@ An idealised model identifies three circulation cells in each hemisphere:
 This three-cell model is a simplification. Real circulation is more complex and includes seasonal shifts in pressure belts, jet streams, cyclones, anticyclones and regional effects.
 
 Planetary and seasonal winds include:
+
 - **trade winds**, persistent easterlies in the tropics;
 - **westerlies**, prevailing across much of the middle latitudes;
 - **polar easterlies**, characteristic of high latitudes; and
@@ -785,6 +798,7 @@ Relative humidity depends on both the amount of water vapour and temperature: if
 Clouds form when moist air cools to saturation and cloud particles develop. Liquid droplets form as water vapour condenses on cloud-condensation nuclei; ice crystals may form on ice-nucleating particles. Clouds can contain supercooled droplets or a mixture of liquid and ice particles. Rising air is a common cooling mechanism, but cloud development also depends on changes in temperature and moisture.
 
 The WMO International Cloud Atlas recognises ten main cloud genera:
+
 - high clouds: Cirrus, Cirrocumulus and Cirrostratus;
 - middle clouds: Altocumulus, Altostratus and Nimbostratus;
 - low clouds: Stratocumulus and Stratus; and
@@ -888,6 +902,7 @@ Climate classifications organise climate conditions according to temperature, pr
 *Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
 
 The widely used **Köppen–Geiger classification** identifies five major letter groups:
+
 - A — tropical;
 - B — arid;
 - C — temperate;
@@ -1147,6 +1162,7 @@ A synoptic chart is a snapshot of the atmosphere, not a guarantee of future weat
 ### Practical Assignment: Comparing Climate Graphs and Atmospheric Circulation
 
 Using two sets of climate data:
+
 - identify the mean temperature of the warmest and coldest months;
 - calculate the annual temperature range;
 - calculate annual precipitation and identify its seasonal maximum;

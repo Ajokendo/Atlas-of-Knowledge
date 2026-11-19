@@ -7,6 +7,7 @@
 ## Цели главы / Chapter Objectives
 
 После изучения главы читатель сможет:
+
 - описывать географическое положение Кыргызстана и объяснять, как горный рельеф влияет на климат, водные ресурсы, расселение и транспорт;
 - различать физико-географическое, тектоническое и административное районирование;
 - объяснять основные этапы геологической эволюции Тянь-Шаня и связь современной тектоники с внутриконтинентальной деформацией;
@@ -14,6 +15,7 @@
 - оценивать надёжность географической карты по дате, масштабу, источнику, системе координат, вертикальной основе и правам использования.
 
 After studying this chapter, readers should be able to:
+
 - describe Kyrgyzstan's geographic location and explain how mountain relief affects climate, water resources, settlement and transport;
 - distinguish physical-geographical, tectonic and administrative regionalisation;
 - explain the main stages of Tien Shan geological evolution and relate modern tectonics to intracontinental deformation;
@@ -92,6 +94,7 @@ The extreme points and their coordinates should be shown on maps using one offic
 Высотный диапазон простирается от низких долин до вершин выше 7 000 м. Наиболее высокие вершины страны связаны с восточной частью Центрального Тянь-Шаня и районом хребта Какшаал-Тоо. Пик Победы (Жеңиш чокусу) достигает примерно 7 439 м; Хан-Тенгри — около 6 995 м по скальной вершине, тогда как при учёте ледниковой шапки в некоторых источниках приводится высота около 7 010 м. В атласе эти значения следует сопровождать пояснением методики измерения и не смешивать скальную высоту с высотой ледниковой поверхности.
 
 Высота влияет на:
+
 - температуру и продолжительность вегетационного периода;
 - количество и сезонность осадков;
 - типы почв и растительности;
@@ -107,6 +110,7 @@ Relief is a defining characteristic of Kyrgyzstan. Most of the territory belongs
 The elevation range extends from low valleys to peaks above 7,000 m. The country's highest summits are associated with the eastern part of the Central Tien Shan and the Kakshaal-Too Range. Jengish Chokusu (Victory Peak) reaches approximately 7,439 m. The rocky summit of Khan Tengri is about 6,995 m high, while some sources give approximately 7,010 m when the ice cap is included. An atlas should state the measurement convention and must not confuse the rock summit with the elevation of the ice surface.
 
 Elevation affects:
+
 - temperature and the length of the growing season;
 - the amount and seasonality of precipitation;
 - soil and vegetation types;
@@ -196,6 +200,7 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 Межгорные впадины — важнейшие элементы географической структуры Кыргызстана. Они разделяют горные хребты, формируют местные климатические условия и концентрируют население, сельское хозяйство и транспортные связи.
 
 К числу наиболее известных относятся:
+
 - **Чуйская долина** — северная межгорная равнина, где расположены Бишкек и значительная часть сельскохозяйственных территорий Чуйской области;
 - **Таласская долина** — межгорная область на северо-западе страны;
 - **Иссык-Кульская котловина** — крупная высокогорная впадина с озером Иссык-Куль, окружённая хребтами Кунгей-Ала-Тоо и Терскей-Ала-Тоо;
@@ -210,6 +215,7 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 Intermontane basins are among the most important elements of Kyrgyzstan's geographical structure. They separate mountain ranges, shape local climatic conditions and concentrate population, agriculture and transport connections.
 
 Some of the best-known examples are:
+
 - **The Chuy Valley** — a northern intermontane plain containing Bishkek and a large share of the agricultural land of Chuy Region;
 - **The Talas Valley** — an intermontane area in the north-west of the country;
 - **The Issyk-Kul Basin** — a large high-altitude depression containing Lake Issyk-Kul and enclosed by the Kungey Ala-Too and Terskey Ala-Too ranges;
@@ -237,6 +243,7 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 ### Палеозой: океаны, островные дуги и сборка континента / Palaeozoic: Oceans, Island Arcs and Continental Assembly
 
 В палеозое территория современного Тянь-Шаня была частью сложной системы континентальных окраин, океанических бассейнов, островных дуг и микроконтинентов. В разных районах происходили:
+
 - раскрытие и закрытие океанических бассейнов;
 - субдукция океанической литосферы;
 - вулканизм и образование магматических дуг;
@@ -256,6 +263,7 @@ Plateaus and high-altitude surfaces, including the Ak-Sai and Arpa areas, have a
 Сближение Индийской и Евразийской литосферных плит привело к передаче деформации далеко вглубь Евразии. Тянь-Шань, удалённый от основной зоны столкновения, вновь стал областью активного сжатия и поднятия. Этот процесс не следует изображать как непосредственное столкновение двух плит под Кыргызстаном: деформация распространяется в континентальную часть Евразии и использует унаследованные структуры древнего орогена.
 
 С позднего палеогена и особенно в неогене и четвертичном периоде происходили:
+
 - реактивация древних разломов;
 - формирование и перемещение надвигов;
 - поднятие хребтов;
@@ -282,6 +290,7 @@ Precambrian complexes consist of ancient metamorphic and igneous rocks that form
 ### Palaeozoic: oceans, island arcs and continental assembly
 
 During the Palaeozoic, the area of the present-day Tien Shan was part of a complex system of continental margins, ocean basins, island arcs and microcontinents. Different areas experienced:
+
 - opening and closure of ocean basins;
 - subduction of oceanic lithosphere;
 - volcanism and the formation of magmatic arcs;
@@ -301,6 +310,7 @@ After the main Palaeozoic stages of fold-belt assembly, intraplate processes, we
 The convergence of the Indian and Eurasian lithospheric plates transferred deformation far into the interior of Eurasia. Although the Tien Shan lies far from the principal collision zone, it again became an area of active compression and uplift. This process should not be depicted as a direct collision of the two plates beneath Kyrgyzstan: deformation propagates into continental Eurasia and reactivates structures inherited from the ancient orogen.
 
 From the late Palaeogene, and especially during the Neogene and Quaternary, the region experienced:
+
 - reactivation of ancient faults;
 - formation and movement of thrusts;
 - uplift of mountain ranges;
@@ -316,6 +326,7 @@ The modern landscape is the result of late Cenozoic uplift superimposed on a muc
 Тектоническое строение Кыргызстана мозаично. В региональных схемах выделяются крупные структурные элементы Северного, Срединного и Южного Тянь-Шаня, Северного Памира и северной окраины Таримской платформы. Некоторые схемы отдельно выделяют Таласский регион и другие блоки.
 
 Различия между блоками проявляются в:
+
 - возрасте и составе фундамента;
 - последовательности осадочных и вулканогенных толщ;
 - характере магматизма;
@@ -331,6 +342,7 @@ The modern landscape is the result of late Cenozoic uplift superimposed on a muc
 The tectonic structure of Kyrgyzstan is a mosaic. Regional schemes distinguish major structural elements of the Northern, Central and Southern Tien Shan, the Northern Pamir and the northern margin of the Tarim Platform. Some schemes also identify the Talas region and other blocks separately.
 
 Differences between these blocks are reflected in:
+
 - the age and composition of their basement rocks;
 - the sequence of sedimentary and volcanic units;
 - the character of magmatism;
@@ -356,6 +368,7 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 Землетрясения происходят не только на границах океанических плит. Внутри континентов крупные землетрясения могут быть связаны с реактивацией древних разломов и накоплением напряжений в неоднородной земной коре.
 
 Сейсмический риск определяется не только магнитудой возможного землетрясения, но и:
+
 - глубиной очага;
 - расстоянием до населённых пунктов;
 - характеристиками грунтов;
@@ -373,6 +386,7 @@ Kyrgyzstan lies within an active intracontinental deformation belt associated wi
 Earthquakes do not occur only at the boundaries of oceanic plates. Large earthquakes within continents may result from the reactivation of ancient faults and the accumulation of stress in a heterogeneous crust.
 
 Seismic risk depends not only on the magnitude of a possible earthquake but also on:
+
 - the depth of the earthquake's focus;
 - the distance to settlements;
 - ground conditions;
@@ -420,6 +434,7 @@ This is a conceptual model, not a universal formula for calculating monetary los
 Современный рельеф создаётся взаимодействием эндогенных и экзогенных процессов.
 
 **Эндогенные процессы:**
+
 - тектоническое поднятие и опускание;
 - складчатость и надвигообразование;
 - разломные смещения;
@@ -427,6 +442,7 @@ This is a conceptual model, not a universal formula for calculating monetary los
 - землетрясения.
 
 **Экзогенные процессы:**
+
 - речная эрозия и аккумуляция;
 - ледниковая эрозия и отложение морен;
 - морозное выветривание;
@@ -445,6 +461,7 @@ The modern relief of Kyrgyzstan is shaped by the interaction of endogenic and ex
 *Figure 17-G. Conceptual mountain-landscape profile; features and processes are schematic, not to scale, and do not represent one real transect.*
 
 **Endogenic processes include:**
+
 - tectonic uplift and subsidence;
 - folding and thrusting;
 - displacement along faults;
@@ -452,6 +469,7 @@ The modern relief of Kyrgyzstan is shaped by the interaction of endogenic and ex
 - earthquakes.
 
 **Exogenic processes include:**
+
 - river erosion and deposition;
 - glacial erosion and the deposition of moraines;
 - frost weathering;
@@ -472,6 +490,7 @@ In high mountain areas, characteristic landforms include U-shaped glacial trough
 Геологическое разнообразие Кыргызстана обусловило наличие месторождений металлических и неметаллических полезных ископаемых, угля, строительного сырья и подземных вод. Минеральные ресурсы связаны с магматическими, гидротермальными, осадочными и метаморфическими процессами. Сам факт геологического обнаружения полезного компонента, однако, ещё не означает, что его можно безопасно и рентабельно добывать.
 
 В числе известных видов сырья:
+
 - золото;
 - сурьма и ртуть;
 - олово и вольфрам;
@@ -504,6 +523,7 @@ In high mountain areas, characteristic landforms include U-shaped glacial trough
 Geological diversity in Kyrgyzstan has created deposits of metallic and non-metallic minerals, coal, construction materials and groundwater resources. Mineral resources are associated with igneous, hydrothermal, sedimentary and metamorphic processes. The geological discovery of a potentially useful material, however, does not by itself mean that it can be extracted safely or profitably.
 
 Examples of mineral commodities include:
+
 - gold;
 - antimony and mercury;
 - tin and tungsten;
@@ -623,6 +643,7 @@ Administrative boundaries are designed for governance and statistical reporting.
 #### Приграничные территории как зоны взаимодействия
 
 Приграничье — не только территория контроля и охраны. Это также пространство ежедневных хозяйственных и социальных связей. Для жителей приграничных районов большое значение имеют:
+
 - доступ к дорогам, рынкам, школам и медицинским учреждениям;
 - режим работы пунктов пропуска и время пересечения границы;
 - сезонный выпас скота и доступ к пастбищам;
@@ -677,6 +698,7 @@ These developments should not be interpreted as meaning that one treaty on selec
 ##### Borderlands as areas of interaction
 
 A borderland is not only an area of control and security. It is also a space of everyday economic and social connections. For residents of border districts, important factors include:
+
 - access to roads, markets, schools and medical services;
 - checkpoint operating hours and border-crossing time;
 - seasonal livestock movement and access to pastures;
@@ -707,6 +729,7 @@ Do not independently determine or “correct” an international border using a 
 Различия между регионами страны обусловлены сочетанием положения, высоты, рельефа, климата, водных ресурсов, почв, транспортной доступности и исторически сложившегося расселения.
 
 Примеры пространственных контрастов:
+
 - северные долины имеют более тесные связи с Казахстаном и крупными транспортными коридорами;
 - Иссык-Кульская котловина выделяется озёрным климатическим влиянием и туристско-рекреационными ресурсами;
 - Нарынские высокогорные территории характеризуются значительной ролью пастбищного животноводства и суровыми зимними условиями;
@@ -719,6 +742,7 @@ Do not independently determine or “correct” an international border using a 
 Regional differences in Kyrgyzstan result from the combined influence of geographic location, elevation, relief, climate, water resources, soils, transport accessibility and historically established settlement patterns.
 
 Examples of spatial contrasts include:
+
 - northern valleys, which have closer connections with Kazakhstan and major transport corridors;
 - the Issyk-Kul Basin, distinguished by the climatic influence of the lake and by tourism and recreation resources;
 - the high mountain areas of Naryn, where pastoral livestock husbandry is important and winters are severe;
@@ -758,6 +782,7 @@ Accessibility in mountain regions varies by season. Snow, avalanche danger, land
 В Кыргызстане используются кыргызские географические названия, русскоязычные формы и международные варианты латинской транслитерации. Один и тот же объект может иметь исторические, разговорные и официальные формы названия.
 
 Для атласа необходимо:
+
 - выбирать официальную форму названия по национальным источникам;
 - приводить кыргызское название в оригинальной орфографии;
 - использовать единую систему латинской транслитерации;
@@ -787,6 +812,7 @@ On 11 November 2025, the State Agency for Land Resources, Cadastre, Geodesy and 
 Kyrgyzstan uses geographical names in Kyrgyz, Russian-language forms and international Latin transliterations. The same feature may have historical, colloquial and official forms of its name.
 
 For an atlas:
+
 - select the official form of each name using national sources;
 - provide the Kyrgyz name in its original orthography;
 - use one consistent Latin transliteration system;

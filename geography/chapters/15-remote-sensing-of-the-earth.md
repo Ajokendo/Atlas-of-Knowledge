@@ -24,6 +24,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 Дистанционное зондирование основано на регистрации электромагнитного излучения, отражённого, испускаемого или рассеянного объектами и атмосферой. По измеренным сигналам можно получать сведения о свойствах поверхности, растительности, воде, снегу, льде, облачности, температуре и изменениях землепользования.
 
 Основные платформы:
+
 - **спутники:** обеспечивают регулярное наблюдение больших территорий и глобальный охват;
 - **самолёты:** позволяют выполнять съёмку с гибким выбором высоты, сенсора и времени;
 - **беспилотные летательные аппараты (БПЛА):** дают детальные изображения локальных участков, но имеют ограничения по площади, погоде, разрешениям на полёты и времени работы;
@@ -35,6 +36,7 @@ This chapter introduces the physical principles of remote sensing, the electroma
 Remote sensing is based on recording electromagnetic radiation reflected, emitted or scattered by objects and the atmosphere. The measured signals can provide information about surface properties, vegetation, water, snow, ice, cloud cover, temperature and land-use change.
 
 The main platforms are:
+
 - **satellites:** provide regular observations over large areas and global coverage;
 - **aircraft:** allow surveys with flexible choices of altitude, sensor and timing;
 - **uncrewed aerial vehicles (UAVs):** provide detailed imagery of local areas but are limited by coverage, weather, flight permissions and operating time; and
@@ -51,6 +53,7 @@ Remote sensing complements field research; it does not replace it. Satellite sig
 Электромагнитное излучение характеризуется длиной волны и частотой. В дистанционном зондировании применяют видимый свет, ближний и коротковолновый инфракрасный диапазоны, тепловое инфракрасное излучение и микроволны.
 
 Основные диапазоны:
+
 - **видимый:** примерно 0,4–0,7 мкм; воспринимаемые человеком цвета;
 - **ближний инфракрасный (NIR):** примерно 0,7–1,3 мкм; чувствителен к структуре и состоянию растительности;
 - **коротковолновый инфракрасный (SWIR):** примерно 1,3–3 мкм; полезен для анализа влажности, минералов, пожаров и некоторых характеристик поверхности;
@@ -63,6 +66,7 @@ Remote sensing complements field research; it does not replace it. Satellite sig
 Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.
 
 The main regions include:
+
 - **visible:** approximately 0.4–0.7 μm; the colours perceived by human vision;
 - **near-infrared (NIR):** approximately 0.7–1.3 μm; sensitive to vegetation structure and condition;
 - **shortwave infrared (SWIR):** approximately 1.3–3 μm; useful for analysing moisture, minerals, fires and some surface properties;
@@ -83,6 +87,7 @@ Band boundaries are approximate and depend on the classification and sensor spec
 **Спектральная сигнатура** — характерная зависимость отражательной способности или излучения объекта от длины волны. Она помогает различать типы поверхности, но не является уникальным «отпечатком» при любых условиях.
 
 Примеры:
+
 - здоровая зелёная растительность обычно сильно поглощает красный свет хлорофиллом и отражает значительную долю ближнего инфракрасного излучения;
 - вода обычно имеет низкую отражательную способность в ближнем инфракрасном диапазоне, но результат зависит от мутности, глубины, взвесей и отражения неба;
 - сухая почва и влажная почва часто различаются по спектральному отклику, особенно в инфракрасных диапазонах;
@@ -96,6 +101,7 @@ When radiation reaches a surface, some energy is reflected, some is absorbed and
 A **spectral signature** is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique “fingerprint” under all conditions.
 
 Examples:
+
 - healthy green vegetation usually absorbs much of the red light through chlorophyll and reflects a substantial proportion of near-infrared radiation;
 - water usually has low reflectance in the near-infrared, although the result depends on turbidity, depth, suspended matter and sky reflection;
 - dry and wet soils often have different spectral responses, especially in infrared regions; and
@@ -110,6 +116,7 @@ The atmospheric signal, illumination angle, viewing angle, relief, shadows, seas
 Пассивные сенсоры регистрируют естественное излучение: отражённое солнечное или собственное тепловое излучение Земли. Оптические мультиспектральные и гиперспектральные камеры — распространённые примеры пассивных систем.
 
 Ограничения оптических наблюдений:
+
 - облака и дым закрывают поверхность;
 - освещение зависит от времени суток и сезона;
 - тени и рельеф усложняют сравнение;
@@ -127,6 +134,7 @@ The atmospheric signal, illumination angle, viewing angle, relief, shadows, seas
 Passive sensors record natural radiation: reflected sunlight or the Earth's own thermal emission. Optical multispectral and hyperspectral cameras are common examples of passive systems.
 
 Limitations of optical observations include:
+
 - clouds and smoke can obscure the surface;
 - illumination depends on time of day and season;
 - shadows and relief complicate comparisons; and
@@ -152,6 +160,7 @@ Active systems can operate independently of sunlight. Radar microwaves often all
 Спутниковые сенсоры различаются по спектральным каналам, пространственному разрешению, полосе захвата, частоте повторного наблюдения и радиометрической чувствительности.
 
 Основные типы:
+
 - **панхроматические:** один широкий спектральный канал, часто с более высоким пространственным разрешением;
 - **мультиспектральные:** несколько относительно широких каналов;
 - **гиперспектральные:** десятки или сотни узких, смежных спектральных каналов;
@@ -160,6 +169,7 @@ Active systems can operate independently of sunlight. Radar microwaves often all
 - **альтиметрические и лидарные:** измеряют высоту поверхности, расстояния или структуру объектов.
 
 Примеры широко используемых программ и миссий:
+
 - **Landsat** — длительный архив наблюдений суши, совместная программа NASA и USGS;
 - **Sentinel** — семейство миссий программы Copernicus Европейского союза и Европейского космического агентства;
 - **MODIS** — приборы на спутниках Terra и Aqua, обеспечивающие частые глобальные наблюдения;
@@ -249,6 +259,7 @@ Not all products require the same processing. For example, a surface-reflectance
 Например, назначение ближнего инфракрасного канала красному экранному каналу позволяет сделать растительность яркой, поскольку она часто сильно отражает NIR. Но цвет на ложной композиции не является реальным цветом объекта.
 
 Визуальная интерпретация учитывает:
+
 - тон и цвет;
 - текстуру;
 - форму;
@@ -268,6 +279,7 @@ A **true-colour composite** uses visible bands and approximates how human vision
 For example, assigning the near-infrared band to the red display channel can make vegetation appear bright because vegetation often strongly reflects NIR radiation. However, a colour in a false-colour composite is not the object's actual visible colour.
 
 Visual interpretation considers:
+
 - tone and colour;
 - texture;
 - shape;
@@ -296,6 +308,7 @@ NDVI = \frac{NIR - Red}{NIR + Red}
 NDVI широко применяется для оценки относительной активности зелёной растительности. Значения обычно лежат в диапазоне от −1 до +1, но интерпретация зависит от сенсора, поверхности, сезона и обработки.
 
 Ограничения NDVI:
+
 - насыщение в густой растительности;
 - влияние почвенного фона при редком растительном покрове;
 - чувствительность к атмосфере и теням;
@@ -342,6 +355,7 @@ NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 Классификация присваивает пикселям или объектам категории земного покрова или другие тематические классы.
 
 Основные подходы:
+
 - **контролируемая классификация:** алгоритм обучается на заранее размеченных примерах;
 - **неконтролируемая классификация:** алгоритм группирует пиксели по сходству спектральных характеристик;
 - **объектно-ориентированный анализ:** классифицируются сегменты или объекты, а не отдельные пиксели;
@@ -359,6 +373,7 @@ NBR = \frac{NIR - SWIR2}{NIR + SWIR2}
 Classification assigns pixels or objects to land-cover categories or other thematic classes.
 
 Main approaches include:
+
 - **supervised classification:** the algorithm is trained using pre-labelled examples;
 - **unsupervised classification:** the algorithm groups pixels by similarity in spectral characteristics;
 - **object-based analysis:** segments or objects are classified rather than individual pixels; and
@@ -382,6 +397,7 @@ A **confusion matrix** shows agreement and disagreement between the classificati
 Радар с синтезированной апертурой (SAR) использует микроволновые импульсы и регистрирует обратное рассеяние от поверхности. Радарные данные особенно полезны там, где оптические наблюдения ограничены облачностью или отсутствием солнечного освещения.
 
 Сигнал SAR зависит от:
+
 - шероховатости поверхности относительно длины волны;
 - влажности почвы и растительности;
 - геометрии объекта и угла наблюдения;
@@ -390,6 +406,7 @@ A **confusion matrix** shows agreement and disagreement between the classificati
 - длины волны и параметров сенсора.
 
 Применения SAR:
+
 - картирование затоплений;
 - мониторинг деформаций поверхности методом интерферометрии;
 - оценка влажности и состояния почв при подходящих условиях;
@@ -403,6 +420,7 @@ A **confusion matrix** shows agreement and disagreement between the classificati
 Synthetic-aperture radar (SAR) uses microwave pulses and records the backscatter from the surface. Radar data are especially useful where optical observations are limited by cloud cover or the absence of sunlight.
 
 The SAR signal depends on:
+
 - surface roughness relative to the wavelength;
 - soil and vegetation moisture;
 - object geometry and viewing angle;
@@ -411,6 +429,7 @@ The SAR signal depends on:
 - wavelength and sensor parameters.
 
 SAR applications include:
+
 - flood mapping;
 - monitoring surface deformation using interferometry;
 - estimating soil moisture under suitable conditions;
@@ -430,6 +449,7 @@ A radar image is not a photograph in the usual sense. Pixel brightness reflects 
 LiDAR (Light Detection and Ranging) измеряет расстояние по времени прохождения лазерного импульса. Системы могут быть установлены на самолётах, БПЛА, автомобилях или спутниках.
 
 Результат часто представляется облаком точек, где каждая точка имеет координаты и дополнительные атрибуты. По облаку точек можно создавать:
+
 - цифровую модель поверхности (DSM);
 - цифровую модель рельефа (DTM);
 - модели зданий и растительности;
@@ -441,6 +461,7 @@ LiDAR (Light Detection and Ranging) измеряет расстояние по �
 LiDAR (Light Detection and Ranging) measures distance from the travel time of a laser pulse. Systems can be mounted on aircraft, UAVs, vehicles or satellites.
 
 The output is often represented as a point cloud in which each point has coordinates and additional attributes. Point clouds can be used to create:
+
 - a digital surface model (DSM);
 - a digital terrain model (DTM);
 - building and vegetation models; and
@@ -458,6 +479,7 @@ Laser pulses may pass through gaps in vegetation and return signals from differe
 Мониторинг изменений сравнивает данные разных дат для выявления преобразований поверхности и природных процессов.
 
 Основные методы:
+
 - сравнение классифицированных карт;
 - вычитание и нормализация спектральных каналов;
 - анализ изменений индексов;
@@ -466,6 +488,7 @@ Laser pulses may pass through gaps in vegetation and return signals from differe
 - статистические методы обнаружения трендов и сезонности.
 
 Перед сравнением важно обеспечить:
+
 - сопоставимые сезоны и фенологические стадии;
 - одинаковую или согласованную систему координат;
 - сопоставимые пространственные разрешения;
@@ -505,6 +528,7 @@ When different seasons are compared, describe the result as a seasonal differenc
 ## 15.14. ДЗЗ для изучения природных опасностей и чрезвычайных ситуаций / Remote Sensing for Hazards and Disasters
 
 Данные ДЗЗ помогают до, во время и после чрезвычайных ситуаций:
+
 - картировать площади затопления;
 - выявлять следы лесных и степных пожаров;
 - оценивать последствия оползней и землетрясений;
@@ -518,6 +542,7 @@ When different seasons are compared, describe the result as a seasonal differenc
 
 
 Remote-sensing data support work before, during and after emergencies. They can be used to:
+
 - map flooded areas;
 - identify the extent of forest and steppe fires;
 - assess the effects of landslides and earthquakes;
@@ -532,6 +557,7 @@ Remote sensing should be combined with ground observations, meteorological data,
 ## 15.15. Ограничения, неопределённость и этика ДЗЗ / Limitations, Uncertainty and Ethics
 
 Данные дистанционного зондирования имеют ограничения:
+
 - облачность, дым, туман и атмосферные помехи;
 - различия сенсоров и алгоритмов;
 - смешанные пиксели на границах объектов;
@@ -599,6 +625,7 @@ Remote sensing complements field research rather than replacing it. Satellite si
 Electromagnetic radiation is characterised by wavelength and frequency. Remote sensing uses visible light, near-infrared and shortwave-infrared regions, thermal infrared radiation and microwaves.
 
 Approximate spectral regions include:
+
 - **visible:** about 0.4–0.7 μm, the colours perceived by the human eye;
 - **near-infrared (NIR):** about 0.7–1.3 μm, sensitive to vegetation structure and condition;
 - **shortwave infrared (SWIR):** about 1.3–3 μm, useful for analysing moisture, minerals, fires and some surface characteristics;
@@ -614,6 +641,7 @@ When radiation reaches a surface, some energy is reflected, some absorbed and so
 A **spectral signature** is the characteristic variation of an object's reflectance or emission with wavelength. It helps distinguish surface types, but it is not a unique fingerprint under all conditions.
 
 Examples:
+
 - healthy green vegetation usually absorbs red light strongly through chlorophyll and reflects a substantial share of near-infrared radiation;
 - water usually has low reflectance in the near-infrared, although turbidity, depth, suspended material and sky reflection affect the signal;
 - dry and wet soils often differ spectrally, particularly in infrared regions; and
@@ -636,6 +664,7 @@ Active systems can operate independently of sunlight. Radar microwaves can often
 Satellite sensors differ in spectral bands, spatial resolution, swath width, revisit frequency and radiometric sensitivity.
 
 Main types include:
+
 - **panchromatic:** one broad spectral band, often with higher spatial resolution;
 - **multispectral:** several relatively broad bands;
 - **hyperspectral:** dozens or hundreds of narrow, contiguous bands;

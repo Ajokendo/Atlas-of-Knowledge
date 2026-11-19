@@ -8,6 +8,7 @@
 Кыргызстан — высокогорная страна, экологическая безопасность которой тесно связана с состоянием ледников, рек, пастбищ, лесов, почв и горных экосистем. Значительная часть водных ресурсов формируется в горах, а затем используется для питьевого водоснабжения, сельского хозяйства, энергетики и экосистем как внутри страны, так и в соседних государствах. Поэтому изменения в горных природных системах имеют последствия далеко за пределами мест их возникновения.
 
 Экологические вызовы страны взаимосвязаны:
+
 - изменение климата усиливает давление на ледники, снежный покров, водный режим и сельское хозяйство;
 - деградация пастбищ и почв снижает продуктивность земель и устойчивость сельских доходов;
 - загрязнение воздуха в городах связано с отоплением, транспортом, промышленностью и метеорологическими условиями;
@@ -21,6 +22,7 @@
 Kyrgyzstan is a high-mountain country whose environmental security is closely connected with the condition of glaciers, rivers, pastures, forests, soils and mountain ecosystems. A substantial share of the country's water resources forms in mountain areas and is then used for drinking-water supply, agriculture, energy production and ecosystems, both within Kyrgyzstan and in neighbouring states. Changes in mountain natural systems therefore have consequences far beyond the places where they occur.
 
 The country's environmental challenges are interconnected:
+
 - climate change puts additional pressure on glaciers, snow cover, river regimes and agriculture;
 - pasture and soil degradation reduce land productivity and the resilience of rural livelihoods;
 - urban air pollution is associated with heating, transport, industry and meteorological conditions;
@@ -117,6 +119,7 @@ Quantifying glacier retreat requires identifying the specific inventory used. Th
 По данным открытой статистики НСК за 2025 год, забор воды из природных источников составил **8 938,4 млн м³**, водопотребление — **6 224,9 млн м³**, в том числе на орошение и сельскохозяйственное водоснабжение — **5 821,1 млн м³**. Это статистически учтённые годовые потоки в миллионах кубических метров, а не оценка полного возобновляемого запаса воды страны.
 
 Для управления водным спросом необходимы:
+
 - учёт воды на водозаборах и в распределительных сетях;
 - ремонт каналов и снижение фильтрационных потерь там, где они не обеспечивают полезное пополнение подземных вод;
 - капельное и дождевальное орошение там, где оно экономически и агрономически оправдано;
@@ -148,6 +151,7 @@ Water policy should therefore include inventories of glaciers and lakes, hydrolo
 According to the National Statistical Committee's open data for 2025, water abstraction from natural sources amounted to **8,938.4 million m³**, while water consumption was **6,224.9 million m³**. Of the latter, **5,821.1 million m³** was used for irrigation and agricultural water supply. These figures are statistically recorded annual flows in million cubic metres; they are not an estimate of the country's total renewable water resources.
 
 Managing water demand requires:
+
 - measuring water at abstraction points and throughout distribution networks;
 - repairing canals and reducing seepage losses where they do not provide useful groundwater recharge;
 - using drip and sprinkler irrigation where economically and agronomically appropriate;
@@ -342,6 +346,7 @@ Children, pregnant women, older people and people with chronic illnesses require
 В более свежей открытой статистике НСК за 2025 год отдельно указаны 188,5 млн м³ сточных вод, 185,6 млн м³ нормативно очищенных вод и 1,4 млн м³ загрязнённых сточных вод, сброшенных без очистки или недостаточно очищенными. Эти объёмные показатели относятся к национальному статистическому учёту и не должны автоматически пересчитываться в долю, сопоставимую с международным индикатором ЦУР 6.3.1: необходимо проверить охват и знаменатель соответствующей таблицы.
 
 Основные проблемы:
+
 - изношенные или недостаточные канализационные сети;
 - недостаточная мощность очистных сооружений;
 - сброс неочищенных стоков в водные объекты;
@@ -360,6 +365,7 @@ According to the UN Sustainable Development Goals data, the share of **domestic 
 More recent NSC open data for 2025 separately report 188.5 million m³ of wastewater, 185.6 million m³ of wastewater discharged after treatment to the applicable standard, and 1.4 million m³ of polluted wastewater discharged untreated or insufficiently treated. These volume indicators belong to the national statistical reporting system and should not automatically be converted into a percentage comparable with the international SDG 6.3.1 indicator; the coverage and denominator of the relevant table must first be checked.
 
 Main challenges include:
+
 - worn-out or insufficient sewerage networks;
 - inadequate capacity of wastewater treatment plants;
 - discharge of untreated wastewater into water bodies;
@@ -391,6 +397,7 @@ Priority measures include building and modernising treatment facilities, adoptin
 7. Безопасное размещение остаточных отходов на инженерно оборудованных полигонах.
 
 Приоритетные направления:
+
 - закрытие или модернизация несанкционированных свалок;
 - предотвращение попадания отходов в реки и озёра;
 - создание региональных систем сортировки;
@@ -417,6 +424,7 @@ According to the National Statistical Committee, **1,646.5 thousand tonnes of mu
 7. Dispose of residual waste safely at engineered landfills.
 
 Priority actions include:
+
 - closing or upgrading unauthorised dumpsites;
 - preventing waste from entering rivers and lakes;
 - establishing regional sorting systems;
@@ -478,6 +486,7 @@ For legacy industrial sites, priorities include inventories of contaminated loca
 
 
 Горная география Кыргызстана формирует широкий спектр природных опасностей:
+
 - землетрясения;
 - сели и паводки;
 - оползни и обвалы;
@@ -514,6 +523,7 @@ R = f(H, E, V)
 
 
 Kyrgyzstan's mountain geography creates a wide range of natural hazards:
+
 - earthquakes;
 - debris flows and floods;
 - landslides and rockfalls;
@@ -612,6 +622,7 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 Устойчивые города должны снижать воздействие на природу и одновременно повышать качество жизни. В Кыргызстане это особенно важно для Бишкека, Оша и быстро растущих районных центров.
 
 Городская экологическая политика включает:
+
 - компактное и смешанное землепользование;
 - доступный общественный транспорт и безопасные пешеходные маршруты;
 - энергоэффективное отопление и здания;
@@ -629,6 +640,7 @@ Priorities should be reviewed after new surveys, land-use changes, infrastructur
 Sustainable cities should reduce pressure on the natural environment while improving quality of life. In Kyrgyzstan, this is particularly important for Bishkek, Osh and rapidly growing district centres.
 
 Urban environmental policy includes:
+
 - compact and mixed-use land development;
 - accessible public transport and safe walking routes;
 - energy-efficient heating and buildings;
@@ -653,6 +665,7 @@ Tree planting should account for local climate, water availability, species resi
 По данным UNEP, площадь охраняемых территорий выросла примерно с 0,5 млн га в 2000 году до 1,5 млн га в 2023 году. Это показатель площади по методике использованного источника, а не доказательство одинаковой эффективности управления всеми территориями.
 
 Эффективная охрана природы требует:
+
 - достаточного финансирования и кадрового обеспечения ООПТ;
 - научного мониторинга видов и местообитаний;
 - экологических коридоров между охраняемыми территориями;
@@ -670,6 +683,7 @@ Kyrgyzstan lies within the globally significant mountain ecosystems of the Tien 
 According to UNEP, the area of protected territories increased from approximately 0.5 million hectares in 2000 to 1.5 million hectares in 2023. This is an area indicator based on the source's methodology; it does not demonstrate that all protected areas are managed with equal effectiveness.
 
 Effective nature conservation requires:
+
 - adequate funding and staffing for protected areas;
 - scientific monitoring of species and habitats;
 - ecological corridors between protected areas;

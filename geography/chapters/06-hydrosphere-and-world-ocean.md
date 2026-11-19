@@ -18,6 +18,7 @@
 *Источник изображения: U.S. Geological Survey (USGS), Water Science School, «The distribution of water on, in, and above the Earth» (2019). Данные: оценка Игоря Шикломанова, опубликованная в 1993 году; проценты округлены. Изображение используется без изменений; источник и автор данных указаны по подписи USGS. Это оценка, основанная на историческом наборе данных, а не современное измерение.*
 
 **Перевод подписей диаграммы:**  
+
 - **Общий запас воды:** океаны — 96,5%; другая солёная вода — 0,9%; пресная вода — 2,5%.
 - **Весь запас пресной воды:** ледники и ледяные щиты — 68,7%; подземные воды — 30,1%; поверхностные и прочие пресные воды — 1,2%.
 - **Поверхностные и прочие пресные воды:** подземный лёд и многолетняя мерзлота — 69,0%; озёра — 20,9%; почвенная влага — 3,8%; атмосфера — 3,0%; болота и заболоченные территории — 2,6%; реки — 0,49%; вода в живых организмах — 0,26%.
@@ -45,6 +46,7 @@
 *Источник: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; изображение WCD 1, опубликовано в 2023 году). Создано USGS VizLab совместно с Water Resources Mission Area Web Communications Branch. Public Domain; изображение используется без изменений. Стрелки показывают направления движения воды качественно, а не измеренные годовые объёмы или скорости потоков.*
 
 **Перевод основных подписей диаграммы:**  
+
 - **Резервуары (pools):** океан; смешанный и глубинный слои океана; пресные и солёные озёра; пресные и солоноватые водно-болотные угодья; водохранилища; реки; ледяные щиты и ледники; снежный покров; вечная мерзлота; почвенная влага; подземные воды; атмосферная влага над океаном и сушей.
 - **Потоки (fluxes):** испарение океана; осадки над океаном и сушей; перенос влаги с океана на сушу; эвапотранспирация; снеготаяние; поверхностный сток; речной сток в замкнутые бассейны и в океан; пополнение запасов подземных вод; подземный сток в океан; океаническая циркуляция.
 - **Водопользование и воздействие человека:** бытовое, муниципальное, промышленное, сельскохозяйственное и пастбищное водопользование; городской сток; регулирование рек и водохранилища; осушение водно-болотных угодий; загрязнение вод.
@@ -52,6 +54,7 @@
 Круговорот воды — непрерывное перемещение воды между океаном, сушей, атмосферой, криосферой и подземными резервуарами под воздействием солнечной энергии и силы тяжести.
 
 Основные процессы:
+
 - испарение с поверхности океанов, водоёмов и почвы;
 - транспирация растений;
 - конденсация водяного пара;
@@ -89,6 +92,7 @@
 Мировой океан образует непрерывную водную систему, хотя традиционно его разделяют на отдельные океаны и моря. Границы между океанами условны и определяются географической и гидрографической традицией.
 
 В современной распространённой классификации выделяют пять океанов:
+
 - Тихий;
 - Атлантический;
 - Индийский;
@@ -114,6 +118,7 @@
 Океаническое дно имеет сложное строение и включает формы, сопоставимые по масштабу с крупнейшими формами рельефа суши.
 
 Основные элементы:
+
 - **Континентальный шельф:** затопленная окраина материка с относительно небольшими глубинами.
 - **Континентальный склон:** крутой переход от шельфа к глубоководной части бассейна.
 - **Континентальное подножие:** область накопления осадков у основания склона.
@@ -179,6 +184,7 @@
 Течения — устойчивые или повторяющиеся направленные движения морской воды. Их формируют ветры, различия плотности, вращение Земли, конфигурация бассейнов, приливные силы и взаимодействие с рельефом дна.
 
 Различают:
+
 - поверхностные ветровые течения;
 - глубинную термохалинную циркуляцию;
 - приливные течения;
@@ -237,6 +243,7 @@
 Океанические экосистемы отличаются по освещённости, глубине, температуре, солёности, доступности питательных веществ и характеру субстрата.
 
 В одной из распространённых учебных схем выделяют следующие экологические зоны (границы и употребление терминов могут различаться в зависимости от дисциплины и принятой классификации):
+
 - литораль — область периодического воздействия приливов;
 - сублитораль — мелководная постоянно затопленная зона;
 - пелагиаль — толща открытой воды;
@@ -254,6 +261,7 @@
 ## 6.10. Морские ресурсы и хозяйственное использование океана / Marine Resources and Ocean Uses
 
 Мировой океан обеспечивает человечество:
+
 - биологическими ресурсами и продуктами рыболовства;
 - морским транспортом и международными торговыми маршрутами;
 - энергетическими ресурсами;
@@ -272,6 +280,7 @@
 *Концептуальная схема основных путей загрязнения и мер предотвращения; не количественная оценка вкладов источников. / Conceptual diagram of major pollution pathways and prevention measures; not a quantitative source-apportionment.*
 
 Основные источники загрязнения:
+
 - пластик и микропластик;
 - нефтяные разливы;
 - сточные воды и избыток питательных веществ;
@@ -283,6 +292,7 @@
 Пластиковые отходы могут травмировать морских животных, попадать в пищевые сети и переноситься на большие расстояния. Микропластик обнаруживается в различных компонентах морской среды, однако последствия для отдельных видов и человека продолжают активно изучаться.
 
 Меры охраны:
+
 - предотвращение поступления мусора и неочищенных стоков;
 - сокращение одноразового пластика и улучшение управления отходами;
 - контроль судоходства и промысла;
@@ -329,6 +339,7 @@
 **Речной бассейн** — территория, с которой поверхностный сток направляется в определённую реку и её притоки. Граница поверхностного водосбора обычно проходит по топографическому водоразделу. Подземный водораздел может не совпадать с ним, поэтому границы поверхностного и подземного водосборов в некоторых геологических условиях различаются.
 
 Ключевые характеристики реки:
+
 - длина;
 - площадь бассейна;
 - расход воды;
@@ -376,6 +387,7 @@ Q = A \times v,
 Озеро — естественный водоём в углублении суши, не имеющий прямого свободного соединения с океаном. Искусственные водоёмы, созданные плотинами или выемкой грунта, корректнее называть водохранилищами или искусственными прудами, хотя в повседневной речи их иногда называют искусственными озёрами. Озёра различаются по происхождению, глубине, солёности, водному балансу и биологической продуктивности.
 
 По происхождению котловин выделяют:
+
 - тектонические;
 - ледниковые;
 - вулканические;
@@ -399,6 +411,7 @@ Q = A \times v,
 Подземные воды находятся в порах, трещинах и полостях горных пород. Они формируются преимущественно за счёт инфильтрации атмосферных осадков и поверхностных вод, хотя в отдельных геологических условиях возможны и другие источники.
 
 Основные понятия:
+
 - **Водоносный горизонт:** геологическое тело, способное накапливать и передавать подземную воду.
 - **Водоупор:** слой с очень низкой проницаемостью, ограничивающий движение воды.
 - **Уровень грунтовых вод:** верхняя граница зоны насыщения в безнапорном водоносном горизонте.
@@ -414,6 +427,7 @@ Q = A \times v,
 Водные ресурсы распределены крайне неравномерно. Доступность воды определяется не только общим объёмом, но и сезонностью стока, качеством воды, инфраструктурой, экономическими условиями и трансграничным управлением.
 
 Различают:
+
 - физический дефицит воды — недостаточность доступных водных ресурсов;
 - экономический дефицит — недостаток инфраструктуры и возможностей для доступа к воде;
 - сезонный дефицит — временное несоответствие между спросом и доступностью;
@@ -422,6 +436,7 @@ Q = A \times v,
 Интегрированное управление водными ресурсами рассматривает бассейн как единую систему и учитывает интересы населения, сельского хозяйства, энергетики, промышленности и экосистем.
 
 Ключевые инструменты:
+
 - мониторинг поверхностных и подземных вод;
 - водосберегающие технологии;
 - очистка и повторное использование воды;
@@ -438,6 +453,7 @@ Q = A \times v,
 Изменение климата воздействует на гидрологический цикл через рост атмосферного испарительного спроса, изменения фактического испарения и интенсивности осадков, снегового накопления, таяния ледников и частоты экстремальных событий. Глобальные средние испарение и осадки в целом увеличиваются, но региональные изменения осадков и стока неодинаковы; фактическое испарение на суше зависит также от доступности влаги.
 
 В разных регионах могут усиливаться:
+
 - интенсивные ливни и паводки;
 - продолжительные засухи;
 - сезонные колебания стока;
@@ -546,6 +562,7 @@ The world ocean is an interconnected system of ocean basins covering about 71% o
 *Image source: U.S. Geological Survey (USGS), Water Science School, “The distribution of water on, in, and above the Earth” (2019). Data source: Igor Shiklomanov's estimate published in 1993; percentages are rounded. The image is reused unchanged, with the USGS source and data author credited. This is a historical estimate, not a current measurement.*
 
 **Translation of diagram labels:**
+
 - **Total global water:** oceans — 96.5%; other saline water — 0.9%; freshwater — 2.5%.
 - **All freshwater:** glaciers and ice caps — 68.7%; groundwater — 30.1%; surface and other freshwater — 1.2%.
 - **Surface and other freshwater:** ground ice and permafrost — 69.0%; lakes — 20.9%; soil moisture — 3.8%; atmosphere — 3.0%; swamps and marshes — 2.6%; rivers — 0.49%; water in living things — 0.26%.
@@ -557,6 +574,7 @@ The total volume of water on Earth is estimated at about 1.386 billion km³. Abo
 The main freshwater reservoirs include glaciers and ice sheets, groundwater, lakes and rivers, ground ice and permafrost, soil moisture, wetlands, atmospheric water and water in living organisms. Most freshwater is stored in glaciers and groundwater. The share held in rivers and lakes is very small compared with the planet's total water, although these resources are highly important for ecosystems and water supply.
 
 Important properties of water include:
+
 - **high heat capacity:** water warms and cools relatively slowly;
 - **high latent heat of vaporisation:** evaporation transfers substantial energy;
 - **molecular polarity:** water dissolves many substances;
@@ -571,6 +589,7 @@ Important properties of water include:
 *Source: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; image WCD 1, published in 2023). Created by USGS VizLab with the Water Resources Mission Area Web Communications Branch. Public Domain; reused unchanged. Arrows show qualitative directions of water movement, not measured annual volumes or flow rates.*
 
 **Key translation of diagram labels:**
+
 - **Pools:** ocean; ocean mixed and deep-water zones; fresh and saline lakes; fresh and brackish wetlands; reservoirs; rivers; ice sheets and glaciers; snowpack; permafrost; soil moisture; groundwater; atmospheric moisture over ocean and land.
 - **Fluxes:** ocean evaporation; precipitation over ocean and land; transport of moisture from ocean to land; evapotranspiration; snowmelt; surface runoff; streamflow to closed basins and to the ocean; groundwater recharge; groundwater discharge to the ocean; ocean circulation.
 - **Human water use and impacts:** domestic, municipal, industrial, agricultural and grazing water use; urban runoff; river regulation and reservoirs; wetland drainage; water pollution.
@@ -588,6 +607,7 @@ Its main processes include evaporation from oceans, water bodies and soil; plant
 where \(\Delta S\) is the change in water storage. For a simplified natural catchment with no external transfers and negligible groundwater exchange, this is often written as \(P = ET + R + \Delta S\): precipitation equals evapotranspiration, runoff and the change in storage. This is not a universal formula for every basin. Where groundwater inflow or outflow, water withdrawals, return flows, canals or reservoirs are significant, those terms must be included separately with the correct sign. All terms must refer to the same catchment boundary and period and use consistent units (for example, millimetres per year).
 
 The cycle operates at different scales:
+
 - a **small oceanic cycle**, with evaporation and precipitation occurring over the ocean;
 - an **ocean-to-land cycle**, in which atmospheric moisture moves from the ocean, falls as precipitation over land and returns through runoff; and
 - a **continental cycle**, in which moisture is repeatedly evaporated and precipitated within a continent.
@@ -617,6 +637,7 @@ Exact areas and mean depths should be taken from one consistent hydrographic cla
 The ocean floor has a complex structure and includes features comparable in scale to the largest landforms on continents.
 
 Major features include:
+
 - the **continental shelf**, the relatively shallow submerged edge of a continent;
 - the **continental slope**, the steep transition from the shelf to the deep basin;
 - the **continental rise**, where sediments accumulate near the base of the slope;
@@ -816,6 +837,7 @@ By origin, lake basins may be tectonic, glacial, volcanic, karst, dammed, thermo
 Groundwater occurs in pores, fractures and cavities in rocks. It is replenished mainly by infiltration of precipitation and surface water, although other sources may contribute under particular geological conditions.
 
 Key concepts include:
+
 - an **aquifer**, a geological body able to store and transmit groundwater;
 - an **aquitard or confining layer**, a layer of very low permeability that restricts water movement;
 - the **water table**, the upper surface of the saturated zone in an unconfined aquifer;
@@ -829,6 +851,7 @@ Groundwater is important for drinking-water supply, agriculture and sustaining r
 Water resources are distributed very unevenly. Availability depends not only on total volume but also on seasonal flow, water quality, infrastructure, economic conditions and transboundary management.
 
 Different forms of scarcity include:
+
 - **physical scarcity:** insufficient available water resources;
 - **economic scarcity:** insufficient infrastructure or capacity to access water;
 - **seasonal scarcity:** a temporary mismatch between demand and availability; and

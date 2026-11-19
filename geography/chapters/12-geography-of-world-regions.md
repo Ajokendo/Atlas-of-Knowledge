@@ -21,6 +21,7 @@ Regional geography studies major parts of the world as complex territorial syste
 Регионализация — процесс выделения территориальных единиц для исследования, управления, статистики и планирования. Единственной универсальной схемы деления мира нет: границы регионов зависят от цели и выбранных критериев.
 
 Основные типы регионов:
+
 - **физико-географические:** материки, природные зоны, горные системы, речные бассейны;
 - **историко-культурные:** территории с общими историческими процессами, культурными контактами или языковыми связями;
 - **социально-экономические:** территории со сходной структурой хозяйства, уровнем развития или экономическими связями;
@@ -35,6 +36,7 @@ A **region** is an area identified by one or more characteristics and treated as
 Regionalisation is the process of defining territorial units for research, administration, statistics or planning. There is no single universal way to divide the world: regional boundaries depend on the purpose and criteria used.
 
 Major types of regions include:
+
 - **physical-geographical regions:** continents, natural zones, mountain systems and river basins;
 - **historical-cultural regions:** areas linked by shared historical processes, cultural contacts or language connections;
 - **socioeconomic regions:** areas with similar economic structures, levels of development or economic relationships;
@@ -435,6 +437,7 @@ The Southern Ocean surrounds Antarctica and plays an important role in global oc
 Многие географические процессы не ограничиваются государственными границами. Речные бассейны, горные системы, пустыни, морские экосистемы, транспортные коридоры и рынки формируют трансграничные регионы.
 
 Примеры функциональных трансграничных систем:
+
 - бассейны крупных международных рек;
 - горные регионы с общими экосистемами и ледниками;
 - прибрежные морские зоны и рыбохозяйственные районы;
@@ -483,6 +486,7 @@ Global interdependence operates through trade, investment, migration, transport 
 *Используйте контрольный список до сравнения регионов или построения рейтинга. / Use this checklist before comparing regions or building a ranking.*
 
 При анализе региональных карт необходимо проверять:
+
 - географический охват и принятую схему регионализации;
 - дату данных и актуальность границ;
 - картографическую проекцию и масштаб;
@@ -846,6 +850,7 @@ Do not simply average the two national indicators: (20,000 + 10,000) / 2 = USD 1
 - Внешние карты Blue Green Atlas, NASA/JPL и CIA имеют указанные в подписях основания повторного использования; перед выпуском отдельно проверить загрузку удалённых изображений в развёрнутом ридере и отображение атрибуции.
 
 **English editorial notes**
+
 - Local diagram 12-D has a bilingual title and description, but the SVG itself does not identify an author or licence; its verified provenance and legal basis for use should be recorded in the visual asset register before publication.
 - The source file contains a consolidated English text for sections 12.1–12.13 after the paired RU/EN blocks. Before release, verify that the web reader selects the intended language presentation and does not display the repeated English text consecutively; do not remove either block before the publishing logic is tested.
 - External maps from Blue Green Atlas, NASA/JPL and the CIA have reuse bases stated in their captions; remote-image loading in the deployed reader and display of attribution should be checked separately before release.

@@ -21,6 +21,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 **Экологическая география** изучает пространственную организацию этих процессов и их связь с природными и социально-экономическими условиями. Она объединяет подходы физической географии, биологии, геологии, экономики, социологии, демографии и наук об окружающей среде.
 
 Основные направления:
+
 - экология популяций и сообществ;
 - экосистемная и ландшафтная экология;
 - биогеохимические циклы;
@@ -37,6 +38,7 @@ This chapter introduces core ecological concepts, the geography of human pressur
 **Environmental geography** examines the spatial organisation of these processes and their relationships with natural and socioeconomic conditions. It brings together approaches from physical geography, biology, geology, economics, sociology, demography and environmental science.
 
 Its main fields include:
+
 - population and community ecology;
 - ecosystem and landscape ecology;
 - biogeochemical cycles;
@@ -54,6 +56,7 @@ Environmental problems occur at different spatial scales. Local air pollution ma
 **Устойчивость экосистем (resilience)** — способность системы поглощать возмущения, перестраиваться и сохранять основные функции. Она не означает неизменность: экосистемы динамичны, а при превышении определённых порогов могут переходить в другое состояние.
 
 Следует различать:
+
 - **сопротивляемость:** насколько мало система меняется под воздействием;
 - **восстановление:** насколько быстро она возвращается к прежнему состоянию;
 - **адаптивную способность:** возможность изменять структуру и процессы, сохраняя ключевые функции;
@@ -67,6 +70,7 @@ An ecosystem includes living organisms, the physical environment, and the flows 
 **Ecosystem resilience** is the ability of a system to absorb disturbances, reorganise and retain its essential functions. It does not mean that the system remains unchanged: ecosystems are dynamic, and when certain thresholds are exceeded they may shift into another state.
 
 It is useful to distinguish:
+
 - **resistance:** how little a system changes under pressure;
 - **recovery:** how quickly it returns towards its previous state;
 - **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
@@ -125,6 +129,7 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 Климат Земли меняется под действием естественных факторов и антропогенных воздействий. Современное быстрое глобальное потепление преимущественно обусловлено увеличением концентраций парниковых газов в результате деятельности человека.
 
 Основные парниковые газы:
+
 - углекислый газ (CO₂), главным образом от сжигания ископаемого топлива, производства цемента и изменения землепользования;
 - метан (CH₄), связанный в том числе с энергетикой, сельским хозяйством и отходами;
 - закись азота (N₂O), в значительной степени связанная с сельскохозяйственными и промышленными процессами;
@@ -138,6 +143,7 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 Earth's climate changes under the influence of both natural factors and human activities. The rapid global warming observed today is primarily caused by the increase in greenhouse-gas concentrations resulting from human activity.
 
 The main greenhouse gases are:
+
 - **carbon dioxide (CO₂):** mainly from fossil-fuel combustion, cement production and land-use change;
 - **methane (CH₄):** associated, among other sources, with energy production, agriculture and waste;
 - **nitrous oxide (N₂O):** largely associated with agricultural and industrial processes; and
@@ -196,6 +202,7 @@ Changes in temperature and precipitation affect crop yields, pests, water availa
 Биоразнообразие включает генетическое, видовое и экосистемное разнообразие. Его утрата связана с преобразованием местообитаний, чрезмерной эксплуатацией ресурсов, загрязнением, климатическими изменениями и инвазивными видами.
 
 Экологические последствия могут включать:
+
 - сокращение численности популяций и локальное исчезновение видов;
 - разрыв экологических коридоров;
 - изменение сроков цветения, размножения и миграций;
@@ -211,6 +218,7 @@ Changes in temperature and precipitation affect crop yields, pests, water availa
 Biodiversity includes genetic diversity, species diversity and ecosystem diversity. Its loss is associated with habitat conversion, overexploitation of resources, pollution, climate change and invasive alien species.
 
 Ecological consequences may include:
+
 - declining population sizes and local extinction of species;
 - disruption of ecological corridors;
 - changes in the timing of flowering, reproduction and migration;
@@ -235,6 +243,7 @@ Protected areas are an important tool for nature conservation, but their effecti
 В подходе Конвенции ООН по борьбе с опустыниванием к нейтральному балансу деградации земель действует иерархия мер: **предотвращать новую деградацию → сокращать уже существующую → обращать деградацию вспять** с помощью восстановления. Предотвращение и сокращение имеют приоритет; восстановление не следует считать автоматической компенсацией любого ущерба. Выбор мер требует учёта типа земель, исходного состояния и местных условий.
 
 Леса выполняют важные функции:
+
 - поддерживают биоразнообразие;
 - участвуют в круговороте углерода и воды;
 - защищают почвы от эрозии;
@@ -255,6 +264,7 @@ Land-use change is one of the major drivers of landscape transformation. The exp
 The UN Convention to Combat Desertification's land-degradation-neutrality approach uses a response hierarchy: **avoid new degradation → reduce existing degradation → reverse degradation** through restoration. Avoidance and reduction take priority; restoration should not be treated as an automatic offset for every loss. Measures must reflect land type, baseline condition and local circumstances.
 
 Forests perform several important functions:
+
 - they support biodiversity;
 - they participate in the carbon and water cycles;
 - they protect soils from erosion;
@@ -272,6 +282,7 @@ Reforestation does not always restore the original ecosystem. Planting monocultu
 Загрязнение воды может поступать из точечных источников — промышленных и коммунальных сбросов — и диффузных источников, например сельскохозяйственного стока. Избыточное поступление азота и фосфора способствует эвтрофикации, цветению водорослей и снижению содержания кислорода.
 
 К основным проблемам относятся:
+
 - микробиологическое загрязнение;
 - тяжёлые металлы и стойкие органические загрязнители;
 - избыток биогенных веществ;
@@ -285,6 +296,7 @@ Reforestation does not always restore the original ecosystem. Planting monocultu
 Water pollution can come from point sources, such as industrial and municipal discharges, and diffuse sources, such as agricultural runoff. Excess nitrogen and phosphorus can promote eutrophication, algal blooms and declining oxygen levels.
 
 Major water-quality problems include:
+
 - microbiological contamination;
 - heavy metals and persistent organic pollutants;
 - excess nutrients;
@@ -325,6 +337,7 @@ Assessing circularity requires consideration of the product's full life cycle: r
 **Экологический риск** оценивают с учётом опасности, подверженности людей и активов воздействию, их уязвимости и имеющегося потенциала для предупреждения, подготовки и реагирования. В терминологии UNDRR **риск бедствий** определяется вероятностно как функция опасности, экспозиции, уязвимости и потенциала (capacity). Эти компоненты взаимодействуют: их нельзя представлять как простую линейную цепочку или сводить к одной универсальной арифметической формуле. Опасность сама по себе не равна риску: одинаковое явление может иметь разные последствия в зависимости от плотности населения, качества зданий, систем предупреждения и ресурсов для реагирования. Понятие экологического риска шире риска бедствий, поэтому для отдельных задач могут требоваться другие модели.
 
 Ключевые понятия:
+
 - **опасность (hazard):** процесс, явление или деятельность, которые могут причинить вред людям, имуществу, обществу или окружающей среде;
 - **подверженность (exposure):** наличие людей, инфраструктуры и ценностей в зоне возможного воздействия;
 - **уязвимость (vulnerability):** физические, социальные, экономические и экологические условия, повышающие восприимчивость людей, сообществ, активов или систем к воздействию опасностей;
@@ -362,6 +375,7 @@ When interpreting maps and assessments, ask separately:
 Экологические проблемы часто требуют совместных действий государств, муниципалитетов, бизнеса, научных организаций и гражданского общества.
 
 Важные международные рамки:
+
 - Рамочная конвенция ООН об изменении климата и Парижское соглашение;
 - Конвенция о биологическом разнообразии;
 - Конвенция ООН по борьбе с опустыниванием;
@@ -378,6 +392,7 @@ When interpreting maps and assessments, ask separately:
 Environmental problems often require coordinated action by national governments, municipalities, businesses, research organisations and civil society.
 
 Important international frameworks include:
+
 - the UN Framework Convention on Climate Change and the Paris Agreement;
 - the Convention on Biological Diversity;
 - the UN Convention to Combat Desertification;
@@ -395,6 +410,7 @@ Environmental governance should take account of scientific evidence, the precaut
 **Смягчение (mitigation)** направлено на сокращение источников парниковых газов и увеличение их поглощения. **Адаптация (adaptation)** направлена на снижение ущерба и использование возможных благоприятных возможностей в условиях уже происходящих и ожидаемых изменений.
 
 Примеры смягчения:
+
 - повышение энергоэффективности;
 - развитие низкоуглеродной энергетики;
 - электрификация транспорта и теплоснабжения там, где она снижает совокупные выбросы;
@@ -403,6 +419,7 @@ Environmental governance should take account of scientific evidence, the precaut
 - изменение производственных процессов и моделей потребления.
 
 Примеры адаптации:
+
 - системы раннего предупреждения;
 - климатоустойчивое водное хозяйство;
 - адаптация сельского хозяйства;
@@ -486,6 +503,7 @@ This is a simplified estimate of the direct effect of reduced electricity use. A
 Экологический мониторинг — систематическое наблюдение за состоянием природных компонентов и воздействиями на них. Он включает полевые измерения, лабораторные анализы, спутниковые наблюдения, датчики, статистику и общественные наблюдения.
 
 Основные методы:
+
 - измерение качества воздуха и воды;
 - анализ почв и донных отложений;
 - биоиндикация и мониторинг видов;
@@ -547,6 +565,7 @@ The environmental impact of a product or infrastructure asset is not limited to 
 Экологические выгоды и риски распределены неравномерно. Низкодоходные сообщества, жители промышленных зон, сельских и удалённых районов, а также группы с ограниченным доступом к медицинским и коммунальным услугам могут испытывать непропорционально высокую нагрузку.
 
 Экологическая справедливость включает:
+
 - справедливое распределение экологических выгод и ущерба;
 - реальное участие затрагиваемых сообществ в принятии решений;
 - доступ к экологической информации и правосудию;
@@ -563,6 +582,7 @@ The environmental impact of a product or infrastructure asset is not limited to 
 Environmental benefits and risks are not distributed equally. Low-income communities, residents of industrial areas, people living in rural or remote areas, and groups with limited access to healthcare and public services may face disproportionately high burdens.
 
 Environmental justice includes:
+
 - fair distribution of environmental benefits and harm;
 - meaningful participation of affected communities in decision-making;
 - access to environmental information and justice;
@@ -578,6 +598,7 @@ Human health depends on air and water quality, food safety, temperature conditio
 Географический подход важен потому, что решения имеют разное значение в разных местах. Например, развитие солнечной энергетики зависит от инсоляции, землепользования, сетевой инфраструктуры и интересов местных жителей; управление водой — от бассейновой структуры, сезонности стока и межгосударственных отношений.
 
 Перспективные направления:
+
 - природоориентированные решения;
 - восстановление деградированных экосистем;
 - устойчивое городское планирование;
@@ -607,6 +628,7 @@ An ecosystem includes living organisms, the physical environment and flows of en
 **Ecosystem resilience** is the ability of a system to absorb disturbances, reorganise and maintain its main functions. It does not mean that the system remains unchanged: ecosystems are dynamic and may shift into another state when certain thresholds are exceeded.
 
 Distinguish:
+
 - **resistance:** how little a system changes under pressure;
 - **recovery:** how quickly it returns towards its previous state;
 - **adaptive capacity:** the ability to change structure and processes while retaining key functions; and
@@ -636,6 +658,7 @@ The **planetary boundaries** framework describes nine interconnected Earth-syste
 Earth's climate changes through both natural factors and human influences. Modern rapid global warming is primarily caused by rising greenhouse-gas concentrations resulting from human activity.
 
 Major greenhouse gases include:
+
 - carbon dioxide (CO₂), mainly from fossil-fuel combustion, cement production and land-use change;
 - methane (CH₄), associated in part with energy, agriculture and waste;
 - nitrous oxide (N₂O), largely associated with agricultural and industrial processes; and
@@ -698,6 +721,7 @@ Assessment of circularity should consider the full life cycle of a product: raw-
 **Environmental risk** is assessed by considering hazards, the exposure of people and assets, their vulnerability, and the available capacity for warning, preparedness and response. In UNDRR terminology, **disaster risk** is determined probabilistically as a function of hazard, exposure, vulnerability and capacity. These components interact: they should not be presented as a simple linear chain or reduced to one universal arithmetic formula. A hazard alone is not the same as risk: the same event can have different consequences depending on population density, building quality, warning systems and response resources. Environmental risk is broader than disaster risk, so other models may be needed for particular questions.
 
 Key concepts include:
+
 - **hazard:** a process, phenomenon or human activity that may cause harm;
 - **exposure:** the presence of people, infrastructure and assets in an area that may be affected;
 - **vulnerability:** physical, social, economic and environmental conditions that increase the susceptibility of people, communities, assets or systems to hazards;

@@ -14,6 +14,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Политическая география — раздел географии, который изучает, как политическая жизнь организована в пространстве. Она рассматривает связи власти, государственных институтов, границ, выборов и международных отношений с территориями, населением, ресурсами, инфраструктурой и географическим положением.
 
 Политическая география рассматривает несколько взаимосвязанных масштабов:
+
 - **локальный:** муниципалитеты, районы, местные сообщества и доступность государственных услуг;
 - **национальный:** государственная территория, административное устройство, регионы и политическое представительство;
 - **региональный:** трансграничные связи, интеграционные объединения и региональная безопасность;
@@ -39,6 +40,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 **Территория** — пространство, на которое распространяются определённые права, полномочия, формы управления или социальные связи. Государственная территория включает сухопутную территорию, внутренние воды, а у архипелажного государства — также архипелажные воды, территориальное море в пределах международного права и воздушное пространство над соответствующими территориями и водами. Суверенитет государства распространяется также на недра под его сухопутной территорией и внутренними водами; для морского дна и недр за пределами территориального моря действует особый режим, например режим континентального шельфа. Исключительная экономическая зона и континентальный шельф не являются государственной территорией: в них у прибрежного государства есть только те суверенные права и юрисдикция, которые установлены международным правом.
 
 Необходимо различать:
+
 - государство — институты власти и правовой порядок;
 - страну — географическое и историко-культурное обозначение территории, часто совпадающее с государством, но не всегда;
 - нацию — политическую или культурно-историческую общность;
@@ -99,6 +101,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Морские пространства регулируются прежде всего Конвенцией ООН по морскому праву 1982 года. Их режимы различаются по объёму прав прибрежного государства и свобод других государств.
 
 Ключевые понятия:
+
 - **Внутренние воды:** воды, расположенные со стороны суши от исходных линий, от которых измеряется территориальное море; режим в значительной степени соответствует суверенитету над сушей с учётом применимых норм.
 - **Территориальное море:** морской пояс шириной до 12 морских миль от исходных линий, в котором прибрежное государство осуществляет суверенитет с предусмотренными международным правом ограничениями, включая право мирного прохода.
 - **Прилежащая зона:** зона за пределами территориального моря, в которой государство может осуществлять необходимый контроль для предотвращения нарушений и наказания за нарушения таможенных, фискальных, иммиграционных и санитарных правил, совершённые на его территории или в территориальном море. Она не может простираться далее 24 морских миль от исходных линий, от которых измеряется территориальное море. Следовательно, при максимальной ширине территориального моря 12 морских миль прилежащая зона может занимать не более следующих 12 морских миль за его внешним пределом; отсчёт 24 миль ведётся от исходных линий, а не от края территориального моря.
@@ -131,6 +134,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Государства организуют территорию для управления, представительства, предоставления услуг и распределения ресурсов. Административно-территориальные единицы могут называться областями, провинциями, штатами, землями, регионами, округами, районами или муниципалитетами.
 
 По устройству государств часто выделяют:
+
 - **унитарные государства**, где конституционная система власти организована как единое государство, хотя полномочия могут быть широко децентрализованы;
 - **федеративные государства**, где конституция распределяет полномочия между федеральным уровнем и субъектами федерации;
 - **конфедерации и конфедеративные союзы**, обычно представляющие собой договорные объединения суверенных государств. В отличие от федерации, конфедерация не обязательно образует единое суверенное государство; это отдельная аналитическая и историческая категория, а не обязательная третья ступень классификации современных государств.
@@ -164,6 +168,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Избирательные округа формируются по правилам конкретной избирательной системы и законодательства. Во многих системах важны равное избирательное право и сопоставимая численность избирателей, однако допустимые отклонения и исключения зависят от конституции, вида выборов, территориальных особенностей и принципов представительства. **Неравное представительство округов (malapportionment)** возникает, когда округа существенно различаются по числу избирателей на одно место; это может придавать голосам разный вес. **Джерримендеринг** — намеренное изменение границ округов ради политического преимущества. Добросовестная процедура требует беспристрастности, прозрачности и возможности общественного обсуждения.
 
 Картографирование результатов выборов требует осторожности:
+
 - доля голосов и абсолютное число голосов — разные показатели;
 - победа партии в округе не означает единодушия жителей;
 - административные границы могут скрывать локальные различия;
@@ -189,6 +194,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 В классических геополитических теориях встречаются крупные пространственные модели и концепции. Их следует изучать как исторически обусловленные интеллектуальные конструкции, а не как объективные законы мировой политики. Современный анализ должен избегать географического детерминизма — представления, будто климат, положение или рельеф автоматически определяют судьбу государства.
 
 К важным факторам относятся:
+
 - положение относительно рынков и транспортных коридоров;
 - доступ к морю и международным коммуникациям;
 - характер соседства и приграничных связей;
@@ -206,6 +212,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Региональные организации и интеграционные объединения могут развивать торговлю, транспорт, безопасность, научное сотрудничество и общие стандарты. В экономической интеграции различают, например, **зону свободной торговли** (снижение или отмена внутренних тарифов при сохранении собственной внешнеторговой политики участников), **таможенный союз** (общий внешний тариф), **общий рынок** (дополнительная свобода движения факторов производства) и более глубокие формы экономического союза. Это аналитические типы: реальные соглашения могут сочетать признаки нескольких моделей, а интеграция не всегда развивается по одной обязательной последовательности.
 
 При изучении организаций необходимо различать:
+
 - межправительственную организацию и неправительственную организацию;
 - договорное обязательство и политическую декларацию;
 - членство, статус наблюдателя и партнёрство;
@@ -234,6 +241,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Территориальные споры могут возникать из-за несовпадающих исторических интерпретаций, договоров, природных ресурсов, стратегического положения, наследия колониального периода и изменения политических условий. Они могут касаться сухопутных границ, островов, морских зон, воздушного пространства и доступа к ресурсам.
 
 Политическая география должна описывать спорные вопросы точно и нейтрально:
+
 - указывать, кто заявляет притязания и на каком основании;
 - различать фактическое управление и международно-правовую позицию;
 - ссылаться на договоры, решения международных судов и официальные документы;
@@ -307,6 +315,7 @@ After studying this chapter, readers will be able to explain the scope of politi
 Political geography is a branch of human geography that studies how political life is organised across space. It examines how power, state institutions, borders, elections and international relations are connected with territories, populations, resources, infrastructure and geographic location.
 
 Political geography considers several interconnected scales:
+
 - **local:** municipalities, districts, local communities and access to public services;
 - **national:** state territory, administrative organisation, regions and political representation;
 - **regional:** cross-border connections, integration organisations and regional security; and
@@ -323,6 +332,7 @@ A **nation** is a historically and socially formed community based on different 
 A **territory** is a space over which particular rights, powers, forms of governance or social relationships apply. State territory includes land territory, internal waters and, for an archipelagic state, archipelagic waters, the territorial sea as defined by international law, and the airspace above the relevant territory and waters. State sovereignty also extends to the subsoil beneath its land territory and internal waters; the seabed and subsoil beyond the territorial sea are subject to a distinct regime, such as the continental-shelf regime. The exclusive economic zone and continental shelf are not state territory: the coastal state has only the sovereign rights and jurisdiction granted by international law in those areas.
 
 The following concepts should be distinguished:
+
 - **state:** institutions of power and a legal order;
 - **country:** a geographical and historical-cultural designation for a territory, often but not always corresponding to a state;
 - **nation:** a political or cultural-historical community;
@@ -359,6 +369,7 @@ Borders perform different functions: they divide jurisdiction, regulate the move
 Maritime spaces are governed primarily by the 1982 United Nations Convention on the Law of the Sea (UNCLOS). Their legal regimes differ in the rights of coastal states and the freedoms retained by other states.
 
 Key concepts include:
+
 - **Internal waters:** waters on the landward side of the baselines from which the territorial sea is measured. Their regime largely corresponds to sovereignty over land, subject to applicable rules.
 - **Territorial sea:** a belt of sea up to 12 nautical miles from the baselines, in which the coastal state exercises sovereignty subject to limitations under international law, including the right of innocent passage.
 - **Contiguous zone:** an area beyond the territorial sea in which a state may exercise the control necessary to prevent infringement of, and punish infringement of, its customs, fiscal, immigration and sanitary laws committed within its territory or territorial sea. It may not extend beyond 24 nautical miles from the baselines from which the territorial sea is measured. Thus, where the territorial sea extends to its maximum 12 nautical miles, the contiguous zone can extend no more than a further 12 nautical miles beyond its outer limit; the 24-mile limit is measured from the baselines, not from the edge of the territorial sea.
@@ -384,6 +395,7 @@ This is a unit conversion, not a method for independently drawing a legally vali
 States organise territory for governance, representation, service delivery and resource allocation. Administrative units may be called oblasts, provinces, states, lands, regions, districts, counties or municipalities.
 
 States are often distinguished by their territorial organisation:
+
 - **unitary states**, in which the constitutional system is organised as one state, although powers may be widely decentralised;
 - **federal states**, in which the constitution distributes powers between the federal level and constituent units; and
 - **confederations and confederal unions**, which are usually treaty-based associations of sovereign states. Unlike a federation, a confederation does not necessarily form one sovereign state; it is a separate analytical and historical category, not an obligatory third type in a classification of contemporary states.
@@ -407,6 +419,7 @@ Electoral geography studies the spatial distribution of voting, political partic
 Electoral districts are formed under the rules of the relevant electoral system and national law. Many systems emphasise equal suffrage and broadly comparable district populations, but permitted deviations and exceptions depend on the constitution, type of election, territorial circumstances and principles of representation. **Malapportionment** occurs when districts differ substantially in the number of voters represented by each seat; this can give votes unequal weight. **Gerrymandering** is the intentional drawing or alteration of district boundaries for political advantage. A sound process requires impartiality, transparency and opportunities for public consultation.
 
 Electoral mapping requires caution:
+
 - vote share and absolute vote totals are different indicators;
 - a party's victory in a district does not mean that all residents support it;
 - administrative boundaries may conceal local differences;
@@ -446,6 +459,7 @@ Resource wealth does not guarantee a high level of development. Outcomes depend 
 Territorial disputes may arise from differing historical interpretations, treaties, natural resources, strategic location, colonial legacies and changing political conditions. They may concern land borders, islands, maritime zones, airspace and access to resources.
 
 Political geography should describe disputes accurately and neutrally:
+
 - identify who makes a claim and on what basis;
 - distinguish effective administration from an international legal position;
 - refer to treaties, international court decisions and official documents;

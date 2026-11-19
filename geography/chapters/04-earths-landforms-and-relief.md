@@ -47,6 +47,7 @@
 Экзогенные процессы действуют на поверхности и преобразуют уже существующие формы. Их главные источники энергии — солнечное излучение и гравитация.
 
 Основные процессы:
+
 - выветривание;
 - эрозия и перенос материала;
 - аккумуляция осадков;
@@ -233,11 +234,13 @@
 Ветер переносит частицы и формирует рельеф преимущественно в засушливых и полузасушливых районах, а также на песчаных побережьях и в областях с разреженным растительным покровом.
 
 Основные процессы:
+
 - дефляция — выдувание рыхлого материала;
 - корразия — абразивное воздействие переносимых ветром частиц;
 - аккумуляция — отложение песка и пыли.
 
 Типичные формы:
+
 - дюны;
 - барханы;
 - продольные и поперечные песчаные гряды;
@@ -257,6 +260,7 @@
 Карст развивается при растворении растворимых пород — прежде всего известняков, доломитов, гипса и каменной соли — природными водами. Растворённый углекислый газ может повышать способность воды растворять карбонатные породы. Интенсивность карстообразования зависит от состава пород, трещиноватости, водообмена, температуры и химии воды.
 
 Основные поверхностные формы:
+
 - **карры** — небольшие борозды и желобки, возникающие при растворении поверхности известняка;
 - **карстовые воронки** — замкнутые углубления, образованные растворением породы или обрушением кровли полости;
 - **поноры** — отверстия, через которые поверхностный поток уходит под землю;
@@ -264,6 +268,7 @@
 - **полья** — крупные замкнутые карстовые котловины с относительно плоским дном.
 
 Подземные формы:
+
 - пещеры и галереи;
 - колодцы и шахты;
 - подземные реки;
@@ -310,6 +315,7 @@
 ### 4.10.3. Подводный рельеф / Submarine Relief
 
 Главные элементы дна океана:
+
 - **континентальный шельф** — относительно мелководная затопленная окраина материка;
 - **континентальный склон** — более крутой переход от шельфа к глубоководному дну;
 - **континентальное подножие** — область накопления осадков у основания склона (там, где оно развито);
@@ -509,6 +515,7 @@ DEM используют для расчёта уклонов, экспозиц�
 **Задание: анализ топографической карты и профиля рельефа.**
 
 По подготовленному учебному фрагменту карты:
+
 - определите высоту нескольких точек;
 - найдите водораздел и речную долину;
 - оцените крутизну двух склонов;
@@ -600,6 +607,7 @@ Mountains are parts of Earth's surface that rise significantly above their surro
 
 
 Major mountain types, classified by structure and origin, include:
+
 - **fold mountains**, formed by compression and folding of the crust;
 - **fold-and-thrust belts**, a more specific type of fold mountain system formed by substantial crustal shortening, folding and thrusting;
 - **block mountains**, associated with faults and vertical movement of crustal blocks;
@@ -671,6 +679,7 @@ Glaciers move under gravity and transform the surface by erosion, transport and 
 
 
 **Erosional landforms** include:
+
 - a **cirque**, a bowl-shaped hollow near the upper part of a mountain slope;
 - a **U-shaped valley**, a broad valley with a relatively flat floor and steep sides shaped by a glacier;
 - a **horn**, a sharp peak formed where several cirques develop around a mountain;
@@ -827,6 +836,7 @@ Relief is studied through ground surveys, topographic mapping, satellite data, a
 #### 4.14.1. Relief Representation
 
 Common representation methods include:
+
 - **contour lines**, joining points of equal elevation;
 - **hypsometric tinting**, using colours to show elevation ranges;
 - **hillshading**, simulating illumination to emphasise landforms;
@@ -930,6 +940,7 @@ Human activity also changes relief. Quarries, embankments, dams, slope terraces,
 ### Practical Assignment: Analysing a Topographic Map and Relief Profile
 
 Using a prepared teaching map excerpt:
+
 - determine the elevation of several points;
 - identify a drainage divide and a river valley;
 - estimate the steepness of two slopes;

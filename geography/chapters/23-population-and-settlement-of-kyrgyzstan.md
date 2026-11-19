@@ -13,6 +13,7 @@
 География населения изучает численность, состав, размещение и перемещение людей, а также взаимосвязи населения с природной средой, экономикой, инфраструктурой и расселением. Демографические процессы имеют пространственное измерение: рождаемость, смертность, миграция и старение протекают неодинаково в разных областях, городах и сельских районах.
 
 Для Кыргызстана особенно важны:
+
 - быстрый рост численности населения в последние десятилетия;
 - высокая доля детей и молодёжи по сравнению со многими стареющими обществами;
 - преобладание сельского населения, несмотря на постепенное увеличение доли городских жителей;
@@ -43,6 +44,7 @@ Population geography studies the size, composition, distribution and movement of
 Key features of Kyrgyzstan include rapid population growth in recent decades; a relatively young age structure; a still predominantly rural population alongside gradual urbanisation; concentration in the Chuy, Fergana and other intermontane valleys; internal movement towards Bishkek, Osh and their suburban zones; and international labour migration.
 
 Core concepts:
+
 - **Usually resident population:** people who normally live in a territory, including temporary absentees according to statistical rules.
 - **Present population:** people physically present in a territory at the reference time.
 - **Natural increase:** births minus deaths during a period.
@@ -177,6 +179,7 @@ Settlement patterns are shaped by natural factors (elevation, climate, relief, w
 ### Городские центры
 
 Крупнейшие городские центры страны:
+
 - Бишкек — столица, крупнейший административный, образовательный, финансовый и сервисный центр;
 - Ош — важнейший центр юга страны, торговли, образования и региональных услуг;
 - Манас (до переименования — Джалал-Абад) — крупный городской центр юго-запада;
@@ -190,6 +193,7 @@ Settlement patterns are shaped by natural factors (elevation, climate, relief, w
 ### Сельское расселение
 
 Сельские поселения различаются по:
+
 - размеру и плотности застройки;
 - высоте и доступности;
 - специализации сельского хозяйства;
@@ -299,6 +303,7 @@ Regional settlement patterns differ. Batken's population is concentrated in vall
 ### Возрастные группы
 
 В учебном анализе часто используют условное деление:
+
 - дети и подростки;
 - население трудоспособного возраста;
 - население старших возрастов.
@@ -371,6 +376,7 @@ Kyrgyz is the state language and Russian has official-language status. Uzbek, Ta
 ### Внутренняя миграция
 
 Основные направления внутренних перемещений включают:
+
 - переезд из сёл и малых городов в Бишкек и Ош;
 - переселение в пригородные зоны крупных городов;
 - перемещение между областями в поисках работы и образования;
@@ -387,6 +393,7 @@ Kyrgyz is the state language and Russian has official-language status. Uzbek, Ta
 ### Миграция и перепись 2022 года
 
 Перепись 2022 года включала расширенный блок вопросов о трудовой деятельности и миграции. Для анализа важно различать:
+
 - эмигрантов, выехавших из страны;
 - иммигрантов, прибывших в страну;
 - внутренних мигрантов;
@@ -589,6 +596,7 @@ NSC statistics help track the registered balance over time and across administra
 Бишкек — главный полюс притяжения населения, капитала, образования, здравоохранения и административных функций. Рост пригородных поселений создаёт функциональную агломерацию, выходящую за административные границы столицы.
 
 Основные задачи:
+
 - согласование землепользования и застройки;
 - развитие общественного транспорта;
 - водоснабжение и канализация;
@@ -688,6 +696,7 @@ An administrative city boundary does not always match the actual urban area. Bui
 ### Инфраструктурные вызовы
 
 Удалённые поселения могут испытывать сложности с доступом к:
+
 - круглогодичным дорогам;
 - медицинской помощи и экстренной эвакуации;
 - среднему и профессиональному образованию;

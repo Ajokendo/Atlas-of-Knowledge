@@ -11,6 +11,7 @@
 Глава рассматривает криосферу, речные бассейны, крупнейшие озёра и водохранилища, сезонность стока, водный баланс, трансграничное управление, качество воды и климатические изменения.
 
 После изучения главы читатель сможет:
+
 - объяснять роль снега и ледников в формировании речного стока;
 - различать речной бассейн, водосбор, водораздел и гидрологический режим;
 - описывать основные речные бассейны Кыргызстана и их трансграничные связи;
@@ -58,6 +59,7 @@ P = ET + Q + \Delta S
 \]
 
 где:
+
 - \(P\) — атмосферные осадки;
 - \(ET\) — суммарное испарение и транспирация;
 - \(Q\) — сток за пределы рассматриваемого водосбора;
@@ -91,6 +93,7 @@ A simplified water-balance equation for a catchment is:
 P = ET + Q + ΔS
 
 where:
+
 - **P** is precipitation;
 - **ET** is total evaporation and transpiration (evapotranspiration);
 - **Q** is runoff leaving the catchment; and
@@ -132,6 +135,7 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 Ледник — многолетняя масса льда, образующаяся там, где накопление снега за длительный период компенсирует или превышает потери от таяния, испарения и механического выноса. Снег постепенно уплотняется, превращается в фирн, а затем в ледниковый лёд.
 
 Ледник состоит из:
+
 - области питания (аккумуляции), где накапливается снег;
 - области абляции, где преобладают потери массы;
 - фирновой области, в которой снег преобразуется в лёд;
@@ -143,6 +147,7 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 ### 20.3.2. Основные ледниковые районы
 
 Наиболее значительные оледенения приурочены к высокогорным частям Тянь-Шаня и Памиро-Алая:
+
 - Центральный и Восточный Тянь-Шань, включая районы Какшаал-Тоо, Ак-Шыйрак и Сары-Джаз;
 - хребты Терскей Ала-Тоо и Кунгей Ала-Тоо;
 - Кыргызский хребет и его высокие узлы;
@@ -174,6 +179,7 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 Потепление воздуха изменяет соотношение накопления и таяния. Для ряда ледников наблюдаются сокращение площади, истончение и отступание концов. Но скорость изменений неодинакова: отдельные ледники могут временно демонстрировать сложную динамику из-за лавинного питания, затенения, рельефа и местных осадков.
 
 Последствия включают:
+
 - изменение сезонного распределения речного стока;
 - образование и расширение приледниковых озёр;
 - изменение устойчивости моренных и ледниковых плотин;
@@ -193,6 +199,7 @@ Do not add glacier or lake storage to annual river runoff without stating that d
 A glacier is a perennial mass of ice that forms where snow accumulation over a long period equals or exceeds losses through melting, evaporation and mechanical removal. Snow gradually compacts into firn and then into glacier ice.
 
 A glacier may contain:
+
 - an **accumulation area**, where snow builds up;
 - an **ablation area**, where mass losses dominate;
 - a **firn zone**, where snow is transformed into ice;
@@ -204,6 +211,7 @@ At the end of a mass-balance year, the boundary between accumulation and ablatio
 #### 20.3.2 Main glacier regions
 
 The largest glacier concentrations are associated with the high-mountain areas of the Tien Shan and Pamir-Alay:
+
 - the Central and Eastern Tien Shan, including the Kakshaal-Too, Ak-Shyyrak and Sary-Jaz areas;
 - the Terskey Ala-Too and Kungey Ala-Too ranges;
 - the Kyrgyz Range and its high mountain massifs;
@@ -235,6 +243,7 @@ A study of regional glacier mass balance in the Tien Shan and Pamir for 2000–2
 Air-temperature warming changes the balance between accumulation and melt. Many glaciers show area reduction, thinning and retreat of their termini. The rate of change is not uniform: individual glaciers may show complex behaviour because of avalanche nourishment, shading, relief and local precipitation.
 
 Consequences include:
+
 - changes in the seasonal distribution of river runoff;
 - formation and expansion of proglacial lakes;
 - changes in the stability of moraine and ice dams;
@@ -401,6 +410,7 @@ The Chatkal forms in the Western Tien Shan and is connected downstream with the 
 
 
 Горные реки получают воду из нескольких источников:
+
 - снеговое питание — таяние сезонного снежного покрова;
 - ледниковое питание — таяние многолетнего льда;
 - дождевое питание — прямое поступление атмосферных осадков;
@@ -425,6 +435,7 @@ The Chatkal forms in the Western Tien Shan and is connected downstream with the 
 ### English translation — 20.5 (introduction and 20.5.1)
 
 Mountain rivers receive water from several sources:
+
 - **snowmelt:** melting of seasonal snow cover;
 - **glacier melt:** melting of multi-year ice;
 - **rainfall:** direct input of precipitation; and
@@ -516,6 +527,7 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 Иссык-Куль — крупнейшее озеро Кыргызстана и одно из крупнейших высокогорных озёр мира. Оно расположено в межгорной тектонической котловине между хребтами Кунгей Ала-Тоо и Терскей Ала-Тоо.
 
 Основные характеристики:
+
 - высота поверхности — около 1 609 м над уровнем моря по данным Национального плана управления водными ресурсами; уровень колеблется;
 - площадь зеркала — около 6 280 км² по данным Национального плана управления водными ресурсами; она меняется вместе с уровнем воды;
 - длина — около 177 км;
@@ -599,6 +611,7 @@ Kyrgyzstan contains lakes of tectonic, glacial, landslide-dammed, karst and mixe
 Issyk-Kul is the largest lake in Kyrgyzstan and one of the world's largest high-mountain lakes. It lies in an intermontane tectonic basin between the Kungey Ala-Too and Terskey Ala-Too ranges.
 
 Key characteristics include:
+
 - surface elevation of about 1,609 m above sea level, according to the National Water Resources Management Plan; the level fluctuates;
 - surface area of about 6,280 km² according to the same plan; area changes with lake level;
 - length of about 177 km;
@@ -676,6 +689,7 @@ These results apply to the Kyrgyz Range and the 1968–2021 study period; they m
 
 
 Подземные воды формируются при просачивании осадков, речной и озёрной воды в породы и рыхлые отложения. В Кыргызстане выделяются:
+
 - аллювиальные водоносные горизонты речных долин;
 - межпластовые воды осадочных бассейнов;
 - трещинные воды горных пород;
@@ -690,6 +704,7 @@ These results apply to the Kyrgyz Range and the 1968–2021 study period; they m
 ### English translation — 20.7
 
 Groundwater forms when precipitation, river water and lake water infiltrate rocks and unconsolidated deposits. Main types in Kyrgyzstan include:
+
 - alluvial aquifers in river valleys;
 - interlayer groundwater in sedimentary basins;
 - groundwater in fractures in mountain rocks;
@@ -725,6 +740,7 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 ### 20.8.2. Другие крупные водохранилища
 
 К значимым объектам относятся:
+
 - Курпсайское и Уч-Курганское водохранилища в системе Нарына;
 - Орто-Токойское водохранилище на Чу;
 - Кировское водохранилище в бассейне Таласа;
@@ -738,6 +754,7 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 Орошаемое земледелие — крупнейший потребитель пресной воды в стране. Региональные водохозяйственные материалы указывают, что на сельское хозяйство приходится около 90% внутреннего водопотребления; доля меняется в зависимости от года, учёта возвратных вод и определения водозабора.
 
 Важные элементы ирригационной системы:
+
 - водозаборные сооружения;
 - магистральные и распределительные каналы;
 - насосные станции;
@@ -761,6 +778,7 @@ Operation requires balancing electricity generation, seasonal water storage and 
 #### 20.8.2 Other major reservoirs
 
 Important facilities include:
+
 - Kurpsai and Uch-Kurgan reservoirs in the Naryn system;
 - Orto-Tokoy Reservoir on the Chu;
 - Kirov Reservoir in the Talas basin;
@@ -774,6 +792,7 @@ Reference sources may report reservoir volume and area as design, gross, active 
 Irrigated agriculture is the largest freshwater-use sector in Kyrgyzstan. Regional water-management materials indicate that agriculture accounts for about 90% of domestic water use; the share varies by year, treatment of return flows and the definition of water abstraction.
 
 Important elements of an irrigation system include:
+
 - water-intake structures;
 - main and distribution canals;
 - pumping stations;
@@ -790,6 +809,7 @@ Losses during water transport and distribution can be substantial. Reducing them
 *Схема сравнивает механизмы координации, но не является картой бассейнов и не показывает количественное распределение воды. / Conceptual comparison of coordination mechanisms; not a basin map and does not show quantitative water allocation.*
 
 Реки Кыргызстана связаны с водными системами Казахстана, Узбекистана, Таджикистана и Китая. Вода пересекает государственные границы, поэтому её использование требует сотрудничества по вопросам:
+
 - распределения и сезонного графика стока;
 - эксплуатации водохранилищ и гидроэнергетики;
 - ирригации и возвратных вод;
@@ -806,6 +826,7 @@ Losses during water transport and distribution can be substantial. Reducing them
 ### English translation — 20.9
 
 The rivers of Kyrgyzstan are connected to water systems in Kazakhstan, Uzbekistan, Tajikistan and China. Because water crosses national borders, its use requires cooperation on:
+
 - allocation and seasonal flow schedules;
 - operation of reservoirs and hydropower facilities;
 - irrigation and return flows;
@@ -851,6 +872,7 @@ These figures refer to an agreed schedule for one irrigation season, not a perma
 Исторически Токтогульское водохранилище создавалось как многолетний регулятор стока, важный для ирригации в нижнем течении Сырдарьи. После распада единой советской энергетической и водохозяйственной системы интересы независимых государств стали согласовываться сложнее: Кыргызстану необходима надёжная зимняя электроэнергия, а странам ниже по течению — предсказуемые летние объёмы воды. Это не простое противостояние «верховьев» и «низовьев», а задача распределения выгод, затрат и рисков между взаимозависимыми пользователями.
 
 Устойчивые решения требуют:
+
 - согласованных сезонных графиков сбросов;
 - прозрачного обмена прогнозами притока и данными о запасах водохранилищ;
 - координации водного режима с импортом, экспортом и сезонной торговлей электроэнергией;
@@ -866,6 +888,7 @@ The **water–energy nexus** describes a situation in which decisions in one sec
 Historically, the Toktogul Reservoir was designed as a multi-year flow regulator important for irrigation downstream in the Syr Darya basin. After the dissolution of the integrated Soviet water and energy system, coordination became more difficult: Kyrgyzstan needs reliable winter electricity, while downstream countries need predictable summer water volumes. This is not a simple conflict between “upstream” and “downstream” countries; it is a problem of distributing benefits, costs and risks among interdependent users.
 
 Sustainable solutions require:
+
 - agreed seasonal release schedules;
 - transparent exchange of inflow forecasts and reservoir-storage data;
 - coordination of water operations with electricity imports, exports and seasonal trade;
@@ -879,6 +902,7 @@ Sustainable solutions require:
 Межправительственные договорённости должны определить принципы совместного развития, финансирования, собственности и эксплуатации. В актуальной справочной информации Всемирного банка отмечено, что соответствующее межправительственное соглашение готовится; поэтому не следует описывать совместную проектную компанию или окончательную модель управления как уже полностью действующие.
 
 Для географической оценки важны не только мощность и объём выработки. Следует рассматривать:
+
 - изменение сезонного режима стока и влияние на пользователей ниже по течению;
 - безопасность плотины, сейсмические условия и аварийные сценарии;
 - воздействие на экосистемы, рыбные ресурсы и перенос наносов;
@@ -896,6 +920,7 @@ Kambarata-1 is planned on the Naryn River. The project is being developed throug
 Intergovernmental arrangements are intended to define the principles for joint development, financing, ownership and operation. The World Bank's current project information states that the relevant intergovernmental agreement is being prepared; the joint project company and final governance model should therefore not be described as fully operational.
 
 A geographic assessment must consider more than capacity and electricity generation. It should examine:
+
 - changes in seasonal river flow and effects on downstream users;
 - dam safety, seismic conditions and emergency scenarios;
 - impacts on ecosystems, fish resources and sediment transport;
@@ -925,6 +950,7 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 ## 20.10. Качество воды и загрязнение / Water Quality and Pollution
 
 Качество воды определяется физическими, химическими и биологическими показателями. Основные параметры мониторинга:
+
 - температура, мутность, электропроводность и минерализация;
 - pH и растворённый кислород;
 - биогенные элементы, включая соединения азота и фосфора;
@@ -939,6 +965,7 @@ To compare two hypothetical operating regimes, prepare a table using four criter
 
 
 Water quality is assessed using physical, chemical and biological indicators. Common monitoring parameters include:
+
 - temperature, turbidity, electrical conductivity and mineralisation;
 - pH and dissolved oxygen;
 - nutrients, including nitrogen and phosphorus compounds;
@@ -962,6 +989,7 @@ Water quality should be assessed using a representative network of sampling site
 **Прорыв ледникового озера (GLOF)** — внезапный сброс воды из ледникового или приледникового озера, способный вызвать паводок и селевой поток.
 
 Факторы опасности:
+
 - неустойчивость моренной или ледяной плотины;
 - рост объёма озера;
 - обрушение льда или склона в водоём;
@@ -979,6 +1007,7 @@ Glacier retreat and moraine reorganisation can create new lakes or change existi
 A **glacial lake outburst flood (GLOF)** is a sudden release of water from a glacial or proglacial lake that may generate a flood and debris flow.
 
 Hazard factors include:
+
 - instability of a moraine or ice dam;
 - increasing lake volume;
 - an ice or slope collapse into the lake;
@@ -1022,6 +1051,7 @@ The effects of warming differ among basins. Important factors include glacier el
 Водная безопасность включает надёжный доступ к достаточному количеству воды приемлемого качества для населения, экономики и экосистем, а также защиту от разрушительных водных явлений.
 
 Приоритетные направления:
+
 - модернизация ирригационных каналов и водоучёта;
 - снижение потерь и повышение эффективности орошения;
 - защита источников питьевого водоснабжения;
@@ -1041,6 +1071,7 @@ The effects of warming differ among basins. Important factors include glacier el
 Water security includes reliable access to sufficient quantities of water of acceptable quality for people, the economy and ecosystems, as well as protection from destructive water-related events.
 
 Priority actions include:
+
 - modernising irrigation canals and water accounting;
 - reducing losses and improving irrigation efficiency;
 - protecting drinking-water sources;
@@ -1139,6 +1170,7 @@ where P is precipitation, ET is evapotranspiration, Q is runoff leaving the catc
 A real basin may require additional terms for inter-basin transfers, water abstraction, return flows, artificial regulation and exchange with adjacent groundwater systems.
 
 Important terms:
+
 - **water storage:** water present at a particular time in glaciers, lakes, reservoirs, soil and aquifers;
 - **renewable water resources:** water replenished by the hydrological cycle over a defined period;
 - **river runoff:** the volume of water passing through a river cross-section during a specified time;

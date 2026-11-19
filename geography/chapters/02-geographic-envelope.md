@@ -212,6 +212,7 @@
 Биосфера объединяет живые организмы и области Земли, где существует жизнь. Она охватывает нижнюю часть атмосферы, практически всю гидросферу и верхнюю часть литосферы, включая почвы и некоторые подземные среды.
 
 Живые организмы изменяют географическую оболочку:
+
 - растения поглощают CO₂ и выделяют кислород при фотосинтезе;
 - микроорганизмы разлагают органическое вещество;
 - животные участвуют в распространении семян и преобразовании местообитаний;
@@ -322,6 +323,7 @@
 Углерод — основа органических соединений. Его главные резервуары: атмосфера, океан, растительность, почвы, осадочные породы и ископаемое органическое вещество.
 
 Основные процессы:
+
 - фотосинтез поглощает CO₂;
 - дыхание организмов возвращает CO₂ в атмосферу и воду;
 - разложение органики высвобождает углерод;
@@ -424,6 +426,7 @@
 Устойчивость природной системы описывает её способность сохранять важные свойства и функции при воздействиях. Это не означает неподвижности или обязательного возвращения к прежнему состоянию.
 
 Важно различать несколько связанных понятий:
+
 - **Сопротивляемость (resistance)** — насколько мало система изменяется во время воздействия.
 - **Восстановление (recovery)** — насколько и как быстро система возвращается к прежнему состоянию после нарушения.
 - **Устойчивость экосистем (resilience)**, — способность системы выдерживать нарушения, восстанавливаться или адаптироваться, не обязательно возвращаясь к прежнему состоянию. При сильном воздействии возможна реорганизация системы и переход к другому устойчивому состоянию.
@@ -433,6 +436,7 @@
 ### 2.12.1. Обратные связи / Feedback Mechanisms
 
 Обратная связь возникает, когда результат процесса влияет на его дальнейшее течение.
+
 - **Отрицательная обратная связь** противодействует первоначальному изменению и может сдерживать его.
 - **Положительная обратная связь** усиливает первоначальное изменение.
 
@@ -469,6 +473,7 @@
 На географическую оболочку влияют естественные климатические колебания, вулканизм, тектоника, солнечная активность и деятельность человека.
 
 Для мониторинга состояния планеты используются:
+
 - средняя глобальная температура;
 - концентрация CO₂;
 - уровень Мирового океана;
@@ -593,6 +598,7 @@
 ## Практическое задание / Practical Assignment
 
 Выберите природную территорию и составьте её системную модель. Для горного озера определите:
+
 - атмосферные процессы над озером;
 - реки, осадки и подземные воды, питающие озеро, а также пути оттока воды;
 - влияние геологического строения на форму котловины и свойства берегов;
@@ -728,6 +734,7 @@ Groundwater includes both fresh and saline water, so its total share must not be
 #### 2.4.2. The Water Cycle
 
 The water cycle is the continuous movement of water among the ocean, atmosphere, land and underground reservoirs. Its processes include:
+
 - **Evaporation** from oceans, lakes, rivers and soil.
 - **Transpiration** — water vapour released by plants; together with evaporation from land, it is often described as **evapotranspiration**.
 - **Condensation** of water vapour and cloud formation.
@@ -915,6 +922,7 @@ Natural geosystems are shaped mainly by natural processes. Anthropogenic geosyst
 The stability of a natural system concerns its ability to maintain important properties and functions under external pressures. It does not mean that the system is motionless or must always return to its previous state.
 
 Several related concepts should be distinguished:
+
 - **Resistance** describes how little a system changes while a disturbance is occurring.
 - **Recovery** describes the extent and speed with which a system returns towards its previous condition after a disturbance.
 - **Ecosystem resilience** is the capacity to withstand disturbance, recover or adapt without necessarily returning to the former state. Under sufficiently strong pressure, a system may reorganise and shift into a different persistent state.
@@ -924,6 +932,7 @@ Biodiversity, nutrient cycling, vegetation recovery, species interactions, and s
 #### 2.12.1. Feedback Mechanisms
 
 A **feedback** occurs when the result of a process influences how that process continues.
+
 - **Negative feedback** counteracts an initial change and can limit it.
 - **Positive feedback** amplifies an initial change.
 
@@ -1057,6 +1066,7 @@ The geographic envelope is a complex natural system in which matter, energy, liv
 ### Practical Assignment
 
 Choose a natural area and create a systems model. For a mountain lake, identify:
+
 - atmospheric processes above the lake;
 - rivers, precipitation and groundwater that supply the lake, as well as its water outlets;
 - how geological structure influences the shape of the basin and the properties of its shores;

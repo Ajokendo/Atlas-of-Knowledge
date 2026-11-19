@@ -10,6 +10,7 @@
 Административная единица и физико-географический район — разные понятия. Область представляет собой территорию управления; долина, котловина, хребет или речной бассейн определяются природными закономерностями и могут пересекать административные границы.
 
 В административной системе следует различать:
+
 - **область (oblast)** — региональный уровень государственного управления;
 - **район (rayon)** — административная единица внутри области;
 - **город областного или районного значения** — городская административная единица соответствующего уровня;
@@ -29,6 +30,7 @@ Kyrgyzstan is divided into seven regions: Batken, Jalal-Abad, Issyk-Kul, Naryn, 
 An administrative unit and a physical-geographical region are different concepts. An oblast is a territory of public administration; a valley, basin, mountain range or river catchment is defined by natural processes and may cross administrative boundaries.
 
 The administrative system includes several distinct units:
+
 - **oblast (region)** — a regional level of public administration;
 - **rayon (district)** — an administrative unit within a region;
 - **city of regional or district significance** — an urban administrative unit at the corresponding level;

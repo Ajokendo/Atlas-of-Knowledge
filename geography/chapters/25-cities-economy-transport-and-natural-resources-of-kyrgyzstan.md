@@ -10,6 +10,7 @@
 Горная география одновременно создаёт возможности и ограничения. Реки обеспечивают гидроэнергетический потенциал и орошение; пастбища поддерживают животноводство; горные ландшафты формируют туристическую привлекательность. Вместе с тем расстояния по прямой часто недооценивают реальные транспортные затраты: перевалы, ущелья, сезонные снегопады, сели и оползни увеличивают время и стоимость перевозок.
 
 Для анализа национальной экономики важно различать:
+
 - **место производства** — территорию, где создана добавленная стоимость;
 - **место регистрации предприятия** — адрес юридического лица, который не всегда совпадает с местом фактической деятельности;
 - **место проживания работников** — может находиться в другом районе или области;
@@ -25,6 +26,7 @@ Kyrgyzstan's economic geography is shaped by its mountainous relief, valley sett
 Mountain geography creates both opportunities and constraints. Rivers support hydropower and irrigation; pastures sustain livestock; and mountain landscapes attract visitors. At the same time, straight-line distance often understates real transport costs: mountain passes, gorges, seasonal snowfall, debris flows and landslides increase travel time and freight costs.
 
 A spatial analysis of the national economy should distinguish:
+
 - **place of production** — where value added is created;
 - **place of business registration** — the legal address, which may differ from the location of actual operations;
 - **workers' place of residence** — which may be in another district or oblast;
@@ -104,6 +106,7 @@ The Cabinet of Ministers' 2026 action plan for implementing the National Develop
 Столичная агломерация выходит за пределы административной территории города. Пригородные поселения Чуйской области включены в ежедневные трудовые, образовательные и торговые потоки. Это создаёт необходимость согласованного планирования землепользования, общественного транспорта, инженерных сетей, водоснабжения, канализации и защиты сельскохозяйственных земель.
 
 Ключевые городские вызовы:
+
 - загрязнение воздуха, связанное с отоплением, транспортом, пылью и сезонными метеорологическими условиями;
 - перегруженность улиц и недостаточная связность общественного транспорта;
 - неравномерное развитие инженерной инфраструктуры в новых районах;
@@ -214,6 +217,7 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 Сельское хозяйство зависит от высоты, температуры, осадков, почв, орошения и доступности рынков. В долинах развиваются зерновые, овощные, плодовые, технические и кормовые культуры; в высокогорных районах преобладают пастбищное животноводство и ограниченное земледелие.
 
 Основные географические системы:
+
 - Чуйская долина — интенсивное земледелие, сахарная свёкла, зерновые, овощи, молочное животноводство;
 - Таласская долина — фасоль, зерновые, кормовые культуры и животноводство;
 - Иссык-Кульская котловина — картофель, зерновые, овощи, садоводство и животноводство;
@@ -227,6 +231,7 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 Промышленная география включает добывающие отрасли, металлургию, пищевую промышленность, производство строительных материалов, лёгкую промышленность, энергетику и ремонтно-сервисные производства. Предприятия тяготеют к городам, источникам сырья, электроэнергии, трудовым ресурсам, дорогам и рынкам.
 
 Для анализа промышленности следует различать:
+
 - добычу сырья;
 - первичное обогащение и переработку;
 - производство готовых изделий;
@@ -246,6 +251,7 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 Туристические ресурсы включают Иссык-Куль, горные маршруты Тянь-Шаня и Памиро-Алая, культурные памятники, кочевое наследие, археологические объекты, природные парки и лечебно-рекреационные территории.
 
 Основные направления:
+
 - пляжный и семейный отдых;
 - треккинг и альпинизм;
 - лыжный и зимний туризм;
@@ -318,6 +324,7 @@ Kyrgyzstan's cities differ in size, functions, historical origins and position w
 ### Транспортная устойчивость
 
 Горные дороги подвержены оползням, камнепадам, лавинам, селям, размыву и землетрясениям. Для устойчивой транспортной системы необходимы:
+
 - геотехнический мониторинг склонов;
 - инженерное укрепление и водоотвод;
 - планы сезонного содержания дорог;
@@ -491,6 +498,7 @@ Environmental costs are often distributed unevenly. Benefits from exports or tra
 Кыргызстан не имеет выхода к морю, поэтому внешняя торговля зависит от сухопутных коридоров и эффективности пограничной инфраструктуры. Географическое положение между Китаем, Казахстаном, Узбекистаном и Таджикистаном создаёт потенциал транзита, но само по себе не гарантирует конкурентоспособности.
 
 Факторы конкурентоспособности коридора:
+
 - время пересечения границы и предсказуемость процедур;
 - состояние дорог и пунктов пропуска;
 - наличие складов, терминалов и холодильной инфраструктуры;
@@ -507,6 +515,7 @@ Environmental costs are often distributed unevenly. Benefits from exports or tra
 Kyrgyzstan is landlocked, so foreign trade depends on overland corridors and the efficiency of border infrastructure. Its location between China, Kazakhstan, Uzbekistan and Tajikistan creates transit potential, but geography alone does not guarantee competitiveness.
 
 The competitiveness of a corridor depends on:
+
 - border-crossing time and predictable procedures;
 - road and checkpoint conditions;
 - warehouses, terminals and cold-chain infrastructure;
@@ -527,6 +536,7 @@ Regional trade nodes—including Bishkek, Osh, Kara-Suu, Balykchy, Kara-Balta, N
 Доступность рабочих мест, школ, больниц, рынков и государственных услуг зависит от времени поездки, а не только от расстояния. В горных районах реальная доступность может резко ухудшаться зимой или во время природных чрезвычайных ситуаций.
 
 Для оценки территориального неравенства применяются:
+
 - время поездки до ближайшей больницы, школы, рынка и районного центра;
 - доля населения в пределах заданного времени доступа;
 - сезонная надёжность маршрута;
@@ -549,6 +559,7 @@ Regional trade nodes—including Bishkek, Osh, Kara-Suu, Balykchy, Kara-Balta, N
 **Пример.** В двух сёлах живёт по 1 000 человек. До ближайшей клиники из села A можно добраться за 20 минут, а из села B — за 55 минут. По показателю расстояния оба села имеют «клинику поблизости», но по времени доступа различаются существенно. Если зимой дорога к селу B закрывается на 20 дней, среднегодовая оценка должна отдельно отразить сезонную ненадёжность маршрута.
 
 **Практические ограничения:**
+
 - маршрутная сеть должна отражать реальные дороги, мосты, ограничения движения и сезонные закрытия;
 - скорость движения следует задавать по типу дороги и сезону, а не одним значением для всей страны;
 - пешая доступность, общественный транспорт и поездка на автомобиле дают разные результаты;
@@ -569,6 +580,7 @@ Spatial accessibility is the ability to reach a service, taking account of dista
 **Example.** Two villages each have 1,000 residents. The nearest clinic can be reached from Village A in 20 minutes and from Village B in 55 minutes. Both villages may appear to have a clinic “nearby” when measured by distance, but their travel-time accessibility differs substantially. If the road to Village B is closed for 20 days in winter, an annual assessment should separately account for seasonal unreliability.
 
 **Practical limitations:**
+
 - the network must represent actual roads, bridges, traffic restrictions and seasonal closures;
 - travel speeds should reflect road type and season rather than one national average;
 - walking, public transport and car travel produce different results;
@@ -585,6 +597,7 @@ For Kyrgyzstan, it is particularly useful to model separate summer and winter sc
 Access to jobs, schools, hospitals, markets and public services depends on travel time, not distance alone. In mountainous areas, practical accessibility can deteriorate sharply in winter or during natural emergencies.
 
 Territorial inequality can be assessed using:
+
 - travel time to the nearest hospital, school, market and district centre;
 - the share of the population within a defined travel-time threshold;
 - seasonal reliability of routes;

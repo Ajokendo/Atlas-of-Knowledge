@@ -64,6 +64,7 @@ Good research distinguishes description, explanation and causal inference. A spa
 Масштаб — ключевая характеристика географического анализа. Он включает пространственный охват, уровень детализации и размер единиц, по которым собираются и агрегируются данные.
 
 Различают:
+
 - **локальный масштаб:** участок, населённый пункт, отдельная экосистема;
 - **региональный масштаб:** район, область, бассейн реки или группа территорий;
 - **национальный масштаб:** государство и его административные единицы;
@@ -86,6 +87,7 @@ Good research distinguishes description, explanation and causal inference. A spa
 Полевые исследования позволяют непосредственно наблюдать процессы и объекты, проверять карты и спутниковые интерпретации, собирать первичные измерения и фиксировать локальные особенности.
 
 Основные методы:
+
 - маршрутные наблюдения и описание территории;
 - измерение координат, высот, расстояний и направлений;
 - отбор проб почвы, воды, горных пород и биологических материалов;
@@ -103,6 +105,7 @@ Good research distinguishes description, explanation and causal inference. A spa
 Fieldwork allows researchers to observe processes and features directly, check maps and satellite interpretations, collect primary measurements and record local conditions.
 
 Common methods include:
+
 - route-based observation and description of an area;
 - measurement of coordinates, elevations, distances and directions;
 - sampling of soil, water, rocks and biological materials;
@@ -121,6 +124,7 @@ Instruments must be calibrated and checked. Measurements without units, accuracy
 Географические данные включают пространственную привязку и описательные характеристики. Они могут быть первичными (собранными в исследовании) и вторичными (полученными из существующих источников).
 
 Основные типы:
+
 - координаты и геометрии точек, линий и полигонов;
 - растровые изображения и цифровые модели;
 - статистические таблицы с территориальными кодами;
@@ -129,6 +133,7 @@ Instruments must be calibrated and checked. Measurements without units, accuracy
 - административные, кадастровые и инфраструктурные данные.
 
 Качество оценивается по нескольким измерениям:
+
 - **точность:** близость значения к истинному или принятому эталонному значению;
 - **прецизионность:** согласованность повторных измерений;
 - **полнота:** наличие необходимых объектов и атрибутов;
@@ -144,6 +149,7 @@ Instruments must be calibrated and checked. Measurements without units, accuracy
 Geographic data include both spatial referencing and descriptive characteristics. They may be primary (collected during a study) or secondary (obtained from existing sources).
 
 Main types include:
+
 - coordinates and point, line and polygon geometries;
 - raster images and digital models;
 - statistical tables with territorial codes;
@@ -152,6 +158,7 @@ Main types include:
 - administrative, cadastral and infrastructure data.
 
 Data quality is assessed across several dimensions:
+
 - **accuracy:** closeness of a value to the true or accepted reference value;
 - **precision:** consistency among repeated measurements;
 - **completeness:** whether the required features and attributes are present;
@@ -177,6 +184,7 @@ Accuracy should not be confused with resolution. A highly detailed map may still
 Сплошное обследование всей территории часто невозможно, поэтому исследователь использует выборку. Её дизайн должен соответствовать вопросу и пространственной структуре явления.
 
 Основные схемы:
+
 - **простая случайная выборка:** каждый элемент генеральной совокупности имеет известную вероятность отбора;
 - **систематическая выборка:** точки размещаются через заданный интервал или по регулярной сетке;
 - **стратифицированная выборка:** территория делится на однородные слои, из которых отбираются наблюдения;
@@ -236,6 +244,7 @@ The research question should determine the method, not fashion or the availabili
 ## 16.7. Основы географической статистики / Fundamentals of Geographic Statistics
 
 Описательная статистика помогает обобщать распределение данных:
+
 - среднее арифметическое;
 - медиана;
 - мода;
@@ -252,6 +261,7 @@ The research question should determine the method, not fashion or the availabili
 
 
 Descriptive statistics help summarise data distributions:
+
 - arithmetic mean;
 - median;
 - mode;
@@ -271,6 +281,7 @@ Correlation shows a statistical association but does not prove causation. Spatia
 Пространственная статистика исследует, как значения и объекты распределены в пространстве.
 
 Основные понятия:
+
 - **пространственная автокорреляция:** сходство значений соседних объектов или участков;
 - **кластеризация:** концентрация объектов или высоких/низких значений;
 - **пространственная неоднородность:** различия характеристик между частями территории;
@@ -285,6 +296,7 @@ Correlation shows a statistical association but does not prove causation. Spatia
 Spatial statistics examines how values and features are distributed across space.
 
 Key concepts include:
+
 - **spatial autocorrelation:** similarity among values in neighbouring features or areas;
 - **clustering:** concentration of features or high/low values;
 - **spatial heterogeneity:** differences in characteristics among parts of a territory;
@@ -304,6 +316,7 @@ A map of statistically significant clusters should describe the method, paramete
 Картография изучает методы создания, анализа и использования карт. Карта — не нейтральная копия территории, а модель, в которой отобраны и обобщены сведения в соответствии с целью, масштабом и аудиторией.
 
 Любая карта включает:
+
 - математическую основу: проекцию, координатную систему и масштаб;
 - географическое содержание: объекты и явления;
 - картографические знаки и графические переменные;
@@ -317,6 +330,7 @@ A map of statistically significant clusters should describe the method, paramete
 Cartography studies the methods used to create, analyse and use maps. A map is not a neutral copy of a territory: it is a model in which information is selected and generalised according to purpose, scale and audience.
 
 Every map includes:
+
 - a mathematical framework: projection, coordinate reference system and scale;
 - geographic content: features and phenomena;
 - map symbols and visual variables;
@@ -356,6 +370,7 @@ A map projection transforms coordinates on the Earth's surface onto a plane. Eve
 Тематическая карта показывает распределение определённого явления: населения, осадков, температуры, землепользования, доходов, риска или доступности услуг.
 
 Основные способы:
+
 - **хороплетная карта:** окрашивает территориальные единицы по относительному показателю, например плотности населения;
 - **карта пропорциональных символов:** показывает абсолютные значения размером знаков;
 - **изолинии:** соединяют точки равного значения непрерывного поля, например высоты или давления;
@@ -380,6 +395,7 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 Картографический дизайн управляет вниманием читателя и помогает различать классы, направления, величины и категории.
 
 Важные визуальные переменные:
+
 - положение;
 - размер;
 - форма;
@@ -390,6 +406,7 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 - текстура.
 
 Рекомендации:
+
 - последовательные цветовые шкалы применять для упорядоченных величин от низких к высоким;
 - расходящиеся шкалы — для значений относительно содержательного центра, например нуля или нормативного порога;
 - качественные палитры — для категорий без естественного порядка;
@@ -405,6 +422,7 @@ A projection choice cannot correct an inappropriate thematic map type. Absolute 
 Cartographic design directs the reader's attention and helps distinguish classes, directions, magnitudes and categories.
 
 Important visual variables include:
+
 - position;
 - size;
 - shape;
@@ -415,6 +433,7 @@ Important visual variables include:
 - texture.
 
 Recommendations:
+
 - use sequential colour schemes for ordered values from low to high;
 - use diverging schemes for values relative to a meaningful centre, such as zero or a regulatory threshold;
 - use qualitative palettes for categories without a natural order;
@@ -436,6 +455,7 @@ A colour scale should match the meaning of the data. Equal visual intervals do n
 Для хороплетных и других тематических карт числовые данные часто группируются в классы. Выбор метода классификации влияет на визуальный вывод.
 
 Распространённые методы:
+
 - равные интервалы;
 - квантильные интервалы;
 - естественные границы (Jenks);
@@ -450,6 +470,7 @@ A colour scale should match the meaning of the data. Equal visual intervals do n
 Numerical data on choropleth and other thematic maps are often grouped into classes. The choice of classification method affects the visual message.
 
 Common methods include:
+
 - equal intervals;
 - quantile intervals;
 - natural breaks (Jenks);
@@ -468,6 +489,7 @@ For comparisons over time, it is often useful to keep class boundaries fixed so 
 
 
 Карта должна содержать достаточно элементов, чтобы читатель мог правильно её интерпретировать:
+
 - ясный заголовок;
 - легенду с единицами измерения;
 - масштаб или масштабную линейку, если это необходимо;
@@ -484,6 +506,7 @@ For comparisons over time, it is often useful to keep class boundaries fixed so 
 
 
 A map should contain enough information for the reader to interpret it correctly:
+
 - a clear title;
 - a legend with units of measurement;
 - a scale or scale bar, where needed;
@@ -503,6 +526,7 @@ Labels should have a clear hierarchy and should not cover important features. Ca
 Один и тот же набор данных нельзя одинаково показывать на карте мира, страны и города. При уменьшении масштаба мелкие детали исчезают, линии упрощаются, а группы объектов могут объединяться.
 
 Основные операции генерализации:
+
 - отбор;
 - упрощение линий;
 - сглаживание;
@@ -517,6 +541,7 @@ Labels should have a clear hierarchy and should not cover important features. Ca
 The same dataset cannot be shown in the same way on a world map, a national map and a city map. As map scale becomes smaller, minor details disappear, lines are simplified and groups of features may be combined.
 
 Common generalisation operations include:
+
 - selection;
 - line simplification;
 - smoothing;
@@ -532,6 +557,7 @@ In digital web maps, generalisation is often performed for different zoom levels
 Веб-карты позволяют пользователю менять масштаб, включать слои, искать объекты и получать атрибутивную информацию. Они могут быть статическими, интерактивными или встроенными в аналитические панели.
 
 Ключевые принципы:
+
 - быстрый отклик и разумный объём передаваемых данных;
 - понятные элементы управления;
 - доступность с мобильных устройств;
@@ -546,6 +572,7 @@ In digital web maps, generalisation is often performed for different zoom levels
 Web maps allow users to change scale, switch layers on and off, search for features and view attribute information. They may be static, interactive or embedded in analytical dashboards.
 
 Key principles include:
+
 - fast response and a reasonable volume of transmitted data;
 - understandable controls;
 - accessibility on mobile devices;
@@ -566,6 +593,7 @@ Interactivity does not automatically make a map more accurate or easier to under
 Воспроизводимое исследование позволяет другому специалисту понять, откуда получены данные, какие преобразования выполнены и как получен результат.
 
 Хорошая практика включает:
+
 - хранение исходных данных отдельно от обработанных;
 - документирование источников, версий и лицензий;
 - сохранение параметров обработки и кода;
@@ -623,6 +651,7 @@ A GIS result should be not only clear but also verifiable. A map without documen
 Географические результаты представляют в научных статьях, атласах, отчётах, публичных картах, презентациях и цифровых панелях. Формат должен соответствовать аудитории и задаче.
 
 Научная добросовестность требует:
+
 - не скрывать данные, противоречащие гипотезе;
 - различать измеренные значения и модельные оценки;
 - не выдавать корреляцию за причинность;
@@ -733,6 +762,7 @@ Geographic data combine spatial referencing with descriptive characteristics. Th
 Main types include coordinates and point, line and polygon geometries; raster imagery and digital models; statistical tables with territorial codes; time series; textual and qualitative observations; and administrative, cadastral and infrastructure data.
 
 Quality is assessed across several dimensions:
+
 - **accuracy:** closeness to a true or accepted reference value;
 - **precision:** consistency of repeated measurements;
 - **completeness:** presence of required features and attributes;
@@ -749,6 +779,7 @@ Accuracy should not be confused with resolution. A highly detailed map may conta
 A complete survey of an entire territory is often impossible, so researchers use a sample. Its design should match the research question and the spatial structure of the phenomenon.
 
 Common designs include:
+
 - **simple random sampling:** each unit in the population has a known probability of selection;
 - **systematic sampling:** points are placed at set intervals or on a regular grid;
 - **stratified sampling:** the area is divided into relatively homogeneous strata, from which observations are selected;
@@ -784,6 +815,7 @@ Correlation indicates a statistical relationship but does not prove causation. S
 Spatial statistics examines how values and features are distributed across space.
 
 Key concepts include:
+
 - **spatial autocorrelation:** similarity between values in neighbouring features or locations;
 - **clustering:** concentration of features or high/low values;
 - **spatial heterogeneity:** differences between parts of a territory;
@@ -815,6 +847,7 @@ A map projection transforms coordinates on Earth's surface to a plane. Every fla
 A thematic map shows the distribution of a particular phenomenon, such as population, precipitation, temperature, land use, income, risk or service accessibility.
 
 Common methods include:
+
 - **choropleth maps:** colour territorial units according to a relative indicator, such as population density;
 - **proportional-symbol maps:** show absolute values through symbol size;
 - **isolines:** connect points with equal values in a continuous field, such as elevation or pressure;
@@ -832,6 +865,7 @@ Cartographic design guides the reader's attention and helps distinguish classes,
 Important visual variables include position, size, shape, orientation, hue, lightness, saturation and texture.
 
 General guidance:
+
 - use sequential colour schemes for ordered values from low to high;
 - use diverging schemes for values relative to a meaningful centre, such as zero or a threshold;
 - use qualitative palettes for categories without a natural order;
@@ -856,6 +890,7 @@ For time comparisons, it may be useful to fix class boundaries so that a colour 
 ### 16.14. The Map as an Argument: Labels, Legend and Sources
 
 A map should contain enough information for correct interpretation:
+
 - a clear title;
 - a legend with units;
 - a scale or scale bar where needed;

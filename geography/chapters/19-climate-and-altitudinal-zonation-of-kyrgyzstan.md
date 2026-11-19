@@ -9,6 +9,7 @@
 Глава раскрывает климатическую систему Кыргызстана как результат взаимодействия широтного положения, континентальности, циркуляции атмосферы, сложного горного рельефа и высотной поясности. Особое внимание уделено пространственным контрастам температуры и осадков, местным ветрам, сезонности, климатическим опасностям и наблюдаемому потеплению.
 
 После изучения главы читатель сможет:
+
 - объяснять главные климатообразующие факторы Кыргызстана;
 - различать региональные климатические типы и высотные климатические пояса;
 - интерпретировать сезонный ход температуры и осадков;
@@ -298,6 +299,7 @@ Wind increases evaporation and soil drying, redistributes snow, affects perceive
 ### 19.8.2. Климатический снеговой предел и снеговая линия
 
 Следует различать несколько понятий:
+
 - **сезонная снеговая граница** — высота, выше которой снег может сохраняться в определённый сезон;
 - **климатическая снеговая линия** — приближённая граница, связанная с многолетним балансом накопления и таяния снега;
 - **линия равновесия ледника (ELA)** — высота, на которой годовой баланс массы ледника близок к нулю в конкретный год или усреднённый период.
@@ -323,6 +325,7 @@ Elevation boundaries of climatic belts are not the same throughout the country. 
 #### 19.8.2 Climatic snow limit and glacier snowline
 
 Several terms should be distinguished:
+
 - **seasonal snow boundary:** the elevation above which snow may persist during a particular season;
 - **climatic snowline:** an approximate boundary associated with the long-term balance between snow accumulation and melt; and
 - **glacier equilibrium-line altitude (ELA):** the elevation where a glacier's annual mass balance is approximately zero for a particular year or averaged period.
@@ -360,6 +363,7 @@ Climate regulates the water balance, vegetation, soil formation, pasture product
 > **EN:** Infographic of climate-related hazards in Kyrgyzstan: droughts, heat, extreme precipitation, debris flows, heavy snowfall and avalanches; show hazard, exposure and vulnerability separately.
 
 К основным климатическим опасностям относятся:
+
 - засухи и периоды дефицита влаги;
 - волны жары и опасно высокие температуры;
 - экстремальные осадки, паводки и сели;
@@ -469,6 +473,7 @@ It should not be assumed automatically that every individual flood, landslide or
 #### 19.11.1 Climate scenarios
 
 Climate projections are produced using global and regional climate models and scenarios of future emissions. They are not exact weather forecasts for a particular year. Results should be presented as ranges and should state:
+
 - the baseline period;
 - the projection horizon;
 - the emissions scenario;
@@ -480,6 +485,7 @@ Uncertainty is particularly important in mountain regions. Large-scale models ma
 ### 19.11.1. Климатические сценарии
 
 Климатические проекции строятся на основе глобальных и региональных климатических моделей и сценариев будущих выбросов. Они не являются точным прогнозом погоды на конкретный год. Результаты следует представлять диапазонами, указывая:
+
 - базовый период;
 - горизонт прогноза;
 - сценарий выбросов;
@@ -522,6 +528,7 @@ Uncertainty is particularly important in mountain regions. Large-scale models ma
 Надёжное изучение климата требует длительных и качественных рядов наблюдений. Важны не только метеостанции в городах и долинах, но и станции в высокогорье, где сеть наблюдений обычно более редкая и условия эксплуатации сложнее.
 
 Основные типы данных:
+
 - приземные метеонаблюдения: температура, осадки, ветер, влажность, давление, снежный покров;
 - радиозондовые наблюдения и данные о вертикальной структуре атмосферы;
 - спутниковые продукты облачности, температуры поверхности и осадков;
@@ -680,6 +687,7 @@ Belt boundaries are not the same throughout the country. They depend on latitude
 A generalised scheme includes a valley–foothill belt, lower mountain belt, middle-mountain belt, high-mountain belt, subnival belt and nival–glacial belt. These are qualitative zones, not universal altitude bands.
 
 Several snow-related boundaries must be distinguished:
+
 - **seasonal snow boundary:** the elevation above which snow may persist during a particular season;
 - **climatic snowline:** an approximate boundary associated with the long-term balance between snow accumulation and melting; and
 - **glacier equilibrium-line altitude (ELA):** the elevation at which a glacier's annual mass balance is close to zero in a particular year or averaged period.

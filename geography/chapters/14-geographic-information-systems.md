@@ -49,6 +49,7 @@ GIS is used in cadastre, urban planning, nature conservation, transport, agricul
 Географический объект обычно описывается геометрией и набором атрибутов.
 
 Основные геометрические типы:
+
 - **точка (point):** источник воды, метеостанция, дерево, остановка;
 - **линия (line):** река, дорога, трубопровод, граница маршрута;
 - **полигон (polygon):** озеро, административный район, лесной массив, земельный участок;
@@ -62,6 +63,7 @@ GIS is used in cadastre, urban planning, nature conservation, transport, agricul
 A geographic feature is usually described by its geometry and a set of attributes.
 
 Main geometry types include:
+
 - **point:** a water source, weather station, tree or bus stop;
 - **line:** a river, road, pipeline or route boundary;
 - **polygon:** a lake, administrative district, forest area or land parcel; and
@@ -82,12 +84,14 @@ It is important to distinguish a real-world feature from its digital representat
 Векторные данные описывают объекты точками, линиями и полигонами. Они удобны для представления дорог, границ, зданий, участков и сетей.
 
 Преимущества:
+
 - точное описание геометрии отдельных объектов;
 - удобная связь с атрибутивными таблицами;
 - эффективное представление дискретных объектов;
 - поддержка топологических и сетевых операций.
 
 Ограничения:
+
 - сложные поверхности и непрерывные поля могут требовать большого числа объектов;
 - качество зависит от масштаба и точности исходной геометрии;
 - ошибки топологии могут приводить к разрывам, наложениям и неверным связям.
@@ -97,11 +101,13 @@ It is important to distinguish a real-world feature from its digital representat
 Растр представляет пространство сеткой ячеек (пикселей). Каждая ячейка содержит значение: высоту, температуру, отражательную способность, класс земного покрова или вероятность явления.
 
 Преимущества:
+
 - естественное представление непрерывных полей;
 - удобство математических операций с ячейками;
 - широкое применение в дистанционном зондировании и моделировании.
 
 Ограничения:
+
 - разрешение влияет на детализацию;
 - объём данных может быть большим;
 - границы объектов представлены ступенчато;
@@ -115,12 +121,14 @@ It is important to distinguish a real-world feature from its digital representat
 Vector data represent features as points, lines and polygons. They are useful for roads, boundaries, buildings, parcels and networks.
 
 Advantages include:
+
 - precise representation of individual feature geometry;
 - convenient links to attribute tables;
 - efficient representation of discrete features; and
 - support for topology and network operations.
 
 Limitations include:
+
 - complex surfaces and continuous fields may require very large numbers of features;
 - quality depends on the scale and accuracy of the source geometry; and
 - topology errors can create gaps, overlaps and incorrect connections.
@@ -130,11 +138,13 @@ Limitations include:
 A raster represents space as a grid of cells (pixels). Each cell stores a value such as elevation, temperature, reflectance, land-cover class or the probability of a phenomenon.
 
 Advantages include:
+
 - natural representation of continuous fields;
 - convenient mathematical operations on cells; and
 - wide use in remote sensing and spatial modelling.
 
 Limitations include:
+
 - resolution affects the level of detail;
 - data volumes can be large;
 - feature boundaries appear stepped; and
@@ -157,6 +167,7 @@ Limitations include:
 **Система координат (CRS)** определяет, как координаты связаны с Землёй, включая геодезическую основу, параметры координат и, для проецированных систем, картографическую проекцию.
 
 Основные понятия:
+
 - геодезическая система отсчёта (datum);
 - эллипсоид и геоид;
 - географическая широта и долгота;
@@ -193,6 +204,7 @@ Geographic coordinates are angular values, usually latitude and longitude. Proje
 Картографическая проекция преобразует координаты поверхности Земли в плоскую систему. Любая проекция искажает некоторые свойства — площадь, форму, расстояние или направление.
 
 Выбор проекции зависит от задачи:
+
 - для региональных карт — проекция, подходящая по положению и форме территории;
 - для сравнения площадей — равновеликая проекция;
 - для навигационных и угловых задач — соответствующая конформная или специализированная проекция;
@@ -230,6 +242,7 @@ The coordinates 42° and 74° are illustrative and do not identify an exact addr
 ## 14.6. Сбор пространственных данных / Spatial Data Acquisition
 
 Источники пространственных данных:
+
 - геодезическая съёмка и GNSS;
 - топографические и тематические карты;
 - спутниковые и аэрофотоснимки;
@@ -245,6 +258,7 @@ GNSS — общее название спутниковых навигацион
 
 
 Sources of spatial data include:
+
 - geodetic surveys and GNSS;
 - topographic and thematic maps;
 - satellite and aerial imagery;
@@ -265,6 +279,7 @@ GNSS is the general term for satellite navigation systems. GPS is one such syste
 **Геокодирование** преобразует текстовое описание местоположения, например адрес или название объекта, в координаты. Обратное геокодирование связывает координаты с ближайшим адресом или географическим описанием.
 
 Результат геокодирования может быть неоднозначным. Один адрес может соответствовать зданию, входу, центроиду участка или приблизительной точке улицы. Поэтому необходимо проверять:
+
 - точность и тип возвращённого местоположения;
 - совпадение населённого пункта и административной единицы;
 - качество и полноту адресной базы;
@@ -277,6 +292,7 @@ GNSS is the general term for satellite navigation systems. GPS is one such syste
 **Geocoding** converts a textual description of a location, such as an address or place name, into coordinates. Reverse geocoding links coordinates to a nearby address or geographic description.
 
 A geocoding result may be ambiguous. An address may correspond to a building, an entrance, a parcel centroid or an approximate point on a street. It is therefore necessary to check:
+
 - the accuracy and type of the returned location;
 - whether the settlement and administrative unit match;
 - the quality and completeness of the address database;
@@ -294,6 +310,7 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 Пространственный анализ отвечает на вопросы о взаимном расположении объектов, расстояниях, пересечениях, соседстве и распределении явлений.
 
 Основные операции:
+
 - **буферизация (buffer):** создание зоны заданного расстояния вокруг объекта;
 - **пересечение (intersection):** выделение общей части пространственных объектов;
 - **объединение (union):** формирование совокупной геометрии и атрибутов;
@@ -308,6 +325,7 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 Spatial analysis answers questions about the relative locations of features, distances, intersections, neighbourhoods and the distribution of phenomena.
 
 Common operations include:
+
 - **buffer:** create a zone at a specified distance around a feature;
 - **intersection:** identify the shared area of spatial features;
 - **union:** combine geometries and attributes;
@@ -328,6 +346,7 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 Сетевой анализ изучает движение по связанным линиям и узлам: дорогам, улицам, железным дорогам, трубопроводам и другим сетям.
 
 Основные задачи:
+
 - поиск кратчайшего или быстрейшего маршрута;
 - анализ доступности и времени поездки;
 - определение зон обслуживания;
@@ -343,6 +362,7 @@ For example, to assess access to healthcare facilities, an analyst can create zo
 Network analysis studies movement through connected lines and nodes such as roads, streets, railways, pipelines and other networks.
 
 Common tasks include:
+
 - finding the shortest or fastest route;
 - analysing accessibility and travel time;
 - defining service areas;
@@ -364,6 +384,7 @@ Network-analysis results depend on network completeness, travel direction, conne
 Растровый анализ применяется к непрерывным полям и пространственным моделям.
 
 Распространённые методы:
+
 - классификация и переклассификация;
 - арифметические и логические операции с растрами;
 - анализ плотности;
@@ -387,6 +408,7 @@ Network-analysis results depend on network completeness, travel direction, conne
 Raster analysis is used for continuous fields and spatial models.
 
 Common methods include:
+
 - classification and reclassification;
 - arithmetic and logical operations on rasters;
 - density analysis;
@@ -418,12 +440,14 @@ Before processing, check the units of horizontal coordinates and elevation. If h
 Топология описывает пространственные отношения между объектами: смежность, связность, вложенность и пересечение.
 
 Примеры топологических правил:
+
 - полигоны административных единиц не должны иметь непредусмотренных зазоров или наложений;
 - линии дорожной сети должны соединяться в узлах там, где допускается движение;
 - здания не должны пересекать границы участков, если это запрещено моделью данных;
 - водотоки должны сохранять логическую связность в пределах принятой схемы.
 
 Качество пространственных данных включает:
+
 - позиционную точность;
 - тематическую точность;
 - полноту;
@@ -440,12 +464,14 @@ Before processing, check the units of horizontal coordinates and elevation. If h
 Topology describes spatial relationships among features, including adjacency, connectivity, containment and intersection.
 
 Examples of topology rules include:
+
 - administrative polygons should not have unintended gaps or overlaps;
 - road-network lines should connect at nodes where movement is allowed;
 - buildings should not cross parcel boundaries when the data model prohibits this; and
 - streams should maintain logical connectivity within the adopted network model.
 
 Spatial-data quality includes:
+
 - positional accuracy;
 - thematic accuracy;
 - completeness;
@@ -465,6 +491,7 @@ Quality assessment starts with the requirements of the intended use: define whic
 Без метаданных пользователь может не знать, когда и каким методом получен слой, в какой системе координат он хранится и для каких задач пригоден.
 
 Международные стандарты и спецификации поддерживают совместимость:
+
 - стандарты ISO серии 19100 по географической информации; в частности, ISO 19115-1 описывает структуру метаданных для идентификации, охвата, качества, временных и пространственных характеристик, системы координат, представления и распространения геоданных;
 - спецификации Open Geospatial Consortium (OGC);
 - форматы GeoPackage, GeoTIFF, GeoJSON и другие;
@@ -481,6 +508,7 @@ Metadata describe the content, provenance, quality, structure, spatial extent, t
 Without metadata, a user may not know when or how a layer was created, which coordinate reference system it uses or which tasks it is suitable for.
 
 International standards and specifications support interoperability:
+
 - the ISO 19100 series of geographic-information standards;
 - Open Geospatial Consortium (OGC) specifications;
 - GeoPackage, GeoTIFF, GeoJSON and other formats;
@@ -504,6 +532,7 @@ A file format or standard interface alone does not guarantee quality or interope
 Карта — средство передачи пространственной информации, а не просто изображение данных. Её оформление должно соответствовать цели, аудитории и масштабу.
 
 Ключевые элементы:
+
 - заголовок и назначение;
 - легенда и единицы измерения;
 - масштабная линейка, если она уместна;
@@ -514,6 +543,7 @@ A file format or standard interface alone does not guarantee quality or interope
 - пояснение ограничений.
 
 Выбор способа изображения зависит от данных:
+
 - качественные категории — различимые оттенки или символы;
 - количественные значения по территориям — последовательная цветовая шкала;
 - отклонения относительно нуля — расходящаяся шкала;
@@ -528,6 +558,7 @@ A file format or standard interface alone does not guarantee quality or interope
 A map communicates spatial information; it is not merely a picture of data. Its design should match the purpose, audience and scale.
 
 Key map elements include:
+
 - a title and statement of purpose;
 - a legend and units of measurement;
 - a scale bar, where appropriate;
@@ -538,6 +569,7 @@ Key map elements include:
 - an explanation of limitations.
 
 The choice of display method depends on the data:
+
 - qualitative categories — distinct hues or symbols;
 - quantitative values by area — a sequential colour scheme;
 - deviations around a reference value — a diverging scheme;
@@ -582,6 +614,7 @@ Crowdsourced maps can be updated quickly, but individual features still require 
 ГИС поддерживает принятие решений, когда необходимо сопоставить пространственные данные из разных отраслей.
 
 Примеры применения:
+
 - градостроительство: зонирование, инфраструктура, зелёные пространства;
 - сельское хозяйство: мониторинг посевов, орошение, оценка земель;
 - водное хозяйство: бассейновое управление, водозаборы, паводковые зоны;
@@ -597,6 +630,7 @@ Crowdsourced maps can be updated quickly, but individual features still require 
 GIS supports decision-making when spatial data from different sectors need to be compared.
 
 Examples include:
+
 - **urban planning:** zoning, infrastructure and green spaces;
 - **agriculture:** crop monitoring, irrigation and land assessment;
 - **water management:** basin management, water intakes and flood zones;
@@ -631,6 +665,7 @@ The legal establishment of a Georesource or geosite does not by itself prove tha
 Географические данные могут раскрывать местоположение людей, жилищ, медицинских учреждений, объектов критической инфраструктуры, редких видов и культурно значимых мест.
 
 Основные принципы ответственного использования:
+
 - собирать только данные, необходимые для законной и понятной цели;
 - учитывать согласие и правовые основания обработки персональных данных;
 - минимизировать детализацию там, где она создаёт риск идентификации;
@@ -645,6 +680,7 @@ The legal establishment of a Georesource or geosite does not by itself prove tha
 Geographic data may reveal the locations of people, homes, healthcare facilities, critical infrastructure, rare species and culturally significant places.
 
 The main principles of responsible use are:
+
 - collect only the data needed for a lawful and clearly stated purpose;
 - consider consent and the legal basis for processing personal data;
 - reduce spatial detail where it creates a risk of identification;
@@ -743,6 +779,7 @@ GIS is used in cadastre, urban planning, nature conservation, transport, agricul
 A geographic feature is usually described by its geometry and a set of attributes.
 
 Main geometry types include:
+
 - **point:** a water source, weather station, tree or bus stop;
 - **line:** a river, road, pipeline or route;
 - **polygon:** a lake, administrative district, forest or land parcel; and
@@ -824,6 +861,7 @@ For service-accessibility analysis, a geocoded address point is not necessarily 
 Spatial analysis answers questions about the relative positions of features, distances, intersections, adjacency and spatial distribution.
 
 Common operations include:
+
 - **buffer:** creating a zone at a specified distance around a feature;
 - **intersection:** extracting the shared part of spatial features;
 - **union:** combining geometry and attributes;
@@ -907,6 +945,7 @@ A map is a means of communicating spatial information, not simply a picture of d
 Key elements include a title and purpose; legend and units; a scale bar where appropriate; source and date; coordinate grid or reference features where needed; a clear hierarchy of labels; a colour scheme suited to the data type; and an explanation of limitations.
 
 The method of representation depends on the data:
+
 - qualitative categories: distinct hues or symbols;
 - quantitative values by area: sequential colour schemes;
 - deviations around zero: diverging schemes;

@@ -23,6 +23,7 @@ After studying this chapter, readers will be able to explain the extent and func
 Биосфера не является замкнутой системой по энергии. Основной внешний источник энергии для большинства экосистем — солнечное излучение. Вещество же многократно циркулирует между организмами и компонентами окружающей среды. Существуют также экосистемы, основанные на химической энергии, например сообщества у гидротермальных источников.
 
 **Основные функции биосферы:**
+
 - газовая — участие организмов в формировании и поддержании состава атмосферы;
 - концентрационная — избирательное накопление химических элементов живыми организмами;
 - окислительно-восстановительная — преобразование веществ в биологических и геохимических процессах;
@@ -128,6 +129,7 @@ After studying this chapter, readers will be able to explain the extent and func
 ## 7.5. Биологическое разнообразие / Biodiversity
 
 Биоразнообразие — изменчивость живого мира на нескольких уровнях:
+
 - **генетическое разнообразие** — различия генов и наследственных вариантов внутри видов и популяций;
 - **видовое разнообразие** — разнообразие видов и соотношение их численности;
 - **экосистемное разнообразие** — разнообразие местообитаний, сообществ и экологических процессов.
@@ -145,6 +147,7 @@ After studying this chapter, readers will be able to explain the extent and func
 Крупные биогеографические области отражают длительную изоляцию и историю развития флоры и фауны. Их границы не всегда совпадают с государственными границами или климатическими поясами. В разных классификациях число и названия областей могут различаться.
 
 Основные закономерности:
+
 - широтная смена климатов и растительности от экватора к полюсам;
 - высотная поясность в горах, обусловленная изменением температуры, увлажнения и других условий с высотой;
 - островной эффект — ограниченность расселения и повышенная уязвимость изолированных популяций;
@@ -252,12 +255,14 @@ After studying this chapter, readers will be able to explain the extent and func
 Водные биомы классифицируют по солёности, глубине, движению воды, освещённости, температуре, содержанию кислорода и доступности питательных веществ.
 
 **Пресноводные экосистемы:**
+
 - реки и ручьи — проточные системы, где важны скорость течения, кислородный режим, перенос наносов и связь с водосбором;
 - озёра и водохранилища — стоячие или слабопроточные водоёмы с вертикальной стратификацией и сезонным перемешиванием;
 - болота и торфяники — переувлажнённые системы, где замедленное разложение органики способствует накоплению торфа и углерода;
 - временные водоёмы — сезонные местообитания, приспособленные к чередованию затопления и высыхания.
 
 **Морские экосистемы:**
+
 - прибрежная зона — область интенсивного взаимодействия суши и моря;
 - эстуарии — участки смешения речной и морской воды, часто высокопродуктивные;
 - мангровые леса и солёные марши — прибрежные экосистемы, распространённые в разных климатических поясах;
@@ -294,6 +299,7 @@ After studying this chapter, readers will be able to explain the extent and func
 ## 7.12. Нарушения и деградация экосистем / Ecosystem Disturbance and Degradation
 
 К главным угрозам биоразнообразию и функционированию экосистем относятся:
+
 - преобразование и утрата местообитаний при расширении сельского хозяйства, городов, инфраструктуры и добычи ресурсов;
 - фрагментация ландшафтов, изолирующая популяции;
 - чрезмерная эксплуатация биологических ресурсов;
@@ -309,6 +315,7 @@ After studying this chapter, readers will be able to explain the extent and func
 ## 7.13. Охрана природы и восстановление экосистем / Nature Conservation and Ecosystem Restoration
 
 Охрана природы включает сохранение видов, местообитаний, экологических процессов и генетического разнообразия. Основные инструменты:
+
 - особо охраняемые природные территории (ООПТ): национальные парки, заповедники, заказники и другие категории, различающиеся целями и режимами;
 - охрана видов и регулирование использования биологических ресурсов;
 - экологические сети и коридоры, поддерживающие связность местообитаний;
@@ -390,6 +397,7 @@ The biosphere is not a closed system with respect to energy. Solar radiation is 
 *07-A. Original bilingual teaching diagram by Atlas of Knowledge. Biosphere boundaries are illustrative; the diagram does not specify exact upper or lower limits.*
 
 The main functions of the biosphere include:
+
 - **gaseous:** organisms contribute to the formation and maintenance of atmospheric composition;
 - **concentration:** living organisms selectively accumulate chemical elements;
 - **oxidation–reduction:** biological and geochemical processes transform substances;
@@ -470,6 +478,7 @@ If predators incorporate 90 kJ into their biomass from the 1,200 kJ stored in he
 ### 7.5. Biodiversity
 
 Biodiversity is the variability of life at several levels:
+
 - **genetic diversity:** differences in genes and inherited variants within species and populations;
 - **species diversity:** the variety of species and the relative abundance of their populations; and
 - **ecosystem diversity:** the variety of habitats, communities and ecological processes.
@@ -549,6 +558,7 @@ Aquatic biomes are classified by salinity, depth, water movement, light, tempera
 *07-G. Original bilingual conceptual diagram by Atlas of Knowledge. Depths are not fixed because light penetration depends on water clarity and local conditions. The benthic zone is the bottom habitat, not a synonym for aphotic water; shallow bottoms may remain illuminated.*
 
 **Freshwater ecosystems** include:
+
 - rivers and streams, where flow velocity, oxygen conditions, sediment transport and catchment connections are important;
 - lakes and reservoirs, which may have vertical stratification and seasonal mixing;
 - wetlands and peatlands, where waterlogging slows decomposition and promotes peat and carbon accumulation; and

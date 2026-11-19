@@ -7,6 +7,7 @@
 ## Цели главы / Chapter objectives
 
 После изучения главы читатель сможет:
+
 - объяснять геологическую неоднородность Тянь-Шаня и Памиро-Алая;
 - различать географическое и тектоническое районирование горной страны;
 - читать орографическую карту и сопоставлять хребты, долины, котловины и перевалы;
@@ -101,6 +102,7 @@ CAIAG also notes that the USSR Glacier Catalogue (1968–1982) and the 1:500,000
 ### 18.2.4. Геологические породы
 
 В пределах Кыргызстана встречаются:
+
 - метаморфические породы древнего фундамента — гнейсы, сланцы, кварциты и амфиболиты;
 - осадочные комплексы — известняки, доломиты, песчаники, алевролиты, аргиллиты и конгломераты;
 - вулканогенные и вулканогенно-осадочные породы;
@@ -141,6 +143,7 @@ Thrust and reverse faults associated with horizontal compression are also widesp
 #### 18.2.4 Rock types
 
 Kyrgyzstan contains:
+
 - metamorphic rocks of ancient basement, including gneiss, schist, quartzite and amphibolite;
 - sedimentary sequences, including limestone, dolomite, sandstone, siltstone, mudstone and conglomerate;
 - volcanic and volcaniclastic rocks;
@@ -387,6 +390,7 @@ A peak's elevation does not by itself describe its prominence, isolation, climbi
 Межгорные впадины — важнейший элемент рельефа Кыргызстана. Они формируются в результате тектонических движений, эрозии, аккумуляции осадков и изменений речной сети. Их днища могут быть заполнены мощными толщами озёрных, речных, пролювиальных и ледниковых отложений.
 
 К важнейшим межгорным и долинным пространствам относятся:
+
 - **Чуйская долина** — широкая предгорная равнина на севере, важный район расселения и земледелия;
 - **Таласская долина** — межгорная впадина северо-западной части страны;
 - **Иссык-Кульская котловина** — крупная межгорная впадина с озером, ограниченная Кунгей Ала-Тоо и Терскей Ала-Тоо;
@@ -403,6 +407,7 @@ A peak's elevation does not by itself describe its prominence, isolation, climbi
 Intermontane basins are a major element of Kyrgyzstan's relief. They form through tectonic movements, erosion, sediment accumulation and changes in river networks. Their floors may contain thick sequences of lacustrine, fluvial, proluvial and glacial deposits.
 
 Important intermontane and valley areas include:
+
 - **Chuy Valley:** a broad northern foothill plain and an important area of settlement and agriculture;
 - **Talas Valley:** an intermontane depression in the north-west of the country;
 - **Issyk-Kul Basin:** a large intermontane depression containing the lake and bounded by the Kungey Ala-Too and Terskey Ala-Too ranges;
@@ -543,6 +548,7 @@ Altitudinal zonation is therefore best represented as a regional pattern with ap
 Минеральные ресурсы Кыргызстана связаны с разнообразием геологических комплексов и магматических, гидротермальных, осадочных и метаморфических процессов. В стране известны месторождения золота, сурьмы, ртути, олова, вольфрама, редких металлов, угля, строительного сырья и других полезных ископаемых.
 
 Важные геологические районы включают:
+
 - **Центральный Тянь-Шань** — золоторудные и полиметаллические проявления, связанные с интрузивными и гидротермальными системами;
 - **Южный и Западный Тянь-Шань** — известные районы сурьмяно-ртутной минерализации, полиметаллических и других рудных проявлений;
 - **Ферганский и прилегающие районы** — разнообразные рудные и нерудные полезные ископаемые;
@@ -558,6 +564,7 @@ Altitudinal zonation is therefore best represented as a regional pattern with ap
 Mineral resources are associated with the geological structure and long history of magmatic, hydrothermal, sedimentary and tectonic processes.
 
 Important resource groups include:
+
 - metallic minerals, such as gold, antimony, mercury, tin, tungsten and other ore commodities;
 - non-metallic minerals, including building stone, limestone, gypsum, clay and other industrial minerals;
 - energy resources, including coal and some hydrocarbon occurrences; and
@@ -586,6 +593,7 @@ Maps of mineral resources should distinguish occurrences, exploration areas, dep
 ### Система мониторинга
 
 Эффективная система мониторинга объединяет:
+
 - сейсмические станции и каталоги землетрясений;
 - геодезические GNSS-наблюдения и спутниковую интерферометрию InSAR;
 - оптические и радиолокационные спутниковые снимки;

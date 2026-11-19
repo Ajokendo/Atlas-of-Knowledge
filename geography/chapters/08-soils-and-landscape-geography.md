@@ -17,6 +17,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Почва — природное тело, которое формируется у поверхности Земли при длительном взаимодействии минерального материала, органического вещества, воды, воздуха и живых организмов. У неё есть собственные свойства, строение и способность поддерживать рост растений. Почва не равна горной породе: порода может быть её исходным материалом, но почва развивается благодаря выветриванию, накоплению и преобразованию органического вещества, перемещению веществ и деятельности организмов.
 
 Почва выполняет множество функций:
+
 - обеспечивает среду обитания для микроорганизмов, грибов, растений и почвенных животных;
 - участвует в круговоротах углерода, азота, фосфора и других элементов;
 - регулирует инфильтрацию, накопление и фильтрацию воды;
@@ -77,6 +78,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Почвенный профиль — вертикальный разрез от поверхности вниз, в котором различают генетические горизонты. Набор и выраженность горизонтов зависят от типа почвы и условий формирования.
 
 В описании почвенных профилей широко используются обозначения главных горизонтов и слоёв H, O, A, E, B, C и R. Эти символы помогают описывать строение профиля, но сами по себе не определяют классификационную группу почвы; наличие и последовательность горизонтов зависят от типа почвы:
+
 - **H** — органический горизонт или слой, обычно связанный с длительным переувлажнением и торфяным материалом;
 - **O** — органический горизонт или слой, не относящийся к торфяным и лимническим отложениям, обычно состоящий из растительных остатков и другого органического материала;
 - **A** — верхний минеральный горизонт, часто с накоплением гумуса и активной биологической переработкой;
@@ -213,6 +215,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 **Ветровая эрозия** переносит мелкие частицы с открытых сухих поверхностей. Ей способствуют засушливость, сильный ветер, отсутствие растительного покрова и чрезмерная распашка.
 
 Другие формы деградации:
+
 - уплотнение почв тяжёлой техникой и чрезмерным выпасом;
 - потеря органического вещества и снижение плодородия;
 - засоление при неправильном орошении и недостаточном дренаже;
@@ -229,6 +232,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Почвы формируются медленно, а плодородный верхний слой при интенсивной эрозии может теряться значительно быстрее. Поэтому рациональное управление направлено на сохранение структуры, органического вещества, водного режима и биологической активности.
 
 К эффективным мерам относятся:
+
 - контурная обработка склонов и террасирование там, где это обосновано;
 - покровные культуры, мульчирование и сохранение растительных остатков;
 - севообороты и поддержание разнообразия культур;
@@ -248,6 +252,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Ландшафт — территориальная система взаимосвязанных природных и антропогенно изменённых компонентов, обладающая определённой структурой, функционированием и историей развития. В физической географии термин может использоваться в разных масштабах: от локального урочища до крупного регионального комплекса. Поэтому при анализе всегда следует указывать масштаб и принятую классификацию.
 
 Компоненты ландшафта:
+
 - геологическое основание и рельеф;
 - климат и микроклимат;
 - поверхностные и подземные воды;
@@ -266,6 +271,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 По ведущим природным условиям выделяют, например, равнинные, горные, прибрежные, речные, болотные, пустынные и лесные ландшафты. По степени преобразования различают природные, слабоизменённые, культурные, аграрные, городские и техногенные ландшафты. Эти категории не всегда взаимоисключающие: городской ландшафт может включать речные террасы, природные склоны и искусственные поверхности.
 
 В ландшафтном анализе применяют понятия:
+
 - **ландшафтная фация** — относительно однородный небольшой природный участок; уточнение «ландшафтная» отличает эту единицу от геологической фации;
 - **урочище** — закономерно связанная группа ландшафтных фаций, часто приуроченная к определённой форме рельефа;
 - **местность** — более крупная морфологическая единица в ряде восточноевропейских научных традиций;
@@ -292,6 +298,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 ## 8.14. Ландшафтная экология и пространственные процессы / Landscape Ecology and Spatial Processes
 
 Ландшафтная экология исследует, как пространственная структура территории влияет на экологические процессы. Часто анализируют три элемента:
+
 - **пятна** — участки относительно однородного покрова;
 - **коридоры** — линейные элементы, связывающие пятна или обеспечивающие перемещение;
 - **матрица** — преобладающий фон ландшафта, внутри которого расположены пятна и коридоры.
@@ -355,6 +362,7 @@ After studying this chapter, readers will be able to explain soil formation and 
 Soil is a natural body that forms near Earth's surface through the long-term interaction of mineral material, organic matter, water, air and living organisms. It has its own properties and structure and can support plant growth. Soil is not the same as rock: rock may provide its parent material, but soil develops through weathering, the accumulation and transformation of organic matter, the movement of substances and biological activity.
 
 Soil performs many functions:
+
 - provides habitat for microorganisms, fungi, plants and soil animals;
 - participates in the cycles of carbon, nitrogen, phosphorus and other elements;
 - regulates water infiltration, storage and filtration;
@@ -557,6 +565,7 @@ Landscapes may be classified by origin, relief, climate, moisture, vegetation, s
 Depending on dominant natural conditions, examples include plains, mountains, coasts, river landscapes, wetlands, deserts and forests. By degree of transformation, landscapes may be natural, slightly modified, cultural, agricultural, urban or industrial/technogenic. These categories are not always mutually exclusive: an urban landscape may include river terraces, natural slopes and artificial surfaces.
 
 Landscape analysis uses concepts such as:
+
 - **landscape facies:** a relatively small, internally uniform natural site; the qualifier “landscape” distinguishes this unit from geological facies;
 - **urochishche:** a structurally related group of landscape facies, often associated with a particular landform;
 - **mestnost:** a larger landscape-morphological unit in some Eastern European schools; and
@@ -581,6 +590,7 @@ Landscape planning aims to align economic activity with natural constraints and 
 
 
 Landscape ecology studies how spatial structure influences ecological processes. Three common elements are:
+
 - **patches:** areas with relatively uniform cover;
 - **corridors:** linear features that connect patches or facilitate movement; and
 - **matrix:** the dominant landscape background within which patches and corridors occur.
