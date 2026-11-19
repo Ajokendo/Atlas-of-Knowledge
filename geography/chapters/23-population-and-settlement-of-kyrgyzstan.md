@@ -299,8 +299,9 @@ Regional settlement patterns differ. Batken's population is concentrated in vall
 
 ## 23.6. Демографическая структура: возраст и пол
 
-> **[МЕТКА ИЛЛЮСТРАЦИИ 23-G / IMAGE PLACEHOLDER 23-G]** Возрастно-половая пирамида по переписи 2022 года с пояснением возрастных групп, знаменателей и методики.
-> **EN:** 2022 census age-sex pyramid with age-group definitions, denominators and methodological notes.
+![Возрастно-половая пирамида Кыргызстана / Age-sex pyramid of Kyrgyzstan](../assets/diagrams/23-G-age-sex-pyramid-bilingual.svg)
+
+*23-G. Возрастно-половая пирамида: доля каждой пятилетней группы мужчин и женщин в постоянном населении (7,16 млн человек). Данные Национального статистического комитета на начало 2024 года — оценка, построенная на итогах переписи 2022 года; детей 0–14 лет около 32%, лиц 65 лет и старше около 6%. Знаменатель — всё население, а не число мужчин или женщин отдельно. / 23-G. Age-sex pyramid: the share of each five-year group of men and women in the resident population (7.16 million). National Statistical Committee data for the start of 2024, an estimate built on the 2022 census results; children aged 0–14 are about 32% and people aged 65+ about 6%. The denominator is the whole population, not men or women separately.*
 
 ## Demographic Structure: Age and Sex
 
