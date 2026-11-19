@@ -29,7 +29,7 @@ def layers(spec,Pj,labels,zoom=False):
     for ln in river_ne('Naryn'): s+=f'<path d="{line(ln,Pj)}" fill="none" stroke="#8fb5d3" stroke-width="1.6"/>'
     for k,(e,lo,la) in CITY.items():
         x,y=Pj(lo,la)
-        if labels: s+=f'<circle cx="{x:.0f}" cy="{y:.0f}" r="3.5" fill="#7a8794"/><text x="{x+6:.0f}" y="{y+4:.0f}" class="lc">{k}</text>'
+        if labels and not spec.get('nocity'): s+=f'<circle cx="{x:.0f}" cy="{y:.0f}" r="3.5" fill="#7a8794"/><text x="{x+6:.0f}" y="{y+4:.0f}" class="lc">{k}</text>'
     for o in spec['objs']:
         t=o['t']; col=o.get('col','#c0392b')
         if t=='river':

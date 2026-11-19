@@ -84,6 +84,10 @@ NDC 3.0 treats adaptation as a strategic priority and identifies water resources
 
 ## 26.3. Ледники, снег и водная безопасность / Glaciers, Snow and Water Security
 
+![Основные районы современного оледенения. / The main areas of present-day glaciation.](../assets/diagrams/26-L-glacier-areas-bilingual.svg)
+
+*Основные районы современного оледенения. Схематичная карта. / The main areas of present-day glaciation. A schematic map.*
+
 ![Схема «пика воды» при таянии ледников. / The «peak water» scheme for melting glaciers.](../assets/diagrams/26-M-peak-water-bilingual.svg)
 
 *Схема «пика воды» при таянии ледников. Схема. / The «peak water» scheme for melting glaciers. A schematic.*

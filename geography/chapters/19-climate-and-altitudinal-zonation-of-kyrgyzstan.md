@@ -175,6 +175,10 @@ Snow cover forms unevenly. Its persistence depends on elevation, slope aspect, w
 
 ## 19.5. Региональные климатические различия / Regional Climate Differences
 
+![Районы, описанные в разделе 19.5. / The regions described in section 19.5.](../assets/diagrams/19-L-climate-regions-bilingual.svg)
+
+*Районы, описанные в разделе 19.5. Схематичная карта. / The regions described in section 19.5. A schematic map.*
+
 ### 19.5.1. Чуйская долина и северные предгорья
 
 Для Чуйской долины характерны жаркое лето, холодная зима и выраженная сезонность осадков. Горные склоны к югу от долины получают иные количества осадков и имеют более прохладный режим, чем равнинные участки. Зимой возможны температурные инверсии и эпизоды ухудшения качества воздуха.

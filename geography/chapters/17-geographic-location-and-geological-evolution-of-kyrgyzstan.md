@@ -122,6 +122,10 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 
 ## 17.4. Тянь-Шань и Памиро-Алай: крупные горные системы / Tien Shan and Pamir–Alay: Major Mountain Systems
 
+![Две крупные горные системы Кыргызстана. / The two major mountain systems of Kyrgyzstan.](../assets/diagrams/17-L-mountain-systems-bilingual.svg)
+
+*Две крупные горные системы Кыргызстана. Схематичная карта. / The two major mountain systems of Kyrgyzstan. A schematic map.*
+
 ![Сравнение физико-географического и тектонического районирования Тянь-Шаня и Памиро-Алая. Это концептуальная схема, а не карта и не источник точных границ.](../assets/diagrams/17-C-regionalisation-tien-shan-pamir-alay-bilingual.svg)
 
 *Рис. 17-C. Сопоставление двух подходов к районированию; названия и границы зависят от конкретной научной схемы.*
@@ -184,6 +188,10 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 *Figure 17-C. Comparison of two regionalisation approaches; names and boundaries depend on the scientific scheme used.*
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
+
+![Главные межгорные впадины и долины. / The main intermontane basins and valleys.](../assets/diagrams/17-L-basins-bilingual.svg)
+
+*Главные межгорные впадины и долины. Схематичная карта. / The main intermontane basins and valleys. A schematic map.*
 
 ![Топографический контекст межгорных долин Кыргызстана; названия долин и опорные населённые пункты приведены в двуязычной легенде. / Topographic context of Kyrgyzstan's intermontane valleys; valley names and reference settlements are listed in the bilingual key.](../assets/imported/bga-relief-kyrgyzstan.jpg)
 

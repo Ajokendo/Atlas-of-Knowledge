@@ -108,6 +108,10 @@ Population growth is influenced by fertility, the size of cohorts entering repro
 *23-B. Численность и региональное распределение населения. / Population trend and regional distribution.*
 
 ## 23.3. Размещение населения и плотность
+
+![Основные районы концентрации населения. / The main areas of population concentration.](../assets/diagrams/23-L-population-concentration-bilingual.svg)
+
+*Основные районы концентрации населения. Схематичная карта. / The main areas of population concentration. A schematic map.*
 ## Population Distribution and Density
 
 Средняя плотность населения Кыргызстана скрывает резкие пространственные контрасты. Значительная часть территории занята высокими горами, ледниками, крутыми склонами и высокогорными пастбищами. Постоянное население концентрируется в долинах, котловинах, предгорьях и вдоль транспортных коридоров.
@@ -165,6 +169,10 @@ Settlement patterns are shaped by natural factors (elevation, climate, relief, w
 *23-A. Плотность населения: качественная схема. / Population density: qualitative schematic.*
 
 ## 23.4. Городское и сельское население
+
+![Крупные города Кыргызстана. / Main cities of Kyrgyzstan.](../assets/diagrams/23-L-main-cities-bilingual.svg)
+
+*Крупные города Кыргызстана. Схематичная карта. / Main cities of Kyrgyzstan. A schematic map.*
 ![Сравнение городского и сельского расселения по плотности, услугам, занятости, мобильности и землепользованию. / Comparison of urban and rural settlement by density, services, livelihoods, mobility and land use.](../assets/diagrams/23-E-urban-rural-settlement-comparison-bilingual.svg)
 
 *23-E. Идеальные типы для сравнения, а не жёсткая классификация населённых пунктов; реальные поселения образуют континуум. / Ideal types for comparison, not a rigid settlement classification; real places form a continuum.*
