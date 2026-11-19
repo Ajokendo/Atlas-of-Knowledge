@@ -156,3 +156,51 @@ The former “rights authority / licence decision pending” wording is supersed
 
 ## Оптимизация размера (18.11.2026)
 Фотографии в biology/images/generated уменьшены до 1600 px по длинной стороне (WebP, качество 80) для быстрой загрузки на телефонах; содержание, авторство и лицензии не изменены — исходные файлы доступны по ссылкам в этом реестре.
+
+
+## Портреты видов (20.11.2026)
+Фотографии из Wikimedia Commons (CC0 / общественное достояние / CC BY / CC BY-SA), сжаты до ≤1400 px; подпись с автором, лицензией и ссылкой — в галереях глав «Фауна» и «Флора» Кыргызстана.
+
+| Файл | Вид | Автор | Лицензия | Источник | Место съёмки |
+|---|---|---|---|---|---|
+| `biology/images/species/ovis-ammon.jpg` | Ovis ammon | James Eaton | CC0 | https://commons.wikimedia.org/wiki/File:Ovis_ammon_350434313.jpg | photographed in Mongolia |
+| `biology/images/species/capra-sibirica.jpg` | Capra sibirica | Griha Hasanov | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Capra_sibirica_276630918.jpg | photographed in Kyrgyzstan |
+| `biology/images/species/gazella-subgutturosa.jpg` | Gazella subgutturosa | Alastair Rae | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Gazella_subgutturosa.jpg | photographed in the Gobi Desert, Mongolia |
+| `biology/images/species/cervus-canadensis.jpg` | Cervus canadensis | автор не указан (наблюдение iNaturalist) | CC0 | https://commons.wikimedia.org/wiki/File:Siberian_Wapiti,_Altanbulag,_T%C3%B6v,_Mongolia.jpg | photographed in Mongolia; the Tien Shan subspecies is a close relative |
+| `biology/images/species/otocolobus-manul.jpg` | Otocolobus manul | Editfmah | Public domain | https://commons.wikimedia.org/wiki/File:WhfPallasCat.JPG | a captive animal (United Kingdom) |
+| `biology/images/species/sus-scrofa.jpg` | Sus scrofa | df7ii | Public domain | https://commons.wikimedia.org/wiki/File:Frischlinge_mit_Bachen.jpg | location not stated |
+| `biology/images/species/capreolus-pygargus.jpg` | Capreolus pygargus | Ivan ideia | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B9%D0%BC%D0%B0_%D0%98%D1%80%D1%82%D1%8B%D1%88%D0%B0_%D1%81%D1%82%D0%B0%D1%8F_%D0%BA%D0%BE%D1%81%D1%83%D0%BB%D1%8C.jpg | photographed on the Irtysh floodplain, Kazakhstan |
+| `biology/images/species/ochotona-macrotis.jpg` | Ochotona macrotis | Munib Khanyari | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Large-eared_Pika.jpg | photographed in the Himalayas, India |
+| `biology/images/species/aquila-chrysaetos.jpg` | Aquila chrysaetos | Мухаммадсолех Оев | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%A8%D0%BE%D2%B3%D1%83%D2%9B%D0%BE%D0%B1.jpg | a protected area in Tajikistan |
+| `biology/images/species/gypaetus-barbatus.jpg` | Gypaetus barbatus | Massy Stéphanie | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gypa%C3%A8te_barbu_77_(detail).jpg | not taken in Kyrgyzstan |
+| `biology/images/species/gyps-himalayensis.jpg` | Gyps himalayensis | Rohit Naniwadekar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bird_Himalayan_Griffon_IMG_0438_03.jpg | photographed in India |
+| `biology/images/species/tetraogallus-himalayensis.jpg` | Tetraogallus himalayensis | Alastair Rae | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Himalayan_Snowcock.jpg | location not stated |
+| `biology/images/species/ciconia-nigra.jpg` | Ciconia nigra | Silar | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Black_Stork_Ciconia_nigra_at_the_San_River,_Sanok,_Poland..jpg | photographed in Poland |
+| `biology/images/species/phoenicopterus-roseus.jpg` | Phoenicopterus roseus | Kate Bazhenova83 | CC0 | https://commons.wikimedia.org/wiki/File:Flamingo_close-up.jpg | location not stated |
+| `biology/images/species/anthropoides-virgo.jpg` | Anthropoides virgo | Alastair Rae | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Anthropoides_virgo_-Mongolia_-flying-8.jpg | photographed in Mongolia |
+| `biology/images/species/grus-grus.jpg` | Grus grus | Zeynel Cebeci | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Grus_grus_-_Common_Crane_04.jpg | photographed in Turkey |
+| `biology/images/species/cygnus-cygnus.jpg` | Cygnus cygnus | Astroliabius | CC0 | https://commons.wikimedia.org/wiki/File:A_whooper_swan_stands_on_a_field.jpg | location not stated |
+| `biology/images/species/anser-indicus.jpg` | Anser indicus | NejibAhmed | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bar_headed_Goose.jpg | photographed in Assam, India |
+| `biology/images/species/falco-cherrug.jpg` | Falco cherrug | Bohuš Číčel | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Falco_cherrug_1_(Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del).jpg | photographed in the Czech Republic |
+| `biology/images/species/tadorna-ferruginea.jpg` | Tadorna ferruginea | Tiago Lubiana | CC0 | https://commons.wikimedia.org/wiki/File:Tadorna_ferruginea_-_Tiago_Lubiana_-_358417031.jpeg | photographed in India |
+| `biology/images/species/oxyura-leucocephala.jpg` | Oxyura leucocephala | Ferran Pestaña | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Oxyura_leucocephala,_Clot-de-Galvany,_Alicante_7.jpg | photographed in Spain |
+| `biology/images/species/plegadis-falcinellus.jpg` | Plegadis falcinellus | Максат79 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%80%D0%B0%D0%B2%D0%B0%D0%B9%D0%BA%D0%B0_%D0%B2_%D0%BF%D0%BE%D0%BB%D1%91%D1%82%D0%B5.jpg | photographed in Mangystau, Kazakhstan |
+| `biology/images/species/haliaeetus-albicilla.jpg` | Haliaeetus albicilla | Максат79 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9E%D1%80%D0%BB%D0%B0%D0%BD-%D0%B1%D0%B5%D0%BB%D0%BE%D1%85%D0%B2%D0%BE%D1%81%D1%82._%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB%D1%8C.jpg | photographed in Mangystau, Kazakhstan |
+| `biology/images/species/podiceps-cristatus.jpg` | Podiceps cristatus | Prasan Shrestha | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Great_crested_grebe_in_colors.jpg | photographed in Nepal |
+| `biology/images/species/varanus-griseus.jpg` | Varanus griseus | Alexander A. Fomichev | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Varanus_griseus_caspius_Kattakum.jpg | photographed in Uzbekistan |
+| `biology/images/species/bufotes-viridis.jpg` | Bufotes viridis | Viktoriya.samarskaya | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F_%D0%B6%D0%B0%D0%B1%D0%B0_(_Bufo_viridis_).jpg | location not stated |
+| `biology/images/species/salmo-trutta.jpg` | Salmo trutta | Jeff Slade / U.S. Fish and Wildlife Service | Public domain | https://commons.wikimedia.org/wiki/File:Brown_trout_(4505011593).jpg | photographed in the USA |
+| `biology/images/species/schizothorax-intermedius.jpg` | Schizothorax intermedius | Amirekul | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Schizothorax_intermedius.jpg | location not stated |
+| `biology/images/species/juglans-regia.jpg` | Juglans regia | surrealpenguin | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Walnut_forest_in_Arslanbab.jpg | walnut forest in Arslanbob, Kyrgyzstan |
+| `biology/images/species/picea-schrenkiana.jpg` | Picea schrenkiana | Patrick Barry | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Picea_schrenkiana_forest_in_the_Tien_Shan_mountains_near_Song-Kul,_Kyrgyzstan.jpg | forest near Song-Kul, Kyrgyzstan |
+| `biology/images/species/juniperus-seravschanica.jpg` | Juniperus seravschanica | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Juniperus_seravschanica_kz02.jpg | photographed in Oman |
+| `biology/images/species/hippophae-rhamnoides.jpg` | Hippophae rhamnoides | Nikolay Yushnikov | Public domain | https://commons.wikimedia.org/wiki/File:IK_2006_SCN_-_177.JPG | Issyk-Kul shore, Kyrgyzstan |
+| `biology/images/species/malus-sieversii.jpg` | Malus sieversii | Yakov Fedorov | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Malus_sieversii_in_Zhongar-Alatau_NP-2.jpg | photographed in Dzungarian Alatau, Kazakhstan |
+| `biology/images/species/tulipa-kolpakowskiana.jpg` | Tulipa kolpakowskiana | Cristina Sanvito | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Tulipa_kolpakowskiana.jpg | location not stated |
+| `biology/images/species/fritillaria-eduardii.jpg` | Fritillaria eduardii | VASHGIRD | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Fritillaria_eduardii_2,_Elok,_Faizobod_District.jpg | photographed in Tajikistan |
+| `biology/images/species/clematis-songorica.jpg` | Clematis songorica | Agnieszka Kwiecień, Nova | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Clematis_songorica_Powojnik_2020-07-31_02.jpg | botanical garden, Wrocław, Poland |
+| `biology/images/species/allium-semenovii.jpg` | Allium semenovii | Krzysztof Ziarnek, Kenraiz | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Allium_semenovii_kz01.jpg | botanical garden, Berlin |
+| `biology/images/species/ephedra-equisetina.jpg` | Ephedra equisetina | naturalist16000 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Ephedra_equisetina_in_Kyrgyzstan.jpg | Cholpon-Ata, Kyrgyzstan |
+| `biology/images/species/marmota-caudata.jpg` | Marmota caudata | Nawabtanweer | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Golden_marmot_on_KKH.JPG | photographed on the Karakoram Highway, Pakistan |
+| `biology/images/species/otis-tarda.jpg` | Otis tarda | Luiz Lapa | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Abetarda-comum,_macho,_na_sua_parada_nupcial,_tb_conhecida_como,_%22banho_de_espuma%22,_cheio_de_esperan%C3%A7a!!_Great_Bustard,_male,_on_bridal_parade,_also_known_as_%22_Foam_bath_display%22_full_of_hope!!_(54472855696).jpg | photographed in Portugal |
+| `biology/images/species/pelophylax-ridibundus.jpg` | Pelophylax ridibundus | Quartl | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Pelophylax_ridibundus_qtl3.jpg | photographed in Germany |
