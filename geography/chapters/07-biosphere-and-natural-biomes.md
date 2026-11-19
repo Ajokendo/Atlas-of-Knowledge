@@ -173,6 +173,30 @@ After studying this chapter, readers will be able to explain the extent and func
 **Рисунок 7.5 / Figure 7.5 — Широтная зональность и высотная поясность / Latitudinal zonation and altitudinal belts.**
 
 ## 7.8. Главные наземные биомы Земли / Major Terrestrial Biomes
+
+![Влажный тропический лес (Таиланд) / Tropical rainforest (Thailand)](../assets/photos/07-rainforest.jpg)
+
+*Влажный тропический лес (Таиланд). Фото: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khao_Sok_primary_tropical_rainforest,_southern_Thailand.jpg) / Tropical rainforest (Thailand). Photo: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khao_Sok_primary_tropical_rainforest,_southern_Thailand.jpg).*
+
+![Песчаные дюны в пустыне Сахара / Sand dunes in the Sahara Desert](../assets/photos/07-sahara.jpg)
+
+*Песчаные дюны в пустыне Сахара. Фото: Dr. Ondřej Havelka (cestovatel), CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sand_dunes_in_the_Sahara_Desert_on_the_border_of_Algeria_and_Morocco.tif) / Sand dunes in the Sahara Desert. Photo: Dr. Ondřej Havelka (cestovatel), CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sand_dunes_in_the_Sahara_Desert_on_the_border_of_Algeria_and_Morocco.tif).*
+
+![Саванна с акациями в Кении / A savanna with acacias in Kenya](../assets/photos/07-savanna.jpg)
+
+*Саванна с акациями в Кении. Фото: Kev Moses, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Acacia_Kenya_Savannah.jpg) / A savanna with acacias in Kenya. Photo: Kev Moses, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Acacia_Kenya_Savannah.jpg).*
+
+![Степь в Монголии: бескрайние травы, деревьев почти нет / Steppe in Mongolia: endless grasses and almost no trees](../assets/photos/07-steppe.jpg)
+
+*Степь в Монголии: бескрайние травы, деревьев почти нет. Фото: Orgio89, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mongolian_nature_steppe_and_mountain.jpg) / Steppe in Mongolia: endless grasses and almost no trees. Photo: Orgio89, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mongolian_nature_steppe_and_mountain.jpg).*
+
+![Тайга в Саянских горах (Красноярский край): хвойный лес умеренного пояса / Taiga in the Sayan Mountains (Krasnoyarsk Krai): coniferous forest of the cool temperate zone](../assets/photos/07-taiga.jpg)
+
+*Тайга в Саянских горах (Красноярский край): хвойный лес умеренного пояса. Фото: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ergaki,_Taiga_in_Siberia,_Dark_coniferous_forest,_Sayan_Mountains,_Russia.jpg) / Taiga in the Sayan Mountains (Krasnoyarsk Krai): coniferous forest of the cool temperate zone. Photo: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ergaki,_Taiga_in_Siberia,_Dark_coniferous_forest,_Sayan_Mountains,_Russia.jpg).*
+
+![Тундра осенью у озера Ловозеро (Мурманская область) / Tundra in autumn near Lake Lovozero (Murmansk Region)](../assets/photos/07-tundra.jpg)
+
+*Тундра осенью у озера Ловозеро (Мурманская область). Фото: Artem Abdukakharov, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arctic_tundra_in_autumn_colors_near_lake_Lovozero_in_Murmansk_Oblast,_Russia.jpg) / Tundra in autumn near Lake Lovozero (Murmansk Region). Photo: Artem Abdukakharov, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Arctic_tundra_in_autumn_colors_near_lake_Lovozero_in_Murmansk_Oblast,_Russia.jpg).*
 ![Карта 14 наземных биомов мира по RESOLVE Ecoregions 2017; классификация показывает крупные природные области, а не современный покров земель. / Map of the 14 terrestrial biomes using RESOLVE Ecoregions 2017; a reference classification, not current land cover.](../assets/diagrams/07-C-world-terrestrial-biomes-bilingual.svg)
 
 *07-C. Наземные биомы сгруппированы по классификации RESOLVE Ecoregions 2017. Переходы между биомами постепенны; карта не отражает современную степень преобразования ландшафтов. / Terrestrial biomes grouped using RESOLVE Ecoregions 2017. Biome transitions are gradual; the map does not show current levels of landscape modification.*

@@ -82,6 +82,10 @@ The Cabinet of Ministers' 2026 action plan for implementing the National Develop
 *25-H. Структура ВВП и темпы роста. / GDP structure and growth rates.*
 
 ## 25.3. Городская система Кыргызстана / The Urban System of Kyrgyzstan
+
+![Площадь Ала-Тоо в Бишкеке / Ala-Too Square in Bishkek](../assets/photos/25-ala-too-square.jpg)
+
+*Площадь Ала-Тоо в Бишкеке. Фото: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ala-Too_Square_in_Bishkek.jpg) / Ala-Too Square in Bishkek. Photo: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ala-Too_Square_in_Bishkek.jpg).*
 ![Бишкек, Ош, областные центры и транспортные связи между ними. / Bishkek, Osh, oblast centres and the transport links between them.](../assets/diagrams/25-A-urban-system-links-bilingual.svg)
 
 *25-A. Города и главные связи: схема. / Cities and main links: schematic.*
@@ -347,6 +351,10 @@ Kyrgyzstan's transport system relies primarily on road transport: mountainous re
 
 ## 25.6. Энергетика: вода, топливо и переход / Energy: Water, Fuels and Transition
 
+![Ущелье Нарына в створе Акбулунской ГЭС: в таких ущельях строят плотины / The Naryn gorge at the Akbulun hydropower site: dams are built in gorges like this](../assets/photos/25-akbulun-hpp.jpg)
+
+*Ущелье Нарына в створе Акбулунской ГЭС: в таких ущельях строят плотины. Фото: Сайга20К, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Upper_Naryn_HPP_02.jpg) / The Naryn gorge at the Akbulun hydropower site: dams are built in gorges like this. Photo: Сайга20К, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Upper_Naryn_HPP_02.jpg).*
+
 Энергетическая система Кыргызстана опирается на гидроэнергетику, тепловую генерацию, импорт электроэнергии и использование топлива для отопления и транспорта. Горные реки создают значительный гидроэнергетический потенциал, однако производство электроэнергии зависит от сезонности стока, притока в водохранилища, состояния оборудования и водно-энергетических договорённостей.
 
 ### Гидроэнергетика
@@ -386,6 +394,10 @@ Kyrgyzstan's energy system relies on hydropower, thermal generation, electricity
 *25-K. Энергетическая система: схема. / Energy system: schematic.*
 
 ## 25.7. Минеральные и другие природные ресурсы / Mineral and Other Natural Resources
+
+![Золотой рудник Кумтор / The Kumtor gold mine](../assets/photos/25-kumtor.jpg)
+
+*Золотой рудник Кумтор. Фото: Michael Karavanov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kumtor_Gold_Mine_-_panoramio_-_Michael_Karavanov.jpg) / The Kumtor gold mine. Photo: Michael Karavanov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kumtor_Gold_Mine_-_panoramio_-_Michael_Karavanov.jpg).*
 ![Районы добычи и перспективных ресурсов без статуса отдельных объектов. / Mining and resource districts without the status of individual sites.](../assets/diagrams/25-C-mineral-resources-districts-bilingual.svg)
 
 *25-C. Минеральные ресурсы: районы. / Mineral resources: districts.*

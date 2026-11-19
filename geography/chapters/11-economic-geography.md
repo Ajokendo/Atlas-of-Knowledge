@@ -203,6 +203,10 @@ An **industrial cluster** is a geographic concentration of interconnected firms,
 Deindustrialisation is a decline in industry's relative share of employment or output. It may be associated with automation, relocation of production, productivity growth and an expanding services sector. Reindustrialisation seeks to strengthen manufacturing capabilities and the technological base. These processes do not necessarily mean simply reopening former factories.
 ## 11.7. Сельское хозяйство и аграрные системы / Agriculture and Agrarian Systems
 
+![Рисовые террасы Лунцзи (Китай): люди превращают склоны в поля / Longji rice terraces (China): people turn slopes into fields](../assets/photos/11-rice-terraces.jpg)
+
+*Рисовые террасы Лунцзи (Китай): люди превращают склоны в поля. Фото: Kurinurm, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Longji_rice_terraces_-_2023_10_11_Kaur_Virunurm.jpg) / Longji rice terraces (China): people turn slopes into fields. Photo: Kurinurm, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Longji_rice_terraces_-_2023_10_11_Kaur_Virunurm.jpg).*
+
 Сельское хозяйство зависит от климата, почв, рельефа, водных ресурсов, сезонности, технологий, земельных отношений, рынков и государственной политики. Его география включает растениеводство, животноводство, агролесоводство, рыболовство и связанные цепочки хранения и переработки.
 
 Основные типы аграрных систем:
@@ -244,6 +248,10 @@ Agricultural intensity is not determined only by the amount of fertiliser and ma
 
 ## 11.8. Энергетическая география / Energy Geography
 
+![Ветровая электростанция (США) / A wind farm (USA)](../assets/photos/11-wind-farm.jpg)
+
+*Ветровая электростанция (США). Фото: ENERGY.GOV, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Power_County_Wind_Farm_002.jpg) / A wind farm (USA). Photo: ENERGY.GOV, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Power_County_Wind_Farm_002.jpg).*
+
 Энергетическая география изучает размещение источников энергии, производство, преобразование, передачу и потребление энергетических ресурсов. Энергетические системы включают добычу топлива, электростанции, сети, хранилища, рынки и конечных потребителей.
 
 Источники энергии обычно группируют на:
@@ -274,6 +282,10 @@ A renewable source does not mean an absence of environmental impacts. Hydropower
 Energy security includes reliability of supply, price affordability, infrastructure resilience, source diversification and the ability of the system to withstand crises. The energy transition involves changes in technology, infrastructure, consumption patterns and institutions—not simply replacing one type of power plant with another.
 
 ## 11.9. Транспортная география и логистика / Transport Geography and Logistics
+
+![Контейнерный порт Майами: морские порты — узлы мировой торговли / The container port of Miami: seaports are nodes of world trade](../assets/photos/11-port-of-miami.jpg)
+
+*Контейнерный порт Майами: морские порты — узлы мировой торговли. Фото: James R. Tourtellotte, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg) / The container port of Miami: seaports are nodes of world trade. Photo: James R. Tourtellotte, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg).*
 
 ![Мультимодальная цепочка поставок: производитель, консолидация, железная дорога, порт, судно, склад и рынок / Multimodal supply chain: producer, consolidation, rail, port, ship, warehouse and market](../assets/diagrams/11-C-multimodal-transport-chain-bilingual.svg)
 

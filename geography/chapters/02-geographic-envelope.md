@@ -65,6 +65,10 @@
 
 ## 2.3. Атмосфера: газовая оболочка планеты / Atmosphere: The Gaseous Envelope
 
+![Полярное сияние над Абиско (Швеция): свечение верхних слоёв атмосферы под действием солнечного ветра / Aurora above Abisko (Sweden): glow of the upper atmosphere excited by the solar wind](../assets/photos/02-aurora.jpg)
+
+*Полярное сияние над Абиско (Швеция): свечение верхних слоёв атмосферы под действием солнечного ветра. Фото: Pavel.shyshkouski, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aurora_in_Abisko_near_Tornetr%C3%A4sk.jpg) / Aurora above Abisko (Sweden): glow of the upper atmosphere excited by the solar wind. Photo: Pavel.shyshkouski, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aurora_in_Abisko_near_Tornetr%C3%A4sk.jpg).*
+
 **Иллюстрация 2-B — Слои атмосферы / Layers of the Atmosphere.**
 
 ![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://upload.wikimedia.org/wikipedia/commons/9/9e/1_atmosphere_layers.png)

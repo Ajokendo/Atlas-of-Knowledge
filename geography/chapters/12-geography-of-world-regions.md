@@ -171,6 +171,10 @@ Important issues include energy security, climate adaptation, migration manageme
 
 ## 12.5. Азия / Asia
 
+![Эверест и Гималаи, Азия / Everest and the Himalayas, Asia](../assets/photos/12-everest.jpg)
+
+*Эверест и Гималаи, Азия. Фото: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Everest,_Himalayas.jpg) / Everest and the Himalayas, Asia. Photo: Vyacheslav Argenberg, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Everest,_Himalayas.jpg).*
+
 ![Макрорегионы Азии и рельеф: Западная, Центральная, Южная, Восточная и Юго-Восточная Азия / Asia's macro-regions and relief: West, Central, South, East and Southeast Asia](../assets/diagrams/12-B-asia-macroregions-map-bilingual.svg)
 
 *Основа: Dou et al. (2018), Figure 1, CC BY 4.0. Границы воспроизводят регионализацию этого исследования, а не официальную карту UN M49; используйте её как один пример макрорегионального деления. / Base: Dou et al. (2018), Figure 1, CC BY 4.0. Boundaries reproduce that study's regionalisation, not an official UN M49 map; use it as one example of macro-regional division.*

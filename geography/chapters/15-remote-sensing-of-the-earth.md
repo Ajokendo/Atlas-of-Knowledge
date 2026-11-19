@@ -140,6 +140,10 @@ Active systems can operate independently of sunlight. Radar microwaves often all
 
 ## 15.5. Типы спутниковых данных и сенсоров / Satellite Data and Sensor Types
 
+![Снимок Landsat в естественных цветах (NASA) / A Landsat true-colour image (NASA)](../assets/photos/15-landsat.jpg)
+
+*Снимок Landsat в естественных цветах (NASA). Фото: NASA, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Soar-landsat-ot-l1_Landsat_True_Color_GSD30_2025-08-07.jpg) / A Landsat true-colour image (NASA). Photo: NASA, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Soar-landsat-ot-l1_Landsat_True_Color_GSD30_2025-08-07.jpg).*
+
 ![Пассивные и активные сенсоры ДЗЗ: оптические и тепловые данные, SAR и LiDAR / Passive and active remote-sensing sensors: optical and thermal data, SAR and LiDAR](../assets/diagrams/15-B-active-passive-sensors-bilingual.svg)
 
 *Оригинальная двуязычная схема; возможности и ограничения сенсоров зависят от длины волны, прибора и условий наблюдения. / Original bilingual diagram; sensor capabilities and limitations depend on wavelength, instrument and observing conditions.*

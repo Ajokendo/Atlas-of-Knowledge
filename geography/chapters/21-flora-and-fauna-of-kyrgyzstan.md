@@ -69,6 +69,10 @@
 Генетическое разнообразие диких родичей может содержать признаки устойчивости к засухе, холоду, вредителям и болезням. Однако сохранение этих ресурсов требует защиты естественных местообитаний, а не только создания плантаций.
 
 ## 21.3. Высотная поясность растительности
+
+![Эдельвейс (Leontopodium ochroleucum) на перевале Барскоон, 3800 м, Терскей Ала-Тоо / Edelweiss (Leontopodium ochroleucum) on the Barskoon Pass, 3,800 m, Terskey Ala-Too](../assets/photos/21-edelweiss.jpg)
+
+*Эдельвейс (Leontopodium ochroleucum) на перевале Барскоон, 3800 м, Терскей Ала-Тоо. Фото: Dr. Alexey Yakovlev, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leontopodium_ochroleucum_%28Asteraceae%29_%2853097178108%29.jpg) / Edelweiss (Leontopodium ochroleucum) on the Barskoon Pass, 3,800 m, Terskey Ala-Too. Photo: Dr. Alexey Yakovlev, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leontopodium_ochroleucum_%28Asteraceae%29_%2853097178108%29.jpg).*
 ![Высотный профиль растительных сообществ от сухих предгорий до нивально-скального пояса. / Altitudinal profile of vegetation communities from dry foothills to the nival-rock belt.](../assets/diagrams/21-B-altitudinal-vegetation-profile-bilingual.svg)
 
 *21-B. Концептуальная последовательность сообществ; высотные границы не фиксированы и меняются по экспозиции, влажности и региону. / Conceptual sequence of communities; elevation limits are not fixed and vary with aspect, moisture and region.*
@@ -97,6 +101,10 @@
 - Подземные органы (луковицы, корневища, клубни) обеспечивают переживание неблагоприятного периода.
 
 ## 21.4. Лесные экосистемы Кыргызстана
+
+![Ореховый лес Арсланбоба в Джалал-Абадской области — один из крупнейших естественных ореховых лесов мира / The Arslanbob walnut forest in Jalal-Abad Region, one of the largest natural walnut forests in the world](../assets/photos/21-arslanbob-walnut.jpg)
+
+*Ореховый лес Арсланбоба в Джалал-Абадской области — один из крупнейших естественных ореховых лесов мира. Фото: Ekrem Canli, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Walnut_forest_Arslanbob.jpg) / The Arslanbob walnut forest in Jalal-Abad Region, one of the largest natural walnut forests in the world. Photo: Ekrem Canli, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Walnut_forest_Arslanbob.jpg).*
 ![Сравнение еловых, арчовых, орехоплодовых и тугайных лесов Кыргызстана: примеры видов, функции и угрозы. / Comparison of spruce, juniper, walnut-fruit and tugai forests of Kyrgyzstan: example species, functions and pressures.](../assets/diagrams/21-C-forest-types-comparison-bilingual.svg)
 
 *21-C. Сводная учебная схема, а не карта распространения. Виды приведены как примеры; состав лесов меняется по месту и высоте. / Summary teaching diagram, not a distribution map. Species are examples; forest composition varies by site and elevation.*
@@ -212,6 +220,14 @@
 
 ## 21.7. Фауна: основные группы и местообитания
 
+![Архар (Ovis ammon) / Argali (Ovis ammon)](../assets/photos/21-argali.jpg)
+
+*Архар (Ovis ammon). Снимок сделан в Монголии (подвид Ovis ammon darwini); в Кыргызстане живёт другой подвид — тянь-шаньский архар. Фото: James Eaton, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ovis_ammon_350434313.jpg) / Argali (Ovis ammon). Photographed in Mongolia (subspecies Ovis ammon darwini); Kyrgyzstan has a different subspecies, the Tien Shan argali. Photo: James Eaton, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ovis_ammon_350434313.jpg).*
+
+![Сибирский горный козёл (Capra sibirica), снимок сделан в Кыргызстане / Siberian ibex (Capra sibirica), photographed in Kyrgyzstan](../assets/photos/21-siberian-ibex.jpg)
+
+*Сибирский горный козёл (Capra sibirica), снимок сделан в Кыргызстане. Фото: Dmitry Kulakov, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Capra_sibirica_53566509.jpg) / Siberian ibex (Capra sibirica), photographed in Kyrgyzstan. Photo: Dmitry Kulakov, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Capra_sibirica_53566509.jpg).*
+
 ![Крупные районы обитания; точные координаты редких видов не показаны. / Broad habitat areas; exact locations of rare species are not shown.](../assets/diagrams/21-D-fauna-habitats-bilingual.svg)
 
 *21-D. Местообитания фауны: обобщённая схема. / Fauna habitats: generalised schematic.*
@@ -264,6 +280,10 @@
 Насекомые, пауки, моллюски и другие беспозвоночные обеспечивают опыление, разложение органики, почвообразование и служат пищей для позвоночных. Горные беспозвоночные часто имеют небольшие ареалы и высокую уязвимость к изменению микроклимата. Их недостаточная изученность не означает отсутствия природоохранной ценности.
 
 ## 21.8. Знаковые и охраняемые виды
+
+![Снежный барс (ирбис) / Snow leopard](../assets/photos/21-snow-leopard.jpg)
+
+*Снежный барс (ирбис). Фото сделано в зоопарке Ахтяри, Финляндия: в дикой природе зверя снимают редко. Фото: kallerna, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Uncia_uncia_%C3%84ht%C3%A4ri.jpg) / Snow leopard. Photographed in Ähtäri Zoo, Finland: the animal is rarely photographed in the wild. Photo: kallerna, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Uncia_uncia_%C3%84ht%C3%A4ri.jpg).*
 ## Flagship and Protected Species
 
 ### Снежный барс — ирбис (*Panthera uncia*)

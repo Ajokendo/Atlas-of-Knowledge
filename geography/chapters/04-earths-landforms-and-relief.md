@@ -156,6 +156,14 @@
 
 ## 4.6. Речные формы рельефа / Fluvial Landforms
 
+![Дельта Лены на снимке Landsat (в условных цветах) / The Lena Delta in a Landsat image (false colour)](../assets/photos/04-lena-delta.jpg)
+
+*Дельта Лены на снимке Landsat (в условных цветах). Фото: none (Landsat), общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lena_River_Delta_-_Landsat_2000.jpg) / The Lena Delta in a Landsat image (false colour). Photo: none (Landsat), public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lena_River_Delta_-_Landsat_2000.jpg).*
+
+![Большой каньон реки Колорадо: за миллионы лет река врезалась в плато более чем на 1,6 км / The Grand Canyon of the Colorado River: over millions of years the river cut more than 1](../assets/photos/04-grand-canyon.jpg)
+
+*Большой каньон реки Колорадо: за миллионы лет река врезалась в плато более чем на 1,6 км. Фото: Mgimelfarb, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_at_Sunset.jpg) / The Grand Canyon of the Colorado River: over millions of years the river cut more than 1.6 km into the plateau. Photo: Mgimelfarb, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_at_Sunset.jpg).*
+
 Реки и временные водные потоки разрушают породы, переносят осадки и формируют новые формы рельефа. Интенсивность процессов зависит от расхода воды, уклона, геологии, растительного покрова и климата.
 
 ### 4.6.1. Речная эрозия / River Erosion
@@ -185,6 +193,10 @@
 
 ## 4.7. Ледниковые формы рельефа / Glacial Landforms
 
+![Троговая долина Глен-Ко (Шотландия), выработанная ледником / The glacial trough Glen Coe (Scotland) carved by a glacier](../assets/photos/04-u-valley-glencoe.jpg)
+
+*Троговая долина Глен-Ко (Шотландия), выработанная ледником. Фото: Brian Gratwicke from DC, USA, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:U_shaped_glacial_valley_Glen_Coe_%2815250526462%29.jpg) / The glacial trough Glen Coe (Scotland) carved by a glacier. Photo: Brian Gratwicke from DC, USA, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:U_shaped_glacial_valley_Glen_Coe_%2815250526462%29.jpg).*
+
 Ледники движутся под действием силы тяжести и преобразуют поверхность посредством разрушения, переноса и отложения материала.
 
 ### 4.7.1. Эрозионные формы / Erosional Landforms
@@ -213,6 +225,10 @@
 *Условная схема; набор форм зависит от типа ледника, рельефа и истории оледенения. / Conceptual diagram; landforms depend on glacier type, terrain and glacial history.*
 
 ## 4.8. Эоловые формы рельефа / Aeolian Landforms
+
+![Дюны пустыни Намиб у Соссусфлей / Dunes of the Namib Desert at Sossusvlei](../assets/photos/04-sossusvlei.jpg)
+
+*Дюны пустыни Намиб у Соссусфлей. Фото: Winfried Bruenken (Amrum), CC BY-SA 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sossusvlei_sand_dunes.jpg) / Dunes of the Namib Desert at Sossusvlei. Photo: Winfried Bruenken (Amrum), CC BY-SA 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sossusvlei_sand_dunes.jpg).*
 
 Ветер переносит частицы и формирует рельеф преимущественно в засушливых и полузасушливых районах, а также на песчаных побережьях и в областях с разреженным растительным покровом.
 
@@ -262,6 +278,10 @@
 *Карст развивается в растворимых породах; схема показывает типичные, но не обязательные элементы одной системы. / Karst develops in soluble rocks; the diagram shows typical, not compulsory, components of a system.*
 
 ## 4.10. Береговые и морские формы рельефа / Coastal and Marine Landforms
+
+![Гейрангер-фьорд (Норвегия): ледниковая долина, затопленная морем / Geirangerfjord (Norway): a glacial valley flooded by the sea](../assets/photos/04-geirangerfjord.jpg)
+
+*Гейрангер-фьорд (Норвегия): ледниковая долина, затопленная морем. Фото: Ximonic (Simo Räsänen), CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geirangerfjord_from_%C3%98rnesvingen,_2013_June.jpg) / Geirangerfjord (Norway): a glacial valley flooded by the sea. Photo: Ximonic (Simo Räsänen), CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geirangerfjord_from_%C3%98rnesvingen,_2013_June.jpg).*
 
 Морские волны, течения, приливы и изменения уровня моря преобразуют побережья. На результат влияют геологическое строение, энергия волн, запас наносов и относительное движение суши и моря.
 

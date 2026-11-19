@@ -324,6 +324,10 @@ These descriptions are geographic summaries, not a substitute for a georeference
 
 ### 18.5.1. Пик Жеңиш (Победы) / Jengish Chokusu (Victory Peak)
 
+![Пик Жеңиш (Победы) над ледником Южный Иныльчек / Jengish Chokusu (Victory Peak) above the South Inylchek Glacier](../assets/photos/18-pobeda-peak.jpg)
+
+*Пик Жеңиш (Победы) над ледником Южный Иныльчек. Фото: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jengish_Chokusu_%28Victory_Peak,_Pik_Pobeda%29,_Southern_Inylchek_Glacier,_Tien_Shan_%E2%80%94_Golden_Hour.jpg) / Jengish Chokusu (Victory Peak) above the South Inylchek Glacier. Photo: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jengish_Chokusu_%28Victory_Peak,_Pik_Pobeda%29,_Southern_Inylchek_Glacier,_Tien_Shan_%E2%80%94_Golden_Hour.jpg).*
+
 ![Пик Жеңиш на карте Кыргызстана. / Jengish Chokusu on the map of Kyrgyzstan.](../assets/diagrams/18-L-jengish-chokusu-bilingual.svg)
 
 *Пик Жеңиш на карте Кыргызстана. Схематичная карта. / Jengish Chokusu on the map of Kyrgyzstan. A schematic map.*
@@ -332,6 +336,10 @@ These descriptions are geographic summaries, not a substitute for a georeference
 
 ### 18.5.2. Хан-Тенгри / Khan Tengri
 
+![Хан-Тенгри на закате, вид с базового лагеря Южный Иныльчек / Khan Tengri at sunset, seen from the South Inylchek base camp](../assets/photos/18-khan-tengri.jpg)
+
+*Хан-Тенгри на закате, вид с базового лагеря Южный Иныльчек. Фото: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khan_Tengri_Peak_at_sunset_from_South_Engilchek_Base_Camp,_Tengri-Tag_ridge,_Central_Tian_Shan,_Kyrgyzstan.jpg) / Khan Tengri at sunset, seen from the South Inylchek base camp. Photo: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khan_Tengri_Peak_at_sunset_from_South_Engilchek_Base_Camp,_Tengri-Tag_ridge,_Central_Tian_Shan,_Kyrgyzstan.jpg).*
+
 ![Хан-Тенгри на карте Кыргызстана. / Khan Tengri on the map of Kyrgyzstan.](../assets/diagrams/18-L-khan-tengri-bilingual.svg)
 
 *Хан-Тенгри на карте Кыргызстана. Схематичная карта. / Khan Tengri on the map of Kyrgyzstan. A schematic map.*
@@ -339,6 +347,10 @@ These descriptions are geographic summaries, not a substitute for a georeference
 Хан-Тенгри — одна из наиболее узнаваемых вершин Тянь-Шаня, расположенная в районе стыка границ Кыргызстана, Казахстана и Китая. Часто указывается высота **6 995 м** для скальной вершины. В некоторых источниках приводится значение около **7 010 м**, когда учитывается ледниковая шапка. В атласе необходимо явно указывать, какое именно измерение использовано.
 
 ### 18.5.3. Пик Ленина / Lenin Peak (Lenin Atyndagy Choku)
+
+![Пик Ленина, вид со стороны села Сары-Могол в Алайской долине / Lenin Peak seen from the village of Sary-Mogol in the Alay Valley](../assets/photos/18-lenin-peak.jpg)
+
+*Пик Ленина, вид со стороны села Сары-Могол в Алайской долине. Фото: Nihongarden, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lenin_peak_from_Sary-mogol.jpg) / Lenin Peak seen from the village of Sary-Mogol in the Alay Valley. Photo: Nihongarden, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lenin_peak_from_Sary-mogol.jpg).*
 
 ![Пик Ленина на карте Кыргызстана. / Lenin Peak on the map of Kyrgyzstan.](../assets/diagrams/18-L-lenin-peak-bilingual.svg)
 
@@ -460,6 +472,10 @@ Modern relief in Kyrgyzstan is shaped by the interaction of tectonic uplift and 
 These processes operate together. For example, tectonic uplift increases river gradients, which can intensify incision; glacial retreat may expose unstable slopes and unconsolidated sediment; intense rainfall can mobilise this material into debris flows.
 
 ## 18.8. Ледниковые формы рельефа / Glacial Landforms
+
+![Ледниковая долина Комсомолец (съёмка с вертолёта над ледником Южный Иныльчек), Тянь-Шань / The Komsomolets glacier valley (photographed from a helicopter over the South Inylchek Glacier), Tien Shan](../assets/photos/18-inylchek-valley.jpg)
+
+*Ледниковая долина Комсомолец (съёмка с вертолёта над ледником Южный Иныльчек), Тянь-Шань. Фото: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glacier_valley_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg) / The Komsomolets glacier valley (photographed from a helicopter over the South Inylchek Glacier), Tien Shan. Photo: Maryliflower, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glacier_valley_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg).*
 
 ![Ледниковые формы: кар, рог, арет, висячая долина, трог и морены / Glacial landforms: cirque, horn, arête, hanging valley, trough and moraines](../assets/diagrams/18-D-glacial-landforms-bilingual.svg)
 

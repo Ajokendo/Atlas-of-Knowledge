@@ -76,6 +76,10 @@ Ecosystem services are the benefits people obtain from nature. In the Millennium
 
 ## 13.3. Антропогенное воздействие и планетарные изменения / Human Pressures and Planetary Change
 
+![Смог над городом Солт-Лейк-Сити (США) / Smog over Salt Lake City (USA)](../assets/photos/13-smog.jpg)
+
+*Смог над городом Солт-Лейк-Сити (США). Фото: Eltiempo10, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salt_Lake_City_smog_haze_skyline_01.jpg) / Smog over Salt Lake City (USA). Photo: Eltiempo10, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Salt_Lake_City_smog_haze_skyline_01.jpg).*
+
 Хозяйственная деятельность преобразует природные системы через землепользование, добычу ресурсов, производство энергии, транспорт, строительство, сельское хозяйство и потребление.
 
 Ключевые виды давления:
@@ -220,6 +224,10 @@ Protected areas are an important tool for nature conservation, but their effecti
 
 ## 13.7. Землепользование, леса и деградация земель / Land Use, Forests and Land Degradation
 
+![Вырубка и пожары в штате Рондония (Бразилия), снимок NASA / Deforestation and fires in Rondônia (Brazil), a NASA image](../assets/photos/13-deforestation-rondonia.jpg)
+
+*Вырубка и пожары в штате Рондония (Бразилия), снимок NASA. Фото: Jesse Allen and Robert Simmon, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fires_and_Deforestation_on_the_Amazon_Frontier,_Rondonia,_Brazil_-_August_12,_2007.jpg) / Deforestation and fires in Rondônia (Brazil), a NASA image. Photo: Jesse Allen and Robert Simmon, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fires_and_Deforestation_on_the_Amazon_Frontier,_Rondonia,_Brazil_-_August_12,_2007.jpg).*
+
 Изменение землепользования — один из главных факторов преобразования ландшафтов. Расширение сельскохозяйственных угодий, урбанизация, добыча полезных ископаемых, строительство дорог и водохранилищ меняют структуру и функции экосистем.
 
 **Деградация земель** — снижение биологической или экономической продуктивности земли, а также ухудшение её экологических функций. Она может проявляться через эрозию, засоление, уплотнение, потерю органического вещества, загрязнение и опустынивание.
@@ -256,6 +264,10 @@ Forests perform several important functions:
 Reforestation does not always restore the original ecosystem. Planting monoculture plantations is not equivalent to restoring a natural forest in its species composition, structure and ecological functions.
 
 ## 13.8. Вода, загрязнение и изменение биогеохимических циклов / Water, Pollution and Biogeochemical Cycles
+
+![Кладбище кораблей в Муйнаке: на месте Аральского моря осталась пустыня / The ship graveyard at Muynak: a desert is left where the Aral Sea used to be](../assets/photos/13-aral-ships.jpg)
+
+*Кладбище кораблей в Муйнаке: на месте Аральского моря осталась пустыня. Фото: Kagansky, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B5%D0%B9_%281%29.jpg) / The ship graveyard at Muynak: a desert is left where the Aral Sea used to be. Photo: Kagansky, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B5%D0%B9_%281%29.jpg).*
 
 Загрязнение воды может поступать из точечных источников — промышленных и коммунальных сбросов — и диффузных источников, например сельскохозяйственного стока. Избыточное поступление азота и фосфора способствует эвтрофикации, цветению водорослей и снижению содержания кислорода.
 

@@ -83,6 +83,10 @@ The extreme points and their coordinates should be shown on maps using one offic
 
 ## 17.3. Горная страна: высотный облик территории / A Mountainous Country: Elevation Structure
 
+![Панорама перевала Тоо-Ашуу в Кыргызском Ала-Тоо / Panorama of the Too-Ashuu Pass in the Kyrgyz Ala-Too](../assets/photos/17-too-ashuu-pass.jpg)
+
+*Панорама перевала Тоо-Ашуу в Кыргызском Ала-Тоо. Через такие перевалы проходят главные дороги страны. Фото: Vilya Shoni, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panorama_of_the_Too_Ashuu_Pass,_Kyrgyz_Alatau,_Kyrgyzstan_01.jpg) / Panorama of the Too-Ashuu Pass in the Kyrgyz Ala-Too. The country’s main roads cross the mountains by passes like this one. Photo: Vilya Shoni, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panorama_of_the_Too_Ashuu_Pass,_Kyrgyz_Alatau,_Kyrgyzstan_01.jpg).*
+
 Рельеф — определяющая характеристика Кыргызстана. Большая часть территории относится к горным системам, а равнинные и низкогорные участки сосредоточены главным образом в межгорных долинах и котловинах, особенно на севере и юго-западе.
 
 Высотный диапазон простирается от низких долин до вершин выше 7 000 м. Наиболее высокие вершины страны связаны с восточной частью Центрального Тянь-Шаня и районом хребта Какшаал-Тоо. Пик Победы (Жеңиш чокусу) достигает примерно 7 439 м; Хан-Тенгри — около 6 995 м по скальной вершине, тогда как при учёте ледниковой шапки в некоторых источниках приводится высота около 7 010 м. В атласе эти значения следует сопровождать пояснением методики измерения и не смешивать скальную высоту с высотой ледниковой поверхности.
@@ -530,6 +534,10 @@ Impact assessment should cover the entire life cycle, not just the extraction pe
 **Geographic conclusion:** a mineral deposit is more than a point on a map. Its significance depends on the interaction of geology with relief, drainage basins, transport access, population, markets and conservation constraints.
 
 ## 17.11. Географическое положение и исторические пути / Geographic Location and Historical Routes
+
+![Караван-сарай Таш-Рабат в горной долине Нарынской области — памятник Великого шёлкового пути / The Tash Rabat caravanserai in a mountain valley of Naryn Region, a Silk Road monument](../assets/photos/17-tash-rabat.jpg)
+
+*Караван-сарай Таш-Рабат в горной долине Нарынской области — памятник Великого шёлкового пути. Фото: Firespeaker, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tash_Rabat_in_mountains.jpg) / The Tash Rabat caravanserai in a mountain valley of Naryn Region, a Silk Road monument. Photo: Firespeaker, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tash_Rabat_in_mountains.jpg).*
 
 Горные проходы и долины Кыргызстана связывали Ферганскую долину, Чуйскую и Таласскую долины, Иссык-Кульскую котловину, Кашгарию и районы Памира. Через регион проходили ветви исторических торговых и культурных маршрутов, в том числе участки и ответвления Шёлкового пути.
 

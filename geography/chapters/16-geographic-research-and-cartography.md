@@ -75,6 +75,14 @@ Good research distinguishes description, explanation and causal inference. A spa
 
 ## 16.3. Полевые географические методы / Fieldwork Methods
 
+![Теодолит — прибор для измерения углов на местности / A theodolite, an instrument for measuring angles on the ground](../assets/photos/16-theodolite.jpg)
+
+*Теодолит — прибор для измерения углов на местности. Фото: Queensland State Archives, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wild_T2_Theodolite,_July_1968.jpg) / A theodolite, an instrument for measuring angles on the ground. Photo: Queensland State Archives, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wild_T2_Theodolite,_July_1968.jpg).*
+
+![Старинный судовой компас в кардановом подвесе / An old ship’s compass in gimbals](../assets/photos/16-compass.jpg)
+
+*Старинный судовой компас в кардановом подвесе. Фото: Tim Sheerman-Chase, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gimballed_Compass,_Mary_Rose_-_55129422442.jpg) / An old ship’s compass in gimbals. Photo: Tim Sheerman-Chase, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gimballed_Compass,_Mary_Rose_-_55129422442.jpg).*
+
 Полевые исследования позволяют непосредственно наблюдать процессы и объекты, проверять карты и спутниковые интерпретации, собирать первичные измерения и фиксировать локальные особенности.
 
 Основные методы:
@@ -288,6 +296,10 @@ Moran's I is one measure of global spatial autocorrelation. Local statistics can
 A map of statistically significant clusters should describe the method, parameters, significance level and any multiple-testing correction that was applied.
 
 ## 16.9. Картография как наука и язык пространства / Cartography as a Science and Language of Space
+
+![Карта мира по Птолемею, издание Ульма, 1482 г / Ptolemy’s world map, Ulm edition, 1482](../assets/photos/16-ptolemy-map.jpg)
+
+*Карта мира по Птолемею, издание Ульма, 1482 г. Фото: Ptolemy, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1482_Ulm_Ptolemy_World_Map.jpg) / Ptolemy’s world map, Ulm edition, 1482. Photo: Ptolemy, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1482_Ulm_Ptolemy_World_Map.jpg).*
 
 Картография изучает методы создания, анализа и использования карт. Карта — не нейтральная копия территории, а модель, в которой отобраны и обобщены сведения в соответствии с целью, масштабом и аудиторией.
 

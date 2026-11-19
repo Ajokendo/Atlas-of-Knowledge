@@ -28,6 +28,10 @@ After studying this chapter, readers will be able to:
 - apply geographical thinking to everyday and global issues.
 
 ## 1.1. Что такое география? / What Is Geography?
+
+![Земля из космоса / Earth from space](../assets/photos/01-blue-marble.jpg)
+
+*Земля из космоса. Составное изображение NASA «Голубой шарик» (Blue Marble) из данных спутников, а не один снимок. Фото: NASA images by Reto Stöckli, based on data from NASA and NOAA. Instrument: Terra - MODIS, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg) / Earth from space. NASA’s “Blue Marble” composite built from satellite data rather than a single photograph. Photo: NASA images by Reto Stöckli, based on data from NASA and NOAA. Instrument: Terra - MODIS, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blue_Marble_Western_Hemisphere.jpg).*
 ![Схема географии как системы: природные компоненты, население, города, экономика, культура и транспорт взаимосвязаны. / Geography as a system: natural components, population, cities, economy, culture and transport are interconnected.](../assets/diagrams/01-A-geography-spatial-system.svg)
 
 *01-A. Авторская двуязычная схема для Atlas of Knowledge. Это концептуальная модель взаимосвязей, а не карта или статистическая визуализация. / Original bilingual schematic for Atlas of Knowledge. This is a conceptual model of connections, not a map or statistical visualisation. Лицензия / Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Атрибуция / Attribution: Atlas of Knowledge project.*

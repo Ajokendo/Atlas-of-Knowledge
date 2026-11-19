@@ -270,6 +270,10 @@ It is important to distinguish the short-term effect of accelerated melting from
 
 ### 20.4.3. Река Нарын
 
+![Река Нарын / The Naryn River](../assets/photos/20-naryn-river.jpg)
+
+*Река Нарын. Фото: Ninara from Helsinki, Finland, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naryn_River,_Kyrgyzstan_%2829473088427%29.jpg) / The Naryn River. Photo: Ninara from Helsinki, Finland, CC BY 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naryn_River,_Kyrgyzstan_%2829473088427%29.jpg).*
+
 ![Река Нарын на карте Кыргызстана. / The Naryn River on the map of Kyrgyzstan.](../assets/diagrams/20-L-naryn-bilingual.svg)
 
 *Река Нарын на карте Кыргызстана. Схематичная карта. / The Naryn River on the map of Kyrgyzstan. A schematic map.*
@@ -290,6 +294,10 @@ It is important to distinguish the short-term effect of accelerated melting from
 
 ### 20.4.5. Река Чу
 
+![Река Чу у выхода из Боомского ущелья в Чуйскую долину / The Chu River where it leaves the Boom Gorge and enters the Chuy Valley](../assets/photos/20-boom-gorge-chu.jpg)
+
+*Река Чу у выхода из Боомского ущелья в Чуйскую долину. Фото: Vmenkov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:E8145-Chu-River.jpg) / The Chu River where it leaves the Boom Gorge and enters the Chuy Valley. Photo: Vmenkov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:E8145-Chu-River.jpg).*
+
 ![Река Чу на карте Кыргызстана. / The Chu River on the map of Kyrgyzstan.](../assets/diagrams/20-L-chu-bilingual.svg)
 
 *Река Чу на карте Кыргызстана. Схематичная карта. / The Chu River on the map of Kyrgyzstan. A schematic map.*
@@ -299,6 +307,10 @@ It is important to distinguish the short-term effect of accelerated melting from
 Река имеет большое значение для водоснабжения и орошения Чуйской долины. Водохозяйственное управление требует координации между Кыргызстаном и Казахстаном.
 
 ### 20.4.6. Река Талас
+
+![Река Талас (участок у города Тараз, Казахстан) / The Talas River (near the city of Taraz, Kazakhstan)](../assets/photos/20-talas-river.jpg)
+
+*Река Талас (участок у города Тараз, Казахстан). Фото: Thermokarst, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TALAS_RIVER.JPG) / The Talas River (near the city of Taraz, Kazakhstan). Photo: Thermokarst, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TALAS_RIVER.JPG).*
 
 ![Река Талас на карте Кыргызстана. / The Talas River on the map of Kyrgyzstan.](../assets/diagrams/20-L-talas-bilingual.svg)
 
@@ -481,6 +493,10 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ## 20.6. Озёра Кыргызстана / Lakes of Kyrgyzstan
 
+![Высокогорное озеро Кёль-Суу в Нарынской области / High-mountain lake Kel-Suu in Naryn Region](../assets/photos/20-kel-suu.jpg)
+
+*Высокогорное озеро Кёль-Суу в Нарынской области. Фото: Mamatkazy, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kel-Suu.jpg) / High-mountain lake Kel-Suu in Naryn Region. Photo: Mamatkazy, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kel-Suu.jpg).*
+
 ![Крупнейшие озёра Кыргызстана: сравнение площади / Major lakes of Kyrgyzstan: area comparison](../assets/diagrams/20-C-major-lakes-area-comparison-bilingual.svg)
 
 *Сравнение опубликованных площадей, а не карта озёр. Глубины и происхождение не приведены: источники требуют дополнительного согласования по дате и методике. / Published surface areas are compared, not mapped. Depth and origin are omitted pending reconciliation of source dates and methods.*
@@ -488,6 +504,10 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 В Кыргызстане представлены озёра тектонического, ледникового, завального, карстового и смешанного происхождения. Они различаются по глубине, минерализации, площади, высоте расположения и степени связи с речной сетью.
 
 ### 20.6.1. Иссык-Куль
+
+![Озеро Иссык-Куль и горы Тянь-Шаня / Lake Issyk-Kul and the Tien Shan mountains](../assets/photos/20-issyk-kul.jpg)
+
+*Озеро Иссык-Куль и горы Тянь-Шаня. Фото: Bgag, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lake_Issyk-Kul,_Kyrgyzstan.jpg) / Lake Issyk-Kul and the Tien Shan mountains. Photo: Bgag, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lake_Issyk-Kul,_Kyrgyzstan.jpg).*
 
 ![Иссык-Куль на карте Кыргызстана. / Lake Issyk-Kul on the map of Kyrgyzstan.](../assets/diagrams/20-L-issyk-kul-bilingual.svg)
 
@@ -509,6 +529,10 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ### 20.6.2. Сон-Куль
 
+![Юртовый лагерь у озера Сон-Куль: летние пастбища (джайлоо) на высоте более 3000 м / A yurt camp by Lake Song-Kul: summer pastures (jailoo) above 3,000 m](../assets/photos/20-song-kul-yurts.jpg)
+
+*Юртовый лагерь у озера Сон-Куль: летние пастбища (джайлоо) на высоте более 3000 м. Фото: AseinMad, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yurt_camp_near_Song-Kul_lake_2026_01.jpg) / A yurt camp by Lake Song-Kul: summer pastures (jailoo) above 3,000 m. Photo: AseinMad, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yurt_camp_near_Song-Kul_lake_2026_01.jpg).*
+
 ![Сон-Куль на карте Кыргызстана. / Lake Song-Kul on the map of Kyrgyzstan.](../assets/diagrams/20-L-son-kul-bilingual.svg)
 
 *Сон-Куль на карте Кыргызстана. Схематичная карта. / Lake Song-Kul on the map of Kyrgyzstan. A schematic map.*
@@ -527,6 +551,10 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 
 ### 20.6.4. Сары-Челек
 
+![Озеро Сары-Челек / Lake Sary-Chelek](../assets/photos/20-sary-chelek.jpg)
+
+*Озеро Сары-Челек. Фото: Kondephy, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sary_Chelek_Lake.jpg) / Lake Sary-Chelek. Photo: Kondephy, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sary_Chelek_Lake.jpg).*
+
 ![Сары-Челек на карте Кыргызстана. / Lake Sary-Chelek on the map of Kyrgyzstan.](../assets/diagrams/20-L-sary-chelek-bilingual.svg)
 
 *Сары-Челек на карте Кыргызстана. Схематичная карта. / Lake Sary-Chelek on the map of Kyrgyzstan. A schematic map.*
@@ -534,6 +562,10 @@ This is not a universal pattern for every river. Catchment elevation and area, g
 Сары-Челек — глубокое горное озеро Западного Тянь-Шаня, сформировавшееся в результате природного запруживания долины. Оно входит в территорию биосферного заповедника Сары-Челек и окружено лесными и горными экосистемами. Озеро и его окрестности имеют исключительную природоохранную и научную ценность.
 
 ### 20.6.5. Мерцбахера и высокогорные ледниковые озёра
+
+![Район озера Мерцбахера на леднике Иныльчек, снимок с Международной космической станции / The area of Lake Merzbacher on the Inylchek Glacier, photographed from the International Space Station](../assets/photos/20-merzbacher-iss.jpg)
+
+*Район озера Мерцбахера на леднике Иныльчек, снимок с Международной космической станции. Фото: NASA, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lake_Merzbacher_from_the_ISS.jpg) / The area of Lake Merzbacher on the Inylchek Glacier, photographed from the International Space Station. Photo: NASA, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lake_Merzbacher_from_the_ISS.jpg).*
 
 ![Озеро Мерцбахера на карте Кыргызстана. / Merzbacher Lake on the map of Kyrgyzstan.](../assets/diagrams/20-L-merzbacher-bilingual.svg)
 
@@ -677,6 +709,10 @@ Groundwater quality depends on geological structure, depth, contact time with ro
 Водохранилища регулируют сезонный сток, обеспечивают орошение, водоснабжение и выработку электроэнергии. Они изменяют естественный гидрограф реки, задерживают наносы, влияют на температуру воды и экологические условия ниже плотины.
 
 ### 20.8.1. Токтогульское водохранилище
+
+![Токтогульское водохранилище / The Toktogul Reservoir](../assets/photos/20-toktogul-reservoir.jpg)
+
+*Токтогульское водохранилище. Фото: Arthur Dolchenko, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toktogul_Reservoir_2023.jpg) / The Toktogul Reservoir. Photo: Arthur Dolchenko, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toktogul_Reservoir_2023.jpg).*
 
 ![Токтогульское водохранилище на карте Кыргызстана. / Toktogul Reservoir on the map of Kyrgyzstan.](../assets/diagrams/20-L-toktogul-bilingual.svg)
 

@@ -60,6 +60,10 @@ After studying this chapter, readers will be able to explain soil formation and 
 
 ## 8.3. Строение почвенного профиля / Soil Profile and Horizons
 
+![Почвенный профиль с горизонтами / A soil profile with horizons](../assets/photos/08-soil-profile.jpg)
+
+*Почвенный профиль с горизонтами. Фото: Cjrufe, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Soil_Profile_Containing_an_Argillic_Horizon.jpg) / A soil profile with horizons. Photo: Cjrufe, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Soil_Profile_Containing_an_Argillic_Horizon.jpg).*
+
 ![Почвенный профиль: горизонты O, A, E, B, C, R. / Soil profile: horizons O, A, E, B, C, R.](../assets/diagrams/08-M-soil-profile-bilingual.svg)
 
 *Почвенный профиль: горизонты O, A, E, B, C, R. Схема. / Soil profile: horizons O, A, E, B, C, R. A schematic.*
@@ -155,6 +159,10 @@ After studying this chapter, readers will be able to explain soil formation and 
 - **Криотурбация** — перемешивание материала в результате процессов замерзания и оттаивания в холодных областях.
 
 ## 8.7. География и классификация почв / Soil Geography and Classification
+
+![Чернозём — тёмная почва степей с мощным гумусовым горизонтом / Chernozem, the dark steppe soil with a thick humus horizon](../assets/photos/08-chernozem.jpg)
+
+*Чернозём — тёмная почва степей с мощным гумусовым горизонтом. Фото: Serhey0211994, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B7%D0%B5%D0%BC_%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9.jpg) / Chernozem, the dark steppe soil with a thick humus horizon. Photo: Serhey0211994, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B7%D0%B5%D0%BC_%D1%82%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9.jpg).*
 
 <!-- VISUAL ID 08-B — ISRIC WRB 2014 global map, reproduced unchanged -->
 ![Глобальная карта почв по WRB 2014, составленная на основе Harmonized World Soil Database v1.2; некоторые реферативные группы объединены в общие классы легенды. Это не карта по WRB 2022. / Global soil map according to WRB 2014, derived from Harmonized World Soil Database v1.2; some Reference Soil Groups are combined in shared legend classes. This is not a WRB 2022 map.](https://files.isric.org/public/WRB/wrb2014.png)

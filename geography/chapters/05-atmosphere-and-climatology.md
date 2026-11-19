@@ -191,6 +191,10 @@
 
 ## 5.7. Влажность, облака и осадки / Humidity, Clouds and Precipitation
 
+![Кучево-дождевое облако с «наковальней»: оно даёт ливни и грозы / A cumulonimbus cloud with an anvil top, the source of downpours and thunderstorms](../assets/photos/05-cumulonimbus.jpg)
+
+*Кучево-дождевое облако с «наковальней»: оно даёт ливни и грозы. Фото: Kamil Nowacki, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg) / A cumulonimbus cloud with an anvil top, the source of downpours and thunderstorms. Photo: Kamil Nowacki, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg).*
+
 <!-- VISUAL ID: 5.7-B -->
 ![Образование облаков и осадков: четыре механизма подъёма воздуха / Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
 
@@ -381,6 +385,14 @@
 *Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показан возможный контраст между более озеленённой местностью и плотной застройкой; температурный профиль качественный, без измеренной шкалы. Тепловой остров может проявляться днём и ночью, но его интенсивность меняется с погодой, временем суток, сезоном, городской формой и материалами. Деревья и вода могут охлаждать за счёт тени и испарения; покрытия и здания способны накапливать и отдавать тепло, а плотная застройка — изменять вентиляцию. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows a possible contrast between greener surroundings and dense built-up areas; the temperature profile is qualitative and has no measured scale. Heat islands can occur by day and night, but their intensity varies with weather, time of day, season, urban form and materials. Trees and water can cool through shade and evaporation; built surfaces can store and release heat, while dense urban geometry can alter ventilation.* [Научная основа / Scientific basis: U.S. EPA, What Are Heat Islands?](https://www.epa.gov/heatislands/what-are-heat-islands).
 
 ## 5.14. Опасные атмосферные явления / Atmospheric Hazards
+
+![Грозовая суперячейка (США): из таких облаков выходят смерчи / A supercell thunderstorm (USA): tornadoes descend from clouds like this](../assets/photos/05-tornado.jpg)
+
+*Грозовая суперячейка (США): из таких облаков выходят смерчи. Фото: BusyWikipedian, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Supercell_with_Tornado.jpg) / A supercell thunderstorm (USA): tornadoes descend from clouds like this. Photo: BusyWikipedian, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Supercell_with_Tornado.jpg).*
+
+![Ураган Изабель, вид с МКС: хорошо видны глаз и стена облаков / Hurricane Isabel seen from the ISS: the eye and the eyewall are clearly visible](../assets/photos/05-hurricane-isabel.jpg)
+
+*Ураган Изабель, вид с МКС: хорошо видны глаз и стена облаков. Фото: Image courtesy of Mike Trenchard, Earth Sciences &amp; Image Analysis Laboratory, NASA Johnson Space Center., общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_from_ISS.jpg) / Hurricane Isabel seen from the ISS: the eye and the eyewall are clearly visible. Photo: Image courtesy of Mike Trenchard, Earth Sciences &amp; Image Analysis Laboratory, NASA Johnson Space Center., public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hurricane_Isabel_from_ISS.jpg).*
 
 Атмосферные явления могут создавать угрозы здоровью, инфраструктуре, сельскому хозяйству и транспорту.
 

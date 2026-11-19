@@ -138,6 +138,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 ## 24.3. Чуйская область / Chuy Region
 
+![Башня Бурана — остаток города Баласагын, Чуйская область / The Burana Tower, a remnant of the city of Balasagun, Chuy Region](../assets/photos/24-burana-tower.jpg)
+
+*Башня Бурана — остаток города Баласагын, Чуйская область. Фото: Ondřej Žváček, CC BY 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Burana.JPG) / The Burana Tower, a remnant of the city of Balasagun, Chuy Region. Photo: Ondřej Žváček, CC BY 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Burana.JPG).*
+
 ![Чуйская область: 8 районов на карте. / Chuy Region: 8 districts on the map.](../assets/diagrams/24-R-chuy-districts-bilingual.svg)
 
 *Чуйская область: 8 районов на карте. Карта по открытым данным, границы на 2010 г. / Chuy Region: 8 districts on the map. Map from open data, boundaries as of 2010.*
@@ -234,6 +238,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 ## 24.5. Иссык-Кульская область / Issyk-Kul Region
 
+![Свято-Троицкий собор в Караколе, Иссык-Кульская область / The Holy Trinity Cathedral in Karakol, Issyk-Kul Region](../assets/photos/24-karakol-church.jpg)
+
+*Свято-Троицкий собор в Караколе, Иссык-Кульская область. Фото: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Holy_Trinity_Church,_Karakol.jpg) / The Holy Trinity Cathedral in Karakol, Issyk-Kul Region. Photo: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Holy_Trinity_Church,_Karakol.jpg).*
+
 ![Иссык-Кульская область: 5 районов на карте. / Issyk-Kul Region: 5 districts on the map.](../assets/diagrams/24-R-issyk-kul-districts-bilingual.svg)
 
 *Иссык-Кульская область: 5 районов на карте. Карта по открытым данным, границы на 2010 г. / Issyk-Kul Region: 5 districts on the map. Map from open data, boundaries as of 2010.*
@@ -279,6 +287,10 @@ Each region is examined using the same framework: location and neighbouring terr
 *24-G. Иссык-Кульская котловина: схема. / Issyk-Kul Basin: schematic.*
 
 ## 24.6. Нарынская область / Naryn Region
+
+![Вид на город Нарын / View of the city of Naryn](../assets/photos/24-naryn-city.jpg)
+
+*Вид на город Нарын. Фото: Pmelton87, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naryn_overlook.jpg) / View of the city of Naryn. Photo: Pmelton87, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Naryn_overlook.jpg).*
 
 ![Нарынская область: 5 районов на карте. / Naryn Region: 5 districts on the map.](../assets/diagrams/24-R-naryn-districts-bilingual.svg)
 
@@ -330,6 +342,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 ## 24.7. Джалал-Абадская область / Jalal-Abad Region
 
+![Ореховые леса Арсланбоба в Джалал-Абадской области / The Arslanbob walnut forests in Jalal-Abad Region](../assets/photos/24-arslanbob-walnut.jpg)
+
+*Ореховые леса Арсланбоба в Джалал-Абадской области. Фото: Ekrem Canli, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Walnut_forest_Arslanbob.jpg) / The Arslanbob walnut forests in Jalal-Abad Region. Photo: Ekrem Canli, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Walnut_forest_Arslanbob.jpg).*
+
 ![Джалал-Абадская область: 8 районов на карте. / Jalal-Abad Region: 8 districts on the map.](../assets/diagrams/24-R-jalal-abad-districts-bilingual.svg)
 
 *Джалал-Абадская область: 8 районов на карте. Карта по открытым данным, границы на 2010 г. / Jalal-Abad Region: 8 districts on the map. Map from open data, boundaries as of 2010.*
@@ -380,6 +396,10 @@ Each region is examined using the same framework: location and neighbouring terr
 
 ## 24.8. Ошская область / Osh Region
 
+![Гора Сулайман-Тоо в Оше / Sulaiman-Too mountain in Osh](../assets/photos/24-sulaiman-too.jpg)
+
+*Гора Сулайман-Тоо в Оше. Фото: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sulayman_Mountain,_Osh.jpg) / Sulaiman-Too mountain in Osh. Photo: Adam Harangozó, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sulayman_Mountain,_Osh.jpg).*
+
 ![Ошская область: 7 районов на карте. / Osh Region: 7 districts on the map.](../assets/diagrams/24-R-osh-districts-bilingual.svg)
 
 *Ошская область: 7 районов на карте. Карта по открытым данным, границы на 2010 г. / Osh Region: 7 districts on the map. Map from open data, boundaries as of 2010.*
@@ -429,6 +449,10 @@ Each region is examined using the same framework: location and neighbouring terr
 *24-J. Ошская область: схема. / Osh Region: schematic.*
 
 ## 24.9. Баткенская область / Batken Region
+
+![Горы Баткенской области / Mountains of Batken Region](../assets/photos/24-batken-mountains.jpg)
+
+*Горы Баткенской области. Фото: Nataev, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Quchchi_mountains,_Ak-Bulak.JPG) / Mountains of Batken Region. Photo: Nataev, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Quchchi_mountains,_Ak-Bulak.JPG).*
 
 ![Баткенская область: 3 района на карте. / Batken Region: 3 districts on the map.](../assets/diagrams/24-R-batken-districts-bilingual.svg)
 

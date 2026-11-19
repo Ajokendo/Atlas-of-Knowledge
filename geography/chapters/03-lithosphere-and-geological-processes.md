@@ -114,6 +114,10 @@
 
 ## 3.3. Горные породы и круговорот пород / Rocks and the Rock Cycle
 
+![Базальтовые колонны «Дороги великанов» (Северная Ирландия): остывая, лава растрескивается на столбы / Basalt columns of the Giant’s Causeway (Northern Ireland): cooling lava cracks into pillars](../assets/photos/03-basalt-columns.jpg)
+
+*Базальтовые колонны «Дороги великанов» (Северная Ирландия): остывая, лава растрескивается на столбы. Фото: Joseph Mischyshyn, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Antrim_Coast_-_Giant%27s_Causeway_-_Closeup_of_Basalt_Columns_-_geograph.org.uk_-_3719472.jpg) / Basalt columns of the Giant’s Causeway (Northern Ireland): cooling lava cracks into pillars. Photo: Joseph Mischyshyn, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Antrim_Coast_-_Giant%27s_Causeway_-_Closeup_of_Basalt_Columns_-_geograph.org.uk_-_3719472.jpg).*
+
 Горные породы — природные агрегаты одного или нескольких минералов, а иногда и стекла или органического вещества. По происхождению выделяют три основные группы: магматические, осадочные и метаморфические.
 
 ### 3.3.1. Магматические породы / Igneous Rocks
@@ -194,6 +198,10 @@
 **EN:** Show a field geologist, a rock sample, a thin section under a microscope, an X-ray diffraction pattern and a geophysical profile.
 
 ## 3.5. Тектоника литосферных плит / Plate Tectonics
+
+![Разлом Сан-Андреас на плато Каррисо (Калифорния), вид из самолёта: прямая борозда внизу кадра / The San Andreas Fault on the Carrizo Plain (California) seen from an aircraft: the straight furrow at the bottom of the frame](../assets/photos/03-san-andreas.jpg)
+
+*Разлом Сан-Андреас на плато Каррисо (Калифорния), вид из самолёта: прямая борозда внизу кадра. Здесь сдвигаются Тихоокеанская и Североамериканская плиты. Фото: Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:San_Andreas_Fault,_Carrizo_Plain_National_Monument,_California_%2821394880568%29.jpg) / The San Andreas Fault on the Carrizo Plain (California) seen from an aircraft: the straight furrow at the bottom of the frame. The Pacific and North American plates slide past each other here. Photo: Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:San_Andreas_Fault,_Carrizo_Plain_National_Monument,_California_%2821394880568%29.jpg).*
 
 Теория тектоники плит объясняет движение крупных фрагментов литосферы и многие закономерности распределения землетрясений, вулканов, горных поясов и океанических структур.
 
@@ -326,6 +334,10 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 ## 3.7. Вулканизм / Volcanism
 
+![Извержение Этны, снимок с Международной космической станции / An eruption of Etna photographed from the International Space Station](../assets/photos/03-etna-iss.jpg)
+
+*Извержение Этны, снимок с Международной космической станции. Фото: NASA, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Etna_eruption_seen_from_the_International_Space_Station.jpg) / An eruption of Etna photographed from the International Space Station. Photo: NASA, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Etna_eruption_seen_from_the_International_Space_Station.jpg).*
+
 Вулканизм — совокупность процессов подъёма магмы, выделения газов и выхода расплавленного вещества на поверхность.
 
 ### 3.7.1. Магма и лава / Magma and Lava
@@ -355,6 +367,10 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 **EN:** Volcano cross-section showing the magma reservoir, conduit, crater and zones affected by different volcanic hazards.
 
 ## 3.8. Складчатость и разломы / Folding and Faulting
+
+![Складки слоистых пород на мысе Хартленд-Пойнт (Англия) / Folded layered rocks at Hartland Point (England)](../assets/photos/03-folds-hartland.jpg)
+
+*Складки слоистых пород на мысе Хартленд-Пойнт (Англия). Фото: Own Herby talk thyme, CC BY 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rocks_at_Hartland_point.JPG) / Folded layered rocks at Hartland Point (England). Photo: Own Herby talk thyme, CC BY 2.5, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rocks_at_Hartland_point.JPG).*
 
 Горные породы деформируются под воздействием напряжений. Деформация может быть пластической, приводящей к изгибу слоёв, или хрупкой, сопровождающейся трещинами и разломами.
 

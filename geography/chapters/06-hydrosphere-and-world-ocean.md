@@ -153,6 +153,10 @@
 
 ## 6.6. Волны, приливы и морские течения / Waves, Tides and Ocean Currents
 
+![Прибойные волны у побережья Франции / Breaking waves on the coast of France](../assets/photos/06-waves.jpg)
+
+*Прибойные волны у побережья Франции. Фото: Christian Ferrer, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Breaking_waves,_S%C3%A8te_cf03.jpg) / Breaking waves on the coast of France. Photo: Christian Ferrer, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Breaking_waves,_S%C3%A8te_cf03.jpg).*
+
 ![Ветровые волны, приливы и океанические течения: орбитальное движение частиц воды, влияние Луны и Солнца и упрощённая схема поверхностного и глубинного потоков. Схема качественная, не в масштабе.](../assets/06-6-D-ocean-motion-bilingual.svg)
 
 *Оригинальная учебная схема, подготовленная с помощью ChatGPT; направления и формы условны, схема не является измерением или картой реальных течений. Лицензионное решение проекта для этого нового визуала ещё требуется. / Original teaching schematic prepared with ChatGPT assistance; directions and shapes are illustrative, not measurements or a map of actual currents. Project licensing decision for this new visual is still pending.*
@@ -222,6 +226,10 @@
 
 ## 6.9. Морские экосистемы и биологическая продуктивность / Marine Ecosystems and Productivity
 
+![Коралловый риф на Большом Барьерном рифе (Австралия): один из самых продуктивных морских биомов / A coral reef on the Great Barrier Reef (Australia), one of the most productive marine biomes](../assets/photos/06-coral-reef.jpg)
+
+*Коралловый риф на Большом Барьерном рифе (Австралия): один из самых продуктивных морских биомов. Фото: Toby Hudson, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg) / A coral reef on the Great Barrier Reef (Australia), one of the most productive marine biomes. Photo: Toby Hudson, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg).*
+
 ![Учебный разрез экологических зон; термины описывают разные пространственные признаки, а схема не является батиметрической съёмкой.](../assets/06-9-A-marine-zones-bilingual.svg)
 
 *Учебный разрез экологических зон; термины описывают разные пространственные признаки, а схема не является батиметрической съёмкой. / Teaching cross-section of marine ecological zones; terms describe different spatial dimensions and the figure is not a bathymetric survey.*
@@ -286,6 +294,10 @@
 
 ## 6.12. Ледники, морской лёд и криосфера / Glaciers, Sea Ice and the Cryosphere
 
+![Айсберг в проливе Мак-Мердо (Антарктида), снимок NASA / An iceberg in McMurdo Sound (Antarctica), a NASA photograph](../assets/photos/06-iceberg.jpg)
+
+*Айсберг в проливе Мак-Мердо (Антарктида), снимок NASA. Фото: Chris Larsen, NASA's Operation IceBridge mission., общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:McMurdo_Iceberg_NASA.jpg) / An iceberg in McMurdo Sound (Antarctica), a NASA photograph. Photo: Chris Larsen, NASA's Operation IceBridge mission., public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:McMurdo_Iceberg_NASA.jpg).*
+
 ![Схема различает наземный лёд, сезонный снег, мерзлоту и плавающий морской лёд; географические положения условны.](../assets/06-12-A-cryosphere-components-bilingual.svg)
 
 *Схема различает наземный лёд, сезонный снег, мерзлоту и плавающий морской лёд; географические положения условны. / Schematic distinguishes land ice, seasonal snow, permafrost and floating sea ice; locations are illustrative.*
@@ -303,6 +315,10 @@
 
 
 ## 6.13. Реки и речные бассейны / Rivers and Drainage Basins
+
+![Меандры Амазонки на снимке NASA (MODIS) / Meanders of the Amazon in a NASA MODIS image](../assets/photos/06-amazon.jpg)
+
+*Меандры Амазонки на снимке NASA (MODIS). Фото: , общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amazon.A2002182.1405.1km.jpg) / Meanders of the Amazon in a NASA MODIS image. Photo: , public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amazon.A2002182.1405.1km.jpg).*
 
 ![Обобщённая схема водосбора; реальная сеть русел и границы бассейна зависят от рельефа и геологии.](../assets/06-13-A-river-basin-anatomy-bilingual.svg)
 

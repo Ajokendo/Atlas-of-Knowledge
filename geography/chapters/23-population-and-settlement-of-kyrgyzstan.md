@@ -658,6 +658,10 @@ An administrative city boundary does not always match the actual urban area. Bui
 *23-C. Городская система: схема. / Urban system: schematic.*
 
 ## 23.10. Сельское расселение, сезонная мобильность и джайлоо
+
+![Юрта в долине Чон-Кемин: традиционное жильё кочевников / A yurt in the Chon-Kemin Valley, the traditional home of nomadic herders](../assets/photos/23-yurt.jpg)
+
+*Юрта в долине Чон-Кемин: традиционное жильё кочевников. Фото: Hux, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kyrgyz_yurt_2006.jpg) / A yurt in the Chon-Kemin Valley, the traditional home of nomadic herders. Photo: Hux, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kyrgyz_yurt_2006.jpg).*
 ![Иллюстрация долинного села, горного поселения и сезонной стоянки на джайлоо. / Illustration of a valley village, mountain settlement and seasonal jailoo camp.](../assets/diagrams/23-J-valley-mountain-jailoo-settlement-bilingual.svg)
 
 *23-J. Обобщённые ландшафтные ситуации; сезонное использование джайлоо различается между хозяйствами и регионами. / Generalised landscape settings; seasonal jailoo use varies among households and regions.*

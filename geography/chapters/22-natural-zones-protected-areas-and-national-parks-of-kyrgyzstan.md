@@ -149,6 +149,10 @@ A UNDP publication in 2025 reported that the share of specially protected natura
 *22-B. Категории ООПТ: примеры. / Protected-area categories: examples.*
 
 ## 22.4. Государственные природные заповедники
+
+![Заповедник Сары-Челек: озеро в окружении горных лесов / Sary-Chelek Reserve: a lake surrounded by mountain forests](../assets/photos/22-sary-chelek-reserve.jpg)
+
+*Заповедник Сары-Челек: озеро в окружении горных лесов. Фото: Nurkama1, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sary-Chelek_lake_2025.jpg) / Sary-Chelek Reserve: a lake surrounded by mountain forests. Photo: Nurkama1, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sary-Chelek_lake_2025.jpg).*
 ## State Nature Reserves
 
 Заповедники предназначены прежде всего для строгой охраны природных комплексов. Они особенно важны для сохранения эталонных экосистем, научного наблюдения и защиты видов, чувствительных к беспокойству.
@@ -220,6 +224,14 @@ State nature reserves are national protected-area institutions whose primary pur
 *22-C. Основные заповедники: сравнение. / Main nature reserves: comparison.*
 
 ## 22.5. Государственные природные парки и национальные парки
+
+![Долина Чон-Кемин / The Chon-Kemin Valley](../assets/photos/22-chon-kemin.jpg)
+
+*Долина Чон-Кемин. Фото: Lupus-sapiens, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chon-Kemin.JPG) / The Chon-Kemin Valley. Photo: Lupus-sapiens, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chon-Kemin.JPG).*
+
+![Национальный парк «Ала-Арча» у Бишкека, вид сверху / Ala-Archa National Park near Bishkek, seen from above](../assets/photos/22-ala-archa.jpg)
+
+*Национальный парк «Ала-Арча» у Бишкека, вид сверху. Фото: Nikolai Bulykin, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B0-%D0%90%D1%80%D1%87%D0%B0_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%281%29.jpg) / Ala-Archa National Park near Bishkek, seen from above. Photo: Nikolai Bulykin, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B0-%D0%90%D1%80%D1%87%D0%B0_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%281%29.jpg).*
 
 ![Расположение нескольких природных парков. / Locations of several nature parks.](../assets/diagrams/22-E-nature-parks-examples-bilingual.svg)
 

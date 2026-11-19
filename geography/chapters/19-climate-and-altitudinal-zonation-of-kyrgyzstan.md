@@ -85,6 +85,10 @@ Throughout the year, Central Asia is influenced by the interaction of mid-latitu
 
 ## 19.3. Температурный режим и высотный градиент / Temperature Regime and Vertical Gradient
 
+![Озеро Чатыр-Куль на высокогорном плато Внутреннего Тянь-Шаня: здесь холодно даже летом / Lake Chatyr-Kul on the high plateau of the Inner Tien Shan: it is cold here even in summer](../assets/photos/19-chatyr-kul.jpg)
+
+*Озеро Чатыр-Куль на высокогорном плато Внутреннего Тянь-Шаня: здесь холодно даже летом. Фото: Nurdjen, общественное достояние, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chatyr_kul_lake.JPG) / Lake Chatyr-Kul on the high plateau of the Inner Tien Shan: it is cold here even in summer. Photo: Nurdjen, public domain, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chatyr_kul_lake.JPG).*
+
 ![Тепло в низких долинах, холод в высокогорье. / Warm low valleys, cold high mountains.](../assets/diagrams/19-G-temperature-zones-schematic-bilingual.svg)
 
 *19-G. Качественная схема температурных зон. / Qualitative schematic of temperature zones.*
@@ -122,6 +126,10 @@ Slope aspect also matters. In the Northern Hemisphere, south-facing slopes usual
 | Nival and glacial elevations | Sub-zero temperatures for much of the year, with persistent snow and ice | Accumulation of snow and ice and feeding of high-mountain catchments |
 
 ## 19.4. Осадки и орографический эффект / Precipitation and Orographic Effects
+
+![Каньон Сказка на южном берегу Иссык-Куля: сухие глинистые склоны без леса / Skazka Canyon on the southern shore of Issyk-Kul: dry clay slopes without forest](../assets/photos/19-skazka-canyon.jpg)
+
+*Каньон Сказка на южном берегу Иссык-Куля: сухие глинистые склоны без леса. Фото: Humbie78, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canyon_de_Skazka.jpg) / Skazka Canyon on the southern shore of Issyk-Kul: dry clay slopes without forest. Photo: Humbie78, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canyon_de_Skazka.jpg).*
 
 ![Как горный хребет распределяет осадки между склонами. / How a mountain ridge divides precipitation between its slopes.](../assets/diagrams/19-M-orographic-effect-bilingual.svg)
 

@@ -434,6 +434,10 @@ Waste incineration is not a universal solution. Without flue-gas cleaning and co
 
 ## 26.9. Горнодобывающая промышленность и экологическое наследие / Mining and Environmental Legacy
 
+![Отвалы пустой породы на руднике Кумтор: добыча меняет рельеф и требует рекультивации / Waste-rock dumps at the Kumtor mine: mining changes the landscape and requires reclamation](../assets/photos/26-kumtor-dump.jpg)
+
+*Отвалы пустой породы на руднике Кумтор: добыча меняет рельеф и требует рекультивации. Фото: Michael Karavanov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kumtor_mine_dump_-_panoramio.jpg) / Waste-rock dumps at the Kumtor mine: mining changes the landscape and requires reclamation. Photo: Michael Karavanov, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kumtor_mine_dump_-_panoramio.jpg).*
+
 Горнодобывающая отрасль создаёт рабочие места, экспортные доходы и налоговую базу, но может формировать экологические риски на десятилетия. Особое значение имеют хвостохранилища, отвалы, шахтные воды, кислотный дренаж, пыление, нарушение земель и безопасность старых промышленных площадок.
 
 ### Принципы ответственного управления
