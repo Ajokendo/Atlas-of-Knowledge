@@ -1583,3 +1583,4 @@ The Chapter 08 browser smoke test now checks that all 14 RU/EN Markdown image em
 |---|---|---|---|---|
 | `photos/21-snow-leopard-kg.jpg` | [A Snow Leopard Signpost 15 (cropped).png](https://commons.wikimedia.org/wiki/File:A_Snow_Leopard_Signpost_15_(cropped).png) | Snow Leopard Trust | CC BY 3.0 | кадр видео, дикий барс в Кыргызстане; заменил фото из зоопарка Ахтяри (`21-snow-leopard.jpg`, файл больше не используется) |
 | `photos/25-kurpsai-dam.jpg` | [Kurpsai Dam in Kyrgyzstan.jpg](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg) | Ninaras | CC BY 4.0 | Курпсайская ГЭС, Нарын |
+| `photos/21-argali-kg.jpg` | [Réserve d'Etat de Naryn Août 2018 12.jpg](https://commons.wikimedia.org/wiki/File:R%C3%A9serve_d%27Etat_de_Naryn_Ao%C3%BBt_2018_12.jpg) | Abujoy | CC BY 4.0 | архары в Кыргызстане; заменил монгольский снимок `21-argali.jpg` (не используется) |

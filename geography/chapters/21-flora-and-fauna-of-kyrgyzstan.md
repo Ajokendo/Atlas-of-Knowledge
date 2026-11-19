@@ -224,9 +224,9 @@
 
 ## 21.7. Фауна: основные группы и местообитания
 
-![Архар (Ovis ammon) / Argali (Ovis ammon)](../assets/photos/21-argali.jpg)
+![Архары в Нарынском заповеднике / Argali in the Naryn State Reserve](../assets/photos/21-argali-kg.jpg)
 
-*Архар (Ovis ammon). Снимок сделан в Монголии (подвид Ovis ammon darwini); в Кыргызстане живёт другой подвид — тянь-шаньский архар. Фото: James Eaton, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ovis_ammon_350434313.jpg) / Argali (Ovis ammon). Photographed in Mongolia (subspecies Ovis ammon darwini); Kyrgyzstan has a different subspecies, the Tien Shan argali. Photo: James Eaton, CC0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ovis_ammon_350434313.jpg).*
+*Архары (Ovis ammon) на гребне в районе Karateur, Нарынский заповедник, Кыргызстан. Фото: Abujoy, август 2018 г., CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:R%C3%A9serve_d%27Etat_de_Naryn_Ao%C3%BBt_2018_12.jpg) / Argali (Ovis ammon) on a ridge at Karateur in the Naryn State Reserve, Kyrgyzstan. Photo: Abujoy, August 2018, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:R%C3%A9serve_d%27Etat_de_Naryn_Ao%C3%BBt_2018_12.jpg).*
 
 ![Сибирский горный козёл (Capra sibirica), снимок сделан в Кыргызстане / Siberian ibex (Capra sibirica), photographed in Kyrgyzstan](../assets/photos/21-siberian-ibex.jpg)
 
