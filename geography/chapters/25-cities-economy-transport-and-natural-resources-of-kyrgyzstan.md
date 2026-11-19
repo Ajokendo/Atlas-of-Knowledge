@@ -370,6 +370,10 @@ Kyrgyzstan's transport system relies primarily on road transport: mountainous re
 
 *Токтогульская ГЭС на карте Кыргызстана. Схематичная карта. / Toktogul HPP on the map of Kyrgyzstan. A schematic map.*
 
+![Курпсайская ГЭС на реке Нарын / Kurpsai hydropower plant on the Naryn River](../assets/photos/25-kurpsai-dam.jpg)
+
+*Курпсайская ГЭС — одна из станций Токтогульского (Нарынского) каскада на реке Нарын. Фото: Ninaras, 14 июля 2018 г., CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg) / Kurpsai hydropower plant, one of the stations of the Toktogul (Naryn) cascade on the Naryn River. Photo: Ninaras, 14 July 2018, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg).*
+
 Крупнейшие гидроэнергетические объекты связаны с рекой Нарын и каскадом гидроэлектростанций. Токтогульское водохранилище играет ключевую роль в регулировании стока и выработке электроэнергии. Водохранилища одновременно выполняют энергетические и водохозяйственные функции, поэтому режим их работы влияет на ирригацию, экосистемы и трансграничное водопользование.
 
 Гидроэнергетика не является автоматически безуглеродной или экологически нейтральной. Оценка проектов должна учитывать изменение речного режима, миграцию рыб, осадконакопление, затопление земель, переселение, безопасность плотин, ледниковые и селевые риски, а также выбросы на протяжении жизненного цикла.

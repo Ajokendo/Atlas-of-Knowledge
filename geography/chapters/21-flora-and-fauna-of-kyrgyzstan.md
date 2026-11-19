@@ -288,9 +288,9 @@
 
 ## 21.8. Знаковые и охраняемые виды
 
-![Снежный барс (ирбис) / Snow leopard](../assets/photos/21-snow-leopard.jpg)
+![Дикий снежный барс (ирбис) в Кыргызстане / Wild snow leopard in Kyrgyzstan](../assets/photos/21-snow-leopard-kg.jpg)
 
-*Снежный барс (ирбис). Фото сделано в зоопарке Ахтяри, Финляндия: в дикой природе зверя снимают редко. Фото: kallerna, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Uncia_uncia_%C3%84ht%C3%A4ri.jpg) / Snow leopard. Photographed in Ähtäri Zoo, Finland: the animal is rarely photographed in the wild. Photo: kallerna, CC BY-SA 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Uncia_uncia_%C3%84ht%C3%A4ri.jpg).*
+*Дикий снежный барс в Кыргызстане метит скалу-«указатель» (кадр из видеосъёмки 2016 года; качество ниже фотографий, но это настоящий зверь на воле). Автор: Snow Leopard Trust, CC BY 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_Snow_Leopard_Signpost_15_(cropped).png) / A wild snow leopard in Kyrgyzstan marking a "signpost" rock (a still from 2016 video; lower quality than a photograph, but a real animal in the wild). Author: Snow Leopard Trust, CC BY 3.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_Snow_Leopard_Signpost_15_(cropped).png).*
 ## Flagship and Protected Species
 
 ### Снежный барс — ирбис (*Panthera uncia*)

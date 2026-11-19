@@ -1575,3 +1575,11 @@ The Chapter 08 browser smoke test now checks that all 14 RU/EN Markdown image em
 | `wm-khan-tengri-in-the-mist.jpg` | [Khan Tengri in the mist.jpg](https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg) | Chen Zhao | CC BY 2.0 |
 | `wm-pic-l-nine.jpg` | [Pic Lénine.jpg](https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg) | Benoît Vicart | CC0 |
 | `ext-feart-10-850146-g001.jpg` | https://www.frontiersin.org/files/Articles/850146/xml-images/feart-10-850146-g001.webp | см. подпись в главе / see chapter caption | см. подпись / see caption |
+
+
+## Дополнение (20.11.2026)
+
+| Файл | Commons | Автор | Лицензия | Примечание |
+|---|---|---|---|---|
+| `photos/21-snow-leopard-kg.jpg` | [A Snow Leopard Signpost 15 (cropped).png](https://commons.wikimedia.org/wiki/File:A_Snow_Leopard_Signpost_15_(cropped).png) | Snow Leopard Trust | CC BY 3.0 | кадр видео, дикий барс в Кыргызстане; заменил фото из зоопарка Ахтяри (`21-snow-leopard.jpg`, файл больше не используется) |
+| `photos/25-kurpsai-dam.jpg` | [Kurpsai Dam in Kyrgyzstan.jpg](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg) | Ninaras | CC BY 4.0 | Курпсайская ГЭС, Нарын |
