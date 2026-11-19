@@ -209,3 +209,4 @@ The former “rights authority / licence decision pending” wording is supersed
 | `biology/images/species/lynx-lynx.jpg` | Lynx lynx | Tom Bech | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Eurasian_lynx_climbing_a_tree.jpg | Langedrag Nature Park, Norway |
 | `biology/images/species/tulipa-kaufmanniana.jpg` | Tulipa kaufmanniana | Hanson59 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Tulipa_kaufmanniana2.jpg | Botanical garden, Berlin |
 | `biology/images/species/ichthyaetus-ichthyaetus.jpg` | Ichthyaetus ichthyaetus | Vedant Raju Kasambe | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pallas's_or_Great_Black-headed_gull_Ichthyaetus_ichthyaetus_by_Vedant_Kasambe_01.jpg | Location not stated in the source |
+| `biology/images/species/primula-algida.jpg` | Primula algida | Alexey Yakovlev (yakovlev.alexey) | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Primula_algida_(Primulaceae)_(32488163454).jpg | Alay, Kyrgyzstan, 2800 m |
