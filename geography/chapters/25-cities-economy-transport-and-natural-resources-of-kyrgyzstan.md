@@ -370,9 +370,9 @@ Kyrgyzstan's transport system relies primarily on road transport: mountainous re
 
 *Токтогульская ГЭС на карте Кыргызстана. Схематичная карта. / Toktogul HPP on the map of Kyrgyzstan. A schematic map.*
 
-![Курпсайская ГЭС на реке Нарын / Kurpsai hydropower plant on the Naryn River](../assets/photos/25-kurpsai-dam.jpg)
+![Плотина Токтогульской ГЭС на реке Нарын / The Toktogul dam on the Naryn River](../assets/photos/25-toktogul-dam.jpg)
 
-*Курпсайская ГЭС — одна из станций Токтогульского (Нарынского) каскада на реке Нарын. Фото: Ninaras, 14 июля 2018 г., CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg) / Kurpsai hydropower plant, one of the stations of the Toktogul (Naryn) cascade on the Naryn River. Photo: Ninaras, 14 July 2018, CC BY 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kurpsai_Dam_in_Kyrgyzstan.jpg).*
+*Плотина Токтогульской ГЭС на реке Нарын (вид с нижнего бьефа). Фото: heinerbischkek, 8 октября 2007 г., свободное использование (Commons: «Copyrighted free use»), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D0%BE%D1%82%D0%B8%D0%BD%D0%B0_%D0%A2%D0%BE%D0%BA%D1%82%D0%BE%D0%B3%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D0%93%D0%AD%D0%A1_-_Toktogul_dam.jpg) / The Toktogul dam on the Naryn River, seen from downstream. Photo: heinerbischkek, 8 October 2007, free use (Commons: "Copyrighted free use"), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D0%BE%D1%82%D0%B8%D0%BD%D0%B0_%D0%A2%D0%BE%D0%BA%D1%82%D0%BE%D0%B3%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D0%93%D0%AD%D0%A1_-_Toktogul_dam.jpg).*
 
 Крупнейшие гидроэнергетические объекты связаны с рекой Нарын и каскадом гидроэлектростанций. Токтогульское водохранилище играет ключевую роль в регулировании стока и выработке электроэнергии. Водохранилища одновременно выполняют энергетические и водохозяйственные функции, поэтому режим их работы влияет на ирригацию, экосистемы и трансграничное водопользование.
 
