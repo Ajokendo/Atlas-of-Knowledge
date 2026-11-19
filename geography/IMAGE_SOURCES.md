@@ -1519,3 +1519,59 @@ The Chapter 08 browser smoke test now checks that all 14 RU/EN Markdown image em
 | `assets/photos/16-compass.jpg` | [Gimballed Compass, Mary Rose - 55129422442.jpg](https://commons.wikimedia.org/wiki/File:Gimballed_Compass,_Mary_Rose_-_55129422442.jpg) | Tim Sheerman-Chase | CC BY 4.0 | 2026-03-04 15:40:29 |
 | `assets/photos/16-theodolite.jpg` | [Wild T2 Theodolite, July 1968.jpg](https://commons.wikimedia.org/wiki/File:Wild_T2_Theodolite,_July_1968.jpg) | Queensland State Archives | Public domain | 1968-07 |
 | `assets/photos/16-ptolemy-map.jpg` | [1482 Ulm Ptolemy World Map.jpg](https://commons.wikimedia.org/wiki/File:1482_Ulm_Ptolemy_World_Map.jpg) | Ptolemy | Public domain | 1482 |
+
+
+## Внешние иллюстрации, перенесённые в репозиторий (20.11.2026)
+
+Файлы лежат в `geography/assets/imported/` (раньше были хотлинками). Лицензия и автор — по источнику; подробные подписи — в главах. Изображения с лицензией NC или неясной убраны (OpenStax, SERC/Carleton, atlasofmaps, карта ISRIC WRB 2014).
+
+| Файл | Источник | Автор | Лицензия |
+|---|---|---|---|
+| `wm-atmosphere-biosphere-hydrosphere-lithosphere.png` | [Atmosphere-Biosphere-Hydrosphere-Lithosphere.png](https://commons.wikimedia.org/wiki/File:Atmosphere-Biosphere-Hydrosphere-Lithosphere.png) | CK-12 Foundation | CC BY-SA 3.0 |
+| `ext-9qtcnj7xkazup4o5qrsqdlbyobyyrqfl.png` | https://static.zpe.gov.pl/portal/f/res-minimized/R1H6RHKAGbKdX/1668782966/9QTCnJ7xkazuP4O5qrsqDlBYoByyrqFl.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-spheres3.jpg` | https://www.thephysicalenvironment.com/Book/hydrosphere/spheres3.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-1-atmosphere-layers.png` | [1 atmosphere layers.png](https://commons.wikimedia.org/wiki/File:1_atmosphere_layers.png) | NASA Goddard | Public domain |
+| `wm-469649main-earths-atmosphere-orig-full.jpg` | [469649main earths-atmosphere-orig full.jpg](https://commons.wikimedia.org/wiki/File:469649main_earths-atmosphere-orig_full.jpg) | NASA | Public domain |
+| `ext-earthswater-barchart.png` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-usgs-watercycle-english-online-20230302.jpg` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-divergentplateboundary-cramerietal2019.png` | https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/DivergentPlateBoundary_CrameriEtAl2019.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-convergentplateboundary-cramerietal2019.png` | https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/ConvergentPlateBoundary_CrameriEtAl2019.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-transformplateboundary-cramerietal2019.png` | https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-levels-of-organization.svg` | [Levels of Organization.svg](https://commons.wikimedia.org/wiki/File:Levels_of_Organization.svg) | Mikala14 | CC BY-SA 3.0 |
+| `wm-sdo-20260121-000959-4096-0211-aia.jpg` | [SDO 20260121 000959 4096 0211 (AIA).jpg](https://commons.wikimedia.org/wiki/File:SDO_20260121_000959_4096_0211_(AIA).jpg) | Courtesy of NASA/SDO and the AIA, EVE, and HMI sci | Public domain |
+| `ext-geothermal-20schematic2.png` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Geothermal%20Schematic2.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-tidal-bulge.png` | [Tidal bulge.png](https://commons.wikimedia.org/wiki/File:Tidal_bulge.png) | Orion 8 | Public domain |
+| `wm-altitudinal-zones-of-alps-mountains-extended-dia.png` | [Altitudinal zones of Alps mountains-extended diagram.svg](https://commons.wikimedia.org/wiki/File:Altitudinal_zones_of_Alps_mountains-extended_diagram.svg) | Delphi234 | CC BY-SA 4.0 |
+| `ext-carbon-cycle.jpg` | https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-nitrogencycle.jpg` | https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-phosphorus-cycle-flowchart.png` | [Phosphorus cycle flowchart.png](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png) | Entropyrider | CC0 |
+| `ext-ecosystem-puzzle.png` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ecosystem_puzzle.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `sdata-human-modification.png` | https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-025-04892-2/MediaObjects/41597_2025_4892_Fig10_HTML.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-figure-03-planetary-boundaries-diagram-legend.jpg` | https://www.planetaryhealthcheck.org/wp-content/uploads/FIGURE_03-Planetary_Boundaries_diagram_legend.jpeg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-earth-system-diagram-print.jpg` | https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-oresampleimages.jpg` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-dynamicplanet.jpg` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-chronostratchart2026-06.jpg` | https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-earth-energy-budget-storyboard-slide-7-labels-an.jpg` | https://mynasadata.larc.nasa.gov/sites/default/files/2022-10/earth_energy_budget_storyboard_slide_7_labels_and_numbers.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-era5-global-mean-temperature.png` | [ERA5 global mean temperature.png](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png) | S. Berghald | CC BY-SA 4.0 |
+| `ext-wx-cyclone2.png` | https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-worldkoppen.png` | [WorldKoppen.png](https://commons.wikimedia.org/wiki/File:WorldKoppen.png) | Nothda | CC0 |
+| `ext-wcd-201.jpg` | https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/WCD%201.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-world-map-ocean-locator-en.svg` | [World map ocean locator-en.svg](https://commons.wikimedia.org/wiki/File:World_map_ocean_locator-en.svg) | Pinpin | CC BY-SA 3.0 |
+| `wm-ocean-surface-currents.jpg` | [Ocean surface currents.jpg](https://commons.wikimedia.org/wiki/File:Ocean_surface_currents.jpg) | NOAA | Public domain |
+| `bga-relief-europe.jpg` | https://bluegreenatlas.com/maps/relief_map_of_europe.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `bga-relief-north-america.jpg` | https://bluegreenatlas.com/maps/relief_map_of_north_america.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-pia03377.jpg` | https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia03/pia03377/PIA03377.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-central-america-and-the-caribbean-shaded-relief-.jpg` | [Central America and the Caribbean Shaded Relief Map No Text or Borders.png](https://commons.wikimedia.org/wiki/File:Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png) | Central Intelligence Agency (CIA) | Public domain |
+| `bga-relief-south-america.jpg` | https://bluegreenatlas.com/maps/relief_map_of_south_america.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `bga-relief-oceania.jpg` | https://bluegreenatlas.com/maps/relief_map_of_oceania.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `bga-relief-kyrgyzstan.jpg` | https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ocha-kyrgyzstan-borders.svg` | https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-borders.svg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-kyrgyzstan-topography.jpg` | [Kyrgyzstan Topography.png](https://commons.wikimedia.org/wiki/File:Kyrgyzstan_Topography.png) | Sadalmelik | Public domain |
+| `ext-nhess-24-2597-2024-f01-web.png` | https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ext-nhess-24-2597-2024-f10-web.png` | https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f10-web.png | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `ocha-kyrgyzstan-labels.svg` | https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-labels.svg | см. подпись в главе / see chapter caption | см. подпись / see caption |
+| `wm-rock-cairn-on-the-south-inylchek-glacier-with-je.jpg` | [Rock cairn on the South Inylchek Glacier, with Jengish Chokusu (Victory Peak) in the background, Khan Tengri Nature Park, Tien Shan.jpg](https://commons.wikimedia.org/wiki/File:Rock_cairn_on_the_South_Inylchek_Glacier,_with_Jengish_Chokusu_(Victory_Peak)_in_the_background,_Khan_Tengri_Nature_Park,_Tien_Shan.jpg) | Maryliflower | CC BY-SA 4.0 |
+| `wm-khan-tengri-in-the-mist.jpg` | [Khan Tengri in the mist.jpg](https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg) | Chen Zhao | CC BY 2.0 |
+| `wm-pic-l-nine.jpg` | [Pic Lénine.jpg](https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg) | Benoît Vicart | CC0 |
+| `ext-feart-10-850146-g001.jpg` | https://www.frontiersin.org/files/Articles/850146/xml-images/feart-10-850146-g001.webp | см. подпись в главе / see chapter caption | см. подпись / see caption |

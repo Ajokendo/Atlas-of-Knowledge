@@ -36,7 +36,7 @@
 - поддерживает естественный парниковый эффект.
 
 <!-- VISUAL ID: 5.1-A -->
-![Состав сухого воздуха / Composition of dry air](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
+![Состав сухого воздуха / Composition of dry air](../visuals/chapter-05-dry-air-composition.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge. Объёмные доли основных компонентов сухого воздуха приблизительны; малые компоненты вынесены отдельно и не показаны в масштабе. CO₂ — предварительное среднегодовое значение NOAA за 2025 год по морским поверхностным станциям (425,62 ppm). Значения округлены. / Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [Данные NOAA / NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
 
@@ -92,7 +92,7 @@
 Неравномерный нагрев поверхности по широте создаёт температурные контрасты. Атмосферная циркуляция и океанические течения перераспределяют энергию от низких широт к высоким.
 
 <!-- VISUAL ID: 5.3-A -->
-![Схема энергетического баланса Земли с потоками солнечной и тепловой энергии и значениями в Вт/м² / NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](https://mynasadata.larc.nasa.gov/sites/default/files/2022-10/earth_energy_budget_storyboard_slide_7_labels_and_numbers.png)
+![Схема энергетического баланса Земли с потоками солнечной и тепловой энергии и значениями в Вт/м² / NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](../assets/imported/ext-earth-energy-budget-storyboard-slide-7-labels-an.jpg)
 
 *Схема показывает потоки энергии в Вт/м²; значения основаны на среднем за десять лет и отражают более раннюю оценку энергетического баланса, а не современные измерения. Источники данных: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Изображение: NASA / My NASA Data. / The diagram shows energy fluxes in W/m²; values are based on a ten-year average and represent an earlier estimate of Earth's energy budget, not current measurements. Data sources: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Image credit: NASA / My NASA Data.*
 
@@ -124,7 +124,7 @@
 **Температурная инверсия** — состояние, при котором температура с высотой повышается в некотором слое. Инверсии могут способствовать накоплению загрязняющих веществ у поверхности.
 
 <!-- VISUAL ID: 5.4-A -->
-![Средняя температура за 1991–2020 годы по данным ERA5 / Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
+![Средняя температура за 1991–2020 годы по данным ERA5 / Mean temperature, 1991–2020, ERA5](../assets/imported/wm-era5-global-mean-temperature.png)
 
 *Пространственное распределение средней температуры воздуха на высоте 2 м за 30-летний период 1991–2020 по данным реанализа ERA5. Это климатическая характеристика периода, а не карта температурных аномалий и не прогноз. Автор изображения: S. Berghald; источник данных: ERA5 monthly averaged data, Copernicus Climate Data Store. Файл используется без изменений по CC BY-SA 4.0; [текст лицензии](https://creativecommons.org/licenses/by-sa/4.0/). / Spatial distribution of mean 2-m air temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. The file is reused unchanged under CC BY-SA 4.0; [licence text](https://creativecommons.org/licenses/by-sa/4.0/).*
 
@@ -156,7 +156,7 @@
 Скорость ветра измеряют анемометром, направление — флюгером или другими приборами. Направление ветра называют по той стороне горизонта, откуда он дует.
 
 <!-- VISUAL ID: 5.5-A -->
-![Пример приземной карты с областями высокого и низкого давления и изобарами / Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
+![Пример приземной карты с областями высокого и низкого давления и изобарами / Example surface map with high- and low-pressure systems and isobars](../assets/imported/ext-wx-cyclone2.png)
 
 *Пример синоптической карты: центры высокого и низкого давления, изобары и связанное с ними поле ветра. Схема и пояснение Национальной метеорологической службы США (NWS), страница Basic Discussion on Pressure Systems. Пример относится к Северному полушарию: в Южном полушарии направление циклонического и антициклонического вращения противоположно. / Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Источник / Source](https://www.weather.gov/lmk/basic-fronts).
 
@@ -196,7 +196,7 @@
 *Кучево-дождевое облако с «наковальней»: оно даёт ливни и грозы. Фото: Kamil Nowacki, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg) / A cumulonimbus cloud with an anvil top, the source of downpours and thunderstorms. Photo: Kamil Nowacki, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg).*
 
 <!-- VISUAL ID: 5.7-B -->
-![Образование облаков и осадков: четыре механизма подъёма воздуха / Cloud and precipitation formation: four lifting mechanisms](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
+![Образование облаков и осадков: четыре механизма подъёма воздуха / Cloud and precipitation formation: four lifting mechanisms](../visuals/chapter-05-cloud-formation-processes.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge, адаптированная по Figure 2 из руководства American Meteorological Society, Project Atmosphere: Clouds (2025). Исходная Figure 2 лицензирована CC BY-SA 4.0; схема переработана и упрощена для учебных целей. Для производной работы сохраняются условия CC BY-SA 4.0; [текст лицензии](https://creativecommons.org/licenses/by-sa/4.0/). Подъём сам по себе не гарантирует осадки: для образования облака влажный воздух должен охладиться до насыщения. / Original bilingual Atlas of Knowledge diagram adapted from Figure 2 of the American Meteorological Society's Project Atmosphere: Clouds (2025) teacher's guide. The source figure is licensed CC BY-SA 4.0; the diagram has been redrawn and simplified for teaching. The derivative must retain the CC BY-SA 4.0 terms; [licence text](https://creativecommons.org/licenses/by-sa/4.0/). Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form.* [Источник / Source](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
 
@@ -293,7 +293,7 @@
 **Иллюстрация 5.9-A — Weather vs Climate.**
 
 <!-- VISUAL ID: 5.9-A -->
-![Погода и климат: два временных масштаба / Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
+![Погода и климат: два временных масштаба / Weather and climate: two time scales](../visuals/chapter-05-weather-vs-climate.svg)
 
 *Оригинальная двуязычная схема Atlas of Knowledge. Левая панель показывает условные краткосрочные изменения погоды; правая — статистическое описание климата: среднее и диапазон изменчивости на длинном ряду наблюдений. Иллюстративные точки и линии не являются измеренными данными. Климатические нормы ВМО рассчитываются для стандартных последовательных 30-летних периодов; используемый период необходимо указывать. Один холодный день не опровергает долгосрочную тенденцию. / Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
 
@@ -337,7 +337,7 @@
 Помимо Кёппена — Гейгера применяются генетические классификации, классификации по водному балансу, биоклиматические схемы и региональные системы. Для прикладных задач выбирают метод, соответствующий цели исследования.
 
 <!-- VISUAL ID: 5.11-A -->
-![Климатическая классификация Кёппена — Гейгера, 1991–2020 / Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
+![Климатическая классификация Кёппена — Гейгера, 1991–2020 / Köppen–Geiger climate classification, 1991–2020](../assets/imported/wm-worldkoppen.png)
 
 *Карта климатических классов Кёппена — Гейгера с пространственным разрешением 1 км; период исходных климатических данных — 1991–2020. Карта показывает типы климата, а не широтные климатические пояса. Автор карты: Nothda; лицензия CC0 1.0. Исходная научная работа: Beck et al. (2023), DOI: 10.1038/s41597-023-02549-6. / Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Map author: Nothda; licence CC0 1.0. Underlying research: Beck et al. (2023), DOI: 10.1038/s41597-023-02549-6.*
 
@@ -360,7 +360,7 @@
 **Иллюстрация 5.12-A — Global Climate Belts / Климатические пояса мира.**
 
 <!-- VISUAL ID: 5.12-A -->
-![Климатические пояса мира: условная широтная модель / Global climate belts: conceptual latitudinal model](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-global-climate-belts.svg)
+![Климатические пояса мира: условная широтная модель / Global climate belts: conceptual latitudinal model](../visuals/chapter-05-global-climate-belts.svg)
 
 *Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны экваториальный, тропический, субтропический, умеренный, субполярный и полярный пояса в обоих полушариях. Волнистые границы подчёркивают, что климатические пояса не являются идеальными параллельными полосами; их положение зависит от сезона, циркуляции атмосферы, распределения суши и океана и рельефа. Схема не предназначена для определения точных границ или классификации конкретного места. / Original bilingual conceptual diagram by Atlas of Knowledge. It shows equatorial, tropical, subtropical, temperate, subpolar and polar belts in both hemispheres. Curved boundaries emphasise that climate belts are not perfect parallel bands; their position is influenced by season, atmospheric circulation, land–ocean distribution and relief. The diagram is not intended for locating exact boundaries or classifying a specific place.*
 
@@ -427,7 +427,7 @@
 **Иллюстрация 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
 
 <!-- VISUAL ID: 5.14-A -->
-![Опасные атмосферные явления и основные меры безопасности / Atmospheric hazards and basic safety actions](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-atmospheric-hazards.svg)
+![Опасные атмосферные явления и основные меры безопасности / Atmospheric hazards and basic safety actions](../visuals/chapter-05-atmospheric-hazards.svg)
 
 *Оригинальная двуязычная учебная инфографика Atlas of Knowledge: грозы и молнии, жара и засуха, штормовой ветер и циклоны, сильный снег и гололёд, туман и пыльные бури. Меры приведены как общие рекомендации; конкретные действия должны соответствовать местным официальным предупреждениям и условиям. Схема не ранжирует явления по частоте или опасности. / Original bilingual Atlas of Knowledge educational infographic: thunderstorms and lightning, heatwaves and drought, high winds and cyclones, heavy snow and ice, fog and dust storms. Actions are general guidance; specific decisions should follow local official warnings and conditions. The diagram does not rank hazards by frequency or severity.*
 
@@ -460,7 +460,7 @@
 **Иллюстрация 5.15-A — Climate Change: Drivers, Evidence and Responses / Изменение климата: причины, свидетельства и ответы.**
 
 <!-- VISUAL ID: 5.15-A -->
-![Причины, свидетельства и ответы на изменение климата / Climate change drivers, evidence and responses](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
+![Причины, свидетельства и ответы на изменение климата / Climate change drivers, evidence and responses](../visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
 
 *Оригинальная двуязычная причинно-следственная схема Atlas of Knowledge. Она показывает общую последовательность: деятельность человека → выбросы парниковых газов → рост их концентрации и радиационного воздействия → нагрев климатической системы → наблюдаемые изменения. Нижний блок разделяет смягчение изменения климата (сокращение выбросов и усиление поглощения) и адаптацию (снижение уязвимости и подготовка к рискам). Естественная изменчивость климата продолжается, но не объясняет современную долгосрочную тенденцию потепления. Схема качественная, не количественная; она не показывает величину вклада каждого сектора или прогноз для отдельного региона. / Original bilingual causal diagram by Atlas of Knowledge. It shows the general sequence: human activities → greenhouse-gas emissions → higher concentrations and radiative forcing → warming of the climate system → observed changes. The lower panel distinguishes mitigation (cutting emissions and enhancing removals) from adaptation (reducing vulnerability and preparing for risks). Natural climate variability continues but does not explain the modern long-term warming trend. This is a qualitative, not quantitative, diagram; it does not quantify sector contributions or provide a regional forecast.*
 
@@ -482,7 +482,7 @@
 Климатические модели отличаются от краткосрочных прогнозов: они исследуют статистические характеристики системы и её реакцию на сценарии внешнего воздействия, а не пытаются предсказать точную погоду на конкретный день через десятилетия.
 
 <!-- VISUAL ID: 5.16-A -->
-![От метеорологических наблюдений к прогнозу погоды / From weather observations to a forecast](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
+![От метеорологических наблюдений к прогнозу погоды / From weather observations to a forecast](../visuals/chapter-05-weather-observations-to-forecast.svg)
 
 ## 5.16.1. Практический пример: анализ годового хода температуры и осадков / Worked Example: Analysing Annual Temperature and Precipitation
 
@@ -530,7 +530,7 @@
 Климатограмма обычно показывает среднемесячную температуру и количество осадков за определённый период. В этой главе используется единый формат: столбцы показывают осадки в миллиметрах, линия — температуру в градусах Цельсия. Перед сравнением необходимо проверить, что обе диаграммы относятся к сопоставимым периодам наблюдений.
 
 <!-- VISUAL ID: 5.17-A -->
-![5.17-A. Климатограммы континентального и морского учебных примеров / Climate diagrams for continental and maritime teaching examples](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-diagram-exercise.svg)
+![5.17-A. Климатограммы континентального и морского учебных примеров / Climate diagrams for continental and maritime teaching examples](../visuals/chapter-05-climate-diagram-exercise.svg)
 
 *Оригинальная двуязычная учебная схема Atlas of Knowledge. Два набора данных условные и предназначены только для тренировки чтения графиков; они не относятся к реальным метеостанциям и не должны использоваться для определения климата конкретной территории. Столбцы — месячные осадки (мм), линия — среднемесячная температура (°C). / Original bilingual Atlas of Knowledge teaching diagram. Both datasets are synthetic and intended only for graph-reading practice; they do not represent real weather stations and must not be used to classify the climate of a real location. Bars show monthly precipitation (mm); the line shows mean monthly temperature (°C).*
 
@@ -680,7 +680,7 @@ Dry air near Earth's surface consists mainly of nitrogen and oxygen. Its approxi
 The atmosphere supplies oxygen for the respiration of most organisms and carbon dioxide for photosynthesis; transports heat and moisture; forms clouds and precipitation; reduces some ultraviolet radiation through the ozone layer; causes many small meteoroids to burn up; and supports the natural greenhouse effect.
 
 <!-- VISUAL ID: 5.1-A -->
-![Composition of dry air / Состав сухого воздуха](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-dry-air-composition.svg)
+![Composition of dry air / Состав сухого воздуха](../visuals/chapter-05-dry-air-composition.svg)
 
 *Original bilingual Atlas of Knowledge diagram. Volume fractions of the main components of dry air are approximate; minor components are shown separately and not to scale. CO₂ is NOAA's preliminary 2025 annual marine-surface mean (425.62 ppm). Values are rounded.* [NOAA data](https://gml.noaa.gov/ccgg/trends/gl_data.html).
 
@@ -712,7 +712,7 @@ Some incoming energy is reflected by clouds, aerosols, the atmosphere and the su
 **Energy transport.** Uneven heating by latitude creates temperature contrasts. Atmospheric circulation and ocean currents redistribute energy from lower to higher latitudes.
 
 <!-- VISUAL ID: 5.3-A -->
-![NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](https://mynasadata.larc.nasa.gov/sites/default/files/2022-10/earth_energy_budget_storyboard_slide_7_labels_and_numbers.png)
+![NASA diagram of Earth's energy budget showing solar and thermal energy flows with values in W/m²](../assets/imported/ext-earth-energy-budget-storyboard-slide-7-labels-an.jpg)
 
 *The diagram shows energy fluxes in W/m²; values are based on a ten-year average and are not current measurements. Data sources: Loeb et al., Journal of Climate (2009); Trenberth et al., Bulletin of the American Meteorological Society (2009). Image credit: NASA / My NASA Data.* [Source](https://mynasadata.larc.nasa.gov/basic-page/earths-energy-budget).
 
@@ -727,7 +727,7 @@ The temperature of the troposphere generally decreases with altitude, but the ac
 A **temperature inversion** occurs when temperature increases with height through a layer. Inversions can contribute to the accumulation of pollutants near the surface.
 
 <!-- VISUAL ID: 5.4-A -->
-![Mean temperature, 1991–2020, ERA5](https://commons.wikimedia.org/wiki/Special:FilePath/ERA5_global_mean_temperature.png)
+![Mean temperature, 1991–2020, ERA5](../assets/imported/wm-era5-global-mean-temperature.png)
 
 *Spatial distribution of mean temperature for the 30-year period 1991–2020 based on ERA5 reanalysis. This is a climatological field, not an anomaly map or forecast. Image author: S. Berghald; data source: ERA5 monthly averaged data, Copernicus Climate Data Store. Image licence: CC BY-SA 4.0.* [File and licence](https://commons.wikimedia.org/wiki/File:ERA5_global_mean_temperature.png).
 
@@ -744,7 +744,7 @@ The direction of rotation of cyclones and anticyclones is influenced by the Cori
 **Wind** is the horizontal movement of air relative to the surface. It is influenced by the pressure-gradient force, Earth's rotation, friction and the curvature of air trajectories. Wind speed is measured with an anemometer; direction may be measured with a wind vane or other instruments. Wind direction is named for the direction from which the wind blows.
 
 <!-- VISUAL ID: 5.5-A -->
-![Example surface map with high- and low-pressure systems and isobars](https://www.weather.gov/images/lmk/soo/wx_cyclone2.gif)
+![Example surface map with high- and low-pressure systems and isobars](../assets/imported/ext-wx-cyclone2.png)
 
 *Example synoptic chart showing high- and low-pressure centres, isobars and the associated wind field. Diagram and explanation by the U.S. National Weather Service (NWS), Basic Discussion on Pressure Systems. This example is for the Northern Hemisphere; cyclonic and anticyclonic rotation is reversed in the Southern Hemisphere.* [Source](https://www.weather.gov/lmk/basic-fronts).
 
@@ -793,7 +793,7 @@ The WMO International Cloud Atlas recognises ten main cloud genera:
 The altitude boundaries vary with latitude and atmospheric conditions, and altitude groupings are approximate: some cloud genera span more than one level. Nimbostratus, for example, may extend from low levels upwards, while cumulonimbus has great vertical development. A cloud genus describes form and structure; it does not by itself guarantee a particular weather outcome.
 
 <!-- VISUAL ID: 5.7-B -->
-![Adapted bilingual diagram of four cloud-forming lifting mechanisms / Адаптированная двуязычная схема четырёх механизмов подъёма воздуха при образовании облаков](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-cloud-formation-processes.svg)
+![Adapted bilingual diagram of four cloud-forming lifting mechanisms / Адаптированная двуязычная схема четырёх механизмов подъёма воздуха при образовании облаков](../visuals/chapter-05-cloud-formation-processes.svg)
 
 *Adapted bilingual Atlas of Knowledge diagram based on Figure 2 of the American Meteorological Society's Project Atmosphere: Clouds (2025). The figure has been redrawn, simplified and relabelled bilingually for teaching. Four mechanisms are shown: convection, convergence, frontal lifting and orographic lifting. Ascent alone does not guarantee precipitation: moist air must cool to saturation for a cloud to form. This adaptation is shared under the same CC BY-SA 4.0 licence as the source.* [AMS source, Figure 2, and CC BY-SA 4.0 licence](https://www.ametsoc.org/sites/ams/assets/ProjectAtmosphere_Module_Clouds_2025.pdf).
 
@@ -854,7 +854,7 @@ Meteorological observations are collected by land stations, marine platforms, we
 **Illustration 5.9-A — Weather vs Climate.**
 
 <!-- VISUAL ID: 5.9-A -->
-![Weather and climate: two time scales](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-vs-climate.svg)
+![Weather and climate: two time scales](../visuals/chapter-05-weather-vs-climate.svg)
 
 *Original bilingual Atlas of Knowledge diagram. The left panel shows conceptual short-term weather changes; the right shows a statistical description of climate: an average and a range of variability across a long observation record. The plotted points and lines are illustrative, not measured data. WMO climatological standard normals use consecutive 30-year periods; the reference period must be stated. A single cold day does not disprove a long-term trend.* [NOAA: Climate Compared to Weather](https://www.climate.gov/climate-and-energy-topics/climate-compared-weather) · [WMO: Climate Normals](https://wmo.int/wmo-climatological-normals).
 
@@ -883,7 +883,7 @@ No single factor acts in isolation. The climate of a coast, for example, depends
 Climate classifications organise climate conditions according to temperature, precipitation, seasonality and other indicators.
 
 <!-- VISUAL ID: 5.11-A -->
-![Köppen–Geiger climate classification, 1991–2020](https://commons.wikimedia.org/wiki/Special:FilePath/WorldKoppen.png)
+![Köppen–Geiger climate classification, 1991–2020](../assets/imported/wm-worldkoppen.png)
 
 *Köppen–Geiger climate classes at 1-km spatial resolution; underlying climate-data period: 1991–2020. The map shows climate types, not latitudinal climate belts. Author: Nothda; licence: CC0 1.0.* [File and licence](https://commons.wikimedia.org/wiki/File:WorldKoppen.png).
 
@@ -909,7 +909,7 @@ Equatorial regions generally receive substantial solar energy throughout the yea
 **Illustration 5.12-A — Global Climate Belts / Климатические пояса мира.**
 
 <!-- VISUAL ID: 5.12-A -->
-![Global climate belts: conceptual latitudinal model / Климатические пояса мира: условная широтная модель](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-global-climate-belts.svg)
+![Global climate belts: conceptual latitudinal model / Климатические пояса мира: условная широтная модель](../visuals/chapter-05-global-climate-belts.svg)
 
 *Original bilingual conceptual diagram by Atlas of Knowledge. It shows equatorial, tropical, subtropical, temperate, subpolar and polar belts in both hemispheres. Curved boundaries emphasise that climate belts are not perfect parallel bands; their position is influenced by season, atmospheric circulation, land–ocean distribution and relief. The diagram is not intended for locating exact boundaries or classifying a specific place. / Оригинальная двуязычная концептуальная схема Atlas of Knowledge. Показаны экваториальный, тропический, субтропический, умеренный, субполярный и полярный пояса в обоих полушариях. Волнистые границы подчёркивают, что климатические пояса не являются идеальными параллельными полосами; их положение зависит от сезона, циркуляции атмосферы, распределения суши и океана и рельефа. Схема не предназначена для определения точных границ или классификации конкретного места.*
 
@@ -939,7 +939,7 @@ Atmospheric phenomena may threaten health, infrastructure, agriculture and trans
 **Illustration 5.14-A — Atmospheric Hazards / Опасные атмосферные явления.**
 
 <!-- VISUAL ID: 5.14-A -->
-![Atmospheric hazards and basic safety actions / Опасные атмосферные явления и основные меры безопасности](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-atmospheric-hazards.svg)
+![Atmospheric hazards and basic safety actions / Опасные атмосферные явления и основные меры безопасности](../visuals/chapter-05-atmospheric-hazards.svg)
 
 *Original bilingual Atlas of Knowledge educational infographic: thunderstorms and lightning, heatwaves and drought, high winds and cyclones, heavy snow and ice, fog and dust storms. Actions are general guidance; specific decisions should follow local official warnings and conditions. The diagram does not rank hazards by frequency or severity. / Оригинальная двуязычная учебная инфографика Atlas of Knowledge: грозы и молнии, жара и засуха, штормовой ветер и циклоны, сильный снег и гололёд, туман и пыльные бури. Меры приведены как общие рекомендации; конкретные действия должны соответствовать местным официальным предупреждениям и условиям. Схема не ранжирует явления по частоте или опасности.*
 
@@ -958,7 +958,7 @@ Adaptation includes early-warning systems, sustainable water management, climate
 **Illustration 5.15-A — Climate Change: Drivers, Evidence and Responses / Изменение климата: причины, свидетельства и ответы.**
 
 <!-- VISUAL ID: 5.15-A -->
-![Climate change drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
+![Climate change drivers, evidence and responses / Причины, свидетельства и ответы на изменение климата](../visuals/chapter-05-climate-change-drivers-evidence-responses.svg)
 
 *Original bilingual causal diagram by Atlas of Knowledge. It shows the general sequence: human activities → greenhouse-gas emissions → higher concentrations and radiative forcing → warming of the climate system → observed changes. The lower panel distinguishes mitigation (cutting emissions and enhancing removals) from adaptation (reducing vulnerability and preparing for risks). Natural climate variability continues but does not explain the modern long-term warming trend. This is a qualitative, not quantitative, diagram; it does not quantify sector contributions or provide a regional forecast. / Оригинальная двуязычная причинно-следственная схема Atlas of Knowledge. Она показывает общую последовательность: деятельность человека → выбросы парниковых газов → рост их концентрации и радиационного воздействия → нагрев климатической системы → наблюдаемые изменения. Нижний блок разделяет смягчение изменения климата (сокращение выбросов и усиление поглощения) и адаптацию (снижение уязвимости и подготовка к рискам). Естественная изменчивость климата продолжается, но не объясняет современную долгосрочную тенденцию потепления. Схема качественная, не количественная; она не показывает величину вклада каждого сектора или прогноз для отдельного региона.*
 
@@ -971,7 +971,7 @@ Meteorology studies atmospheric processes and weather. Operational weather forec
 **Illustration 5.16-A — From Weather Observations to a Forecast / От метеорологических наблюдений к прогнозу погоды.**
 
 <!-- VISUAL ID: 5.16-A -->
-![From weather observations to a forecast / От наблюдений к прогнозу погоды](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-weather-observations-to-forecast.svg)
+![From weather observations to a forecast / От наблюдений к прогнозу погоды](../visuals/chapter-05-weather-observations-to-forecast.svg)
 
 *Original bilingual Atlas of Knowledge diagram. The sequence is simplified: real forecasting centres may combine steps and run several systems in parallel. Observation platforms include surface stations, radiosondes carried by weather balloons, radar, satellites, ships, buoys and aircraft. Satellites provide remote-sensing measurements; they do not independently generate a forecast. / Оригинальная двуязычная схема Atlas of Knowledge. Последовательность упрощена: реальные метеорологические центры могут объединять этапы и параллельно использовать несколько систем. Источники данных — наземные станции, радиозонды на метеорологических шарах, радары, спутники, суда, буи и самолёты. Спутники предоставляют данные дистанционного зондирования, но сами по себе не составляют прогноз.*
 
@@ -1057,7 +1057,7 @@ These values describe the annual cycles of temperature and precipitation, but th
 A climate graph usually shows mean monthly temperature and precipitation for a stated period. In this chapter, bars show precipitation in millimetres and the line shows mean temperature in degrees Celsius. Before comparing diagrams, check that their observation periods are comparable.
 
 <!-- VISUAL ID: 5.17-A -->
-![5.17-A. Climate diagrams for continental and maritime teaching examples / Климатограммы континентального и морского учебных примеров](https://raw.githubusercontent.com/Ajokendo/Atlas-of-Knowledge/workspace/geography/geography/visuals/chapter-05-climate-diagram-exercise.svg)
+![5.17-A. Climate diagrams for continental and maritime teaching examples / Климатограммы континентального и морского учебных примеров](../visuals/chapter-05-climate-diagram-exercise.svg)
 
 *Original bilingual Atlas of Knowledge teaching diagram. Both datasets are synthetic and intended only for graph-reading practice; they do not represent real weather stations and must not be used to classify the climate of a real location. / Оригинальная двуязычная учебная схема Atlas of Knowledge. Оба набора данных условные, не относятся к реальным метеостанциям и предназначены только для тренировки чтения графиков.*
 

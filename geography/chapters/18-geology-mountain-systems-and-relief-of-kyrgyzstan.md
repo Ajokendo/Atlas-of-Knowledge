@@ -26,7 +26,7 @@ After studying this chapter, readers should be able to explain the geological st
 
 **Дополнительная обзорная карта рельефа / Supplementary relief overview**
 
-![Обзорная карта рельефа Кыргызстана с горными областями, озёрами, реками и населёнными пунктами / Relief overview of Kyrgyzstan showing mountain regions, lakes, rivers and settlements](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+![Обзорная карта рельефа Кыргызстана с горными областями, озёрами, реками и населёнными пунктами / Relief overview of Kyrgyzstan showing mountain regions, lakes, rivers and settlements](../assets/imported/bga-relief-kyrgyzstan.jpg)
 
 *Blue Green Atlas, «Free relief map of Kyrgyzstan», CC BY 4.0. Проекция Меркатора; источники рельефа — NASA SRTM3 (около 90 м), батиметрии — GEBCO 2019, озёр — HydroLAKES, рек — HydroATLAS, городов — VMap0. На странице не указаны дата сборки карты, вертикальная система отсчёта и оценка точности. Поэтому это обзорная учебная карта, а не валидированная современная DEM и не источник для точных высот/юридических границ. / Blue Green Atlas, “Free relief map of Kyrgyzstan”, CC BY 4.0. Mercator projection; relief from NASA SRTM3 (~90 m), bathymetry from GEBCO 2019, lakes from HydroLAKES, rivers from HydroATLAS and cities from VMap0. The page does not state map compilation date, vertical reference or accuracy assessment. It is therefore a teaching overview, not a validated current DEM or an authority for exact elevations/legal boundaries. Source: [Blue Green Atlas](https://www.bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.html).
 
@@ -308,15 +308,15 @@ These descriptions are geographic summaries, not a substitute for a georeference
 
 **Фотографическая подборка / Photo set**
 
-![Жеңиш чокусу на фоне ледника Южный Иныльчек; каменная тура на переднем плане / Jengish Chokusu above the South Inylchek Glacier, with a stone cairn in the foreground](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg/960px-Rock_cairn_on_the_South_Inylchek_Glacier%2C_with_Jengish_Chokusu_%28Victory_Peak%29_in_the_background%2C_Khan_Tengri_Nature_Park%2C_Tien_Shan.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+![Жеңиш чокусу на фоне ледника Южный Иныльчек; каменная тура на переднем плане / Jengish Chokusu above the South Inylchek Glacier, with a stone cairn in the foreground](../assets/imported/wm-rock-cairn-on-the-south-inylchek-glacier-with-je.jpg)
 
 *Автор: Maryliflower, 2021. CC BY-SA 4.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rock_cairn_on_the_South_Inylchek_Glacier,_with_Jengish_Chokusu_(Victory_Peak)_in_the_background,_Khan_Tengri_Nature_Park,_Tien_Shan.jpg). Изображение не изменено. / Author: Maryliflower, 2021. CC BY-SA 4.0. Source and licence: Wikimedia Commons. Unmodified.*
 
-![Хан-Тенгри в облаках, виден характерный мраморный гребень / Khan Tengri in cloud, showing its distinctive marble ridge](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Khan_Tengri_in_the_mist.jpg/960px-Khan_Tengri_in_the_mist.jpg)
+![Хан-Тенгри в облаках, виден характерный мраморный гребень / Khan Tengri in cloud, showing its distinctive marble ridge](../assets/imported/wm-khan-tengri-in-the-mist.jpg)
 
 *Автор: Chen Zhao, 2009. CC BY 2.0. Источник и лицензия: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Khan_Tengri_in_the_mist.jpg). Изображение не изменено. / Author: Chen Zhao, 2009. CC BY 2.0. Source and licence: Wikimedia Commons. Unmodified.*
 
-![Пик Ленина над Памирским трактом в Кыргызстане / Lenin Peak above the Pamir Highway in Kyrgyzstan](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pic_L%C3%A9nine.jpg/1280px-Pic_L%C3%A9nine.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)
+![Пик Ленина над Памирским трактом в Кыргызстане / Lenin Peak above the Pamir Highway in Kyrgyzstan](../assets/imported/wm-pic-l-nine.jpg)
 
 *Автор: Benoît Vicart, 2019. CC0 1.0. Источник и статус общественного достояния: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pic_L%C3%A9nine.jpg). Изображение не изменено. / Author: Benoît Vicart, 2019. CC0 1.0. Source and public-domain dedication: Wikimedia Commons. Unmodified.*
 

@@ -8,7 +8,7 @@
 
 **Иллюстрация 2-A — Четыре оболочки Земли и система Земли / Four Earth Spheres and the Earth System.**
 
-![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](https://upload.wikimedia.org/wikipedia/commons/c/cd/Atmosphere-Biosphere-Hydrosphere-Lithosphere.png)
+![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](../assets/imported/wm-atmosphere-biosphere-hydrosphere-lithosphere.png)
 
 *Источник / Source: CK-12 Foundation, *High School Earth Science*, p. 400; image dated 15 November 2010. Лицензия / Licence: CC BY-SA 3.0 Unported. Изображение использовано без изменений. / Image used unchanged. Схема показывает четыре компонента, но не их взаимодействия и не границы географической оболочки. / The diagram identifies the four components; it does not depict their interactions or the boundaries of the geographic envelope. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:Atmosphere-Biosphere-Hydrosphere-Lithosphere.png) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
@@ -26,7 +26,7 @@
 
 **Иллюстрация 2.1-A — Разрез географической оболочки / Geographic Envelope Cross-section.**
 
-![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](https://static.zpe.gov.pl/portal/f/res-minimized/R1H6RHKAGbKdX/1668782966/9QTCnJ7xkazuP4O5qrsqDlBYoByyrqFl.png)
+![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](../assets/imported/ext-9qtcnj7xkazup4o5qrsqdlbyobyyrqfl.png)
 
 *Источник / Source: “Spheres of the Earth”, Andrzej Bogusz and Michał Szymczak, ZPE (Polish national educational platform); exact page credits the authors and CC BY-SA 3.0. Дата создания изображения на странице не указана. / The source page does not state an image creation date. Встроена оптимизированная версия изображения, предоставленная ZPE; содержимое не редактировалось. Подписи на изображении оставлены на польском языке: ATMOSFERA — атмосфера / atmosphere; HYDROSFERA — гидросфера / hydrosphere; LITOSFERA — литосфера / lithosphere; “prądy konwekcyjne wnętrza Ziemi” — конвекционные потоки внутри Земли / mantle convection currents; “Jądro ziemskie” — ядро Земли / Earth's core. Деревья обозначают биосферу; она не подписана отдельным словом на рисунке. / Trees represent the biosphere, which is not labelled as a separate word in the figure. Схема условная и не в масштабе; она показывает внутреннее строение Земли как контекст, а не точные толщины оболочек. / The diagram is schematic and not to scale; Earth's internal structure is shown as context, not as a representation of exact sphere thicknesses. [Страница источника / Source page](https://zpe.gov.pl/a/geografia-jako-nauka/DpWdUl81J) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
@@ -57,7 +57,7 @@
 
 **Иллюстрация 2.2-A — Взаимодействие четырёх оболочек / Interactions Between Four Earth Spheres.**
 
-![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](https://www.thephysicalenvironment.com/Book/hydrosphere/spheres3.jpg)
+![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](../assets/imported/ext-spheres3.jpg)
 
 *Источник / Source: Michael E. Ritter, *The Physical Environment*, Figure 2.3.1, “The Earth System” (after Christopherson, 2005), distributed via LibreTexts. Лицензия страницы и рисунка / Page and figure licence: CC BY-SA 4.0. Стрелки показывают качественные связи и обмен, а не измеренные потоки. / Arrows show conceptual relationships and exchanges, not measured fluxes. [Страница рисунка / Figure page](https://geo.libretexts.org/Bookshelves/Geography_%28Physical%29/The_Physical_Environment_%28Ritter%29/02%3A_The_Earth_System/2.03%3A_Natural_Systems/2.3.01%3A_Components_of_the_Earth_System) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -71,7 +71,7 @@
 
 **Иллюстрация 2-B — Слои атмосферы / Layers of the Atmosphere.**
 
-![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](https://upload.wikimedia.org/wikipedia/commons/9/9e/1_atmosphere_layers.png)
+![Пять основных слоёв атмосферы / The five basic layers of the atmosphere](../assets/imported/wm-1-atmosphere-layers.png)
 
 *Источник / Source: NASA Goddard, “1 atmosphere layers.png” (20 July 2010); uploaded to Wikimedia Commons 22 April 2024 by Nsae Comp. Размер / Dimensions: 1,148 × 766 px. Public Domain in the United States (NASA government work); используемое изображение — без изменений. / Image used unchanged. На схеме показаны пять основных слоёв, высота, ионосфера и примеры наблюдаемых явлений; вертикальный масштаб ограничен 400 км и не показывает всю протяжённость экзосферы. / The diagram shows the five main layers, altitude, ionosphere and example phenomena; its vertical scale ends at 400 km and does not show the full extent of the exosphere. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:1_atmosphere_layers.png) · [Исходная страница NASA / NASA source page](https://www.nccs.nasa.gov/news-events/nccs-highlights/global-ozone-profile).*
 
@@ -111,7 +111,7 @@
 
 **Иллюстрация 2.3-A — Температурный профиль атмосферы / Atmospheric Temperature Profile.**
 
-![График изменения температуры с высотой и границы атмосферных слоёв / Atmospheric temperature profile and layer boundaries](https://upload.wikimedia.org/wikipedia/commons/f/f6/469649main_earths-atmosphere-orig_full.jpg)
+![График изменения температуры с высотой и границы атмосферных слоёв / Atmospheric temperature profile and layer boundaries](../assets/imported/wm-469649main-earths-atmosphere-orig-full.jpg)
 
 *Источник / Source: NASA, “Properties of Earth’s Upper Atmosphere” (20 July 2010); graphic credit: John Emmert / Naval Research Laboratory. Wikimedia Commons file uploaded 19 June 2024. Размер / Dimensions: 1,041 × 732 px. Public Domain in the United States (NASA government work); изображение использовано без изменений. / Image used unchanged. График показывает температурные профили для солнечного минимума и максимума, а также плотность отдельных газов и диапазоны излучения; показаны четыре нижних слоя до термосферы, но не экзосфера. / The graphic shows temperature profiles for solar minimum and maximum, gas-density curves and radiation bands; it depicts the four lower layers through the thermosphere, not the exosphere. [Страница файла / File page](https://commons.wikimedia.org/wiki/File:469649main_earths-atmosphere-orig_full.jpg) · [Исходная страница NASA / NASA source page](https://www.nasa.gov/image-article/properties-of-earths-upper-atmosphere/).*
 
@@ -119,7 +119,7 @@
 
 **Иллюстрация 2-C — Распределение воды Земли / Distribution of Earth's Water.**
 
-![Распределение воды Земли: вся вода, пресная вода и поверхностные пресные воды / Distribution of Earth's water: all water, freshwater and surface freshwater](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+![Распределение воды Земли: вся вода, пресная вода и поверхностные пресные воды / Distribution of Earth's water: all water, freshwater and surface freshwater](../assets/imported/ext-earthswater-barchart.png)
 
 *Источник / Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Округлённые доли основаны на оценках Игоря Шикломанова, опубликованных в 1993 году; это историческая глобальная оценка, а не измерение за 2026 год. В трёх столбцах используются разные знаменатели: вся вода Земли, вся пресная вода и поверхностная/прочая пресная вода. / Rounded proportions trace to Igor Shiklomanov's 1993 estimates; this is a historical global estimate, not a 2026 measurement. The three bars use different denominators: all Earth's water, all freshwater, and surface/other freshwater. [Страница оригинала / Original source page](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
 
@@ -162,7 +162,7 @@
 
 **Иллюстрация 2.4-A — Глобальный круговорот воды / The Global Water Cycle.**
 
-![Глобальный круговорот воды с природными резервуарами, потоками и воздействием человека / Global water cycle with natural pools, fluxes and human impacts](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png?itok=tAVM8IYl)
+![Глобальный круговорот воды с природными резервуарами, потоками и воздействием человека / Global water cycle with natural pools, fluxes and human impacts](../assets/imported/ext-usgs-watercycle-english-online-20230302.jpg)
 
 *Источник / Source: USGS VizLab, “The Water Cycle” (2022), создано совместно с USGS Water Resources Mission Area Web Communications Branch. Public Domain. Диаграмма включает использование воды человеком и влияние на её качество; это не только естественный цикл. / Public Domain. The diagram includes human water use and water-quality impacts; it is not a natural-only cycle. [Описание и версия для изучения / Description and learning version](https://www.usgs.gov/media/images/water-cycle).*
 
@@ -197,11 +197,11 @@
 
 **Иллюстрация 2.5-A — Три основных типа границ литосферных плит / The Three Main Types of Plate Boundaries.**
 
-![Дивергентная граница: плиты расходятся, формируя новую литосферу / Divergent boundary: plates move apart and new lithosphere forms](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/DivergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C717&ssl=1)
+![Дивергентная граница: плиты расходятся, формируя новую литосферу / Divergent boundary: plates move apart and new lithosphere forms](../assets/imported/ext-divergentplateboundary-cramerietal2019.png)
 
-![Конвергентная граница: плиты сближаются, одна может погружаться под другую / Convergent boundary: plates move together and one may subduct beneath the other](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/ConvergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C705&ssl=1)
+![Конвергентная граница: плиты сближаются, одна может погружаться под другую / Convergent boundary: plates move together and one may subduct beneath the other](../assets/imported/ext-convergentplateboundary-cramerietal2019.png)
 
-![Трансформная граница: плиты смещаются вдоль разлома / Transform boundary: plates slide past one another along a fault](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png?resize=1000%2C643&ssl=1)
+![Трансформная граница: плиты смещаются вдоль разлома / Transform boundary: plates slide past one another along a fault](../assets/imported/ext-transformplateboundary-cramerietal2019.png)
 
 *Автор всех трёх схем / Creator of all three diagrams: Fabio Crameri; версия / version 23 August 2021. Источник / Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Лицензия / Licence: CC BY-SA 4.0. Встроены версии шириной 1000 px, автоматически подготовленные сервисом s-Ink/WordPress; содержание схем не изменялось. / 1000-pixel display renditions served by s-Ink/WordPress are embedded; diagram content was not altered. [Дивергентная / Divergent](https://s-ink.org/divergent-plate-boundary) · [Конвергентная / Convergent](https://s-ink.org/convergent-plate-boundary) · [Трансформная / Transform](https://s-ink.org/transform-plate-boundary) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -230,7 +230,7 @@
 
 **Иллюстрация 2.6-A — От организма к биосфере / From Organism to Biosphere.**
 
-![Hierarchy of biological organization from atom, molecule, macromolecule, cell, tissue, organ and organ system to organism, population, community, ecosystem and biosphere / Иерархия организации живой природы: от атома, молекулы, макромолекулы, клетки, ткани, органа и системы органов до организма, популяции, сообщества, экосистемы и биосферы](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Levels_of_Organization.svg/960px-Levels_of_Organization.svg.png)
+![Hierarchy of biological organization from atom, molecule, macromolecule, cell, tissue, organ and organ system to organism, population, community, ecosystem and biosphere / Иерархия организации живой природы: от атома, молекулы, макромолекулы, клетки, ткани, органа и системы органов до организма, популяции, сообщества, экосистемы и биосферы](../assets/imported/wm-levels-of-organization.svg)
 
 *Автор исходной схемы / Original diagram author: Mikala14, 23 May 2013; CC BY-SA 3.0. Источники встроенных изображений / Embedded-image sources: Kevin Pluck, “Lion waiting in Namibia” (CC BY 2.0); Mikael Häggström, “Lungs.gif” (Public Domain); Alvasilieva, “Phospholipid -1-.jpg” (CC BY-SA 3.0/GFDL); Jeffrey Sohn, “Lions and a Zebra b.jpg” (CC BY-SA 2.0); Brocken Inaglory, “Lioness zebras and wildbeast in Ngorongoro Crater.jpg” (CC BY-SA 3.0/GFDL); NASA/NOAA/GSFC/Suomi NPP/VIIRS/Norman Kuring, “North America from low orbiting satellite Suomi NPP.jpg” (Public Domain in the United States); Benh, “Lions Family Portrait Masai Mara.jpg” (CC BY-SA 3.0). Все ссылки на отдельные файлы и условия их использования приведены ниже; встроена 960-pixel PNG-версия, созданная Wikimedia из исходного SVG; содержимое схемы не редактировалось. / Individual file pages and reuse terms are linked below; a 960-pixel PNG rendering generated by Wikimedia from the original SVG is embedded; diagram content was not edited. Эта схема не выделяет биом отдельной ступенью; понятие биома объясняется в тексте и иллюстрируется в 2.9-A. / This diagram does not show biome as a separate level; the concept is explained in the text and illustrated in 2.9-A. [Исходная схема / Original diagram](https://commons.wikimedia.org/wiki/File:Levels_of_Organization.svg) · [Лев / Lion](https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg) · [Лёгкие / Lungs](https://commons.wikimedia.org/wiki/File:Lungs.gif) · [Фосфолипид / Phospholipid](https://commons.wikimedia.org/wiki/File:Phospholipid_-1-.jpg) · [Львы и зебра / Lions and zebra](https://commons.wikimedia.org/wiki/File:Lions_and_a_Zebra_b.jpg) · [Львица и зебры / Lioness and zebras](https://commons.wikimedia.org/wiki/File:Lioness_zebras_and_wildbeast_in_Ngorongoro_Crater.jpg) · [Земля / Earth](https://commons.wikimedia.org/wiki/File:North_America_from_low_orbiting_satellite_Suomi_NPP.jpg) · [Семья львов / Lion family](https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
 
@@ -269,11 +269,11 @@
 
 **Иллюстрация 2.8-A — Источники энергии и процессы Земли / Energy Sources and Earth Processes.**
 
-![Солнце в экстремальном ультрафиолетовом диапазоне AIA 211 Å; активные области солнечной короны / Sun observed in the AIA 211 Å extreme-ultraviolet channel; active regions of the solar corona](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/SDO_20260121_000959_4096_0211_%28AIA%29.jpg/3840px-SDO_20260121_000959_4096_0211_%28AIA%29.jpg)
+![Солнце в экстремальном ультрафиолетовом диапазоне AIA 211 Å; активные области солнечной короны / Sun observed in the AIA 211 Å extreme-ultraviolet channel; active regions of the solar corona](../assets/imported/wm-sdo-20260121-000959-4096-0211-aia.jpg)
 
-![Геотермальная схема USGS: вода проходит через трещины горячих пород, нагревается и поднимается к электростанции / USGS geothermal schematic: water circulates through hot-rock fractures, heats and rises to a power plant](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Geothermal%20Schematic2.png)
+![Геотермальная схема USGS: вода проходит через трещины горячих пород, нагревается и поднимается к электростанции / USGS geothermal schematic: water circulates through hot-rock fractures, heats and rises to a power plant](../assets/imported/ext-geothermal-20schematic2.png)
 
-![Схематические приливные выпуклости океана под действием притяжения Луны / Schematic ocean tidal bulges caused by the Moon's gravitational attraction](https://upload.wikimedia.org/wikipedia/commons/7/71/Tidal_bulge.png)
+![Схематические приливные выпуклости океана под действием притяжения Луны / Schematic ocean tidal bulges caused by the Moon's gravitational attraction](../assets/imported/wm-tidal-bulge.png)
 
 *Панель 1: NASA/SDO и научные группы AIA, EVE и HMI; съёмка 21 января 2026 года, канал AIA 211 Å (экстремальный ультрафиолет), Public Domain в США. Встроен 3840-pixel PNG-рендер Wikimedia исходного JPEG 4096 × 4096 без содержательных изменений. Это не изображение в видимом свете. Панель 2: USGS Office of Communications, “Geothermal Schematic”, 22 мая 2025 года, Public Domain; показывает один из способов передачи внутреннего тепла Земли к поверхности. Панель 3: Orion 8, “Tidal bulge”, 26 января 2011 года, автор передал изображение в общественное достояние по всему миру; схема условная и не в масштабе. Солнечная радиация — доминирующий внешний источник энергии земной системы; внутреннее тепло и гравитационные приливные процессы дают значительно меньшие, но важные вклады. Три изображения — примеры источников и процессов, а не количественное сравнение потоков. / Panel 1: NASA/SDO and the AIA, EVE and HMI science teams; captured 21 January 2026 in the AIA 211 Å extreme-ultraviolet channel, Public Domain in the United States. The 3,840-pixel Wikimedia PNG rendition of the original 4,096 × 4,096 JPEG is embedded without content changes. This is not a visible-light image. Panel 2: USGS Office of Communications, “Geothermal Schematic”, 22 May 2025, Public Domain; it shows one pathway by which Earth's internal heat reaches the surface. Panel 3: Orion 8, “Tidal bulge”, 26 January 2011, released into the worldwide public domain by its author; schematic and not to scale. Solar radiation is the dominant external energy source for the Earth system; internal heat and gravitational tidal processes make much smaller but important contributions. The three images illustrate sources and processes; they do not compare energy fluxes quantitatively. [NASA Sun file](https://commons.wikimedia.org/wiki/File:SDO_20260121_000959_4096_0211_(AIA).jpg) · [NASA attribution](https://www.nasa.gov/nasa-brand-center/images-and-media/) · [USGS geothermal image](https://www.usgs.gov/media/images/geothermal-schematicpng) · [Tidal-bulge file](https://commons.wikimedia.org/wiki/File:Tidal_bulge.png).*
 
@@ -304,25 +304,12 @@
 
 В горах с высотой могут последовательно сменяться предгорные степи, леса, субальпийские и альпийские луга, горная тундра и нивальный пояс снегов и ледников. Конкретная последовательность зависит от широты, экспозиции склонов, влажности и местного климата.
 
-**Иллюстрация 2.9-A — Распределение биомов мира и высотная поясность гор / Global Biome Distribution and Mountain Altitudinal Belts.**
 
-![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
-
-![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Altitudinal_zones_of_Alps_mountains-extended_diagram.svg/3840px-Altitudinal_zones_of_Alps_mountains-extended_diagram.svg.png)
+![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](../assets/imported/wm-altitudinal-zones-of-alps-mountains-extended-dia.png)
 
 *Панель 1: карта биомов по RESOLVE Ecoregions 2017 (Dinerstein et al.); карта подготовлена Atlas of Maps, CC BY 4.0, исходные данные RESOLVE — CC BY 4.0, Natural Earth — Public Domain. Классификация отражает экологические биомы, а не современный растительный покров и не строгие климатические пояса. Панель 2: высотная поясность Альп; автор Delphi234, 20 сентября 2014 года, CC BY-SA 4.0. Альпы приведены как региональный пример, а не универсальная модель гор и не схема Тянь-Шаня. Карта встроена в опубликованном Atlas of Maps PNG; схема Альп — 3840-pixel PNG-рендер исходного SVG от Wikimedia; содержимое изображений не изменялось. / Panel 1: biome map based on RESOLVE Ecoregions 2017 (Dinerstein et al.); map design by Atlas of Maps, CC BY 4.0, RESOLVE source data CC BY 4.0, Natural Earth Public Domain. The classification shows ecological biomes, not current vegetation cover or strict climatic belts. Panel 2: Alpine altitudinal zonation; author Delphi234, 20 September 2014, CC BY-SA 4.0. The Alps are a regional example, not a universal mountain model or a diagram of the Tien Shan. The map is embedded as published by Atlas of Maps; the Alpine diagram is a 3840-pixel Wikimedia PNG rendering of the original SVG; image content was not edited. [Карта / Map](https://atlasofmaps.com/biomes-map/) · [Источник данных / Data source](https://ecoregions.appspot.com/) · [Схема Альп / Alpine diagram](https://commons.wikimedia.org/wiki/File:Altitudinal_zones_of_Alps_mountains-extended_diagram.svg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ## 2.10. Биогеохимические циклы / Biogeochemical Cycles
-
-**Иллюстрация 2-D — Обзор биогеохимических циклов / Biogeochemical Cycles Overview.**
-
-![Круговорот углерода: обмен углеродом между атмосферой, сушей, океаном и геологическими резервуарами / Carbon cycle: exchange among the atmosphere, land, ocean and geological reservoirs](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b4347e480f11f7bde955418c42a5250ac54f7448)
-
-![Круговорот азота: фиксация атмосферного азота, превращения соединений азота и возвращение азота в атмосферу / Nitrogen cycle: fixation of atmospheric nitrogen, transformations of nitrogen compounds and return to the atmosphere](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/0aac6127fb141f645f9220b52e5fe80ff7e78a6a)
-
-![Круговорот фосфора: выветривание пород, перенос фосфатов, поглощение организмами и образование осадков / Phosphorus cycle: rock weathering, phosphate transport, biological uptake and sediment formation](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/fa919e501df6f3a1bfb6a70a71f19a5586b11589)
-
-*Источник / Source: OpenStax, *Biology 2e*, section 46.3, Figures 46.15 (carbon), 46.17 (nitrogen) and 46.18 (phosphorus); authors Mary Ann Clark, Matthew Douglas and Jung Choi. Each figure credits “modification of work by John M. Evans and Howard Perlman, USGS”. Лицензия адаптированных изображений OpenStax / Licence for the OpenStax-adapted figures: CC BY-NC-SA 4.0. Встроены WebP-версии, автоматически выданные CDN OpenStax; содержимое схем не редактировалось. Некоммерческое использование, атрибуция и условия ShareAlike обязательны. / OpenStax CDN WebP renditions are embedded; figure content was not edited. Noncommercial use, attribution and ShareAlike terms apply. [Раздел OpenStax / OpenStax section](https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles) · [Условия лицензии / Licence terms](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
 
 **Углеродный цикл / Carbon cycle**
 
@@ -346,7 +333,7 @@
 
 **Иллюстрация 2.10-A — Глобальный круговорот углерода / The Global Carbon Cycle.**
 
-![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](../assets/imported/ext-carbon-cycle.jpg)
 
 *Source: U.S. Department of Energy, Biological and Environmental Research Information System; adapted and presented by My NASA Data / NASA Earth Observatory. The exact file is recorded as a U.S. Government work and Public Domain in the United States; this is not a Creative Commons licence. Credit is retained, and no NASA/DOE endorsement is implied. Numerical values belong to the source's stated units and reference context. / Источник: Министерство энергетики США, Biological and Environmental Research Information System; адаптация и публикация — My NASA Data / NASA Earth Observatory. В записи точного файла он указан как работа правительства США, находящаяся в общественном достоянии на территории США; это не лицензия Creative Commons. Атрибуция сохранена; одобрение со стороны NASA или DOE не подразумевается. Численные значения следует читать в единицах и контексте источника. [Exact file and rights record / Точный файл и сведения о правах](https://commons.wikimedia.org/wiki/File:Carbon_cycle.jpg) · [My NASA Data source page / Страница My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
@@ -378,11 +365,11 @@
 
 **Иллюстрация 2.10-B — Круговороты азота и фосфора / Nitrogen and Phosphorus Cycles.**
 
-![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](../assets/imported/ext-nitrogencycle.jpg)
 
 *Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR/UCAR. The original NCAR page states that the image is freely available for nonprofit and media use. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Источник: My NASA Data, “Energy and Matter Cycles”; изображение цикла азота предоставлено NCAR/UCAR. На исходной странице NCAR указано, что изображение можно свободно использовать в некоммерческих и медийных материалах. Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) · [Original NCAR source and reuse note / Первоисточник NCAR и условия использования](https://news.ucar.edu/1449/nitrogen-earth-system).*
 
-![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](../assets/imported/wm-phosphorus-cycle-flowchart.png)
 
 *Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; credit is retained for provenance. The diagram distinguishes biological cycling from geological cycling and is a simplified conceptual flowchart, not a quantitative flux model. / Источник: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons, CC0 1.0. Схема различает биологический и геологический круговороты и является упрощённой концептуальной моделью, а не количественной моделью потоков. [File page and licence / Страница файла и лицензия](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).*
 
@@ -414,7 +401,7 @@
 
 **Иллюстрация 2.11-A — Структура природной геосистемы / Structure of a Natural Geosystem.**
 
-![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ecosystem_puzzle.png)
+![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](../assets/imported/ext-ecosystem-puzzle.png)
 
 *Источник / Source: U.S. Geological Survey (USGS), Ecosystems Land Change Science Program, “Ecosystems like a Puzzle”, approximately February 2025. Правовой статус страницы / Page-stated rights: Public Domain. Изображение использовано без изменений. Коллаж показывает, как солнечный свет, температура, осадки, высота местности, нарушения, растительность, животные, микроорганизмы и почва совместно формируют экосистему. Это концептуальная иллюстрация компонентов, а не географическая карта, универсальная классификация геосистем или схема конкретного ландшафта Кыргызстана. / The collage shows how sunlight, temperature, precipitation, elevation, disturbance, vegetation, wildlife, microbes and soil together shape an ecosystem. It is a conceptual illustration of components, not a geographic map, universal geosystem classification or diagram of a specific Kyrgyz landscape. [Страница изображения / Image page](https://www.usgs.gov/media/images/ecosystems-a-puzzle).*
 
@@ -455,14 +442,6 @@
 
 Положительная и отрицательная обратные связи не означают соответственно «плохую» и «хорошую»: первая усиливает изменения, вторая ослабляет их. В реальных природных системах несколько обратных связей действуют одновременно.
 
-**Иллюстрация 2.12-A — Положительная и отрицательная обратная связь / Positive and Negative Feedback.**
-
-![Уравновешивающая обратная связь: испарение, водяной пар, облачность и альбедо / Balancing feedback: evaporation, water vapour, cloud cover and albedo](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/balancing_feedback_loop.webp)
-
-![Усиливающая обратная связь: испарение, водяной пар, парниковый эффект и температура / Reinforcing feedback: evaporation, water vapour, greenhouse effect and temperature](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/reinforcing_feedback_loop_744.webp)
-
-*Источник обеих схем / Source for both diagrams: Nick Haddad, TERC, SERC EarthLabs, “Climate Series Introduction”, section “Climate and Feedback Loops”. Лицензия / Licence: CC BY-NC-SA 3.0. Схемы показывают конкретные климатические примеры, а не все возможные обратные связи. / These diagrams show specific climate examples, not every possible feedback process. [Источник / Source page](https://serc.carleton.edu/earthlabs/climate_intro/science_notes.html) · [Лицензия / Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
 *Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей. / Examples are simplified; real systems include time lags and multiple interacting feedbacks.*
 
 ## 2.13. Антропогенное воздействие / Human Impact
@@ -481,7 +460,7 @@
 
 **Иллюстрация 2.13-A — Глобальная модификация наземных экосистем человеком / Global Human Modification of Terrestrial Ecosystems (2022).**
 
-![Глобальная карта совокупной модификации наземных экосистем человеком за 2022 год; рисунок 10 опубликованной научной статьи / Global map of cumulative human modification of terrestrial ecosystems in 2022; Figure 10 from the published research article](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-025-04892-2/MediaObjects/41597_2025_4892_Fig10_HTML.png)
+![Глобальная карта совокупной модификации наземных экосистем человеком за 2022 год; рисунок 10 опубликованной научной статьи / Global map of cumulative human modification of terrestrial ecosystems in 2022; Figure 10 from the published research article](../assets/imported/sdata-human-modification.png)
 
 *Источник / Source: Figure 10, Theobald, D. M., Oakleaf, J. R., Moncrieff, G., Voigt, M., Kiesecker, J. & Kennedy, C. M. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, *Scientific Data* 12, Article 606, DOI: [10.1038/s41597-025-04892-2](https://doi.org/10.1038/s41597-025-04892-2). Reproduced from the open-access article under the Creative Commons Attribution 4.0 International licence (CC BY 4.0); no changes made. The article's Rights and permissions statement applies CC BY 4.0 to its images and other third-party material unless a separate credit line states otherwise; no separate restrictive credit line is given for Figure 10. The figure maps overall cumulative human modification for 2022; Figure 10 represents the 300 m dataset. Antarctica is excluded. The article's correction published on 7 August 2025 corrected Figure 2 only; Figure 10 was not the figure identified in that correction. The model combines 16 human threats. Its 0–1 index is a modelled measure of human modification, not a direct measurement of ecosystem condition or biodiversity. / Воспроизведено из статьи открытого доступа по лицензии Creative Commons Attribution 4.0 International (CC BY 4.0); изменения не вносились. Условия раздела Rights and permissions распространяют лицензию на изображения статьи, если в отдельной подписи не указано иное; для рисунка 10 отдельного ограничительного указания нет. Карта показывает совокупную модификацию наземных территорий в 2022 году; рисунок 10 представляет набор данных с разрешением 300 м. Антарктида исключена. В исправлении статьи от 7 августа 2025 года была заменена только иллюстрация 2; рисунок 10 не относился к исправленной иллюстрации. Индекс 0–1 является модельной оценкой антропогенной модификации, а не прямым измерением состояния экосистем или биоразнообразия. [Статья, рисунок 10 и условия лицензии / Article, Figure 10 and licence terms](https://www.nature.com/articles/s41597-025-04892-2) · [Исправление к статье от 7 августа 2025 года / 7 August 2025 correction](https://doi.org/10.1038/s41597-025-05710-5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
@@ -525,7 +504,7 @@
 
 **Иллюстрация 2.14-A — Планетарные границы / Planetary Boundaries (оценка 2026 года).**
 
-![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](https://www.planetaryhealthcheck.org/wp-content/uploads/FIGURE_03-Planetary_Boundaries_diagram_legend.jpeg)
+![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](../assets/imported/ext-figure-03-planetary-boundaries-diagram-legend.jpg)
 
 *Источник / Source: Planetary Boundaries Science (PBScience), *Planetary Health Check 2026*, Figure 3, “The iconic Planetary Boundaries diagram”. Обязательная атрибуция / Required credit: PBScience, 2026. Лицензия / Licence: CC BY 4.0. Диаграмма отражает глобальную оценку, а не состояние отдельной страны. / The diagram represents a global assessment, not the status of an individual country. [Источник / Source](https://www.planetaryhealthcheck.org/downloads/) · [Лицензия / Licence](https://creativecommons.org/licenses/by/4.0/).
 
@@ -592,7 +571,7 @@
 
 **Иллюстрация 2.15-A — Земля как целостная система / Earth as an Integrated System.**
 
-![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
+![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](../assets/imported/ext-earth-system-diagram-print.jpg)
 
 *Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. NASA's media guidance permits educational/informational reuse of NASA imagery unless a third-party copyright notice is shown; do not imply NASA endorsement. This five-sphere Earth-system illustration includes cryosphere components and is used here as an integrated overview. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; страница обновлена в 2024 году), дизайнер Kevin W. Miller. Условия NASA допускают образовательное и информационное использование материалов NASA, если не указано авторское право третьей стороны; нельзя создавать впечатление одобрения со стороны NASA. Схема показывает пятисферную систему Земли, включая криосферу, и используется как итоговый обзор. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988) · [NASA media-use guidance / Правила использования материалов NASA](https://www.nasa.gov/nasa-brand-center/images-and-media/).*
 
@@ -630,7 +609,7 @@ The geographic envelope is Earth's integrated outer zone in which the atmosphere
 
 **Illustration 2-A — Four Earth Spheres and the Earth System.**
 
-![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](https://upload.wikimedia.org/wikipedia/commons/c/cd/Atmosphere-Biosphere-Hydrosphere-Lithosphere.png)
+![The atmosphere, biosphere, hydrosphere and lithosphere shown in a simple landscape illustration / Атмосфера, биосфера, гидросфера и литосфера в простой схеме природного ландшафта](../assets/imported/wm-atmosphere-biosphere-hydrosphere-lithosphere.png)
 
 *Original bilingual Atlas of Knowledge diagram. Arrows show examples of interaction, not measured matter or energy fluxes. / Оригинальная двуязычная схема Atlas of Knowledge. Стрелки показывают примеры взаимодействия, а не измеренные потоки вещества или энергии.*
 
@@ -646,7 +625,7 @@ Key properties of the geographic envelope include:
 
 **Illustration 2.1-A — Geographic Envelope Cross-section.**
 
-![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](https://static.zpe.gov.pl/portal/f/res-minimized/R1H6RHKAGbKdX/1668782966/9QTCnJ7xkazuP4O5qrsqDlBYoByyrqFl.png)
+![Cross-section of Earth's spheres: atmosphere, hydrosphere, lithosphere, mantle and core; trees represent the biosphere and arrows show mantle convection / Разрез сфер Земли: атмосфера, гидросфера, литосфера, мантия и ядро; деревья обозначают биосферу, стрелки — конвекцию мантии](../assets/imported/ext-9qtcnj7xkazup4o5qrsqdlbyobyyrqfl.png)
 
 *Источник / Source: “Spheres of the Earth”, Andrzej Bogusz and Michał Szymczak, ZPE (Polish national educational platform); exact page credits the authors and CC BY-SA 3.0. Дата создания изображения на странице не указана. / The source page does not state an image creation date. Встроена оптимизированная версия изображения, предоставленная ZPE; содержимое не редактировалось. Подписи на изображении оставлены на польском языке: ATMOSFERA — атмосфера / atmosphere; HYDROSFERA — гидросфера / hydrosphere; LITOSFERA — литосфера / lithosphere; “prądy konwekcyjne wnętrza Ziemi” — конвекционные потоки внутри Земли / mantle convection currents; “Jądro ziemskie” — ядро Земли / Earth's core. Деревья обозначают биосферу; она не подписана отдельным словом на рисунке. / Trees represent the biosphere, which is not labelled as a separate word in the figure. Схема условная и не в масштабе; она показывает внутреннее строение Земли как контекст, а не точные толщины оболочек. / The diagram is schematic and not to scale; Earth's internal structure is shown as context, not as a representation of exact sphere thicknesses. [Страница источника / Source page](https://zpe.gov.pl/a/geografia-jako-nauka/DpWdUl81J) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/3.0/).*
 
@@ -674,7 +653,7 @@ The spheres do not have impermeable boundaries. They overlap and interact: water
 
 **Illustration 2.2-A — Interactions Between Four Earth Spheres.**
 
-![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](https://www.thephysicalenvironment.com/Book/hydrosphere/spheres3.jpg)
+![Four Earth spheres — lithosphere, atmosphere, biosphere and hydrosphere — connected by conceptual exchange arrows, with solar energy entering the system / Четыре оболочки Земли — литосфера, атмосфера, биосфера и гидросфера — связаны условными стрелками обмена; показана солнечная энергия](../assets/imported/ext-spheres3.jpg)
 
 *Источник / Source: Michael E. Ritter, *The Physical Environment*, Figure 2.3.1, “The Earth System” (after Christopherson, 2005), distributed via LibreTexts. Лицензия страницы и рисунка / Page and figure licence: CC BY-SA 4.0. Стрелки показывают качественные связи и обмен, а не измеренные потоки. / Arrows show conceptual relationships and exchanges, not measured fluxes. [Страница рисунка / Figure page](https://geo.libretexts.org/Bookshelves/Geography_%28Physical%29/The_Physical_Environment_%28Ritter%29/02%3A_The_Earth_System/2.03%3A_Natural_Systems/2.3.01%3A_Components_of_the_Earth_System) · [Лицензия / Licence](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -693,7 +672,7 @@ Earth's atmosphere is held by gravity. It regulates heat exchange, transports mo
 
 **Illustration 2-B — Layers of the Atmosphere.**
 
-![The five main layers of the atmosphere / Пять основных слоёв атмосферы](https://upload.wikimedia.org/wikipedia/commons/9/9e/1_atmosphere_layers.png)
+![The five main layers of the atmosphere / Пять основных слоёв атмосферы](../assets/imported/wm-1-atmosphere-layers.png)
 
 *Source: NOAA National Weather Service, JetStream, “Layers of the Atmosphere”. Credit NOAA. Layer boundaries are approximate; troposphere height varies with latitude. / Источник: NOAA National Weather Service, JetStream. Границы слоёв приблизительны; высота тропосферы меняется с широтой.*
 
@@ -717,7 +696,7 @@ Boundaries are approximate and vary with latitude, season and solar activity. Th
 
 **Illustration 2.3-A — Atmospheric Temperature Profile.**
 
-![Temperature change with altitude and boundaries of atmospheric layers / Изменение температуры с высотой и границы слоёв атмосферы](https://upload.wikimedia.org/wikipedia/commons/f/f6/469649main_earths-atmosphere-orig_full.jpg)
+![Temperature change with altitude and boundaries of atmospheric layers / Изменение температуры с высотой и границы слоёв атмосферы](../assets/imported/wm-469649main-earths-atmosphere-orig-full.jpg)
 
 *Source: NOAA JetStream, “Layers of the Atmosphere”. Credit NOAA. The profile is representative, not fixed for all latitudes and seasons. / Источник: NOAA JetStream. Профиль типичный, а не неизменный для всех широт и сезонов.*
 
@@ -742,7 +721,7 @@ Groundwater includes both fresh and saline water, so its total share must not be
 
 **Illustration 2-C — Distribution of Earth's Water.**
 
-![Distribution of Earth's water: all water, freshwater and surface freshwater / Распределение всей воды, пресной воды и поверхностных пресных вод](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+![Distribution of Earth's water: all water, freshwater and surface freshwater / Распределение всей воды, пресной воды и поверхностных пресных вод](../assets/imported/ext-earthswater-barchart.png)
 
 *Source: USGS Water Science School, “The distribution of water on, in, and above the Earth” (2019). Public Domain. Rounded proportions are based on Shiklomanov's 1993 estimates, not a new 2026 measurement. The bars use different denominators. / Источник: USGS Water Science School (2019), Public Domain. Доли основаны на оценках Шикломанова 1993 года, а не на новом измерении 2026 года; столбцы используют разные знаменатели. [Original source / Источник](https://www.usgs.gov/media/images/distribution-water-and-above-earth).
 
@@ -763,7 +742,7 @@ These processes do not form a fixed sequence and can occur simultaneously. Water
 
 **Illustration 2.4-A — The Global Water Cycle.**
 
-![Global water cycle with natural reservoirs, flows and human impacts / Глобальный круговорот воды с природными резервуарами, потоками и влиянием человека](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/USGS_WaterCycle_English_ONLINE_20230302.png?itok=tAVM8IYl)
+![Global water cycle with natural reservoirs, flows and human impacts / Глобальный круговорот воды с природными резервуарами, потоками и влиянием человека](../assets/imported/ext-usgs-watercycle-english-online-20230302.jpg)
 
 *Source: USGS VizLab, “The Water Cycle” (2022). Public Domain. The diagram includes human water use and water-quality impacts, not only natural processes. / Источник: USGS VizLab (2022), Public Domain. Схема показывает не только природные процессы, но и водопользование человеком и влияние на качество воды. [Source page / Страница источника](https://www.usgs.gov/media/images/water-cycle).*
 
@@ -794,11 +773,11 @@ Plate boundaries are not always represented by a single narrow line: broad defor
 
 **Illustration 2.5-A — The Three Main Types of Plate Boundaries.**
 
-![Divergent boundary: plates move apart and new lithosphere forms](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/DivergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C717&ssl=1)
+![Divergent boundary: plates move apart and new lithosphere forms](../assets/imported/ext-divergentplateboundary-cramerietal2019.png)
 
-![Convergent boundary: plates move together and one may subduct beneath the other](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/ConvergentPlateBoundary_CrameriEtAl2019.png?resize=1000%2C705&ssl=1)
+![Convergent boundary: plates move together and one may subduct beneath the other](../assets/imported/ext-convergentplateboundary-cramerietal2019.png)
 
-![Transform boundary: plates slide past one another along a fault](https://i0.wp.com/s-ink.org/wp-content/uploads/2021/08/TransformPlateBoundary_CrameriEtAl2019.png?resize=1000%2C643&ssl=1)
+![Transform boundary: plates slide past one another along a fault](../assets/imported/ext-transformplateboundary-cramerietal2019.png)
 
 *Creator of all three diagrams: Fabio Crameri; version 23 August 2021. Source: Accessible Science Graphics Collection, s-Ink; Crameri, Shephard & Conrad (2019), “Plate Tectonics”. Licence: CC BY-SA 4.0. 1000-pixel display renditions served by s-Ink/WordPress are embedded; diagram content was not altered. [Divergent](https://s-ink.org/divergent-plate-boundary) · [Convergent](https://s-ink.org/convergent-plate-boundary) · [Transform](https://s-ink.org/transform-plate-boundary) · [Licence](https://creativecommons.org/licenses/by-sa/4.0/).*
 
@@ -816,7 +795,7 @@ Levels of biological organisation range from an individual organism to a populat
 
 **Illustration 2.6-A — From Organism to Biosphere.**
 
-![Hierarchy of biological organization from atom, molecule, macromolecule, cell, tissue, organ and organ system to organism, population, community, ecosystem and biosphere / Иерархия организации живой природы: от атома, молекулы, макромолекулы, клетки, ткани, органа и системы органов до организма, популяции, сообщества, экосистемы и биосферы](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Levels_of_Organization.svg/960px-Levels_of_Organization.svg.png)
+![Hierarchy of biological organization from atom, molecule, macromolecule, cell, tissue, organ and organ system to organism, population, community, ecosystem and biosphere / Иерархия организации живой природы: от атома, молекулы, макромолекулы, клетки, ткани, органа и системы органов до организма, популяции, сообщества, экосистемы и биосферы](../assets/imported/wm-levels-of-organization.svg)
 
 *Автор исходной схемы / Original diagram author: Mikala14, 23 May 2013; CC BY-SA 3.0. Источники встроенных изображений / Embedded-image sources: Kevin Pluck, “Lion waiting in Namibia” (CC BY 2.0); Mikael Häggström, “Lungs.gif” (Public Domain); Alvasilieva, “Phospholipid -1-.jpg” (CC BY-SA 3.0/GFDL); Jeffrey Sohn, “Lions and a Zebra b.jpg” (CC BY-SA 2.0); Brocken Inaglory, “Lioness zebras and wildbeast in Ngorongoro Crater.jpg” (CC BY-SA 3.0/GFDL); NASA/NOAA/GSFC/Suomi NPP/VIIRS/Norman Kuring, “North America from low orbiting satellite Suomi NPP.jpg” (Public Domain in the United States); Benh, “Lions Family Portrait Masai Mara.jpg” (CC BY-SA 3.0). Все ссылки на отдельные файлы и условия их использования приведены ниже; встроена 960-pixel PNG-версия, созданная Wikimedia из исходного SVG; содержимое схемы не редактировалось. / Individual file pages and reuse terms are linked below; a 960-pixel PNG rendering generated by Wikimedia from the original SVG is embedded; diagram content was not edited. Эта схема не выделяет биом отдельной ступенью; понятие биома объясняется в тексте и иллюстрируется в 2.9-A. / This diagram does not show biome as a separate level; the concept is explained in the text and illustrated in 2.9-A. [Исходная схема / Original diagram](https://commons.wikimedia.org/wiki/File:Levels_of_Organization.svg) · [Лев / Lion](https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg) · [Лёгкие / Lungs](https://commons.wikimedia.org/wiki/File:Lungs.gif) · [Фосфолипид / Phospholipid](https://commons.wikimedia.org/wiki/File:Phospholipid_-1-.jpg) · [Львы и зебра / Lions and zebra](https://commons.wikimedia.org/wiki/File:Lions_and_a_Zebra_b.jpg) · [Львица и зебры / Lioness and zebras](https://commons.wikimedia.org/wiki/File:Lioness_zebras_and_wildbeast_in_Ngorongoro_Crater.jpg) · [Земля / Earth](https://commons.wikimedia.org/wiki/File:North_America_from_low_orbiting_satellite_Suomi_NPP.jpg) · [Семья львов / Lion family](https://commons.wikimedia.org/wiki/File:Lions_Family_Portrait_Masai_Mara.jpg) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
 
@@ -844,11 +823,11 @@ Three major energy sources and drivers shape the geographic envelope:
 
 **Illustration 2.8-A — Energy Sources and Earth Processes.**
 
-![Солнце в экстремальном ультрафиолетовом диапазоне AIA 211 Å; активные области солнечной короны / Sun observed in the AIA 211 Å extreme-ultraviolet channel; active regions of the solar corona](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/SDO_20260121_000959_4096_0211_%28AIA%29.jpg/3840px-SDO_20260121_000959_4096_0211_%28AIA%29.jpg)
+![Солнце в экстремальном ультрафиолетовом диапазоне AIA 211 Å; активные области солнечной короны / Sun observed in the AIA 211 Å extreme-ultraviolet channel; active regions of the solar corona](../assets/imported/wm-sdo-20260121-000959-4096-0211-aia.jpg)
 
-![Геотермальная схема USGS: вода проходит через трещины горячих пород, нагревается и поднимается к электростанции / USGS geothermal schematic: water circulates through hot-rock fractures, heats and rises to a power plant](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Geothermal%20Schematic2.png)
+![Геотермальная схема USGS: вода проходит через трещины горячих пород, нагревается и поднимается к электростанции / USGS geothermal schematic: water circulates through hot-rock fractures, heats and rises to a power plant](../assets/imported/ext-geothermal-20schematic2.png)
 
-![Схематические приливные выпуклости океана под действием притяжения Луны / Schematic ocean tidal bulges caused by the Moon's gravitational attraction](https://upload.wikimedia.org/wikipedia/commons/7/71/Tidal_bulge.png)
+![Схематические приливные выпуклости океана под действием притяжения Луны / Schematic ocean tidal bulges caused by the Moon's gravitational attraction](../assets/imported/wm-tidal-bulge.png)
 
 *Панель 1: NASA/SDO и научные группы AIA, EVE и HMI; съёмка 21 января 2026 года, канал AIA 211 Å (экстремальный ультрафиолет), Public Domain в США. Встроен 3840-pixel PNG-рендер Wikimedia исходного JPEG 4096 × 4096 без содержательных изменений. Это не изображение в видимом свете. Панель 2: USGS Office of Communications, “Geothermal Schematic”, 22 мая 2025 года, Public Domain; показывает один из способов передачи внутреннего тепла Земли к поверхности. Панель 3: Orion 8, “Tidal bulge”, 26 января 2011 года, автор передал изображение в общественное достояние по всему миру; схема условная и не в масштабе. Солнечная радиация — доминирующий внешний источник энергии земной системы; внутреннее тепло и гравитационные приливные процессы дают значительно меньшие, но важные вклады. Три изображения — примеры источников и процессов, а не количественное сравнение потоков. / Panel 1: NASA/SDO and the AIA, EVE and HMI science teams; captured 21 January 2026 in the AIA 211 Å extreme-ultraviolet channel, Public Domain in the United States. The 3,840-pixel Wikimedia PNG rendition of the original 4,096 × 4,096 JPEG is embedded without content changes. This is not a visible-light image. Panel 2: USGS Office of Communications, “Geothermal Schematic”, 22 May 2025, Public Domain; it shows one pathway by which Earth's internal heat reaches the surface. Panel 3: Orion 8, “Tidal bulge”, 26 January 2011, released into the worldwide public domain by its author; schematic and not to scale. Solar radiation is the dominant external energy source for the Earth system; internal heat and gravitational tidal processes make much smaller but important contributions. The three images illustrate sources and processes; they do not compare energy fluxes quantitatively. [NASA Sun file](https://commons.wikimedia.org/wiki/File:SDO_20260121_000959_4096_0211_(AIA).jpg) · [NASA attribution](https://www.nasa.gov/nasa-brand-center/images-and-media/) · [USGS geothermal image](https://www.usgs.gov/media/images/geothermal-schematicpng) · [Tidal-bulge file](https://commons.wikimedia.org/wiki/File:Tidal_bulge.png).*
 
@@ -868,11 +847,8 @@ Major latitudinal natural zones include humid equatorial forests, savannas, trop
 
 In mountains, foothill steppes may give way to forests, subalpine and alpine meadows, mountain tundra and the nival zone of permanent snow and glaciers. The sequence depends on latitude, slope aspect, moisture and local climate.
 
-**Illustration 2.9-A — Global Biome Distribution and Mountain Altitudinal Belts.**
 
-![Карта распределения наземных биомов мира по классификации RESOLVE 2017; цвета и легенда показывают 14 типов биомов и область скал и льда / Global terrestrial biome map using the RESOLVE 2017 classification; colours and legend show 14 biome types and rock and ice](https://atlasofmaps.com/maps/thematic/biomes-map/biomes-map.png)
-
-![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Altitudinal_zones_of_Alps_mountains-extended_diagram.svg/3840px-Altitudinal_zones_of_Alps_mountains-extended_diagram.svg.png)
+![Высотные природные пояса Северных Предальп, Центральных Альп и Южных Предальп; высотные границы различаются между районами / Altitudinal natural belts of the Northern Prealps, Central Alps and Southern Prealps; elevation limits differ among regions](../assets/imported/wm-altitudinal-zones-of-alps-mountains-extended-dia.png)
 
 *Панель 1: карта биомов по RESOLVE Ecoregions 2017 (Dinerstein et al.); карта подготовлена Atlas of Maps, CC BY 4.0, исходные данные RESOLVE — CC BY 4.0, Natural Earth — Public Domain. Классификация отражает экологические биомы, а не современный растительный покров и не строгие климатические пояса. Панель 2: высотная поясность Альп; автор Delphi234, 20 сентября 2014 года, CC BY-SA 4.0. Альпы приведены как региональный пример, а не универсальная модель гор и не схема Тянь-Шаня. Карта встроена в опубликованном Atlas of Maps PNG; схема Альп — 3840-pixel PNG-рендер исходного SVG от Wikimedia; содержимое изображений не изменялось. / Panel 1: biome map based on RESOLVE Ecoregions 2017 (Dinerstein et al.); map design by Atlas of Maps, CC BY 4.0, RESOLVE source data CC BY 4.0, Natural Earth Public Domain. The classification shows ecological biomes, not current vegetation cover or strict climatic belts. Panel 2: Alpine altitudinal zonation; author Delphi234, 20 September 2014, CC BY-SA 4.0. The Alps are a regional example, not a universal mountain model or a diagram of the Tien Shan. The map is embedded as published by Atlas of Maps; the Alpine diagram is a 3840-pixel Wikimedia PNG rendering of the original SVG; image content was not edited. [Карта / Map](https://atlasofmaps.com/biomes-map/) · [Источник данных / Data source](https://ecoregions.appspot.com/) · [Схема Альп / Alpine diagram](https://commons.wikimedia.org/wiki/File:Altitudinal_zones_of_Alps_mountains-extended_diagram.svg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
 
@@ -880,23 +856,13 @@ In mountains, foothill steppes may give way to forests, subalpine and alpine mea
 
 Biogeochemical cycles are the continuous movement of chemical elements between living organisms and non-living components of the environment.
 
-**Illustration 2-D — Biogeochemical Cycles Overview.**
-
-![Круговорот углерода: обмен углеродом между атмосферой, сушей, океаном и геологическими резервуарами / Carbon cycle: exchange among the atmosphere, land, ocean and geological reservoirs](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/b4347e480f11f7bde955418c42a5250ac54f7448)
-
-![Круговорот азота: фиксация атмосферного азота, превращения соединений азота и возвращение азота в атмосферу / Nitrogen cycle: fixation of atmospheric nitrogen, transformations of nitrogen compounds and return to the atmosphere](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/0aac6127fb141f645f9220b52e5fe80ff7e78a6a)
-
-![Круговорот фосфора: выветривание пород, перенос фосфатов, поглощение организмами и образование осадков / Phosphorus cycle: rock weathering, phosphate transport, biological uptake and sediment formation](https://openstax.org/apps/image-cdn/v1/f%3Dwebp/apps/archive/20260604.144757/resources/fa919e501df6f3a1bfb6a70a71f19a5586b11589)
-
-*Источник / Source: OpenStax, *Biology 2e*, section 46.3, Figures 46.15 (carbon), 46.17 (nitrogen) and 46.18 (phosphorus); authors Mary Ann Clark, Matthew Douglas and Jung Choi. Each figure credits “modification of work by John M. Evans and Howard Perlman, USGS”. Лицензия адаптированных изображений OpenStax / Licence for the OpenStax-adapted figures: CC BY-NC-SA 4.0. Встроены WebP-версии, автоматически выданные CDN OpenStax; содержимое схем не редактировалось. Некоммерческое использование, атрибуция и условия ShareAlike обязательны. / OpenStax CDN WebP renditions are embedded; figure content was not edited. Noncommercial use, attribution and ShareAlike terms apply. [Раздел OpenStax / OpenStax section](https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles) · [Условия лицензии / Licence terms](https://creativecommons.org/licenses/by-nc-sa/4.0/).*
-
 #### 2.10.1. Carbon Cycle
 
 Carbon is the basis of organic compounds. Its main reservoirs include the atmosphere, ocean, vegetation, soils, sedimentary rocks and fossil organic matter. Photosynthesis absorbs CO₂; respiration returns CO₂ to the atmosphere and water; decomposition releases carbon; the ocean exchanges CO₂ with the atmosphere; sedimentation supports long-term burial; and burning fossil fuels rapidly returns geological carbon to the active cycle. Burning coal, oil and natural gas increases atmospheric CO₂ and strengthens human influence on climate.
 
 **Illustration 2.10-A — The Global Carbon Cycle.**
 
-![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/carbon_cycle.jpg)
+![Fast carbon cycle among land, atmosphere and ocean, including natural and human fluxes / Быстрый круговорот углерода](../assets/imported/ext-carbon-cycle.jpg)
 
 *Source: U.S. Department of Energy, Biological and Environmental Research Information System; adapted and presented by My NASA Data / NASA Earth Observatory. The exact file is recorded as a U.S. Government work and Public Domain in the United States; this is not a Creative Commons licence. Credit is retained, and no NASA/DOE endorsement is implied. Numerical values belong to the source's stated units and reference context. / Источник: Министерство энергетики США, Biological and Environmental Research Information System; адаптация и публикация — My NASA Data / NASA Earth Observatory. В записи точного файла он указан как работа правительства США, находящаяся в общественном достоянии на территории США; это не лицензия Creative Commons. Атрибуция сохранена; одобрение со стороны NASA или DOE не подразумевается. Численные значения следует читать в единицах и контексте источника. [Exact file and rights record / Точный файл и сведения о правах](https://commons.wikimedia.org/wiki/File:Carbon_cycle.jpg) · [My NASA Data source page / Страница My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles).*
 
@@ -914,11 +880,11 @@ Phosphorus is essential for DNA, RNA, cell membranes and ATP. Unlike the carbon 
 
 **Illustration 2.10-B — Nitrogen and Phosphorus Cycles.**
 
-![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](https://mynasadata.larc.nasa.gov/sites/default/files/inline-images/nitrogencycle.jpg)
+![Nitrogen transformations among atmosphere, soil, plants and organisms / Превращения азота между атмосферой, почвой, растениями и организмами](../assets/imported/ext-nitrogencycle.jpg)
 
 *Source: My NASA Data, “Energy and Matter Cycles”; nitrogen-cycle image credited to NCAR/UCAR. The original NCAR page states that the image is freely available for nonprofit and media use. The diagram shows fixation, nitrification, plant uptake, decomposition/mineralisation and denitrification. / Источник: My NASA Data, “Energy and Matter Cycles”; изображение цикла азота предоставлено NCAR/UCAR. На исходной странице NCAR указано, что изображение можно свободно использовать в некоммерческих и медийных материалах. Схема показывает фиксацию, нитрификацию, поглощение растениями, разложение/минерализацию и денитрификацию. [My NASA Data](https://mynasadata.larc.nasa.gov/basic-page/energy-and-matter-cycles) · [Original NCAR source and reuse note / Первоисточник NCAR и условия использования](https://news.ucar.edu/1449/nitrogen-earth-system).*
 
-![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](https://upload.wikimedia.org/wikipedia/commons/c/c4/Phosphorus_cycle_flowchart.png)
+![Схема биологического и геологического круговорота фосфора / Biological and geological phosphorus cycling](../assets/imported/wm-phosphorus-cycle-flowchart.png)
 
 *Source: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons. CC0 1.0 Universal Public Domain Dedication; credit is retained for provenance. The diagram distinguishes biological cycling from geological cycling and is a simplified conceptual flowchart, not a quantitative flux model. / Источник: Entropyrider, “Phosphorus cycle flowchart” (2024), Wikimedia Commons, CC0 1.0. Схема различает биологический и геологический круговороты и является упрощённой концептуальной моделью, а не количественной моделью потоков. [File page and licence / Страница файла и лицензия](https://commons.wikimedia.org/wiki/File:Phosphorus_cycle_flowchart.png).*
 
@@ -940,7 +906,7 @@ Natural geosystems are shaped mainly by natural processes. Anthropogenic geosyst
 
 **Illustration 2.11-A — Structure of a Natural Geosystem.**
 
-![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ecosystem_puzzle.png)
+![USGS ecosystem puzzle collage: sunlight, vegetation, drought, fire, wildlife, soil, precipitation, microbes and elevation represent interconnected ecosystem components / Коллаж USGS в виде пазла: солнечный свет, растительность, засуха, пожар, животные, почва, осадки, микроорганизмы и высота показывают взаимосвязанные компоненты экосистемы](../assets/imported/ext-ecosystem-puzzle.png)
 
 *Источник / Source: U.S. Geological Survey (USGS), Ecosystems Land Change Science Program, “Ecosystems like a Puzzle”, approximately February 2025. Правовой статус страницы / Page-stated rights: Public Domain. Изображение использовано без изменений. Коллаж показывает, как солнечный свет, температура, осадки, высота местности, нарушения, растительность, животные, микроорганизмы и почва совместно формируют экосистему. Это концептуальная иллюстрация компонентов, а не географическая карта, универсальная классификация геосистем или схема конкретного ландшафта Кыргызстана. / The collage shows how sunlight, temperature, precipitation, elevation, disturbance, vegetation, wildlife, microbes and soil together shape an ecosystem. It is a conceptual illustration of components, not a geographic map, universal geosystem classification or diagram of a specific Kyrgyz landscape. [Страница изображения / Image page](https://www.usgs.gov/media/images/ecosystems-a-puzzle).*
 
@@ -967,14 +933,6 @@ A simplified example of negative feedback is plant growth and soil moisture. As 
 
 Positive and negative do not mean “bad” and “good”: the terms describe whether a feedback amplifies or counteracts a change. Real natural systems contain several feedbacks operating at the same time.
 
-**Illustration 2.12-A — Positive and Negative Feedback.**
-
-![Уравновешивающая обратная связь: испарение, водяной пар, облачность и альбедо / Balancing feedback: evaporation, water vapour, cloud cover and albedo](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/balancing_feedback_loop.webp)
-
-![Усиливающая обратная связь: испарение, водяной пар, парниковый эффект и температура / Reinforcing feedback: evaporation, water vapour, greenhouse effect and temperature](https://cdn.serc.carleton.edu/images/earthlabs/climate_intro/reinforcing_feedback_loop_744.webp)
-
-*Источник обеих схем / Source for both diagrams: Nick Haddad, TERC, SERC EarthLabs, “Climate Series Introduction”, section “Climate and Feedback Loops”. Лицензия / Licence: CC BY-NC-SA 3.0. Схемы показывают конкретные климатические примеры, а не все возможные обратные связи. / These diagrams show specific climate examples, not every possible feedback process. [Источник / Source page](https://serc.carleton.edu/earthlabs/climate_intro/science_notes.html) · [Лицензия / Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
 *SERC source diagrams. Examples are simplified; real systems include time lags and multiple interacting feedbacks. / Схемы из источника SERC. Примеры упрощены; реальные системы включают временные задержки и несколько взаимодействующих обратных связей.*
 
 ### 2.13. Human Impact
@@ -993,7 +951,7 @@ Global environmental challenges include climate change, desertification, biodive
 
 **Illustration 2.13-A — Global Human Modification of Terrestrial Ecosystems (2022).**
 
-![Global map of cumulative human modification of terrestrial ecosystems in 2022, Figure 10 from the published article / Глобальная карта совокупной антропогенной модификации наземных экосистем в 2022 году](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-025-04892-2/MediaObjects/41597_2025_4892_Fig10_HTML.png)
+![Global map of cumulative human modification of terrestrial ecosystems in 2022, Figure 10 from the published article / Глобальная карта совокупной антропогенной модификации наземных экосистем в 2022 году](../assets/imported/sdata-human-modification.png)
 
 *Source: Figure 10, Theobald et al. (2025), “Global extent and change in human modification of terrestrial ecosystems from 1990 to 2022”, *Scientific Data* 12, Article 606, DOI: [10.1038/s41597-025-04892-2](https://doi.org/10.1038/s41597-025-04892-2). Reproduced under CC BY 4.0; no changes made. The 0–1 index is modelled human modification, not a direct measure of ecosystem condition or biodiversity. / Источник: рисунок 10 из статьи Theobald et al. (2025), воспроизведён по лицензии CC BY 4.0 без изменений. Индекс 0–1 — модельная оценка антропогенной модификации, а не прямое измерение состояния экосистем или биоразнообразия. [Article / Статья](https://www.nature.com/articles/s41597-025-04892-2) · [Correction (Figure 2 only) / Исправление (только рисунок 2)](https://doi.org/10.1038/s41597-025-05710-5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
@@ -1011,7 +969,7 @@ Planetary boundaries are not one universal environmental-condition index. Each p
 
 **Illustration 2.14-A — Planetary Boundaries (2026 assessment).**
 
-![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](https://www.planetaryhealthcheck.org/wp-content/uploads/FIGURE_03-Planetary_Boundaries_diagram_legend.jpeg)
+![Диаграмма девяти планетарных границ и их глобального статуса в оценке 2026 года / Diagram of the nine planetary boundaries and their global status in the 2026 assessment](../assets/imported/ext-figure-03-planetary-boundaries-diagram-legend.jpg)
 
 *Источник / Source: Planetary Boundaries Science (PBScience), *Planetary Health Check 2026*, Figure 3, “The iconic Planetary Boundaries diagram”. Обязательная атрибуция / Required credit: PBScience, 2026. Лицензия / Licence: CC BY 4.0. Диаграмма отражает глобальную оценку, а не состояние отдельной страны. / The diagram represents a global assessment, not the status of an individual country. [Источник / Source](https://www.planetaryhealthcheck.org/downloads/) · [Лицензия / Licence](https://creativecommons.org/licenses/by/4.0/).
 
@@ -1077,7 +1035,7 @@ The geographic envelope is a complex natural system in which matter, energy, liv
 
 **Illustration 2.15-A — Earth as an Integrated System.**
 
-![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](https://svs.gsfc.nasa.gov/vis/a030000/a030900/a030988/earth_system_diagram_print.jpg)
+![Earth as a complex interrelated system: solar radiation, atmosphere, water and carbon cycles, ecosystems and human influences / Земля как взаимосвязанная система](../assets/imported/ext-earth-system-diagram-print.jpg)
 
 *Source: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; page updated 2024), graphic designer Kevin W. Miller. Credit NASA's Goddard Space Flight Center. NASA's media guidance permits educational/informational reuse of NASA imagery unless a third-party copyright notice is shown; do not imply NASA endorsement. This five-sphere Earth-system illustration includes cryosphere components and is used here as an integrated overview. / Источник: NASA Goddard Space Flight Center, “Earth System Diagram” (2018; страница обновлена в 2024 году), дизайнер Kevin W. Miller. Условия NASA допускают образовательное и информационное использование материалов NASA, если не указано авторское право третьей стороны; нельзя создавать впечатление одобрения со стороны NASA. Схема показывает пятисферную систему Земли, включая криосферу, и используется как итоговый обзор. [Source page / Страница источника](https://svs.gsfc.nasa.gov/30988) · [NASA media-use guidance / Правила использования материалов NASA](https://www.nasa.gov/nasa-brand-center/images-and-media/).*
 

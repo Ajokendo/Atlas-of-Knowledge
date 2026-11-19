@@ -140,7 +140,7 @@ Major issues include aridity and variable rainfall, land degradation, access to 
 
 Среди значимых вопросов — энергетическая безопасность, климатическая адаптация, управление миграцией, региональное неравенство, демографическое старение, устойчивость транспортных систем и трансграничное загрязнение. Европа также является одним из важных мировых центров науки, образования, финансов, промышленности и культурного наследия.
 
-![Физический рельеф Европы: равнины, горные системы, полуострова, побережья и моря. / Physical relief of Europe: plains, mountain systems, peninsulas, coasts and seas.](https://bluegreenatlas.com/maps/relief_map_of_europe.jpg)
+![Физический рельеф Европы: равнины, горные системы, полуострова, побережья и моря. / Physical relief of Europe: plains, mountain systems, peninsulas, coasts and seas.](../assets/imported/bga-relief-europe.jpg)
 
 *12-E. Основа рельефа: Blue Green Atlas, «Free relief map of Europe», проекция Albers Equal Area Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. Дополнено учебной двуязычной легендой; карта не задаёт единственную официальную схему макрорегионов Европы. / Relief base: Blue Green Atlas, “Free relief map of Europe”, Albers Equal Area Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0. Supplemented with a bilingual teaching key; the map does not establish a single official macroregional division of Europe.*  
 
@@ -239,7 +239,7 @@ Key issues include food and water security, air pollution, urbanisation, climate
 
 Среди вызовов — водный дефицит на западе, деградация почв, лесные пожары, ураганы, социально-территориальное неравенство, жилищная доступность и адаптация инфраструктуры к климатическим изменениям.
 
-![Физический рельеф Северной Америки и основные водосборные направления. / Physical relief of North America and major drainage directions.](https://bluegreenatlas.com/maps/relief_map_of_north_america.jpg)
+![Физический рельеф Северной Америки и основные водосборные направления. / Physical relief of North America and major drainage directions.](../assets/imported/bga-relief-north-america.jpg)
 
 *12-F. Основа рельефа: Blue Green Atlas, проекция Lambert Azimuthal Equal Area; топография — NASA SRTM3, батиметрия — GEBCO 2019, реки и озёра — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Lambert Azimuthal Equal Area projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, rivers and lakes — Natural Earth. CC BY 4.0.*
 
@@ -250,7 +250,7 @@ Key issues include food and water security, air pollution, urbanisation, climate
 
 **Дополнительная карта рельефа / Supplementary relief map**
 
-![Рельеф Северной Америки по данным SRTM: Кордильеры, Великие равнины, Великие озёра и Аппалачи / North American relief from SRTM: Cordillera, Great Plains, Great Lakes and Appalachians](https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia03/pia03377/PIA03377.jpg?crop=faces%2Cfocalpoint&fit=crop&h=1508&w=2000)
+![Рельеф Северной Америки по данным SRTM: Кордильеры, Великие равнины, Великие озёра и Аппалачи / North American relief from SRTM: Cordillera, Great Plains, Great Lakes and Appalachians](../assets/imported/ext-pia03377.jpg)
 
 *NASA/JPL, PIA03377, 6 March 2003. SRTM data acquired in February 2000; original 1 arc-second (~30 m) data reduced to 30 arcseconds and resampled to a Mercator grid of approximately 1 km pixels. North is up. NASA/JPL credit retained; image used factually without implying endorsement. This is a shaded-relief elevation image, not a named hydrography layer: river names and flow directions must be read from the chapter text or a separate verified hydrographic dataset. / NASA/JPL, PIA03377, 6 March 2003. SRTM data acquired in February 2000; original 1 arc-second (~30 m) data reduced to 30 arcseconds and resampled to a Mercator grid of approximately 1 km pixels. North is up. NASA/JPL is credited; the image is used factually without implying endorsement. This is a shaded-relief elevation image, not a named hydrography layer: river names and flow directions require the chapter text or a separate verified hydrographic dataset.*
 
@@ -292,7 +292,7 @@ Major challenges include water scarcity in the west, soil degradation, wildfires
 
 Особое значение имеют уязвимость островных и прибрежных территорий к повышению уровня моря, экстремальным штормам, эрозии побережий, дефициту пресной воды, зависимости от туризма и внешних поставок продовольствия и энергии.
 
-![Рельеф Центральной Америки и Карибского бассейна, включая Центральноамериканский перешеек и островные дуги. / Relief of Central America and the Caribbean, including the Central American isthmus and island arcs.](https://upload.wikimedia.org/wikipedia/commons/3/31/Central_America_and_the_Caribbean_Shaded_Relief_Map_No_Text_or_Borders.png)
+![Рельеф Центральной Америки и Карибского бассейна, включая Центральноамериканский перешеек и островные дуги. / Relief of Central America and the Caribbean, including the Central American isthmus and island arcs.](../assets/imported/wm-central-america-and-the-caribbean-shaded-relief-.jpg)
 
 *12-G. Основа: CIA World Factbook, 2021; затенённый рельеф без подписей и государственных границ; проекция Lambert Conformal Conic, стандартные параллели 7° и 24° с. ш. Изображение находится в общественном достоянии США. / Base: CIA World Factbook, 2021; shaded relief without labels or national borders; Lambert Conformal Conic projection, standard parallels 7° and 24° N. The image is in the US public domain.*
 
@@ -335,7 +335,7 @@ Important issues include the vulnerability of islands and coastal territories to
 
 Ключевые вопросы — вырубка лесов и деградация экосистем, изменение режима осадков, пожары, загрязнение горнодобывающими отходами, земельное неравенство, урбанизационные проблемы и защита прав местных и коренных народов. Амазония важна для региональных и глобальных климатических и биогеохимических процессов, но её нельзя рассматривать как однородную территорию без внутренних различий.
 
-![Физический рельеф Южной Америки: Анды, Амазонская низменность, Бразильское и Гвианское плоскогорья и Патагония. / Physical relief of South America: the Andes, Amazon lowlands, Brazilian and Guiana Highlands, and Patagonia.](https://bluegreenatlas.com/maps/relief_map_of_south_america.jpg)
+![Физический рельеф Южной Америки: Анды, Амазонская низменность, Бразильское и Гвианское плоскогорья и Патагония. / Physical relief of South America: the Andes, Amazon lowlands, Brazilian and Guiana Highlands, and Patagonia.](../assets/imported/bga-relief-south-america.jpg)
 
 *12-H. Основа рельефа: Blue Green Atlas, проекция Albers Equal Area Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Albers Equal Area Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0.*
 
@@ -378,7 +378,7 @@ Key issues include deforestation and ecosystem degradation, changing rainfall re
 
 Низкие острова и атоллы уязвимы к повышению уровня моря, солёной интрузии, штормовым нагонам и эрозии берегов. Для региона также важны сохранение коралловых рифов, устойчивость рыболовства, доступность пресной воды, транспортная изоляция и защита культурного наследия.
 
-![Физический рельеф Океании: Австралия, Новая Гвинея, Новая Зеландия и островные группы Тихого океана. / Physical relief of Oceania: Australia, New Guinea, New Zealand and Pacific island groups.](https://bluegreenatlas.com/maps/relief_map_of_oceania.jpg)
+![Физический рельеф Океании: Австралия, Новая Гвинея, Новая Зеландия и островные группы Тихого океана. / Physical relief of Oceania: Australia, New Guinea, New Zealand and Pacific island groups.](../assets/imported/bga-relief-oceania.jpg)
 
 *12-I. Основа рельефа: Blue Green Atlas, проекция Lambert Conformal Conic; топография — NASA SRTM3, батиметрия — GEBCO 2019, озёра и реки — Natural Earth. Лицензия CC BY 4.0. / Relief base: Blue Green Atlas, Lambert Conformal Conic projection; topography — NASA SRTM3, bathymetry — GEBCO 2019, lakes and rivers — Natural Earth. CC BY 4.0.*
 

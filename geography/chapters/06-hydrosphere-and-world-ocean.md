@@ -13,7 +13,7 @@
 
 ## 6.1. Вода на Земле: распределение и свойства / Water on Earth: Distribution and Properties
 
-![Распределение воды на Земле: доля океанской, другой солёной и пресной воды; распределение пресной воды и поверхностных/прочих пресных вод. Значения округлены.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+![Распределение воды на Земле: доля океанской, другой солёной и пресной воды; распределение пресной воды и поверхностных/прочих пресных вод. Значения округлены.](../assets/imported/ext-earthswater-barchart.png)
 
 *Источник изображения: U.S. Geological Survey (USGS), Water Science School, «The distribution of water on, in, and above the Earth» (2019). Данные: оценка Игоря Шикломанова, опубликованная в 1993 году; проценты округлены. Изображение используется без изменений; источник и автор данных указаны по подписи USGS. Это оценка, основанная на историческом наборе данных, а не современное измерение.*
 
@@ -40,7 +40,7 @@
 
 ## 6.2. Круговорот воды в природе / The Hydrological Cycle
 
-![Глобальный круговорот воды: резервуары и потоки между океаном, атмосферой, сушей, криосферой и подземными водами; показано также влияние водопользования человека. Схема USGS, не в масштабе.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/WCD%201.png)
+![Глобальный круговорот воды: резервуары и потоки между океаном, атмосферой, сушей, криосферой и подземными водами; показано также влияние водопользования человека. Схема USGS, не в масштабе.](../assets/imported/ext-wcd-201.jpg)
 
 *Источник: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; изображение WCD 1, опубликовано в 2023 году). Создано USGS VizLab совместно с Water Resources Mission Area Web Communications Branch. Public Domain; изображение используется без изменений. Стрелки показывают направления движения воды качественно, а не измеренные годовые объёмы или скорости потоков.*
 
@@ -80,7 +80,7 @@
 
 ## 6.3. Мировой океан: единая система / The World Ocean as an Integrated System
 
-![Карта океанов: Pinpin (2007), улучшения Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Подписи на карте даны по-английски и переведены в тексте; границы условны и не являются универсально согласованной делимитацией. / Ocean map by Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Map labels are in English and translated in the text; boundaries are conventional and not universally agreed.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/World_map_ocean_locator-en.svg/960px-World_map_ocean_locator-en.svg.png)
+![Карта океанов: Pinpin (2007), улучшения Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Подписи на карте даны по-английски и переведены в тексте; границы условны и не являются универсально согласованной делимитацией. / Ocean map by Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, CC BY-SA 3.0. Map labels are in English and translated in the text; boundaries are conventional and not universally agreed.](../assets/imported/wm-world-map-ocean-locator-en.svg)
 
 *Источник: Pinpin (2007), последующие улучшения Wikigraphists; Wikimedia Commons, лицензия [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Изображение используется без изменений. Подписи на карте даны по-английски: Arctic Ocean — Северный Ледовитый океан; Atlantic Ocean — Атлантический океан; Indian Ocean — Индийский океан; Pacific Ocean — Тихий океан; Southern Ocean — Южный океан. Границы условны и не являются универсально согласованной гидрографической делимитацией. / Source: Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The image is reused unchanged. Ocean boundaries are conventional and are not a universally agreed hydrographic delimitation.*
 
@@ -187,7 +187,7 @@
 
 ## 6.7. Глобальная океаническая циркуляция / Global Ocean Circulation
 
-![Карта основных поверхностных океанических течений с направлениями движения; карта NOAA/AOML, автор данных и карты Rick Lumpkin. Это обобщённая учебная карта, а не карта течений в реальном времени.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Ocean_surface_currents.jpg)
+![Карта основных поверхностных океанических течений с направлениями движения; карта NOAA/AOML, автор данных и карты Rick Lumpkin. Это обобщённая учебная карта, а не карта течений в реальном времени.](../assets/imported/wm-ocean-surface-currents.jpg)
 
 *Источник карты: Rick Lumpkin, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML), 2008; Public Domain (работа NOAA). Карта показывает основные направления поверхностных течений и их названия, но не текущие скорости или состояние океана.*
 
@@ -541,7 +541,7 @@ The world ocean is an interconnected system of ocean basins covering about 71% o
 
 ### 6.1. Water on Earth: Distribution and Properties
 
-![Distribution of Earth's water: ocean, other saline water and freshwater; breakdowns of freshwater and surface/other freshwater. Values are rounded.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/EarthsWater-BarChart.png)
+![Distribution of Earth's water: ocean, other saline water and freshwater; breakdowns of freshwater and surface/other freshwater. Values are rounded.](../assets/imported/ext-earthswater-barchart.png)
 
 *Image source: U.S. Geological Survey (USGS), Water Science School, “The distribution of water on, in, and above the Earth” (2019). Data source: Igor Shiklomanov's estimate published in 1993; percentages are rounded. The image is reused unchanged, with the USGS source and data author credited. This is a historical estimate, not a current measurement.*
 
@@ -566,7 +566,7 @@ Important properties of water include:
 
 ### 6.2. The Hydrological Cycle
 
-![Global water cycle: pools and fluxes among the ocean, atmosphere, land, cryosphere and groundwater, including human water use. USGS schematic, not to scale.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/WCD%201.png)
+![Global water cycle: pools and fluxes among the ocean, atmosphere, land, cryosphere and groundwater, including human water use. USGS schematic, not to scale.](../assets/imported/ext-wcd-201.jpg)
 
 *Source: U.S. Geological Survey (USGS), Water Cycle Diagram (2022; image WCD 1, published in 2023). Created by USGS VizLab with the Water Resources Mission Area Web Communications Branch. Public Domain; reused unchanged. Arrows show qualitative directions of water movement, not measured annual volumes or flow rates.*
 
@@ -594,7 +594,7 @@ The cycle operates at different scales:
 
 ### 6.3. The World Ocean as an Integrated System
 
-![Five-ocean world map showing the Pacific, Atlantic, Indian, Arctic and Southern Oceans and conventional ocean boundaries. Boundaries are not universally agreed.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/World_map_ocean_locator-en.svg/960px-World_map_ocean_locator-en.svg.png)
+![Five-ocean world map showing the Pacific, Atlantic, Indian, Arctic and Southern Oceans and conventional ocean boundaries. Boundaries are not universally agreed.](../assets/imported/wm-world-map-ocean-locator-en.svg)
 
 *Source: Pinpin (2007), later improvements by Wikigraphists; Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Reused unchanged. The boundaries shown are conventional and are not a universally agreed hydrographic delimitation.*
 
@@ -670,7 +670,7 @@ Ocean currents are persistent or recurring directed movements of seawater. They 
 
 ### 6.7. Global Ocean Circulation
 
-![Map of major surface ocean currents and their directions; NOAA/AOML map by Rick Lumpkin. This is a generalized teaching map, not a real-time current map.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Ocean_surface_currents.jpg)
+![Map of major surface ocean currents and their directions; NOAA/AOML map by Rick Lumpkin. This is a generalized teaching map, not a real-time current map.](../assets/imported/wm-ocean-surface-currents.jpg)
 
 *Map source: Rick Lumpkin, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML), 2008; Public Domain (NOAA work). It shows major surface-current directions and names, not current speeds or real-time ocean conditions.*
 

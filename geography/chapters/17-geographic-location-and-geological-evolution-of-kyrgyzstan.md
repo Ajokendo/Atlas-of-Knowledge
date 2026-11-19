@@ -36,9 +36,9 @@ The territory is the outcome of a long geological history. Ancient continental b
 
 *Кыргызстан среди соседей: Казахстан, Китай, Таджикистан, Узбекистан. Политическая карта. / Kyrgyzstan among its neighbours: Kazakhstan, China, Tajikistan, Uzbekistan. A political map.*
 
-![Кыргызстан и соседние государства в топографическом контексте Центральной Азии. / Kyrgyzstan and neighbouring states in the topographic context of Central Asia.](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+![Кыргызстан и соседние государства в топографическом контексте Центральной Азии. / Kyrgyzstan and neighbouring states in the topographic context of Central Asia.](../assets/imported/bga-relief-kyrgyzstan.jpg)
 
-![Административный контур Кыргызстана с областными границами; соседние территории показаны как контекст. / Administrative outline of Kyrgyzstan with oblast boundaries; neighbouring territory shown for context.](https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-borders.svg)
+![Административный контур Кыргызстана с областными границами; соседние территории показаны как контекст. / Administrative outline of Kyrgyzstan with oblast boundaries; neighbouring territory shown for context.](../assets/imported/ocha-kyrgyzstan-borders.svg)
 
 *17-A. Две карты выполняют разные задачи. Верхняя — топографический обзор Blue Green Atlas (Mercator; SRTM3, GEBCO 2019, HydroLAKES, HydroATLAS и VMap0); она показывает соседние страны и крупные ориентиры, но её государственная линия не считается юридически проверенной. Нижняя — административный контур с границами областей по OCHA COD-AB / Министерству чрезвычайных ситуаций Кыргызской Республики; соседние страны и береговые линии — Natural Earth; проекция Lambert azimuthal equal-area. Источник карты указывает CC BY-IGO для OCHA-границ, однако не раскрывает дату/версию набора. Доступ к страницам источников проверен 5 ноября 2026 года. / The two maps serve different purposes. Upper: Blue Green Atlas topographic overview (Mercator; SRTM3, GEBCO 2019, HydroLAKES, HydroATLAS and VMap0); it shows neighbouring countries and major landmarks, but its national-border line is not treated as legally verified. Lower: administrative outline with oblast boundaries from OCHA COD-AB / the Ministry of Emergency Situations of the Kyrgyz Republic; neighbouring countries and coastlines from Natural Earth; Lambert azimuthal equal-area projection. The map page states CC BY-IGO for OCHA boundaries but does not expose the dataset version/date. Source pages checked 5 November 2026.*
 
@@ -123,7 +123,7 @@ Mountain relief creates a wide range of local climatic conditions. Two valleys a
 *Рис. 17-C. Сопоставление двух подходов к районированию; названия и границы зависят от конкретной научной схемы.*
 
 
-![Гипсометрическая карта Кыргызстана: цветовая шкала высот, горный рельеф и основные межгорные понижения. / Hypsometric map of Kyrgyzstan: elevation colour scale, mountain relief and major intermontane depressions.](https://upload.wikimedia.org/wikipedia/commons/3/37/Kyrgyzstan_Topography.png)
+![Гипсометрическая карта Кыргызстана: цветовая шкала высот, горный рельеф и основные межгорные понижения. / Hypsometric map of Kyrgyzstan: elevation colour scale, mountain relief and major intermontane depressions.](../assets/imported/wm-kyrgyzstan-topography.jpg)
 
 *17-B. Топографическая карта из SRTM-данных; авторская сборка GMT, файл Wikimedia Commons, опубликован в 2007 году; точная дата исходного растра не указана. Шкала высот в исходнике: 0–4000 м и выше. Изображение находится в общественном достоянии. / SRTM-based topographic map; GMT compilation, Wikimedia Commons file uploaded in 2007; exact source-raster date is not stated. Original elevation scale: 0–4,000 m and above. Public domain.*
 
@@ -181,7 +181,7 @@ The terms Northern, Central and Southern Tien Shan are used in physical geograph
 
 ## 17.5. Межгорные впадины, долины и плато / Intermontane Basins, Valleys and Plateaus
 
-![Топографический контекст межгорных долин Кыргызстана; названия долин и опорные населённые пункты приведены в двуязычной легенде. / Topographic context of Kyrgyzstan's intermontane valleys; valley names and reference settlements are listed in the bilingual key.](https://bluegreenatlas.com/maps/relief_map_of_kyrgyzstan.jpg)
+![Топографический контекст межгорных долин Кыргызстана; названия долин и опорные населённые пункты приведены в двуязычной легенде. / Topographic context of Kyrgyzstan's intermontane valleys; valley names and reference settlements are listed in the bilingual key.](../assets/imported/bga-relief-kyrgyzstan.jpg)
 
 ![Условный поперечный профиль межгорной долины: склоны, боковая долина, конус выноса, террасы, пойма и русло. / Schematic transverse profile of an intermontane valley: slopes, tributary valley, alluvial fan, terraces, floodplain and channel.](../assets/diagrams/17-D-intermontane-valleys-profile-bilingual.svg)
 
@@ -344,9 +344,9 @@ Tectonic maps must distinguish geological boundaries, faults, currently active s
 
 ## 17.8. Современная тектоника и сейсмичность / Active Tectonics and Seismicity
 
-![Распределение эпицентров землетрясений в Центральной Азии по основным каталогам-источникам, включая Кыргызстан. / Distribution of Central Asian earthquake epicentres in the main source catalogues, including Kyrgyzstan.](https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f01-web.png)
+![Распределение эпицентров землетрясений в Центральной Азии по основным каталогам-источникам, включая Кыргызстан. / Distribution of Central Asian earthquake epicentres in the main source catalogues, including Kyrgyzstan.](../assets/imported/ext-nhess-24-2597-2024-f01-web.png)
 
-![Выборка активных разломов Центральной Азии, включая территорию Кыргызстана; цветом показаны классы A–D. / Selected active faults in Central Asia, including Kyrgyzstan; colours indicate classes A–D.](https://nhess.copernicus.org/articles/24/2597/2024/nhess-24-2597-2024-f10-web.png)
+![Выборка активных разломов Центральной Азии, включая территорию Кыргызстана; цветом показаны классы A–D. / Selected active faults in Central Asia, including Kyrgyzstan; colours indicate classes A–D.](../assets/imported/ext-nhess-24-2597-2024-f10-web.png)
 
 *17-F. Две карты из Poggi et al. (2024), NHESS 24, 2597–2613, CC BY 4.0. Верхняя карта показывает распределение эпицентров из нескольких каталогов, использованных при гармонизации; выборка для каталога исключала события ниже M 2 и включала буфер около 300 км вокруг пяти стран Центральной Азии. Каталог объединяет исторические и инструментальные записи вплоть до 2020 года; источники и полнота различаются по эпохам. Нижняя карта показывает отобранные активные разломы из региональной базы AFEAD/GEM (выгрузка World Bank обновлена 21.02.2023), классы A–D. Это региональная научная выборка, а не исчерпывающий кадастр всех разломов Кыргызстана и не оперативная карта текущей сейсмичности. / Two maps from Poggi et al. (2024), NHESS 24, 2597–2613, CC BY 4.0. The upper map shows epicentres from multiple catalogues used in harmonisation; the catalogue selection excluded events below M 2 and included an approximately 300 km buffer around the five Central Asian countries. The catalogue combines historical and instrumental records through 2020; source coverage and completeness vary by period. The lower map shows selected active faults from the regional AFEAD/GEM database (World Bank download updated 21 Feb 2023), classes A–D. This is a regional scientific selection, not an exhaustive inventory of all Kyrgyz faults or a live earthquake map.*
 
@@ -554,7 +554,7 @@ The country's geographic position encouraged cultural exchange, trade, migration
 
 ## 17.12. Административно-территориальное устройство / Administrative and Territorial Organisation
 
-![Административно-территориальное устройство Кыргызстана: семь областей и два города республиканского значения — Бишкек и Ош. / Administrative organisation of Kyrgyzstan: seven regions and two cities of republican significance — Bishkek and Osh.](https://blankmapof.com/maps/svg/blank-map-of-kyrgyzstan-labels.svg)
+![Административно-территориальное устройство Кыргызстана: семь областей и два города республиканского значения — Бишкек и Ош. / Administrative organisation of Kyrgyzstan: seven regions and two cities of republican significance — Bishkek and Osh.](../assets/imported/ocha-kyrgyzstan-labels.svg)
 
 *17-I. Векторная карта на основе административных границ OCHA / Министерства чрезвычайных ситуаций Кыргызской Республики; проекция Lambert azimuthal equal-area. Источник указывает семь областей и два города. Дата версии исходного набора OCHA на странице не раскрыта; карта и источник проверены 5 ноября 2026 года. / Vector map based on OCHA / Ministry of Emergency Situations of the Kyrgyz Republic administrative boundaries; Lambert azimuthal equal-area projection. The source identifies seven regions and two cities. The source page does not expose the underlying OCHA release date; map and source page checked 5 November 2026. The source graphic does not separately label Manas city (formerly Jalal-Abad city), so its toponymic update remains pending.*
 

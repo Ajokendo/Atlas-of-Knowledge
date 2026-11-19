@@ -108,7 +108,7 @@
 
 **Иллюстрация 3.2-A — Образцы минералов / Mineral Identification Board.**
 
-![Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита, кварцевого песка и других минералов. / Specimens of chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite, quartz sand and other minerals.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+![Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита, кварцевого песка и других минералов. / Specimens of chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite, quartz sand and other minerals.](../assets/imported/ext-oresampleimages.jpg)
 
 *Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость минералов приведены в таблице главы; фото служат для визуального распознавания, а не определения по одному цвету. / Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Mineral formulae and hardness are provided in the chapter table; photographs support visual recognition, not identification by colour alone.*
 
@@ -229,7 +229,7 @@
 
 **Иллюстрация 3.5-A — Карта тектонических плит мира / Global Plate Tectonic Map.**
 
-![Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006). / World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+![Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006). / World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006).](../assets/imported/ext-dynamicplanet.jpg)
 
 *Источник: USGS, Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Карта — научно-учебный обзор 2006 года, а не актуальная карта современной сейсмичности; она подходит для изучения общей конфигурации плит и границ. / Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map; it is suitable for studying the general plate and boundary configuration.*
 
@@ -428,7 +428,7 @@ A seismogram shows ground motion over time as recorded by a particular instrumen
 
 **Иллюстрация 3.9-A — Международная хроностратиграфическая шкала / International Chronostratigraphic Chart.**
 
-![Официальная международная хроностратиграфическая шкала ICS, версия 2026/06. / Official International Chronostratigraphic Chart, ICS version 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+![Официальная международная хроностратиграфическая шкала ICS, версия 2026/06. / Official International Chronostratigraphic Chart, ICS version 2026/06.](../assets/imported/ext-chronostratchart2026-06.jpg)
 
 *Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб. / Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale.*
 
@@ -1034,7 +1034,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.2-A — Mineral Identification Board.**
 
-![Mineral specimens including chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite and quartz sand. / Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита и кварцевого песка.](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/OreSampleImages.png)
+![Mineral specimens including chalcopyrite, graphite, talc, gold, fluorite, bastnäsite, gypsum, halite, calcite, sphalerite, feldspar, garnet, barite, muscovite and quartz sand. / Образцы халькопирита, графита, талька, золота, флюорита, бастнезита, гипса, галита, кальцита, сфалерита, полевого шпата, граната, барита, мусковита и кварцевого песка.](../assets/imported/ext-oresampleimages.jpg)
 
 *Source: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); the source page states Public Domain. Formulae and Mohs hardness values are in the chapter table; photographs support visual recognition, not identification by colour alone. / Источник: USGS, Minerals and Uses Activity Ore/Mineral Sample Images (2026); страница указывает Public Domain. Формулы и твёрдость приведены в таблице главы; фотографии служат для распознавания, а не определения по одному цвету.*
 
@@ -1051,7 +1051,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.5-A — Global Plate Tectonic Map.**
 
-![World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006). / Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006).](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/DynamicPlanet.JPG)
+![World map showing major tectonic plates, plate boundaries, land and seafloor relief; published by USGS and Smithsonian as This Dynamic Planet (2006). / Карта мира с основными тектоническими плитами, границами плит, рельефом суши и океанского дна; опубликована USGS и Smithsonian в рамках This Dynamic Planet (2006).](../assets/imported/ext-dynamicplanet.jpg)
 
 *Source: USGS Map I-2800, in cooperation with the Smithsonian Institution and U.S. Naval Research Laboratory; Public Domain. This is a 2006 scientific teaching overview, not a current seismicity map. / Источник: USGS Map I-2800, совместно со Smithsonian Institution и U.S. Naval Research Laboratory; Public Domain. Это научно-учебный обзор 2006 года, а не актуальная карта сейсмичности.*
 
@@ -1079,7 +1079,7 @@ On a schematic geological cross-section, identify:
 
 **Illustration 3.9-A — International Chronostratigraphic Chart.**
 
-![Official International Chronostratigraphic Chart, ICS version 2026/06. / Официальная международная хроностратиграфическая шкала ICS, версия 2026/06.](https://stratigraphy.org/ICSchart/ChronostratChart2026-06.jpg)
+![Official International Chronostratigraphic Chart, ICS version 2026/06. / Официальная международная хроностратиграфическая шкала ICS, версия 2026/06.](../assets/imported/ext-chronostratchart2026-06.jpg)
 
 *Source: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Numerical ages and boundaries may be revised; the chart uses a non-linear scale. / Источник: International Commission on Stratigraphy (ICS), v2026/06, CC BY 4.0. Численные возраста и границы могут уточняться; диаграмма использует неравномерный масштаб.*
 
